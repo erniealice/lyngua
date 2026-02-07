@@ -1,6 +1,7 @@
 package v1
 
 import (
+	"os"
 	"path/filepath"
 	"runtime"
 )
@@ -19,4 +20,28 @@ func NewDefaultTranslationProvider() *TranslationProvider {
 	translationsPath := filepath.Join(lynguaDir, "translations")
 
 	return NewTranslationProvider(translationsPath)
+}
+
+// NewDefaultTranslationProviderWithWorkspace creates a TranslationProvider that resolves
+// the translations path from the go.work root. This is useful when lyngua is consumed
+// as a workspace module (via go.work replace directives) rather than as a published package.
+func NewDefaultTranslationProviderWithWorkspace() *TranslationProvider {
+	dir, err := os.Getwd()
+	if err != nil {
+		return NewDefaultTranslationProvider()
+	}
+
+	// Walk up to find go.work root
+	for {
+		if _, err := os.Stat(filepath.Join(dir, "go.work")); err == nil {
+			translationsPath := filepath.Join(dir, "packages", "lyngua-ryta", "translations")
+			return NewTranslationProvider(translationsPath)
+		}
+		parent := filepath.Dir(dir)
+		if parent == dir {
+			// No go.work found, fall back to runtime.Caller resolution
+			return NewDefaultTranslationProvider()
+		}
+		dir = parent
+	}
 }

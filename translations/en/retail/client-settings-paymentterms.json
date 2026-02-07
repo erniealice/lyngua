@@ -1,0 +1,74 @@
+{
+  "page": {
+    "title": "Payment Terms",
+    "heading": "Payment Terms",
+    "subtitle": "Manage payment terms for client invoicing"
+  },
+  "form": {
+    "paymentTerms": "Payment Terms",
+    "description": "Description",
+    "userDivisionId": "User Division",
+    "status": "Active",
+    "required": "*",
+    "cancel": "Cancel",
+    "save": "Save",
+    "placeholder": "Enter payment terms...",
+    "hint": "Enter the standard payment terms to be included on invoices for this division.",
+    "selectDivision": "Select division",
+    "searchDivisions": "Search divisions...",
+    "noDivisionsFound": "No divisions found",
+    "moreSelected": "+{count} more"
+  },
+  "table": {
+    "searchPlaceholder": "Search payment terms...",
+    "filters": "Filters",
+    "sort": "Sort",
+    "columns": "Columns",
+    "export": "Export",
+    "filterConditions": "Filter Conditions",
+    "clearAll": "Clear All",
+    "addCondition": "Add Condition",
+    "clear": "Clear",
+    "applyFilters": "Apply Filters",
+    "show": "Show",
+    "entries": "entries",
+    "showing": "Showing",
+    "to": "to",
+    "of": "of",
+    "entriesLabel": "entries",
+    "prev": "Prev",
+    "next": "Next"
+  },
+  "columns": {
+    "paymentTerms": "Payment Terms",
+    "description": "Description",
+    "userDivisionId": "User Division",
+    "status": "Status"
+  },
+  "empty": {
+    "title": "No Payment Terms Found",
+    "message": "Add your first payment term to get started."
+  },
+  "buttons": {
+    "addPaymentTerm": "Add Payment Term"
+  },
+  "actions": {
+    "edit": "Edit",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "delete": "Delete",
+    "deleteDisabled": "Cannot delete: payment term is in use"
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "bulk": {
+    "selectAll": "Select All",
+    "selected": "selected",
+    "clearSelection": "Clear Selection",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "delete": "Delete"
+  }
+}

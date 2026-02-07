@@ -7,24 +7,58 @@ import (
 	"path/filepath"
 )
 
-// LoadFile reads a JSON file from the translations directory and unmarshals it
+// LoadFile loads a JSON translation file with business-type cascade and unmarshals
 // into the provided target struct. Unlike LoadMessages (which flattens to dot-notation),
 // this preserves the nested JSON structure for direct struct mapping.
 //
-// The filePath is relative to translations/{locale}/, e.g.:
+// Loading priority (highest wins): businessType -> general -> common.
+// Only files that exist are loaded; missing tiers are silently skipped.
 //
-//	provider.LoadFile("en", "common/common.json", &labels)
-//	provider.LoadFile("en", "retail/client.json", &clientLabels)
-func (p *TranslationProvider) LoadFile(locale, filePath string, target any) error {
-	absPath := filepath.Join(p.translationsPath, locale, filePath)
+// Example:
+//
+//	provider.LoadFile("en", "retail", "common.json", &labels)   // common -> general -> retail
+//	provider.LoadFile("en", "retail", "client.json", &labels)   // common -> general -> retail
+func (p *TranslationProvider) LoadFile(locale, businessType, fileName string, target any) error {
+	merged := make(map[string]any)
 
-	data, err := os.ReadFile(absPath)
-	if err != nil {
-		return fmt.Errorf("failed to read translation file %s: %w", absPath, err)
+	// Build cascade: common -> general -> businessType
+	tiers := []string{"common"}
+	if businessType != "general" && businessType != "common" {
+		tiers = append(tiers, "general")
+	}
+	if businessType != "common" {
+		tiers = append(tiers, businessType)
 	}
 
-	if err := json.Unmarshal(data, target); err != nil {
-		return fmt.Errorf("failed to unmarshal translation file %s: %w", absPath, err)
+	loaded := false
+	for _, tier := range tiers {
+		absPath := filepath.Join(p.translationsPath, locale, tier, fileName)
+
+		data, err := os.ReadFile(absPath)
+		if err != nil {
+			continue // tier doesn't have this file, skip
+		}
+
+		var content map[string]any
+		if err := json.Unmarshal(data, &content); err != nil {
+			return fmt.Errorf("failed to unmarshal translation file %s: %w", absPath, err)
+		}
+
+		mergeMap(merged, content)
+		loaded = true
+	}
+
+	if !loaded {
+		return fmt.Errorf("translation file %s not found in any tier for %s/%s", fileName, locale, businessType)
+	}
+
+	jsonBytes, err := json.Marshal(merged)
+	if err != nil {
+		return fmt.Errorf("failed to marshal merged translations: %w", err)
+	}
+
+	if err := json.Unmarshal(jsonBytes, target); err != nil {
+		return fmt.Errorf("failed to unmarshal merged translations into target: %w", err)
 	}
 
 	return nil

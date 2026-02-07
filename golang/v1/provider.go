@@ -29,7 +29,7 @@ func (p *TranslationProvider) TranslationsPath() string {
 }
 
 // LoadMessages loads and merges translation messages for a given locale and business type.
-// It first loads general messages, then overlays business-specific messages.
+// Loading priority (highest wins): businessType -> general -> common.
 // Returns a flat map with dot-notation keys (e.g., "client.errors.not_found").
 func (p *TranslationProvider) LoadMessages(locale, businessType string) (map[string]string, error) {
 	cacheKey := fmt.Sprintf("%s_%s", locale, businessType)
@@ -51,18 +51,24 @@ func (p *TranslationProvider) LoadMessages(locale, businessType string) (map[str
 
 	mergedMessages := make(map[string]string)
 
-	// 1. Load general translations
-	generalPath := filepath.Join(p.translationsPath, locale, "general")
-	if err := p.loadDirectory(generalPath, mergedMessages); err != nil {
-		return nil, fmt.Errorf("failed to load general translations for %s: %w", locale, err)
+	// 1. Load common translations (base layer)
+	commonPath := filepath.Join(p.translationsPath, locale, "common")
+	if err := p.loadDirectory(commonPath, mergedMessages); err != nil {
+		fmt.Printf("Warning: failed to load common translations for %s: %v\n", locale, err)
 	}
 
-	// 2. Load business-specific translations if not "general"
+	// 2. Load general translations (middle layer)
 	if businessType != "general" {
-		businessPath := filepath.Join(p.translationsPath, locale, businessType)
-		if err := p.loadDirectory(businessPath, mergedMessages); err != nil {
-			fmt.Printf("Warning: failed to load business-specific translations for %s/%s: %v\n", locale, businessType, err)
+		generalPath := filepath.Join(p.translationsPath, locale, "general")
+		if err := p.loadDirectory(generalPath, mergedMessages); err != nil {
+			fmt.Printf("Warning: failed to load general translations for %s: %v\n", locale, err)
 		}
+	}
+
+	// 3. Load business-specific translations (top layer, highest priority)
+	businessPath := filepath.Join(p.translationsPath, locale, businessType)
+	if err := p.loadDirectory(businessPath, mergedMessages); err != nil {
+		return nil, fmt.Errorf("failed to load %s translations for %s: %w", businessType, locale, err)
 	}
 
 	p.cache[cacheKey] = mergedMessages
