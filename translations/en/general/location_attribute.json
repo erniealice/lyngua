@@ -1,0 +1,20 @@
+{
+  "location_attribute": {
+    "validation": {
+      "data_required": "Location attribute data is required",
+      "location_id_required": "Location ID is required",
+      "name_required": "Location attribute name is required",
+      "value_required": "Location attribute value is required",
+      "id_required": "Location attribute ID is required",
+      "request_required": "Request is required for location attributes"
+    },
+    "errors": {
+      "not_found": "Location attribute with ID \"{locationAttributeId}\" not found",
+      "creation_failed": "Location attribute creation failed",
+      "update_failed": "Location attribute update failed",
+      "deletion_failed": "Location attribute deletion failed",
+      "list_failed": "Failed to retrieve location attributes",
+      "authorization_failed": "Authorization failed for location attributes"
+    }
+  }
+}

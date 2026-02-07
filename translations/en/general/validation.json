@@ -1,0 +1,9 @@
+{
+  "required": {
+    "request": "Request is required",
+    "field": "Field '{field}' is required"
+  },
+  "length": {
+    "max_length": "Field '{field}' cannot exceed {max} characters"
+  }
+}

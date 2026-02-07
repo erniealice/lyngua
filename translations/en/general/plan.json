@@ -1,0 +1,20 @@
+{
+  "plan": {
+    "validation": {
+      "data_required": "Service plan data is required",
+      "name_required": "Service plan name is required",
+      "email_required": "Service plan email is required",
+      "email_invalid": "Service plan email format is invalid",
+      "id_required": "Service plan ID is required",
+      "request_required": "Request is required for service plans"
+    },
+    "errors": {
+      "not_found": "Service plan with ID \"{entityId}\" not found",
+      "creation_failed": "Service plan creation failed",
+      "update_failed": "Service plan update failed",
+      "deletion_failed": "Service plan deletion failed",
+      "list_failed": "Failed to retrieve service plans",
+      "authorization_failed": "Authorization failed for service plans"
+    }
+  }
+}

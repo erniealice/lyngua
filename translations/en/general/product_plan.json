@@ -1,0 +1,20 @@
+{
+  "product_plan": {
+    "validation": {
+      "data_required": "Product plan data is required",
+      "name_required": "Product plan name is required",
+      "email_required": "Product plan email is required",
+      "email_invalid": "Product plan email format is invalid",
+      "id_required": "Product plan ID is required",
+      "request_required": "Request is required for product plans"
+    },
+    "errors": {
+      "not_found": "Product plan with ID \"{entityId}\" not found",
+      "creation_failed": "Product plan creation failed",
+      "update_failed": "Product plan update failed",
+      "deletion_failed": "Product plan deletion failed",
+      "list_failed": "Failed to retrieve product plans",
+      "authorization_failed": "Authorization failed for product plans"
+    }
+  }
+}

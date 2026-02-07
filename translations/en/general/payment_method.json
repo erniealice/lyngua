@@ -1,0 +1,18 @@
+{
+  "payment_method": {
+    "validation": {
+      "data_required": "Payment method data is required",
+      "name_required": "Payment method name is required",
+      "id_required": "Payment method ID is required",
+      "request_required": "Request is required for payment methods"
+    },
+    "errors": {
+      "not_found": "Payment method with ID \"{paymentMethodId}\" not found",
+      "creation_failed": "Payment method creation failed",
+      "update_failed": "Payment method update failed",
+      "deletion_failed": "Payment method deletion failed",
+      "list_failed": "Failed to retrieve payment methods",
+      "authorization_failed": "Authorization failed for payment methods"
+    }
+  }
+}

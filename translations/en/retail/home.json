@@ -1,0 +1,63 @@
+{
+  "page": {
+    "title": "RatesCalc - Dashboard",
+    "heading": "Dashboard",
+    "subtitle": "Welcome back"
+  },
+  "stats": {
+    "totalClients": "Total Clients",
+    "pipelineValue": "Pipeline Value",
+    "openQuotes": "Open Quotes",
+    "winRate": "Win Rate"
+  },
+  "revenue": {
+    "title": "Revenue Overview",
+    "week": "Week",
+    "month": "Month",
+    "year": "Year",
+    "jan": "Jan",
+    "mar": "Mar",
+    "may": "May",
+    "jul": "Jul",
+    "sep": "Sep",
+    "nov": "Nov"
+  },
+  "activity": {
+    "title": "Recent Activity",
+    "viewAll": "View All",
+    "newClientAdded": "New client added",
+    "acmeCorporationJoined": "Acme Corporation joined",
+    "agoMinutes": "m ago",
+    "quoteAccepted": "Quote accepted",
+    "projectAlpha": "Project Alpha - $24,500",
+    "agoHours": "h ago",
+    "awardEarned": "Award earned",
+    "topPerformerQ4": "Top Performer Q4",
+    "integrationSynced": "Integration synced",
+    "salesforceDataUpdated": "Salesforce data updated"
+  },
+  "tasks": {
+    "title": "Today's Tasks",
+    "addTask": "+ Add Task",
+    "reviewAcmeProposal": "Review Acme proposal",
+    "dueTodayAt2PM": "Due today at 2:00 PM",
+    "sendFollowUpToTechCorp": "Send follow-up to TechCorp",
+    "dueTodayAt4PM": "Due today at 4:00 PM",
+    "updateClientDatabase": "Update client database",
+    "completedAt930AM": "Completed at 9:30 AM",
+    "prepareQ1Report": "Prepare Q1 report",
+    "dueTomorrow": "Due tomorrow"
+  },
+  "topClients": {
+    "title": "Top Clients",
+    "seeAll": "See All",
+    "acmeCorporation": "Acme Corporation",
+    "projects12": "12 projects",
+    "techCorpInc": "TechCorp Inc",
+    "projects8": "8 projects",
+    "globalSolutions": "Global Solutions",
+    "projects6": "6 projects",
+    "startupXYZ": "StartupXYZ",
+    "projects4": "4 projects"
+  }
+}

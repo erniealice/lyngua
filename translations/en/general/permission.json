@@ -1,0 +1,29 @@
+{
+  "permission": {
+    "validation": {
+      "data_required": "Permission data is required",
+      "name_required": "Permission name is required",
+      "id_required": "Permission ID is required",
+      "request_required": "Request is required for permissions",
+      "workspace_id_required": "Workspace ID is required",
+      "user_id_required": "User ID is required",
+      "granted_by_user_id_required": "Granted by user ID is required",
+      "permission_code_required": "Permission code is required",
+      "permission_code_too_short": "Permission code must be at least 3 characters long",
+      "permission_code_too_long": "Permission code cannot exceed 50 characters",
+      "permission_type_unspecified": "Permission type must be specified",
+      "self_grant_not_allowed": "Users cannot grant permissions to themselves"
+    },
+    "errors": {
+      "not_found": "Permission with ID \"{permissionId}\" not found",
+      "creation_failed": "Permission creation failed",
+      "update_failed": "Permission update failed",
+      "deletion_failed": "Permission deletion failed",
+      "list_failed": "Failed to retrieve permissions",
+      "authorization_failed": "Authorization failed for permissions",
+      "input_validation_failed": "Input validation failed",
+      "enrichment_failed": "Business logic enrichment failed",
+      "business_rule_validation_failed": "Business rule validation failed"
+    }
+  }
+}

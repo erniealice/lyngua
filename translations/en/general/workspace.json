@@ -1,0 +1,19 @@
+{
+  "workspace": {
+    "validation": {
+      "data_required": "Workspace data is required",
+      "name_required": "Workspace name is required",
+      "name_max_length": "Workspace name must be less than 100 characters",
+      "id_required": "Workspace ID is required",
+      "request_required": "Request is required for workspaces"
+    },
+    "errors": {
+      "not_found": "Workspace with ID \"{workspaceId}\" not found",
+      "creation_failed": "Workspace creation failed",
+      "update_failed": "Workspace update failed",
+      "deletion_failed": "Workspace deletion failed",
+      "list_failed": "Failed to retrieve workspaces",
+      "authorization_failed": "Authorization failed for workspaces"
+    }
+  }
+}

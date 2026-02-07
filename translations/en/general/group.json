@@ -1,0 +1,25 @@
+{
+  "group": {
+    "validation": {
+      "data_required": "Group data is required",
+      "name_required": "Group name is required",
+      "name_too_short": "Group name must be at least 2 characters long",
+      "name_too_long": "Group name cannot exceed 100 characters",
+      "description_too_long": "Group description cannot exceed 500 characters",
+      "not_found": "Group not found",
+      "id_required": "Group ID is required",
+      "request_required": "Request is required for groups"
+    },
+    "errors": {
+      "input_validation_failed": "Input validation failed",
+      "enrichment_failed": "Business logic enrichment failed",
+      "business_rule_validation_failed": "Business rule validation failed",
+      "not_found": "Group with ID \"{groupId}\" not found",
+      "creation_failed": "Group creation failed",
+      "update_failed": "Group update failed",
+      "deletion_failed": "Group deletion failed",
+      "list_failed": "Failed to retrieve groups",
+      "authorization_failed": "Authorization failed for groups"
+    }
+  }
+}

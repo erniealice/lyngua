@@ -1,0 +1,28 @@
+{
+  "admin": {
+    "validation": {
+      "data_required": "Admin data is required",
+      "user_data_required": "Admin user data is required",
+      "first_name_required": "Admin first name is required",
+      "last_name_required": "Admin last name is required",
+      "first_name_too_short": "First name must be at least 1 character long",
+      "last_name_too_short": "Last name must be at least 1 character long",
+      "full_name_too_short": "Admin full name must be at least 3 characters long",
+      "full_name_too_long": "Admin full name cannot exceed 100 characters",
+      "name_required": "Admin name is required", 
+      "email_required": "Admin email is required",
+      "email_invalid": "Invalid email format",
+      "role_required": "Admin role is required",
+      "id_required": "Admin ID is required",
+      "request_required": "Request is required for admins"
+    },
+    "errors": {
+      "not_found": "Admin with ID \"{adminId}\" not found",
+      "creation_failed": "Admin creation failed", 
+      "update_failed": "Admin update failed",
+      "deletion_failed": "Admin deletion failed",
+      "list_failed": "Failed to retrieve admins",
+      "authorization_failed": "Authorization failed for admins"
+    }
+  }
+}

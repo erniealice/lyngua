@@ -1,0 +1,20 @@
+{
+  "price_plan": {
+    "validation": {
+      "data_required": "Pricing plan data is required",
+      "name_required": "Pricing plan name is required",
+      "email_required": "Pricing plan email is required",
+      "email_invalid": "Pricing plan email format is invalid",
+      "id_required": "Pricing plan ID is required",
+      "request_required": "Request is required for pricing plans"
+    },
+    "errors": {
+      "not_found": "Pricing plan with ID \"{entityId}\" not found",
+      "creation_failed": "Pricing plan creation failed",
+      "update_failed": "Pricing plan update failed",
+      "deletion_failed": "Pricing plan deletion failed",
+      "list_failed": "Failed to retrieve pricing plans",
+      "authorization_failed": "Authorization failed for pricing plans"
+    }
+  }
+}

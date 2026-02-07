@@ -1,0 +1,19 @@
+{
+  "delegate_client": {
+    "validation": {
+      "data_required": "Delegate-Client relationship data is required",
+      "delegate_id_required": "Delegate ID is required",
+      "client_id_required": "Client ID is required",
+      "id_required": "Delegate-Client relationship ID is required",
+      "request_required": "Request is required for Delegate-Client relationships"
+    },
+    "errors": {
+      "not_found": "Delegate-Client relationship with ID \"{delegateClientId}\" not found",
+      "creation_failed": "Delegate-Client relationship creation failed",
+      "update_failed": "Delegate-Client relationship update failed",
+      "deletion_failed": "Delegate-Client relationship deletion failed",
+      "list_failed": "Failed to retrieve Delegate-Client relationships",
+      "authorization_failed": "Authorization failed for Delegate-Client relationships"
+    }
+  }
+}

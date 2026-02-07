@@ -1,0 +1,29 @@
+{
+  "workspace_user_role": {
+    "validation": {
+      "data_required": "Workspace-User-Role data is required",
+      "workspace_user_id_required": "Workspace-User ID is required",
+      "role_id_required": "Role ID is required",
+      "id_required": "Workspace-User-Role ID is required",
+      "request_required": "Request is required for workspace user roles"
+    },
+    "errors": {
+      "user_not_authenticated": "User not authenticated",
+      "authorization_check_failed": "Authorization check failed",
+      "access_denied": "Access denied",
+      "input_validation_failed": "Input validation failed",
+      "enrichment_failed": "Business logic enrichment failed",
+      "reference_validation_failed": "Entity reference validation failed",
+      "business_rule_validation_failed": "Business rule validation failed",
+      "not_found": "Workspace-User-Role with ID \"{workspaceUserRoleId}\" not found",
+      "workspace_user_not_found": "Referenced workspace user with ID \"{workspaceUserId}\" not found",
+      "role_not_found": "Referenced role with ID \"{roleId}\" not found",
+      "read_failed": "Failed to read workspace user role",
+      "creation_failed": "Workspace-User-Role creation failed",
+      "update_failed": "Workspace-User-Role update failed",
+      "deletion_failed": "Workspace-User-Role deletion failed",
+      "list_failed": "Failed to retrieve workspace user roles",
+      "authorization_failed": "Authorization failed for workspace user roles"
+    }
+  }
+}

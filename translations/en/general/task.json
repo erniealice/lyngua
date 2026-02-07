@@ -1,0 +1,19 @@
+{
+  "task": {
+    "validation": {
+      "data_required": "Task data is required",
+      "name_required": "Task name is required",
+      "objective_id_required": "Objective ID is required",
+      "id_required": "Task ID is required",
+      "request_required": "Request is required for tasks"
+    },
+    "errors": {
+      "not_found": "Task with ID \"{taskId}\" not found",
+      "creation_failed": "Task creation failed",
+      "update_failed": "Task update failed",
+      "deletion_failed": "Task deletion failed",
+      "list_failed": "Failed to retrieve tasks",
+      "authorization_failed": "Authorization failed for tasks"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "invoice": {
+    "validation": {
+      "data_required": "Invoice data is required",
+      "name_required": "Invoice name is required",
+      "email_required": "Invoice email is required",
+      "email_invalid": "Invoice email format is invalid",
+      "id_required": "Invoice ID is required",
+      "request_required": "Request is required for invoices"
+    },
+    "errors": {
+      "not_found": "Invoice with ID \"{entityId}\" not found",
+      "creation_failed": "Invoice creation failed",
+      "update_failed": "Invoice update failed",
+      "deletion_failed": "Invoice deletion failed",
+      "list_failed": "Failed to retrieve invoices",
+      "authorization_failed": "Authorization failed for invoices"
+    }
+  }
+}

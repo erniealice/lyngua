@@ -1,0 +1,36 @@
+{
+  "client_attribute": {
+    "validation": {
+      "data_required": "Client attribute data is required",
+      "name_required": "Client attribute name is required",
+      "value_required": "Client attribute value is required",
+      "id_required": "Client attribute ID is required",
+      "request_required": "Request is required for client attributes",
+      "client_id_required": "Client ID is required",
+      "attribute_id_required": "Attribute ID is required",
+      "value_empty": "Value cannot be empty",
+      "value_too_long": "Value cannot exceed 1000 characters"
+    },
+    "errors": {
+      "input_validation_failed": "Input validation failed",
+      "user_not_authenticated": "User not authenticated",
+      "client_fetch_failed_auth": "Failed to get client for authorization",
+      "client_not_found": "Referenced client with ID '{clientId}' not found",
+      "enrichment_failed": "Business logic enrichment failed",
+      "reference_validation_failed": "Entity reference validation failed",
+      "client_reference_validation_failed": "Failed to validate client entity reference",
+      "client_not_active": "Referenced client with ID '{clientId}' is not active",
+      "attribute_reference_validation_failed": "Failed to validate attribute entity reference",
+      "attribute_not_found": "Referenced attribute with ID '{attributeId}' not found",
+      "attribute_not_active": "Referenced attribute with ID '{attributeId}' is not active",
+      "business_rule_validation_failed": "Business rule validation failed",
+      "apply_defaults_failed": "Failed to apply default values",
+      "not_found": "Client attribute with ID \"{clientAttributeId}\" not found",
+      "creation_failed": "Client attribute creation failed",
+      "update_failed": "Client attribute update failed",
+      "deletion_failed": "Client attribute deletion failed",
+      "list_failed": "Failed to retrieve client attributes",
+      "authorization_failed": "Authorization failed for client attributes"
+    }
+  }
+}

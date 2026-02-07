@@ -1,0 +1,312 @@
+{
+  "sidebar": {
+    "appSwitcher": {
+      "switchApp": "Switch App"
+    },
+    "apps": {
+      "clients": "Clients",
+      "regulations": "Regulations",
+      "marketplace": "Marketplace",
+      "quotes": "Quotes",
+      "users": "Users",
+      "reports": "Reports"
+    },
+    "clients": {
+      "title": "Clients",
+      "active": "Active",
+      "prospect": "Prospect",
+      "inactive": "Inactive",
+      "settings": "Settings",
+      "paymentTerms": "Payment Terms"
+    },
+    "regulations": {
+      "title": "Regulations",
+      "awards": "Awards",
+      "agreements": "Agreements",
+      "workersComp": "Workers Comp",
+      "superannuation": "Superannuation",
+      "payrollTax": "Payroll Tax",
+      "settings": "Settings",
+      "payItems": "Pay Items / Allowances",
+      "payItemsMapping": "Pay Items Mapping",
+      "awardMultipliers": "Award Multipliers",
+      "additionalItems": "Additional Items"
+    },
+    "marketplace": {
+      "title": "Marketplace",
+      "crm": "CRM",
+      "rms": "RMS",
+      "payroll": "Payroll",
+      "accounting": "Accounting"
+    },
+    "quotes": {
+      "title": "Quotes",
+      "calculation": "Calculation",
+      "approvedSigned": "Approved/Signed",
+      "forApproval": "For Approval",
+      "templates": "Templates",
+      "archived": "Archived",
+      "settings": "Settings",
+      "quoteTemplates": "Quote Templates",
+      "contractTemplates": "Contract Templates",
+      "proposalTemplates": "Proposal Templates",
+      "costManagement": "Cost Management"
+    },
+    "users": {
+      "title": "Users",
+      "adminManagers": "Admin Managers",
+      "managers": "Managers",
+      "standard": "Standard",
+      "spectator": "Spectator",
+      "settings": "Settings",
+      "userDivisions": "User Divisions"
+    },
+    "reports": {
+      "title": "Reports",
+      "quote": "Quote Report",
+      "awardChanges": "Award Changes"
+    },
+    "main": {
+      "title": "Main",
+      "dashboard": "Dashboard"
+    },
+    "support": {
+      "title": "Support",
+      "helpCenter": "Help Center"
+    },
+    "userMenu": {
+      "profile": "Profile",
+      "billing": "Billing",
+      "logout": "Log out"
+    },
+    "userCard": {
+      "proPlan": "Pro Plan"
+    }
+  },
+  "header": {
+    "welcomeBack": "Welcome back",
+    "searchPlaceholder": "Search anything...",
+    "searchShortcut": "Ctrl+K",
+    "notifications": "Notifications",
+    "showHelp": "Show help (?)"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "markAllRead": "Mark all read",
+    "close": "Close notifications",
+    "tabs": {
+      "all": "All",
+      "unread": "Unread",
+      "alerts": "Alerts"
+    },
+    "loading": "Loading notifications...",
+    "empty": {
+      "title": "All caught up!",
+      "message": "You have no new notifications"
+    },
+    "viewAll": "View All Notifications"
+  },
+  "settings": {
+    "title": "Settings",
+    "close": "Close settings",
+    "account": {
+      "title": "Account",
+      "profile": "Profile",
+      "security": "Security"
+    },
+    "billing": {
+      "title": "Billing",
+      "billing": "Billing"
+    },
+    "loading": "Loading settings..."
+  },
+  "theme": {
+    "title": "Choose Theme",
+    "toggle": "Toggle theme menu",
+    "changeTheme": "Change theme (Ctrl+Shift+T)",
+    "themes": {
+      "warmCream": "Warm Cream",
+      "oceanDeep": "Ocean Deep",
+      "forestNight": "Forest Night",
+      "minimalLight": "Minimal Light",
+      "sunsetGlow": "Sunset Glow",
+      "corporateSteel": "Corporate Steel",
+      "paperInk": "Paper & Ink",
+      "peachFizz": "Peach Fizz"
+    },
+    "fontFamily": "Font Family",
+    "fonts": {
+      "default": "Figtree + Playfair",
+      "serif": "Playfair Display",
+      "mono": "JetBrains Mono",
+      "rounded": "Nunito",
+      "condensed": "Barlow Condensed"
+    }
+  },
+  "helpPane": {
+    "title": "Knowledge Base",
+    "close": "Close help pane"
+  },
+  "table": {
+    "search": "Search",
+    "searchPlaceholder": "Search...",
+    "filters": "Filters",
+    "filterConditions": "Filter Conditions",
+    "clearAll": "Clear All",
+    "addCondition": "Add condition",
+    "clear": "Clear",
+    "applyFilters": "Apply Filters",
+    "sort": "Sort",
+    "ascending": "Ascending",
+    "descending": "Descending",
+    "columns": "Columns",
+    "export": "Export",
+    "exportCsv": "Export as CSV",
+    "exportExcel": "Export as Excel",
+    "density": {
+      "title": "Row density",
+      "default": "Default",
+      "comfortable": "Comfortable",
+      "compact": "Compact"
+    },
+    "selectAll": "Select all",
+    "selectRow": "Select row",
+    "actions": "Actions",
+    "show": "Show",
+    "entries": "entries",
+    "showing": "Showing",
+    "to": "to",
+    "of": "of",
+    "entriesLabel": "entries",
+    "columnsLabel": {
+      "name": "Name",
+      "email": "Email",
+      "division": "Division",
+      "office": "Office",
+      "status": "Status",
+      "slug": "URL Slug",
+      "town": "Town / Suburb",
+      "state": "State",
+      "country": "Country",
+      "phone": "Phone"
+    }
+  },
+  "pagination": {
+    "prev": "Prev",
+    "next": "Next",
+    "previous": "Previous",
+    "page": "Page",
+    "of": "of",
+    "loadMore": "Load More",
+    "showing": "Showing",
+    "items": "items",
+    "allLoaded": "All items loaded",
+    "previousPage": "Previous page",
+    "nextPage": "Next page"
+  },
+  "buttons": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "add": "Add",
+    "create": "Create",
+    "update": "Update",
+    "submit": "Submit",
+    "close": "Close",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "done": "Done",
+    "apply": "Apply",
+    "reset": "Reset",
+    "refresh": "Refresh",
+    "download": "Download",
+    "upload": "Upload",
+    "export": "Export",
+    "import": "Import",
+    "search": "Search",
+    "filter": "Filter",
+    "clear": "Clear",
+    "selectAll": "Select All",
+    "deselectAll": "Deselect All",
+    "more": "More",
+    "less": "Less",
+    "seeMore": "see more",
+    "seeLess": "see less",
+    "moreOptions": "More options",
+    "settings": "Settings",
+    "connect": "Connect",
+    "configure": "Configure",
+    "readMore": "Read more"
+  },
+  "actions": {
+    "view": "View",
+    "edit": "Edit",
+    "clone": "Clone",
+    "delete": "Delete",
+    "download": "Download",
+    "archive": "Archive",
+    "restore": "Restore",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "approve": "Approve",
+    "export": "Export"
+  },
+  "bulk": {
+    "selectAll": "Select all",
+    "selected": "selected",
+    "cancel": "Cancel",
+    "clearSelection": "Clear selection",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "delete": "Delete",
+    "archive": "Archive",
+    "approve": "Approve"
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive",
+    "pending": "Pending",
+    "draft": "Draft",
+    "approved": "Approved",
+    "archived": "Archived",
+    "connected": "Connected",
+    "disconnected": "Disconnected",
+    "default": "Default"
+  },
+  "empty": {
+    "noResults": "No results found",
+    "noData": "No data available"
+  },
+  "loading": {
+    "loading": "Loading...",
+    "pleaseWait": "Please wait..."
+  },
+  "errors": {
+    "general": "An error occurred",
+    "notFound": "Not found",
+    "unauthorized": "Unauthorized",
+    "forbidden": "Forbidden",
+    "validation": {
+      "required": "This field is required",
+      "emptyId": "ID cannot be empty",
+      "emptyName": "Name cannot be empty",
+      "invalidStatus": "Invalid status"
+    }
+  },
+  "dropdown": {
+    "moreOptions": "More options"
+  },
+  "integration": {
+    "popular": "Popular",
+    "connected": "Connected",
+    "settings": "Settings",
+    "connect": "Connect"
+  },
+  "card": {
+    "readMore": "Read more"
+  }
+}

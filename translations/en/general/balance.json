@@ -1,0 +1,20 @@
+{
+  "balance": {
+    "validation": {
+      "data_required": "Account balance data is required",
+      "name_required": "Account balance name is required",
+      "email_required": "Account balance email is required",
+      "email_invalid": "Account balance email format is invalid",
+      "id_required": "Account balance ID is required",
+      "request_required": "Request is required for account balances"
+    },
+    "errors": {
+      "not_found": "Account balance with ID \"{entityId}\" not found",
+      "creation_failed": "Account balance creation failed",
+      "update_failed": "Account balance update failed",
+      "deletion_failed": "Account balance deletion failed",
+      "list_failed": "Failed to retrieve account balances",
+      "authorization_failed": "Authorization failed for account balances"
+    }
+  }
+}

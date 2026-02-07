@@ -1,0 +1,18 @@
+{
+  "framework": {
+    "validation": {
+      "data_required": "Framework data is required",
+      "name_required": "Framework name is required",
+      "id_required": "Framework ID is required",
+      "request_required": "Request is required for frameworks"
+    },
+    "errors": {
+      "not_found": "Framework with ID \"{frameworkId}\" not found",
+      "creation_failed": "Framework creation failed",
+      "update_failed": "Framework update failed",
+      "deletion_failed": "Framework deletion failed",
+      "list_failed": "Failed to retrieve frameworks",
+      "authorization_failed": "Authorization failed for frameworks"
+    }
+  }
+}

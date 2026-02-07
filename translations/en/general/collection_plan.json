@@ -1,0 +1,19 @@
+{
+  "collection_plan": {
+    "validation": {
+      "data_required": "Collection Plan data is required",
+      "collection_id_required": "Collection ID is required",
+      "plan_id_required": "Plan ID is required",
+      "id_required": "Collection Plan ID is required",
+      "request_required": "Request is required for collection plans"
+    },
+    "errors": {
+      "not_found": "Collection Plan with ID \"{collectionPlanId}\" not found",
+      "creation_failed": "Collection Plan creation failed",
+      "update_failed": "Collection Plan update failed",
+      "deletion_failed": "Collection Plan deletion failed",
+      "list_failed": "Failed to retrieve collection plans",
+      "authorization_failed": "Authorization failed for collection plans"
+    }
+  }
+}

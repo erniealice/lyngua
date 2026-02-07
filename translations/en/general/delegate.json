@@ -1,0 +1,27 @@
+{
+  "delegate": {
+    "validation": {
+      "data_required": "Delegate data is required",
+      "user_data_required": "Delegate user data is required",
+      "first_name_required": "Delegate first name is required",
+      "last_name_required": "Delegate last name is required",
+      "first_name_too_short": "First name must be at least 1 character long",
+      "last_name_too_short": "Last name must be at least 1 character long",
+      "full_name_too_short": "Delegate full name must be at least 3 characters long",
+      "full_name_too_long": "Delegate full name cannot exceed 100 characters",
+      "name_required": "Delegate name is required",
+      "email_required": "Delegate email is required",
+      "email_invalid": "Delegate email format is invalid",
+      "id_required": "Delegate ID is required",
+      "request_required": "Request is required for delegates"
+    },
+    "errors": {
+      "not_found": "Delegate with ID \"{delegateId}\" not found",
+      "creation_failed": "Delegate creation failed",
+      "update_failed": "Delegate update failed",
+      "deletion_failed": "Delegate deletion failed",
+      "list_failed": "Failed to retrieve delegates",
+      "authorization_failed": "Authorization failed for delegates"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "staff": {
+    "validation": {
+      "data_required": "Staff data is required",
+      "user_data_required": "Staff user data is required",
+      "first_name_required": "Staff first name is required",
+      "last_name_required": "Staff last name is required",
+      "first_name_too_short": "First name must be at least 1 character long",
+      "last_name_too_short": "Last name must be at least 1 character long",
+      "full_name_too_short": "Staff full name must be at least 3 characters long",
+      "full_name_too_long": "Staff full name cannot exceed 100 characters",
+      "name_required": "Staff name is required",
+      "email_required": "Staff email is required",
+      "email_invalid": "Staff email format is invalid",
+      "id_required": "Staff ID is required",
+      "request_required": "Request is required for staff"
+    },
+    "errors": {
+      "not_found": "Staff with ID \"{staffId}\" not found",
+      "creation_failed": "Staff creation failed",
+      "update_failed": "Staff update failed",
+      "deletion_failed": "Staff deletion failed",
+      "list_failed": "Failed to retrieve staff",
+      "authorization_failed": "Authorization failed for staff"
+    }
+  }
+}

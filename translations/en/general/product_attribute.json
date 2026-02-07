@@ -1,0 +1,20 @@
+{
+  "product_attribute": {
+    "validation": {
+      "data_required": "Product attribute data is required",
+      "name_required": "Product attribute name is required",
+      "email_required": "Product attribute email is required",
+      "email_invalid": "Product attribute email format is invalid",
+      "id_required": "Product attribute ID is required",
+      "request_required": "Request is required for product attributes"
+    },
+    "errors": {
+      "not_found": "Product attribute with ID \"{entityId}\" not found",
+      "creation_failed": "Product attribute creation failed",
+      "update_failed": "Product attribute update failed",
+      "deletion_failed": "Product attribute deletion failed",
+      "list_failed": "Failed to retrieve product attributes",
+      "authorization_failed": "Authorization failed for product attributes"
+    }
+  }
+}

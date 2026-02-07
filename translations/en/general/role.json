@@ -1,0 +1,25 @@
+{
+  "role": {
+    "validation": {
+      "data_required": "Role data is required",
+      "name_required": "Role name is required",
+      "name_too_short": "Role name must be at least 3 characters long",
+      "name_too_long": "Role name cannot exceed 100 characters",
+      "description_too_long": "Role description cannot exceed 500 characters",
+      "color_invalid": "Color must be a valid hex color (e.g., #FF0000 or #F00)",
+      "id_required": "Role ID is required",
+      "request_required": "Request is required for roles"
+    },
+    "errors": {
+      "not_found": "Role with ID \"{roleId}\" not found",
+      "creation_failed": "Role creation failed",
+      "update_failed": "Role update failed",
+      "deletion_failed": "Role deletion failed",
+      "list_failed": "Failed to retrieve roles",
+      "authorization_failed": "Authorization failed for roles",
+      "business_rule_validation_failed": "Role business rule validation failed",
+      "enrichment_failed": "Role business logic enrichment failed",
+      "input_validation_failed": "Role input validation failed"
+    }
+  }
+}

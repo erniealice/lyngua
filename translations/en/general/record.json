@@ -1,0 +1,20 @@
+{
+  "record": {
+    "validation": {
+      "data_required": "Record data is required",
+      "name_required": "Record name is required", 
+      "email_required": "Record email is required",
+      "email_invalid": "Record email format is invalid",
+      "id_required": "Record ID is required",
+      "request_required": "Request is required for records"
+    },
+    "errors": {
+      "not_found": "Record with ID \"{recordId}\" not found",
+      "creation_failed": "Record creation failed", 
+      "update_failed": "Record update failed",
+      "deletion_failed": "Record deletion failed",
+      "list_failed": "Failed to retrieve records",
+      "authorization_failed": "Authorization failed for records"
+    }
+  }
+}

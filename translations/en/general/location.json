@@ -1,0 +1,27 @@
+{
+  "location": {
+    "validation": {
+      "data_required": "Location data is required",
+      "name_required": "Location name is required",
+      "address_required": "Location address is required",
+      "id_required": "Location ID is required",
+      "request_required": "Request is required for locations",
+      "name_too_short": "Location name must be at least 2 characters long",
+      "name_too_long": "Location name cannot exceed 100 characters",
+      "address_too_short": "Location address must be at least 5 characters long",
+      "address_too_long": "Location address cannot exceed 500 characters",
+      "description_too_long": "Location description cannot exceed 1000 characters"
+    },
+    "errors": {
+      "not_found": "Location with ID \"{locationId}\" not found",
+      "creation_failed": "Location creation failed",
+      "update_failed": "Location update failed",
+      "deletion_failed": "Location deletion failed",
+      "list_failed": "Failed to retrieve locations",
+      "authorization_failed": "Authorization failed for locations",
+      "input_validation_failed": "Input validation failed",
+      "enrichment_failed": "Data enrichment failed", 
+      "business_rule_validation_failed": "Business rule validation failed"
+    }
+  }
+}

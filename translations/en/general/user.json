@@ -1,0 +1,22 @@
+{
+  "user": {
+    "validation": {
+      "data_required": "User data is required",
+      "name_required": "User name is required",
+      "first_name_required": "User first name is required",
+      "last_name_required": "User last name is required",
+      "email_required": "User email is required",
+      "email_invalid": "User email format is invalid",
+      "id_required": "User ID is required",
+      "request_required": "Request is required for users"
+    },
+    "errors": {
+      "not_found": "User with ID \"{userId}\" not found",
+      "creation_failed": "User creation failed",
+      "update_failed": "User update failed",
+      "deletion_failed": "User deletion failed",
+      "list_failed": "Failed to retrieve users",
+      "authorization_failed": "Authorization failed for users"
+    }
+  }
+}

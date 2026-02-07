@@ -1,0 +1,20 @@
+{
+  "resource": {
+    "validation": {
+      "data_required": "Resource data is required",
+      "name_required": "Resource name is required",
+      "email_required": "Resource email is required",
+      "email_invalid": "Resource email format is invalid",
+      "id_required": "Resource ID is required",
+      "request_required": "Request is required for resources"
+    },
+    "errors": {
+      "not_found": "Resource with ID \"{entityId}\" not found",
+      "creation_failed": "Resource creation failed",
+      "update_failed": "Resource update failed",
+      "deletion_failed": "Resource deletion failed",
+      "list_failed": "Failed to retrieve resources",
+      "authorization_failed": "Authorization failed for resources"
+    }
+  }
+}

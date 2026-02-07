@@ -1,0 +1,77 @@
+{
+  "page": {
+    "title": "Quote Management",
+    "heading": "Quote Management",
+    "caption": "View and manage your quotes and calculations",
+    "titleCalculation": "Calculations",
+    "titleApproved": "Approved Quotes",
+    "titleForApproval": "Quotes For Approval",
+    "titleArchived": "Archived Quotes",
+    "titleTemplates": "Quote Templates",
+    "headingCalculation": "Calculations",
+    "headingApproved": "Approved Quotes",
+    "headingForApproval": "Quotes For Approval",
+    "headingArchived": "Archived Quotes",
+    "headingTemplates": "Quote Templates",
+    "captionCalculation": "Manage quotes currently being calculated",
+    "captionApproved": "View quotes that have been approved",
+    "captionForApproval": "Review quotes awaiting approval",
+    "captionArchived": "Browse archived and historical quotes",
+    "captionTemplates": "Manage reusable quote templates"
+  },
+  "buttons": {
+    "add": "New Quote"
+  },
+  "tabs": {
+    "approved": "Approved",
+    "calculation": "Calculation",
+    "forApproval": "For Approval",
+    "archived": "Archived",
+    "templates": "Templates"
+  },
+  "columns": {
+    "name": "Name",
+    "quoteId": "Quote ID",
+    "externalJobId": "External Job ID",
+    "jobName": "Job Name",
+    "type": "Type",
+    "calculationType": "Calculation Type",
+    "status": "Status",
+    "contact": "Contact",
+    "division": "Division",
+    "createdOn": "Created On",
+    "createdBy": "Created By",
+    "by": "By"
+  },
+  "filters": {
+    "filterBy": "Filter By:",
+    "showAll": "Show All",
+    "reportTemplate": "Select Report Template:"
+  },
+  "empty": {
+    "approvedTitle": "No approved quotes",
+    "approvedMessage": "Approved quotes will appear here",
+    "calculationTitle": "No calculations",
+    "calculationMessage": "Create your first calculation to get started",
+    "forApprovalTitle": "No quotes pending approval",
+    "forApprovalMessage": "Quotes awaiting approval will appear here",
+    "archivedTitle": "No archived quotes",
+    "archivedMessage": "Archived quotes will appear here",
+    "templatesTitle": "No templates",
+    "templatesMessage": "Save a quote as template to get started"
+  },
+  "errors": {
+    "notFound": "Quote not found",
+    "emptyName": "Quote name cannot be empty",
+    "emptyClient": "Client must be selected",
+    "invalidStatus": "Invalid quote status",
+    "alreadyApproved": "Quote is already approved",
+    "alreadyArchived": "Quote is already archived",
+    "cannotArchive": "Cannot archive quote in current status",
+    "noJobs": "Quote must have at least one job"
+  },
+  "actions": {
+    "requote": "Requote",
+    "createQuote": "Create Quote"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "manager": {
+    "validation": {
+      "data_required": "Manager data is required",
+      "user_data_required": "Manager user data is required",
+      "first_name_required": "Manager first name is required",
+      "last_name_required": "Manager last name is required",
+      "first_name_too_short": "First name must be at least 1 character long",
+      "last_name_too_short": "Last name must be at least 1 character long",
+      "full_name_too_short": "Manager full name must be at least 3 characters long",
+      "full_name_too_long": "Manager full name cannot exceed 100 characters",
+      "name_required": "Manager name is required",
+      "email_required": "Manager email is required",
+      "email_invalid": "Invalid email format",
+      "id_required": "Manager ID is required",
+      "request_required": "Request is required for managers"
+    },
+    "errors": {
+      "not_found": "Manager with ID \"{managerId}\" not found",
+      "creation_failed": "Manager creation failed",
+      "update_failed": "Manager update failed",
+      "deletion_failed": "Manager deletion failed",
+      "list_failed": "Failed to retrieve managers",
+      "authorization_failed": "Authorization failed for managers"
+    }
+  }
+}

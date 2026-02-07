@@ -1,0 +1,9 @@
+{
+	"common": {
+		"errors": {
+			"not_found": "Not found",
+			"invalid_data": "Invalid data",
+			"server_error": "Server error"
+		}
+	}
+}

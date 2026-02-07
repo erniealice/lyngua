@@ -1,0 +1,20 @@
+{
+  "price_product": {
+    "validation": {
+      "data_required": "Product pricing data is required",
+      "name_required": "Product pricing name is required",
+      "email_required": "Product pricing email is required",
+      "email_invalid": "Product pricing email format is invalid",
+      "id_required": "Product pricing ID is required",
+      "request_required": "Request is required for product pricing"
+    },
+    "errors": {
+      "not_found": "Product pricing with ID \"{entityId}\" not found",
+      "creation_failed": "Product pricing creation failed",
+      "update_failed": "Product pricing update failed",
+      "deletion_failed": "Product pricing deletion failed",
+      "list_failed": "Failed to retrieve product pricing",
+      "authorization_failed": "Authorization failed for product pricing"
+    }
+  }
+}

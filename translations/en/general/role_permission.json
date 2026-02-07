@@ -1,0 +1,19 @@
+{
+  "role_permission": {
+    "validation": {
+      "data_required": "Role-Permission data is required",
+      "role_id_required": "Role ID is required",
+      "permission_id_required": "Permission ID is required",
+      "id_required": "Role-Permission ID is required",
+      "request_required": "Request is required for role-permissions"
+    },
+    "errors": {
+      "not_found": "Role-Permission with ID \"{rolePermissionId}\" not found",
+      "creation_failed": "Role-Permission creation failed",
+      "update_failed": "Role-Permission update failed",
+      "deletion_failed": "Role-Permission deletion failed",
+      "list_failed": "Failed to retrieve role-permissions",
+      "authorization_failed": "Authorization failed for role-permissions"
+    }
+  }
+}

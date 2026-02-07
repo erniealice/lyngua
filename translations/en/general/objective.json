@@ -1,0 +1,19 @@
+{
+  "objective": {
+    "validation": {
+      "data_required": "Objective data is required",
+      "name_required": "Objective name is required",
+      "framework_id_required": "Framework ID is required",
+      "id_required": "Objective ID is required",
+      "request_required": "Request is required for objectives"
+    },
+    "errors": {
+      "not_found": "Objective with ID \"{objectiveId}\" not found",
+      "creation_failed": "Objective creation failed",
+      "update_failed": "Objective update failed",
+      "deletion_failed": "Objective deletion failed",
+      "list_failed": "Failed to retrieve objectives",
+      "authorization_failed": "Authorization failed for objectives"
+    }
+  }
+}

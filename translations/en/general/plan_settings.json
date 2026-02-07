@@ -1,0 +1,20 @@
+{
+  "plan_settings": {
+    "validation": {
+      "data_required": "Plan settings data is required",
+      "name_required": "Plan settings name is required",
+      "email_required": "Plan settings email is required",
+      "email_invalid": "Plan settings email format is invalid",
+      "id_required": "Plan settings ID is required",
+      "request_required": "Request is required for plan settings"
+    },
+    "errors": {
+      "not_found": "Plan settings with ID \"{entityId}\" not found",
+      "creation_failed": "Plan settings creation failed",
+      "update_failed": "Plan settings update failed",
+      "deletion_failed": "Plan settings deletion failed",
+      "list_failed": "Failed to retrieve plan settings",
+      "authorization_failed": "Authorization failed for plan settings"
+    }
+  }
+}

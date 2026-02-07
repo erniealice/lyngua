@@ -1,0 +1,24 @@
+{
+  "subscription": {
+    "validation": {
+      "data_required": "Subscription data is required",
+      "name_required": "Subscription name is required",
+      "name_max_length": "Subscription name must be less than 255 characters",
+      "plan_id_required": "Plan is required",
+      "client_id_required": "Client is required",
+      "date_start_required": "Start date is required",
+      "email_required": "Subscription email is required",
+      "email_invalid": "Subscription email format is invalid",
+      "id_required": "Subscription ID is required",
+      "request_required": "Request is required for subscriptions"
+    },
+    "errors": {
+      "not_found": "Subscription with ID \"{entityId}\" not found",
+      "creation_failed": "Subscription creation failed",
+      "update_failed": "Subscription update failed",
+      "deletion_failed": "Subscription deletion failed",
+      "list_failed": "Failed to retrieve subscriptions",
+      "authorization_failed": "Authorization failed for subscriptions"
+    }
+  }
+}

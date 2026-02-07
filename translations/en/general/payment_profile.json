@@ -1,0 +1,19 @@
+{
+  "payment_profile": {
+    "validation": {
+      "data_required": "Payment profile data is required",
+      "user_id_required": "User ID is required",
+      "payment_method_id_required": "Payment method ID is required",
+      "id_required": "Payment profile ID is required",
+      "request_required": "Request is required for payment profiles"
+    },
+    "errors": {
+      "not_found": "Payment profile with ID \"{paymentProfileId}\" not found",
+      "creation_failed": "Payment profile creation failed",
+      "update_failed": "Payment profile update failed",
+      "deletion_failed": "Payment profile deletion failed",
+      "list_failed": "Failed to retrieve payment profiles",
+      "authorization_failed": "Authorization failed for payment profiles"
+    }
+  }
+}

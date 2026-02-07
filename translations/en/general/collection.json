@@ -1,0 +1,20 @@
+{
+  "collection": {
+    "validation": {
+      "data_required": "Collection data is required",
+      "name_required": "Collection name is required",
+      "name_max_length": "Collection name must be less than 255 characters",
+      "description_max_length": "Description must be less than 1000 characters",
+      "id_required": "Collection ID is required",
+      "request_required": "Request is required for collections"
+    },
+    "errors": {
+      "not_found": "Collection with ID \"{collectionId}\" not found",
+      "creation_failed": "Collection creation failed",
+      "update_failed": "Collection update failed",
+      "deletion_failed": "Collection deletion failed",
+      "list_failed": "Failed to retrieve collections",
+      "authorization_failed": "Authorization failed for collections"
+    }
+  }
+}
