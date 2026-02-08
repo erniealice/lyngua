@@ -1,0 +1,90 @@
+{
+  "contractTemplates": {
+    "page": {
+      "title": "Contract Templates",
+      "heading": "Contract Templates",
+      "subtitle": "Manage your contract templates"
+    },
+    "table": {
+      "searchPlaceholder": "Search templates...",
+      "columns": {
+        "templateName": "Template Name",
+        "createdBy": "Created By",
+        "createdOn": "Created On"
+      },
+      "actions": {
+        "deactivate": "Deactivate",
+        "download": "Download",
+        "delete": "Delete",
+        "preview": "Preview"
+      }
+    },
+    "empty": {
+      "title": "No Contract Templates Found",
+      "message": "Get started by creating your first contract template."
+    },
+    "buttons": {
+      "addTemplate": "Add Template"
+    }
+  },
+  "proposalTemplates": {
+    "page": {
+      "title": "Proposal Templates",
+      "heading": "Proposal Templates",
+      "subtitle": "Manage your proposal templates"
+    },
+    "table": {
+      "searchPlaceholder": "Search templates...",
+      "columns": {
+        "templateName": "Template Name",
+        "createdBy": "Created By",
+        "createdOn": "Created On"
+      },
+      "actions": {
+        "deactivate": "Deactivate",
+        "download": "Download",
+        "delete": "Delete",
+        "preview": "Preview"
+      }
+    },
+    "empty": {
+      "title": "No Proposal Templates Found",
+      "message": "Get started by creating your first proposal template."
+    },
+    "emptyAlt": {
+      "title": "Proposal Templates",
+      "message": "No proposal templates found. Get started by creating your first template."
+    },
+    "buttons": {
+      "addTemplate": "Add Template"
+    }
+  },
+  "costManagement": {
+    "page": {
+      "title": "Cost Management",
+      "heading": "Cost Management",
+      "subtitle": "Configure cost management settings"
+    },
+    "empty": {
+      "title": "Cost Management",
+      "message": "Cost Management settings coming soon.",
+      "todo": "To do:",
+      "todoMessage": "Add general settings"
+    }
+  },
+  "common": {
+    "table": {
+      "filters": "Filters",
+      "sort": "Sort",
+      "columns": "Columns",
+      "export": "Export",
+      "show": "Show",
+      "entries": "entries",
+      "showing": "Showing",
+      "to": "to",
+      "of": "of",
+      "prev": "Prev",
+      "next": "Next"
+    }
+  }
+}

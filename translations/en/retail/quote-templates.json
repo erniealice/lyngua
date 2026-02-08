@@ -1,0 +1,54 @@
+{
+  "page": {
+    "contractTitle": "Contract Templates",
+    "contractSubtitle": "Manage your contract templates",
+    "proposalTitle": "Proposal Templates",
+    "proposalSubtitle": "Manage your proposal templates"
+  },
+  "columns": {
+    "template": "Template",
+    "createdBy": "Created By",
+    "createdOn": "Created On"
+  },
+  "actions": {
+    "deactivate": "Deactivate",
+    "download": "Download",
+    "delete": "Delete",
+    "preview": "Preview"
+  },
+  "buttons": {
+    "addTemplate": "Add Template"
+  },
+  "table": {
+    "searchPlaceholder": "Search templates...",
+    "filters": "Filters",
+    "sort": "Sort",
+    "columns": "Columns",
+    "export": "Export",
+    "filterConditions": "Filter Conditions",
+    "clearAll": "Clear All",
+    "addCondition": "Add Condition",
+    "clear": "Clear",
+    "applyFilters": "Apply Filters",
+    "show": "Show",
+    "entries": "entries",
+    "showing": "Showing",
+    "to": "to",
+    "of": "of",
+    "entriesLabel": "entries",
+    "prev": "Prev",
+    "next": "Next"
+  },
+  "empty": {
+    "noTemplatesFound": "No templates found",
+    "addFirstTemplate": "Add your first template to get started"
+  },
+  "dialogs": {
+    "deleteTitle": "Delete Template",
+    "deleteMessage": "Are you sure you want to delete this template? This action cannot be undone.",
+    "deactivateTitle": "Deactivate Template",
+    "deactivateMessage": "Are you sure you want to deactivate this template?",
+    "cancel": "Cancel",
+    "confirm": "Confirm"
+  }
+}
