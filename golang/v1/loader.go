@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
+	"strings"
 )
 
 // LoadFile loads a JSON translation file with business-type cascade and unmarshals
@@ -53,6 +54,77 @@ func (p *TranslationProvider) LoadFile(locale, businessType, fileName string, ta
 	}
 
 	jsonBytes, err := json.Marshal(merged)
+	if err != nil {
+		return fmt.Errorf("failed to marshal merged translations: %w", err)
+	}
+
+	if err := json.Unmarshal(jsonBytes, target); err != nil {
+		return fmt.Errorf("failed to unmarshal merged translations into target: %w", err)
+	}
+
+	return nil
+}
+
+// LoadPath loads a JSON translation file with business-type cascade, extracts the
+// subtree at the given dot-notation path, then unmarshals into the provided target struct.
+// Pass empty string for path to use the entire file (equivalent to LoadFile).
+//
+// Example:
+//
+//	provider.LoadPath("en", "retail", "client.json", "client", &labels)  // extracts "client" subtree
+//	provider.LoadPath("en", "retail", "user.json", "", &labels)          // uses entire file
+func (p *TranslationProvider) LoadPath(locale, businessType, fileName, path string, target any) error {
+	merged := make(map[string]any)
+
+	// Build cascade: common -> general -> businessType
+	tiers := []string{"common"}
+	if businessType != "general" && businessType != "common" {
+		tiers = append(tiers, "general")
+	}
+	if businessType != "common" {
+		tiers = append(tiers, businessType)
+	}
+
+	loaded := false
+	for _, tier := range tiers {
+		absPath := filepath.Join(p.translationsPath, locale, tier, fileName)
+
+		data, err := os.ReadFile(absPath)
+		if err != nil {
+			continue // tier doesn't have this file, skip
+		}
+
+		var content map[string]any
+		if err := json.Unmarshal(data, &content); err != nil {
+			return fmt.Errorf("failed to unmarshal translation file %s: %w", absPath, err)
+		}
+
+		mergeMap(merged, content)
+		loaded = true
+	}
+
+	if !loaded {
+		return fmt.Errorf("translation file %s not found in any tier for %s/%s", fileName, locale, businessType)
+	}
+
+	// Extract subtree at the given path
+	var result any = merged
+	if path != "" {
+		segments := strings.Split(path, ".")
+		for _, seg := range segments {
+			m, ok := result.(map[string]any)
+			if !ok {
+				return fmt.Errorf("path segment %q: expected nested map but got %T", seg, result)
+			}
+			val, exists := m[seg]
+			if !exists {
+				return fmt.Errorf("path segment %q not found in translation data", seg)
+			}
+			result = val
+		}
+	}
+
+	jsonBytes, err := json.Marshal(result)
 	if err != nil {
 		return fmt.Errorf("failed to marshal merged translations: %w", err)
 	}

@@ -1,0 +1,44 @@
+{
+  "inventory": {
+    "page": {
+      "heading": "Inventory",
+      "caption": "Manage stock levels across locations",
+      "location": "Location"
+    },
+    "buttons": {
+      "addItem": "Add Inventory Item"
+    },
+    "columns": {
+      "productName": "Product",
+      "sku": "SKU",
+      "onHand": "On Hand",
+      "available": "Available",
+      "reorderLevel": "Reorder Level",
+      "status": "Status"
+    },
+    "empty": {
+      "title": "No inventory items",
+      "message": "Add your first inventory item to start tracking stock at this location."
+    },
+    "form": {
+      "product": "Product",
+      "sku": "SKU",
+      "skuPlaceholder": "e.g. SKU-001",
+      "onHand": "Quantity On Hand",
+      "reserved": "Quantity Reserved",
+      "reorderLevel": "Reorder Level",
+      "unitOfMeasure": "Unit of Measure",
+      "notes": "Notes",
+      "notesPlaceholder": "Optional notes about this inventory item...",
+      "active": "Active"
+    },
+    "actions": {
+      "view": "View Item",
+      "edit": "Edit Item",
+      "delete": "Delete Item"
+    },
+    "bulkActions": {
+      "delete": "Delete Selected"
+    }
+  }
+}

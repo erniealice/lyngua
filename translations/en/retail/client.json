@@ -55,7 +55,9 @@
     },
     "form": {
       "firstName": "First Name",
+      "firstNamePlaceholder": "e.g. John",
       "lastName": "Last Name",
+      "lastNamePlaceholder": "e.g. Smith",
       "position": "Position",
       "positionPlaceholder": "e.g. Account Manager, Finance Director",
       "email": "Email",
@@ -78,7 +80,8 @@
       "faxPlaceholder": "+61 X XXXX XXXX",
       "paymentTerm": "Payment Term",
       "selectPaymentTerm": "Select payment term",
-      "slugPlaceholder": "auto-generated if empty"
+      "slugPlaceholder": "auto-generated if empty",
+      "active": "Active"
     },
     "detail": {
       "pageTitle": "Customer Details",

@@ -1,0 +1,64 @@
+{
+  "sales": {
+    "page": {
+      "heading": "Sales",
+      "headingActive": "Active Sales",
+      "headingCompleted": "Completed Sales",
+      "headingCancelled": "Cancelled Sales",
+      "caption": "Manage your sales and invoices",
+      "captionActive": "View and manage open sales",
+      "captionCompleted": "Review completed transactions",
+      "captionCancelled": "View cancelled orders"
+    },
+    "buttons": {
+      "addSale": "New Sale"
+    },
+    "columns": {
+      "reference": "Invoice #",
+      "customer": "Customer",
+      "date": "Date",
+      "amount": "Amount",
+      "status": "Status"
+    },
+    "empty": {
+      "activeTitle": "No active sales",
+      "activeMessage": "Create your first sale to get started.",
+      "completedTitle": "No completed sales",
+      "completedMessage": "Completed transactions will appear here.",
+      "cancelledTitle": "No cancelled sales",
+      "cancelledMessage": "Cancelled orders will appear here."
+    },
+    "form": {
+      "customer": "Customer",
+      "date": "Sale Date",
+      "amount": "Total Amount",
+      "currency": "Currency",
+      "reference": "Reference Number",
+      "referencePlaceholder": "e.g. INV-2026-001",
+      "status": "Status",
+      "notes": "Notes",
+      "notesPlaceholder": "Optional notes about this sale...",
+      "active": "Active"
+    },
+    "actions": {
+      "view": "View Sale",
+      "edit": "Edit Sale",
+      "delete": "Delete Sale"
+    },
+    "bulkActions": {
+      "delete": "Delete Selected"
+    },
+    "detail": {
+      "pageTitle": "Sale Details",
+      "invoiceInfo": "Invoice Information",
+      "lineItems": "Line Items",
+      "description": "Description",
+      "quantity": "Qty",
+      "unitPrice": "Unit Price",
+      "total": "Total",
+      "discount": "Discount",
+      "subTotal": "Subtotal",
+      "grandTotal": "Grand Total"
+    }
+  }
+}

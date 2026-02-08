@@ -1,7 +1,13 @@
 {
   "page": {
     "title": "Users",
-    "titleSuffix": " - Users"
+    "titleSuffix": " - Users",
+    "heading": "Users",
+    "caption": "User management",
+    "headingActive": "Active Users",
+    "captionActive": "Manage your active user accounts",
+    "headingInactive": "Inactive Users",
+    "captionInactive": "View inactive user accounts"
   },
   "roles": {
     "adminManagers": "Admin Managers",
@@ -41,7 +47,11 @@
     "noSpectatorsFound": "No Spectators Found",
     "noDivisionsFound": "No Divisions Found",
     "addFirstUser": "Get started by adding your first user.",
-    "addFirstDivision": "Get started by adding your first division."
+    "addFirstDivision": "Get started by adding your first division.",
+    "activeTitle": "No active users",
+    "activeMessage": "Add your first user to get started",
+    "inactiveTitle": "No inactive users",
+    "inactiveMessage": "Inactive users will appear here"
   },
   "buttons": {
     "addUser": "Add User",
@@ -53,8 +63,14 @@
   },
   "form": {
     "firstName": "First Name",
+    "firstNamePlaceholder": "e.g. John",
     "lastName": "Last Name",
+    "lastNamePlaceholder": "e.g. Smith",
+    "email": "Email",
     "emailAddress": "Email Address",
+    "emailPlaceholder": "user@example.com",
+    "mobile": "Mobile",
+    "mobilePlaceholder": "04XX XXX XXX",
     "userDivision": "User Division",
     "password": "Password",
     "status": "Status",

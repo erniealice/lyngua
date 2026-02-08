@@ -1,0 +1,43 @@
+{
+  "product": {
+    "page": {
+      "heading": "Products",
+      "headingActive": "Active Products",
+      "headingInactive": "Inactive Products",
+      "caption": "Manage your product catalog",
+      "captionActive": "View and manage active products",
+      "captionInactive": "View discontinued products"
+    },
+    "buttons": {
+      "addProduct": "Add Product"
+    },
+    "columns": {
+      "name": "Product Name",
+      "description": "Description",
+      "price": "Price",
+      "status": "Status"
+    },
+    "empty": {
+      "activeTitle": "No active products",
+      "activeMessage": "Add your first product to get started.",
+      "inactiveTitle": "No inactive products",
+      "inactiveMessage": "Discontinued products will appear here."
+    },
+    "form": {
+      "name": "Product Name",
+      "description": "Description",
+      "descriptionPlaceholder": "Enter product description...",
+      "price": "Price",
+      "currency": "Currency",
+      "active": "Active"
+    },
+    "actions": {
+      "view": "View Product",
+      "edit": "Edit Product",
+      "delete": "Delete Product"
+    },
+    "bulkActions": {
+      "delete": "Delete Selected"
+    }
+  }
+}
