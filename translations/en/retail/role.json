@@ -14,6 +14,7 @@
     "name": "Name",
     "description": "Description",
     "color": "Color",
+    "permissions": "Permissions",
     "status": "Status"
   },
   "empty": {
@@ -28,7 +29,7 @@
     "description": "Description",
     "descriptionPlaceholder": "e.g. Full system access",
     "color": "Color",
-    "colorPlaceholder": "e.g. blue",
+    "colorPlaceholder": "e.g. #FF0000",
     "active": "Active"
   },
   "actions": {
@@ -36,6 +37,7 @@
     "edit": "Edit role",
     "delete": "Delete role",
     "activate": "Activate",
-    "deactivate": "Deactivate"
+    "deactivate": "Deactivate",
+    "managePermissions": "Manage Permissions"
   }
 }

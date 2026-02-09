@@ -1,0 +1,5 @@
+{
+  "common.errors.authorization_failed": "Authorization failed. Please log in again.",
+  "common.errors.permission_denied": "You do not have permission to perform this action.",
+  "common.errors.workspace_access_denied": "You do not have access to this workspace."
+}

@@ -1,0 +1,27 @@
+{
+  "page": {
+    "heading": "User Roles",
+    "caption": "Manage roles assigned to this user"
+  },
+  "buttons": {
+    "assignRole": "Assign Role"
+  },
+  "columns": {
+    "roleName": "Role Name",
+    "description": "Description",
+    "color": "Color",
+    "dateAssigned": "Date Assigned"
+  },
+  "empty": {
+    "title": "No roles assigned",
+    "message": "Assign roles to this user to grant permissions"
+  },
+  "form": {
+    "role": "Role"
+  },
+  "actions": {
+    "assign": "Assign",
+    "remove": "Remove",
+    "manageRoles": "Manage Roles"
+  }
+}

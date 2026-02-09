@@ -22,6 +22,7 @@
   "columns": {
     "name": "Name",
     "email": "Email",
+    "roles": "Roles",
     "division": "Division",
     "status": "Status",
     "office": "Office",
@@ -37,7 +38,8 @@
     "delete": "Delete user",
     "deleteDisabled": "Cannot delete: division is assigned to users or clients",
     "activate": "Activate",
-    "deactivate": "Deactivate"
+    "deactivate": "Deactivate",
+    "manageRoles": "Manage Roles"
   },
   "empty": {
     "noUsersFound": "No {roleName} Found",

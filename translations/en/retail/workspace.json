@@ -1,0 +1,40 @@
+{
+  "page": {
+    "heading": "Workspaces",
+    "headingActive": "Active Workspaces",
+    "headingInactive": "Inactive Workspaces",
+    "caption": "Workspace management",
+    "captionActive": "Manage your active workspaces",
+    "captionInactive": "View inactive workspaces"
+  },
+  "buttons": {
+    "addWorkspace": "Add Workspace"
+  },
+  "columns": {
+    "name": "Name",
+    "description": "Description",
+    "private": "Private",
+    "status": "Status"
+  },
+  "empty": {
+    "activeTitle": "No active workspaces",
+    "activeMessage": "Add your first workspace to get started",
+    "inactiveTitle": "No inactive workspaces",
+    "inactiveMessage": "Inactive workspaces will appear here"
+  },
+  "form": {
+    "name": "Name",
+    "namePlaceholder": "e.g. Default Workspace",
+    "description": "Description",
+    "descriptionPlaceholder": "e.g. Main workspace for the team",
+    "private": "Private",
+    "active": "Active"
+  },
+  "actions": {
+    "view": "View workspace",
+    "edit": "Edit workspace",
+    "delete": "Delete workspace",
+    "activate": "Activate",
+    "deactivate": "Deactivate"
+  }
+}
