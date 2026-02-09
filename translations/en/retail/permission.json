@@ -12,6 +12,7 @@
   },
   "columns": {
     "name": "Name",
+    "entity": "Entity",
     "permissionCode": "Permission Code",
     "type": "Type",
     "status": "Status"
@@ -26,7 +27,8 @@
     "name": "Name",
     "namePlaceholder": "e.g. Clients: View",
     "permissionCode": "Permission Code",
-    "permissionCodePlaceholder": "e.g. clients.view",
+    "permissionCodePlaceholder": "e.g. client:read",
+    "permissionCodeHint": "Format: entity:action (e.g. client:create, user:read, product:manage)",
     "permissionType": "Permission Type",
     "description": "Description",
     "descriptionPlaceholder": "e.g. Allows viewing client records",
