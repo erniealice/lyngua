@@ -146,7 +146,9 @@
       "actions": {
         "viewClient": "View customer",
         "editClient": "Edit customer",
-        "deleteClient": "Delete customer"
+        "deleteClient": "Delete customer",
+        "deactivateClient": "Deactivate",
+        "activateClient": "Activate"
       }
     },
     "settings": {
