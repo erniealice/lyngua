@@ -136,7 +136,8 @@
       "username": "Username",
       "division": "Division",
       "status": "Status",
-      "userType": "User Type"
+      "userType": "User Type",
+      "mobile": "Mobile"
     },
     "security": {
       "title": "Security Settings",
@@ -163,6 +164,10 @@
       "auditDesc": "User activity will appear here once they start using the system.",
       "divisionsTitle": "No Divisions Assigned",
       "divisionsDesc": "Assign this user to divisions to manage their access."
+    },
+    "tabs": {
+      "info": "Info",
+      "roles": "Roles"
     }
   },
   "detailButtons": {

@@ -1,20 +1,41 @@
 {
   "product": {
-    "validation": {
-      "data_required": "Product data is required",
-      "name_required": "Product name is required",
-      "email_required": "Product email is required",
-      "email_invalid": "Product email format is invalid",
-      "id_required": "Product ID is required",
-      "request_required": "Request is required for products"
+    "actions": {
+      "activate": "Activate",
+      "deactivate": "Deactivate",
+      "set_status": "Set Status"
+    },
+    "bulk": {
+      "activate": "Activate Products",
+      "deactivate": "Deactivate Products"
+    },
+    "detail": {
+      "collections": "Collections",
+      "currency": "Currency",
+      "price": "Price",
+      "variant_count": "Variant Count"
     },
     "errors": {
-      "not_found": "Product with ID \"{entityId}\" not found",
+      "authorization_failed": "Authorization failed for products",
       "creation_failed": "Product creation failed",
-      "update_failed": "Product update failed",
       "deletion_failed": "Product deletion failed",
       "list_failed": "Failed to retrieve products",
-      "authorization_failed": "Authorization failed for products"
+      "not_found": "Product with ID \"{entityId}\" not found",
+      "update_failed": "Product update failed"
+    },
+    "tabs": {
+      "attributes": "Attributes",
+      "info": "Info",
+      "pricing": "Pricing",
+      "variants": "Variants"
+    },
+    "validation": {
+      "data_required": "Product data is required",
+      "email_invalid": "Product email format is invalid",
+      "email_required": "Product email is required",
+      "id_required": "Product ID is required",
+      "name_required": "Product name is required",
+      "request_required": "Request is required for products"
     }
   }
 }

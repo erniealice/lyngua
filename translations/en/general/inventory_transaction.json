@@ -1,0 +1,49 @@
+{
+  "inventory_transaction": {
+    "actions": {
+      "record": "Record Movement"
+    },
+    "form": {
+      "title_add": "Record Stock Movement"
+    },
+    "labels": {
+      "from_location": "From Location",
+      "name": "Transaction",
+      "notes": "Notes",
+      "performed_by": "Performed By",
+      "quantity": "Quantity",
+      "reference_id": "Reference",
+      "reference_type": "Reference Type",
+      "serial_number": "Serial Number",
+      "status": "Status",
+      "to_location": "To Location",
+      "transaction_date": "Date",
+      "transaction_type": "Type"
+    },
+    "page": {
+      "subtitle": "All inventory movements across items and locations",
+      "title": "Movement History"
+    },
+    "reference": {
+      "manual": "Manual Entry",
+      "purchase_order": "Purchase Order",
+      "sales_order": "Sales Order"
+    },
+    "status": {
+      "cancelled": "Cancelled",
+      "completed": "Completed",
+      "pending": "Pending"
+    },
+    "table": {
+      "empty": "No transactions recorded"
+    },
+    "type": {
+      "adjusted": "Adjusted",
+      "received": "Received",
+      "returned": "Returned",
+      "sold": "Sold",
+      "transferred": "Transferred",
+      "write_off": "Write Off"
+    }
+  }
+}

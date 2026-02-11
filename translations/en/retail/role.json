@@ -39,5 +39,19 @@
     "activate": "Activate",
     "deactivate": "Deactivate",
     "managePermissions": "Manage Permissions"
+  },
+  "detail": {
+    "tabs": {
+      "info": "Info",
+      "permissions": "Permissions",
+      "users": "Users"
+    },
+    "info": {
+      "title": "Role Information",
+      "name": "Name",
+      "description": "Description",
+      "color": "Color",
+      "status": "Status"
+    }
   }
 }

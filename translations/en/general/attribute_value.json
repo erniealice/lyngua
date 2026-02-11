@@ -1,0 +1,30 @@
+{
+  "attribute_value": {
+    "actions": {
+      "add": "Add Value",
+      "edit": "Edit Value",
+      "remove": "Remove Value"
+    },
+    "errors": {
+      "not_found": "Attribute value not found"
+    },
+    "form": {
+      "title_add": "Add Value",
+      "title_edit": "Edit Value",
+      "value_placeholder": "e.g., 256GB, Black"
+    },
+    "labels": {
+      "active": "Active",
+      "attribute": "Attribute",
+      "name": "Attribute Value",
+      "sort_order": "Sort Order",
+      "value": "Value"
+    },
+    "page": {
+      "title": "Attribute Values"
+    },
+    "table": {
+      "empty": "No values defined for this attribute"
+    }
+  }
+}

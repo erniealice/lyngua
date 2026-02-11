@@ -81,7 +81,25 @@
       "paymentTerm": "Payment Term",
       "selectPaymentTerm": "Select payment term",
       "slugPlaceholder": "auto-generated if empty",
-      "active": "Active"
+      "active": "Active",
+      "companyName": "Company Name",
+      "companyNamePlaceholder": "e.g. Acme Corp",
+      "customerType": "Customer Type",
+      "dateOfBirth": "Date of Birth",
+      "streetAddress": "Street Address",
+      "streetAddressPlaceholder": "123 Main St",
+      "city": "City",
+      "cityPlaceholder": "e.g. Manila",
+      "province": "Province",
+      "provincePlaceholder": "e.g. Metro Manila",
+      "postalCode": "Postal Code",
+      "postalCodePlaceholder": "e.g. 1000",
+      "notes": "Notes",
+      "notesPlaceholder": "Internal notes about this customer...",
+      "tags": "Tags",
+      "tagsPlaceholder": "Select tags...",
+      "tagsSearchPlaceholder": "Search tags...",
+      "tagsNoResults": "No tags available. Create tags in Settings."
     },
     "detail": {
       "pageTitle": "Customer Details",
@@ -149,6 +167,34 @@
         "deleteClient": "Delete customer",
         "deactivateClient": "Deactivate",
         "activateClient": "Activate"
+      },
+      "profile": {
+        "title": "Profile"
+      },
+      "company": {
+        "title": "Company"
+      },
+      "personal": {
+        "title": "Personal Information"
+      },
+      "notesSection": {
+        "title": "Notes"
+      },
+      "tags": {
+        "title": "Tags",
+        "noTags": "No tags assigned"
+      },
+      "purchaseHistory": {
+        "title": "Purchase History",
+        "lifetimeSpend": "Lifetime Spend",
+        "totalOrders": "Total Orders",
+        "avgOrderValue": "Avg Order Value",
+        "lastPurchase": "Last Purchase",
+        "empty": "No purchase history yet"
+      },
+      "tabs": {
+        "info": "Info",
+        "purchaseHistory": "Purchase History"
       }
     },
     "settings": {

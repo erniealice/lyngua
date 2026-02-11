@@ -1,0 +1,69 @@
+{
+  "inventory_item": {
+    "actions": {
+      "activate": "Activate",
+      "add": "Add Item",
+      "deactivate": "Deactivate",
+      "delete": "Delete Item",
+      "edit": "Edit Item"
+    },
+    "bulk": {
+      "activate": "Activate Items",
+      "deactivate": "Deactivate Items",
+      "delete": "Delete Items"
+    },
+    "dashboard": {
+      "category_distribution": "Category Distribution",
+      "depreciation_summary": "Depreciation Summary",
+      "items_by_location": "Items by Location",
+      "low_stock_alerts": "Low Stock Alerts",
+      "recent_movements": "Recent Movements",
+      "serial_unit_status": "Serial Unit Status",
+      "stock_turnover": "Stock Turnover",
+      "title": "Inventory Dashboard",
+      "total_stock_value": "Total Stock Value"
+    },
+    "errors": {
+      "not_found": "Inventory item not found"
+    },
+    "form": {
+      "title_add": "Add Inventory Item",
+      "title_edit": "Edit Inventory Item"
+    },
+    "item_type": {
+      "consumable": "Consumable",
+      "non_serialized": "Non-Serialized",
+      "serialized": "Serialized"
+    },
+    "labels": {
+      "active": "Active",
+      "item_type": "Item Type",
+      "location": "Location",
+      "name": "Inventory Item",
+      "notes": "Notes",
+      "product": "Product",
+      "product_variant": "Product Variant",
+      "quantity_available": "Available",
+      "quantity_on_hand": "On Hand",
+      "quantity_reserved": "Reserved",
+      "reorder_level": "Reorder Level",
+      "sku": "SKU",
+      "unit_of_measure": "Unit of Measure"
+    },
+    "page": {
+      "subtitle": "Manage inventory items by location",
+      "title": "Inventory"
+    },
+    "table": {
+      "empty": "No inventory items found"
+    },
+    "tabs": {
+      "attributes": "Attributes",
+      "audit": "Audit Trail",
+      "depreciation": "Depreciation",
+      "info": "Info",
+      "serials": "Serial Numbers",
+      "transactions": "Transactions"
+    }
+  }
+}

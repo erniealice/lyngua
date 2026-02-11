@@ -1,0 +1,36 @@
+{
+  "product_variant": {
+    "actions": {
+      "assign": "Add Variant",
+      "edit": "Edit Variant",
+      "remove": "Remove Variant",
+      "remove_confirm": "Are you sure you want to remove this variant?"
+    },
+    "errors": {
+      "not_found": "Variant not found",
+      "sku_duplicate": "This SKU already exists",
+      "sku_required": "SKU is required"
+    },
+    "form": {
+      "price_override_placeholder": "Leave empty to use base price",
+      "sku_placeholder": "e.g., IPH17PM-BLK-256",
+      "title_add": "Add Variant",
+      "title_edit": "Edit Variant"
+    },
+    "labels": {
+      "active": "Active",
+      "name": "Variant",
+      "price_override": "Price Override",
+      "product": "Product",
+      "sku": "SKU",
+      "variant_attributes": "Variant Attributes"
+    },
+    "page": {
+      "subtitle": "Manage product variant combinations",
+      "title": "Product Variants"
+    },
+    "table": {
+      "empty": "No variants defined for this product"
+    }
+  }
+}
