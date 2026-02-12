@@ -2,12 +2,12 @@
   "sales": {
     "page": {
       "heading": "Sales",
-      "headingActive": "Active Sales",
-      "headingCompleted": "Completed Sales",
+      "headingOngoing": "Ongoing Sales",
+      "headingComplete": "Complete Sales",
       "headingCancelled": "Cancelled Sales",
       "caption": "Manage your sales and invoices",
-      "captionActive": "View and manage open sales",
-      "captionCompleted": "Review completed transactions",
+      "captionOngoing": "View and manage open sales",
+      "captionComplete": "Review completed transactions",
       "captionCancelled": "View cancelled orders"
     },
     "buttons": {
@@ -21,10 +21,10 @@
       "status": "Status"
     },
     "empty": {
-      "activeTitle": "No active sales",
-      "activeMessage": "Create your first sale to get started.",
-      "completedTitle": "No completed sales",
-      "completedMessage": "Completed transactions will appear here.",
+      "ongoingTitle": "No ongoing sales",
+      "ongoingMessage": "Create your first sale to get started.",
+      "completeTitle": "No complete sales",
+      "completeMessage": "Completed transactions will appear here.",
       "cancelledTitle": "No cancelled sales",
       "cancelledMessage": "Cancelled orders will appear here."
     },
@@ -38,7 +38,16 @@
       "status": "Status",
       "notes": "Notes",
       "notesPlaceholder": "Optional notes about this sale...",
-      "active": "Active"
+      "active": "Active",
+      "location": "Location",
+      "selectLocation": "Select Location",
+      "locationRequired": "Location is required",
+      "sectionInfo": "Sale Information",
+      "sectionLocation": "Location",
+      "sectionCustomer": "Customer",
+      "sectionNotes": "Notes",
+      "walkInCustomer": "Walk-in Customer",
+      "selectCustomer": "Select Customer"
     },
     "actions": {
       "view": "View Sale",
@@ -83,6 +92,64 @@
       "auditEmptyTitle": "No audit trail entries",
       "auditEmptyMessage": "Activity logs for this sale will appear here.",
       "totalGrossProfit": "Total Gross Profit"
+    },
+    "lineItems": {
+      "addItem": "Add Item",
+      "addDiscount": "Add Discount",
+      "editItem": "Edit Item",
+      "removeItem": "Remove Item",
+      "inventoryItem": "Inventory Item",
+      "serialNumber": "Serial Number",
+      "selectItem": "Select Item",
+      "selectSerial": "Select Serial",
+      "reserved": "Reserved",
+      "reservedForSale": "Reserved — Sale #{reference}",
+      "availableSerials": "Available Serials",
+      "lineItemType": "Type",
+      "itemType": "Item",
+      "discountType": "Discount",
+      "noItems": "No items added yet. Click 'Add Item' to get started.",
+      "discountDescription": "Discount Description",
+      "discountAmount": "Discount Amount",
+      "appliesTo": "Applies To",
+      "appliesToOptional": "Optional: Tag which item this discount applies to"
+    },
+    "payments": {
+      "recordPayment": "Record Payment",
+      "editPayment": "Edit Payment",
+      "removePayment": "Remove Payment",
+      "paymentMethod": "Payment Method",
+      "selectMethod": "Select Payment Method",
+      "amountPaid": "Amount",
+      "currency": "Currency",
+      "referenceNumber": "Reference Number",
+      "paymentDate": "Payment Date",
+      "receivedBy": "Received By",
+      "noPayments": "No payments recorded yet. Click 'Record Payment' to add one.",
+      "totalPaid": "Total Paid",
+      "remainingBalance": "Remaining Balance",
+      "paymentStatus": "Payment Status",
+      "statusPartial": "Partial",
+      "statusPaid": "Paid",
+      "statusOverpaid": "Overpaid",
+      "methodCash": "Cash",
+      "methodCard": "Credit/Debit Card",
+      "methodGcash": "GCash",
+      "methodBankTransfer": "Bank Transfer",
+      "methodOther": "Other"
+    },
+    "statusMessages": {
+      "completeSuccess": "Sale completed successfully",
+      "cancelSuccess": "Sale cancelled successfully",
+      "errorNoItems": "Cannot complete a sale with no items. Add items first.",
+      "errorHasPayments": "Cannot cancel a sale with recorded payments. Remove payments first.",
+      "errorBulkPayments": "{count} of {total} selected sales have recorded payments. Remove payments first.",
+      "stockDeducted": "Stock deducted successfully",
+      "serialsReserved": "Serial numbers reserved",
+      "serialsReleased": "Serial numbers released",
+      "statusOngoing": "Ongoing",
+      "statusComplete": "Complete",
+      "statusCancelled": "Cancelled"
     }
   }
 }
