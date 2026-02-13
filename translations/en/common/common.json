@@ -140,7 +140,8 @@
       "serif": "Playfair Display",
       "mono": "JetBrains Mono",
       "rounded": "Nunito",
-      "condensed": "Barlow Condensed"
+      "condensed": "Barlow Condensed",
+      "exa": "Lexend Exa + Figtree"
     }
   },
   "helpPane": {
