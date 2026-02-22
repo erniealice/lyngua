@@ -38,6 +38,111 @@
     },
     "bulkActions": {
       "delete": "Delete Selected"
+    },
+    "tabs": {
+      "info": "Info",
+      "variants": "Variants",
+      "attributes": "Attributes",
+      "pricing": "Pricing",
+      "options": "Options"
+    },
+    "detail": {
+      "price": "Price",
+      "currency": "Currency",
+      "collections": "Collections",
+      "variantCount": "Variants",
+      "status": "Status"
+    },
+    "status": {
+      "activate": "Activate",
+      "deactivate": "Deactivate"
+    },
+    "variant": {
+      "title": "Product Variants",
+      "sku": "SKU",
+      "priceOverride": "Price Override",
+      "attributes": "Attributes",
+      "assign": "Add Variant",
+      "edit": "Edit Variant",
+      "remove": "Remove Variant",
+      "empty": "No Variants"
+    },
+    "attribute": {
+      "title": "Attribute",
+      "defaultValue": "Default Value",
+      "assign": "Add Attribute",
+      "remove": "Remove Attribute",
+      "empty": "No Attributes"
+    },
+    "options": {
+      "tab": {
+        "title": "Product Options"
+      },
+      "columns": {
+        "name": "Name",
+        "code": "Code",
+        "dataType": "Data Type",
+        "valuesCount": "Values",
+        "sortOrder": "Sort Order",
+        "status": "Status"
+      },
+      "form": {
+        "name": "Option Name",
+        "namePlaceholder": "e.g. Color, Size, Material",
+        "code": "Option Code",
+        "codePlaceholder": "e.g. color, size, material",
+        "dataType": "Data Type",
+        "sortOrder": "Sort Order",
+        "minValue": "Min Value",
+        "maxValue": "Max Value",
+        "active": "Active"
+      },
+      "dataTypes": {
+        "textList": "Text List",
+        "numberList": "Number List",
+        "colorList": "Color List",
+        "enumList": "Enum List",
+        "freeText": "Free Text",
+        "freeNumber": "Free Number"
+      },
+      "value": {
+        "columns": {
+          "label": "Label",
+          "value": "Value",
+          "sortOrder": "Sort Order",
+          "colorPreview": "Preview",
+          "status": "Status"
+        },
+        "form": {
+          "label": "Value Label",
+          "labelPlaceholder": "e.g. Red, Large, Cotton",
+          "value": "Value",
+          "valuePlaceholder": "e.g. red, lg, cotton",
+          "sortOrder": "Sort Order",
+          "colorHex": "Color Hex",
+          "colorHexPlaceholder": "#FF0000",
+          "active": "Active"
+        }
+      },
+      "actions": {
+        "addOption": "Add Option",
+        "editOption": "Edit Option",
+        "deleteOption": "Delete Option",
+        "viewValues": "View Values",
+        "addValue": "Add Value",
+        "editValue": "Edit Value",
+        "deleteValue": "Delete Value"
+      },
+      "empty": {
+        "title": "No Options",
+        "message": "No options have been configured for this product yet.",
+        "valueTitle": "No Values",
+        "valueMessage": "No values have been added to this option yet."
+      },
+      "confirm": {
+        "deleteOption": "Are you sure you want to delete option",
+        "deleteValue": "Are you sure you want to delete value"
+      }
     }
   }
 }
