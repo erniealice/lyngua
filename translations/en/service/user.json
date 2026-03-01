@@ -75,6 +75,8 @@
     "mobilePlaceholder": "04XX XXX XXX",
     "userDivision": "User Division",
     "password": "Password",
+    "passwordPlaceholder": "Enter password or generate one",
+    "passwordGenerate": "Generate Secure Password",
     "status": "Status",
     "selectDivision": "Select division",
     "required": "*",
