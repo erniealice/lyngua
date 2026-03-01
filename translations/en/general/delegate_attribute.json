@@ -1,0 +1,24 @@
+{
+  "delegate_attribute": {
+    "validation": {
+      "request_required": "Request is required",
+      "data_required": "Delegate attribute data is required",
+      "delegate_id_required": "Delegate ID is required",
+      "attribute_id_required": "Attribute ID is required",
+      "value_required": "Attribute value is required",
+      "value_empty": "Attribute value cannot be empty",
+      "value_too_long": "Attribute value is too long",
+      "id_required": "Delegate attribute ID is required"
+    },
+    "errors": {
+      "enrichment_failed": "Data enrichment failed",
+      "creation_failed": "Delegate attribute creation failed",
+      "delegate_reference_validation_failed": "Delegate reference validation failed",
+      "delegate_not_found": "Delegate not found",
+      "delegate_not_active": "Delegate is not active",
+      "attribute_reference_validation_failed": "Attribute reference validation failed",
+      "attribute_not_found": "Attribute not found",
+      "attribute_not_active": "Attribute is not active"
+    }
+  }
+}

@@ -83,6 +83,12 @@
       "proPlan": "Pro Plan"
     }
   },
+  "bottomNav": {
+    "customers": "Customers",
+    "bookings": "Bookings",
+    "services": "Services",
+    "financial": "Financial"
+  },
   "header": {
     "welcomeBack": "Welcome back",
     "searchPlaceholder": "Search anything...",

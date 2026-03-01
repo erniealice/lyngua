@@ -6,7 +6,11 @@
       "email_required": "Pricing plan email is required",
       "email_invalid": "Pricing plan email format is invalid",
       "id_required": "Pricing plan ID is required",
-      "request_required": "Request is required for pricing plans"
+      "request_required": "Request is required for pricing plans",
+      "id_too_long": "Price plan ID is too long",
+      "invalid_limit": "Invalid pagination limit",
+      "limit_too_large": "Pagination limit is too large",
+      "invalid_amount_filter": "Invalid amount filter"
     },
     "errors": {
       "not_found": "Pricing plan with ID \"{entityId}\" not found",
@@ -14,7 +18,9 @@
       "update_failed": "Pricing plan update failed",
       "deletion_failed": "Pricing plan deletion failed",
       "list_failed": "Failed to retrieve pricing plans",
-      "authorization_failed": "Authorization failed for pricing plans"
+      "authorization_failed": "Authorization failed for pricing plans",
+      "get_item_page_data_failed": "Failed to load price plan details",
+      "get_list_page_data_failed": "Failed to load price plan list"
     }
   }
 }

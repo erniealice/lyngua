@@ -6,7 +6,10 @@
       "name_required": "Location attribute name is required",
       "value_required": "Location attribute value is required",
       "id_required": "Location attribute ID is required",
-      "request_required": "Request is required for location attributes"
+      "request_required": "Request is required for location attributes",
+      "attribute_id_required": "Attribute ID is required",
+      "value_empty": "Attribute value cannot be empty",
+      "value_too_long": "Attribute value is too long"
     },
     "errors": {
       "not_found": "Location attribute with ID \"{locationAttributeId}\" not found",
@@ -14,7 +17,14 @@
       "update_failed": "Location attribute update failed",
       "deletion_failed": "Location attribute deletion failed",
       "list_failed": "Failed to retrieve location attributes",
-      "authorization_failed": "Authorization failed for location attributes"
+      "authorization_failed": "Authorization failed for location attributes",
+      "enrichment_failed": "Data enrichment failed",
+      "location_reference_validation_failed": "Location reference validation failed",
+      "location_not_found": "Location not found",
+      "location_not_active": "Location is not active",
+      "attribute_reference_validation_failed": "Attribute reference validation failed",
+      "attribute_not_found": "Attribute not found",
+      "attribute_not_active": "Attribute is not active"
     }
   }
 }

@@ -1,0 +1,12 @@
+{
+  "event_client": {
+    "validation": {
+      "request_required": "Request is required",
+      "data_required": "Event client data is required",
+      "id_required": "Event client ID is required"
+    },
+    "errors": {
+      "authorization_failed": "Authorization failed for event clients"
+    }
+  }
+}

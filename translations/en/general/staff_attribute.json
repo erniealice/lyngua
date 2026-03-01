@@ -1,0 +1,24 @@
+{
+  "staff_attribute": {
+    "validation": {
+      "request_required": "Request is required",
+      "data_required": "Staff attribute data is required",
+      "staff_id_required": "Staff ID is required",
+      "attribute_id_required": "Attribute ID is required",
+      "value_required": "Attribute value is required",
+      "value_empty": "Attribute value cannot be empty",
+      "value_too_long": "Attribute value is too long",
+      "id_required": "Staff attribute ID is required"
+    },
+    "errors": {
+      "enrichment_failed": "Data enrichment failed",
+      "creation_failed": "Staff attribute creation failed",
+      "staff_reference_validation_failed": "Staff reference validation failed",
+      "staff_not_found": "Staff member not found",
+      "staff_not_active": "Staff member is not active",
+      "attribute_reference_validation_failed": "Attribute reference validation failed",
+      "attribute_not_found": "Attribute not found",
+      "attribute_not_active": "Attribute is not active"
+    }
+  }
+}

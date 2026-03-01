@@ -6,7 +6,12 @@
       "email_required": "Invoice email is required",
       "email_invalid": "Invoice email format is invalid",
       "id_required": "Invoice ID is required",
-      "request_required": "Request is required for invoices"
+      "request_required": "Request is required for invoices",
+      "id_format": "Invalid invoice ID format",
+      "id_too_long": "Invoice ID is too long",
+      "invalid_limit": "Invalid pagination limit",
+      "limit_too_large": "Pagination limit is too large",
+      "invalid_amount_filter": "Invalid amount filter"
     },
     "errors": {
       "not_found": "Invoice with ID \"{entityId}\" not found",
@@ -14,7 +19,9 @@
       "update_failed": "Invoice update failed",
       "deletion_failed": "Invoice deletion failed",
       "list_failed": "Failed to retrieve invoices",
-      "authorization_failed": "Authorization failed for invoices"
+      "authorization_failed": "Authorization failed for invoices",
+      "get_item_page_data_failed": "Failed to load invoice details",
+      "get_list_page_data_failed": "Failed to load invoice list"
     }
   }
 }

@@ -13,7 +13,14 @@
       "email_required": "Delegate email is required",
       "email_invalid": "Delegate email format is invalid",
       "id_required": "Delegate ID is required",
-      "request_required": "Request is required for delegates"
+      "request_required": "Request is required for delegates",
+      "delegate_id_required": "Delegate ID is required",
+      "invalid_delegate_id_format": "Invalid delegate ID format",
+      "delegate_id_invalid_characters": "Delegate ID contains invalid characters",
+      "invalid_pagination_limit": "Invalid pagination limit",
+      "too_many_filters": "Too many filters specified",
+      "too_many_sort_fields": "Too many sort fields specified",
+      "search_query_too_long": "Search query is too long"
     },
     "errors": {
       "not_found": "Delegate with ID \"{delegateId}\" not found",
@@ -21,7 +28,11 @@
       "update_failed": "Delegate update failed",
       "deletion_failed": "Delegate deletion failed",
       "list_failed": "Failed to retrieve delegates",
-      "authorization_failed": "Authorization failed for delegates"
+      "authorization_failed": "Authorization failed for delegates",
+      "input_validation_failed": "Input validation failed",
+      "business_rule_validation_failed": "Business rule validation failed",
+      "get_list_page_data_failed": "Failed to load delegate list",
+      "get_item_page_data_failed": "Failed to load delegate details"
     }
   }
 }

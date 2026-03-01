@@ -1,0 +1,24 @@
+{
+  "group_attribute": {
+    "validation": {
+      "request_required": "Request is required",
+      "data_required": "Group attribute data is required",
+      "group_id_required": "Group ID is required",
+      "attribute_id_required": "Attribute ID is required",
+      "value_required": "Attribute value is required",
+      "value_empty": "Attribute value cannot be empty",
+      "value_too_long": "Attribute value is too long",
+      "id_required": "Group attribute ID is required"
+    },
+    "errors": {
+      "enrichment_failed": "Data enrichment failed",
+      "creation_failed": "Group attribute creation failed",
+      "group_reference_validation_failed": "Group reference validation failed",
+      "group_not_found": "Group not found",
+      "group_not_active": "Group is not active",
+      "attribute_reference_validation_failed": "Attribute reference validation failed",
+      "attribute_not_found": "Attribute not found",
+      "attribute_not_active": "Attribute is not active"
+    }
+  }
+}

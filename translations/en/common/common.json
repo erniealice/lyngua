@@ -83,6 +83,14 @@
       "proPlan": "Pro Plan"
     }
   },
+  "bottomNav": {
+    "customers": "Clients",
+    "bookings": "Sales",
+    "services": "Products",
+    "financial": "Reports",
+    "more": "More",
+    "allApps": "All Apps"
+  },
   "header": {
     "welcomeBack": "Welcome back",
     "searchPlaceholder": "Search anything...",
@@ -133,7 +141,8 @@
       "corporateSteel": "Corporate Steel",
       "paperInk": "Paper & Ink",
       "peachFizz": "Peach Fizz",
-      "modernRetail": "Modern Retail"
+      "modernRetail": "Modern Retail",
+      "rytaDefault": "Ryta Default"
     },
     "fontFamily": "Font Family",
     "fonts": {
@@ -142,7 +151,8 @@
       "mono": "JetBrains Mono",
       "rounded": "Nunito",
       "condensed": "Barlow Condensed",
-      "exa": "Lexend Exa + Figtree"
+      "exa": "Lexend Exa + Figtree",
+      "rytaMinimal": "Ryta Minimal"
     }
   },
   "helpPane": {

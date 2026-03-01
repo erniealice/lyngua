@@ -8,7 +8,11 @@
       "email_required": "User email is required",
       "email_invalid": "User email format is invalid",
       "id_required": "User ID is required",
-      "request_required": "Request is required for users"
+      "request_required": "Request is required for users",
+      "full_name_too_short": "Full name must be at least 3 characters",
+      "full_name_too_long": "Full name cannot exceed 100 characters",
+      "first_name_too_short": "First name must be at least 1 character",
+      "last_name_too_short": "Last name must be at least 1 character"
     },
     "errors": {
       "not_found": "User with ID \"{userId}\" not found",

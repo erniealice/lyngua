@@ -6,7 +6,10 @@
       "email_required": "Service plan email is required",
       "email_invalid": "Service plan email format is invalid",
       "id_required": "Service plan ID is required",
-      "request_required": "Request is required for service plans"
+      "request_required": "Request is required for service plans",
+      "id_too_long": "Plan ID is too long",
+      "invalid_limit": "Invalid pagination limit",
+      "limit_too_large": "Pagination limit is too large"
     },
     "errors": {
       "not_found": "Service plan with ID \"{entityId}\" not found",
@@ -14,7 +17,9 @@
       "update_failed": "Service plan update failed",
       "deletion_failed": "Service plan deletion failed",
       "list_failed": "Failed to retrieve service plans",
-      "authorization_failed": "Authorization failed for service plans"
+      "authorization_failed": "Authorization failed for service plans",
+      "get_item_page_data_failed": "Failed to load plan details",
+      "get_list_page_data_failed": "Failed to load plan list"
     }
   }
 }
