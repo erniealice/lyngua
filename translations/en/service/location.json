@@ -1,0 +1,40 @@
+{
+  "page": {
+    "heading": "Branches",
+    "headingActive": "Active Branches",
+    "headingInactive": "Inactive Branches",
+    "caption": "Salon branch management",
+    "captionActive": "Manage your active salon branches",
+    "captionInactive": "View inactive branches"
+  },
+  "buttons": {
+    "addLocation": "Add Branch"
+  },
+  "columns": {
+    "name": "Name",
+    "address": "Address",
+    "status": "Status"
+  },
+  "empty": {
+    "activeTitle": "No active branches",
+    "activeMessage": "Add your first salon branch to get started",
+    "inactiveTitle": "No inactive branches",
+    "inactiveMessage": "Inactive branches will appear here"
+  },
+  "form": {
+    "name": "Name",
+    "namePlaceholder": "e.g. Main Branch",
+    "address": "Address",
+    "addressPlaceholder": "e.g. 123 Main Street",
+    "description": "Description",
+    "descriptionPlaceholder": "e.g. Primary salon branch",
+    "active": "Active"
+  },
+  "actions": {
+    "view": "View branch",
+    "edit": "Edit branch",
+    "delete": "Delete branch",
+    "activate": "Activate",
+    "deactivate": "Deactivate"
+  }
+}

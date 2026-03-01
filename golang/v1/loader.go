@@ -136,6 +136,80 @@ func (p *TranslationProvider) LoadPath(locale, businessType, fileName, path stri
 	return nil
 }
 
+// LoadPathIfExists loads a JSON translation file with business-type cascade, extracts the
+// subtree at the given dot-notation path, then unmarshals into the provided target struct.
+// Returns nil if the file is absent in all tiers (this is expected — not all business types
+// have overrides). Returns error only on parse/decode failure.
+//
+// Example:
+//
+//	provider.LoadPathIfExists("en", "retail", "product.json", "product", &labels)
+func (p *TranslationProvider) LoadPathIfExists(locale, businessType, fileName, path string, target any) error {
+	merged := make(map[string]any)
+
+	// Build cascade: common -> general -> businessType
+	tiers := []string{"common"}
+	if businessType != "general" && businessType != "common" {
+		tiers = append(tiers, "general")
+	}
+	if businessType != "common" {
+		tiers = append(tiers, businessType)
+	}
+
+	loaded := false
+	for _, tier := range tiers {
+		absPath := filepath.Join(p.translationsPath, locale, tier, fileName)
+
+		data, err := os.ReadFile(absPath)
+		if err != nil {
+			if os.IsNotExist(err) {
+				continue // tier doesn't have this file, skip
+			}
+			return fmt.Errorf("failed to read translation file %s: %w", absPath, err)
+		}
+
+		var content map[string]any
+		if err := json.Unmarshal(data, &content); err != nil {
+			return fmt.Errorf("failed to unmarshal translation file %s: %w", absPath, err)
+		}
+
+		mergeMap(merged, content)
+		loaded = true
+	}
+
+	if !loaded {
+		return nil
+	}
+
+	// Extract subtree at the given path
+	var result any = merged
+	if path != "" {
+		segments := strings.Split(path, ".")
+		for _, seg := range segments {
+			m, ok := result.(map[string]any)
+			if !ok {
+				return fmt.Errorf("path segment %q: expected nested map but got %T", seg, result)
+			}
+			val, exists := m[seg]
+			if !exists {
+				return fmt.Errorf("path segment %q not found in translation data", seg)
+			}
+			result = val
+		}
+	}
+
+	jsonBytes, err := json.Marshal(result)
+	if err != nil {
+		return fmt.Errorf("failed to marshal merged translations: %w", err)
+	}
+
+	if err := json.Unmarshal(jsonBytes, target); err != nil {
+		return fmt.Errorf("failed to unmarshal merged translations into target: %w", err)
+	}
+
+	return nil
+}
+
 // LoadDirectory reads all JSON files from a directory within translations/{locale}/
 // and unmarshals the merged result into the provided target struct.
 // Files are loaded alphabetically; later files override earlier ones for duplicate keys.

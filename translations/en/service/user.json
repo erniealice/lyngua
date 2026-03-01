@@ -1,0 +1,243 @@
+{
+  "page": {
+    "title": "Users",
+    "titleSuffix": " - Users",
+    "heading": "Users",
+    "caption": "User management",
+    "headingActive": "Active Users",
+    "captionActive": "Manage your active user accounts",
+    "headingInactive": "Inactive Users",
+    "captionInactive": "View inactive user accounts"
+  },
+  "roles": {
+    "adminManagers": "Admin Managers",
+    "managers": "Managers",
+    "standard": "Standard Users",
+    "spectator": "Spectators"
+  },
+  "header": {
+    "subtitlePrefix": "Manage",
+    "subtitleSuffix": "in your organization"
+  },
+  "columns": {
+    "name": "Name",
+    "email": "Email",
+    "roles": "Roles",
+    "division": "Division",
+    "status": "Status",
+    "office": "Office",
+    "default": "Default"
+  },
+  "table": {
+    "searchPlaceholder": "Search users...",
+    "searchDivisionsPlaceholder": "Search divisions..."
+  },
+  "actions": {
+    "view": "View user",
+    "edit": "Edit user",
+    "delete": "Delete user",
+    "deleteDisabled": "Cannot delete: division is assigned to users or clients",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "manageRoles": "Manage Roles"
+  },
+  "empty": {
+    "noUsersFound": "No {roleName} Found",
+    "noAdminManagersFound": "No Admin Managers Found",
+    "noManagersFound": "No Managers Found",
+    "noStandardUsersFound": "No Standard Users Found",
+    "noSpectatorsFound": "No Spectators Found",
+    "noDivisionsFound": "No Divisions Found",
+    "addFirstUser": "Get started by adding your first user.",
+    "addFirstDivision": "Get started by adding your first division.",
+    "activeTitle": "No active users",
+    "activeMessage": "Add your first user to get started",
+    "inactiveTitle": "No inactive users",
+    "inactiveMessage": "Inactive users will appear here"
+  },
+  "buttons": {
+    "addUser": "Add User",
+    "addDivision": "Add User Division",
+    "addAdminManager": "Add Admin Manager",
+    "addManager": "Add Manager",
+    "addStandardUser": "Add Standard User",
+    "addSpectator": "Add Spectator"
+  },
+  "form": {
+    "firstName": "First Name",
+    "firstNamePlaceholder": "e.g. John",
+    "lastName": "Last Name",
+    "lastNamePlaceholder": "e.g. Smith",
+    "email": "Email",
+    "emailAddress": "Email Address",
+    "emailPlaceholder": "user@example.com",
+    "mobile": "Mobile",
+    "mobilePlaceholder": "04XX XXX XXX",
+    "userDivision": "User Division",
+    "password": "Password",
+    "status": "Status",
+    "selectDivision": "Select division",
+    "required": "*",
+    "save": "Save",
+    "cancel": "Cancel",
+    "active": "Active",
+    "inactive": "Inactive",
+    "validation": {
+      "firstNameRequired": "First name is required",
+      "lastNameRequired": "Last name is required",
+      "emailRequired": "Email address is required",
+      "emailInvalid": "Please enter a valid email address",
+      "divisionRequired": "User division is required"
+    },
+    "hints": {
+      "password": "Leave blank to auto-generate a secure 16-character password",
+      "passwordAuto": "Auto-generated or enter custom password",
+      "divisionSelect": "Select one or more divisions this user can access",
+      "activeStatus": "User can log in and access the system"
+    },
+    "multiSelect": {
+      "searchDivisions": "Search divisions...",
+      "noDivisionsFound": "No divisions found",
+      "moreSelected": "+{count} more",
+      "generatePassword": "Generate Secure Password"
+    }
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive",
+    "yes": "YES",
+    "no": "NO"
+  },
+  "settings": {
+    "userDivisions": {
+      "title": "User Divisions",
+      "subtitle": "Manage user divisions for your organization"
+    }
+  },
+  "bulk": {
+    "setAsAdminManager": "Set As Admin Manager",
+    "setAsManager": "Set As Manager",
+    "setAsStandard": "Set As Standard",
+    "setAsSpectator": "Set As Spectator"
+  },
+  "tabs": {
+    "basicInfo": "Basic Information",
+    "security": "Security",
+    "license": "License",
+    "auditTrail": "Audit Trail",
+    "userDivisions": "User Divisions"
+  },
+  "detail": {
+    "basicInfo": {
+      "title": "Basic Information",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "username": "Username",
+      "division": "Division",
+      "status": "Status",
+      "userType": "User Type",
+      "mobile": "Mobile"
+    },
+    "security": {
+      "title": "Security Settings",
+      "lastLogin": "Last Login",
+      "mfaStatus": "Two-Factor Authentication",
+      "mfaEnabled": "Enabled",
+      "mfaDisabled": "Not Enabled",
+      "passwordSection": "Password",
+      "resetPassword": "Reset Password"
+    },
+    "license": {
+      "title": "License Information",
+      "signupDate": "Signup Date",
+      "expiryDate": "Expiry Date",
+      "externalId": "External ID",
+      "freeCredits": "Free Credits"
+    },
+    "auditColumns": {
+      "action": "Action",
+      "date": "Date"
+    },
+    "emptyStates": {
+      "auditTitle": "No Audit History",
+      "auditDesc": "User activity will appear here once they start using the system.",
+      "divisionsTitle": "No Divisions Assigned",
+      "divisionsDesc": "Assign this user to divisions to manage their access."
+    },
+    "tabs": {
+      "info": "Info",
+      "roles": "Roles"
+    }
+  },
+  "detailButtons": {
+    "save": "Save Changes",
+    "cancel": "Cancel",
+    "deactivate": "Deactivate User",
+    "activate": "Activate User",
+    "resetMfa": "Reset MFA"
+  },
+  "divisionTabs": {
+    "basicInfo": "Basic Information",
+    "users": "Users",
+    "paymentTerms": "Payment Terms"
+  },
+  "helpdesk": {
+    "title": "Users - Help",
+    "comingSoon": "Help content for the Users module is coming soon.",
+    "quickLinks": "Quick Links",
+    "adminUsers": "Admin Users",
+    "managerUsers": "Manager Users",
+    "userDivisions": "User Divisions"
+  },
+  "divisionDetail": {
+    "basicInfo": {
+      "title": "Basic Information",
+      "divisionName": "Division Name",
+      "office": "Office",
+      "entityName": "Entity Name",
+      "abn": "ABN",
+      "status": "Status",
+      "setDefault": "Set as Default",
+      "payrollTaxExempt": "Payroll Tax Exempt",
+      "externalCompanyId": "External Company ID"
+    },
+    "address": {
+      "title": "Address",
+      "addressLine1": "Address Line 1",
+      "addressLine2": "Address Line 2",
+      "suburb": "Suburb",
+      "city": "City",
+      "state": "State",
+      "country": "Country",
+      "postcode": "Postcode"
+    },
+    "contact": {
+      "title": "Contact Information",
+      "telephone": "Telephone",
+      "fax": "Fax",
+      "afterHours": "After Hours",
+      "email": "Email",
+      "payrollEmail": "Payroll Email",
+      "financeEmail": "Finance Email",
+      "genericEmail": "Generic Email"
+    },
+    "userColumns": {
+      "name": "Name",
+      "email": "Email",
+      "status": "Status"
+    },
+    "emptyStates": {
+      "usersTitle": "No Users Assigned",
+      "usersDesc": "No users are currently assigned to this division.",
+      "paymentTermsTitle": "No Payment Terms",
+      "paymentTermsDesc": "Configure payment terms for this division."
+    }
+  },
+  "divisionButtons": {
+    "save": "Save Changes",
+    "cancel": "Cancel",
+    "deactivate": "Deactivate Division",
+    "activate": "Activate Division"
+  }
+}

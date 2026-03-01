@@ -1,0 +1,26 @@
+{
+  "page": {
+    "heading": "Role Users",
+    "caption": "Manage users assigned to this role"
+  },
+  "buttons": {
+    "assignUser": "Assign User"
+  },
+  "columns": {
+    "userName": "User Name",
+    "email": "Email",
+    "dateAssigned": "Date Assigned"
+  },
+  "empty": {
+    "title": "No users assigned",
+    "message": "Assign users to this role to grant them its permissions"
+  },
+  "form": {
+    "user": "User",
+    "assign": "Assign"
+  },
+  "actions": {
+    "assign": "Assign",
+    "remove": "Remove"
+  }
+}

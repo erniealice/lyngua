@@ -1,0 +1,17 @@
+{
+  "page_title": "My Profile",
+  "personal_info": "Personal Information",
+  "first_name": "First Name",
+  "last_name": "Last Name",
+  "email": "Email Address",
+  "mobile": "Mobile Number",
+  "address": "Address",
+  "street": "Street Address",
+  "city": "City",
+  "province": "Province",
+  "postal_code": "Postal Code",
+  "company": "Company Name",
+  "save": "Save Changes",
+  "saved_success": "Profile updated successfully",
+  "saved_error": "Failed to update profile"
+}

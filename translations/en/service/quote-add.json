@@ -1,0 +1,90 @@
+{
+  "page": {
+    "title": "Create New Quote",
+    "heading": "Create New Quote",
+    "caption": "Follow the steps below to create a new quote"
+  },
+  "stepper": {
+    "step1Title": "Basic Details",
+    "step1Desc": "Select client and award",
+    "step2Title": "Roles / Jobs",
+    "step2Desc": "Choose applicable jobs",
+    "step3Title": "Rates",
+    "step3Desc": "Configure pay rates",
+    "backToQuotes": "Back to Quotes",
+    "stepOf": "Step {current} of {total}"
+  },
+  "step1": {
+    "title": "Select Client & Award",
+    "subtitle": "Complete the details below to configure your quote",
+    "company": "Company",
+    "division": "Division",
+    "effectiveDate": "Effective Date",
+    "quoteTemplate": "Quote Template",
+    "award": "Award",
+    "calculationType": "Calculation Type",
+    "wic": "WIC",
+    "wicRateNote": "Client WIC Rate as of {date} is {rate}%",
+    "applyTenure": "Apply Tenure",
+    "awardHelp": "Not sure of your award?",
+    "awardHelpLink": "Click here",
+    "selectPlaceholder": "-Select-",
+    "chooseAward": "--Choose an Award--"
+  },
+  "step2": {
+    "title": "Select Jobs",
+    "subtitle": "Building and Construction General On-site Award 2020",
+    "tip": "Tip:",
+    "tipMessage": "Select the jobs and roles that apply to this quote. You can filter by job type or search for specific positions.",
+    "allJobs": "-- All Jobs --",
+    "allRoles": "-- All Roles --",
+    "searchPlaceholder": "Search Jobs and Roles",
+    "colJobs": "Jobs",
+    "colRole": "Role",
+    "colPayRateType": "Pay Rate Type",
+    "colMinWeeklyWages": "Minimum Weekly Wages",
+    "colPayRate": "Pay Rate",
+    "colAutoIncrease": "Auto-increase non-base items pay rates",
+    "colSelect": "",
+    "autoIncreaseTooltip": "Auto-increase non-base items when base rate changes",
+    "pagination": {
+      "showing": "Showing",
+      "to": "to",
+      "of": "of",
+      "jobs": "jobs",
+      "prev": "Prev",
+      "next": "Next"
+    },
+    "on": "ON",
+    "off": "OFF"
+  },
+  "step3": {
+    "title": "Select Quote Items",
+    "instructions": [
+      "Uncheck the box to remove items",
+      "Don't worry - you can add & edit items and titles on the next screen"
+    ],
+    "calculationType": "Calculation Type",
+    "awardIncrease": "Award Increase By {percent}%",
+    "colTitle": "Title",
+    "colMappedTitle": "Mapped Title",
+    "colMultiplier": "Multiplier",
+    "colPayRate": "Pay Rate",
+    "colPaySuper": "Pay Super",
+    "colKeep": "Keep",
+    "autoIncrease": "Auto-increase non-base items pay rates",
+    "autoIncreaseNote": "If switched on, increasing hourly (or base) pay rate automatically increase non base items pay rates",
+    "selectAll": "Select All",
+    "baseRateLabel": "Calculate increase from Perm / Base Rate",
+    "baseRateNote": "Hit enter key to re-calculate casual rates",
+    "on": "ON",
+    "off": "OFF"
+  },
+  "buttons": {
+    "next": "Next",
+    "previous": "Previous",
+    "save": "Save",
+    "cancel": "Cancel",
+    "createQuote": "Create Quote"
+  }
+}

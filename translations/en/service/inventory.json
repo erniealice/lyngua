@@ -1,0 +1,177 @@
+{
+  "inventory": {
+    "page": {
+      "heading": "Availability",
+      "caption": "Manage service availability across branches",
+      "location": "Branch"
+    },
+    "buttons": {
+      "addItem": "Add Service Slot"
+    },
+    "columns": {
+      "productName": "Service",
+      "sku": "SKU",
+      "onHand": "Capacity",
+      "available": "Available",
+      "reorderLevel": "Min Threshold",
+      "status": "Status"
+    },
+    "empty": {
+      "title": "No availability configured",
+      "message": "Add your first service slot to start tracking availability at this branch."
+    },
+    "form": {
+      "product": "Service",
+      "sku": "SKU",
+      "skuPlaceholder": "e.g. SVC-001",
+      "onHand": "Total Capacity",
+      "reserved": "Reserved Slots",
+      "reorderLevel": "Min Threshold",
+      "unitOfMeasure": "Unit of Measure",
+      "notes": "Notes",
+      "notesPlaceholder": "Optional notes about this service slot...",
+      "active": "Active"
+    },
+    "actions": {
+      "view": "View Slot",
+      "edit": "Edit Slot",
+      "delete": "Delete Slot"
+    },
+    "bulkActions": {
+      "delete": "Delete Selected"
+    },
+    "tabs": {
+      "info": "Info",
+      "attributes": "Options",
+      "serials": "Serials",
+      "transactions": "Transactions",
+      "depreciation": "Depreciation",
+      "audit": "Audit Trail"
+    },
+    "itemType": {
+      "serialized": "Serialized",
+      "nonSerialized": "Non-Serialized",
+      "consumable": "Consumable"
+    },
+    "status": {
+      "activate": "Activate",
+      "deactivate": "Deactivate"
+    },
+    "serial": {
+      "title": "Serial Numbers",
+      "serialNumber": "Serial Number",
+      "imei": "IMEI",
+      "status": "Status",
+      "warrantyStart": "Warranty Start",
+      "warrantyEnd": "Warranty End",
+      "purchaseOrder": "Purchase Order",
+      "soldReference": "Booking Reference",
+      "assign": "Add Serial",
+      "edit": "Edit Serial",
+      "remove": "Remove Serial",
+      "empty": "No serial numbers registered.",
+      "statusAvailable": "Available",
+      "statusSold": "Booked",
+      "statusReserved": "Reserved",
+      "statusDefective": "Unavailable",
+      "statusReturned": "Returned"
+    },
+    "transaction": {
+      "title": "Transactions",
+      "type": "Type",
+      "quantity": "Quantity",
+      "date": "Date",
+      "reference": "Reference",
+      "performedBy": "Performed By",
+      "record": "Record Movement",
+      "empty": "No transactions recorded.",
+      "typeReceived": "Received",
+      "typeSold": "Booked",
+      "typeAdjusted": "Adjusted",
+      "typeTransferred": "Transferred",
+      "typeReturned": "Returned",
+      "typeWriteOff": "Write-Off"
+    },
+    "depreciation": {
+      "title": "Depreciation",
+      "method": "Method",
+      "costBasis": "Cost Basis",
+      "salvageValue": "Salvage Value",
+      "usefulLife": "Useful Life",
+      "startDate": "Start Date",
+      "accumulated": "Accumulated Depreciation",
+      "bookValue": "Book Value",
+      "configure": "Configure Depreciation",
+      "edit": "Edit Depreciation",
+      "notConfigured": "No depreciation policy configured",
+      "methodStraightLine": "Straight Line",
+      "methodDecliningBalance": "Declining Balance",
+      "methodSumOfYears": "Sum of Years' Digits"
+    },
+    "dashboard": {
+      "title": "Availability Dashboard",
+      "totalStockValue": "Total Service Value",
+      "lowStockAlerts": "Low Availability Alerts",
+      "stockTurnover": "Booking Turnover",
+      "itemsByLocation": "Services by Branch",
+      "depreciationSummary": "Depreciation Summary",
+      "serialUnitStatus": "Serial Unit Status",
+      "recentMovements": "Recent Activity",
+      "categoryDistribution": "Category Distribution"
+    },
+    "movements": {
+      "title": "Transactions",
+      "subtitle": "All transactions across services and branches",
+      "dateRange": "Date Range",
+      "locationFilter": "Branch",
+      "typeFilter": "Transaction Type",
+      "productSearch": "Search service or SKU",
+      "clearAll": "Clear All",
+      "exportCsv": "Export CSV",
+      "allLocations": "All Branches",
+      "allTypes": "All Types"
+    },
+    "detail": {
+      "itemInfo": "Service Information",
+      "productName": "Service",
+      "sku": "SKU",
+      "location": "Branch",
+      "onHand": "Total Capacity",
+      "reserved": "Reserved Slots",
+      "available": "Available Slots",
+      "reorderLevel": "Min Threshold",
+      "unitOfMeasure": "Unit of Measure",
+      "status": "Status",
+      "notes": "Notes",
+      "attributeName": "Option",
+      "attributeValue": "Value",
+      "serialNumber": "Serial Number",
+      "imei": "IMEI",
+      "serialStatus": "Status",
+      "warrantyEnd": "Warranty Expires",
+      "purchaseOrder": "Purchase Order",
+      "saleReference": "Booking Reference",
+      "totalUnits": "Total Slots",
+      "availableUnits": "Available",
+      "soldUnits": "Booked",
+      "reservedUnits": "Reserved",
+      "date": "Date",
+      "type": "Type",
+      "quantity": "Quantity",
+      "reference": "Reference",
+      "serial": "Serial",
+      "performedBy": "Performed By",
+      "auditAction": "Action",
+      "auditUser": "User",
+      "description": "Description",
+      "attributeEmptyTitle": "No options",
+      "attributeEmptyMessage": "This service has no options configured.",
+      "serialEmptyTitle": "No serial numbers",
+      "serialEmptyMessage": "No serial numbers have been registered for this service.",
+      "transactionEmptyTitle": "No transactions",
+      "transactionEmptyMessage": "No activity recorded for this service.",
+      "auditEmptyTitle": "No audit trail entries",
+      "auditEmptyMessage": "Activity logs for this service will appear here."
+    }
+  }
+}

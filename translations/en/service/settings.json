@@ -1,0 +1,70 @@
+{
+  "page": {
+    "title": "Settings",
+    "heading": "Settings",
+    "caption": "Configure your account and preferences"
+  },
+  "sidebar": {
+    "title": "Settings",
+    "searchPlaceholder": "Find a setting..."
+  },
+  "breadcrumb": {
+    "settings": "Settings"
+  },
+  "companyProfile": {
+    "title": "Company Profile",
+    "subtitle": "Manage your company information and branding",
+    "logoSection": "Company Logo",
+    "logoUploadTitle": "Upload company logo",
+    "logoUploadDesc": "Your logo will appear on invoices, quotes, and reports. Supported formats: JPG, JPEG, PNG. Max size: 2MB.",
+    "chooseFile": "Choose File",
+    "remove": "Remove",
+    "detailsSection": "Company Details",
+    "companyName": "Company Name",
+    "abn": "ABN",
+    "address": "Address",
+    "city": "City",
+    "state": "State",
+    "selectState": "Select state",
+    "country": "Country",
+    "postcode": "Postcode",
+    "contactSection": "Contact Information",
+    "phone": "Phone",
+    "email": "Email",
+    "website": "Website"
+  },
+  "general": {
+    "title": "General Settings",
+    "subtitle": "Configure default application settings",
+    "regionalSection": "Regional Settings",
+    "currency": "Default Currency",
+    "dateFormat": "Date Format",
+    "timeZone": "Time Zone",
+    "fiscalYearStart": "Fiscal Year Start",
+    "payrollSection": "Payroll Defaults",
+    "payFrequency": "Default Pay Frequency",
+    "hoursPerWeek": "Default Hours per Week"
+  },
+  "users": {
+    "title": "Users",
+    "subtitle": "Manage user accounts and permissions",
+    "addUser": "Add User",
+    "colName": "Name",
+    "colEmail": "Email",
+    "colRole": "Role",
+    "colDivision": "Division",
+    "colStatus": "Status",
+    "colActions": "Actions",
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "buttons": {
+    "cancel": "Cancel",
+    "saveChanges": "Save Changes"
+  },
+  "empty": {
+    "comingSoonTitle": "Coming Soon",
+    "comingSoonMsg": "This settings panel is under development. Check back soon for updates.",
+    "backToSettings": "Back to Settings"
+  }
+}

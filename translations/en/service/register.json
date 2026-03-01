@@ -1,0 +1,14 @@
+{
+  "page_title": "Create Account",
+  "first_name": "First Name",
+  "last_name": "Last Name",
+  "email": "Email Address",
+  "mobile": "Mobile Number",
+  "password": "Password",
+  "confirm_password": "Confirm Password",
+  "submit": "Create Account",
+  "already_have_account": "Already have an account?",
+  "sign_in": "Sign In",
+  "password_mismatch": "Passwords do not match",
+  "email_taken": "An account with this email already exists"
+}

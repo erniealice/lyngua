@@ -1,0 +1,50 @@
+{
+  "pricelist": {
+    "page": {
+      "heading": "Price Lists",
+      "headingActive": "Active Price Lists",
+      "headingInactive": "Inactive Price Lists",
+      "caption": "Manage your service pricing structures",
+      "captionActive": "View and manage active price lists",
+      "captionInactive": "View inactive price lists"
+    },
+    "buttons": {
+      "addPriceList": "Add Price List"
+    },
+    "columns": {
+      "name": "Name",
+      "dateStart": "Start Date",
+      "dateEnd": "End Date",
+      "status": "Status"
+    },
+    "empty": {
+      "activeTitle": "No active price lists",
+      "activeMessage": "Create a price list to start managing your service pricing.",
+      "inactiveTitle": "No inactive price lists",
+      "inactiveMessage": "There are no inactive price lists."
+    },
+    "form": {
+      "name": "Name",
+      "description": "Description",
+      "descriptionPlaceholder": "Enter a description for this price list",
+      "dateStart": "Start Date",
+      "dateEnd": "End Date",
+      "active": "Active"
+    },
+    "actions": {
+      "view": "View",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "bulkActions": {
+      "delete": "Delete"
+    },
+    "detail": {
+      "basicInfo": "Basic Information",
+      "prices": "Prices",
+      "productName": "Service",
+      "amount": "Amount",
+      "currency": "Currency"
+    }
+  }
+}

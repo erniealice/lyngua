@@ -1,0 +1,9 @@
+{
+    "sales_app_label": "Bookings",
+    "sales_app_icon": "icon-calendar",
+    "sales_title": "Bookings",
+    "sales_ongoing_label": "Upcoming",
+    "sales_ongoing_icon": "icon-calendar",
+    "sales_complete_label": "Completed",
+    "reports_app_label": "Financial"
+}

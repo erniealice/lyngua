@@ -1,0 +1,148 @@
+{
+  "product": {
+    "page": {
+      "heading": "Services",
+      "headingActive": "Active Services",
+      "headingInactive": "Inactive Services",
+      "caption": "Manage your service menu",
+      "captionActive": "View and manage active services",
+      "captionInactive": "View discontinued services"
+    },
+    "buttons": {
+      "addProduct": "Add Service"
+    },
+    "columns": {
+      "name": "Service Name",
+      "description": "Description",
+      "price": "Price",
+      "status": "Status"
+    },
+    "empty": {
+      "activeTitle": "No active services",
+      "activeMessage": "Add your first service to get started.",
+      "inactiveTitle": "No inactive services",
+      "inactiveMessage": "Discontinued services will appear here."
+    },
+    "form": {
+      "name": "Service Name",
+      "description": "Description",
+      "descriptionPlaceholder": "Enter service description...",
+      "price": "Price",
+      "currency": "Currency",
+      "active": "Active"
+    },
+    "actions": {
+      "view": "View Service",
+      "edit": "Edit Service",
+      "delete": "Delete Service"
+    },
+    "bulkActions": {
+      "delete": "Delete Selected"
+    },
+    "tabs": {
+      "info": "Info",
+      "variants": "Duration Options",
+      "attributes": "Attributes",
+      "pricing": "Pricing",
+      "options": "Options"
+    },
+    "detail": {
+      "price": "Price",
+      "currency": "Currency",
+      "collections": "Categories",
+      "variantCount": "Duration Options",
+      "status": "Status"
+    },
+    "status": {
+      "activate": "Activate",
+      "deactivate": "Deactivate"
+    },
+    "variant": {
+      "title": "Duration Options",
+      "sku": "SKU",
+      "priceOverride": "Price Override",
+      "attributes": "Attributes",
+      "assign": "Add Duration Option",
+      "edit": "Edit Duration Option",
+      "remove": "Remove Duration Option",
+      "empty": "No Duration Options"
+    },
+    "attribute": {
+      "title": "Attribute",
+      "defaultValue": "Default Value",
+      "assign": "Add Attribute",
+      "remove": "Remove Attribute",
+      "empty": "No Attributes"
+    },
+    "options": {
+      "tab": {
+        "title": "Service Options"
+      },
+      "columns": {
+        "name": "Name",
+        "code": "Code",
+        "dataType": "Data Type",
+        "valuesCount": "Values",
+        "sortOrder": "Sort Order",
+        "status": "Status"
+      },
+      "form": {
+        "name": "Option Name",
+        "namePlaceholder": "e.g. Duration, Add-on, Intensity",
+        "code": "Option Code",
+        "codePlaceholder": "e.g. duration, addon, intensity",
+        "dataType": "Data Type",
+        "sortOrder": "Sort Order",
+        "minValue": "Min Value",
+        "maxValue": "Max Value",
+        "active": "Active"
+      },
+      "dataTypes": {
+        "textList": "Text List",
+        "numberList": "Number List",
+        "colorList": "Color List",
+        "enumList": "Enum List",
+        "freeText": "Free Text",
+        "freeNumber": "Free Number"
+      },
+      "value": {
+        "columns": {
+          "label": "Label",
+          "value": "Value",
+          "sortOrder": "Sort Order",
+          "colorPreview": "Preview",
+          "status": "Status"
+        },
+        "form": {
+          "label": "Value Label",
+          "labelPlaceholder": "e.g. 30 min, 60 min, 90 min",
+          "value": "Value",
+          "valuePlaceholder": "e.g. 30min, 60min, 90min",
+          "sortOrder": "Sort Order",
+          "colorHex": "Color Hex",
+          "colorHexPlaceholder": "#FF0000",
+          "active": "Active"
+        }
+      },
+      "actions": {
+        "addOption": "Add Option",
+        "editOption": "Edit Option",
+        "deleteOption": "Delete Option",
+        "viewValues": "View Values",
+        "addValue": "Add Value",
+        "editValue": "Edit Value",
+        "deleteValue": "Delete Value"
+      },
+      "empty": {
+        "title": "No Options",
+        "message": "No options have been configured for this service yet.",
+        "valueTitle": "No Values",
+        "valueMessage": "No values have been added to this option yet."
+      },
+      "confirm": {
+        "deleteOption": "Are you sure you want to delete option",
+        "deleteValue": "Are you sure you want to delete value"
+      }
+    }
+  }
+}
