@@ -85,5 +85,31 @@
     "summaryGrossProfit": "Gross Profit",
     "summaryExpenses": "Expenses",
     "summaryNetProfit": "Net Profit"
+  },
+  "dashboard": {
+    "title": "Financial",
+    "subtitle": "Financial overview and report navigation",
+    "revenueCard": "Revenue",
+    "expensesCard": "Expenses",
+    "netProfitCard": "Net Profit",
+    "netMarginCard": "Net Margin",
+    "revenueDesc": "View and analyze booking revenue",
+    "grossProfitDesc": "Analyze profitability by service, branch, or period",
+    "costOfSalesDesc": "Track cost of goods sold and COGS ratios",
+    "expensesDesc": "View and manage expense transactions",
+    "netProfitDesc": "Profit and loss statement with all line items",
+    "viewReport": "View Report"
+  },
+  "period": {
+    "thisMonth": "This Month",
+    "lastMonth": "Last Month",
+    "thisQuarter": "This Quarter",
+    "lastQuarter": "Last Quarter",
+    "thisYear": "This Year",
+    "lastYear": "Last Year",
+    "custom": "Custom",
+    "dateStart": "Start Date",
+    "dateEnd": "End Date",
+    "groupBy": "Group by"
   }
 }

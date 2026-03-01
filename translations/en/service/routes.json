@@ -58,5 +58,58 @@
         "edit_url": "/action/customers/tags/edit/{id}",
         "delete_url": "/action/customers/tags/delete",
         "bulk_delete_url": "/action/customers/tags/bulk-delete"
+    },
+    "plan": {
+        "list_url": "/app/packages/list/{status}",
+        "detail_url": "/app/packages/{id}",
+        "add_url": "/action/packages/add",
+        "edit_url": "/action/packages/edit/{id}",
+        "delete_url": "/action/packages/delete"
+    },
+    "subscription": {
+        "list_url": "/app/memberships/list/{status}",
+        "detail_url": "/app/memberships/{id}",
+        "add_url": "/action/memberships/add",
+        "edit_url": "/action/memberships/edit/{id}",
+        "delete_url": "/action/memberships/delete"
+    },
+    "payment_collection": {
+        "list_url": "/app/payment-collections/list/{status}",
+        "detail_url": "/app/payment-collections/{id}",
+        "add_url": "/action/payment-collections/add",
+        "edit_url": "/action/payment-collections/edit/{id}",
+        "delete_url": "/action/payment-collections/delete"
+    },
+    "location": {
+        "detail_url": "/app/locations/{id}"
+    },
+    "sales": {
+        "dashboard_url": "/app/bookings/dashboard",
+        "list_url": "/app/bookings/list/{status}",
+        "detail_url": "/app/bookings/detail/{id}",
+        "add_url": "/action/bookings/add",
+        "edit_url": "/action/bookings/edit/{id}",
+        "delete_url": "/action/bookings/delete",
+        "bulk_delete_url": "/action/bookings/delete/bulk",
+        "set_status_url": "/action/bookings/status/set",
+        "bulk_set_status_url": "/action/bookings/status/set/bulk",
+        "tab_action_url": "/action/bookings/detail/{id}/tab/{tab}",
+        "line_item_table_url": "/action/bookings/detail/{id}/items/table",
+        "line_item_add_url": "/action/bookings/detail/{id}/items/add",
+        "line_item_edit_url": "/action/bookings/detail/{id}/items/edit/{itemId}",
+        "line_item_remove_url": "/action/bookings/detail/{id}/items/remove",
+        "line_item_discount_url": "/action/bookings/detail/{id}/items/add-discount",
+        "payment_table_url": "/action/bookings/detail/{id}/payment/table",
+        "payment_add_url": "/action/bookings/detail/{id}/payment/add",
+        "payment_edit_url": "/action/bookings/detail/{id}/payment/edit/{pid}",
+        "payment_remove_url": "/action/bookings/detail/{id}/payment/remove"
+    },
+    "reports": {
+        "dashboard_url": "/app/financial/dashboard",
+        "revenue_url": "/app/financial/revenue",
+        "cost_of_sales_url": "/app/financial/cost-of-sales",
+        "gross_profit_url": "/app/financial/gross-profit",
+        "expenses_url": "/app/financial/expenses",
+        "net_profit_url": "/app/financial/net-profit"
     }
 }
