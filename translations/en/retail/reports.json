@@ -36,5 +36,54 @@
     "summaryCogs": "COGS",
     "summaryGrossProfit": "Gross Profit",
     "summaryMargin": "Margin"
+  },
+  "revenue": {
+    "title": "Revenue Report",
+    "subtitle": "View and analyze revenue transactions",
+    "reference": "Reference",
+    "customer": "Customer",
+    "date": "Date",
+    "amount": "Amount",
+    "status": "Status",
+    "summaryTotal": "Total Revenue",
+    "summaryTransactions": "Transactions",
+    "summaryAverage": "Average"
+  },
+  "costOfSales": {
+    "title": "Cost of Sales Report",
+    "subtitle": "Analyze cost of goods sold by product",
+    "summaryTotalCogs": "Total COGS",
+    "summaryRevenue": "Revenue",
+    "summaryCosRatio": "COGS Ratio",
+    "summaryUnits": "Units Sold"
+  },
+  "expenses": {
+    "title": "Expenses Report",
+    "subtitle": "View and analyze expense transactions",
+    "reference": "Reference",
+    "vendor": "Vendor",
+    "category": "Category",
+    "date": "Date",
+    "amount": "Amount",
+    "status": "Status",
+    "summaryTotal": "Total Expenses",
+    "summaryCount": "Count",
+    "summaryApproved": "Approved",
+    "summaryPending": "Pending"
+  },
+  "netProfit": {
+    "title": "Net Profit Report",
+    "subtitle": "Profit and loss summary",
+    "revenue": "Revenue",
+    "costOfSales": "Cost of Sales",
+    "grossProfit": "Gross Profit",
+    "grossMargin": "Gross Margin",
+    "expenses": "Operating Expenses",
+    "netProfit": "Net Profit",
+    "netMargin": "Net Margin",
+    "summaryRevenue": "Revenue",
+    "summaryGrossProfit": "Gross Profit",
+    "summaryExpenses": "Expenses",
+    "summaryNetProfit": "Net Profit"
   }
 }
