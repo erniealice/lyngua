@@ -133,13 +133,19 @@
     "basicInfo": {
       "title": "Basic Information",
       "firstName": "First Name",
+      "firstNamePlaceholder": "e.g. John",
       "lastName": "Last Name",
+      "lastNamePlaceholder": "e.g. Smith",
       "email": "Email",
+      "emailPlaceholder": "user@example.com",
       "username": "Username",
       "division": "Division",
       "status": "Status",
       "userType": "User Type",
-      "mobile": "Mobile"
+      "mobile": "Mobile",
+      "mobilePlaceholder": "04XX XXX XXX",
+      "active": "Active",
+      "save": "Save Changes"
     },
     "security": {
       "title": "Security Settings",
@@ -169,7 +175,9 @@
     },
     "tabs": {
       "info": "Info",
-      "roles": "Roles"
+      "roles": "Roles",
+      "security": "Security",
+      "auditTrail": "Audit Trail"
     }
   },
   "detailButtons": {

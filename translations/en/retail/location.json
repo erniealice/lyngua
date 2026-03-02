@@ -36,5 +36,32 @@
     "delete": "Delete location",
     "activate": "Activate",
     "deactivate": "Deactivate"
+  },
+  "detail": {
+    "basicInfo": {
+      "title": "Basic Information",
+      "name": "Name",
+      "namePlaceholder": "e.g. Main Office",
+      "address": "Address",
+      "addressPlaceholder": "e.g. 123 Main Street",
+      "description": "Description",
+      "descriptionPlaceholder": "e.g. Primary business location",
+      "active": "Active",
+      "save": "Save Changes"
+    },
+    "tabs": {
+      "info": "Info",
+      "users": "Users",
+      "priceLists": "Price Lists",
+      "auditTrail": "Audit Trail"
+    },
+    "emptyStates": {
+      "usersTitle": "No Users Assigned",
+      "usersDesc": "Users assigned to this location will appear here.",
+      "priceListsTitle": "No Price Lists",
+      "priceListsDesc": "Price lists for this location will appear here.",
+      "auditTitle": "No Audit History",
+      "auditDesc": "Location activity will appear here."
+    }
   }
 }

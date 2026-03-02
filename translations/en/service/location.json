@@ -36,5 +36,32 @@
     "delete": "Delete branch",
     "activate": "Activate",
     "deactivate": "Deactivate"
+  },
+  "detail": {
+    "basicInfo": {
+      "title": "Basic Information",
+      "name": "Name",
+      "namePlaceholder": "e.g. Main Branch",
+      "address": "Address",
+      "addressPlaceholder": "e.g. 123 Main Street",
+      "description": "Description",
+      "descriptionPlaceholder": "e.g. Primary salon branch",
+      "active": "Active",
+      "save": "Save Changes"
+    },
+    "tabs": {
+      "info": "Info",
+      "users": "Users",
+      "priceLists": "Price Lists",
+      "auditTrail": "Audit Trail"
+    },
+    "emptyStates": {
+      "usersTitle": "No Users Assigned",
+      "usersDesc": "Users assigned to this branch will appear here.",
+      "priceListsTitle": "No Price Lists",
+      "priceListsDesc": "Price lists for this branch will appear here.",
+      "auditTitle": "No Audit History",
+      "auditDesc": "Branch activity will appear here."
+    }
   }
 }

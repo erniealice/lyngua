@@ -5,5 +5,9 @@
     "sales_ongoing_label": "Upcoming",
     "sales_ongoing_icon": "icon-calendar",
     "sales_complete_label": "Completed",
-    "reports_app_label": "Financial"
+    "reports_app_label": "Financial",
+    "assets_app_label": "Assets",
+    "assets_app_icon": "icon-briefcase",
+    "fixed_assets_label": "Fixed Assets",
+    "fixed_assets_icon": "icon-archive"
 }

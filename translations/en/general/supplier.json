@@ -1,0 +1,23 @@
+{
+  "supplier": {
+    "validation": {
+      "data_required": "Supplier data is required",
+      "company_name_required": "Supplier company name is required",
+      "company_name_too_short": "Company name must be at least 2 characters long",
+      "company_name_too_long": "Company name cannot exceed 200 characters",
+      "supplier_type_required": "Supplier type is required",
+      "internal_id_too_short": "Internal ID is too short",
+      "internal_id_too_long": "Internal ID is too long",
+      "id_required": "Supplier ID is required",
+      "request_required": "Request is required for suppliers"
+    },
+    "errors": {
+      "not_found": "Supplier with ID \"{supplierId}\" not found",
+      "creation_failed": "Supplier creation failed",
+      "update_failed": "Supplier update failed",
+      "deletion_failed": "Supplier deletion failed",
+      "list_failed": "Failed to retrieve suppliers",
+      "authorization_failed": "Authorization failed for suppliers"
+    }
+  }
+}

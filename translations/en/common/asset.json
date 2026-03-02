@@ -1,0 +1,115 @@
+{
+  "page": {
+    "heading": "Fixed Assets",
+    "headingActive": "Active Assets",
+    "headingInactive": "Inactive Assets",
+    "caption": "Manage your organization's fixed assets",
+    "captionActive": "Assets currently in service",
+    "captionInactive": "Deactivated or retired assets"
+  },
+  "dashboard": {
+    "heading": "Asset Overview",
+    "caption": "Summary of your asset portfolio",
+    "totalAssets": "Total Assets",
+    "totalBookValue": "Total Book Value",
+    "fullyDepreciated": "Fully Depreciated",
+    "underMaintenance": "Under Maintenance",
+    "recentActivity": "Recent Activity",
+    "noRecentActivity": "No recent asset activity"
+  },
+  "columns": {
+    "assetNumber": "Asset No.",
+    "name": "Name",
+    "category": "Category",
+    "location": "Location",
+    "acquisitionCost": "Cost",
+    "bookValue": "Book Value",
+    "status": "Status",
+    "depreciationMethod": "Method",
+    "usefulLife": "Useful Life",
+    "accumulatedDepreciation": "Accum. Depr."
+  },
+  "empty": {
+    "activeTitle": "No active assets",
+    "activeMessage": "Add your first asset to start tracking your fixed asset register.",
+    "inactiveTitle": "No inactive assets",
+    "inactiveMessage": "Deactivated assets will appear here."
+  },
+  "actions": {
+    "view": "View",
+    "edit": "Edit",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "delete": "Delete",
+    "dispose": "Dispose"
+  },
+  "buttons": {
+    "addAsset": "Add Asset"
+  },
+  "form": {
+    "name": "Asset Name",
+    "namePlaceholder": "e.g., Hydraulic Salon Chair",
+    "assetNumber": "Asset Number",
+    "assetNumberPlaceholder": "e.g., FA-1001",
+    "description": "Description",
+    "descriptionPlaceholder": "Detailed description of the asset",
+    "category": "Category",
+    "categoryPlaceholder": "Select a category",
+    "location": "Location",
+    "locationPlaceholder": "Select a location",
+    "acquisitionCost": "Acquisition Cost",
+    "acquisitionCostPlaceholder": "0.00",
+    "salvageValue": "Salvage Value",
+    "salvageValuePlaceholder": "0.00",
+    "usefulLife": "Useful Life (months)",
+    "usefulLifePlaceholder": "60",
+    "depreciationMethod": "Depreciation Method",
+    "straightLine": "Straight Line",
+    "decliningBalance": "Declining Balance",
+    "doubleDecliningBalance": "Double Declining Balance",
+    "sumOfYearsDigits": "Sum of Years' Digits",
+    "unitsOfProduction": "Units of Production",
+    "serialNumber": "Serial Number",
+    "serialNumberPlaceholder": "Manufacturer serial number",
+    "manufacturer": "Manufacturer",
+    "manufacturerPlaceholder": "e.g., HydraChair Co.",
+    "model": "Model",
+    "modelPlaceholder": "e.g., HC-500",
+    "acquisitionDate": "Acquisition Date",
+    "datePlacedInService": "Date Placed in Service",
+    "status": "Status"
+  },
+  "detail": {
+    "heading": "Asset Details",
+    "tabs": {
+      "info": "Information",
+      "depreciation": "Depreciation",
+      "maintenance": "Maintenance",
+      "transactions": "Transactions"
+    },
+    "info": {
+      "identity": "Identity",
+      "financial": "Financial Details",
+      "depreciation": "Depreciation Configuration",
+      "physical": "Physical Details"
+    }
+  },
+  "status": {
+    "draft": "Draft",
+    "notYetAcquired": "Not Yet Acquired",
+    "inService": "In Service",
+    "suspended": "Suspended",
+    "fullyDepreciated": "Fully Depreciated",
+    "impaired": "Impaired",
+    "retired": "Retired",
+    "disposedSold": "Sold",
+    "disposedScrapped": "Scrapped",
+    "writtenOff": "Written Off"
+  },
+  "errors": {
+    "creationFailed": "Failed to create asset",
+    "updateFailed": "Failed to update asset",
+    "deleteFailed": "Failed to delete asset",
+    "notFound": "Asset not found"
+  }
+}

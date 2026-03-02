@@ -7,8 +7,14 @@ import (
 )
 
 // NewDefaultTranslationProvider creates a TranslationProvider with the default translations path.
-// Automatically resolves the path using runtime.Caller, making it work from any calling package.
+// Checks TRANSLATIONS_PATH env var first (for container deployment), then falls back to
+// runtime.Caller resolution (for dev/workspace mode).
 func NewDefaultTranslationProvider() *TranslationProvider {
+	// Container deployment: explicit path via env var
+	if envPath := os.Getenv("TRANSLATIONS_PATH"); envPath != "" {
+		return NewTranslationProvider(envPath)
+	}
+
 	_, filename, _, ok := runtime.Caller(0)
 	if !ok {
 		return NewTranslationProvider(filepath.Join("..", "..", "translations"))
