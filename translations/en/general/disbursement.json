@@ -1,0 +1,81 @@
+{
+  "page": {
+    "heading_draft": "Draft Disbursements",
+    "heading_pending": "Pending Disbursements",
+    "heading_approved": "Approved Disbursements",
+    "heading_paid": "Paid Disbursements",
+    "heading_cancelled": "Cancelled Disbursements",
+    "heading_overdue": "Overdue Disbursements",
+    "heading_all": "All Disbursements"
+  },
+  "buttons": {
+    "add": "Record Disbursement",
+    "export": "Export"
+  },
+  "columns": {
+    "reference": "Reference",
+    "payee": "Payee",
+    "amount": "Amount",
+    "method": "Method",
+    "date": "Date",
+    "status": "Status",
+    "approved_by": "Approved By",
+    "notes": "Notes"
+  },
+  "empty": {
+    "draft": "No draft disbursements",
+    "pending": "No pending disbursements",
+    "approved": "No approved disbursements",
+    "paid": "No paid disbursements",
+    "cancelled": "No cancelled disbursements",
+    "overdue": "No overdue disbursements"
+  },
+  "form": {
+    "reference_number": "Reference Number",
+    "payee": "Payee",
+    "amount": "Amount",
+    "method": "Disbursement Method",
+    "date": "Date",
+    "approved_by": "Approved By",
+    "approved_role": "Role",
+    "notes": "Notes",
+    "currency": "Currency",
+    "expenditure_id": "Related Purchase/Expense",
+    "disbursement_type": "Disbursement Type"
+  },
+  "actions": {
+    "view": "View",
+    "edit": "Edit",
+    "delete": "Delete",
+    "approve": "Approve",
+    "mark_paid": "Mark Paid",
+    "cancel": "Cancel",
+    "reactivate": "Reactivate"
+  },
+  "bulk": {
+    "delete": "Delete Selected",
+    "approve": "Approve Selected",
+    "mark_paid": "Mark Paid",
+    "cancel": "Cancel Selected",
+    "confirm_delete": "Are you sure you want to delete {{count}} disbursement(s)?",
+    "confirm_approve": "Are you sure you want to approve {{count}} disbursement(s)?",
+    "confirm_paid": "Are you sure you want to mark {{count}} disbursement(s) as paid?",
+    "confirm_cancel": "Are you sure you want to cancel {{count}} disbursement(s)?"
+  },
+  "detail": {
+    "tab_info": "Info",
+    "tab_audit": "Audit",
+    "info_heading": "Disbursement Details",
+    "disbursement_info": "Disbursement Information",
+    "payment_info": "Payment Information",
+    "approval_info": "Approval Information"
+  },
+  "status": {
+    "draft": "Draft",
+    "pending": "Pending",
+    "approved": "Approved",
+    "paid": "Paid",
+    "cancelled": "Cancelled",
+    "overdue": "Overdue"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "page": {
+    "heading_pending": "Pending Collections",
+    "heading_completed": "Completed Collections",
+    "heading_failed": "Failed Collections",
+    "heading_partial": "Partial Collections",
+    "heading_all": "All Collections"
+  },
+  "buttons": {
+    "add": "Record Collection",
+    "export": "Export"
+  },
+  "columns": {
+    "reference": "Reference",
+    "customer": "Customer",
+    "amount": "Amount",
+    "method": "Method",
+    "date": "Date",
+    "status": "Status",
+    "received_by": "Received By",
+    "notes": "Notes"
+  },
+  "empty": {
+    "pending": "No pending collections",
+    "completed": "No completed collections",
+    "failed": "No failed collections",
+    "partial": "No partial collections"
+  },
+  "form": {
+    "reference_number": "Reference Number",
+    "customer": "Customer",
+    "amount": "Amount",
+    "method": "Collection Method",
+    "date": "Date Received",
+    "received_by": "Received By",
+    "received_role": "Role",
+    "notes": "Notes",
+    "currency": "Currency",
+    "revenue_id": "Related Sale",
+    "collection_type": "Collection Type"
+  },
+  "actions": {
+    "view": "View",
+    "edit": "Edit",
+    "delete": "Delete",
+    "mark_complete": "Mark Complete",
+    "reactivate": "Reactivate"
+  },
+  "bulk": {
+    "delete": "Delete Selected",
+    "mark_complete": "Mark Complete",
+    "reactivate": "Reactivate",
+    "confirm_delete": "Are you sure you want to delete {{count}} collection(s)?",
+    "confirm_complete": "Are you sure you want to mark {{count}} collection(s) as complete?",
+    "confirm_reactivate": "Are you sure you want to reactivate {{count}} collection(s)?"
+  },
+  "detail": {
+    "tab_info": "Info",
+    "tab_audit": "Audit",
+    "info_heading": "Collection Details",
+    "collection_info": "Collection Information",
+    "payment_info": "Payment Information"
+  },
+  "status": {
+    "pending": "Pending",
+    "completed": "Completed",
+    "failed": "Failed",
+    "partial": "Partial"
+  }
+}

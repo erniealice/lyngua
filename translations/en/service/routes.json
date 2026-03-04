@@ -50,7 +50,8 @@
         "detail_url": "/app/customers/detail/{id}",
         "tab_action_url": "/action/customers/{id}/tab/{tab}",
         "set_status_url": "/action/customers/set-status",
-        "bulk_set_status_url": "/action/customers/bulk-set-status"
+        "bulk_set_status_url": "/action/customers/bulk-set-status",
+        "receivables_aging_url": "/app/customers/reports/receivables-aging"
     },
     "client_tag": {
         "list_url": "/app/customers/settings/tags/list",
@@ -102,7 +103,8 @@
         "payment_table_url": "/action/bookings/detail/{id}/payment/table",
         "payment_add_url": "/action/bookings/detail/{id}/payment/add",
         "payment_edit_url": "/action/bookings/detail/{id}/payment/edit/{pid}",
-        "payment_remove_url": "/action/bookings/detail/{id}/payment/remove"
+        "payment_remove_url": "/action/bookings/detail/{id}/payment/remove",
+        "sales_summary_url": "/app/bookings/reports/bookings-summary"
     },
     "reports": {
         "dashboard_url": "/app/financial/dashboard",
@@ -111,5 +113,16 @@
         "gross_profit_url": "/app/financial/gross-profit",
         "expenses_url": "/app/financial/expenses",
         "net_profit_url": "/app/financial/net-profit"
+    },
+    "supplier": {
+        "payables_aging_url": "/app/suppliers/reports/payables-aging"
+    },
+    "expenditure": {
+        "purchases_summary_url": "/app/purchases/reports/purchases-summary",
+        "expenses_summary_url": "/app/expenses/reports/expenses-summary"
+    },
+    "asset": {
+        "lapsing_schedule_url": "/app/assets/reports/lapsing-schedule",
+        "depreciation_policies_url": "/app/assets/settings/depreciation-policies"
     }
 }

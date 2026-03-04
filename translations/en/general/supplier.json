@@ -1,5 +1,72 @@
 {
   "supplier": {
+    "page": {
+      "heading": "Suppliers",
+      "headingActive": "Active Suppliers",
+      "headingBlocked": "Blocked Suppliers",
+      "headingOnHold": "On Hold Suppliers",
+      "caption": "Manage your suppliers",
+      "captionActive": "Suppliers currently active and available for transactions",
+      "captionBlocked": "Suppliers that have been blocked from transactions",
+      "captionOnHold": "Suppliers temporarily placed on hold"
+    },
+    "buttons": {
+      "addNew": "Add Supplier"
+    },
+    "columns": {
+      "companyName": "Company Name",
+      "supplierType": "Type",
+      "internalId": "Internal ID",
+      "status": "Status",
+      "paymentTerms": "Payment Terms",
+      "contactName": "Contact Name",
+      "dateCreated": "Date Created"
+    },
+    "empty": {
+      "activeTitle": "No active suppliers",
+      "activeMessage": "Add your first supplier to get started.",
+      "blockedTitle": "No blocked suppliers",
+      "blockedMessage": "Blocked suppliers will appear here.",
+      "onHoldTitle": "No suppliers on hold",
+      "onHoldMessage": "Suppliers placed on hold will appear here."
+    },
+    "form": {
+      "companyName": "Company Name",
+      "supplierType": "Supplier Type",
+      "taxId": "Tax ID",
+      "registrationNumber": "Registration Number",
+      "streetAddress": "Street Address",
+      "city": "City",
+      "province": "Province",
+      "postalCode": "Postal Code",
+      "country": "Country",
+      "defaultCurrency": "Default Currency",
+      "paymentTerms": "Payment Terms",
+      "leadTimeDays": "Lead Time (Days)",
+      "creditLimit": "Credit Limit",
+      "status": "Status",
+      "website": "Website",
+      "notes": "Notes",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phone": "Phone"
+    },
+    "detail": {
+      "infoTab": "Supplier Information",
+      "companyInfo": { "title": "Company Information" },
+      "contactInfo": { "title": "Contact Information" },
+      "financialInfo": { "title": "Financial Information" },
+      "addressInfo": { "title": "Address" }
+    },
+    "actions": {
+      "view": "View",
+      "edit": "Edit",
+      "delete": "Delete",
+      "activate": "Activate",
+      "block": "Block",
+      "setOnHold": "Set On Hold"
+    },
     "validation": {
       "data_required": "Supplier data is required",
       "company_name_required": "Supplier company name is required",
