@@ -1,0 +1,28 @@
+{
+  "page": {
+    "heading": "Client Tags",
+    "subtitle": "Manage tags for organizing clients"
+  },
+  "buttons": {
+    "addTag": "Add Tag"
+  },
+  "columns": {
+    "tagName": "Tag Name",
+    "customers": "Customers",
+    "description": "Description",
+    "status": "Status"
+  },
+  "empty": {
+    "title": "No tags found",
+    "message": "Create your first tag to start organizing clients."
+  },
+  "actions": {
+    "edit": "Edit",
+    "delete": "Delete"
+  },
+  "confirm": {
+    "deleteTitle": "Delete Tags",
+    "deleteMessage": "Are you sure you want to delete {{count}} tag(s)? This action cannot be undone.",
+    "cannotDelete": "Cannot delete: tag is assigned to customers"
+  }
+}

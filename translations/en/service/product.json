@@ -44,14 +44,19 @@
       "variants": "Duration Options",
       "attributes": "Attributes",
       "pricing": "Pricing",
-      "options": "Options"
+      "options": "Options",
+      "images": "Images",
+      "stock": "Availability",
+      "auditTrail": "Audit Trail"
     },
     "detail": {
       "price": "Price",
       "currency": "Currency",
       "collections": "Categories",
       "variantCount": "Duration Options",
-      "status": "Status"
+      "status": "Status",
+      "optionsLabel": "Options",
+      "emptyVariantsMessage": "No duration options have been created for this service yet."
     },
     "status": {
       "activate": "Activate",
@@ -65,7 +70,12 @@
       "assign": "Add Duration Option",
       "edit": "Edit Duration Option",
       "remove": "Remove Duration Option",
-      "empty": "No Duration Options"
+      "empty": "No Duration Options",
+      "location": "Branch",
+      "qtyOnHand": "Capacity",
+      "serialCount": "Serial Count",
+      "noStock": "No Availability",
+      "noStockMsg": "No availability records found for this duration option."
     },
     "attribute": {
       "title": "Attribute",
@@ -73,6 +83,36 @@
       "assign": "Add Attribute",
       "remove": "Remove Attribute",
       "empty": "No Attributes"
+    },
+    "confirm": {
+      "activate": "Activate Service",
+      "activateMessage": "Are you sure you want to activate this service?",
+      "deactivate": "Deactivate Service",
+      "deactivateMessage": "Are you sure you want to deactivate this service?",
+      "bulkActivate": "Activate Services",
+      "bulkActivateMessage": "Are you sure you want to activate the selected services?",
+      "bulkDeactivate": "Deactivate Services",
+      "bulkDeactivateMessage": "Are you sure you want to deactivate the selected services?",
+      "bulkDelete": "Delete Services",
+      "bulkDeleteMessage": "Are you sure you want to delete the selected services? This action cannot be undone.",
+      "removeVariant": "Remove Duration Option",
+      "removeVariantMessage": "Are you sure you want to remove this duration option?"
+    },
+    "errors": {
+      "permissionDenied": "You do not have permission to perform this action",
+      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
+      "notFound": "Service not found",
+      "idRequired": "Service ID is required",
+      "noIDsProvided": "No service IDs were provided",
+      "invalidStatus": "Invalid service status",
+      "cannotDelete": "This service cannot be deleted because it is in use",
+      "nameRequired": "Service name is required",
+      "fieldRequired": "This field is required"
+    },
+    "breadcrumb": {
+      "products": "Services",
+      "product": "Service",
+      "option": "Option"
     },
     "options": {
       "tab": {

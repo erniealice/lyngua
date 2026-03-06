@@ -15,7 +15,11 @@
     "fullyDepreciated": "Fully Depreciated",
     "underMaintenance": "Under Maintenance",
     "recentActivity": "Recent Activity",
-    "noRecentActivity": "No recent asset activity"
+    "noRecentActivity": "No recent asset activity",
+    "activityAcquired": "New asset acquired",
+    "activityMaintenance": "Maintenance completed",
+    "activityDepreciation": "Depreciation recorded",
+    "unknownAsset": "Unknown Asset"
   },
   "columns": {
     "assetNumber": "Asset No.",
@@ -27,7 +31,24 @@
     "status": "Status",
     "depreciationMethod": "Method",
     "usefulLife": "Useful Life",
-    "accumulatedDepreciation": "Accum. Depr."
+    "accumulatedDepreciation": "Accum. Depr.",
+    "period": "Period",
+    "startValue": "Start Value",
+    "depreciation": "Depreciation",
+    "endValue": "End Value",
+    "accumulated": "Accumulated",
+    "date": "Date",
+    "type": "Type",
+    "description": "Description",
+    "cost": "Cost",
+    "amount": "Amount",
+    "reference": "Reference",
+    "item": "Item",
+    "cogs": "COGS",
+    "netRevenue": "Net Revenue",
+    "cogsPct": "COGS %",
+    "units": "Units",
+    "totals": "TOTALS"
   },
   "empty": {
     "activeTitle": "No active assets",
@@ -41,7 +62,19 @@
     "activate": "Activate",
     "deactivate": "Deactivate",
     "delete": "Delete",
-    "dispose": "Dispose"
+    "dispose": "Dispose",
+    "confirmActivate": "Are you sure you want to activate %s?",
+    "confirmDeactivate": "Are you sure you want to deactivate %s?",
+    "confirmDelete": "Are you sure you want to delete %s? This action cannot be undone.",
+    "confirmBulkActivate": "Are you sure you want to activate {{count}} asset(s)?",
+    "confirmBulkDeactivate": "Are you sure you want to deactivate {{count}} asset(s)?",
+    "confirmBulkDelete": "Are you sure you want to delete {{count}} asset(s)? This action cannot be undone.",
+    "invalidFormData": "Invalid form data",
+    "idRequired": "Asset ID is required",
+    "noIDsProvided": "No asset IDs provided",
+    "invalidStatus": "Invalid status",
+    "invalidTargetStatus": "Invalid target status",
+    "noPermission": "No permission"
   },
   "buttons": {
     "addAsset": "Add Asset"

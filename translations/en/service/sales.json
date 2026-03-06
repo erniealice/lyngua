@@ -52,7 +52,9 @@
     "actions": {
       "view": "View Booking",
       "edit": "Edit Booking",
-      "delete": "Delete Booking"
+      "delete": "Delete Booking",
+      "complete": "Complete Booking",
+      "reactivate": "Reactivate Booking"
     },
     "bulkActions": {
       "delete": "Delete Selected"
@@ -91,7 +93,22 @@
       "auditUser": "User",
       "auditEmptyTitle": "No audit trail entries",
       "auditEmptyMessage": "Activity logs for this booking will appear here.",
-      "totalGrossProfit": "Total Gross Profit"
+      "totalGrossProfit": "Total Gross Profit",
+      "reference": "Reference",
+      "titlePrefix": "Booking",
+      "paymentEmptyTitle": "No payments recorded",
+      "paymentEmptyMessage": "Record a payment to track amounts received for this booking.",
+      "addItem": "Add Service",
+      "addDiscount": "Add Discount",
+      "editItem": "Edit Service",
+      "removeItem": "Remove Service",
+      "itemType": "Type",
+      "itemTypeItem": "Service",
+      "itemTypeDiscount": "Discount",
+      "inventoryItem": "Service Item",
+      "serialNumber": "Serial Number",
+      "itemEmptyTitle": "No service items",
+      "itemEmptyMessage": "Add services to this booking to get started."
     },
     "lineItems": {
       "addItem": "Add Service",
@@ -137,6 +154,48 @@
       "methodGcash": "GCash",
       "methodBankTransfer": "Bank Transfer",
       "methodOther": "Other"
+    },
+    "confirm": {
+      "complete": "Complete Booking",
+      "completeMessage": "Are you sure you want to complete this booking? This action cannot be undone.",
+      "reactivate": "Reactivate Booking",
+      "reactivateMessage": "Are you sure you want to reactivate this booking?",
+      "bulkComplete": "Complete Bookings",
+      "bulkCompleteMessage": "Are you sure you want to complete the selected bookings? This action cannot be undone.",
+      "bulkReactivate": "Reactivate Bookings",
+      "bulkReactivateMessage": "Are you sure you want to reactivate the selected bookings?"
+    },
+    "errors": {
+      "permissionDenied": "You do not have permission to perform this action",
+      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
+      "notFound": "Booking not found",
+      "idRequired": "Booking ID is required",
+      "noIDsProvided": "No booking IDs were provided",
+      "invalidStatus": "Invalid booking status",
+      "invalidTargetStatus": "Cannot change to the requested status",
+      "noItemsCannotComplete": "Cannot complete a booking with no services. Add services first.",
+      "hasPaymentsCannotCancel": "Cannot cancel a booking with recorded payments. Remove payments first.",
+      "bulkHasPayments": "Some selected bookings have recorded payments and cannot be cancelled",
+      "bulkNoItems": "Some selected bookings have no services and cannot be completed",
+      "paymentNotFound": "Payment not found",
+      "invalidDiscount": "Invalid discount amount"
+    },
+    "dashboard": {
+      "title": "Bookings Dashboard",
+      "totalSales": "Total Bookings",
+      "revenue": "Revenue",
+      "completed": "Completed",
+      "active": "Active",
+      "revenueTrend": "Revenue Trend",
+      "week": "Week",
+      "month": "Month",
+      "year": "Year",
+      "recentSales": "Recent Bookings",
+      "viewAll": "View All",
+      "newSaleCreated": "New Booking Created",
+      "saleCompleted": "Booking Completed",
+      "saleUpdated": "Booking Updated",
+      "saleCancelled": "Booking Cancelled"
     },
     "statusMessages": {
       "completeSuccess": "Booking completed successfully",

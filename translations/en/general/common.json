@@ -8,5 +8,18 @@
     "cancel": "Cancel",
     "edit": "Edit",
     "delete": "Delete"
+  },
+  "errors": {
+    "general": "Something went wrong",
+    "notFound": "Not found",
+    "unauthorized": "Unauthorized",
+    "forbidden": "Forbidden",
+    "noPermission": "No permission",
+    "permissionDenied": "Permission denied",
+    "invalidFormData": "Invalid form data",
+    "invalidStatus": "Invalid status",
+    "invalidTargetStatus": "Invalid target status",
+    "idRequired": "ID is required",
+    "noIDsProvided": "No IDs provided"
   }
 }

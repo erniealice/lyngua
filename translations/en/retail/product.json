@@ -44,14 +44,19 @@
       "variants": "Variants",
       "attributes": "Attributes",
       "pricing": "Pricing",
-      "options": "Options"
+      "options": "Options",
+      "images": "Images",
+      "stock": "Stock",
+      "auditTrail": "Audit Trail"
     },
     "detail": {
       "price": "Price",
       "currency": "Currency",
       "collections": "Collections",
       "variantCount": "Variants",
-      "status": "Status"
+      "status": "Status",
+      "optionsLabel": "Options",
+      "emptyVariantsMessage": "No variants have been created for this product yet."
     },
     "status": {
       "activate": "Activate",
@@ -65,7 +70,12 @@
       "assign": "Add Variant",
       "edit": "Edit Variant",
       "remove": "Remove Variant",
-      "empty": "No Variants"
+      "empty": "No Variants",
+      "location": "Location",
+      "qtyOnHand": "Qty On Hand",
+      "serialCount": "Serial Count",
+      "noStock": "No Stock",
+      "noStockMsg": "No stock records found for this variant."
     },
     "attribute": {
       "title": "Attribute",
@@ -73,6 +83,36 @@
       "assign": "Add Attribute",
       "remove": "Remove Attribute",
       "empty": "No Attributes"
+    },
+    "confirm": {
+      "activate": "Activate Product",
+      "activateMessage": "Are you sure you want to activate this product?",
+      "deactivate": "Deactivate Product",
+      "deactivateMessage": "Are you sure you want to deactivate this product?",
+      "bulkActivate": "Activate Products",
+      "bulkActivateMessage": "Are you sure you want to activate the selected products?",
+      "bulkDeactivate": "Deactivate Products",
+      "bulkDeactivateMessage": "Are you sure you want to deactivate the selected products?",
+      "bulkDelete": "Delete Products",
+      "bulkDeleteMessage": "Are you sure you want to delete the selected products? This action cannot be undone.",
+      "removeVariant": "Remove Variant",
+      "removeVariantMessage": "Are you sure you want to remove this variant?"
+    },
+    "errors": {
+      "permissionDenied": "You do not have permission to perform this action",
+      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
+      "notFound": "Product not found",
+      "idRequired": "Product ID is required",
+      "noIDsProvided": "No product IDs were provided",
+      "invalidStatus": "Invalid product status",
+      "cannotDelete": "This product cannot be deleted because it is in use",
+      "nameRequired": "Product name is required",
+      "fieldRequired": "This field is required"
+    },
+    "breadcrumb": {
+      "products": "Products",
+      "product": "Product",
+      "option": "Option"
     },
     "options": {
       "tab": {

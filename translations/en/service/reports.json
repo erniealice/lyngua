@@ -35,7 +35,10 @@
     "summaryNetRevenue": "Net Revenue",
     "summaryCogs": "COGS",
     "summaryGrossProfit": "Gross Profit",
-    "summaryMargin": "Margin"
+    "summaryMargin": "Margin",
+    "totals": "TOTALS",
+    "emptyTitle": "No data",
+    "emptyMessage": "No gross profit data found for the selected period."
   },
   "revenue": {
     "title": "Revenue Report",
@@ -47,7 +50,9 @@
     "status": "Status",
     "summaryTotal": "Total Revenue",
     "summaryTransactions": "Transactions",
-    "summaryAverage": "Average"
+    "summaryAverage": "Average",
+    "emptyTitle": "No revenue",
+    "emptyMessage": "No revenue records found for the selected period."
   },
   "costOfSales": {
     "title": "Cost of Sales Report",
@@ -55,7 +60,14 @@
     "summaryTotalCogs": "Total COGS",
     "summaryRevenue": "Revenue",
     "summaryCosRatio": "COGS Ratio",
-    "summaryUnits": "Units Sold"
+    "summaryUnits": "Units Sold",
+    "item": "Item",
+    "cogs": "COGS",
+    "netRevenue": "Net Revenue",
+    "cogsPct": "COGS %",
+    "units": "Units",
+    "emptyTitle": "No data",
+    "emptyMessage": "No cost of sales data found for the selected period."
   },
   "expenses": {
     "title": "Expenses Report",
@@ -69,7 +81,9 @@
     "summaryTotal": "Total Expenses",
     "summaryCount": "Count",
     "summaryApproved": "Approved",
-    "summaryPending": "Pending"
+    "summaryPending": "Pending",
+    "emptyTitle": "No expenses",
+    "emptyMessage": "No expense records found for the selected period."
   },
   "netProfit": {
     "title": "Net Profit Report",

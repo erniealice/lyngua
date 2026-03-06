@@ -14,7 +14,8 @@
       "onHand": "Capacity",
       "available": "Available",
       "reorderLevel": "Min Threshold",
-      "status": "Status"
+      "status": "Status",
+      "type": "Type"
     },
     "empty": {
       "title": "No availability configured",
@@ -106,7 +107,8 @@
       "notConfigured": "No depreciation policy configured",
       "methodStraightLine": "Straight Line",
       "methodDecliningBalance": "Declining Balance",
-      "methodSumOfYears": "Sum of Years' Digits"
+      "methodSumOfYears": "Sum of Years' Digits",
+      "monthsUnit": "months"
     },
     "dashboard": {
       "title": "Availability Dashboard",
@@ -117,7 +119,8 @@
       "depreciationSummary": "Depreciation Summary",
       "serialUnitStatus": "Serial Unit Status",
       "recentMovements": "Recent Activity",
-      "categoryDistribution": "Category Distribution"
+      "categoryDistribution": "Category Distribution",
+      "typesUnit": "types"
     },
     "movements": {
       "title": "Transactions",
@@ -129,7 +132,9 @@
       "clearAll": "Clear All",
       "exportCsv": "Export CSV",
       "allLocations": "All Branches",
-      "allTypes": "All Types"
+      "allTypes": "All Types",
+      "productColumn": "Service",
+      "variantSku": "Variant / SKU"
     },
     "detail": {
       "itemInfo": "Service Information",
@@ -170,8 +175,51 @@
       "serialEmptyMessage": "No serial numbers have been registered for this service.",
       "transactionEmptyTitle": "No transactions",
       "transactionEmptyMessage": "No activity recorded for this service.",
+      "product": "Service",
+      "viewProduct": "View Service",
+      "active": "active",
+      "inactive": "inactive",
+      "serialNumbers": "Serial Numbers",
       "auditEmptyTitle": "No audit trail entries",
-      "auditEmptyMessage": "Activity logs for this service will appear here."
+      "auditEmptyMessage": "Activity logs for this service will appear here.",
+      "titlePrefix": "Service Slot",
+      "monthsUnit": "months",
+      "typesUnit": "types",
+      "tabBasicInfo": "Basic Info",
+      "tabAttributes": "Options",
+      "tabSerials": "Serials",
+      "tabTransactions": "Transactions",
+      "tabAuditTrail": "Audit Trail"
+    },
+    "confirm": {
+      "activate": "Activate Slot",
+      "activateMessage": "Are you sure you want to activate this service slot?",
+      "deactivate": "Deactivate Slot",
+      "deactivateMessage": "Are you sure you want to deactivate this service slot?",
+      "delete": "Delete Slot",
+      "deleteMessage": "Are you sure you want to delete this service slot? This action cannot be undone.",
+      "bulkActivate": "Activate Slots",
+      "bulkActivateMessage": "Are you sure you want to activate the selected service slots?",
+      "bulkDeactivate": "Deactivate Slots",
+      "bulkDeactivateMessage": "Are you sure you want to deactivate the selected service slots?",
+      "bulkDelete": "Delete Slots",
+      "bulkDeleteMessage": "Are you sure you want to delete the selected service slots? This action cannot be undone."
+    },
+    "errors": {
+      "permissionDenied": "You do not have permission to perform this action",
+      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
+      "notFound": "Service slot not found",
+      "idRequired": "Service slot ID is required",
+      "noIDsProvided": "No service slot IDs were provided",
+      "invalidStatus": "Invalid service slot status",
+      "noPermission": "You do not have permission to access this resource",
+      "serialNotFound": "Serial number not found",
+      "serialIDRequired": "Serial number ID is required",
+      "invalidDepreciationMethod": "Invalid depreciation method"
+    },
+    "breadcrumb": {
+      "products": "Services",
+      "product": "Service"
     }
   }
 }

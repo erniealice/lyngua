@@ -1,0 +1,38 @@
+{
+  "errors": {
+    "permissionDenied": "Permission denied",
+    "invalidFormData": "Invalid form data",
+    "invalidStatus": "Invalid status",
+    "invalidTargetStatus": "Invalid target status",
+    "notFound": "Not found",
+    "idRequired": "ID is required",
+    "noIdsProvided": "No IDs provided",
+    "passwordRequired": "Password is required",
+    "passwordFailed": "Password change failed",
+    "roleRequired": "Role is required",
+    "permissionRequired": "Permission is required",
+    "userRequired": "User is required",
+    "tagNotFound": "Tag not found",
+    "tagNameExists": "A tag with this name already exists",
+    "verifyFailed": "Verification failed",
+    "cannotDeleteInUse": "Cannot delete: item is in use"
+  },
+  "confirm": {
+    "activate": "Are you sure you want to activate %s?",
+    "deactivate": "Are you sure you want to deactivate %s?",
+    "delete": "Are you sure you want to delete %s?",
+    "block": "Are you sure you want to block %s?",
+    "remove": "Are you sure you want to remove %s?",
+    "bulkActivate": "Are you sure you want to activate {{count}} item(s)?",
+    "bulkDeactivate": "Are you sure you want to deactivate {{count}} item(s)?",
+    "bulkDelete": "Are you sure you want to delete {{count}} item(s)? This action cannot be undone.",
+    "bulkBlock": "Are you sure you want to block {{count}} item(s)?"
+  },
+  "badges": {
+    "allow": "Allow",
+    "deny": "Deny",
+    "yes": "Yes",
+    "no": "No",
+    "noPermission": "No permission"
+  }
+}

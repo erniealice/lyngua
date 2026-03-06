@@ -26,7 +26,13 @@
     "submit_button": "Login",
     "submitting_button": "Logging in...",
     "no_account": "Don't have an account?",
-    "signup_link": "Sign up"
+    "signup_link": "Sign up",
+    "adminTitle": "Admin / Owner",
+    "adminDescription": "Sign in with your admin credentials",
+    "emailPlaceholder": "you@example.com",
+    "staffTitle": "Branch Staff",
+    "staffDescription": "Sign in with your staff PIN",
+    "staffPinComingSoon": "PIN entry coming soon"
   },
   "register": {
     "title": "Create Account",

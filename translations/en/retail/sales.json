@@ -52,7 +52,9 @@
     "actions": {
       "view": "View Sale",
       "edit": "Edit Sale",
-      "delete": "Delete Sale"
+      "delete": "Delete Sale",
+      "complete": "Complete Sale",
+      "reactivate": "Reactivate Sale"
     },
     "bulkActions": {
       "delete": "Delete Selected"
@@ -91,7 +93,22 @@
       "auditUser": "User",
       "auditEmptyTitle": "No audit trail entries",
       "auditEmptyMessage": "Activity logs for this sale will appear here.",
-      "totalGrossProfit": "Total Gross Profit"
+      "totalGrossProfit": "Total Gross Profit",
+      "reference": "Reference",
+      "titlePrefix": "Sale",
+      "paymentEmptyTitle": "No payments recorded",
+      "paymentEmptyMessage": "Record a payment to track amounts received for this sale.",
+      "addItem": "Add Item",
+      "addDiscount": "Add Discount",
+      "editItem": "Edit Item",
+      "removeItem": "Remove Item",
+      "itemType": "Type",
+      "itemTypeItem": "Item",
+      "itemTypeDiscount": "Discount",
+      "inventoryItem": "Inventory Item",
+      "serialNumber": "Serial Number",
+      "itemEmptyTitle": "No line items",
+      "itemEmptyMessage": "Add items to this sale to get started."
     },
     "lineItems": {
       "addItem": "Add Item",
@@ -137,6 +154,48 @@
       "methodGcash": "GCash",
       "methodBankTransfer": "Bank Transfer",
       "methodOther": "Other"
+    },
+    "confirm": {
+      "complete": "Complete Sale",
+      "completeMessage": "Are you sure you want to complete this sale? This action cannot be undone.",
+      "reactivate": "Reactivate Sale",
+      "reactivateMessage": "Are you sure you want to reactivate this sale?",
+      "bulkComplete": "Complete Sales",
+      "bulkCompleteMessage": "Are you sure you want to complete the selected sales? This action cannot be undone.",
+      "bulkReactivate": "Reactivate Sales",
+      "bulkReactivateMessage": "Are you sure you want to reactivate the selected sales?"
+    },
+    "errors": {
+      "permissionDenied": "You do not have permission to perform this action",
+      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
+      "notFound": "Sale not found",
+      "idRequired": "Sale ID is required",
+      "noIDsProvided": "No sale IDs were provided",
+      "invalidStatus": "Invalid sale status",
+      "invalidTargetStatus": "Cannot change to the requested status",
+      "noItemsCannotComplete": "Cannot complete a sale with no items. Add items first.",
+      "hasPaymentsCannotCancel": "Cannot cancel a sale with recorded payments. Remove payments first.",
+      "bulkHasPayments": "Some selected sales have recorded payments and cannot be cancelled",
+      "bulkNoItems": "Some selected sales have no items and cannot be completed",
+      "paymentNotFound": "Payment not found",
+      "invalidDiscount": "Invalid discount amount"
+    },
+    "dashboard": {
+      "title": "Sales Dashboard",
+      "totalSales": "Total Sales",
+      "revenue": "Revenue",
+      "completed": "Completed",
+      "active": "Active",
+      "revenueTrend": "Revenue Trend",
+      "week": "Week",
+      "month": "Month",
+      "year": "Year",
+      "recentSales": "Recent Sales",
+      "viewAll": "View All",
+      "newSaleCreated": "New Sale Created",
+      "saleCompleted": "Sale Completed",
+      "saleUpdated": "Sale Updated",
+      "saleCancelled": "Sale Cancelled"
     },
     "statusMessages": {
       "completeSuccess": "Sale completed successfully",
