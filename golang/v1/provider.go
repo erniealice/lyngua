@@ -3,7 +3,9 @@ package v1
 import (
 	"encoding/json"
 	"fmt"
+	"io/fs"
 	"os"
+	"path"
 	"path/filepath"
 	"sync"
 )
@@ -11,6 +13,7 @@ import (
 // TranslationProvider handles loading and caching translation messages.
 type TranslationProvider struct {
 	translationsPath string
+	fsys             fs.FS
 	cache            map[string]map[string]string // locale_businessType -> key -> message
 	mutex            sync.RWMutex
 }
@@ -52,21 +55,21 @@ func (p *TranslationProvider) LoadMessages(locale, businessType string) (map[str
 	mergedMessages := make(map[string]string)
 
 	// 1. Load common translations (base layer)
-	commonPath := filepath.Join(p.translationsPath, locale, "common")
+	commonPath := p.joinPath(locale, "common")
 	if err := p.loadDirectory(commonPath, mergedMessages); err != nil {
 		fmt.Printf("Warning: failed to load common translations for %s: %v\n", locale, err)
 	}
 
 	// 2. Load general translations (middle layer)
 	if businessType != "general" {
-		generalPath := filepath.Join(p.translationsPath, locale, "general")
+		generalPath := p.joinPath(locale, "general")
 		if err := p.loadDirectory(generalPath, mergedMessages); err != nil {
 			fmt.Printf("Warning: failed to load general translations for %s: %v\n", locale, err)
 		}
 	}
 
 	// 3. Load business-specific translations (top layer, highest priority)
-	businessPath := filepath.Join(p.translationsPath, locale, businessType)
+	businessPath := p.joinPath(locale, businessType)
 	if err := p.loadDirectory(businessPath, mergedMessages); err != nil {
 		return nil, fmt.Errorf("failed to load %s translations for %s: %w", businessType, locale, err)
 	}
@@ -75,9 +78,33 @@ func (p *TranslationProvider) LoadMessages(locale, businessType string) (map[str
 	return mergedMessages, nil
 }
 
+// readFile reads a file from the embedded fs.FS or the OS filesystem.
+func (p *TranslationProvider) readFile(relPath string) ([]byte, error) {
+	if p.fsys != nil {
+		return fs.ReadFile(p.fsys, path.Join(p.translationsPath, relPath))
+	}
+	return os.ReadFile(filepath.Join(p.translationsPath, relPath))
+}
+
+// readDir reads a directory from the embedded fs.FS or the OS filesystem.
+func (p *TranslationProvider) readDir(relPath string) ([]fs.DirEntry, error) {
+	if p.fsys != nil {
+		return fs.ReadDir(p.fsys, path.Join(p.translationsPath, relPath))
+	}
+	return os.ReadDir(filepath.Join(p.translationsPath, relPath))
+}
+
+// joinPath joins path segments using forward slashes for fs.FS or OS-specific separators.
+func (p *TranslationProvider) joinPath(segments ...string) string {
+	if p.fsys != nil {
+		return path.Join(segments...)
+	}
+	return filepath.Join(segments...)
+}
+
 // loadDirectory reads all JSON files from a directory and merges them into the provided map.
 func (p *TranslationProvider) loadDirectory(dirPath string, targetMap map[string]string) error {
-	files, err := os.ReadDir(dirPath)
+	files, err := p.readDir(dirPath)
 	if err != nil {
 		return err
 	}
@@ -87,8 +114,8 @@ func (p *TranslationProvider) loadDirectory(dirPath string, targetMap map[string
 			continue
 		}
 
-		filePath := filepath.Join(dirPath, file.Name())
-		data, err := os.ReadFile(filePath)
+		filePath := p.joinPath(dirPath, file.Name())
+		data, err := p.readFile(filePath)
 		if err != nil {
 			return fmt.Errorf("failed to read file %s: %w", filePath, err)
 		}

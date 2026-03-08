@@ -33,16 +33,16 @@ func (p *TranslationProvider) LoadFile(locale, businessType, fileName string, ta
 
 	loaded := false
 	for _, tier := range tiers {
-		absPath := filepath.Join(p.translationsPath, locale, tier, fileName)
+		relPath := p.joinPath(locale, tier, fileName)
 
-		data, err := os.ReadFile(absPath)
+		data, err := p.readFile(relPath)
 		if err != nil {
 			continue // tier doesn't have this file, skip
 		}
 
 		var content map[string]any
 		if err := json.Unmarshal(data, &content); err != nil {
-			return fmt.Errorf("failed to unmarshal translation file %s: %w", absPath, err)
+			return fmt.Errorf("failed to unmarshal translation file %s: %w", relPath, err)
 		}
 
 		mergeMap(merged, content)
@@ -73,7 +73,7 @@ func (p *TranslationProvider) LoadFile(locale, businessType, fileName string, ta
 //
 //	provider.LoadPath("en", "retail", "client.json", "client", &labels)  // extracts "client" subtree
 //	provider.LoadPath("en", "retail", "user.json", "", &labels)          // uses entire file
-func (p *TranslationProvider) LoadPath(locale, businessType, fileName, path string, target any) error {
+func (p *TranslationProvider) LoadPath(locale, businessType, fileName, dotPath string, target any) error {
 	merged := make(map[string]any)
 
 	// Build cascade: common -> general -> businessType
@@ -87,16 +87,16 @@ func (p *TranslationProvider) LoadPath(locale, businessType, fileName, path stri
 
 	loaded := false
 	for _, tier := range tiers {
-		absPath := filepath.Join(p.translationsPath, locale, tier, fileName)
+		relPath := p.joinPath(locale, tier, fileName)
 
-		data, err := os.ReadFile(absPath)
+		data, err := p.readFile(relPath)
 		if err != nil {
 			continue // tier doesn't have this file, skip
 		}
 
 		var content map[string]any
 		if err := json.Unmarshal(data, &content); err != nil {
-			return fmt.Errorf("failed to unmarshal translation file %s: %w", absPath, err)
+			return fmt.Errorf("failed to unmarshal translation file %s: %w", relPath, err)
 		}
 
 		mergeMap(merged, content)
@@ -109,8 +109,8 @@ func (p *TranslationProvider) LoadPath(locale, businessType, fileName, path stri
 
 	// Extract subtree at the given path
 	var result any = merged
-	if path != "" {
-		segments := strings.Split(path, ".")
+	if dotPath != "" {
+		segments := strings.Split(dotPath, ".")
 		for _, seg := range segments {
 			m, ok := result.(map[string]any)
 			if !ok {
@@ -144,7 +144,7 @@ func (p *TranslationProvider) LoadPath(locale, businessType, fileName, path stri
 // Example:
 //
 //	provider.LoadPathIfExists("en", "retail", "product.json", "product", &labels)
-func (p *TranslationProvider) LoadPathIfExists(locale, businessType, fileName, path string, target any) error {
+func (p *TranslationProvider) LoadPathIfExists(locale, businessType, fileName, dotPath string, target any) error {
 	merged := make(map[string]any)
 
 	// Build cascade: common -> general -> businessType
@@ -158,19 +158,23 @@ func (p *TranslationProvider) LoadPathIfExists(locale, businessType, fileName, p
 
 	loaded := false
 	for _, tier := range tiers {
-		absPath := filepath.Join(p.translationsPath, locale, tier, fileName)
+		relPath := p.joinPath(locale, tier, fileName)
 
-		data, err := os.ReadFile(absPath)
+		data, err := p.readFile(relPath)
 		if err != nil {
 			if os.IsNotExist(err) {
 				continue // tier doesn't have this file, skip
 			}
-			return fmt.Errorf("failed to read translation file %s: %w", absPath, err)
+			// fs.FS returns *fs.PathError for missing files; treat any error as skip
+			if p.fsys != nil {
+				continue
+			}
+			return fmt.Errorf("failed to read translation file %s: %w", relPath, err)
 		}
 
 		var content map[string]any
 		if err := json.Unmarshal(data, &content); err != nil {
-			return fmt.Errorf("failed to unmarshal translation file %s: %w", absPath, err)
+			return fmt.Errorf("failed to unmarshal translation file %s: %w", relPath, err)
 		}
 
 		mergeMap(merged, content)
@@ -183,8 +187,8 @@ func (p *TranslationProvider) LoadPathIfExists(locale, businessType, fileName, p
 
 	// Extract subtree at the given path
 	var result any = merged
-	if path != "" {
-		segments := strings.Split(path, ".")
+	if dotPath != "" {
+		segments := strings.Split(dotPath, ".")
 		for _, seg := range segments {
 			m, ok := result.(map[string]any)
 			if !ok {
@@ -218,9 +222,9 @@ func (p *TranslationProvider) LoadPathIfExists(locale, businessType, fileName, p
 //
 //	provider.LoadDirectory("en", "common", &labels)
 func (p *TranslationProvider) LoadDirectory(locale, dirName string, target any) error {
-	dirPath := filepath.Join(p.translationsPath, locale, dirName)
+	dirPath := p.joinPath(locale, dirName)
 
-	files, err := os.ReadDir(dirPath)
+	files, err := p.readDir(dirPath)
 	if err != nil {
 		return fmt.Errorf("failed to read directory %s: %w", dirPath, err)
 	}
@@ -232,8 +236,8 @@ func (p *TranslationProvider) LoadDirectory(locale, dirName string, target any) 
 			continue
 		}
 
-		filePath := filepath.Join(dirPath, file.Name())
-		data, err := os.ReadFile(filePath)
+		filePath := p.joinPath(dirPath, file.Name())
+		data, err := p.readFile(filePath)
 		if err != nil {
 			return fmt.Errorf("failed to read file %s: %w", filePath, err)
 		}

@@ -1,6 +1,7 @@
 package v1
 
 import (
+	"io/fs"
 	"os"
 	"path/filepath"
 	"runtime"
@@ -26,6 +27,16 @@ func NewDefaultTranslationProvider() *TranslationProvider {
 	translationsPath := filepath.Join(lynguaDir, "translations")
 
 	return NewTranslationProvider(translationsPath)
+}
+
+// NewTranslationProviderFromFS creates a provider that reads translations from an fs.FS.
+// Use with lyngua.TranslationsFS for embedded translations.
+func NewTranslationProviderFromFS(fsys fs.FS) *TranslationProvider {
+	return &TranslationProvider{
+		translationsPath: "translations",
+		fsys:             fsys,
+		cache:            make(map[string]map[string]string),
+	}
 }
 
 // NewDefaultTranslationProviderWithWorkspace creates a TranslationProvider that resolves

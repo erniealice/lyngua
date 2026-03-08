@@ -54,7 +54,8 @@
       "edit": "Edit Sale",
       "delete": "Delete Sale",
       "complete": "Complete Sale",
-      "reactivate": "Reactivate Sale"
+      "reactivate": "Reactivate Sale",
+      "downloadInvoice": "Download Invoice"
     },
     "bulkActions": {
       "delete": "Delete Selected"
@@ -196,6 +197,21 @@
       "saleCompleted": "Sale Completed",
       "saleUpdated": "Sale Updated",
       "saleCancelled": "Sale Cancelled"
+    },
+    "settings": {
+      "pageTitle": "Invoice Templates",
+      "caption": "Manage your invoice document templates",
+      "uploadTemplate": "Upload Template",
+      "templateName": "Template Name",
+      "templateType": "Type",
+      "purpose": "Purpose",
+      "setDefault": "Set as Default",
+      "delete": "Delete",
+      "defaultBadge": "Default",
+      "emptyTitle": "No templates uploaded",
+      "emptyMessage": "Upload a .docx template to customize your invoice layout.",
+      "uploadSuccess": "Template uploaded successfully",
+      "deleteConfirm": "Are you sure you want to delete this template?"
     },
     "statusMessages": {
       "completeSuccess": "Sale completed successfully",
