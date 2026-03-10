@@ -1,0 +1,90 @@
+{
+  "page": {
+    "title": "Create New Proposal",
+    "heading": "Create New Proposal",
+    "caption": "Follow the steps below to create a new proposal"
+  },
+  "stepper": {
+    "step1Title": "Basic Details",
+    "step1Desc": "Select client and engagement type",
+    "step2Title": "Roles / Jobs",
+    "step2Desc": "Choose applicable roles",
+    "step3Title": "Rates",
+    "step3Desc": "Configure rates",
+    "backToQuotes": "Back to Proposals",
+    "stepOf": "Step {current} of {total}"
+  },
+  "step1": {
+    "title": "Select Client & Engagement Type",
+    "subtitle": "Complete the details below to configure your proposal",
+    "company": "Company",
+    "division": "Division",
+    "effectiveDate": "Effective Date",
+    "quoteTemplate": "Proposal Template",
+    "award": "Engagement Type",
+    "calculationType": "Calculation Type",
+    "wic": "WIC",
+    "wicRateNote": "Client WIC Rate as of {date} is {rate}%",
+    "applyTenure": "Apply Tenure",
+    "awardHelp": "Not sure of your engagement type?",
+    "awardHelpLink": "Click here",
+    "selectPlaceholder": "-Select-",
+    "chooseAward": "--Choose an Engagement Type--"
+  },
+  "step2": {
+    "title": "Select Roles",
+    "subtitle": "Standard Professional Engagement",
+    "tip": "Tip:",
+    "tipMessage": "Select the roles that apply to this proposal. You can filter by role type or search for specific positions.",
+    "allJobs": "-- All Roles --",
+    "allRoles": "-- All Sub-roles --",
+    "searchPlaceholder": "Search Roles",
+    "colJobs": "Roles",
+    "colRole": "Sub-role",
+    "colPayRateType": "Rate Type",
+    "colMinWeeklyWages": "Minimum Weekly Rate",
+    "colPayRate": "Rate",
+    "colAutoIncrease": "Auto-increase non-base items rates",
+    "colSelect": "",
+    "autoIncreaseTooltip": "Auto-increase non-base items when base rate changes",
+    "pagination": {
+      "showing": "Showing",
+      "to": "to",
+      "of": "of",
+      "jobs": "roles",
+      "prev": "Prev",
+      "next": "Next"
+    },
+    "on": "ON",
+    "off": "OFF"
+  },
+  "step3": {
+    "title": "Select Proposal Items",
+    "instructions": [
+      "Uncheck the box to remove items",
+      "Don't worry - you can add & edit items and titles on the next screen"
+    ],
+    "calculationType": "Calculation Type",
+    "awardIncrease": "Rate Increase By {percent}%",
+    "colTitle": "Title",
+    "colMappedTitle": "Mapped Title",
+    "colMultiplier": "Multiplier",
+    "colPayRate": "Rate",
+    "colPaySuper": "Pay Super",
+    "colKeep": "Keep",
+    "autoIncrease": "Auto-increase non-base items rates",
+    "autoIncreaseNote": "If switched on, increasing hourly (or base) rate automatically increase non base items rates",
+    "selectAll": "Select All",
+    "baseRateLabel": "Calculate increase from Standard / Base Rate",
+    "baseRateNote": "Hit enter key to re-calculate rates",
+    "on": "ON",
+    "off": "OFF"
+  },
+  "buttons": {
+    "next": "Next",
+    "previous": "Previous",
+    "save": "Save",
+    "cancel": "Cancel",
+    "createQuote": "Create Proposal"
+  }
+}

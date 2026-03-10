@@ -1,0 +1,78 @@
+{
+  "page": {
+    "title": "Help Center",
+    "heading": "Help Center",
+    "subtitle": "Guides, FAQs, and support resources"
+  },
+  "hero": {
+    "title": "How can we help you today?",
+    "subtitle": "Search our knowledge base or browse the categories below",
+    "searchPlaceholder": "Search for articles, definitions, guides..."
+  },
+  "quickLinks": {
+    "contactSupport": "Contact Support",
+    "contactSupportDesc": "Get help from our expert team",
+    "videoTutorials": "Video Tutorials",
+    "videoTutorialsDesc": "Watch step-by-step guides",
+    "communityForum": "Community Forum",
+    "communityForumDesc": "Connect with other users"
+  },
+  "tabs": {
+    "all": "All",
+    "definitions": "Definitions",
+    "calculationTypes": "Calculation Types",
+    "howTo": "How-To Guides",
+    "sales": "Billing Resources",
+    "faqs": "FAQs"
+  },
+  "sections": {
+    "definitions": "Definitions",
+    "definitionsGlossary": "Definitions & Glossary",
+    "termsCount": "terms",
+    "calculationTypes": "Calculation Types",
+    "typesOfCalculation": "Types of Calculation",
+    "typesCount": "types",
+    "faqs": "Frequently Asked Questions",
+    "questionsCount": "questions",
+    "howToGuides": "How-To Guides",
+    "guidesCount": "guides",
+    "watchTutorial": "Watch Tutorial",
+    "readArticle": "Read article"
+  },
+  "badges": {
+    "howTo": "How-To"
+  },
+  "empty": {
+    "definitionsTitle": "No definitions found",
+    "definitionsDesc": "Try adjusting your search terms or browse other categories.",
+    "calculationTypesTitle": "No calculation types found",
+    "calculationTypesDesc": "Try adjusting your search terms or browse other categories.",
+    "guidesTitle": "No guides found",
+    "guidesDesc": "Try adjusting your search terms or browse other categories.",
+    "salesTitle": "No billing resources found",
+    "salesDesc": "Try adjusting your search terms or browse other categories.",
+    "faqsTitle": "No FAQs found",
+    "faqsDesc": "Try adjusting your search terms or browse other categories."
+  },
+  "salesMatrix": {
+    "weeklyTimeSchedule": "Weekly Time Schedule"
+  },
+  "support": {
+    "stillNeedHelp": "Still need help?",
+    "supportMessage": "Our support team is here to help you with any questions. Get in touch and we'll respond as soon as possible.",
+    "startChat": "Start a Chat",
+    "emailSupport": "Email Support"
+  },
+  "app": {
+    "helpCenter": "Help Center",
+    "noHelpContent": "No help content available",
+    "helpComingSoon": "Help documentation for this section is coming soon.",
+    "backToHelpCenter": "Back to Help Center",
+    "wasArticleHelpful": "Was this article helpful?",
+    "yes": "Yes",
+    "no": "No",
+    "stillNeedHelpContact": "Still need help? Contact us",
+    "onThisPage": "On this page",
+    "noSectionsFound": "No sections found"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "pricelist": {
+    "page": {
+      "heading": "Rate Cards",
+      "headingActive": "Active Rate Cards",
+      "headingInactive": "Inactive Rate Cards",
+      "caption": "Manage your solution pricing structures",
+      "captionActive": "View and manage active rate cards",
+      "captionInactive": "View inactive rate cards"
+    },
+    "buttons": {
+      "addPriceList": "Add Rate Card"
+    },
+    "columns": {
+      "name": "Name",
+      "dateStart": "Start Date",
+      "dateEnd": "End Date",
+      "status": "Status"
+    },
+    "empty": {
+      "activeTitle": "No active rate cards",
+      "activeMessage": "Create a rate card to start managing your solution pricing.",
+      "inactiveTitle": "No inactive rate cards",
+      "inactiveMessage": "There are no inactive rate cards."
+    },
+    "form": {
+      "name": "Name",
+      "description": "Description",
+      "descriptionPlaceholder": "Enter a description for this rate card",
+      "dateStart": "Start Date",
+      "dateEnd": "End Date",
+      "active": "Active"
+    },
+    "actions": {
+      "view": "View",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "bulkActions": {
+      "delete": "Delete"
+    },
+    "detail": {
+      "basicInfo": "Basic Information",
+      "prices": "Rates",
+      "productName": "Solution / Service",
+      "amount": "Amount",
+      "currency": "Currency"
+    }
+  }
+}

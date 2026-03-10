@@ -1,0 +1,188 @@
+{
+  "product": {
+    "page": {
+      "heading": "Solutions",
+      "headingActive": "Active Solutions",
+      "headingInactive": "Inactive Solutions",
+      "caption": "Manage your solution offerings",
+      "captionActive": "View and manage active solutions",
+      "captionInactive": "View discontinued solutions"
+    },
+    "buttons": {
+      "addProduct": "Add Solution"
+    },
+    "columns": {
+      "name": "Solution Name",
+      "description": "Description",
+      "price": "Price",
+      "status": "Status"
+    },
+    "empty": {
+      "activeTitle": "No active solutions",
+      "activeMessage": "Add your first solution to get started.",
+      "inactiveTitle": "No inactive solutions",
+      "inactiveMessage": "Discontinued solutions will appear here."
+    },
+    "form": {
+      "name": "Solution Name",
+      "description": "Description",
+      "descriptionPlaceholder": "Enter solution description...",
+      "price": "Price",
+      "currency": "Currency",
+      "active": "Active"
+    },
+    "actions": {
+      "view": "View Solution",
+      "edit": "Edit Solution",
+      "delete": "Delete Solution"
+    },
+    "bulkActions": {
+      "delete": "Delete Selected"
+    },
+    "tabs": {
+      "info": "Info",
+      "variants": "Plan Options",
+      "attributes": "Attributes",
+      "pricing": "Pricing",
+      "options": "Options",
+      "images": "Images",
+      "stock": "Resource Allocation",
+      "auditTrail": "Audit Trail"
+    },
+    "detail": {
+      "price": "Price",
+      "currency": "Currency",
+      "collections": "Categories",
+      "variantCount": "Plan Options",
+      "status": "Status",
+      "optionsLabel": "Options",
+      "emptyVariantsMessage": "No plan options have been created for this solution yet."
+    },
+    "status": {
+      "activate": "Activate",
+      "deactivate": "Deactivate"
+    },
+    "variant": {
+      "title": "Plan Options",
+      "sku": "SKU",
+      "priceOverride": "Price Override",
+      "attributes": "Attributes",
+      "assign": "Add Plan Option",
+      "edit": "Edit Plan Option",
+      "remove": "Remove Plan Option",
+      "empty": "No Plan Options",
+      "location": "Team",
+      "qtyOnHand": "Capacity",
+      "serialCount": "Serial Count",
+      "noStock": "No Resource Allocation",
+      "noStockMsg": "No resource allocation records found for this plan option."
+    },
+    "attribute": {
+      "title": "Attribute",
+      "defaultValue": "Default Value",
+      "assign": "Add Attribute",
+      "remove": "Remove Attribute",
+      "empty": "No Attributes"
+    },
+    "confirm": {
+      "activate": "Activate Solution",
+      "activateMessage": "Are you sure you want to activate this solution?",
+      "deactivate": "Deactivate Solution",
+      "deactivateMessage": "Are you sure you want to deactivate this solution?",
+      "bulkActivate": "Activate Solutions",
+      "bulkActivateMessage": "Are you sure you want to activate the selected solutions?",
+      "bulkDeactivate": "Deactivate Solutions",
+      "bulkDeactivateMessage": "Are you sure you want to deactivate the selected solutions?",
+      "bulkDelete": "Delete Solutions",
+      "bulkDeleteMessage": "Are you sure you want to delete the selected solutions? This action cannot be undone.",
+      "removeVariant": "Remove Plan Option",
+      "removeVariantMessage": "Are you sure you want to remove this plan option?"
+    },
+    "errors": {
+      "permissionDenied": "You do not have permission to perform this action",
+      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
+      "notFound": "Solution not found",
+      "idRequired": "Solution ID is required",
+      "noIDsProvided": "No solution IDs were provided",
+      "invalidStatus": "Invalid solution status",
+      "cannotDelete": "This solution cannot be deleted because it is in use",
+      "nameRequired": "Solution name is required",
+      "fieldRequired": "This field is required"
+    },
+    "breadcrumb": {
+      "products": "Solutions",
+      "product": "Solution",
+      "option": "Option"
+    },
+    "options": {
+      "tab": {
+        "title": "Solution Options"
+      },
+      "columns": {
+        "name": "Name",
+        "code": "Code",
+        "dataType": "Data Type",
+        "valuesCount": "Values",
+        "sortOrder": "Sort Order",
+        "status": "Status"
+      },
+      "form": {
+        "name": "Option Name",
+        "namePlaceholder": "e.g. Tier, SLA, Support Level",
+        "code": "Option Code",
+        "codePlaceholder": "e.g. tier, sla, support-level",
+        "dataType": "Data Type",
+        "sortOrder": "Sort Order",
+        "minValue": "Min Value",
+        "maxValue": "Max Value",
+        "active": "Active"
+      },
+      "dataTypes": {
+        "textList": "Text List",
+        "numberList": "Number List",
+        "colorList": "Color List",
+        "enumList": "Enum List",
+        "freeText": "Free Text",
+        "freeNumber": "Free Number"
+      },
+      "value": {
+        "columns": {
+          "label": "Label",
+          "value": "Value",
+          "sortOrder": "Sort Order",
+          "colorPreview": "Preview",
+          "status": "Status"
+        },
+        "form": {
+          "label": "Value Label",
+          "labelPlaceholder": "e.g. Basic, Pro, Enterprise",
+          "value": "Value",
+          "valuePlaceholder": "e.g. basic, pro, enterprise",
+          "sortOrder": "Sort Order",
+          "colorHex": "Color Hex",
+          "colorHexPlaceholder": "#FF0000",
+          "active": "Active"
+        }
+      },
+      "actions": {
+        "addOption": "Add Option",
+        "editOption": "Edit Option",
+        "deleteOption": "Delete Option",
+        "viewValues": "View Values",
+        "addValue": "Add Value",
+        "editValue": "Edit Value",
+        "deleteValue": "Delete Value"
+      },
+      "empty": {
+        "title": "No Options",
+        "message": "No options have been configured for this solution yet.",
+        "valueTitle": "No Values",
+        "valueMessage": "No values have been added to this option yet."
+      },
+      "confirm": {
+        "deleteOption": "Are you sure you want to delete option",
+        "deleteValue": "Are you sure you want to delete value"
+      }
+    }
+  }
+}

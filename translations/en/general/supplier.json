@@ -50,7 +50,46 @@
       "firstName": "First Name",
       "lastName": "Last Name",
       "email": "Email",
-      "phone": "Phone"
+      "phone": "Phone",
+      "active": "Active",
+
+      "sectionCompany": "Company Information",
+      "sectionContact": "Contact Person",
+      "sectionFinancial": "Financial Details",
+      "sectionAddress": "Address",
+
+      "companyNamePlaceholder": "Enter company name",
+      "supplierTypePlaceholder": "Select type",
+      "statusPlaceholder": "Select status",
+      "firstNamePlaceholder": "Enter first name",
+      "lastNamePlaceholder": "Enter last name",
+      "emailPlaceholder": "Enter email address",
+      "phonePlaceholder": "Enter phone number",
+      "paymentTermsPlaceholder": "Select terms",
+      "creditLimitPlaceholder": "0.00",
+      "defaultCurrencyPlaceholder": "PHP",
+      "leadTimeDaysPlaceholder": "0",
+      "taxIdPlaceholder": "Enter TIN/VAT/EIN",
+      "registrationNumberPlaceholder": "Enter registration number",
+      "streetAddressPlaceholder": "Enter street address",
+      "cityPlaceholder": "Enter city",
+      "provincePlaceholder": "Enter province",
+      "postalCodePlaceholder": "Enter postal code",
+      "countryPlaceholder": "PH",
+      "websitePlaceholder": "https://example.com",
+      "notesPlaceholder": "Add notes about this supplier",
+
+      "typeCompany": "Company",
+      "typeIndividual": "Individual",
+
+      "statusActive": "Active",
+      "statusBlocked": "Blocked",
+      "statusOnHold": "On Hold",
+
+      "termsImmediate": "Immediate",
+      "termsNet30": "Net 30",
+      "termsNet60": "Net 60",
+      "terms2_10Net30": "2/10 Net 30"
     },
     "detail": {
       "infoTab": "Supplier Information",

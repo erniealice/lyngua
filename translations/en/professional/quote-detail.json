@@ -1,0 +1,237 @@
+{
+  "page": {
+    "title": "Proposal Details",
+    "heading": "Edit Proposal"
+  },
+  "tabs": {
+    "editCharge": "Edit Charge",
+    "requirements": "Requirements / Options",
+    "additionalItems": "Additional Items",
+    "allowances": "Allowances",
+    "jobs": "Roles",
+    "payRules": "Pay Rules"
+  },
+  "buttons": {
+    "backToList": "Go back to list",
+    "previewQuote": "Preview Proposal",
+    "saveAsTemplate": "Save as Template",
+    "managerApproval": "Manager Approval",
+    "addNewNote": "Add New Note",
+    "saveChanges": "Save Changes",
+    "saveAndNext": "Save and Next Page >>",
+    "add": "Add",
+    "refreshPage": "Refresh Page",
+    "deletePayCodeItems": "Delete Pay Code Items",
+    "addAllowance": "Add Allowance",
+    "addSelectedJobs": "Add Selected Roles",
+    "viewItems": "View Items",
+    "addIncentive": "Add incentive"
+  },
+  "form": {
+    "employeeName": "Consultant Name",
+    "purchaseOrderNo": "Purchase Order No.",
+    "purchaseOrderHelp": "Enter Purchase Order Number if required for Proposal",
+    "selectWIC": "Select WIC (Workcover Industry Classification) Rate",
+    "wicRate": "WIC (Workcover Industry Classification) Rate",
+    "payrollTaxState": "Payroll Tax State",
+    "payrollTaxRate": "Payroll Tax Rate",
+    "payrollTaxRates": "Payroll Tax Rates",
+    "viewRates": "View Rates",
+    "superannuationRate": "Superannuation Rate",
+    "ratesEffectiveDate": "Rates Effective Date From",
+    "selectContact": "Select Contact:"
+  },
+  "cards": {
+    "basicInfo": "Basic Information",
+    "rates": "Rates"
+  },
+  "optionalFactors": {
+    "title": "Optional Factors",
+    "financingCost": "Financing Cost",
+    "administrationCost": "Administration Cost",
+    "otherCost": "Other Cost",
+    "otherCostLabel": "Other Cost Display Label",
+    "fixedCostAmount": "Fixed Cost Amount",
+    "awardCode": "Engagement Code"
+  },
+  "additional": {
+    "title": "Additional Items",
+    "itemCostCharge": "Item Cost & Item Charge",
+    "noItemFound": "No item found",
+    "columns": {
+      "deleteThis": "Delete this?",
+      "qty": "QTY",
+      "item": "Item",
+      "description": "Description",
+      "value": "$ Value",
+      "total": "$ Total",
+      "margin": "Margin %",
+      "markup": "Markup %",
+      "profit": "$ Gross Profit",
+      "chargeRate": "$ Charge Rate"
+    }
+  },
+  "allowances": {
+    "title": "ALLOWANCES",
+    "addAllowance": "Add Allowance",
+    "changeAllowanceName": "Change Allowance Name",
+    "complete": "Complete:",
+    "warningMessage": "Type and Rate field values below are disregarded if multiple allowances are selected except for "Specify Allowance"",
+    "allowanceName": "Allowance Name",
+    "allowanceHelp": "Click (+) to select and (x) to deselect OR Press ctrl then click allowance",
+    "search": "Search",
+    "specifyAllowance": "Specify Allowance",
+    "type": "Type",
+    "payRate": "Rate",
+    "paySuper": "Pay Super",
+    "includePayRate": "Include in Rate",
+    "includeChargeRate": "Include in Charge Rate",
+    "typeOptions": {
+      "hourly": "Hourly",
+      "daily": "Daily",
+      "weekly": "Weekly"
+    },
+    "yesNo": {
+      "yes": "YES",
+      "no": "NO"
+    },
+    "columns": {
+      "item": "Item",
+      "oncosts": "Oncosts",
+      "copyToAll": "Copy to All",
+      "meal": "Meal"
+    },
+    "items": {
+      "payRate": "Rate",
+      "annualLeave": "Annual Leave",
+      "annualLeaveAdjustment": "Annual Leave Adjustment",
+      "leaveLoading": "Leave Loading",
+      "publicHolidays": "Public Holidays",
+      "sickLeave": "Sick Leave",
+      "rdo": "RDO",
+      "offTheJobTraining": "Off The Job Training",
+      "paySuper": "Pay Super",
+      "superannuation": "Superannuation"
+    }
+  },
+  "jobStage": {
+    "infoBanner": "Please click "Save Changes" button right after this proposal is added or if there are changes made with the Requirements, Edit Charge, or in Proposal Screen.",
+    "updateJobInfo": "Update Role Info",
+    "changePayCodeItemNames": "Change Pay Code Item Names",
+    "addPayCodeItem": "Add Pay Code Item",
+    "complete": "Complete:",
+    "maAward": "Engagement Type:",
+    "maLevel": "MA Level:",
+    "jobName": "Role Name:",
+    "positionName": "Position Name:",
+    "autoIncrease": "Auto-increase non-base items rates:",
+    "on": "ON",
+    "off": "OFF",
+    "columns": {
+      "item": "Item",
+      "oncosts": "Oncosts",
+      "copyToAll": "Copy to All",
+      "baseHourly": "Base Hourly",
+      "saturdayMorning": "Saturday Morning",
+      "overtime15": "Overtime 1.5",
+      "sundayShift": "Sunday Shift",
+      "saturdayAfternoon": "Saturday Afternoon",
+      "ot25r": "OT 2.5 R"
+    }
+  },
+  "payRules": {
+    "payItems": "Pay Items",
+    "allowances": "Allowances",
+    "selectAll": "Select All",
+    "columns": {
+      "title": "Title",
+      "description": "Description",
+      "copy": "Copy"
+    }
+  },
+  "addNewJob": {
+    "title": "Select Roles",
+    "onlySelectedOption": "Only select pay code items checked from the list. Click to view items",
+    "allJobs": "-- All Roles --",
+    "allRoles": "-- All Sub-roles --",
+    "searchPlaceholder": "Search Roles",
+    "columns": {
+      "jobs": "Roles",
+      "role": "Sub-role",
+      "payRateType": "Rate Type",
+      "minWeeklyWages": "Minimum Weekly Rate",
+      "payRate": "Rate",
+      "autoIncrease": "Auto-increase non-base items rates"
+    }
+  },
+  "jobs": {
+    "title": "Roles",
+    "addJob": "Add Role",
+    "job": "Role",
+    "noJobs": "No roles added yet. Click 'Add Role' to get started.",
+    "confirmRemove": "Are you sure you want to remove this role?",
+    "selectJobs": "Select Roles to Add",
+    "searchPlaceholder": "Search roles...",
+    "filters": {
+      "allJobs": "All Roles",
+      "allRoles": "All Sub-roles"
+    },
+    "columns": {
+      "jobs": "Roles",
+      "role": "Sub-role",
+      "payRateType": "Rate Type",
+      "minWeeklyWages": "Minimum Weekly Rate",
+      "payRate": "Rate",
+      "autoIncrease": "Auto-increase non-base items rates"
+    }
+  },
+  "requirements": {
+    "selectToUpdate": "Select to update:",
+    "requirements": "Requirements",
+    "options": "Options",
+    "manualInputs": "Manual Inputs",
+    "unit": "Unit",
+    "value": "Value",
+    "standardDaysPerYear": "Standard days per year",
+    "calculated": "Calculated",
+    "fields": {
+      "hoursPerDay": "Hours per day",
+      "daysPerWeek": "Days per week",
+      "hoursPerWeek": "Hours per week",
+      "weeksPerYear": "Weeks per year",
+      "annualLeave": "Annual Leave",
+      "leaveLoading": "Leave Loading",
+      "loadingWithoutLeave": "Loading Without Leave",
+      "publicHolidays": "Public Holidays",
+      "sickLeave": "Sick Leave",
+      "rdoAccrual": "RDO Accrual",
+      "notSelectRDO": "- Not Select RDO -",
+      "totalRDOHoursPerWeek": "Total RDO Hours per week",
+      "offJobTraining": "Off the job training",
+      "customLeaveCost": "Custom leave cost",
+      "totalWeeksAvailable": "Total Weeks Available",
+      "studyCosts": "Study Costs",
+      "protectiveClothing": "Protective Clothing",
+      "annualGP": "Annual GP$"
+    },
+    "units": {
+      "hrsDay": "Hrs/day",
+      "daysWeek": "Days/week",
+      "hrsWeek": "Hrs/week",
+      "weeksYr": "Weeks/yr",
+      "daysYr": "Days/yr",
+      "perDay": "Per day",
+      "perYear": "Per year",
+      "asPercentage": "As percentage",
+      "asDollar": "As $"
+    },
+    "periodOptions": {
+      "weeksPerYear": "Weeks per year",
+      "monthsPerYear": "Months per year"
+    },
+    "incentiveRebates": "Incentive Rebates",
+    "termInYrs": "Term in Yrs",
+    "totalOverPeriod": "Total Over Period",
+    "discount": "Discount"
+  }
+}

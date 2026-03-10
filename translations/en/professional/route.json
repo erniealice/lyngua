@@ -1,0 +1,128 @@
+{
+    "product": {
+        "active_nav": "solutions",
+        "active_sub_nav": "solutions-active",
+        "list_url": "/app/solutions/list/{status}",
+        "detail_url": "/app/solutions/detail/{id}",
+        "add_url": "/action/solutions/add",
+        "edit_url": "/action/solutions/edit/{id}",
+        "delete_url": "/action/solutions/delete",
+        "bulk_delete_url": "/action/solutions/bulk-delete",
+        "set_status_url": "/action/solutions/set-status",
+        "bulk_set_status_url": "/action/solutions/bulk-set-status",
+        "tab_action_url": "/action/solutions/detail/{id}/tab/{tab}",
+        "variant_table_url": "/action/solutions/detail/{id}/variants/table",
+        "variant_assign_url": "/action/solutions/detail/{id}/variants/assign",
+        "variant_edit_url": "/action/solutions/detail/{id}/variants/edit/{vid}",
+        "variant_remove_url": "/action/solutions/detail/{id}/variants/remove",
+        "variant_detail_url": "/app/solutions/detail/{id}/variant/{vid}",
+        "variant_tab_action_url": "/action/solutions/detail/{id}/variant/{vid}/tab/{tab}",
+        "variant_image_upload_url": "/action/solutions/detail/{id}/variant/{vid}/images/upload",
+        "variant_image_delete_url": "/action/solutions/detail/{id}/variant/{vid}/images/delete",
+        "variant_stock_detail_url": "/app/solutions/detail/{id}/variant/{vid}/stock/{iid}",
+        "variant_stock_tab_action_url": "/action/solutions/detail/{id}/variant/{vid}/stock/{iid}/tab/{tab}",
+        "variant_serial_detail_url": "/app/solutions/detail/{id}/variant/{vid}/stock/{iid}/serial/{sid}",
+        "attribute_table_url": "/action/solutions/detail/{id}/attributes/table",
+        "attribute_assign_url": "/action/solutions/detail/{id}/attributes/assign",
+        "attribute_remove_url": "/action/solutions/detail/{id}/attributes/remove",
+        "option_table_url": "/action/solutions/detail/{id}/options/table",
+        "option_add_url": "/action/solutions/detail/{id}/options/add",
+        "option_edit_url": "/action/solutions/detail/{id}/options/edit/{oid}",
+        "option_delete_url": "/action/solutions/detail/{id}/options/delete",
+        "option_detail_url": "/app/solutions/detail/{id}/option/{oid}",
+        "option_value_table_url": "/action/solutions/detail/{id}/options/{oid}/values/table",
+        "option_value_add_url": "/action/solutions/detail/{id}/options/{oid}/values/add",
+        "option_value_edit_url": "/action/solutions/detail/{id}/options/{oid}/values/edit/{vid}",
+        "option_value_delete_url": "/action/solutions/detail/{id}/options/{oid}/values/delete"
+    },
+    "inventory": {
+        "product_detail_url": "/app/solutions/detail/{pid}/inventory/detail/{iid}",
+        "product_tab_action_url": "/action/solutions/{pid}/inventory/{iid}/tab/{tab}"
+    },
+    "client": {
+        "dashboard_url": "/app/clients/dashboard",
+        "list_url": "/app/clients/list/{status}",
+        "table_url": "/action/clients/table/{status}",
+        "add_url": "/action/clients/add",
+        "edit_url": "/action/clients/edit/{id}",
+        "delete_url": "/action/clients/delete",
+        "bulk_delete_url": "/action/clients/bulk-delete",
+        "detail_url": "/app/clients/detail/{id}",
+        "tab_action_url": "/action/clients/{id}/tab/{tab}",
+        "set_status_url": "/action/clients/set-status",
+        "bulk_set_status_url": "/action/clients/bulk-set-status",
+        "receivables_aging_url": "/app/clients/reports/receivables-aging"
+    },
+    "client_tag": {
+        "list_url": "/app/clients/settings/tags/list",
+        "add_url": "/action/clients/tags/add",
+        "edit_url": "/action/clients/tags/edit/{id}",
+        "delete_url": "/action/clients/tags/delete",
+        "bulk_delete_url": "/action/clients/tags/bulk-delete"
+    },
+    "plan": {
+        "list_url": "/app/plans/list/{status}",
+        "detail_url": "/app/plans/{id}",
+        "add_url": "/action/plans/add",
+        "edit_url": "/action/plans/edit/{id}",
+        "delete_url": "/action/plans/delete"
+    },
+    "subscription": {
+        "list_url": "/app/subscriptions/list/{status}",
+        "detail_url": "/app/subscriptions/{id}",
+        "add_url": "/action/subscriptions/add",
+        "edit_url": "/action/subscriptions/edit/{id}",
+        "delete_url": "/action/subscriptions/delete"
+    },
+    "payment_collection": {
+        "list_url": "/app/payment-collections/list/{status}",
+        "detail_url": "/app/payment-collections/{id}",
+        "add_url": "/action/payment-collections/add",
+        "edit_url": "/action/payment-collections/edit/{id}",
+        "delete_url": "/action/payment-collections/delete"
+    },
+    "location": {
+        "detail_url": "/app/locations/{id}"
+    },
+    "sales": {
+        "dashboard_url": "/app/projects/dashboard",
+        "list_url": "/app/projects/list/{status}",
+        "detail_url": "/app/projects/detail/{id}",
+        "add_url": "/action/projects/add",
+        "edit_url": "/action/projects/edit/{id}",
+        "delete_url": "/action/projects/delete",
+        "bulk_delete_url": "/action/projects/delete/bulk",
+        "set_status_url": "/action/projects/status/set",
+        "bulk_set_status_url": "/action/projects/status/set/bulk",
+        "tab_action_url": "/action/projects/detail/{id}/tab/{tab}",
+        "line_item_table_url": "/action/projects/detail/{id}/items/table",
+        "line_item_add_url": "/action/projects/detail/{id}/items/add",
+        "line_item_edit_url": "/action/projects/detail/{id}/items/edit/{itemId}",
+        "line_item_remove_url": "/action/projects/detail/{id}/items/remove",
+        "line_item_discount_url": "/action/projects/detail/{id}/items/add-discount",
+        "payment_table_url": "/action/projects/detail/{id}/payment/table",
+        "payment_add_url": "/action/projects/detail/{id}/payment/add",
+        "payment_edit_url": "/action/projects/detail/{id}/payment/edit/{pid}",
+        "payment_remove_url": "/action/projects/detail/{id}/payment/remove",
+        "sales_summary_url": "/app/projects/reports/projects-summary"
+    },
+    "reports": {
+        "dashboard_url": "/app/financial/dashboard",
+        "revenue_url": "/app/financial/revenue",
+        "cost_of_sales_url": "/app/financial/cost-of-sales",
+        "gross_profit_url": "/app/financial/gross-profit",
+        "expenses_url": "/app/financial/expenses",
+        "net_profit_url": "/app/financial/net-profit"
+    },
+    "supplier": {
+        "payables_aging_url": "/app/suppliers/reports/payables-aging"
+    },
+    "expenditure": {
+        "purchases_summary_url": "/app/purchases/reports/purchases-summary",
+        "expenses_summary_url": "/app/expenses/reports/expenses-summary"
+    },
+    "asset": {
+        "lapsing_schedule_url": "/app/assets/reports/lapsing-schedule",
+        "depreciation_policies_url": "/app/assets/settings/depreciation-policies"
+    }
+}

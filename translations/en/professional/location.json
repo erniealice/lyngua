@@ -1,0 +1,67 @@
+{
+  "page": {
+    "heading": "Locations",
+    "headingActive": "Active Locations",
+    "headingInactive": "Inactive Locations",
+    "caption": "Location management",
+    "captionActive": "Manage your active locations",
+    "captionInactive": "View inactive locations"
+  },
+  "buttons": {
+    "addLocation": "Add Location"
+  },
+  "columns": {
+    "name": "Name",
+    "address": "Address",
+    "status": "Status"
+  },
+  "empty": {
+    "activeTitle": "No active locations",
+    "activeMessage": "Add your first location to get started",
+    "inactiveTitle": "No inactive locations",
+    "inactiveMessage": "Inactive locations will appear here"
+  },
+  "form": {
+    "name": "Name",
+    "namePlaceholder": "e.g. Headquarters",
+    "address": "Address",
+    "addressPlaceholder": "e.g. 123 Main Street",
+    "description": "Description",
+    "descriptionPlaceholder": "e.g. Primary company location",
+    "active": "Active"
+  },
+  "actions": {
+    "view": "View location",
+    "edit": "Edit location",
+    "delete": "Delete location",
+    "activate": "Activate",
+    "deactivate": "Deactivate"
+  },
+  "detail": {
+    "basicInfo": {
+      "title": "Basic Information",
+      "name": "Name",
+      "namePlaceholder": "e.g. Headquarters",
+      "address": "Address",
+      "addressPlaceholder": "e.g. 123 Main Street",
+      "description": "Description",
+      "descriptionPlaceholder": "e.g. Primary company location",
+      "active": "Active",
+      "save": "Save Changes"
+    },
+    "tabs": {
+      "info": "Info",
+      "users": "Users",
+      "priceLists": "Rate Cards",
+      "auditTrail": "Audit Trail"
+    },
+    "emptyStates": {
+      "usersTitle": "No Users Assigned",
+      "usersDesc": "Users assigned to this location will appear here.",
+      "priceListsTitle": "No Rate Cards",
+      "priceListsDesc": "Rate cards for this location will appear here.",
+      "auditTitle": "No Audit History",
+      "auditDesc": "Office activity will appear here."
+    }
+  }
+}

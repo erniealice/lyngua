@@ -1,0 +1,77 @@
+{
+  "page": {
+    "title": "Proposal Management",
+    "heading": "Proposal Management",
+    "caption": "View and manage your proposals and estimates",
+    "titleCalculation": "Estimates",
+    "titleApproved": "Approved Proposals",
+    "titleForApproval": "Proposals For Approval",
+    "titleArchived": "Archived Proposals",
+    "titleTemplates": "Proposal Templates",
+    "headingCalculation": "Estimates",
+    "headingApproved": "Approved Proposals",
+    "headingForApproval": "Proposals For Approval",
+    "headingArchived": "Archived Proposals",
+    "headingTemplates": "Proposal Templates",
+    "captionCalculation": "Manage proposals currently being estimated",
+    "captionApproved": "View proposals that have been approved",
+    "captionForApproval": "Review proposals awaiting approval",
+    "captionArchived": "Browse archived and historical proposals",
+    "captionTemplates": "Manage reusable proposal templates"
+  },
+  "buttons": {
+    "add": "New Proposal"
+  },
+  "tabs": {
+    "approved": "Approved",
+    "calculation": "Estimates",
+    "forApproval": "For Approval",
+    "archived": "Archived",
+    "templates": "Templates"
+  },
+  "columns": {
+    "name": "Name",
+    "quoteId": "Proposal ID",
+    "externalJobId": "External Project ID",
+    "jobName": "Project Name",
+    "type": "Type",
+    "calculationType": "Estimation Type",
+    "status": "Status",
+    "contact": "Contact",
+    "division": "Division",
+    "createdOn": "Created On",
+    "createdBy": "Created By",
+    "by": "By"
+  },
+  "filters": {
+    "filterBy": "Filter By:",
+    "showAll": "Show All",
+    "reportTemplate": "Select Report Template:"
+  },
+  "empty": {
+    "approvedTitle": "No approved proposals",
+    "approvedMessage": "Approved proposals will appear here",
+    "calculationTitle": "No estimates",
+    "calculationMessage": "Create your first estimate to get started",
+    "forApprovalTitle": "No proposals pending approval",
+    "forApprovalMessage": "Proposals awaiting approval will appear here",
+    "archivedTitle": "No archived proposals",
+    "archivedMessage": "Archived proposals will appear here",
+    "templatesTitle": "No templates",
+    "templatesMessage": "Save a proposal as a template to get started"
+  },
+  "errors": {
+    "notFound": "Proposal not found",
+    "emptyName": "Proposal name cannot be empty",
+    "emptyClient": "Client must be selected",
+    "invalidStatus": "Invalid proposal status",
+    "alreadyApproved": "Proposal is already approved",
+    "alreadyArchived": "Proposal is already archived",
+    "cannotArchive": "Cannot archive proposal in current status",
+    "noJobs": "Proposal must have at least one role"
+  },
+  "actions": {
+    "requote": "Re-propose",
+    "createQuote": "Create Proposal"
+  }
+}
