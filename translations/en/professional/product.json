@@ -1,40 +1,40 @@
 {
   "product": {
     "page": {
-      "heading": "Solutions",
-      "headingActive": "Active Solutions",
-      "headingInactive": "Inactive Solutions",
-      "caption": "Manage your solution offerings",
-      "captionActive": "View and manage active solutions",
-      "captionInactive": "View discontinued solutions"
+      "heading": "Services",
+      "headingActive": "Active Services",
+      "headingInactive": "Inactive Services",
+      "caption": "Manage your service offerings",
+      "captionActive": "View and manage active services",
+      "captionInactive": "View discontinued services"
     },
     "buttons": {
-      "addProduct": "Add Solution"
+      "addProduct": "Add Service"
     },
     "columns": {
-      "name": "Solution Name",
+      "name": "Service Name",
       "description": "Description",
       "price": "Price",
       "status": "Status"
     },
     "empty": {
-      "activeTitle": "No active solutions",
-      "activeMessage": "Add your first solution to get started.",
-      "inactiveTitle": "No inactive solutions",
-      "inactiveMessage": "Discontinued solutions will appear here."
+      "activeTitle": "No active services",
+      "activeMessage": "Add your first service to get started.",
+      "inactiveTitle": "No inactive services",
+      "inactiveMessage": "Discontinued services will appear here."
     },
     "form": {
-      "name": "Solution Name",
+      "name": "Service Name",
       "description": "Description",
-      "descriptionPlaceholder": "Enter solution description...",
+      "descriptionPlaceholder": "Enter service description...",
       "price": "Price",
       "currency": "Currency",
       "active": "Active"
     },
     "actions": {
-      "view": "View Solution",
-      "edit": "Edit Solution",
-      "delete": "Delete Solution"
+      "view": "View Service",
+      "edit": "Edit Service",
+      "delete": "Delete Service"
     },
     "bulkActions": {
       "delete": "Delete Selected"
@@ -56,7 +56,7 @@
       "variantCount": "Plan Options",
       "status": "Status",
       "optionsLabel": "Options",
-      "emptyVariantsMessage": "No plan options have been created for this solution yet."
+      "emptyVariantsMessage": "No plan options have been created for this service yet."
     },
     "status": {
       "activate": "Activate",
@@ -85,38 +85,38 @@
       "empty": "No Attributes"
     },
     "confirm": {
-      "activate": "Activate Solution",
-      "activateMessage": "Are you sure you want to activate this solution?",
-      "deactivate": "Deactivate Solution",
-      "deactivateMessage": "Are you sure you want to deactivate this solution?",
-      "bulkActivate": "Activate Solutions",
-      "bulkActivateMessage": "Are you sure you want to activate the selected solutions?",
-      "bulkDeactivate": "Deactivate Solutions",
-      "bulkDeactivateMessage": "Are you sure you want to deactivate the selected solutions?",
-      "bulkDelete": "Delete Solutions",
-      "bulkDeleteMessage": "Are you sure you want to delete the selected solutions? This action cannot be undone.",
+      "activate": "Activate Service",
+      "activateMessage": "Are you sure you want to activate this service?",
+      "deactivate": "Deactivate Service",
+      "deactivateMessage": "Are you sure you want to deactivate this service?",
+      "bulkActivate": "Activate Services",
+      "bulkActivateMessage": "Are you sure you want to activate the selected services?",
+      "bulkDeactivate": "Deactivate Services",
+      "bulkDeactivateMessage": "Are you sure you want to deactivate the selected services?",
+      "bulkDelete": "Delete Services",
+      "bulkDeleteMessage": "Are you sure you want to delete the selected services? This action cannot be undone.",
       "removeVariant": "Remove Plan Option",
       "removeVariantMessage": "Are you sure you want to remove this plan option?"
     },
     "errors": {
       "permissionDenied": "You do not have permission to perform this action",
       "invalidFormData": "Invalid form data. Please check your inputs and try again.",
-      "notFound": "Solution not found",
-      "idRequired": "Solution ID is required",
-      "noIDsProvided": "No solution IDs were provided",
-      "invalidStatus": "Invalid solution status",
-      "cannotDelete": "This solution cannot be deleted because it is in use",
-      "nameRequired": "Solution name is required",
+      "notFound": "Service not found",
+      "idRequired": "Service ID is required",
+      "noIDsProvided": "No service IDs were provided",
+      "invalidStatus": "Invalid service status",
+      "cannotDelete": "This service cannot be deleted because it is in use",
+      "nameRequired": "Service name is required",
       "fieldRequired": "This field is required"
     },
     "breadcrumb": {
-      "products": "Solutions",
-      "product": "Solution",
+      "products": "Services",
+      "product": "Service",
       "option": "Option"
     },
     "options": {
       "tab": {
-        "title": "Solution Options"
+        "title": "Service Options"
       },
       "columns": {
         "name": "Name",
@@ -175,7 +175,7 @@
       },
       "empty": {
         "title": "No Options",
-        "message": "No options have been configured for this solution yet.",
+        "message": "No options have been configured for this service yet.",
         "valueTitle": "No Values",
         "valueMessage": "No values have been added to this option yet."
       },

@@ -1,0 +1,91 @@
+{
+  "subscription": {
+    "page": {
+      "heading": "Engagements",
+      "headingActive": "Active Engagements",
+      "headingInactive": "Inactive Engagements",
+      "caption": "Manage your client engagements",
+      "captionActive": "View and manage active engagements",
+      "captionInactive": "View cancelled or expired engagements"
+    },
+    "buttons": {
+      "addSubscription": "Add Engagement"
+    },
+    "columns": {
+      "customer": "Customer",
+      "plan": "Package",
+      "startDate": "Start Date",
+      "status": "Status"
+    },
+    "empty": {
+      "title": "No engagements found",
+      "message": "Create your first engagement to get started."
+    },
+    "actions": {
+      "view": "View Engagement",
+      "edit": "Edit Engagement",
+      "cancel": "Cancel Engagement"
+    },
+    "form": {
+      "name": "Engagement Name",
+      "namePlaceholder": "Enter engagement name",
+      "client": "Customer",
+      "clientPlaceholder": "Select customer...",
+      "pricePlan": "Price Plan",
+      "pricePlanPlaceholder": "Select price plan...",
+      "dateStart": "Start Date",
+      "dateEnd": "End Date",
+      "notes": "Notes",
+      "notesPlaceholder": "Enter any additional notes...",
+      "active": "Active",
+      "sections": {
+        "basic": "Basic Information",
+        "scheduling": "Scheduling"
+      }
+    },
+    "detail": {
+      "pageTitle": "Engagement Details",
+      "customer": "Customer",
+      "plan": "Package",
+      "pricePlan": "Price Plan",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "status": "Status",
+      "createdDate": "Created",
+      "modifiedDate": "Last Modified"
+    },
+    "tabs": {
+      "info": "Information",
+      "auditTrail": "Audit Trail"
+    },
+    "confirm": {
+      "cancel": "Cancel Engagement",
+      "cancelMessage": "Are you sure you want to cancel \"%s\"?",
+      "delete": "Delete Engagement",
+      "deleteMessage": "Are you sure you want to delete \"%s\"? This action cannot be undone."
+    },
+    "errors": {
+      "noPermission": "You do not have permission to perform this action",
+      "notFound": "Engagement not found",
+      "invalidFormData": "Invalid form data. Please check your inputs and try again."
+    },
+    "validation": {
+      "data_required": "Engagement data is required",
+      "name_required": "Engagement name is required",
+      "name_max_length": "Engagement name must be less than 255 characters",
+      "plan_id_required": "Package is required",
+      "client_id_required": "Customer is required",
+      "date_start_required": "Start date is required",
+      "email_required": "Engagement email is required",
+      "email_invalid": "Engagement email format is invalid",
+      "id_required": "Engagement ID is required",
+      "id_too_short": "Engagement ID is too short",
+      "request_required": "Request is required for engagements",
+      "price_plan_id_required": "Price plan is required",
+      "name_too_short": "Engagement name must be at least 2 characters",
+      "name_too_long": "Engagement name cannot exceed 255 characters",
+      "price_plan_id_too_short": "Price plan ID is too short",
+      "client_id_too_short": "Customer ID is too short"
+    }
+  }
+}

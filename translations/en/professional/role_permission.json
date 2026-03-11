@@ -1,0 +1,27 @@
+{
+  "page": {
+    "heading": "Role Permissions",
+    "caption": "Manage permissions assigned to this role"
+  },
+  "buttons": {
+    "assignPermission": "Assign Permission"
+  },
+  "columns": {
+    "permissionName": "Permission Name",
+    "code": "Code",
+    "type": "Type",
+    "dateAssigned": "Date Assigned"
+  },
+  "empty": {
+    "title": "No permissions assigned",
+    "message": "Assign permissions to this role to control access"
+  },
+  "form": {
+    "permission": "Permission"
+  },
+  "actions": {
+    "assign": "Assign",
+    "remove": "Remove",
+    "managePermissions": "Manage Permissions"
+  }
+}

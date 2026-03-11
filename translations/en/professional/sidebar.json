@@ -31,5 +31,7 @@
     "depreciation_policies_label": "Depreciation Policies",
     "depreciation_policies_icon": "icon-settings",
     "cash_book_label": "Cash Book",
-    "cash_book_icon": "icon-book"
+    "cash_book_icon": "icon-book",
+    "price_lists_title": "Rate Cards",
+    "plans_title": "Packages"
 }

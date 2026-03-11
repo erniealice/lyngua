@@ -1,0 +1,96 @@
+{
+  "plan": {
+    "page": {
+      "heading": "Package",
+      "headingActive": "Active Packages",
+      "headingInactive": "Inactive Packages",
+      "caption": "Manage your packages",
+      "captionActive": "View and manage active packages",
+      "captionInactive": "View discontinued packages"
+    },
+    "buttons": {
+      "addPlan": "Add Package"
+    },
+    "columns": {
+      "name": "Package Name",
+      "description": "Description",
+      "interval": "Fulfillment Type",
+      "price": "Price",
+      "status": "Status"
+    },
+    "empty": {
+      "title": "No packages found",
+      "message": "Create your first package to get started.",
+      "activeTitle": "No active packages",
+      "activeMessage": "Create your first package to get started.",
+      "inactiveTitle": "No inactive packages",
+      "inactiveMessage": "Discontinued packages will appear here."
+    },
+    "form": {
+      "name": "Package Name",
+      "namePlaceholder": "Enter package name",
+      "description": "Description",
+      "descriptionPlaceholder": "Enter package description...",
+      "fulfillmentType": "Fulfillment Type",
+      "active": "Active",
+      "products": "Services",
+      "productsPlaceholder": "Select services...",
+      "productsSearch": "Search services...",
+      "sections": {
+        "basic": "Basic Information",
+        "services": "Assigned Services"
+      }
+    },
+    "actions": {
+      "view": "View Package",
+      "edit": "Edit Package",
+      "delete": "Delete Package"
+    },
+    "detail": {
+      "pageTitle": "Package Details",
+      "price": "Price",
+      "currency": "Currency",
+      "status": "Status",
+      "description": "Description",
+      "fulfillmentType": "Fulfillment Type",
+      "createdDate": "Created",
+      "modifiedDate": "Last Modified"
+    },
+    "tabs": {
+      "info": "Information",
+      "products": "Services",
+      "priceLists": "Price Plans",
+      "auditTrail": "Audit Trail"
+    },
+    "confirm": {
+      "delete": "Delete Package",
+      "deleteMessage": "Are you sure you want to delete \"%s\"? This action cannot be undone.",
+      "deactivate": "Deactivate Package",
+      "deactivateMessage": "Are you sure you want to deactivate \"%s\"?"
+    },
+    "validation": {
+      "data_required": "Package data is required",
+      "name_required": "Package name is required",
+      "email_required": "Package email is required",
+      "email_invalid": "Package email format is invalid",
+      "id_required": "Package ID is required",
+      "request_required": "Request is required for packages",
+      "id_too_long": "Plan ID is too long",
+      "invalid_limit": "Invalid pagination limit",
+      "limit_too_large": "Pagination limit is too large"
+    },
+    "errors": {
+      "not_found": "Package with ID \"{entityId}\" not found",
+      "creation_failed": "Package creation failed",
+      "update_failed": "Package update failed",
+      "deletion_failed": "Package deletion failed",
+      "list_failed": "Failed to retrieve packages",
+      "authorization_failed": "Authorization failed for packages",
+      "get_item_page_data_failed": "Failed to load package details",
+      "get_list_page_data_failed": "Failed to load package list",
+      "permissionDenied": "You do not have permission to perform this action",
+      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
+      "noPermission": "You do not have permission to perform this action"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "page": {
+    "heading": "Roles",
+    "headingActive": "Active Roles",
+    "headingInactive": "Inactive Roles",
+    "caption": "Role management",
+    "captionActive": "Manage your active roles",
+    "captionInactive": "View inactive roles"
+  },
+  "buttons": {
+    "addRole": "Add Role"
+  },
+  "columns": {
+    "name": "Name",
+    "description": "Description",
+    "color": "Color",
+    "permissions": "Permissions",
+    "status": "Status"
+  },
+  "empty": {
+    "activeTitle": "No active roles",
+    "activeMessage": "Add your first role to get started",
+    "inactiveTitle": "No inactive roles",
+    "inactiveMessage": "Inactive roles will appear here"
+  },
+  "form": {
+    "name": "Name",
+    "namePlaceholder": "e.g. Administrator",
+    "description": "Description",
+    "descriptionPlaceholder": "e.g. Full system access",
+    "color": "Color",
+    "colorPlaceholder": "e.g. #FF0000",
+    "active": "Active"
+  },
+  "actions": {
+    "view": "View role",
+    "edit": "Edit role",
+    "delete": "Delete role",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "managePermissions": "Manage Permissions"
+  },
+  "detail": {
+    "tabs": {
+      "info": "Info",
+      "permissions": "Permissions",
+      "users": "Users"
+    },
+    "info": {
+      "title": "Role Information",
+      "name": "Name",
+      "description": "Description",
+      "color": "Color",
+      "status": "Status"
+    }
+  }
+}

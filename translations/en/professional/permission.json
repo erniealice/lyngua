@@ -1,0 +1,44 @@
+{
+  "page": {
+    "heading": "Permissions",
+    "headingActive": "Active Permissions",
+    "headingInactive": "Inactive Permissions",
+    "caption": "Permission management",
+    "captionActive": "Manage your active permissions",
+    "captionInactive": "View inactive permissions"
+  },
+  "buttons": {
+    "addPermission": "Add Permission"
+  },
+  "columns": {
+    "name": "Name",
+    "entity": "Entity",
+    "permissionCode": "Permission Code",
+    "type": "Type",
+    "status": "Status"
+  },
+  "empty": {
+    "activeTitle": "No active permissions",
+    "activeMessage": "Add your first permission to get started",
+    "inactiveTitle": "No inactive permissions",
+    "inactiveMessage": "Inactive permissions will appear here"
+  },
+  "form": {
+    "name": "Name",
+    "namePlaceholder": "e.g. Clients: View",
+    "permissionCode": "Permission Code",
+    "permissionCodePlaceholder": "e.g. client:read",
+    "permissionCodeHint": "Format: entity:action (e.g. client:create, user:read, service:manage)",
+    "permissionType": "Permission Type",
+    "description": "Description",
+    "descriptionPlaceholder": "e.g. Allows viewing client records",
+    "active": "Active"
+  },
+  "actions": {
+    "view": "View permission",
+    "edit": "Edit permission",
+    "delete": "Delete permission",
+    "activate": "Activate",
+    "deactivate": "Deactivate"
+  }
+}
