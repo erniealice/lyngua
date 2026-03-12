@@ -1,0 +1,21 @@
+{
+  "common.actions.download": "Download",
+  "common.actions.downloadInvoice": "Download Invoice",
+  "common.actions.sendEmail": "Send Email",
+  "common.actions.sendInvoiceEmail": "Send Invoice via Email",
+  "common.actions.delete": "Delete",
+  "common.actions.view": "View",
+  "common.actions.edit": "Edit",
+  "common.actions.confirm.download.title": "Download Invoice",
+  "common.actions.confirm.download.message": "Download the invoice for %s as PDF?",
+  "common.actions.confirm.download.confirm": "Download",
+  "common.actions.confirm.sendEmail.title": "Send Invoice via Email",
+  "common.actions.confirm.sendEmail.message": "Send the invoice for %s to the customer's email address?",
+  "common.actions.confirm.sendEmail.confirm": "Send Email",
+  "common.actions.confirm.sendEmail.success": "Invoice email sent successfully",
+  "common.actions.confirm.sendEmail.error": "Failed to send invoice email",
+  "common.actions.confirm.delete.title": "Confirm Delete",
+  "common.actions.confirm.delete.message": "Are you sure you want to delete %s? This action cannot be undone.",
+  "common.actions.confirm.delete.confirm": "Delete",
+  "common.actions.cancel": "Cancel"
+}

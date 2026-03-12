@@ -37,6 +37,10 @@
       "dateEnd": "End Date",
       "notes": "Notes",
       "notesPlaceholder": "Enter any additional notes...",
+      "customerSearchPlaceholder": "Search customers...",
+      "planSearchPlaceholder": "Search packages...",
+      "customerNoResults": "No customers found",
+      "planNoResults": "No packages found",
       "active": "Active",
       "sections": {
         "basic": "Basic Information",

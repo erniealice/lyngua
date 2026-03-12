@@ -1,5 +1,5 @@
 {
-  "sales": {
+  "revenue": {
     "page": {
       "heading": "Bookings",
       "headingOngoing": "Ongoing Bookings",
@@ -55,7 +55,8 @@
       "delete": "Delete Booking",
       "complete": "Complete Booking",
       "reactivate": "Reactivate Booking",
-      "downloadInvoice": "Download Invoice"
+      "downloadInvoice": "Download Invoice",
+      "sendEmail": "Send Email"
     },
     "bulkActions": {
       "delete": "Delete Selected"
@@ -164,7 +165,9 @@
       "bulkComplete": "Complete Bookings",
       "bulkCompleteMessage": "Are you sure you want to complete the selected bookings? This action cannot be undone.",
       "bulkReactivate": "Reactivate Bookings",
-      "bulkReactivateMessage": "Are you sure you want to reactivate the selected bookings?"
+      "bulkReactivateMessage": "Are you sure you want to reactivate the selected bookings?",
+      "sendEmail": "Send Invoice via Email",
+      "sendEmailMessage": "Send the invoice for %s to the customer's email address?"
     },
     "errors": {
       "permissionDenied": "You do not have permission to perform this action",

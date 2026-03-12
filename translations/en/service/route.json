@@ -84,7 +84,7 @@
     "location": {
         "detail_url": "/app/locations/{id}"
     },
-    "sales": {
+    "revenue": {
         "dashboard_url": "/app/bookings/dashboard",
         "list_url": "/app/bookings/list/{status}",
         "detail_url": "/app/bookings/detail/{id}",

@@ -55,7 +55,8 @@
       "delete": "Delete Invoice",
       "complete": "Mark as Paid",
       "reactivate": "Re-open Invoice",
-      "downloadInvoice": "Download Invoice"
+      "downloadInvoice": "Download Invoice",
+      "sendEmail": "Send Email"
     },
     "bulkActions": {
       "delete": "Delete Selected"
@@ -164,7 +165,9 @@
       "bulkComplete": "Mark Invoices as Paid",
       "bulkCompleteMessage": "Are you sure you want to mark the selected invoices as paid? This action cannot be undone.",
       "bulkReactivate": "Re-open Invoices",
-      "bulkReactivateMessage": "Are you sure you want to re-open the selected invoices?"
+      "bulkReactivateMessage": "Are you sure you want to re-open the selected invoices?",
+      "sendEmail": "Send Invoice via Email",
+      "sendEmailMessage": "Send the invoice for %s to the client's email address?"
     },
     "errors": {
       "permissionDenied": "You do not have permission to perform this action",
