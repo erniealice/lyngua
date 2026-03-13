@@ -1,0 +1,24 @@
+{
+    "tab": "Attachments",
+    "upload_title": "Upload Attachment",
+    "upload_button": "Upload",
+    "form": {
+        "file_name": "File Name",
+        "file_input": "Select File",
+        "description": "Description",
+        "description_placeholder": "Add notes about this file (optional)"
+    },
+    "table": {
+        "file_type": "Type",
+        "file_size": "Size",
+        "uploaded_at": "Uploaded",
+        "uploaded_by": "Uploaded By"
+    },
+    "empty": {
+        "title": "No attachments",
+        "message": "Upload files to attach them to this record."
+    },
+    "delete": "Delete",
+    "confirm_delete": "Are you sure you want to delete this attachment?",
+    "confirm_delete_title": "Delete Attachment"
+}
