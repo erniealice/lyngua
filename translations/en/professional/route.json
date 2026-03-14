@@ -124,5 +124,20 @@
     "asset": {
         "lapsing_schedule_url": "/app/assets/reports/lapsing-schedule",
         "depreciation_policies_url": "/app/assets/settings/depreciation-policies"
+    },
+    "job": {
+        "list_url": "/app/matters/list/{status}",
+        "detail_url": "/app/matters/detail/{id}",
+        "add_url": "/action/matters/add",
+        "edit_url": "/action/matters/edit/{id}",
+        "delete_url": "/action/matters/delete"
+    },
+    "job_template": {
+        "list_url": "/app/matter-sops/list/{status}",
+        "detail_url": "/app/matter-sops/detail/{id}"
+    },
+    "job_activity": {
+        "list_url": "/app/timesheet/list",
+        "detail_url": "/app/timesheet/detail/{id}"
     }
 }

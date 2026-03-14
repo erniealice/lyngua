@@ -1,4 +1,7 @@
 {
+    "operations_group_title": "Transactions",
+    "engagements_app_label": "Subscriptions",
+    "engagements_app_icon": "icon-refresh-cw",
     "sales_app_label": "Bookings",
     "sales_app_icon": "icon-calendar",
     "sales_title": "Bookings",
@@ -30,5 +33,16 @@
     "depreciation_policies_label": "Depreciation Policies",
     "depreciation_policies_icon": "icon-settings",
     "cash_book_label": "Cash Book",
-    "cash_book_icon": "icon-book"
+    "cash_book_icon": "icon-book",
+    "operations_app_label": "Operations",
+    "operations_app_icon": "icon-briefcase",
+    "operations_title": "Operations",
+    "jobs_label": "Appointments",
+    "jobs_icon": "icon-clipboard",
+    "job_templates_label": "Service Protocols",
+    "job_templates_icon": "icon-copy",
+    "activity_log_label": "Chair Log",
+    "activity_log_icon": "icon-clock",
+    "production_label": "Production",
+    "production_icon": "icon-settings"
 }

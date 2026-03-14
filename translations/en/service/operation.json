@@ -1,0 +1,13 @@
+{
+    "operation": {
+        "job_template": { "singular": "Service Protocol", "plural": "Service Protocols" },
+        "job_template_phase": { "singular": "Service Category", "plural": "Service Categories" },
+        "job_template_task": { "singular": "Application Step", "plural": "Application Steps" },
+        "job": { "singular": "Appointment", "plural": "Appointments", "list_title": "Appointments" },
+        "job_phase": { "singular": "Active Category", "plural": "Active Categories" },
+        "job_task": { "singular": "Service Task", "plural": "Service Tasks" },
+        "job_activity": { "singular": "Chair Log", "plural": "Chair / Backbar Log", "list_title": "Chair & Backbar Log" },
+        "job_settlement": { "singular": "POS Allocation", "plural": "POS Allocations" },
+        "sidebar": { "jobs": "Appointments", "job_templates": "Service Protocols", "activity_log": "Chair Log" }
+    }
+}

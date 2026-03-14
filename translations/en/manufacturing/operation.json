@@ -1,0 +1,14 @@
+{
+    "operation": {
+        "job_template": { "singular": "BOM & Routing", "plural": "BOMs & Routings" },
+        "job_template_phase": { "singular": "Routing Operation", "plural": "Routing Operations" },
+        "job_template_task": { "singular": "Routing Step", "plural": "Routing Steps" },
+        "job": { "singular": "Production Order", "plural": "Production Orders", "list_title": "Production Orders" },
+        "job_phase": { "singular": "Active Operation", "plural": "Active Operations" },
+        "job_task": { "singular": "Work Center Step", "plural": "Work Center Steps" },
+        "job_activity": { "singular": "Labor / Material Ticket", "plural": "Labor / Material Tickets", "list_title": "Production Tickets" },
+        "job_settlement": { "singular": "Cost Settlement", "plural": "Cost Settlements" },
+        "inventory_movement": { "singular": "Stock Movement", "plural": "Stock Movements" },
+        "sidebar": { "jobs": "Production", "job_templates": "BOMs & Routings", "activity_log": "Production Tickets" }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "operation": {
+        "job_template": { "singular": "Curriculum", "plural": "Curricula" },
+        "job_template_phase": { "singular": "Semester", "plural": "Semesters" },
+        "job_template_task": { "singular": "Lesson", "plural": "Lessons" },
+        "job": { "singular": "Course", "plural": "Courses", "list_title": "Courses" },
+        "job_phase": { "singular": "Active Module", "plural": "Active Modules" },
+        "job_task": { "singular": "Scheduled Lesson", "plural": "Scheduled Lessons" },
+        "job_activity": { "singular": "Instructor Hours", "plural": "Instructor / Lab Logs", "list_title": "Instructor & Lab Log" },
+        "job_settlement": { "singular": "Fee Allocation", "plural": "Fee Allocations" },
+        "sidebar": { "jobs": "Courses", "job_templates": "Curricula", "activity_log": "Instructor Log" }
+    }
+}

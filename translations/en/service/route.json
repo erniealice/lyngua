@@ -124,5 +124,19 @@
     "asset": {
         "lapsing_schedule_url": "/app/assets/reports/lapsing-schedule",
         "depreciation_policies_url": "/app/assets/settings/depreciation-policies"
+    },
+    "job": {
+        "list_url": "/app/appointments/list/{status}",
+        "detail_url": "/app/appointments/detail/{id}",
+        "add_url": "/action/appointments/add",
+        "edit_url": "/action/appointments/edit/{id}",
+        "delete_url": "/action/appointments/delete"
+    },
+    "job_template": {
+        "list_url": "/app/service-protocols/list/{status}",
+        "detail_url": "/app/service-protocols/detail/{id}"
+    },
+    "job_activity": {
+        "list_url": "/app/chair-log/list"
     }
 }

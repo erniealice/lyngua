@@ -1,0 +1,13 @@
+{
+    "operation": {
+        "job_template": { "singular": "Matter SOP", "plural": "Matter SOPs" },
+        "job_template_phase": { "singular": "Legal Stage", "plural": "Legal Stages" },
+        "job_template_task": { "singular": "SOP Step", "plural": "SOP Steps" },
+        "job": { "singular": "Matter", "plural": "Matters", "list_title": "Matters" },
+        "job_phase": { "singular": "Active Stage", "plural": "Active Stages" },
+        "job_task": { "singular": "Task", "plural": "Tasks" },
+        "job_activity": { "singular": "Time Entry", "plural": "Time / Expense Entries", "list_title": "Time & Expense Log" },
+        "job_settlement": { "singular": "Billing Allocation", "plural": "Billing Allocations" },
+        "sidebar": { "jobs": "Matters", "job_templates": "Matter SOPs", "activity_log": "Time & Expenses" }
+    }
+}

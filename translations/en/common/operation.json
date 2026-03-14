@@ -1,0 +1,215 @@
+{
+    "operation": {
+        "job_template": {
+            "singular": "Job Template",
+            "plural": "Job Templates",
+            "list_title": "Job Templates",
+            "create_title": "Create Job Template",
+            "edit_title": "Edit Job Template",
+            "detail_title": "Job Template Detail",
+            "fields": {
+                "name": "Name",
+                "description": "Description",
+                "default_fulfillment_type": "Default Fulfillment Type",
+                "default_cost_flow_type": "Default Cost Flow",
+                "default_billing_rule_type": "Default Billing Rule"
+            }
+        },
+        "job_template_phase": {
+            "singular": "Phase",
+            "plural": "Phases",
+            "fields": {
+                "name": "Phase Name",
+                "phase_order": "Order"
+            }
+        },
+        "job_template_task": {
+            "singular": "Task",
+            "plural": "Tasks",
+            "fields": {
+                "name": "Task Name",
+                "step_order": "Order",
+                "estimated_duration_minutes": "Est. Duration (min)"
+            }
+        },
+        "job": {
+            "singular": "Job",
+            "plural": "Jobs",
+            "list_title": "Jobs",
+            "create_title": "Create Job",
+            "edit_title": "Edit Job",
+            "detail_title": "Job Detail",
+            "fields": {
+                "name": "Job Name",
+                "origin_type": "Origin",
+                "origin_id": "Source Reference",
+                "client_id": "Client",
+                "demand_type": "Demand Type",
+                "fulfillment_type": "Fulfillment Type",
+                "cost_flow_type": "Cost Flow",
+                "billing_rule_type": "Billing Rule",
+                "status": "Status",
+                "approval_status": "Approval",
+                "posting_status": "Posting",
+                "billing_status": "Billing",
+                "location_id": "Location"
+            }
+        },
+        "job_phase": {
+            "singular": "Phase",
+            "plural": "Phases"
+        },
+        "job_task": {
+            "singular": "Task",
+            "plural": "Tasks",
+            "fields": {
+                "assigned_to": "Assigned To",
+                "is_ad_hoc": "Ad Hoc"
+            }
+        },
+        "job_activity": {
+            "singular": "Activity Entry",
+            "plural": "Activity Entries",
+            "list_title": "Activity Log",
+            "fields": {
+                "entry_type": "Type",
+                "quantity": "Quantity",
+                "unit_cost": "Unit Cost",
+                "total_cost": "Total Cost",
+                "currency": "Currency",
+                "entry_date": "Date",
+                "description": "Description",
+                "billable_status": "Billable",
+                "approval_status": "Approval",
+                "posting_status": "Posted"
+            }
+        },
+        "activity_labor": {
+            "singular": "Labor Entry",
+            "plural": "Labor Entries",
+            "fields": {
+                "staff_id": "Staff",
+                "hours": "Hours",
+                "rate_type": "Rate Type",
+                "time_start": "Start Time",
+                "time_end": "End Time"
+            }
+        },
+        "activity_material": {
+            "singular": "Material Entry",
+            "plural": "Material Entries",
+            "fields": {
+                "product_id": "Material",
+                "unit_of_measure": "UOM",
+                "lot_number": "Lot #",
+                "location_id": "Warehouse"
+            }
+        },
+        "activity_expense": {
+            "singular": "Expense Entry",
+            "plural": "Expense Entries",
+            "fields": {
+                "expense_category": "Category",
+                "vendor_ref": "Vendor Ref",
+                "receipt_url": "Receipt",
+                "reimbursable": "Reimbursable"
+            }
+        },
+        "job_settlement": {
+            "singular": "Settlement",
+            "plural": "Settlements",
+            "fields": {
+                "target_type": "Target",
+                "target_id": "Target Reference",
+                "allocated_amount": "Amount",
+                "allocation_pct": "Allocation %",
+                "settlement_date": "Date"
+            }
+        },
+        "inventory_movement": {
+            "singular": "Inventory Movement",
+            "plural": "Inventory Movements",
+            "fields": {
+                "movement_type": "Type",
+                "product_id": "Product",
+                "quantity": "Quantity",
+                "unit_cost": "Unit Cost",
+                "from_location_id": "From",
+                "to_location_id": "To",
+                "movement_date": "Date"
+            }
+        },
+        "enums": {
+            "origin_type": {
+                "SUBSCRIPTION": "Subscription",
+                "ORDER": "Order",
+                "BOOKING": "Booking",
+                "INTERNAL": "Internal",
+                "WARRANTY": "Warranty",
+                "AD_HOC": "Walk-in"
+            },
+            "demand_type": {
+                "MTO": "Make-to-Order",
+                "MTS": "Make-to-Stock",
+                "INTERNAL": "Internal",
+                "WARRANTY": "Warranty",
+                "AD_HOC": "Ad Hoc"
+            },
+            "fulfillment_type": {
+                "SERVICE": "Service",
+                "PRODUCTION": "Production",
+                "PROJECT": "Project",
+                "MAINTENANCE": "Maintenance"
+            },
+            "cost_flow_type": {
+                "DIRECT_EXPENSE": "Direct Expense",
+                "WIP": "Work-in-Progress",
+                "INVENTORY": "Inventory",
+                "OVERHEAD": "Overhead",
+                "CONTRACT_ASSET": "Contract Asset"
+            },
+            "billing_rule_type": {
+                "FIXED_FEE": "Fixed Fee",
+                "T_AND_M": "Time & Materials",
+                "MILESTONE": "Milestone",
+                "INCLUDED": "Included",
+                "NON_BILLABLE": "Non-Billable"
+            },
+            "job_status": {
+                "DRAFT": "Draft",
+                "PENDING": "Pending",
+                "ACTIVE": "Active",
+                "PAUSED": "Paused",
+                "COMPLETED": "Completed",
+                "CLOSED": "Closed"
+            },
+            "billable_status": {
+                "BILLABLE": "Billable",
+                "NON_BILLABLE": "Non-Billable",
+                "INCLUDED": "Included",
+                "WRITE_OFF": "Write-Off"
+            },
+            "rate_type": {
+                "STANDARD": "Standard",
+                "OVERTIME": "Overtime",
+                "PREMIUM": "Premium"
+            },
+            "movement_type": {
+                "ISSUE": "Issue",
+                "COMPLETION": "Completion",
+                "SCRAP": "Scrap",
+                "TRANSFER": "Transfer",
+                "ADJUSTMENT": "Adjustment",
+                "RECEIPT": "Receipt",
+                "RETURN": "Return",
+                "SELL": "Sell",
+                "EXPIRE": "Expire"
+            }
+        },
+        "sidebar": {
+            "jobs": "Jobs",
+            "job_templates": "Job Templates",
+            "activity_log": "Activity Log"
+        }
+    }
+}

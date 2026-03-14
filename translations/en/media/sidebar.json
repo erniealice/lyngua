@@ -1,0 +1,13 @@
+{
+    "operations_app_label": "Production",
+    "operations_app_icon": "icon-briefcase",
+    "operations_title": "Production",
+    "jobs_label": "Projects",
+    "jobs_icon": "icon-clipboard",
+    "job_templates_label": "Run of Show",
+    "job_templates_icon": "icon-copy",
+    "activity_log_label": "Crew Log",
+    "activity_log_icon": "icon-clock",
+    "production_label": "Production",
+    "production_icon": "icon-settings"
+}

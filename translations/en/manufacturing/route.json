@@ -1,0 +1,16 @@
+{
+    "job": {
+        "list_url": "/app/production-orders/list/{status}",
+        "detail_url": "/app/production-orders/detail/{id}",
+        "add_url": "/action/production-orders/add",
+        "edit_url": "/action/production-orders/edit/{id}",
+        "delete_url": "/action/production-orders/delete"
+    },
+    "job_template": {
+        "list_url": "/app/bom-routings/list/{status}",
+        "detail_url": "/app/bom-routings/detail/{id}"
+    },
+    "job_activity": {
+        "list_url": "/app/production-tickets/list"
+    }
+}

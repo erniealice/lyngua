@@ -1,0 +1,14 @@
+{
+    "operation": {
+        "job_template": { "singular": "Standard Build Plan", "plural": "Standard Build Plans" },
+        "job_template_phase": { "singular": "Build Phase", "plural": "Build Phases" },
+        "job_template_task": { "singular": "Trade Task", "plural": "Trade Tasks" },
+        "job": { "singular": "Job", "plural": "Jobs", "list_title": "Jobs" },
+        "job_phase": { "singular": "Active Phase", "plural": "Active Phases" },
+        "job_task": { "singular": "Punchlist Item", "plural": "Punchlist Items" },
+        "job_activity": { "singular": "Timesheet Entry", "plural": "Timesheet / Material Logs", "list_title": "Timesheets & Materials" },
+        "job_settlement": { "singular": "Progress Billing", "plural": "Progress Billings" },
+        "inventory_movement": { "singular": "Material Transfer", "plural": "Material Transfers" },
+        "sidebar": { "jobs": "Jobs", "job_templates": "Build Plans", "activity_log": "Timesheets" }
+    }
+}

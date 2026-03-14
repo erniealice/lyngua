@@ -1,0 +1,7 @@
+{
+    "operation": {
+        "job": { "singular": "Job", "plural": "Jobs", "list_title": "Jobs" },
+        "job_activity": { "singular": "Activity Entry", "plural": "Activity Entries" },
+        "sidebar": { "jobs": "Jobs", "job_templates": "Job Templates", "activity_log": "Activity Log" }
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "document_template": {
+    "settings": {
+      "pageTitle": "Document Templates",
+      "caption": "Manage your document templates for generating professional documents.",
+      "uploadTemplate": "Upload Template",
+      "templateName": "Template Name",
+      "templateType": "Type",
+      "purpose": "Purpose",
+      "setDefault": "Set Default",
+      "delete": "Delete",
+      "defaultBadge": "Default",
+      "emptyTitle": "No templates",
+      "emptyMessage": "Upload document templates to generate professional documents.",
+      "uploadSuccess": "Template uploaded successfully",
+      "deleteConfirm": "Are you sure you want to delete this template?"
+    },
+    "sidebar": {
+      "templatesLabel": "Templates",
+      "invoiceTemplatesLabel": "Invoice Templates",
+      "purchaseOrderTemplatesLabel": "Purchase Order Templates",
+      "receivingReportTemplatesLabel": "Receiving Report Templates"
+    }
+  }
+}

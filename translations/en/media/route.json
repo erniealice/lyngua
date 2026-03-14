@@ -1,0 +1,12 @@
+{
+    "job": {
+        "list_url": "/app/projects/list/{status}",
+        "detail_url": "/app/projects/detail/{id}"
+    },
+    "job_template": {
+        "list_url": "/app/run-of-show/list/{status}"
+    },
+    "job_activity": {
+        "list_url": "/app/crew-log/list"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "operation": {
+        "job_template": { "singular": "Run of Show", "plural": "Run of Shows" },
+        "job_template_phase": { "singular": "Production Phase", "plural": "Production Phases" },
+        "job_template_task": { "singular": "Key Deliverable", "plural": "Key Deliverables" },
+        "job": { "singular": "Project", "plural": "Projects", "list_title": "Projects" },
+        "job_phase": { "singular": "Active Phase", "plural": "Active Phases" },
+        "job_task": { "singular": "Deliverable", "plural": "Deliverables" },
+        "job_activity": { "singular": "Crew Log", "plural": "Crew / Gear Logs", "list_title": "Crew & Gear Log" },
+        "job_settlement": { "singular": "Invoice Allocation", "plural": "Invoice Allocations" },
+        "inventory_movement": { "singular": "Gear Transfer", "plural": "Gear Transfers" },
+        "sidebar": { "jobs": "Projects", "job_templates": "Run of Show", "activity_log": "Crew Log" }
+    }
+}

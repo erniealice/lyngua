@@ -1,4 +1,7 @@
 {
+    "operations_group_title": "Transactions",
+    "engagements_app_label": "Engagements",
+    "engagements_app_icon": "icon-refresh-cw",
     "sales_app_label": "Revenue",
     "sales_app_icon": "icon-briefcase",
     "sales_title": "Revenue",
@@ -33,5 +36,16 @@
     "cash_book_label": "Cash Book",
     "cash_book_icon": "icon-book",
     "price_lists_title": "Rate Cards",
-    "plans_title": "Packages"
+    "plans_title": "Packages",
+    "operations_app_label": "Practice",
+    "operations_app_icon": "icon-briefcase",
+    "operations_title": "Practice",
+    "jobs_label": "Matters",
+    "jobs_icon": "icon-clipboard",
+    "job_templates_label": "Matter SOPs",
+    "job_templates_icon": "icon-copy",
+    "activity_log_label": "Time & Expenses",
+    "activity_log_icon": "icon-clock",
+    "production_label": "Production",
+    "production_icon": "icon-settings"
 }
