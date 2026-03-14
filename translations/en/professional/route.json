@@ -74,12 +74,12 @@
         "edit_url": "/action/subscriptions/edit/{id}",
         "delete_url": "/action/subscriptions/delete"
     },
-    "payment_collection": {
-        "list_url": "/app/payment-collections/list/{status}",
-        "detail_url": "/app/payment-collections/{id}",
-        "add_url": "/action/payment-collections/add",
-        "edit_url": "/action/payment-collections/edit/{id}",
-        "delete_url": "/action/payment-collections/delete"
+    "treasury_collection": {
+        "list_url": "/app/treasury-collections/list/{status}",
+        "detail_url": "/app/treasury-collections/{id}",
+        "add_url": "/action/treasury-collections/add",
+        "edit_url": "/action/treasury-collections/edit/{id}",
+        "delete_url": "/action/treasury-collections/delete"
     },
     "location": {
         "detail_url": "/app/locations/{id}"

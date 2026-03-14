@@ -74,7 +74,7 @@
         "edit_url": "/action/memberships/edit/{id}",
         "delete_url": "/action/memberships/delete"
     },
-    "payment_collection": {
+    "treasury_collection": {
         "list_url": "/app/payment-collections/list/{status}",
         "detail_url": "/app/payment-collections/{id}",
         "add_url": "/action/payment-collections/add",
