@@ -1,0 +1,11 @@
+{
+    "outcome": {
+        "criteria": "Service Standard",
+        "criteriaLibrary": "Service Standards",
+        "observation": "Service Result",
+        "summary": "Service Report",
+        "reportCard": "Service Report",
+        "phaseSummary": "Service Phase Report",
+        "jobSummary": "Service Quality Report"
+    }
+}

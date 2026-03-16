@@ -1,0 +1,11 @@
+{
+    "outcome": {
+        "criteria": "Code Requirement",
+        "criteriaLibrary": "Code Requirements",
+        "observation": "Inspection Result",
+        "summary": "Inspection Report",
+        "reportCard": "Inspection Summary",
+        "phaseSummary": "Stage Inspection Report",
+        "jobSummary": "Inspection Summary"
+    }
+}
