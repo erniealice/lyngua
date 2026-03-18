@@ -1,0 +1,31 @@
+{
+    "subscription": {
+        "page": {
+            "heading": "Contracts",
+            "headingActive": "Active Contracts",
+            "headingInactive": "Inactive Contracts",
+            "caption": "Project contracts and framework agreements",
+            "captionActive": "Active project contracts",
+            "captionInactive": "Completed or terminated contracts"
+        },
+        "buttons": { "addSubscription": "Add Contract" },
+        "columns": { "customer": "Client", "plan": "Contract Type", "startDate": "Start Date" },
+        "form": {
+            "customer": "Client",
+            "plan": "Contract Type",
+            "startDate": "Commencement Date",
+            "endDate": "Completion Date",
+            "notes": "Scope & Terms"
+        },
+        "actions": {
+            "view": "View Contract",
+            "edit": "Edit Contract",
+            "cancel": "Terminate Contract"
+        },
+        "detail": { "pageTitle": "Contract Details" },
+        "confirm": {
+            "cancelTitle": "Terminate Contract",
+            "cancelMessage": "Are you sure you want to terminate this contract?"
+        }
+    }
+}

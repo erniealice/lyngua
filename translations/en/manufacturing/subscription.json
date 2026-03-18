@@ -1,0 +1,31 @@
+{
+    "subscription": {
+        "page": {
+            "heading": "Agreements",
+            "headingActive": "Active Agreements",
+            "headingInactive": "Inactive Agreements",
+            "caption": "Blanket orders, standing orders, and supply contracts",
+            "captionActive": "Active blanket orders and supply agreements",
+            "captionInactive": "Expired or cancelled agreements"
+        },
+        "buttons": { "addSubscription": "Add Agreement" },
+        "columns": { "customer": "Customer", "plan": "Agreement Type", "startDate": "Effective Date" },
+        "form": {
+            "customer": "Customer",
+            "plan": "Agreement Type",
+            "startDate": "Effective Date",
+            "endDate": "Expiry Date",
+            "notes": "Terms & Conditions"
+        },
+        "actions": {
+            "view": "View Agreement",
+            "edit": "Edit Agreement",
+            "cancel": "Cancel Agreement"
+        },
+        "detail": { "pageTitle": "Agreement Details" },
+        "confirm": {
+            "cancelTitle": "Cancel Agreement",
+            "cancelMessage": "Are you sure you want to cancel this agreement?"
+        }
+    }
+}

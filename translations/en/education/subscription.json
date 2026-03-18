@@ -1,0 +1,31 @@
+{
+    "subscription": {
+        "page": {
+            "heading": "Enrollments",
+            "headingActive": "Active Enrollments",
+            "headingInactive": "Inactive Enrollments",
+            "caption": "Student enrollments and program registrations",
+            "captionActive": "Currently enrolled students",
+            "captionInactive": "Completed or withdrawn enrollments"
+        },
+        "buttons": { "addSubscription": "Add Enrollment" },
+        "columns": { "customer": "Student", "plan": "Program", "startDate": "Enrollment Date" },
+        "form": {
+            "customer": "Student",
+            "plan": "Program",
+            "startDate": "Enrollment Date",
+            "endDate": "Expected Completion",
+            "notes": "Notes"
+        },
+        "actions": {
+            "view": "View Enrollment",
+            "edit": "Edit Enrollment",
+            "cancel": "Withdraw Enrollment"
+        },
+        "detail": { "pageTitle": "Enrollment Details" },
+        "confirm": {
+            "cancelTitle": "Withdraw Enrollment",
+            "cancelMessage": "Are you sure you want to withdraw this enrollment?"
+        }
+    }
+}

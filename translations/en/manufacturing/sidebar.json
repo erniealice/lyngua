@@ -1,6 +1,6 @@
 {
     "operations_app_label": "Production",
-    "operations_app_icon": "icon-briefcase",
+    "operations_app_icon": "icon-hard-hat",
     "operations_title": "Production",
     "jobs_label": "Production Orders",
     "jobs_icon": "icon-clipboard",
@@ -9,5 +9,10 @@
     "activity_log_label": "Production Tickets",
     "activity_log_icon": "icon-clock",
     "production_label": "Production Runs",
-    "production_icon": "icon-settings"
+    "production_icon": "icon-settings",
+    "subscriptions_title": "Agreements",
+    "outcomes_title": "Quality Control",
+    "criteria_label": "QC Specifications",
+    "outcome_log_label": "QC Results",
+    "report_cards_label": "QC Certificates"
 }

@@ -9,5 +9,10 @@
     "activity_log_label": "Crew Log",
     "activity_log_icon": "icon-clock",
     "production_label": "Production",
-    "production_icon": "icon-settings"
+    "production_icon": "icon-settings",
+    "subscriptions_title": "Retainers",
+    "outcomes_title": "Acceptance",
+    "criteria_label": "Brief Criteria",
+    "outcome_log_label": "Delivery Log",
+    "report_cards_label": "Delivery Reports"
 }

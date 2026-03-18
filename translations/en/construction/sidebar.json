@@ -9,5 +9,10 @@
     "activity_log_label": "Timesheets",
     "activity_log_icon": "icon-clock",
     "production_label": "Production",
-    "production_icon": "icon-settings"
+    "production_icon": "icon-settings",
+    "subscriptions_title": "Contracts",
+    "outcomes_title": "Inspection",
+    "criteria_label": "Code Requirements",
+    "outcome_log_label": "Inspection Log",
+    "report_cards_label": "Inspection Reports"
 }

@@ -1,0 +1,33 @@
+{
+    "outcome_summary": {
+        "page": {
+            "jobHeading": "Outcome Summary",
+            "jobCaption": "Job-level outcome report card",
+            "phaseHeading": "Phase Outcome Summary",
+            "phaseCaption": "Phase-level outcome report card"
+        },
+        "buttons": {
+            "generateSummary": "Generate Summary"
+        },
+        "detail": {
+            "overallDetermination": "Overall Determination",
+            "phaseDetermination": "Phase Determination",
+            "score": "Score",
+            "scoringMethod": "Scoring Method",
+            "totalCriteria": "Total Criteria",
+            "passCount": "Pass",
+            "failCount": "Fail",
+            "conditionalCount": "Conditional",
+            "deferredCount": "Deferred",
+            "naCount": "N/A",
+            "narrative": "Narrative",
+            "issuedBy": "Issued By",
+            "issuedDate": "Issued Date",
+            "validUntilDate": "Valid Until"
+        },
+        "errors": {
+            "notFound": "Outcome summary not found",
+            "permissionDenied": "You do not have permission to perform this action"
+        }
+    }
+}

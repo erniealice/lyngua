@@ -1,0 +1,66 @@
+{
+    "outcome_criteria": {
+        "page": {
+            "heading": "Criteria Library",
+            "headingActive": "Active Criteria",
+            "headingInactive": "Inactive Criteria",
+            "caption": "Manage reusable outcome evaluation criteria",
+            "captionActive": "Manage your active outcome criteria",
+            "captionInactive": "View inactive or deprecated criteria"
+        },
+        "buttons": {
+            "addCriterion": "Add Criterion"
+        },
+        "columns": {
+            "name": "Name",
+            "type": "Type",
+            "scope": "Scope",
+            "version": "Version",
+            "status": "Status"
+        },
+        "empty": {
+            "title": "No criteria found",
+            "message": "No outcome criteria to display.",
+            "activeTitle": "No active criteria",
+            "activeMessage": "Create your first outcome criterion to get started.",
+            "inactiveTitle": "No inactive criteria",
+            "inactiveMessage": "Deactivated criteria will appear here."
+        },
+        "actions": {
+            "view": "View Criterion",
+            "edit": "Edit Criterion",
+            "delete": "Delete Criterion"
+        },
+        "detail": {
+            "pageTitle": "Criterion Details",
+            "name": "Name",
+            "description": "Description",
+            "type": "Criteria Type",
+            "scope": "Scope",
+            "version": "Version",
+            "status": "Status",
+            "required": "Required",
+            "weight": "Weight",
+            "createdDate": "Created",
+            "modifiedDate": "Last Modified"
+        },
+        "tabs": {
+            "info": "Information",
+            "thresholds": "Thresholds",
+            "options": "Options",
+            "templates": "Templates",
+            "versions": "Versions"
+        },
+        "confirm": {
+            "delete": "Delete Criterion",
+            "deleteMessage": "Are you sure you want to delete \"%s\"? This action cannot be undone."
+        },
+        "errors": {
+            "permissionDenied": "You do not have permission to perform this action",
+            "invalidFormData": "Invalid form data. Please check your inputs and try again.",
+            "notFound": "Outcome criterion not found",
+            "idRequired": "Criterion ID is required",
+            "noPermission": "No permission"
+        }
+    }
+}

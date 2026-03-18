@@ -1,0 +1,52 @@
+{
+    "task_outcome": {
+        "page": {
+            "heading": "Outcome Recording",
+            "caption": "Record and review task outcome evaluations"
+        },
+        "buttons": {
+            "recordOutcome": "Record Outcome"
+        },
+        "columns": {
+            "task": "Task",
+            "criteria": "Criteria",
+            "value": "Value",
+            "determination": "Determination",
+            "recordedBy": "Recorded By",
+            "date": "Date"
+        },
+        "empty": {
+            "title": "No outcomes found",
+            "message": "No task outcome records to display."
+        },
+        "actions": {
+            "view": "View Outcome",
+            "edit": "Edit Outcome",
+            "delete": "Delete Outcome"
+        },
+        "detail": {
+            "pageTitle": "Outcome Details",
+            "task": "Task",
+            "criteria": "Criteria",
+            "criteriaType": "Criteria Type",
+            "value": "Value",
+            "determination": "Determination",
+            "determinationSource": "Determination Source",
+            "determinationNote": "Note",
+            "recordedBy": "Recorded By",
+            "recordedDate": "Recorded Date",
+            "revisionNumber": "Revision",
+            "createdDate": "Created"
+        },
+        "confirm": {
+            "delete": "Delete Outcome",
+            "deleteMessage": "Are you sure you want to delete this outcome record? This action cannot be undone."
+        },
+        "errors": {
+            "permissionDenied": "You do not have permission to perform this action",
+            "invalidFormData": "Invalid form data. Please check your inputs and try again.",
+            "notFound": "Outcome record not found",
+            "idRequired": "Outcome ID is required"
+        }
+    }
+}

@@ -9,5 +9,10 @@
     "activity_log_label": "Instructor Log",
     "activity_log_icon": "icon-clock",
     "production_label": "Production",
-    "production_icon": "icon-settings"
+    "production_icon": "icon-settings",
+    "subscriptions_title": "Enrollments",
+    "outcomes_title": "Grading",
+    "criteria_label": "Rubrics",
+    "outcome_log_label": "Grade Book",
+    "report_cards_label": "Report Cards"
 }

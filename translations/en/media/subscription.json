@@ -1,0 +1,31 @@
+{
+    "subscription": {
+        "page": {
+            "heading": "Retainers",
+            "headingActive": "Active Retainers",
+            "headingInactive": "Inactive Retainers",
+            "caption": "Client retainers and production agreements",
+            "captionActive": "Active client retainers",
+            "captionInactive": "Expired or cancelled retainers"
+        },
+        "buttons": { "addSubscription": "Add Retainer" },
+        "columns": { "customer": "Client", "plan": "Retainer Type", "startDate": "Start Date" },
+        "form": {
+            "customer": "Client",
+            "plan": "Retainer Type",
+            "startDate": "Start Date",
+            "endDate": "End Date",
+            "notes": "Scope & Deliverables"
+        },
+        "actions": {
+            "view": "View Retainer",
+            "edit": "Edit Retainer",
+            "cancel": "Cancel Retainer"
+        },
+        "detail": { "pageTitle": "Retainer Details" },
+        "confirm": {
+            "cancelTitle": "Cancel Retainer",
+            "cancelMessage": "Are you sure you want to cancel this retainer?"
+        }
+    }
+}

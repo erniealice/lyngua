@@ -3,7 +3,7 @@
     "engagements_app_label": "Engagements",
     "engagements_app_icon": "icon-refresh-cw",
     "sales_app_label": "Revenue",
-    "sales_app_icon": "icon-briefcase",
+    "sales_app_icon": "icon-hand-coins",
     "sales_title": "Revenue",
     "sales_ongoing_label": "Active",
     "sales_ongoing_icon": "icon-folder",
@@ -47,5 +47,9 @@
     "activity_log_label": "Time & Expenses",
     "activity_log_icon": "icon-clock",
     "production_label": "Production",
-    "production_icon": "icon-settings"
+    "production_icon": "icon-settings",
+    "outcomes_title": "Assessment",
+    "criteria_label": "Standards",
+    "outcome_log_label": "Case Outcomes",
+    "report_cards_label": "Assessments"
 }
