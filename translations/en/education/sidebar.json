@@ -1,7 +1,7 @@
 {
-    "operations_app_label": "Programs",
-    "operations_app_icon": "icon-briefcase",
-    "operations_title": "Programs",
+    "jobs_app_label": "Programs",
+    "jobs_app_icon": "icon-briefcase",
+    "jobs_title": "Programs",
     "jobs_label": "Courses",
     "jobs_icon": "icon-clipboard",
     "job_templates_label": "Curricula",

@@ -1,7 +1,7 @@
 {
-    "operations_app_label": "Operations",
-    "operations_app_icon": "icon-briefcase",
-    "operations_title": "Operations",
+    "jobs_app_label": "Operations",
+    "jobs_app_icon": "icon-briefcase",
+    "jobs_title": "Operations",
     "jobs_label": "Jobs",
     "jobs_icon": "icon-clipboard",
     "job_templates_label": "Build Plans",
