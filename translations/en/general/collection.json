@@ -1,20 +1,103 @@
 {
   "collection": {
-    "validation": {
-      "data_required": "Collection data is required",
-      "name_required": "Collection name is required",
-      "name_max_length": "Collection name must be less than 255 characters",
-      "description_max_length": "Description must be less than 1000 characters",
-      "id_required": "Collection ID is required",
-      "request_required": "Request is required for collections"
+    "page": {
+      "heading": "Collections",
+      "headingPending": "Pending Collections",
+      "headingCompleted": "Completed Collections",
+      "headingFailed": "Failed Collections",
+      "caption": "Manage payment collections",
+      "captionPending": "Payments awaiting collection",
+      "captionCompleted": "Successfully collected payments",
+      "captionFailed": "Failed payment attempts",
+      "dashboard": "Collections Dashboard"
+    },
+    "buttons": {
+      "addCollection": "Add Collection"
+    },
+    "columns": {
+      "reference": "Reference",
+      "customer": "Customer",
+      "amount": "Amount",
+      "date": "Date",
+      "status": "Status",
+      "method": "Method"
+    },
+    "empty": {
+      "pendingTitle": "No pending collections",
+      "pendingMessage": "No pending collections to display.",
+      "completedTitle": "No completed collections",
+      "completedMessage": "No completed collections to display.",
+      "failedTitle": "No failed collections",
+      "failedMessage": "No failed collections to display."
+    },
+    "form": {
+      "customer": "Customer",
+      "date": "Date",
+      "amount": "Amount",
+      "currency": "Currency",
+      "reference": "Reference",
+      "referencePlaceholder": "e.g. INV-001",
+      "paymentMethod": "Payment Method",
+      "status": "Status",
+      "notes": "Notes",
+      "notesPlaceholder": "Additional notes..."
+    },
+    "actions": {
+      "view": "View",
+      "edit": "Edit",
+      "delete": "Delete",
+      "markComplete": "Mark Complete",
+      "reactivate": "Reactivate"
+    },
+    "bulkActions": {
+      "delete": "Delete Selected"
+    },
+    "detail": {
+      "pageTitle": "Collection Details",
+      "titlePrefix": "Collection #",
+      "paymentInfo": "Payment Information",
+      "customer": "Customer",
+      "date": "Date",
+      "amount": "Amount",
+      "currency": "Currency",
+      "status": "Status",
+      "method": "Payment Method",
+      "reference": "Reference",
+      "notes": "Notes",
+      "tabBasicInfo": "Basic Info",
+      "tabAttachments": "Attachments",
+      "tabAuditTrail": "Audit Trail",
+      "auditAction": "Action",
+      "auditUser": "User",
+      "auditEmptyTitle": "No audit records",
+      "auditEmptyMessage": "No audit trail entries yet."
+    },
+    "status": {
+      "pending": "Pending",
+      "completed": "Completed",
+      "failed": "Failed"
+    },
+    "confirm": {
+      "markComplete": "Mark Complete",
+      "markCompleteMessage": "Are you sure you want to mark %s as complete?",
+      "reactivate": "Reactivate",
+      "reactivateMessage": "Are you sure you want to reactivate %s?",
+      "delete": "Delete",
+      "deleteMessage": "Are you sure you want to delete %s?",
+      "bulkComplete": "Mark Complete",
+      "bulkCompleteMessage": "Are you sure you want to mark {{count}} collection(s) as complete?",
+      "bulkReactivate": "Reactivate",
+      "bulkReactivateMessage": "Are you sure you want to reactivate {{count}} collection(s)?",
+      "bulkDelete": "Delete Collections",
+      "bulkDeleteMessage": "Are you sure you want to delete {{count}} collection(s)?"
     },
     "errors": {
-      "not_found": "Collection with ID \"{collectionId}\" not found",
-      "creation_failed": "Collection creation failed",
-      "update_failed": "Collection update failed",
-      "deletion_failed": "Collection deletion failed",
-      "list_failed": "Failed to retrieve collections",
-      "authorization_failed": "Authorization failed for collections"
+      "permissionDenied": "Permission denied",
+      "invalidFormData": "Invalid form data",
+      "notFound": "Collection not found",
+      "idRequired": "Collection ID is required",
+      "noIDsProvided": "No collection IDs provided",
+      "invalidStatus": "Invalid status"
     }
   }
 }

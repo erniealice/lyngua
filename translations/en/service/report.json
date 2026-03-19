@@ -125,5 +125,21 @@
     "dateStart": "Start Date",
     "dateEnd": "End Date",
     "groupBy": "Group by"
+  },
+  "incomeStatement": {
+    "title": "Income Statement",
+    "subtitle": "Revenue and expenses for the period"
+  },
+  "balanceSheet": {
+    "title": "Balance Sheet",
+    "subtitle": "Statement of Financial Position"
+  },
+  "cashFlow": {
+    "title": "Statement of Cash Flows",
+    "subtitle": "Cash movements by activity type"
+  },
+  "equityChanges": {
+    "title": "Statement of Changes in Equity",
+    "subtitle": "Equity movements for the period"
   }
 }

@@ -1,49 +1,20 @@
 {
   "client": {
     "page": {
-      "title": "Customer Management",
       "heading": "Customer Management",
       "caption": "View and manage your customer portfolio",
-      "titleActive": "Active Customers",
       "headingActive": "Active Customers",
       "captionActive": "Manage your current customer relationships",
-      "titleProspect": "Prospect Customers",
       "headingProspect": "Prospect Customers",
       "captionProspect": "Track potential customers in your sales pipeline",
-      "titleInactive": "Inactive Customers",
       "headingInactive": "Inactive Customers",
       "captionInactive": "View former customers and paused accounts"
     },
     "buttons": {
-      "addNew": "Add New Customer",
-      "addDivision": "Add Division",
-      "addContact": "Add Contact",
-      "addRate": "Add Rate",
-      "addNote": "Add Note"
-    },
-    "tabs": {
-      "active": "Active",
-      "prospect": "Prospect",
-      "inactive": "In-active",
-      "profile": "Profile",
-      "rates": "Rates",
-      "contacts": "Contacts",
-      "divisions": "Divisions",
-      "settings": "Settings",
-      "notes": "Notes"
-    },
-    "table": {
-      "titleActive": "Active Customers",
-      "titleProspect": "Prospect Customers",
-      "titleInactive": "Inactive Customers",
-      "searchPlaceholder": "Filter customers..."
+      "addNew": "Add New Customer"
     },
     "columns": {
-      "clientName": "Customer Name",
-      "townSuburb": "Town / Suburb",
-      "state": "State",
-      "country": "Country",
-      "userDivision": "User Division"
+      "clientName": "Customer Name"
     },
     "empty": {
       "activeTitle": "No active customers",
@@ -54,34 +25,8 @@
       "inactiveMessage": "Inactive customers will appear here"
     },
     "form": {
-      "firstName": "First Name",
-      "firstNamePlaceholder": "e.g. John",
-      "lastName": "Last Name",
-      "lastNamePlaceholder": "e.g. Smith",
-      "position": "Position",
-      "positionPlaceholder": "e.g. Account Manager, Finance Director",
       "email": "Email",
-      "emailPlaceholder": "contact@company.com",
       "phone": "Phone",
-      "phonePlaceholder": "+61 X XXXX XXXX",
-      "mobile": "Mobile",
-      "mobilePlaceholder": "04XX XXX XXX",
-      "division": "Division",
-      "selectDivision": "Select division",
-      "save": "Save",
-      "update": "Update",
-      "cancel": "Cancel",
-      "required": "*",
-      "office": "Office",
-      "officePlaceholder": "e.g. Head Office, Sydney Branch",
-      "telephone": "Telephone",
-      "telephonePlaceholder": "+61 X XXXX XXXX",
-      "fax": "Fax",
-      "faxPlaceholder": "+61 X XXXX XXXX",
-      "paymentTerm": "Payment Term",
-      "selectPaymentTerm": "Select payment term",
-      "slugPlaceholder": "auto-generated if empty",
-      "active": "Active",
       "companyName": "Company Name",
       "companyNamePlaceholder": "e.g. Acme Corp",
       "customerType": "Customer Type",
@@ -102,64 +47,8 @@
       "tagsNoResults": "No tags available. Create tags in Settings."
     },
     "detail": {
-      "pageTitle": "Customer Details",
       "companyDetails": {
-        "title": "Company Details",
-        "companyName": "Company Name",
-        "abn": "ABN",
-        "abnPlaceholder": "XX XXX XXX XXX",
-        "externalId": "External ID",
-        "email": "Email",
-        "emailPlaceholder": "contact@company.com",
-        "phone": "Phone",
-        "phonePlaceholder": "+61 X XXXX XXXX",
         "status": "Status"
-      },
-      "address": {
-        "title": "Address",
-        "streetAddress": "Street Address",
-        "streetAddressPlaceholder": "Street address",
-        "addressLine2": "Address Line 2",
-        "addressLine2Placeholder": "Unit, suite (optional)",
-        "suburb": "Suburb",
-        "state": "State",
-        "statePlaceholder": "--",
-        "postcode": "Postcode",
-        "postcodePlaceholder": "0000",
-        "country": "Country"
-      },
-      "configuration": {
-        "title": "Configuration",
-        "division": "Division",
-        "decimals": "Decimals",
-        "payrollTaxExempt": "Payroll Tax Exempt",
-        "autoIncreaseRates": "Auto-increase Rates",
-        "noneOption": "-None-",
-        "autoIncreaseDesc": "Automatically adjust non-base items when base rate changes"
-      },
-      "wicConfiguration": {
-        "title": "WIC Configuration",
-        "systemWics": "System WICs",
-        "clientWics": "Customer WICs",
-        "noItemsConfigured": "No items configured",
-        "addNewItem": "Add new item"
-      },
-      "emptyStates": {
-        "ratesTitle": "Charge Rates",
-        "ratesDesc": "Configure billing rates for this customer",
-        "contactsTitle": "Contacts",
-        "contactsDesc": "Manage customer contact information",
-        "divisionsTitle": "Divisions",
-        "divisionsDesc": "Organize customer by divisions",
-        "notesTitle": "Notes",
-        "notesDesc": "Internal notes and comments about this customer"
-      },
-      "notes": {
-        "title": "Customer Notes",
-        "itemsLabel": "notes",
-        "titlePlaceholder": "Note title...",
-        "contentPlaceholder": "Add details about this note...",
-        "deleteConfirm": "Are you sure you want to delete this note?"
       },
       "actions": {
         "viewClient": "View customer",
@@ -194,86 +83,19 @@
       },
       "tabs": {
         "info": "Info",
-        "purchaseHistory": "Booking History"
-      }
-    },
-    "settings": {
-      "userDivisions": {
-        "pageTitle": "User Divisions",
-        "heading": "User Divisions",
-        "caption": "Manage user divisions for your organization",
-        "addDivision": "Add Division",
-        "searchPlaceholder": "Search divisions...",
-        "columns": {
-          "office": "Office",
-          "division": "Division",
-          "default": "Default"
-        },
-        "actions": {
-          "activate": "Activate",
-          "deactivate": "Deactivate"
-        },
-        "empty": {
-          "title": "No Divisions Found",
-          "message": "Get started by adding your first division."
-        },
-        "badges": {
-          "yes": "YES",
-          "no": "NO"
-        }
+        "purchaseHistory": "Booking History",
+        "attachments": "Attachments"
       },
-      "paymentTerms": {
-        "pageTitle": "Payment Terms",
-        "heading": "Payment Terms",
-        "caption": "Manage payment terms for customer invoicing",
-        "addPaymentTerm": "Add Payment Term",
-        "searchPlaceholder": "Search payment terms...",
-        "columns": {
-          "paymentTerms": "Payment Terms",
-          "description": "Description",
-          "userDivisionId": "User Division",
-          "status": "Status"
-        },
-        "actions": {
-          "edit": "Edit",
-          "activate": "Activate",
-          "deactivate": "Deactivate",
-          "delete": "Delete",
-          "deleteDisabled": "Cannot delete: payment term is in use"
-        },
-        "empty": {
-          "title": "No Payment Terms Found",
-          "message": "Add your first payment term to get started."
-        },
-        "form": {
-          "paymentTerms": "Payment Terms",
-          "description": "Description",
-          "userDivisionId": "User Division",
-          "status": "Active",
-          "required": "*",
-          "save": "Save"
-        }
-      }
-    },
-    "helpdesk": {
-      "title": "Customers - Help",
-      "comingSoon": "Help content for the Customers module is coming soon.",
-      "quickLinks": "Quick Links",
-      "viewAllClients": "View All Customers",
-      "helpCenter": "Help Center"
-    },
-    "errors": {
-      "notFound": "Customer not found",
-      "emptySlug": "Customer slug cannot be empty",
-      "slugExists": "Customer slug already exists",
-      "alreadyActive": "Customer is already active",
-      "alreadyInactive": "Customer is already inactive",
-      "alreadyProspect": "Customer is already a prospect"
+      "name": "Name",
+      "recentOrders": "Recent Bookings",
+      "colDate": "Date",
+      "colReference": "Reference",
+      "colAmount": "Amount",
+      "colStatus": "Status",
+      "purchaseHistoryEmpty": "No booking history available."
     },
     "bulkActions": {
-      "setAsInactive": "Set As Inactive",
-      "setAsProspect": "Set As Prospect",
-      "setAsActive": "Set As Active"
+      "setAsInactive": "Set As Inactive"
     }
   }
 }

@@ -1,0 +1,98 @@
+{
+  "page": {
+    "headingDraft": "Draft Journal Entries",
+    "subtitleDraft": "Review and post journal entries that are still in draft",
+    "headingPosted": "Posted Journal Entries",
+    "subtitlePosted": "View journal entries that have been posted to the ledger",
+    "headingReversed": "Reversed Journal Entries",
+    "subtitleReversed": "View journal entries that have been reversed"
+  },
+  "tabs": {
+    "draft": "Draft",
+    "posted": "Posted",
+    "reversed": "Reversed"
+  },
+  "buttons": {
+    "newEntry": "New Entry"
+  },
+  "columns": {
+    "entryNumber": "Entry #",
+    "date": "Date",
+    "description": "Description",
+    "amount": "Amount",
+    "source": "Source",
+    "status": "Status"
+  },
+  "empty": {
+    "title": "No journal entries",
+    "message": "No journal entries found for this status."
+  },
+  "actions": {
+    "view": "View",
+    "edit": "Edit",
+    "post": "Post",
+    "reverse": "Reverse",
+    "delete": "Delete",
+    "noPermission": "No permission",
+    "saveError": "Failed to save journal entry",
+    "postError": "Failed to post journal entry",
+    "reverseError": "Failed to reverse journal entry",
+    "deleteError": "Failed to delete journal entry"
+  },
+  "lines": {
+    "accountCode": "Account Code",
+    "accountName": "Account Name",
+    "memo": "Memo",
+    "debit": "Debit",
+    "credit": "Credit",
+    "emptyTitle": "No journal lines",
+    "emptyMessage": "This journal entry has no lines."
+  },
+  "form": {
+    "date": "Date",
+    "datePlaceholder": "YYYY-MM-DD",
+    "description": "Description",
+    "descriptionPlaceholder": "e.g. Office supplies purchase",
+    "notes": "Notes",
+    "notesPlaceholder": "Optional notes or reference",
+    "lineNumber": "#",
+    "account": "Account",
+    "accountPlaceholder": "Search by code or name\u2026",
+    "debit": "Debit",
+    "credit": "Credit",
+    "memo": "Memo",
+    "addLine": "+ Add Line",
+    "removeLine": "Remove",
+    "balancedMessage": "Balanced \u2014 Total Debits equal Total Credits",
+    "unbalancedMessage": "Unbalanced \u2014 Debits and Credits do not match",
+    "differenceLabel": "Difference",
+    "saveDraft": "Save as Draft",
+    "postEntry": "Post",
+    "entryDetails": "Entry Details",
+    "journalLines": "Journal Lines"
+  },
+  "detail": {
+    "stats": {
+      "totalDebit": "Total Debits",
+      "totalCredit": "Total Credits"
+    },
+    "info": {
+      "title": "Entry Details",
+      "date": "Date",
+      "reference": "Reference",
+      "description": "Description",
+      "status": "Status",
+      "sourceType": "Source Type",
+      "notes": "Notes",
+      "postedBy": "Posted By",
+      "postedAt": "Posted At",
+      "reversedBy": "Reversed By",
+      "reversedAt": "Reversed At",
+      "reversalEntry": "Reversal Entry",
+      "created": "Created",
+      "lastModified": "Last Modified"
+    },
+    "sourceLabel": "Source",
+    "viewSource": "View Source \u2192"
+  }
+}

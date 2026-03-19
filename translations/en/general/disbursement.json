@@ -1,81 +1,137 @@
 {
-  "page": {
-    "heading_draft": "Draft Disbursements",
-    "heading_pending": "Pending Disbursements",
-    "heading_approved": "Approved Disbursements",
-    "heading_paid": "Paid Disbursements",
-    "heading_cancelled": "Cancelled Disbursements",
-    "heading_overdue": "Overdue Disbursements",
-    "heading_all": "All Disbursements"
-  },
-  "buttons": {
-    "add": "Record Disbursement",
-    "export": "Export"
-  },
-  "columns": {
-    "reference": "Reference",
-    "payee": "Payee",
-    "amount": "Amount",
-    "method": "Method",
-    "date": "Date",
-    "status": "Status",
-    "approved_by": "Approved By",
-    "notes": "Notes"
-  },
-  "empty": {
-    "draft": "No draft disbursements",
-    "pending": "No pending disbursements",
-    "approved": "No approved disbursements",
-    "paid": "No paid disbursements",
-    "cancelled": "No cancelled disbursements",
-    "overdue": "No overdue disbursements"
-  },
-  "form": {
-    "reference_number": "Reference Number",
-    "payee": "Payee",
-    "amount": "Amount",
-    "method": "Disbursement Method",
-    "date": "Date",
-    "approved_by": "Approved By",
-    "approved_role": "Role",
-    "notes": "Notes",
-    "currency": "Currency",
-    "expenditure_id": "Related Purchase/Expense",
-    "disbursement_type": "Disbursement Type"
-  },
-  "actions": {
-    "view": "View",
-    "edit": "Edit",
-    "delete": "Delete",
-    "approve": "Approve",
-    "mark_paid": "Mark Paid",
-    "cancel": "Cancel",
-    "reactivate": "Reactivate"
-  },
-  "bulk": {
-    "delete": "Delete Selected",
-    "approve": "Approve Selected",
-    "mark_paid": "Mark Paid",
-    "cancel": "Cancel Selected",
-    "confirm_delete": "Are you sure you want to delete {{count}} disbursement(s)?",
-    "confirm_approve": "Are you sure you want to approve {{count}} disbursement(s)?",
-    "confirm_paid": "Are you sure you want to mark {{count}} disbursement(s) as paid?",
-    "confirm_cancel": "Are you sure you want to cancel {{count}} disbursement(s)?"
-  },
-  "detail": {
-    "tab_info": "Info",
-    "tab_audit": "Audit",
-    "info_heading": "Disbursement Details",
-    "disbursement_info": "Disbursement Information",
-    "payment_info": "Payment Information",
-    "approval_info": "Approval Information"
-  },
-  "status": {
-    "draft": "Draft",
-    "pending": "Pending",
-    "approved": "Approved",
-    "paid": "Paid",
-    "cancelled": "Cancelled",
-    "overdue": "Overdue"
+  "disbursement": {
+    "page": {
+      "heading": "Disbursements",
+      "headingDraft": "Draft Disbursements",
+      "headingPending": "Pending Disbursements",
+      "headingApproved": "Approved Disbursements",
+      "headingPaid": "Paid Disbursements",
+      "headingCancelled": "Cancelled Disbursements",
+      "caption": "Manage disbursements and payouts",
+      "captionDraft": "Draft disbursements awaiting submission",
+      "captionPending": "Disbursements awaiting approval",
+      "captionApproved": "Approved disbursements ready for payment",
+      "captionPaid": "Completed disbursement payments",
+      "captionCancelled": "Cancelled disbursements",
+      "dashboard": "Disbursements Dashboard"
+    },
+    "buttons": {
+      "addDisbursement": "Add Disbursement"
+    },
+    "columns": {
+      "reference": "Reference",
+      "payee": "Payee",
+      "amount": "Amount",
+      "date": "Date",
+      "status": "Status",
+      "method": "Method",
+      "category": "Category"
+    },
+    "empty": {
+      "draftTitle": "No draft disbursements",
+      "draftMessage": "No draft disbursements to display.",
+      "pendingTitle": "No pending disbursements",
+      "pendingMessage": "No pending disbursements to display.",
+      "approvedTitle": "No approved disbursements",
+      "approvedMessage": "No approved disbursements to display.",
+      "paidTitle": "No paid disbursements",
+      "paidMessage": "No paid disbursements to display.",
+      "cancelledTitle": "No cancelled disbursements",
+      "cancelledMessage": "No cancelled disbursements to display."
+    },
+    "form": {
+      "payee": "Payee",
+      "payeePlaceholder": "Enter payee name",
+      "date": "Date",
+      "amount": "Amount",
+      "currency": "Currency",
+      "reference": "Reference",
+      "referencePlaceholder": "e.g. DISB-001",
+      "paymentMethod": "Payment Method",
+      "category": "Category",
+      "status": "Status",
+      "notes": "Notes",
+      "notesPlaceholder": "Additional notes...",
+      "approvedBy": "Approved By"
+    },
+    "actions": {
+      "view": "View",
+      "edit": "Edit",
+      "delete": "Delete",
+      "approve": "Approve",
+      "markPaid": "Mark as Paid",
+      "cancel": "Cancel",
+      "submit": "Submit",
+      "reactivate": "Reactivate"
+    },
+    "bulkActions": {
+      "delete": "Delete Selected",
+      "approve": "Approve Selected",
+      "markPaid": "Mark Selected as Paid"
+    },
+    "detail": {
+      "pageTitle": "Disbursement Details",
+      "titlePrefix": "Disbursement #",
+      "paymentInfo": "Payment Information",
+      "payee": "Payee",
+      "date": "Date",
+      "amount": "Amount",
+      "currency": "Currency",
+      "status": "Status",
+      "method": "Payment Method",
+      "category": "Category",
+      "reference": "Reference",
+      "approvedBy": "Approved By",
+      "notes": "Notes",
+      "tabBasicInfo": "Basic Info",
+      "tabAttachments": "Attachments",
+      "tabAuditTrail": "Audit Trail",
+      "auditAction": "Action",
+      "auditUser": "User",
+      "auditEmptyTitle": "No audit records",
+      "auditEmptyMessage": "No audit trail entries yet."
+    },
+    "status": {
+      "draft": "Draft",
+      "pending": "Pending",
+      "approved": "Approved",
+      "paid": "Paid",
+      "cancelled": "Cancelled"
+    },
+    "confirm": {
+      "submit": "Submit",
+      "submitMessage": "Are you sure you want to submit {{count}} disbursement(s)?",
+      "approve": "Approve",
+      "approveMessage": "Are you sure you want to approve {{count}} disbursement(s)?",
+      "markPaid": "Mark as Paid",
+      "markPaidMessage": "Are you sure you want to mark {{count}} disbursement(s) as paid?",
+      "cancel": "Cancel",
+      "cancelMessage": "Are you sure you want to cancel {{count}} disbursement(s)?",
+      "reactivate": "Reactivate",
+      "reactivateMessage": "Are you sure you want to reactivate {{count}} disbursement(s)?",
+      "delete": "Delete",
+      "deleteMessage": "Are you sure you want to delete {{count}} disbursement(s)?",
+      "bulkSubmit": "Submit Disbursements",
+      "bulkSubmitMessage": "Are you sure you want to submit {{count}} disbursement(s)?",
+      "bulkApprove": "Approve Disbursements",
+      "bulkApproveMessage": "Are you sure you want to approve {{count}} disbursement(s)?",
+      "bulkMarkPaid": "Mark as Paid",
+      "bulkMarkPaidMessage": "Are you sure you want to mark {{count}} disbursement(s) as paid?",
+      "bulkCancel": "Cancel Disbursements",
+      "bulkCancelMessage": "Are you sure you want to cancel {{count}} disbursement(s)?",
+      "bulkReactivate": "Reactivate Disbursements",
+      "bulkReactivateMessage": "Are you sure you want to reactivate {{count}} disbursement(s)?",
+      "bulkDelete": "Delete Disbursements",
+      "bulkDeleteMessage": "Are you sure you want to delete {{count}} disbursement(s)?"
+    },
+    "errors": {
+      "permissionDenied": "Permission denied",
+      "invalidFormData": "Invalid form data",
+      "notFound": "Disbursement not found",
+      "idRequired": "Disbursement ID is required",
+      "noIDsProvided": "No disbursement IDs provided",
+      "invalidStatus": "Invalid target status",
+      "invalidTransition": "Cannot transition from %s to %s"
+    }
   }
 }

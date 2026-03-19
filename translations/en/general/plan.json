@@ -1,25 +1,79 @@
 {
   "plan": {
-    "validation": {
-      "data_required": "Service plan data is required",
-      "name_required": "Service plan name is required",
-      "email_required": "Service plan email is required",
-      "email_invalid": "Service plan email format is invalid",
-      "id_required": "Service plan ID is required",
-      "request_required": "Request is required for service plans",
-      "id_too_long": "Plan ID is too long",
-      "invalid_limit": "Invalid pagination limit",
-      "limit_too_large": "Pagination limit is too large"
+    "page": {
+      "heading": "Plans",
+      "headingActive": "Active Plans",
+      "headingInactive": "Inactive Plans",
+      "caption": "Manage your plans",
+      "captionActive": "Manage your active plans",
+      "captionInactive": "View inactive or archived plans"
+    },
+    "buttons": {
+      "addPlan": "Add Plan"
+    },
+    "columns": {
+      "name": "Name",
+      "description": "Description",
+      "interval": "Interval",
+      "price": "Price",
+      "status": "Status"
+    },
+    "empty": {
+      "title": "No plans found",
+      "message": "No plans to display.",
+      "activeTitle": "No active plans",
+      "activeMessage": "Create your first plan to get started.",
+      "inactiveTitle": "No inactive plans",
+      "inactiveMessage": "Discontinued plans will appear here."
+    },
+    "form": {
+      "name": "Plan Name",
+      "namePlaceholder": "Enter plan name",
+      "description": "Description",
+      "descriptionPlaceholder": "Enter plan description...",
+      "fulfillmentType": "Fulfillment Type",
+      "active": "Active",
+      "products": "Products",
+      "productsPlaceholder": "Select products...",
+      "productsSearch": "Search products...",
+      "sections": {
+        "basic": "Basic Information",
+        "services": "Assigned Products"
+      }
+    },
+    "actions": {
+      "view": "View Plan",
+      "edit": "Edit Plan",
+      "delete": "Delete Plan"
+    },
+    "detail": {
+      "pageTitle": "Plan Details",
+      "price": "Price",
+      "currency": "Currency",
+      "status": "Status",
+      "description": "Description",
+      "fulfillmentType": "Fulfillment Type",
+      "createdDate": "Created",
+      "modifiedDate": "Last Modified"
+    },
+    "tabs": {
+      "info": "Information",
+      "products": "Products",
+      "priceLists": "Price Lists",
+      "auditTrail": "Audit Trail"
+    },
+    "confirm": {
+      "delete": "Delete Plan",
+      "deleteMessage": "Are you sure you want to delete \"%s\"? This action cannot be undone.",
+      "deactivate": "Deactivate Plan",
+      "deactivateMessage": "Are you sure you want to deactivate \"%s\"?"
     },
     "errors": {
-      "not_found": "Service plan with ID \"{entityId}\" not found",
-      "creation_failed": "Service plan creation failed",
-      "update_failed": "Service plan update failed",
-      "deletion_failed": "Service plan deletion failed",
-      "list_failed": "Failed to retrieve service plans",
-      "authorization_failed": "Authorization failed for service plans",
-      "get_item_page_data_failed": "Failed to load plan details",
-      "get_list_page_data_failed": "Failed to load plan list"
+      "permissionDenied": "You do not have permission to perform this action",
+      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
+      "notFound": "Plan not found",
+      "idRequired": "Plan ID is required",
+      "noPermission": "No permission"
     }
   }
 }

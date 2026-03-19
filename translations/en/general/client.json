@@ -1,29 +1,3 @@
 {
-  "client": {
-    "validation": {
-      "data_required": "Client data is required",
-      "user_data_required": "Client user data is required",
-      "first_name_required": "Client first name is required",
-      "last_name_required": "Client last name is required",
-      "first_name_too_short": "First name must be at least 1 character long",
-      "last_name_too_short": "Last name must be at least 1 character long",
-      "full_name_too_short": "Client full name must be at least 3 characters long",
-      "full_name_too_long": "Client full name cannot exceed 100 characters",
-      "internal_id_too_short": "Internal ID is too short",
-      "internal_id_too_long": "Internal ID is too long",
-      "name_required": "Client name is required",
-      "email_required": "Client email is required",
-      "email_invalid": "Client email format is invalid",
-      "id_required": "Client ID is required",
-      "request_required": "Request is required for clients"
-    },
-    "errors": {
-      "not_found": "Client with ID \"{clientId}\" not found",
-      "creation_failed": "Client creation failed",
-      "update_failed": "Client update failed",
-      "deletion_failed": "Client deletion failed",
-      "list_failed": "Failed to retrieve clients",
-      "authorization_failed": "Authorization failed for clients"
-    }
-  }
+  "client": {}
 }

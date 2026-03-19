@@ -320,5 +320,8 @@
   },
   "card": {
     "readMore": "Read more"
+  },
+  "tabs": {
+    "attachments": "Attachments"
   }
 }

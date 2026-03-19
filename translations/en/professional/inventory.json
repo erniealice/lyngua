@@ -47,7 +47,8 @@
       "serials": "Engagements",
       "transactions": "Activity Log",
       "depreciation": "Depreciation",
-      "audit": "Audit Trail"
+      "audit": "Audit Trail",
+      "attachments": "Attachments"
     },
     "itemType": {
       "serialized": "Dedicated",

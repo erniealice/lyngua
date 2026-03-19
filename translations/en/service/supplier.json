@@ -1,0 +1,23 @@
+{
+  "supplier": {
+    "page": {
+      "heading": "Suppliers",
+      "headingActive": "Active Suppliers",
+      "headingBlocked": "Blocked Suppliers",
+      "headingOnHold": "On Hold Suppliers",
+      "caption": "Manage your product and service suppliers",
+      "captionActive": "Suppliers currently active and available for orders",
+      "captionBlocked": "Suppliers that have been blocked",
+      "captionOnHold": "Suppliers temporarily placed on hold"
+    },
+    "buttons": {
+      "addNew": "Add Supplier"
+    },
+    "form": {
+      "sectionCompany": "Supplier Information",
+      "sectionContact": "Contact Person",
+      "sectionFinancial": "Payment Details",
+      "sectionAddress": "Address"
+    }
+  }
+}

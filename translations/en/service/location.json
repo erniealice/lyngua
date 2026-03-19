@@ -62,6 +62,9 @@
       "priceListsDesc": "Price lists for this branch will appear here.",
       "auditTitle": "No Audit History",
       "auditDesc": "Branch activity will appear here."
-    }
+    },
+    "updateSuccess": "Branch updated successfully",
+    "updateError": "Failed to update branch",
+    "attachmentsTab": "Attachments"
   }
 }

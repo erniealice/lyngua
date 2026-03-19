@@ -1,0 +1,38 @@
+{
+  "page": {
+    "heading": "Loan Payments",
+    "caption": "Payment history for this loan"
+  },
+  "buttons": {
+    "recordPayment": "Record Payment"
+  },
+  "columns": {
+    "paymentNumber": "Payment #",
+    "paymentDate": "Date",
+    "principalAmount": "Principal",
+    "interestAmount": "Interest",
+    "feeAmount": "Fees",
+    "totalAmount": "Total",
+    "remainingBalance": "Balance"
+  },
+  "empty": {
+    "title": "No payments recorded",
+    "message": "Record the first payment against this loan."
+  },
+  "actions": {
+    "view": "View",
+    "noPermission": "No permission"
+  },
+  "form": {
+    "paymentNumber": "Payment Number",
+    "paymentNumberPlaceholder": "e.g. PAY-001",
+    "paymentDate": "Payment Date",
+    "principalAmount": "Principal Amount",
+    "interestAmount": "Interest Amount",
+    "feeAmount": "Fees (PFRS 9)",
+    "totalAmount": "Total Payment",
+    "remainingBalance": "Remaining Balance After Payment",
+    "notes": "Notes",
+    "notesPlaceholder": "Optional payment notes or reference"
+  }
+}

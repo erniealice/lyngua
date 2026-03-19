@@ -99,7 +99,11 @@
       "tags": "Tags",
       "tagsPlaceholder": "Select tags...",
       "tagsSearchPlaceholder": "Search tags...",
-      "tagsNoResults": "No tags available. Create tags in Settings."
+      "tagsNoResults": "No tags available. Create tags in Settings.",
+      "selectTypePlaceholder": "Select type",
+      "typeRetail": "Retail",
+      "typeWholesale": "Wholesale",
+      "typeVIP": "VIP"
     },
     "detail": {
       "pageTitle": "Customer Details",
@@ -194,8 +198,36 @@
       },
       "tabs": {
         "info": "Info",
-        "purchaseHistory": "Purchase History"
-      }
+        "purchaseHistory": "Purchase History",
+        "attachments": "Attachments"
+      },
+      "name": "Name",
+      "recentOrders": "Recent Orders",
+      "colDate": "Date",
+      "colReference": "Reference",
+      "colAmount": "Amount",
+      "colStatus": "Status",
+      "purchaseHistoryEmpty": "No purchase history available."
+    },
+    "dashboard": {
+      "totalClients": "Total Customers",
+      "active": "Active",
+      "inactive": "Inactive",
+      "newThisMonth": "New This Month",
+      "clientGrowth": "Customer Growth",
+      "filterWeek": "Week",
+      "filterMonth": "Month",
+      "filterYear": "Year",
+      "recentActivity": "Recent Activity",
+      "viewAll": "View All"
+    },
+    "tagForm": {
+      "tagName": "Tag Name",
+      "code": "Code",
+      "codeAutoPlaceholder": "auto-generated",
+      "description": "Description",
+      "descriptionPlaceholder": "Enter a description...",
+      "active": "Active"
     },
     "settings": {
       "userDivisions": {

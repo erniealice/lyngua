@@ -1,0 +1,54 @@
+{
+  "page": {
+    "heading": "Prepayments",
+    "caption": "Track prepaid expenses and their amortization schedules",
+    "amortizationHeading": "Amortization Schedule",
+    "amortizationCaption": "Monthly expense recognition for active prepayments"
+  },
+  "buttons": {
+    "addPrepayment": "Add Prepayment"
+  },
+  "columns": {
+    "description": "Description",
+    "vendor": "Vendor",
+    "totalAmount": "Total Amount",
+    "remainingAmount": "Remaining",
+    "amortizationMonths": "Months",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "status": "Status",
+    "month": "Month",
+    "opening": "Opening Balance",
+    "expense": "Monthly Expense",
+    "closing": "Closing Balance"
+  },
+  "status": {
+    "active": "Active",
+    "amortized": "Fully Amortized",
+    "cancelled": "Cancelled"
+  },
+  "empty": {
+    "title": "No prepayments found",
+    "message": "Record prepaid expenses such as insurance, rent, and subscriptions paid in advance."
+  },
+  "form": {
+    "description": "Description",
+    "descriptionPlaceholder": "e.g. Annual insurance premium",
+    "vendor": "Vendor",
+    "vendorPlaceholder": "e.g. ABC Insurance Co.",
+    "totalAmount": "Total Amount",
+    "totalAmountPlaceholder": "0.00",
+    "amortizationMonths": "Amortization Period (Months)",
+    "amortizationPlaceholder": "e.g. 12",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "prepaidAccount": "Prepaid Account (Asset)",
+    "expenseAccount": "Expense Account"
+  },
+  "actions": {
+    "view": "View",
+    "delete": "Delete",
+    "noPermission": "No permission",
+    "confirmDelete": "Are you sure you want to delete this prepayment? This action cannot be undone."
+  }
+}

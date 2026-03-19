@@ -1,34 +1,71 @@
 {
   "subscription": {
-    "validation": {
-      "data_required": "Subscription data is required",
-      "name_required": "Subscription name is required",
-      "name_max_length": "Subscription name must be less than 255 characters",
-      "plan_id_required": "Plan is required",
-      "client_id_required": "Client is required",
-      "date_start_required": "Start date is required",
-      "email_required": "Subscription email is required",
-      "email_invalid": "Subscription email format is invalid",
-      "id_required": "Subscription ID is required",
-      "id_too_short": "Subscription ID is too short",
-      "request_required": "Request is required for subscriptions",
-      "price_plan_id_required": "Price plan is required",
-      "name_too_short": "Subscription name must be at least 2 characters",
-      "name_too_long": "Subscription name cannot exceed 255 characters",
-      "price_plan_id_too_short": "Price plan ID is too short",
-      "client_id_too_short": "Client ID is too short"
+    "page": {
+      "heading": "Subscriptions",
+      "headingActive": "Active Subscriptions",
+      "headingInactive": "Inactive Subscriptions",
+      "caption": "Subscription management",
+      "captionActive": "Manage your active subscriptions",
+      "captionInactive": "View cancelled or expired subscriptions"
+    },
+    "buttons": {
+      "addSubscription": "Add Subscription"
+    },
+    "columns": {
+      "customer": "Customer",
+      "plan": "Plan",
+      "startDate": "Start Date",
+      "status": "Status"
+    },
+    "empty": {
+      "title": "No subscriptions found",
+      "message": "No subscriptions to display."
+    },
+    "form": {
+      "customer": "Customer",
+      "customerPlaceholder": "Select customer...",
+      "plan": "Plan",
+      "planPlaceholder": "Select plan...",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "active": "Active",
+      "notes": "Notes",
+      "notesPlaceholder": "Enter notes...",
+      "customerSearchPlaceholder": "Search customers...",
+      "planSearchPlaceholder": "Search plans...",
+      "customerNoResults": "No customers found",
+      "planNoResults": "No plans found"
+    },
+    "actions": {
+      "view": "View Subscription",
+      "edit": "Edit Subscription",
+      "cancel": "Cancel Subscription"
+    },
+    "detail": {
+      "pageTitle": "Subscription Details",
+      "customer": "Customer",
+      "plan": "Plan",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "status": "Status",
+      "createdDate": "Created",
+      "modifiedDate": "Last Modified"
+    },
+    "tabs": {
+      "info": "Information",
+      "history": "History",
+      "auditTrail": "Audit Trail"
+    },
+    "confirm": {
+      "cancel": "Cancel Subscription",
+      "cancelMessage": "Are you sure you want to cancel this subscription? This action cannot be undone."
     },
     "errors": {
-      "not_found": "Subscription with ID \"{entityId}\" not found",
-      "creation_failed": "Subscription creation failed",
-      "update_failed": "Subscription update failed",
-      "deletion_failed": "Subscription deletion failed",
-      "list_failed": "Failed to retrieve subscriptions",
-      "authorization_failed": "Authorization failed for subscriptions",
-      "client_not_found": "Client not found",
-      "price_plan_not_found": "Price plan not found",
-      "client_not_active": "Client is not active",
-      "price_plan_not_active": "Price plan is not active"
+      "permissionDenied": "You do not have permission to perform this action",
+      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
+      "notFound": "Subscription not found",
+      "idRequired": "Subscription ID is required",
+      "noPermission": "No permission"
     }
   }
 }

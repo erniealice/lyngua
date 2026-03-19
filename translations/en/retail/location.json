@@ -62,6 +62,9 @@
       "priceListsDesc": "Price lists for this location will appear here.",
       "auditTitle": "No Audit History",
       "auditDesc": "Location activity will appear here."
-    }
+    },
+    "updateSuccess": "Location updated successfully",
+    "updateError": "Failed to update location",
+    "attachmentsTab": "Attachments"
   }
 }

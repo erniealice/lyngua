@@ -1,0 +1,60 @@
+{
+  "page": {
+    "headingActive": "Active Loans",
+    "captionActive": "Loans currently being serviced",
+    "headingCompleted": "Completed Loans",
+    "captionCompleted": "Fully paid or closed loans"
+  },
+  "tabs": {
+    "active": "Active",
+    "completed": "Completed"
+  },
+  "buttons": {
+    "addLoan": "Add Loan"
+  },
+  "columns": {
+    "loanNumber": "Loan #",
+    "lenderName": "Lender / Borrower",
+    "loanType": "Type",
+    "principalAmount": "Principal",
+    "remainingBalance": "Balance",
+    "interestRate": "Rate",
+    "termMonths": "Term (mo.)",
+    "startDate": "Start Date",
+    "maturityDate": "Maturity",
+    "status": "Status"
+  },
+  "empty": {
+    "title": "No loans found",
+    "message": "Add your first loan to start tracking borrowings and repayments."
+  },
+  "actions": {
+    "view": "View",
+    "noPermission": "No permission",
+    "saveError": "Failed to save loan"
+  },
+  "form": {
+    "loanNumber": "Loan Number",
+    "loanNumberPlaceholder": "e.g. LN-001",
+    "lenderName": "Lender / Borrower",
+    "lenderNamePlaceholder": "Name of the lender or borrower",
+    "loanType": "Loan Type",
+    "principalAmount": "Principal Amount",
+    "interestRate": "Annual Interest Rate (%)",
+    "termMonths": "Term (Months)",
+    "startDate": "Start Date",
+    "maturityDate": "Maturity Date",
+    "description": "Description",
+    "descriptionPlaceholder": "Brief description or purpose of the loan"
+  },
+  "status": {
+    "draft": "Draft",
+    "active": "Active",
+    "completed": "Completed",
+    "defaulted": "Defaulted"
+  },
+  "type": {
+    "payable": "Payable",
+    "receivable": "Receivable"
+  }
+}

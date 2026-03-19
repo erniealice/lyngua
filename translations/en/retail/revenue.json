@@ -47,7 +47,20 @@
       "sectionCustomer": "Customer",
       "sectionNotes": "Notes",
       "walkInCustomer": "Walk-in Customer",
-      "selectCustomer": "Select Customer"
+      "selectCustomer": "Select Customer",
+      "currencyPlaceholder": "PHP",
+      "customerNamePlaceholder": "Customer name",
+      "statusOngoing": "Ongoing",
+      "statusComplete": "Complete",
+      "statusCancelled": "Cancelled",
+      "paymentMethod": "Payment Method",
+      "referenceNumber": "Reference Number",
+      "transactionIdPlaceholder": "OR/Transaction ID",
+      "receivedBy": "Received By",
+      "role": "Role",
+      "selectInventoryItem": "-- Select inventory item --",
+      "itemDescriptionPlaceholder": "Item description",
+      "discountDescriptionPlaceholder": "Discount description"
     },
     "actions": {
       "view": "View Sale",
@@ -77,6 +90,7 @@
       "tabBasicInfo": "Basic Information",
       "tabLineItems": "Line Items",
       "tabPayment": "Payment",
+      "tabAttachments": "Attachments",
       "tabAuditTrail": "Audit Trail",
       "customer": "Customer",
       "date": "Sale Date",
@@ -110,7 +124,12 @@
       "inventoryItem": "Inventory Item",
       "serialNumber": "Serial Number",
       "itemEmptyTitle": "No line items",
-      "itemEmptyMessage": "Add items to this sale to get started."
+      "itemEmptyMessage": "Add items to this sale to get started.",
+      "totalPaid": "Total Paid",
+      "remaining": "Remaining Balance",
+      "recordPayment": "Record Payment",
+      "noPaymentInfo": "No payment recorded",
+      "paymentDetailsNotAvailable": "Payment details not available for this sale."
     },
     "lineItems": {
       "addItem": "Add Item",

@@ -1,0 +1,31 @@
+{
+  "page": {
+    "heading": "Fiscal Periods",
+    "caption": "Manage accounting periods and year-end close"
+  },
+  "buttons": {
+    "addPeriod": "Add Period",
+    "closeYearEnd": "Close Year-End"
+  },
+  "columns": {
+    "period": "Period",
+    "year": "Year",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "status": "Status"
+  },
+  "status": {
+    "open": "Open",
+    "closed": "Closed",
+    "locked": "Locked"
+  },
+  "empty": {
+    "title": "No fiscal periods found",
+    "message": "Add your first fiscal period to start tracking accounting periods."
+  },
+  "actions": {
+    "close": "Close",
+    "noPermission": "No permission",
+    "confirmClose": "Are you sure you want to close %s? This will prevent new journal entries from being posted to this period."
+  }
+}

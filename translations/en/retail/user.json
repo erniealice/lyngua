@@ -102,7 +102,8 @@
       "noDivisionsFound": "No divisions found",
       "moreSelected": "+{count} more",
       "generatePassword": "Generate Secure Password"
-    }
+    },
+    "togglePasswordVisibility": "Toggle password visibility"
   },
   "status": {
     "active": "Active",
@@ -178,7 +179,30 @@
       "roles": "Roles",
       "security": "Security",
       "auditTrail": "Audit Trail"
-    }
+    },
+    "updateSuccess": "User updated successfully",
+    "updateError": "Failed to update user",
+    "noRolesAssigned": "No roles assigned",
+    "noRolesDesc": "Assign roles to this user to control their access.",
+    "newPasswordPlaceholder": "Enter new password",
+    "togglePasswordVisibility": "Toggle password visibility",
+    "generatePassword": "Generate Password",
+    "passwordUpdated": "Password updated successfully",
+    "passwordFailed": "Failed to update password",
+    "attachmentsTab": "Attachments"
+  },
+  "dashboard": {
+    "totalUsers": "Total Users",
+    "active": "Active",
+    "inactive": "Inactive",
+    "roles": "Roles",
+    "userActivity": "User Activity",
+    "filterWeek": "Week",
+    "filterMonth": "Month",
+    "filterYear": "Year",
+    "recentActivity": "Recent Activity",
+    "viewAll": "View All",
+    "noRecentActivity": "No recent activity"
   },
   "detailButtons": {
     "save": "Save Changes",

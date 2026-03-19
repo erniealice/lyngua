@@ -1,0 +1,37 @@
+{
+  "page": {
+    "heading": "Recurring Journal Entries",
+    "caption": "Automated entries for depreciation, amortization, accruals"
+  },
+  "buttons": {
+    "addTemplate": "Add Recurring Entry"
+  },
+  "columns": {
+    "name": "Name",
+    "frequency": "Frequency",
+    "nextRun": "Next Run",
+    "status": "Status"
+  },
+  "frequency": {
+    "daily": "Daily",
+    "weekly": "Weekly",
+    "monthly": "Monthly",
+    "quarterly": "Quarterly",
+    "yearly": "Yearly"
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "empty": {
+    "title": "No recurring templates",
+    "message": "Add your first recurring journal entry template to automate periodic entries."
+  },
+  "actions": {
+    "edit": "Edit",
+    "delete": "Delete",
+    "pause": "Pause",
+    "resume": "Resume",
+    "noPermission": "No permission"
+  }
+}

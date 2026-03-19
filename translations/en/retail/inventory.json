@@ -47,7 +47,8 @@
       "serials": "Serials",
       "transactions": "Transactions",
       "depreciation": "Depreciation",
-      "audit": "Audit Trail"
+      "audit": "Audit Trail",
+      "attachments": "Attachments"
     },
     "itemType": {
       "serialized": "Serialized",

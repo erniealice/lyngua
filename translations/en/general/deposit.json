@@ -1,0 +1,51 @@
+{
+  "page": {
+    "heading": "Security Deposits",
+    "caption": "Track deposits paid to landlords, suppliers, and those received from customers"
+  },
+  "buttons": {
+    "recordDeposit": "Record Deposit"
+  },
+  "columns": {
+    "counterparty": "Counterparty",
+    "direction": "Direction",
+    "amount": "Amount",
+    "depositDate": "Deposit Date",
+    "status": "Status",
+    "account": "Account",
+    "notes": "Notes"
+  },
+  "tabs": {
+    "paid": "Paid (Asset)",
+    "received": "Received (Liability)",
+    "all": "All"
+  },
+  "status": {
+    "held": "Held",
+    "returned": "Returned",
+    "forfeited": "Forfeited"
+  },
+  "empty": {
+    "title": "No security deposits found",
+    "message": "Record deposits paid to landlords or suppliers, and deposits received from customers."
+  },
+  "form": {
+    "counterparty": "Counterparty",
+    "counterpartyPlaceholder": "e.g. ABC Landlord / Customer name",
+    "direction": "Direction",
+    "directionPaid": "Paid (We paid the deposit)",
+    "directionReceived": "Received (We received the deposit)",
+    "amount": "Amount",
+    "amountPlaceholder": "0.00",
+    "depositDate": "Deposit Date",
+    "account": "GL Account",
+    "notes": "Notes",
+    "notesPlaceholder": "Optional notes or reference number"
+  },
+  "actions": {
+    "view": "View",
+    "delete": "Delete",
+    "noPermission": "No permission",
+    "confirmDelete": "Are you sure you want to delete this security deposit? This action cannot be undone."
+  }
+}
