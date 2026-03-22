@@ -1,0 +1,27 @@
+{
+  "fulfillment": {
+    "page_title": "Service Delivery",
+    "app_label": "Delivery",
+    "title": "Service Delivery",
+
+    "status": {
+      "ready": "Scheduled",
+      "delivered": "Completed"
+    },
+
+    "type": {
+      "service": "Service Rendered",
+      "physical": "Product Handoff"
+    },
+
+    "actions": {
+      "mark_ready": "Schedule",
+      "deliver": "Mark Complete"
+    },
+
+    "empty": {
+      "title": "No deliveries",
+      "message": "Service deliveries are tracked automatically when appointments are completed."
+    }
+  }
+}

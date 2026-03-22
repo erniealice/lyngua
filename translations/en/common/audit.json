@@ -1,0 +1,27 @@
+{
+  "history": "History",
+  "action": "Action",
+  "actor": "Actor",
+  "timestamp": "Timestamp",
+  "changed_fields": "Changed Fields",
+  "old_value": "Old Value",
+  "new_value": "New Value",
+  "no_history": "No history available.",
+  "details": "Details",
+  "actions": {
+    "insert": "Created",
+    "update": "Updated",
+    "delete": "Deleted",
+    "restore": "Restored",
+    "archive": "Archived"
+  },
+  "field_types": {
+    "string": "Text",
+    "int64": "Number",
+    "bool": "Yes/No",
+    "timestamp": "Date/Time",
+    "uuid": "Reference",
+    "enum": "Status",
+    "text": "Long Text"
+  }
+}

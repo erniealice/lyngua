@@ -1,0 +1,69 @@
+{
+  "fulfillment": {
+    "page_title": "Fulfillment",
+    "app_label": "Fulfillment",
+    "title": "Fulfillment",
+
+    "status": {
+      "pending": "Pending",
+      "ready": "Ready",
+      "in_transit": "In Transit",
+      "delivered": "Delivered",
+      "partially_delivered": "Partially Delivered",
+      "failed": "Failed",
+      "cancelled": "Cancelled"
+    },
+
+    "type": {
+      "physical": "Physical",
+      "service": "Service",
+      "digital": "Digital",
+      "make_to_order": "Make to Order"
+    },
+
+    "columns": {
+      "fulfillment_method": "Type",
+      "status": "Status",
+      "supplier_name": "Provider",
+      "scheduled_at": "Scheduled",
+      "item_count": "Items",
+      "notes": "Notes"
+    },
+
+    "tabs": {
+      "info": "Info",
+      "items": "Items",
+      "history": "History",
+      "returns": "Returns"
+    },
+
+    "actions": {
+      "mark_ready": "Mark Ready",
+      "dispatch": "Dispatch",
+      "deliver": "Deliver",
+      "deliver_partial": "Partial Delivery",
+      "mark_failed": "Mark Failed",
+      "cancel": "Cancel",
+      "retry": "Retry"
+    },
+
+    "buttons": {
+      "add_fulfillment": "New Fulfillment",
+      "edit": "Edit",
+      "delete": "Delete",
+      "transition": "Update Status",
+      "return": "Process Return"
+    },
+
+    "empty": {
+      "title": "No fulfillment records",
+      "message": "Fulfillment records are created automatically when a sale is completed."
+    },
+
+    "errors": {
+      "permission_denied": "You do not have permission to manage fulfillment.",
+      "load_failed": "Failed to load fulfillment records.",
+      "transition_failed": "Status transition failed."
+    }
+  }
+}

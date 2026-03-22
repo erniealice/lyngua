@@ -1,0 +1,32 @@
+{
+  "fulfillment": {
+    "page_title": "Orders & Delivery",
+    "app_label": "Delivery",
+    "title": "Orders & Delivery",
+
+    "status": {
+      "ready": "Ready for Pickup",
+      "in_transit": "Shipped",
+      "delivered": "Delivered"
+    },
+
+    "columns": {
+      "supplier_name": "Courier"
+    },
+
+    "actions": {
+      "mark_ready": "Pack Order",
+      "dispatch": "Ship Order",
+      "deliver": "Confirm Delivery"
+    },
+
+    "buttons": {
+      "add_fulfillment": "New Order"
+    },
+
+    "empty": {
+      "title": "No orders",
+      "message": "Orders appear here when sales are completed."
+    }
+  }
+}

@@ -139,7 +139,12 @@
       "corporateSteel": "Corporate Steel",
       "paperInk": "Paper & Ink",
       "peachFizz": "Peach Fizz",
-      "modernRetail": "Modern Salon"
+      "modernRetail": "Modern Salon",
+      "rytaDefault": "Ryta Default",
+      "salonBlush": "Salon Blush",
+      "ledgerMono": "Ledger Mono",
+      "brutalistInk": "Brutalist Ink",
+      "softClay": "Soft Clay"
     },
     "fontFamily": "Font Family",
     "fonts": {
@@ -148,8 +153,31 @@
       "mono": "JetBrains Mono",
       "rounded": "Nunito",
       "condensed": "Barlow Condensed",
-      "exa": "Lexend Exa + Figtree"
-    }
+      "exa": "Lexend Exa + Figtree",
+      "rytaMinimal": "Ryta Minimal"
+    },
+    "density": {
+      "title": "Density",
+      "dense": "Dense",
+      "compact": "Compact",
+      "default": "Default",
+      "comfortable": "Comfortable"
+    },
+    "radius": {
+      "title": "Corners",
+      "none": "None",
+      "sm": "Sm",
+      "default": "Default",
+      "lg": "Lg",
+      "full": "Full"
+    },
+    "border": {
+      "title": "Borders",
+      "none": "None",
+      "default": "Default",
+      "heavy": "Heavy"
+    },
+    "resetDefaults": "Reset to theme defaults"
   },
   "helpPane": {
     "title": "Knowledge Base",
