@@ -1,0 +1,17 @@
+{
+    "event": {
+        "page": {
+            "heading": "Appointments",
+            "headingUpcoming": "Upcoming Appointments",
+            "headingConfirmed": "Confirmed Appointments",
+            "headingCompleted": "Completed Appointments",
+            "headingCancelled": "Cancelled Appointments",
+            "caption": "Manage appointments and bookings"
+        },
+        "buttons": { "addEvent": "Book Appointment" },
+        "columns": { "organizer": "Stylist" },
+        "empty": { "heading": "No appointments", "subheading": "Book your first appointment" },
+        "form": { "organizer": "Stylist" },
+        "detail": { "heading": "Appointment Details", "organizer": "Stylist" }
+    }
+}
