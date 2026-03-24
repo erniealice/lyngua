@@ -1,11 +1,11 @@
-# lyngua-ryta
+# lyngua
 
-Translation package for Ryta OS applications. Provides JSON-based i18n with business type layering and two loading modes for Go consumers.
+Translation package for Ichizen OS applications. Provides JSON-based i18n with business type layering and two loading modes for Go consumers.
 
 ## Structure
 
 ```
-lyngua-ryta/
+lyngua/
   translations/
     en/
       common/         UI chrome labels (sidebar, header, buttons, table)
@@ -104,5 +104,5 @@ go: 1.25.1
 
 Referenced in `go.work`:
 ```
-replace leapfor.xyz/lyngua => ./packages/lyngua-ryta
+replace leapfor.xyz/lyngua => ./packages/lyngua
 ```

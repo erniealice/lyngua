@@ -16,7 +16,7 @@
 
 ---
 
-## Phase 2: Rename Go types in centymo-golang-ryta — NOT STARTED
+## Phase 2: Rename Go types in centymo-golang — NOT STARTED
 
 - [ ] `labels.go`: `Sales*Labels` → `Revenue*Labels` (15 types)
 - [ ] `routes_config.go`: `SalesRoutes` → `RevenueRoutes`, `DefaultSalesRoutes` → `DefaultRevenueRoutes`
@@ -78,8 +78,8 @@ To continue this work:
 4. Update checkboxes as you complete steps
 
 Key files to read first:
-- `packages/centymo-golang-ryta/labels.go:298` (SalesLabels type definition)
-- `packages/centymo-golang-ryta/routes_config.go:322` (SalesRoutes type definition)
-- `packages/centymo-golang-ryta/routes.go:152-189` (Sales*URL constants)
+- `packages/centymo-golang/labels.go:298` (SalesLabels type definition)
+- `packages/centymo-golang/routes_config.go:322` (SalesRoutes type definition)
+- `packages/centymo-golang/routes.go:152-189` (Sales*URL constants)
 - `apps/service-admin/internal/composition/container.go:218-278` (translation loading)
 - `apps/retail-admin/internal/composition/container.go:266-267` (translation loading)

@@ -3,7 +3,7 @@
 **Date:** 2026-03-12
 **Branch:** `dev/20260312-sales-to-revenue`
 **Status:** Draft
-**App/Package:** lyngua-ryta, centymo-golang-ryta, service-admin, retail-admin
+**App/Package:** lyngua, centymo-golang, service-admin, retail-admin
 
 ---
 
@@ -61,20 +61,20 @@ apps/service-admin/internal/presentation/sales/  → revenue/
 
 ## Implementation Steps
 
-### Phase 1: Rename translation JSON files (lyngua-ryta)
+### Phase 1: Rename translation JSON files (lyngua)
 
 1. **Rename `sale.json` → `revenue.json`** in 3 tiers + change root key `"sales"` → `"revenue"`:
-   - `packages/lyngua-ryta/translations/en/retail/sale.json`
-   - `packages/lyngua-ryta/translations/en/service/sale.json`
-   - `packages/lyngua-ryta/translations/en/professional/sale.json`
+   - `packages/lyngua/translations/en/retail/sale.json`
+   - `packages/lyngua/translations/en/service/sale.json`
+   - `packages/lyngua/translations/en/professional/sale.json`
 
 2. **Rename `"sales"` key → `"revenue"` in route.json** files:
-   - `packages/lyngua-ryta/translations/en/professional/route.json`
-   - `packages/lyngua-ryta/translations/en/service/route.json`
+   - `packages/lyngua/translations/en/professional/route.json`
+   - `packages/lyngua/translations/en/service/route.json`
 
-### Phase 2: Rename Go types in centymo-golang-ryta
+### Phase 2: Rename Go types in centymo-golang
 
-3. **Rename label types** in `packages/centymo-golang-ryta/labels.go`:
+3. **Rename label types** in `packages/centymo-golang/labels.go`:
    - `SalesLabels` → `RevenueLabels`
    - `SalesPageLabels` → `RevenuePageLabels`
    - `SalesButtonLabels` → `RevenueButtonLabels`
@@ -90,12 +90,12 @@ apps/service-admin/internal/presentation/sales/  → revenue/
    - `SalesSettingsLabels` → `RevenueSettingsLabels`
    - Plus `SalesLineItemLabels` and `SalesPaymentLabels` if they exist
 
-4. **Rename route type + constructor** in `packages/centymo-golang-ryta/routes_config.go`:
+4. **Rename route type + constructor** in `packages/centymo-golang/routes_config.go`:
    - `SalesRoutes` → `RevenueRoutes`
    - `DefaultSalesRoutes()` → `DefaultRevenueRoutes()`
    - `(SalesRoutes) RouteMap()` → `(RevenueRoutes) RouteMap()`
 
-5. **Rename route constants** in `packages/centymo-golang-ryta/routes.go` (25 constants):
+5. **Rename route constants** in `packages/centymo-golang/routes.go` (25 constants):
    - `SalesDashboardURL` → `RevenueDashboardURL`
    - `SalesListURL` → `RevenueListURL`
    - `SalesDetailURL` → `RevenueDetailURL`
@@ -103,15 +103,15 @@ apps/service-admin/internal/presentation/sales/  → revenue/
    - Comment: `// Sales (revenue) routes` → `// Revenue routes`
 
 6. **Update all centymo view references** (already under `views/revenue/`):
-   - `packages/centymo-golang-ryta/views/revenue/list/page.go` — `centymo.SalesLabels` → `centymo.RevenueLabels`, `centymo.SalesRoutes` → `centymo.RevenueRoutes`
-   - `packages/centymo-golang-ryta/views/revenue/detail/page.go` — same
-   - `packages/centymo-golang-ryta/views/revenue/detail/line_items.go` — same
-   - `packages/centymo-golang-ryta/views/revenue/action/action.go` — same
-   - `packages/centymo-golang-ryta/views/revenue/action/payment.go` — same
-   - `packages/centymo-golang-ryta/views/revenue/action/invoice_download.go` — same
-   - `packages/centymo-golang-ryta/views/revenue/dashboard/page.go` — same
-   - `packages/centymo-golang-ryta/views/revenue/settings/deps.go` — same
-   - `packages/centymo-golang-ryta/views/revenue/settings/page.go` — `SalesSettingsLabels` → `RevenueSettingsLabels`
+   - `packages/centymo-golang/views/revenue/list/page.go` — `centymo.SalesLabels` → `centymo.RevenueLabels`, `centymo.SalesRoutes` → `centymo.RevenueRoutes`
+   - `packages/centymo-golang/views/revenue/detail/page.go` — same
+   - `packages/centymo-golang/views/revenue/detail/line_items.go` — same
+   - `packages/centymo-golang/views/revenue/action/action.go` — same
+   - `packages/centymo-golang/views/revenue/action/payment.go` — same
+   - `packages/centymo-golang/views/revenue/action/invoice_download.go` — same
+   - `packages/centymo-golang/views/revenue/dashboard/page.go` — same
+   - `packages/centymo-golang/views/revenue/settings/deps.go` — same
+   - `packages/centymo-golang/views/revenue/settings/page.go` — `SalesSettingsLabels` → `RevenueSettingsLabels`
 
 ### Phase 3: Rename presentation directories + update app consumers
 
@@ -122,7 +122,7 @@ apps/service-admin/internal/presentation/sales/  → revenue/
    - Update all `centymo.SalesLabels` → `centymo.RevenueLabels` and `centymo.SalesRoutes` → `centymo.RevenueRoutes`
 
 8. **Update import aliases in views.go**:
-   - `apps/retail-admin/internal/composition/views.go`: `salesmod "ryta.ph/.../sales"` → `revenuemod "ryta.ph/.../revenue"`, update all `salesmod.` → `revenuemod.`
+   - `apps/retail-admin/internal/composition/views.go`: `salesmod "ichizen.leapfor.xyz/.../sales"` → `revenuemod "ichizen.leapfor.xyz/.../revenue"`, update all `salesmod.` → `revenuemod.`
    - `apps/service-admin/internal/composition/views.go`: same
 
 9. **Update container.go in both apps**:
@@ -148,23 +148,23 @@ apps/service-admin/internal/presentation/sales/  → revenue/
 
 | File | Change | Phase |
 |------|--------|-------|
-| `packages/lyngua-ryta/translations/en/retail/sale.json` | Rename to `revenue.json`, root key `"sales"` → `"revenue"` | 1 |
-| `packages/lyngua-ryta/translations/en/service/sale.json` | Rename to `revenue.json`, root key `"sales"` → `"revenue"` | 1 |
-| `packages/lyngua-ryta/translations/en/professional/sale.json` | Rename to `revenue.json`, root key `"sales"` → `"revenue"` | 1 |
-| `packages/lyngua-ryta/translations/en/professional/route.json` | `"sales"` key → `"revenue"` | 1 |
-| `packages/lyngua-ryta/translations/en/service/route.json` | `"sales"` key → `"revenue"` | 1 |
-| `packages/centymo-golang-ryta/labels.go` | `Sales*Labels` → `Revenue*Labels` (15 types) | 2 |
-| `packages/centymo-golang-ryta/routes_config.go` | `SalesRoutes` → `RevenueRoutes`, `DefaultSalesRoutes` → `DefaultRevenueRoutes` (27 refs) | 2 |
-| `packages/centymo-golang-ryta/routes.go` | `Sales*URL` → `Revenue*URL` (25 constants) | 2 |
-| `packages/centymo-golang-ryta/views/revenue/list/page.go` | `centymo.Sales{Labels,Routes}` → `centymo.Revenue{Labels,Routes}` | 2 |
-| `packages/centymo-golang-ryta/views/revenue/detail/page.go` | Same | 2 |
-| `packages/centymo-golang-ryta/views/revenue/detail/line_items.go` | Same | 2 |
-| `packages/centymo-golang-ryta/views/revenue/action/action.go` | Same | 2 |
-| `packages/centymo-golang-ryta/views/revenue/action/payment.go` | Same | 2 |
-| `packages/centymo-golang-ryta/views/revenue/action/invoice_download.go` | Same | 2 |
-| `packages/centymo-golang-ryta/views/revenue/dashboard/page.go` | Same | 2 |
-| `packages/centymo-golang-ryta/views/revenue/settings/deps.go` | Same | 2 |
-| `packages/centymo-golang-ryta/views/revenue/settings/page.go` | Same | 2 |
+| `packages/lyngua/translations/en/retail/sale.json` | Rename to `revenue.json`, root key `"sales"` → `"revenue"` | 1 |
+| `packages/lyngua/translations/en/service/sale.json` | Rename to `revenue.json`, root key `"sales"` → `"revenue"` | 1 |
+| `packages/lyngua/translations/en/professional/sale.json` | Rename to `revenue.json`, root key `"sales"` → `"revenue"` | 1 |
+| `packages/lyngua/translations/en/professional/route.json` | `"sales"` key → `"revenue"` | 1 |
+| `packages/lyngua/translations/en/service/route.json` | `"sales"` key → `"revenue"` | 1 |
+| `packages/centymo-golang/labels.go` | `Sales*Labels` → `Revenue*Labels` (15 types) | 2 |
+| `packages/centymo-golang/routes_config.go` | `SalesRoutes` → `RevenueRoutes`, `DefaultSalesRoutes` → `DefaultRevenueRoutes` (27 refs) | 2 |
+| `packages/centymo-golang/routes.go` | `Sales*URL` → `Revenue*URL` (25 constants) | 2 |
+| `packages/centymo-golang/views/revenue/list/page.go` | `centymo.Sales{Labels,Routes}` → `centymo.Revenue{Labels,Routes}` | 2 |
+| `packages/centymo-golang/views/revenue/detail/page.go` | Same | 2 |
+| `packages/centymo-golang/views/revenue/detail/line_items.go` | Same | 2 |
+| `packages/centymo-golang/views/revenue/action/action.go` | Same | 2 |
+| `packages/centymo-golang/views/revenue/action/payment.go` | Same | 2 |
+| `packages/centymo-golang/views/revenue/action/invoice_download.go` | Same | 2 |
+| `packages/centymo-golang/views/revenue/dashboard/page.go` | Same | 2 |
+| `packages/centymo-golang/views/revenue/settings/deps.go` | Same | 2 |
+| `packages/centymo-golang/views/revenue/settings/page.go` | Same | 2 |
 | `apps/retail-admin/internal/presentation/sales/module.go` | **Move to** `revenue/module.go`, `package revenue`, type refs | 3 |
 | `apps/service-admin/internal/presentation/sales/module.go` | **Move to** `revenue/module.go`, `package revenue`, type refs | 3 |
 | `apps/retail-admin/internal/composition/views.go` | Import + alias `salesmod` → `revenuemod`, field names | 3 |

@@ -140,7 +140,7 @@
       "paperInk": "Paper & Ink",
       "peachFizz": "Peach Fizz",
       "modernRetail": "Modern Salon",
-      "rytaDefault": "Ryta Default",
+      "ichizenDefault": "Ichizen Default",
       "salonBlush": "Salon Blush",
       "ledgerMono": "Ledger Mono",
       "brutalistInk": "Brutalist Ink",
@@ -154,7 +154,7 @@
       "rounded": "Nunito",
       "condensed": "Barlow Condensed",
       "exa": "Lexend Exa + Figtree",
-      "rytaMinimal": "Ryta Minimal"
+      "ichizenMinimal": "Ichizen Minimal"
     },
     "density": {
       "title": "Density",

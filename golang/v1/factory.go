@@ -21,8 +21,8 @@ func NewDefaultTranslationProvider() *TranslationProvider {
 		return NewTranslationProvider(filepath.Join("..", "..", "translations"))
 	}
 
-	// filename is .../packages/lyngua-ryta/golang/v1/factory.go
-	// We want .../packages/lyngua-ryta/translations
+	// filename is .../packages/lyngua/golang/v1/factory.go
+	// We want .../packages/lyngua/translations
 	lynguaDir := filepath.Dir(filepath.Dir(filepath.Dir(filename)))
 	translationsPath := filepath.Join(lynguaDir, "translations")
 
@@ -51,7 +51,7 @@ func NewDefaultTranslationProviderWithWorkspace() *TranslationProvider {
 	// Walk up to find go.work root
 	for {
 		if _, err := os.Stat(filepath.Join(dir, "go.work")); err == nil {
-			translationsPath := filepath.Join(dir, "packages", "lyngua-ryta", "translations")
+			translationsPath := filepath.Join(dir, "packages", "lyngua", "translations")
 			return NewTranslationProvider(translationsPath)
 		}
 		parent := filepath.Dir(dir)
