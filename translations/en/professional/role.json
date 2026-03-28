@@ -15,7 +15,8 @@
     "description": "Description",
     "color": "Color",
     "permissions": "Permissions",
-    "status": "Status"
+    "status": "Status",
+    "dateCreated": "Date Created"
   },
   "empty": {
     "activeTitle": "No active roles",

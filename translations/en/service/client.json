@@ -14,7 +14,8 @@
       "addNew": "Add New Customer"
     },
     "columns": {
-      "clientName": "Customer Name"
+      "clientName": "Customer Name",
+      "dateCreated": "Date Created"
     },
     "empty": {
       "activeTitle": "No active customers",

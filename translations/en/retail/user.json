@@ -24,6 +24,7 @@
     "email": "Email",
     "roles": "Roles",
     "division": "Division",
+    "dateCreated": "Date Created",
     "status": "Status",
     "office": "Office",
     "default": "Default"

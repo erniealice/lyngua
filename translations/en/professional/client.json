@@ -43,7 +43,8 @@
       "townSuburb": "Town / Suburb",
       "state": "State",
       "country": "Country",
-      "userDivision": "User Division"
+      "userDivision": "User Division",
+      "dateCreated": "Date Created"
     },
     "empty": {
       "activeTitle": "No active clients",
