@@ -1,3 +1,5 @@
+.DS_Store
+
 # Test artifacts
 node_modules/
 playwright-report/
