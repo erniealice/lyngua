@@ -121,7 +121,10 @@
       "remaining": "Remaining Balance",
       "recordPayment": "Record Payment",
       "noPaymentInfo": "No payment recorded",
-      "paymentDetailsNotAvailable": "Payment details not available for this booking."
+      "paymentDetailsNotAvailable": "Payment details not available for this booking.",
+      "selectInventoryItem": "-- Select service item --",
+      "itemDescriptionPlaceholder": "Item description",
+      "notesPlaceholder": "Optional notes..."
     },
     "confirm": {
       "complete": "Complete Booking",
