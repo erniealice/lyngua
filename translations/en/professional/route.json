@@ -3,6 +3,7 @@
         "active_nav": "services",
         "active_sub_nav": "services-active",
         "list_url": "/app/services/list/{status}",
+        "table_url": "/action/services/table/{status}",
         "detail_url": "/app/services/detail/{id}",
         "add_url": "/action/services/add",
         "edit_url": "/action/services/edit/{id}",
