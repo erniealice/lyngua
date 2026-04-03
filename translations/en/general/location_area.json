@@ -1,0 +1,18 @@
+{
+  "location_area": {
+    "validation": {
+      "data_required": "Location area data is required",
+      "name_required": "Location area name is required",
+      "id_required": "Location area ID is required",
+      "request_required": "Request is required for location areas"
+    },
+    "errors": {
+      "not_found": "Location area with ID \"{entityId}\" not found",
+      "creation_failed": "Location area creation failed",
+      "update_failed": "Location area update failed",
+      "deletion_failed": "Location area deletion failed",
+      "list_failed": "Failed to retrieve location areas",
+      "authorization_failed": "Authorization failed for location areas"
+    }
+  }
+}

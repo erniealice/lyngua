@@ -1,0 +1,20 @@
+{
+  "product_line": {
+    "validation": {
+      "data_required": "Product line data is required",
+      "name_required": "Product line name is required",
+      "email_required": "Product line email is required",
+      "email_invalid": "Product line email format is invalid",
+      "id_required": "Product line ID is required",
+      "request_required": "Request is required for product lines"
+    },
+    "errors": {
+      "not_found": "Product line with ID \"{entityId}\" not found",
+      "creation_failed": "Product line creation failed",
+      "update_failed": "Product line update failed",
+      "deletion_failed": "Product line deletion failed",
+      "list_failed": "Failed to retrieve product lines",
+      "authorization_failed": "Authorization failed for product lines"
+    }
+  }
+}

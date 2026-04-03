@@ -52,7 +52,14 @@
       "role": "Role",
       "selectInventoryItem": "-- Select service item --",
       "itemDescriptionPlaceholder": "Item description",
-      "discountDescriptionPlaceholder": "Discount description"
+      "discountDescriptionPlaceholder": "Discount description",
+      "paymentTerms": "Payment Terms",
+      "selectPaymentTerm": "Select payment term",
+      "dueDate": "Due Date",
+      "customerSearchPlaceholder": "Search customers...",
+      "customerNoResults": "No customers found",
+      "subscription": "Subscription",
+      "subscriptionNoResults": "No active subscriptions found"
     },
     "actions": {
       "view": "View Booking",
@@ -90,6 +97,8 @@
       "currency": "Currency",
       "status": "Status",
       "notes": "Notes",
+      "paymentTerms": "Payment Terms",
+      "dueDate": "Due Date",
       "paymentMethod": "Payment Method",
       "amountPaid": "Amount Paid",
       "cardDetails": "Card Details",

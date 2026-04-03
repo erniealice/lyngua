@@ -37,6 +37,9 @@
     "typeDueOnReceipt": "Due on Receipt",
     "typeNet": "Net Days",
     "typeCOD": "COD",
+    "typeProximate": "Proximate",
+    "proximateDay": "Day of Month",
+    "proximateDayPlaceholder": "e.g. 15",
     "scopesBoth": "Both",
     "scopesSupplierOnly": "Supplier Only",
     "scopesClientOnly": "Client Only"

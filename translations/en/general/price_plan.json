@@ -1,26 +1,21 @@
 {
   "price_plan": {
     "validation": {
-      "data_required": "Pricing plan data is required",
-      "name_required": "Pricing plan name is required",
-      "email_required": "Pricing plan email is required",
-      "email_invalid": "Pricing plan email format is invalid",
-      "id_required": "Pricing plan ID is required",
-      "request_required": "Request is required for pricing plans",
-      "id_too_long": "Price plan ID is too long",
-      "invalid_limit": "Invalid pagination limit",
-      "limit_too_large": "Pagination limit is too large",
-      "invalid_amount_filter": "Invalid amount filter"
+      "data_required": "Rate card data is required",
+      "name_required": "Rate card name is required",
+      "id_required": "Rate card ID is required",
+      "request_required": "Request is required for rate cards",
+      "plan_id_required": "Plan selection is required for rate cards",
+      "location_id_required": "Location selection is required for rate cards",
+      "amount_required": "Amount is required for rate cards"
     },
     "errors": {
-      "not_found": "Pricing plan with ID \"{entityId}\" not found",
-      "creation_failed": "Pricing plan creation failed",
-      "update_failed": "Pricing plan update failed",
-      "deletion_failed": "Pricing plan deletion failed",
-      "list_failed": "Failed to retrieve pricing plans",
-      "authorization_failed": "Authorization failed for pricing plans",
-      "get_item_page_data_failed": "Failed to load price plan details",
-      "get_list_page_data_failed": "Failed to load price plan list"
+      "not_found": "Rate card with ID \"{entityId}\" not found",
+      "creation_failed": "Rate card creation failed",
+      "update_failed": "Rate card update failed",
+      "deletion_failed": "Rate card deletion failed",
+      "list_failed": "Failed to retrieve rate cards",
+      "authorization_failed": "Authorization failed for rate cards"
     }
   }
 }

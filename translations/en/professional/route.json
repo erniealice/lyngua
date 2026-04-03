@@ -88,6 +88,7 @@
     "revenue": {
         "dashboard_url": "/app/revenue/dashboard",
         "list_url": "/app/revenue/list/{status}",
+        "table_url": "/action/revenue/table/{status}",
         "detail_url": "/app/revenue/detail/{id}",
         "add_url": "/action/revenue/add",
         "edit_url": "/action/revenue/edit/{id}",
@@ -105,7 +106,17 @@
         "payment_add_url": "/action/revenue/detail/{id}/payment/add",
         "payment_edit_url": "/action/revenue/detail/{id}/payment/edit/{pid}",
         "payment_remove_url": "/action/revenue/detail/{id}/payment/remove",
-        "sales_summary_url": "/app/revenue/reports/revenue-summary"
+        "sales_summary_url": "/app/revenue/reports/revenue-summary",
+        "invoice_download_url": "/action/revenue/detail/{id}/invoice/download",
+        "send_email_url": "/action/revenue/detail/{id}/invoice/send-email",
+        "settings_templates_url": "/app/revenue/settings/templates",
+        "settings_template_upload_url": "/action/revenue/settings/templates/upload",
+        "settings_template_delete_url": "/action/revenue/settings/templates/delete",
+        "settings_template_default_url": "/action/revenue/settings/templates/set-default/{id}",
+        "search_client_url": "/action/revenue/search/clients",
+        "search_subscription_url": "/action/revenue/search/subscriptions",
+        "attachment_upload_url": "/action/revenue/detail/{id}/attachments/upload",
+        "attachment_delete_url": "/action/revenue/detail/{id}/attachments/delete"
     },
     "reports": {
         "dashboard_url": "/app/financial/dashboard",

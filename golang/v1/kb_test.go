@@ -30,18 +30,18 @@ func TestLoadKBIfExists_ReturnsNilForMissingTopic(t *testing.T) {
 
 func TestLoadKBIfExists_ReturnsContentForExistingTopic(t *testing.T) {
 	p := newTestProvider(map[string]string{
-		"en/common/kb/clients.md": "# Clients\n\nManage your clients here.\n",
+		"en/common/kb/client.md": "# Clients\n\nManage your clients here.\n",
 	})
 
-	kb, err := p.LoadKBIfExists("en", "retail", "clients")
+	kb, err := p.LoadKBIfExists("en", "retail", "client")
 	if err != nil {
 		t.Fatalf("unexpected error: %v", err)
 	}
 	if kb == nil {
 		t.Fatal("expected KBContent, got nil")
 	}
-	if kb.Topic != "clients" {
-		t.Errorf("expected topic 'clients', got %q", kb.Topic)
+	if kb.Topic != "client" {
+		t.Errorf("expected topic 'client', got %q", kb.Topic)
 	}
 	if kb.Title != "Clients" {
 		t.Errorf("expected title 'Clients', got %q", kb.Title)
@@ -53,11 +53,11 @@ func TestLoadKBIfExists_ReturnsContentForExistingTopic(t *testing.T) {
 
 func TestLoadKB_CascadeBusinessTypeWins(t *testing.T) {
 	p := newTestProvider(map[string]string{
-		"en/common/kb/clients.md": "# Clients Common\n\nCommon content.\n",
-		"en/retail/kb/clients.md": "# Customers\n\nRetail content.\n",
+		"en/common/kb/client.md": "# Clients Common\n\nCommon content.\n",
+		"en/retail/kb/client.md": "# Customers\n\nRetail content.\n",
 	})
 
-	kb, err := p.LoadKB("en", "retail", "clients")
+	kb, err := p.LoadKB("en", "retail", "client")
 	if err != nil {
 		t.Fatalf("unexpected error: %v", err)
 	}
@@ -71,10 +71,10 @@ func TestLoadKB_CascadeBusinessTypeWins(t *testing.T) {
 
 func TestLoadKB_CommonFallbackWhenNoOverride(t *testing.T) {
 	p := newTestProvider(map[string]string{
-		"en/common/kb/roles.md": "# Roles\n\nManage roles.\n",
+		"en/common/kb/role.md": "# Roles\n\nManage roles.\n",
 	})
 
-	kb, err := p.LoadKB("en", "retail", "roles")
+	kb, err := p.LoadKB("en", "retail", "role")
 	if err != nil {
 		t.Fatalf("unexpected error: %v", err)
 	}

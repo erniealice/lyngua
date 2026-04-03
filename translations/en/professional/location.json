@@ -28,6 +28,7 @@
     "addressPlaceholder": "e.g. 123 Main Street",
     "description": "Description",
     "descriptionPlaceholder": "e.g. Primary company location",
+    "timezone": "Timezone",
     "active": "Active"
   },
   "actions": {

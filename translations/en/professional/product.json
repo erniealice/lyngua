@@ -63,7 +63,7 @@
     "detail": {
       "price": "Price",
       "currency": "Currency",
-      "collections": "Categories",
+      "collections": "Product Lines",
       "variantCount": "Plan Options",
       "status": "Status",
       "optionsLabel": "Options",
