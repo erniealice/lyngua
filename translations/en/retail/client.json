@@ -40,6 +40,7 @@
     },
     "columns": {
       "clientName": "Customer Name",
+      "representative": "Representative",
       "townSuburb": "Town / Suburb",
       "state": "State",
       "country": "Country",
@@ -80,13 +81,14 @@
       "fax": "Fax",
       "faxPlaceholder": "+61 X XXXX XXXX",
       "paymentTerm": "Payment Term",
-      "selectPaymentTerm": "Select payment term",
+      "paymentTerms": "Payment Terms",
+      "selectPaymentTerm": "Select payment term...",
       "slugPlaceholder": "auto-generated if empty",
       "active": "Active",
-      "companyName": "Company Name",
-      "companyNamePlaceholder": "e.g. Acme Corp",
-      "customerType": "Customer Type",
-      "dateOfBirth": "Date of Birth",
+      "name": "Client Name",
+      "namePlaceholder": "Enter client name",
+      "companyDetails": "Company Details",
+      "representative": "Representative",
       "streetAddress": "Street Address",
       "streetAddressPlaceholder": "123 Main St",
       "city": "City",
@@ -100,11 +102,7 @@
       "tags": "Tags",
       "tagsPlaceholder": "Select tags...",
       "tagsSearchPlaceholder": "Search tags...",
-      "tagsNoResults": "No tags available. Create tags in Settings.",
-      "selectTypePlaceholder": "Select type",
-      "typeRetail": "Retail",
-      "typeWholesale": "Wholesale",
-      "typeVIP": "VIP"
+      "tagsNoResults": "No tags available. Create tags in Settings."
     },
     "detail": {
       "pageTitle": "Customer Details",
@@ -179,9 +177,6 @@
       "company": {
         "title": "Company"
       },
-      "personal": {
-        "title": "Personal Information"
-      },
       "notesSection": {
         "title": "Notes"
       },
@@ -197,10 +192,12 @@
         "lastPurchase": "Last Purchase",
         "empty": "No purchase history yet"
       },
+      "representative": "Representative",
       "tabs": {
         "info": "Info",
-        "purchaseHistory": "Purchase History",
-        "attachments": "Attachments"
+        "representative": "Representative",
+        "engagements": "Engagements",
+        "history": "History"
       },
       "name": "Name",
       "recentOrders": "Recent Orders",

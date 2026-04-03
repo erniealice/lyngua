@@ -15,6 +15,7 @@
     },
     "columns": {
       "clientName": "Customer Name",
+      "representative": "Representative",
       "dateCreated": "Date Created"
     },
     "empty": {

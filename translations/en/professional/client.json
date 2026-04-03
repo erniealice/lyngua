@@ -40,6 +40,7 @@
     },
     "columns": {
       "clientName": "Client Name",
+      "representative": "Representative",
       "townSuburb": "Town / Suburb",
       "state": "State",
       "country": "Country",
@@ -80,17 +81,14 @@
       "fax": "Fax",
       "faxPlaceholder": "+61 X XXXX XXXX",
       "paymentTerm": "Payment Term",
-      "selectPaymentTerm": "Select payment term",
+      "paymentTerms": "Payment Terms",
+      "selectPaymentTerm": "Select payment term...",
       "slugPlaceholder": "auto-generated if empty",
       "active": "Active",
-      "companyName": "Company Name",
-      "companyNamePlaceholder": "e.g. Acme Corp",
-      "customerType": "Client Type",
-      "selectTypePlaceholder": "Select client type...",
-      "typeRetail": "Retail",
-      "typeWholesale": "Wholesale",
-      "typeVIP": "VIP",
-      "dateOfBirth": "Date of Birth",
+      "name": "Client Name",
+      "namePlaceholder": "Enter client name",
+      "companyDetails": "Company Details",
+      "representative": "Representative",
       "streetAddress": "Street Address",
       "streetAddressPlaceholder": "123 Main St",
       "city": "City",
@@ -179,9 +177,6 @@
       "company": {
         "title": "Company"
       },
-      "personal": {
-        "title": "Personal Information"
-      },
       "notesSection": {
         "title": "Notes"
       },
@@ -197,9 +192,19 @@
         "lastPurchase": "Last Engagement",
         "empty": "No project history yet"
       },
+      "representative": "Representative",
+      "name": "Name",
+      "recentOrders": "Recent Orders",
+      "colDate": "Date",
+      "colReference": "Reference",
+      "colAmount": "Amount",
+      "colStatus": "Status",
+      "purchaseHistoryEmpty": "No purchase history for this client.",
       "tabs": {
         "info": "Info",
-        "purchaseHistory": "Project History"
+        "representative": "Representative",
+        "engagements": "Engagements",
+        "history": "History"
       }
     },
     "settings": {

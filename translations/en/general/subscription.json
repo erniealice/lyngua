@@ -34,7 +34,9 @@
       "customerSearchPlaceholder": "Search customers...",
       "planSearchPlaceholder": "Search plans...",
       "customerNoResults": "No customers found",
-      "planNoResults": "No plans found"
+      "planNoResults": "No plans found",
+      "code": "Code",
+      "codePlaceholder": "e.g. A3K7PXR"
     },
     "actions": {
       "view": "View Subscription",

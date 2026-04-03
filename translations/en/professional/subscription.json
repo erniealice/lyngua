@@ -42,6 +42,8 @@
       "customerNoResults": "No customers found",
       "planNoResults": "No packages found",
       "active": "Active",
+      "code": "Charge Code",
+      "codePlaceholder": "e.g. A3K7PXR",
       "sections": {
         "basic": "Basic Information",
         "scheduling": "Scheduling"

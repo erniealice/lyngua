@@ -1,0 +1,75 @@
+{
+  "page": {
+    "heading": "Payment Terms",
+    "subtitle": "Manage payment terms for clients and suppliers"
+  },
+  "buttons": {
+    "addPaymentTerm": "Add Payment Term"
+  },
+  "columns": {
+    "name": "Name",
+    "code": "Code",
+    "type": "Type",
+    "netDays": "Net Days",
+    "entityScope": "Entity Scope",
+    "isDefault": "Default",
+    "active": "Active"
+  },
+  "empty": {
+    "title": "No payment terms yet",
+    "message": "Create your first payment term to get started."
+  },
+  "form": {
+    "name": "Name",
+    "namePlaceholder": "Enter payment term name",
+    "code": "Code",
+    "codePlaceholder": "e.g. net_30",
+    "type": "Type",
+    "netDays": "Net Days",
+    "discountDays": "Discount Days",
+    "discountPercentBps": "Discount % (bps)",
+    "entityScope": "Entity Scope",
+    "isDefault": "Is Default",
+    "description": "Description",
+    "descriptionPlaceholder": "Optional description...",
+    "displayOrder": "Display Order",
+    "active": "Active",
+    "typeDueOnReceipt": "Due on Receipt",
+    "typeNet": "Net Days",
+    "typeCOD": "COD",
+    "scopesBoth": "Both",
+    "scopesSupplierOnly": "Supplier Only",
+    "scopesClientOnly": "Client Only"
+  },
+  "actions": {
+    "add": "Add Payment Term",
+    "edit": "Edit Payment Term",
+    "delete": "Delete Payment Term",
+    "view": "View"
+  },
+  "confirm": {
+    "deleteTitle": "Delete Payment Term",
+    "deleteMessage": "Are you sure you want to delete this payment term? This action cannot be undone."
+  },
+  "statusMessages": {
+    "createSuccess": "Payment term created successfully",
+    "updateSuccess": "Payment term updated successfully",
+    "deleteSuccess": "Payment term deleted successfully"
+  },
+  "validation": {
+    "data_required": "Payment term data is required",
+    "name_required": "Payment term name is required",
+    "code_required": "Payment term code is required",
+    "type_required": "Payment term type is required",
+    "id_required": "Payment term ID is required",
+    "request_required": "Request is required for payment terms"
+  },
+  "errors": {
+    "not_found": "Payment term with ID \"{entityId}\" not found",
+    "creation_failed": "Payment term creation failed",
+    "update_failed": "Payment term update failed",
+    "deletion_failed": "Payment term deletion failed",
+    "list_failed": "Failed to retrieve payment terms",
+    "authorization_failed": "Authorization failed for payment terms"
+  }
+}

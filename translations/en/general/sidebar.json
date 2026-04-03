@@ -51,5 +51,8 @@
     "loans_title": "Loans",
     "capital_title": "Capital",
     "capital_accounts_label": "Capital Accounts",
-    "equity_transactions_label": "Equity Transactions"
+    "equity_transactions_label": "Equity Transactions",
+
+    "payment_terms_label": "Payment Terms",
+    "payment_terms_icon": "icon-clock"
 }
