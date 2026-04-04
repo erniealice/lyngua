@@ -1,6 +1,6 @@
 {
     "product": {
-        "active_nav": "services",
+        "active_nav": "service",
         "active_sub_nav": "services-active",
         "list_url": "/app/services/list/{status}",
         "table_url": "/action/services/table/{status}",
@@ -36,6 +36,23 @@
         "option_value_edit_url": "/action/services/detail/{id}/options/{oid}/values/edit/{vid}",
         "option_value_delete_url": "/action/services/detail/{id}/options/{oid}/values/delete"
     },
+    "product_line": {
+        "active_nav": "services",
+        "active_sub_nav": "product-lines-active",
+        "dashboard_url": "/app/services/groups/list/active",
+        "list_url": "/app/services/groups/list/{status}",
+        "table_url": "/action/product-lines/table/{status}",
+        "detail_url": "/app/services/groups/detail/{id}",
+        "add_url": "/action/product-lines/add",
+        "edit_url": "/action/product-lines/edit/{id}",
+        "delete_url": "/action/product-lines/delete",
+        "bulk_delete_url": "/action/product-lines/bulk-delete",
+        "set_status_url": "/action/product-lines/set-status",
+        "bulk_set_status_url": "/action/product-lines/bulk-set-status",
+        "tab_action_url": "/action/product-lines/{id}/tab/{tab}",
+        "attachment_upload_url": "/action/product-lines/{id}/attachments/upload",
+        "attachment_delete_url": "/action/product-lines/{id}/attachments/delete"
+    },
     "inventory": {
         "product_detail_url": "/app/services/detail/{pid}/inventory/detail/{iid}",
         "product_tab_action_url": "/action/services/{pid}/inventory/{iid}/tab/{tab}"
@@ -63,7 +80,7 @@
     },
     "plan": {
         "list_url": "/app/plans/list/{status}",
-        "detail_url": "/app/plans/{id}",
+        "detail_url": "/app/plans/detail/{id}",
         "add_url": "/action/plans/add",
         "edit_url": "/action/plans/edit/{id}",
         "delete_url": "/action/plans/delete"
@@ -83,7 +100,7 @@
         "delete_url": "/action/treasury-collections/delete"
     },
     "location": {
-        "detail_url": "/app/locations/{id}"
+        "detail_url": "/app/locations/detail/{id}"
     },
     "revenue": {
         "dashboard_url": "/app/revenue/dashboard",

@@ -1,6 +1,6 @@
 {
     "product": {
-        "active_nav": "services",
+        "active_nav": "service",
         "active_sub_nav": "services-active",
         "list_url": "/app/services/list/{status}",
         "detail_url": "/app/services/detail/{id}",
