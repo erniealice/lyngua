@@ -50,6 +50,9 @@
       "paymentMethod": "Payment Method",
       "category": "Category",
       "status": "Status",
+      "autoPopulateFromBill": "Amount populated from bill",
+      "linkToBill": "Link to Bill",
+      "noBill": "— No Bill —",
       "notes": "Notes",
       "notesPlaceholder": "Additional notes...",
       "approvedBy": "Approved By"

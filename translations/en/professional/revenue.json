@@ -67,7 +67,13 @@
       "customerSearchPlaceholder": "Search clients...",
       "customerNoResults": "No clients found",
       "subscription": "Engagement",
-      "subscriptionNoResults": "No active engagements found"
+      "subscriptionNoResults": "No active engagements found",
+      "locationPlaceholder": "Select office...",
+      "locationSearchPlaceholder": "Search offices...",
+      "locationNoResults": "No offices found",
+      "revenueType": "Revenue Type",
+      "revenueTypeOneTime": "One-time",
+      "revenueTypeFromEngagement": "From Engagement"
     },
     "actions": {
       "view": "View Invoice",
@@ -141,7 +147,10 @@
       "paymentDetailsNotAvailable": "Payment details not available for this invoice.",
       "selectInventoryItem": "-- Select service item --",
       "itemDescriptionPlaceholder": "Item description",
-      "notesPlaceholder": "Optional notes about this invoice..."
+      "notesPlaceholder": "Optional notes about this invoice...",
+      "product": "Service",
+      "productNoResults": "No services found",
+      "productPlaceholder": "Search services..."
     },
     "lineItems": {
       "addItem": "Add Line Item",

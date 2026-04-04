@@ -52,5 +52,7 @@
     "outcomes_title": "Assessment",
     "criteria_label": "Standards",
     "outcome_log_label": "Case Outcomes",
-    "report_cards_label": "Assessments"
+    "report_cards_label": "Assessments",
+    "revenue_report_label": "Revenue Analysis",
+    "revenue_report_icon": "icon-bar-chart"
 }

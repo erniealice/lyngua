@@ -67,7 +67,13 @@
       "customerSearchPlaceholder": "Search customers...",
       "customerNoResults": "No customers found",
       "subscription": "Subscription",
-      "subscriptionNoResults": "No active subscriptions found"
+      "subscriptionNoResults": "No active subscriptions found",
+      "locationPlaceholder": "Select location...",
+      "locationSearchPlaceholder": "Search locations...",
+      "locationNoResults": "No locations found",
+      "revenueType": "Revenue Type",
+      "revenueTypeOneTime": "One-time",
+      "revenueTypeFromEngagement": "From Subscription"
     },
     "actions": {
       "view": "View Sale",
@@ -141,7 +147,10 @@
       "paymentDetailsNotAvailable": "Payment details not available for this sale.",
       "selectInventoryItem": "-- Select inventory item --",
       "itemDescriptionPlaceholder": "Item description",
-      "notesPlaceholder": "Optional notes about this sale..."
+      "notesPlaceholder": "Optional notes about this sale...",
+      "product": "Product",
+      "productNoResults": "No products found",
+      "productPlaceholder": "Search products..."
     },
     "lineItems": {
       "addItem": "Add Item",

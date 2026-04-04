@@ -54,5 +54,7 @@
     "equity_transactions_label": "Equity Transactions",
 
     "payment_terms_label": "Payment Terms",
-    "payment_terms_icon": "icon-clock"
+    "payment_terms_icon": "icon-clock",
+    "revenue_report_label": "Revenue Analysis",
+    "revenue_report_icon": "icon-bar-chart"
 }

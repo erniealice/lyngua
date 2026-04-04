@@ -59,7 +59,13 @@
       "customerSearchPlaceholder": "Search customers...",
       "customerNoResults": "No customers found",
       "subscription": "Subscription",
-      "subscriptionNoResults": "No active subscriptions found"
+      "subscriptionNoResults": "No active subscriptions found",
+      "locationPlaceholder": "Select branch...",
+      "locationSearchPlaceholder": "Search branches...",
+      "locationNoResults": "No branches found",
+      "revenueType": "Revenue Type",
+      "revenueTypeOneTime": "One-time",
+      "revenueTypeFromEngagement": "From Subscription"
     },
     "actions": {
       "view": "View Booking",
@@ -133,7 +139,10 @@
       "paymentDetailsNotAvailable": "Payment details not available for this booking.",
       "selectInventoryItem": "-- Select service item --",
       "itemDescriptionPlaceholder": "Item description",
-      "notesPlaceholder": "Optional notes..."
+      "notesPlaceholder": "Optional notes...",
+      "product": "Service",
+      "productNoResults": "No services found",
+      "productPlaceholder": "Search services..."
     },
     "confirm": {
       "complete": "Complete Booking",

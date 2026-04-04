@@ -141,7 +141,9 @@
         "cost_of_sales_url": "/app/financial/cost-of-sales",
         "gross_profit_url": "/app/financial/gross-profit",
         "expenses_url": "/app/financial/expenses",
-        "net_profit_url": "/app/financial/net-profit"
+        "net_profit_url": "/app/financial/net-profit",
+        "revenue_report_url": "/app/financial/revenue-report",
+        "revenue_report_export_url": "/app/financial/revenue-report/export"
     },
     "supplier": {
         "payables_aging_url": "/app/suppliers/reports/payables-aging"
