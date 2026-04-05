@@ -86,7 +86,25 @@
       "tabs": {
         "info": "Info",
         "purchaseHistory": "Booking History",
-        "attachments": "Attachments"
+        "attachments": "Attachments",
+        "statement": "Statement"
+      },
+      "statement": {
+        "date": "Date",
+        "type": "Type",
+        "reference": "Reference",
+        "description": "Description",
+        "billed": "Billed",
+        "received": "Received",
+        "balance": "Balance",
+        "total": "TOTAL",
+        "outstanding_balance": "Outstanding Balance",
+        "total_billed": "Total Billed",
+        "total_received": "Total Received",
+        "invoices": "Invoices",
+        "collections": "Collections",
+        "no_entries": "No statement entries found",
+        "no_entries_message": "There are no transactions for this period."
       },
       "name": "Name",
       "recentOrders": "Recent Bookings",

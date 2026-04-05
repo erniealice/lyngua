@@ -54,5 +54,9 @@
     "outcome_log_label": "Case Outcomes",
     "report_cards_label": "Assessments",
     "revenue_report_label": "Revenue Analysis",
-    "revenue_report_icon": "icon-bar-chart"
+    "revenue_report_icon": "icon-bar-chart",
+    "receivables_aging_report_label": "Receivables Aging",
+    "receivables_aging_report_icon": "icon-clock",
+    "collection_summary_report_label": "Collection Summary",
+    "collection_summary_report_icon": "icon-bar-chart"
 }

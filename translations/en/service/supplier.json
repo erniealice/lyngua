@@ -18,6 +18,28 @@
       "sectionContact": "Contact Person",
       "sectionFinancial": "Payment Details",
       "sectionAddress": "Address"
+    },
+    "detail": {
+      "tabs": {
+        "statementTab": "Statement"
+      },
+      "statement": {
+        "date": "Date",
+        "type": "Type",
+        "reference": "Reference",
+        "description": "Description",
+        "billed": "Billed",
+        "paid": "Paid",
+        "balance": "Balance",
+        "total": "TOTAL",
+        "outstanding_balance": "Outstanding Balance",
+        "total_billed": "Total Billed",
+        "total_paid": "Total Paid",
+        "bills": "Bills",
+        "payments": "Payments",
+        "no_entries": "No statement entries found",
+        "no_entries_message": "There are no transactions for this period."
+      }
     }
   }
 }
