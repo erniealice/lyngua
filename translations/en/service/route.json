@@ -118,7 +118,11 @@
         "receivables_aging_report_url": "/app/revenue/reports/receivables-aging",
         "receivables_aging_report_export_url": "/app/revenue/reports/receivables-aging/export",
         "collection_summary_report_url": "/app/revenue/reports/collection-summary",
-        "collection_summary_report_export_url": "/app/revenue/reports/collection-summary/export"
+        "collection_summary_report_export_url": "/app/revenue/reports/collection-summary/export",
+        "expenditure_report_url": "/app/expenses/reports/summary",
+        "expenditure_report_export_url": "/app/expenses/reports/summary/export",
+        "disbursement_report_url": "/app/cash/reports/disbursement-report",
+        "disbursement_report_export_url": "/app/cash/reports/disbursement-report/export"
     },
     "supplier": {
         "payables_aging_url": "/app/suppliers/reports/payables-aging"
