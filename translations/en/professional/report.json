@@ -66,6 +66,8 @@
     "dimensionProductLine": "Solution Line",
     "dimensionLocation": "Office",
     "dimensionLocationArea": "Region",
+    "dimensionClient": "Client",
+    "dimensionClientCategory": "Client Category",
     "summaryGrandTotal": "Grand Total",
     "summaryTransactions": "Transactions",
     "summaryAverage": "Average",

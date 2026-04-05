@@ -66,6 +66,8 @@
     "dimensionProductLine": "Service Line",
     "dimensionLocation": "Branch",
     "dimensionLocationArea": "Area",
+    "dimensionClient": "Client",
+    "dimensionClientCategory": "Client Category",
     "summaryGrandTotal": "Grand Total",
     "summaryTransactions": "Transactions",
     "summaryAverage": "Average",
