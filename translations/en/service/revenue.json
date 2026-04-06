@@ -40,6 +40,7 @@
       "notesPlaceholder": "Optional notes about this booking...",
       "active": "Active",
       "location": "Branch",
+      "sectionInfo": "Booking Information",
       "currencyPlaceholder": "PHP",
       "customerNamePlaceholder": "Customer name",
       "statusDraft": "Draft",
