@@ -2,11 +2,11 @@
   "revenue": {
     "page": {
       "heading": "Invoices",
-      "headingOngoing": "Ongoing Invoices",
+      "headingDraft": "Draft Invoices",
       "headingComplete": "Completed Invoices",
       "headingCancelled": "Cancelled Invoices",
       "caption": "Manage your invoices and billing",
-      "captionOngoing": "View and manage open invoices",
+      "captionDraft": "View and manage draft invoices",
       "captionComplete": "Review completed invoices",
       "captionCancelled": "View cancelled invoices"
     },
@@ -21,8 +21,8 @@
       "status": "Status"
     },
     "empty": {
-      "ongoingTitle": "No ongoing invoices",
-      "ongoingMessage": "Create your first invoice to get started.",
+      "draftTitle": "No draft invoices",
+      "draftMessage": "Create your first invoice to get started.",
       "completeTitle": "No completed invoices",
       "completeMessage": "Completed invoices will appear here.",
       "cancelledTitle": "No cancelled invoices",
@@ -50,7 +50,7 @@
       "selectCustomer": "Select Client",
       "currencyPlaceholder": "PHP",
       "customerNamePlaceholder": "Client name",
-      "statusOngoing": "Ongoing",
+      "statusDraft": "Draft",
       "statusComplete": "Complete",
       "statusCancelled": "Cancelled",
       "paymentMethod": "Payment Method",
@@ -82,7 +82,9 @@
       "complete": "Mark as Paid",
       "reactivate": "Reactivate Invoice",
       "downloadInvoice": "Download Invoice",
-      "sendEmail": "Send Invoice"
+      "sendEmail": "Send Invoice",
+      "cancel": "Cancel Invoice",
+      "reclassifyToDraft": "Reclassify to Draft"
     },
     "bulkActions": {
       "delete": "Delete Selected"
@@ -202,6 +204,10 @@
       "completeMessage": "Are you sure you want to mark invoice %s as paid?",
       "reactivate": "Reactivate Invoice",
       "reactivateMessage": "Are you sure you want to reactivate invoice %s?",
+      "cancel": "Cancel Invoice",
+      "cancelMessage": "Are you sure you want to cancel invoice %s?",
+      "reclassifyToDraft": "Reclassify to Draft",
+      "reclassifyToDraftMessage": "Are you sure you want to move invoice %s back to draft? This is only possible if no treasury collection is linked.",
       "bulkComplete": "Mark as Paid",
       "bulkCompleteMessage": "Are you sure you want to mark the selected invoices as paid?",
       "bulkReactivate": "Reactivate Invoices",
@@ -265,7 +271,7 @@
       "stockDeducted": "Availability updated successfully",
       "serialsReserved": "Serial numbers reserved",
       "serialsReleased": "Serial numbers released",
-      "statusOngoing": "Ongoing",
+      "statusDraft": "Draft",
       "statusComplete": "Paid",
       "statusCancelled": "Cancelled"
     }

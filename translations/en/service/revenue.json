@@ -2,11 +2,11 @@
   "revenue": {
     "page": {
       "heading": "Bookings",
-      "headingOngoing": "Ongoing Bookings",
+      "headingDraft": "Draft Bookings",
       "headingComplete": "Completed Bookings",
       "headingCancelled": "Cancelled Bookings",
       "caption": "Manage your bookings and invoices",
-      "captionOngoing": "View and manage open bookings",
+      "captionDraft": "View and manage draft bookings",
       "captionComplete": "Review completed bookings",
       "captionCancelled": "View cancelled bookings"
     },
@@ -21,8 +21,8 @@
       "status": "Status"
     },
     "empty": {
-      "ongoingTitle": "No ongoing bookings",
-      "ongoingMessage": "Create your first booking to get started.",
+      "draftTitle": "No draft bookings",
+      "draftMessage": "Create your first booking to get started.",
       "completeTitle": "No completed bookings",
       "completeMessage": "Completed bookings will appear here.",
       "cancelledTitle": "No cancelled bookings",
@@ -42,7 +42,7 @@
       "location": "Branch",
       "currencyPlaceholder": "PHP",
       "customerNamePlaceholder": "Customer name",
-      "statusOngoing": "Ongoing",
+      "statusDraft": "Draft",
       "statusComplete": "Complete",
       "statusCancelled": "Cancelled",
       "paymentMethod": "Payment Method",
@@ -74,7 +74,9 @@
       "complete": "Complete Booking",
       "reactivate": "Reactivate Booking",
       "downloadInvoice": "Download Invoice",
-      "sendEmail": "Send Email"
+      "sendEmail": "Send Email",
+      "cancel": "Cancel Booking",
+      "reclassifyToDraft": "Reclassify to Draft"
     },
     "bulkActions": {
       "delete": "Delete Selected"
@@ -149,6 +151,10 @@
       "completeMessage": "Are you sure you want to complete this booking? This action cannot be undone.",
       "reactivate": "Reactivate Booking",
       "reactivateMessage": "Are you sure you want to reactivate this booking?",
+      "cancel": "Cancel Booking",
+      "cancelMessage": "Are you sure you want to cancel booking %s?",
+      "reclassifyToDraft": "Reclassify to Draft",
+      "reclassifyToDraftMessage": "Are you sure you want to move booking %s back to draft?",
       "bulkComplete": "Complete Bookings",
       "bulkCompleteMessage": "Are you sure you want to complete the selected bookings? This action cannot be undone.",
       "bulkReactivate": "Reactivate Bookings",

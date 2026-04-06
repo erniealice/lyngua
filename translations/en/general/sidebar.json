@@ -36,8 +36,8 @@
     "report_cards_label": "Outcome Reports",
 
     "sales_title": "Sales",
-    "sales_ongoing_label": "Ongoing",
-    "sales_complete_label": "Completed",
+    "revenue_draft_label": "Draft",
+    "revenue_complete_label": "Completed",
     "sales_summary_label": "Sales Summary",
     "price_lists_title": "Price Lists",
     "plans_title": "Plans",

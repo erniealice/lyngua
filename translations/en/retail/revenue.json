@@ -2,11 +2,11 @@
   "revenue": {
     "page": {
       "heading": "Sales",
-      "headingOngoing": "Ongoing Sales",
+      "headingDraft": "Draft Sales",
       "headingComplete": "Complete Sales",
       "headingCancelled": "Cancelled Sales",
       "caption": "Manage your sales and invoices",
-      "captionOngoing": "View and manage open sales",
+      "captionDraft": "View and manage draft sales",
       "captionComplete": "Review completed transactions",
       "captionCancelled": "View cancelled orders"
     },
@@ -21,8 +21,8 @@
       "status": "Status"
     },
     "empty": {
-      "ongoingTitle": "No ongoing sales",
-      "ongoingMessage": "Create your first sale to get started.",
+      "draftTitle": "No draft sales",
+      "draftMessage": "Create your first sale to get started.",
       "completeTitle": "No complete sales",
       "completeMessage": "Completed transactions will appear here.",
       "cancelledTitle": "No cancelled sales",
@@ -50,7 +50,7 @@
       "selectCustomer": "Select Customer",
       "currencyPlaceholder": "PHP",
       "customerNamePlaceholder": "Customer name",
-      "statusOngoing": "Ongoing",
+      "statusDraft": "Draft",
       "statusComplete": "Complete",
       "statusCancelled": "Cancelled",
       "paymentMethod": "Payment Method",
@@ -82,7 +82,9 @@
       "complete": "Complete Sale",
       "reactivate": "Reactivate Sale",
       "downloadInvoice": "Download Invoice",
-      "sendEmail": "Send Email"
+      "sendEmail": "Send Email",
+      "cancel": "Cancel Sale",
+      "reclassifyToDraft": "Reclassify to Draft"
     },
     "bulkActions": {
       "delete": "Delete Selected"
@@ -202,6 +204,10 @@
       "completeMessage": "Are you sure you want to complete this sale? This action cannot be undone.",
       "reactivate": "Reactivate Sale",
       "reactivateMessage": "Are you sure you want to reactivate this sale?",
+      "cancel": "Cancel Sale",
+      "cancelMessage": "Are you sure you want to cancel sale %s?",
+      "reclassifyToDraft": "Reclassify to Draft",
+      "reclassifyToDraftMessage": "Are you sure you want to move sale %s back to draft?",
       "bulkComplete": "Complete Sales",
       "bulkCompleteMessage": "Are you sure you want to complete the selected sales? This action cannot be undone.",
       "bulkReactivate": "Reactivate Sales",
@@ -265,7 +271,7 @@
       "stockDeducted": "Stock deducted successfully",
       "serialsReserved": "Serial numbers reserved",
       "serialsReleased": "Serial numbers released",
-      "statusOngoing": "Ongoing",
+      "statusDraft": "Draft",
       "statusComplete": "Complete",
       "statusCancelled": "Cancelled"
     }

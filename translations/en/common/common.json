@@ -203,9 +203,10 @@
     "exportExcel": "Export as Excel",
     "density": {
       "title": "Row density",
+      "dense": "Dense",
+      "compact": "Compact",
       "default": "Default",
-      "comfortable": "Comfortable",
-      "compact": "Compact"
+      "comfortable": "Comfortable"
     },
     "selectAll": "Select all",
     "selectRow": "Select row",
