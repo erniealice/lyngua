@@ -225,6 +225,14 @@
         "no_entries_message": "There are no transactions for this period."
       }
     },
+    "tagForm": {
+      "tagName": "Tag Name",
+      "code": "Code",
+      "codeAutoPlaceholder": "auto-generated",
+      "description": "Description",
+      "descriptionPlaceholder": "Enter a description...",
+      "active": "Active"
+    },
     "settings": {
       "userDivisions": {
         "pageTitle": "User Divisions",

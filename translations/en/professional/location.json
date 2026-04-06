@@ -29,6 +29,8 @@
     "description": "Description",
     "descriptionPlaceholder": "e.g. Primary company location",
     "timezone": "Timezone",
+    "area": "Area",
+    "areaPlaceholder": "Select area...",
     "active": "Active"
   },
   "actions": {
