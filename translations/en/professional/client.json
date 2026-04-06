@@ -41,6 +41,8 @@
     "columns": {
       "clientName": "Client Name",
       "representative": "Representative",
+      "category": "Category",
+      "paymentTerm": "Payment Term",
       "townSuburb": "Town / Suburb",
       "state": "State",
       "country": "Country",

@@ -16,6 +16,8 @@
     "columns": {
       "clientName": "Customer Name",
       "representative": "Representative",
+      "category": "Category",
+      "paymentTerm": "Payment Term",
       "dateCreated": "Date Created"
     },
     "empty": {
