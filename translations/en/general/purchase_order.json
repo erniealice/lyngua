@@ -125,7 +125,8 @@
     },
     "detail": {
       "pageTitle": "Purchase Order Details",
-      "supplierInfo": "Supplier Information",
+      "title": "Purchase Order Detail",
+      "supplierInfo": "Purchase Order Information",
       "supplier": "Supplier",
       "location": "Location",
       "orderDate": "Order Date",
@@ -160,7 +161,11 @@
       "auditAction": "Action",
       "auditUser": "User",
       "auditEmptyTitle": "No audit trail entries",
-      "auditEmptyMessage": "Activity logs for this purchase order will appear here."
+      "auditEmptyMessage": "Activity logs for this purchase order will appear here.",
+      "total": "Total",
+      "addLineItem": "Add Line Item",
+      "noLineItems": "No line items found.",
+      "confirmReceiptBtn": "Confirm Receipt"
     },
     "lineItems": {
       "addItem": "Add Line Item",
@@ -183,6 +188,8 @@
       "quantityReceived": "Qty Received",
       "removeItem": "Remove Line Item",
       "removeLineItem": "Remove Line Item",
+      "save": "Save",
+      "cancel": "Cancel",
       "selectItem": "Select Item",
       "totalPrice": "Total",
       "typeExpense": "Expense",
@@ -207,7 +214,15 @@
       "receivingLocation": "Receiving Location",
       "serviceRendered": "Service Rendered",
       "success": "Receipt confirmed successfully",
-      "title": "Confirm Receipt"
+      "title": "Confirm Receipt",
+      "allReceived": "All line items have been fully received.",
+      "description": "Description",
+      "type": "Type",
+      "ordered": "Ordered",
+      "received": "Received",
+      "remaining": "Remaining",
+      "confirmButton": "Confirm Receipt",
+      "cancel": "Cancel"
     },
     "reports": {
       "byStatus": "By Status",

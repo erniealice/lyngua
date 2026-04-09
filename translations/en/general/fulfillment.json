@@ -1,0 +1,61 @@
+{
+  "fulfillment": {
+    "page_title": "Fulfillment",
+    "app_label": "Fulfillment",
+    "title": "Fulfillments",
+    "status": {
+      "pending": "Pending",
+      "ready": "Ready",
+      "in_transit": "In Transit",
+      "delivered": "Delivered",
+      "partially_delivered": "Partially Delivered",
+      "failed": "Failed",
+      "cancelled": "Cancelled"
+    },
+    "type": {
+      "physical": "Physical",
+      "service": "Service",
+      "digital": "Digital",
+      "make_to_order": "Make to Order"
+    },
+    "columns": {
+      "fulfillment_method": "Method",
+      "status": "Status",
+      "supplier_name": "Supplier",
+      "scheduled_at": "Scheduled",
+      "item_count": "Items",
+      "notes": "Notes"
+    },
+    "tabs": {
+      "info": "Information",
+      "items": "Items",
+      "history": "History",
+      "returns": "Returns"
+    },
+    "actions": {
+      "mark_ready": "Mark Ready",
+      "dispatch": "Dispatch",
+      "deliver": "Deliver",
+      "deliver_partial": "Partial Delivery",
+      "mark_failed": "Mark Failed",
+      "cancel": "Cancel",
+      "retry": "Retry"
+    },
+    "buttons": {
+      "add_fulfillment": "Add Fulfillment",
+      "edit": "Edit",
+      "delete": "Delete",
+      "transition": "Update Status",
+      "return": "Create Return"
+    },
+    "empty": {
+      "title": "No fulfillments found",
+      "message": "No fulfillments to display."
+    },
+    "errors": {
+      "permission_denied": "You do not have permission to perform this action",
+      "load_failed": "Failed to load fulfillment data",
+      "transition_failed": "Failed to update fulfillment status"
+    }
+  }
+}

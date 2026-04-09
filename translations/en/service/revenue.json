@@ -209,6 +209,6 @@
       "emptyMessage": "Upload a .docx template to customize your invoice layout.",
       "uploadSuccess": "Template uploaded successfully",
       "deleteConfirm": "Are you sure you want to delete this template?"
-    },
+    }
   }
 }

@@ -1,0 +1,86 @@
+{
+  "job_activity": {
+    "page": {
+      "heading": "Activities",
+      "caption": "Cross-job timesheet and activity log"
+    },
+    "buttons": {
+      "addActivity": "Add Activity"
+    },
+    "columns": {
+      "date": "Date",
+      "job": "Job",
+      "entryType": "Type",
+      "description": "Description",
+      "quantity": "Hrs/Qty",
+      "amount": "Amount",
+      "status": "Status"
+    },
+    "empty": {
+      "title": "No activities found",
+      "message": "No activity entries to display."
+    },
+    "form": {
+      "job": "Job",
+      "task": "Task",
+      "entryType": "Entry Type",
+      "description": "Description",
+      "billableStatus": "Billable Status",
+      "hours": "Hours",
+      "hourlyRate": "Hourly Rate",
+      "product": "Product",
+      "quantity": "Quantity",
+      "unitCost": "Unit Cost",
+      "amount": "Amount",
+      "category": "Category"
+    },
+    "actions": {
+      "view": "View Activity",
+      "edit": "Edit Activity",
+      "delete": "Delete Activity",
+      "submit": "Submit for Approval",
+      "approve": "Approve",
+      "reject": "Reject"
+    },
+    "detail": {
+      "pageTitle": "Activity Details",
+      "titlePrefix": "Activity ",
+      "job": "Job",
+      "entryType": "Entry Type",
+      "entryDate": "Date",
+      "description": "Description",
+      "quantity": "Quantity",
+      "unitCost": "Unit Cost",
+      "totalCost": "Total Cost",
+      "currency": "Currency",
+      "billableStatus": "Billable Status",
+      "approvalStatus": "Approval Status",
+      "postingStatus": "Posting Status",
+      "createdDate": "Created",
+      "staff": "Staff",
+      "hours": "Hours",
+      "rateType": "Rate Type",
+      "timeStart": "Start Time",
+      "timeEnd": "End Time",
+      "product": "Product",
+      "unitOfMeasure": "Unit of Measure",
+      "lotNumber": "Lot Number",
+      "location": "Location",
+      "expenseCategory": "Expense Category",
+      "vendor": "Vendor",
+      "receipt": "Receipt",
+      "reimbursable": "Reimbursable"
+    },
+    "status": {
+      "draft": "Draft",
+      "submitted": "Submitted",
+      "approved": "Approved",
+      "rejected": "Rejected"
+    },
+    "errors": {
+      "permissionDenied": "You do not have permission to perform this action",
+      "notFound": "Activity not found",
+      "idRequired": "Activity ID is required"
+    }
+  }
+}

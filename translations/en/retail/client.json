@@ -199,7 +199,8 @@
         "info": "Info",
         "representative": "Representative",
         "engagements": "Engagements",
-        "history": "History"
+        "history": "History",
+        "statement": "Statement"
       },
       "name": "Name",
       "recentOrders": "Recent Orders",
@@ -207,7 +208,14 @@
       "colReference": "Reference",
       "colAmount": "Amount",
       "colStatus": "Status",
-      "purchaseHistoryEmpty": "No purchase history available."
+      "purchaseHistoryEmpty": "No purchase history available.",
+      "emptyEngagements": "No engagements found for this client.",
+      "outstandingBalance": "Outstanding Balance",
+      "totalBilled": "Total Billed",
+      "totalReceived": "Total Received",
+      "invoices": "Invoices",
+      "emptyStatementTitle": "No Statement Entries",
+      "emptyStatementMessage": "There are no transactions for this client."
     },
     "dashboard": {
       "totalClients": "Total Customers",

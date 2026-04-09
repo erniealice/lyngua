@@ -1,0 +1,65 @@
+{
+  "job_template": {
+    "page": {
+      "heading": "Job Templates",
+      "headingActive": "Active Job Templates",
+      "headingInactive": "Inactive Job Templates",
+      "caption": "Manage reusable execution plans",
+      "captionActive": "Manage your active job templates",
+      "captionInactive": "View inactive or archived job templates"
+    },
+    "buttons": {
+      "addJobTemplate": "Add Template"
+    },
+    "columns": {
+      "name": "Name",
+      "description": "Description",
+      "status": "Status"
+    },
+    "empty": {
+      "title": "No job templates found",
+      "message": "No job templates to display.",
+      "activeTitle": "No active job templates",
+      "activeMessage": "Create your first job template to get started.",
+      "inactiveTitle": "No inactive job templates",
+      "inactiveMessage": "Deactivated templates will appear here."
+    },
+    "form": {
+      "name": "Template Name",
+      "namePlaceholder": "Enter template name",
+      "description": "Description",
+      "descriptionPlaceholder": "Enter template description...",
+      "active": "Active"
+    },
+    "actions": {
+      "view": "View Template",
+      "edit": "Edit Template",
+      "delete": "Delete Template"
+    },
+    "detail": {
+      "pageTitle": "Job Template Details",
+      "name": "Name",
+      "description": "Description",
+      "status": "Status",
+      "createdDate": "Created",
+      "modifiedDate": "Last Modified"
+    },
+    "tabs": {
+      "info": "Information",
+      "phases": "Phases",
+      "attachments": "Attachments",
+      "auditTrail": "Audit Trail"
+    },
+    "confirm": {
+      "delete": "Delete Template",
+      "deleteMessage": "Are you sure you want to delete \"%s\"? This action cannot be undone."
+    },
+    "errors": {
+      "permissionDenied": "You do not have permission to perform this action",
+      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
+      "notFound": "Job template not found",
+      "idRequired": "Job template ID is required",
+      "noPermission": "No permission"
+    }
+  }
+}

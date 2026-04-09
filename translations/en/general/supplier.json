@@ -100,7 +100,22 @@
       "attachmentsTab": "Attachments",
       "statementTab": "Statement",
       "daysSuffix": "days",
-      "website": "Website"
+      "website": "Website",
+      "purchaseOrders": {
+        "title": "Purchase Orders",
+        "colPONumber": "PO Number",
+        "colOrderDate": "Order Date",
+        "colAmount": "Amount",
+        "colCurrency": "Currency",
+        "colStatus": "Status",
+        "emptyPO": "No purchase orders found for this supplier."
+      },
+      "outstandingBalance": "Outstanding Balance",
+      "totalBilled": "Total Billed",
+      "totalPaid": "Total Paid",
+      "bills": "Bills",
+      "emptyStatementTitle": "No Statement Entries",
+      "emptyStatementMessage": "There are no transactions for this supplier."
     },
     "actions": {
       "view": "View",

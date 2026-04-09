@@ -1,0 +1,88 @@
+{
+  "job": {
+    "page": {
+      "heading": "Jobs",
+      "caption": "Manage operational jobs",
+      "headingDraft": "Draft Jobs",
+      "captionDraft": "Review jobs that are still being prepared",
+      "headingActive": "Active Jobs",
+      "captionActive": "Track work currently in progress",
+      "headingCompleted": "Completed Jobs",
+      "captionCompleted": "Review jobs that have been completed",
+      "headingClosed": "Closed Jobs",
+      "captionClosed": "View archived or closed jobs"
+    },
+    "buttons": {
+      "addJob": "Add Job"
+    },
+    "columns": {
+      "name": "Name",
+      "client": "Client",
+      "status": "Status",
+      "created": "Created",
+      "location": "Location"
+    },
+    "empty": {
+      "title": "No jobs found",
+      "message": "No jobs to display.",
+      "phasesTitle": "No phases found",
+      "phasesMessage": "No phases have been added to this job.",
+      "activitiesTitle": "No activities found",
+      "activitiesMessage": "No activities have been logged for this job.",
+      "settlementTitle": "No settlement entries",
+      "settlementMessage": "No settlement entries to display.",
+      "outcomesTitle": "No outcomes found",
+      "outcomesMessage": "No outcome records for this job."
+    },
+    "form": {
+      "namePlaceholder": "Enter job name",
+      "clientPlaceholder": "Select client",
+      "locationPlaceholder": "Select location"
+    },
+    "actions": {
+      "view": "View Job",
+      "edit": "Edit Job",
+      "delete": "Delete Job"
+    },
+    "detail": {
+      "pageTitle": "Job Details",
+      "titlePrefix": "Job ",
+      "sectionInfo": "Information",
+      "approval": "Approval",
+      "description": "Description",
+      "quantity": "Quantity",
+      "unitCost": "Unit Cost",
+      "totalCost": "Total Cost",
+      "entryDate": "Date",
+      "entryType": "Entry Type",
+      "phaseName": "Phase",
+      "phaseOrder": "Order",
+      "phaseStatus": "Status",
+      "taskName": "Task",
+      "taskOrder": "Task Order",
+      "taskStatus": "Task Status",
+      "assignedTo": "Assigned To",
+      "targetType": "Target Type",
+      "targetId": "Target ID",
+      "allocatedAmount": "Allocated Amount",
+      "settlementDate": "Settlement Date",
+      "settlementStatus": "Settlement Status"
+    },
+    "tabs": {
+      "info": "Information",
+      "phases": "Phases",
+      "activities": "Activities",
+      "settlement": "Settlement",
+      "outcomes": "Outcomes",
+      "attachments": "Attachments"
+    },
+    "confirm": {
+      "delete": "Delete Job",
+      "deleteMessage": "Are you sure you want to delete \"%s\"? This action cannot be undone."
+    },
+    "errors": {
+      "notFound": "Job not found",
+      "permissionDenied": "You do not have permission to perform this action"
+    }
+  }
+}

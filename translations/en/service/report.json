@@ -288,5 +288,56 @@
     "clear": "Clear",
     "emptyTitle": "No Collections Found",
     "emptyMessage": "There are no treasury collections for the selected period and filters."
+  },
+  "incomeStatement": {
+    "title": "Income Statement",
+    "subtitle": "Profit and loss for the selected period",
+    "sections": {
+      "revenue": "REVENUE",
+      "costOfSales": "COST OF SALES",
+      "grossProfit": "GROSS PROFIT",
+      "operatingExpenses": "OPERATING EXPENSES",
+      "sellingExpenses": "Selling Expenses",
+      "generalAdmin": "General & Administrative Expenses",
+      "operatingIncome": "OPERATING INCOME",
+      "otherExpenses": "OTHER EXPENSES",
+      "netIncome": "NET INCOME"
+    }
+  },
+  "balanceSheet": {
+    "title": "Balance Sheet",
+    "subtitle": "Financial position as of the selected date",
+    "sections": {
+      "assets": "ASSETS",
+      "currentAssets": "Current Assets",
+      "nonCurrentAssets": "Non-Current Assets",
+      "liabilities": "LIABILITIES",
+      "currentLiabilities": "Current Liabilities",
+      "nonCurrentLiabilities": "Non-Current Liabilities",
+      "equity": "EQUITY"
+    }
+  },
+  "cashFlow": {
+    "title": "Cash Flow Statement",
+    "subtitle": "Cash inflows and outflows for the selected period",
+    "sections": {
+      "operatingActivities": "OPERATING ACTIVITIES",
+      "investingActivities": "INVESTING ACTIVITIES",
+      "financingActivities": "FINANCING ACTIVITIES",
+      "netCashOperating": "Net Cash from Operating Activities",
+      "netCashInvesting": "Net Cash used in Investing Activities",
+      "netCashFinancing": "Net Cash used in Financing Activities"
+    }
+  },
+  "equityChanges": {
+    "title": "Statement of Changes in Equity",
+    "subtitle": "Movement in equity accounts for the selected period"
+  },
+  "trialBalance": {
+    "title": "Trial Balance",
+    "subtitle": "Verify that total debits equal total credits",
+    "totals": "TOTALS",
+    "emptyTitle": "No accounts with balances",
+    "emptyMessage": "No accounts have non-zero balances as of the selected date."
   }
 }

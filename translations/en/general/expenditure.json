@@ -160,7 +160,24 @@
       "auditAction": "Action",
       "auditUser": "User",
       "auditEmptyTitle": "No audit trail entries",
-      "auditEmptyMessage": "Activity logs for this expenditure will appear here."
+      "auditEmptyMessage": "Activity logs for this expenditure will appear here.",
+      "title": "Expense Detail",
+      "infoSection": "Expense Information",
+      "name": "Name",
+      "paymentSummary": "Payment Summary",
+      "totalAmount": "Total Amount",
+      "paid": "Paid",
+      "outstanding": "Outstanding",
+      "paymentStatus": "Payment Status",
+      "updateStatus": "Update Status",
+      "saveStatus": "Save Status",
+      "payment": "Payment",
+      "pay": "Pay",
+      "addItem": "Add Item",
+      "emptyTitle": "No line items",
+      "emptyMessage": "Add line items to this expense.",
+      "tabDetails": "Details",
+      "tabPayments": "Payments"
     },
     "lineItems": {
       "addItem": "Add Item",
@@ -192,6 +209,54 @@
       "statusPartial": "Partial",
       "statusPaid": "Paid",
       "statusOverpaid": "Overpaid"
+    },
+    "paymentMethod": {
+      "cash": "Cash",
+      "bankTransfer": "Bank Transfer",
+      "check": "Check",
+      "gcash": "GCash",
+      "other": "Other"
+    },
+    "disbursementCategory": {
+      "supplierPayment": "Supplier Payment",
+      "payroll": "Payroll",
+      "rent": "Rent",
+      "utilities": "Utilities",
+      "other": "Other"
+    },
+    "schedule": {
+      "scheduled": "Scheduled",
+      "paid": "Paid",
+      "remaining": "Remaining",
+      "dueDate": "Due Date",
+      "amountDue": "Amount Due",
+      "paidAmount": "Paid Amount",
+      "paidDate": "Paid Date",
+      "reference": "Reference",
+      "emptyTitle": "No payment schedule",
+      "emptyMessage": "No disbursement schedule has been set up for this expense."
+    },
+    "lineItemForm": {
+      "editTitle": "Edit Line Item",
+      "description": "Description",
+      "descriptionPlaceholder": "e.g. Office supplies",
+      "quantity": "Quantity",
+      "unitPrice": "Unit Price",
+      "notes": "Notes",
+      "save": "Save",
+      "cancel": "Cancel"
+    },
+    "disbursementForm": {
+      "reference": "Reference",
+      "referencePlaceholder": "e.g. DIS-2026-001",
+      "payee": "Payee",
+      "amount": "Amount",
+      "currency": "Currency",
+      "currencyPlaceholder": "PHP",
+      "paymentMethod": "Payment Method",
+      "category": "Category",
+      "approvedBy": "Approved By",
+      "approverPlaceholder": "Approver name"
     },
     "statusMessages": {
       "approveSuccess": "Expenditure approved successfully",

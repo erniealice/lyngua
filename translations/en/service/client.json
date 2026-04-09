@@ -114,7 +114,14 @@
       "colReference": "Reference",
       "colAmount": "Amount",
       "colStatus": "Status",
-      "purchaseHistoryEmpty": "No booking history available."
+      "purchaseHistoryEmpty": "No booking history available.",
+      "emptyEngagements": "No engagements found for this client.",
+      "outstandingBalance": "Outstanding Balance",
+      "totalBilled": "Total Billed",
+      "totalReceived": "Total Received",
+      "invoices": "Invoices",
+      "emptyStatementTitle": "No Statement Entries",
+      "emptyStatementMessage": "There are no transactions for this client."
     },
     "bulkActions": {
       "setAsInactive": "Set As Inactive"

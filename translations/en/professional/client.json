@@ -202,6 +202,13 @@
       "colAmount": "Amount",
       "colStatus": "Status",
       "purchaseHistoryEmpty": "No purchase history for this client.",
+      "emptyEngagements": "No engagements found for this client.",
+      "outstandingBalance": "Outstanding Balance",
+      "totalBilled": "Total Billed",
+      "totalReceived": "Total Received",
+      "invoices": "Invoices",
+      "emptyStatementTitle": "No Statement Entries",
+      "emptyStatementMessage": "There are no transactions for this client.",
       "tabs": {
         "info": "Info",
         "representative": "Representative",
