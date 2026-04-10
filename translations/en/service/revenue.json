@@ -180,7 +180,7 @@
     },
     "dashboard": {
       "title": "Bookings Dashboard",
-      "totalSales": "Total Bookings",
+      "totalRevenue": "Total Bookings",
       "revenue": "Revenue",
       "completed": "Completed",
       "active": "Active",
@@ -188,12 +188,12 @@
       "week": "Week",
       "month": "Month",
       "year": "Year",
-      "recentSales": "Recent Bookings",
+      "recentRevenue": "Recent Bookings",
       "viewAll": "View All",
-      "newSaleCreated": "New Booking Created",
-      "saleCompleted": "Booking Completed",
-      "saleUpdated": "Booking Updated",
-      "saleCancelled": "Booking Cancelled"
+      "newRevenueCreated": "New Booking Created",
+      "revenueCompleted": "Booking Completed",
+      "revenueUpdated": "Booking Updated",
+      "revenueCancelled": "Booking Cancelled"
     },
     "settings": {
       "pageTitle": "Invoice Templates",

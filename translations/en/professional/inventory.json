@@ -156,7 +156,7 @@
       "serialStatus": "Status",
       "warrantyEnd": "End Date",
       "purchaseOrder": "Contract ID",
-      "saleReference": "Project Reference",
+      "revenueReference": "Project Reference",
       "totalUnits": "Total Hours",
       "availableUnits": "Available",
       "soldUnits": "Allocated",

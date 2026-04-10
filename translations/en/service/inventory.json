@@ -156,7 +156,7 @@
       "serialStatus": "Status",
       "warrantyEnd": "Warranty Expires",
       "purchaseOrder": "Purchase Order",
-      "saleReference": "Booking Reference",
+      "revenueReference": "Booking Reference",
       "totalUnits": "Total Slots",
       "availableUnits": "Available",
       "soldUnits": "Booked",

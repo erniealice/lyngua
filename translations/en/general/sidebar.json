@@ -13,7 +13,7 @@
     "locations_app_label": "Locations",
     "assets_app_label": "Assets",
     "suppliers_app_label": "Suppliers",
-    "sales_app_label": "Sales",
+    "revenue_app_label": "Sales",
     "purchases_app_label": "Purchases",
     "expenses_app_label": "Expenses",
     "cash_app_label": "Cash",
@@ -35,10 +35,10 @@
     "outcome_log_label": "Outcome Log",
     "report_cards_label": "Outcome Reports",
 
-    "sales_title": "Sales",
+    "revenue_title": "Sales",
     "revenue_draft_label": "Draft",
     "revenue_complete_label": "Completed",
-    "sales_summary_label": "Sales Summary",
+    "revenue_summary_label": "Sales Summary",
     "price_lists_title": "Price Lists",
     "plans_title": "Plans",
 

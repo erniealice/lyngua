@@ -232,7 +232,7 @@
     },
     "dashboard": {
       "title": "Invoices Dashboard",
-      "totalSales": "Total Invoices",
+      "totalRevenue": "Total Invoices",
       "revenue": "Revenue",
       "completed": "Paid",
       "active": "Outstanding",
@@ -240,12 +240,12 @@
       "week": "Week",
       "month": "Month",
       "year": "Year",
-      "recentSales": "Recent Invoices",
+      "recentRevenue": "Recent Invoices",
       "viewAll": "View All",
-      "newSaleCreated": "New Invoice Created",
-      "saleCompleted": "Invoice Paid",
-      "saleUpdated": "Invoice Updated",
-      "saleCancelled": "Invoice Cancelled"
+      "newRevenueCreated": "New Invoice Created",
+      "revenueCompleted": "Invoice Paid",
+      "revenueUpdated": "Invoice Updated",
+      "revenueCancelled": "Invoice Cancelled"
     },
     "settings": {
       "pageTitle": "Invoice Templates",

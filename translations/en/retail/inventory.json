@@ -156,7 +156,7 @@
       "serialStatus": "Status",
       "warrantyEnd": "Warranty Expires",
       "purchaseOrder": "Purchase Order",
-      "saleReference": "Sale Reference",
+      "revenueReference": "Sale Reference",
       "totalUnits": "Total Units",
       "availableUnits": "Available",
       "soldUnits": "Sold",
