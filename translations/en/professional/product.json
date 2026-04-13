@@ -14,6 +14,7 @@
     "columns": {
       "name": "Service Name",
       "description": "Description",
+      "line": "Service Group",
       "price": "Price",
       "status": "Status"
     },
@@ -30,6 +31,8 @@
       "price": "Price",
       "currency": "Currency",
       "active": "Active",
+      "line": "Service Group",
+      "linePlaceholder": "Select a service group",
       "pricePlaceholder": "Leave empty to use base price",
       "selectOption": "Select",
       "initialValues": "Initial Values",

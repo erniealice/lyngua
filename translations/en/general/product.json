@@ -1,5 +1,12 @@
 {
   "product": {
+    "columns": {
+      "line": "Line"
+    },
+    "form": {
+      "line": "Line",
+      "linePlaceholder": "Select a line"
+    },
     "actions": {
       "activate": "Activate",
       "deactivate": "Deactivate",

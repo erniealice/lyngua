@@ -37,8 +37,8 @@
         "option_value_delete_url": "/action/service/detail/{id}/options/{oid}/values/delete"
     },
     "product_line": {
-        "active_nav": "services",
-        "active_sub_nav": "product-lines-active",
+        "active_nav": "service",
+        "active_sub_nav": "product-lines",
         "dashboard_url": "/app/services/groups/list/active",
         "list_url": "/app/services/groups/list/{status}",
         "table_url": "/action/product-line/table/{status}",
