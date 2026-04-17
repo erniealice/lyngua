@@ -18,6 +18,7 @@
       "supplierType": "Type",
       "internalId": "Internal ID",
       "status": "Status",
+      "category": "Category",
       "paymentTerms": "Payment Terms",
       "contactName": "Contact Name",
       "dateCreated": "Date Created"
@@ -124,6 +125,19 @@
       "activate": "Activate",
       "block": "Block",
       "setOnHold": "Set On Hold"
+    },
+    "dashboard": {
+      "totalSuppliers": "Total Suppliers",
+      "active": "Active",
+      "blocked": "Blocked",
+      "onHold": "On Hold",
+      "supplierActivity": "Supplier Activity",
+      "topSuppliers": "Top Suppliers",
+      "filterWeek": "Week",
+      "filterMonth": "Month",
+      "filterYear": "Year",
+      "recentActivity": "Recent Activity",
+      "viewAll": "View All"
     }
   }
 }

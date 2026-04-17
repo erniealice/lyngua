@@ -36,6 +36,21 @@
         "option_value_edit_url": "/action/service/detail/{id}/options/{oid}/values/edit/{vid}",
         "option_value_delete_url": "/action/service/detail/{id}/options/{oid}/values/delete"
     },
+    "product_inventory": {
+        "active_nav": "inventory",
+        "active_sub_nav": "masterlist",
+        "list_url": "/app/inventory/products/list/{status}",
+        "dashboard_url": "/app/inventory/products/list/active",
+        "detail_url": "/app/inventory/products/detail/{id}",
+        "table_url": "/action/inventory-product/table/{status}",
+        "add_url": "/action/inventory-product/add",
+        "edit_url": "/action/inventory-product/edit/{id}",
+        "delete_url": "/action/inventory-product/delete",
+        "bulk_delete_url": "/action/inventory-product/bulk-delete",
+        "set_status_url": "/action/inventory-product/set-status",
+        "bulk_set_status_url": "/action/inventory-product/bulk-set-status",
+        "tab_action_url": "/action/inventory-product/detail/{id}/tab/{tab}"
+    },
     "product_line": {
         "active_nav": "service",
         "active_sub_nav": "product-lines",
@@ -79,11 +94,18 @@
         "bulk_delete_url": "/action/client/tags/bulk-delete"
     },
     "plan": {
-        "list_url": "/app/plans/list/{status}",
-        "detail_url": "/app/plans/detail/{id}",
-        "add_url": "/action/plan/add",
-        "edit_url": "/action/plan/edit/{id}",
-        "delete_url": "/action/plan/delete"
+        "active_nav": "service",
+        "active_sub_nav": "plans-active",
+        "list_url": "/app/services/packages/list/{status}",
+        "detail_url": "/app/services/packages/detail/{id}"
+    },
+    "price_schedule": {
+        "active_nav": "service",
+        "active_sub_nav": "price-schedules-active",
+        "dashboard_url": "/app/services/rate-cards/dashboard",
+        "list_url": "/app/services/rate-cards/list/{status}",
+        "detail_url": "/app/services/rate-cards/detail/{id}",
+        "plan_detail_url": "/app/services/rate-cards/detail/{id}/plan/{ppid}"
     },
     "subscription": {
         "list_url": "/app/subscriptions/list/{status}",
@@ -165,18 +187,18 @@
         "depreciation_policies_url": "/app/assets/settings/depreciation-policies"
     },
     "job": {
-        "list_url": "/app/matters/list/{status}",
-        "detail_url": "/app/matters/detail/{id}",
+        "list_url": "/app/practice/list/{status}",
+        "detail_url": "/app/practice/detail/{id}",
         "add_url": "/action/matter/add",
         "edit_url": "/action/matter/edit/{id}",
         "delete_url": "/action/matter/delete"
     },
     "job_template": {
-        "list_url": "/app/matter-sops/list/{status}",
-        "detail_url": "/app/matter-sops/detail/{id}"
+        "list_url": "/app/practice/sops/list/{status}",
+        "detail_url": "/app/practice/sops/detail/{id}"
     },
     "job_activity": {
-        "list_url": "/app/timesheet/list",
-        "detail_url": "/app/timesheet/detail/{id}"
+        "list_url": "/app/practice/timesheet/list",
+        "detail_url": "/app/practice/timesheet/detail/{id}"
     }
 }

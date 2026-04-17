@@ -1,0 +1,144 @@
+{
+  "product_line": {
+    "page": {
+      "heading":          "Service Groups",
+      "headingActive":    "Active Service Groups",
+      "headingInactive":  "Inactive Service Groups",
+      "headingPending":   "Pending Service Groups",
+      "headingCompleted": "Completed Service Groups",
+      "headingFailed":    "Failed Service Groups",
+      "caption":          "Manage service groups",
+      "captionActive":    "Active service groups",
+      "captionInactive":  "Inactive service groups",
+      "captionPending":   "Service groups awaiting completion",
+      "captionCompleted": "Completed service groups",
+      "captionFailed":    "Failed service groups"
+    },
+    "buttons": {
+      "addProductLine": "Add Service Group"
+    },
+    "columns": {
+      "name":        "Name",
+      "description": "Description",
+      "dateCreated": "Date Created",
+      "reference":   "Reference",
+      "customer":    "Customer",
+      "amount":      "Amount",
+      "method":      "Method",
+      "date":        "Date",
+      "status":      "Status"
+    },
+    "empty": {
+      "activeTitle":      "No active service groups",
+      "activeMessage":    "No active service groups to display.",
+      "inactiveTitle":    "No inactive service groups",
+      "inactiveMessage":  "No inactive service groups to display.",
+      "pendingTitle":     "No pending service groups",
+      "pendingMessage":   "No pending service groups to display.",
+      "completedTitle":   "No completed service groups",
+      "completedMessage": "No completed service groups to display.",
+      "failedTitle":      "No failed service groups",
+      "failedMessage":    "No failed service groups to display."
+    },
+    "form": {
+      "name":                    "Name",
+      "namePlaceholder":         "Service group name",
+      "description":             "Description",
+      "descriptionPlaceholder":  "Optional description",
+      "active":                  "Active",
+      "customer":                "Customer",
+      "date":                    "Date",
+      "amount":                  "Amount",
+      "currency":                "Currency",
+      "reference":               "Reference",
+      "referencePlaceholder":    "e.g. SG-001",
+      "paymentMethod":           "Payment Method",
+      "status":                  "Status",
+      "notes":                   "Notes",
+      "notesPlaceholder":        "Additional notes...",
+      "customerNamePlaceholder": "Customer name",
+      "amountPlaceholder":       "0.00",
+      "currencyPlaceholder":     "PHP",
+      "methodCash":              "Cash",
+      "methodBankTransfer":      "Bank Transfer",
+      "methodCheck":             "Check",
+      "methodGCash":             "GCash",
+      "methodMaya":              "Maya",
+      "methodCard":              "Card",
+      "methodOther":             "Other",
+      "statusPending":           "Pending",
+      "statusCompleted":         "Completed",
+      "statusFailed":            "Failed"
+    },
+    "actions": {
+      "view":         "View",
+      "edit":         "Edit",
+      "delete":       "Delete",
+      "markComplete": "Mark Complete",
+      "reactivate":   "Reactivate"
+    },
+    "bulkActions": {
+      "delete": "Delete"
+    },
+    "tabs": {
+      "info": "Info"
+    },
+    "detail": {
+      "titlePrefix":          "Service Group ",
+      "pageTitle":            "Service Group",
+      "basicInfo":            "Service Group Information",
+      "paymentInfo":          "Payment Information",
+      "reference":            "Reference",
+      "customer":             "Customer",
+      "amount":               "Amount",
+      "currency":             "Currency",
+      "method":               "Method",
+      "date":                 "Date",
+      "status":               "Status",
+      "notes":                "Notes",
+      "createdDate":          "Created Date",
+      "modifiedDate":         "Modified Date",
+      "activeBadge":          "Active",
+      "inactiveBadge":        "Inactive",
+      "tabBasicInfo":         "Info",
+      "tabAttachments":       "Attachments",
+      "tabAuditTrail":        "Audit Trail",
+      "auditAction":          "Action",
+      "auditUser":            "User",
+      "auditEmptyTitle":      "No audit entries",
+      "auditEmptyMessage":    "No audit entries to display.",
+      "auditTrailComingSoon": "Audit trail coming soon",
+      "auditTrailDesc":       "Audit trail is not yet available for this service group."
+    },
+    "status": {
+      "activate":   "Activate",
+      "deactivate": "Deactivate"
+    },
+    "confirm": {
+      "markComplete":            "Mark Complete",
+      "markCompleteMessage":     "Are you sure you want to mark this service group as complete?",
+      "reactivate":              "Reactivate",
+      "reactivateMessage":       "Are you sure you want to reactivate this service group?",
+      "delete":                  "Delete Service Group",
+      "deleteMessage":           "Are you sure you want to delete this service group?",
+      "bulkActivate":            "Activate",
+      "bulkActivateMessage":     "Are you sure you want to activate the selected service groups?",
+      "bulkDeactivate":          "Deactivate",
+      "bulkDeactivateMessage":   "Are you sure you want to deactivate the selected service groups?",
+      "bulkComplete":            "Mark Complete",
+      "bulkCompleteMessage":     "Are you sure you want to mark {{count}} service group(s) as complete?",
+      "bulkReactivate":          "Reactivate",
+      "bulkReactivateMessage":   "Are you sure you want to reactivate {{count}} service group(s)?",
+      "bulkDelete":              "Delete Service Groups",
+      "bulkDeleteMessage":       "Are you sure you want to delete {{count}} service group(s)?"
+    },
+    "errors": {
+      "permissionDenied": "Permission denied",
+      "invalidFormData":  "Invalid form data",
+      "notFound":         "Service group not found",
+      "idRequired":       "Service group ID is required",
+      "noIDsProvided":    "No service group IDs provided",
+      "invalidStatus":    "Invalid status"
+    }
+  }
+}

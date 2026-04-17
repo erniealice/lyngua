@@ -1,5 +1,24 @@
 {
   "product": {
+    "productKind": {
+      "service": "Service",
+      "stockedGood": "Stocked Good",
+      "nonStockedGood": "Non-Stocked Good",
+      "consumable": "Consumable"
+    },
+    "deliveryMode": {
+      "instant": "Instant",
+      "scheduled": "Scheduled",
+      "shipped": "Shipped",
+      "digital": "Digital",
+      "project": "Project",
+      "subscription": "Subscription"
+    },
+    "trackingMode": {
+      "none": "None",
+      "bulk": "Bulk",
+      "serialized": "Serialized"
+    },
     "columns": {
       "line": "Line"
     },

@@ -1,82 +1,63 @@
 {
-  "product": {
-    "productKind": {
-      "service": "Service",
-      "stockedGood": "Stocked Good",
-      "nonStockedGood": "Non-Stocked Good",
-      "consumable": "Consumable"
-    },
-    "deliveryMode": {
-      "instant": "Instant",
-      "scheduled": "Scheduled",
-      "shipped": "Shipped",
-      "digital": "Digital",
-      "project": "Project",
-      "subscription": "Subscription"
-    },
-    "trackingMode": {
-      "none": "None",
-      "bulk": "Bulk",
-      "serialized": "Serialized"
-    },
+  "product_inventory": {
     "page": {
-      "heading": "Services",
-      "headingActive": "Active Services",
-      "headingInactive": "Inactive Services",
-      "caption": "Manage your service offerings",
-      "captionActive": "View and manage active services",
-      "captionInactive": "View discontinued services"
+      "heading": "Products",
+      "headingActive": "Active Products",
+      "headingInactive": "Inactive Products",
+      "caption": "Manage your product offerings",
+      "captionActive": "View and manage active products",
+      "captionInactive": "View discontinued products"
     },
     "buttons": {
-      "addProduct": "Add Service"
+      "addProduct": "Add Product"
     },
     "columns": {
-      "name": "Service Name",
+      "name": "Product Name",
       "description": "Description",
-      "line": "Service Group",
+      "line": "Product Line",
       "price": "Price",
       "status": "Status"
     },
     "empty": {
-      "activeTitle": "No active services",
-      "activeMessage": "Add your first service to get started.",
-      "inactiveTitle": "No inactive services",
-      "inactiveMessage": "Discontinued services will appear here."
+      "activeTitle": "No active products",
+      "activeMessage": "Add your first product to get started.",
+      "inactiveTitle": "No inactive products",
+      "inactiveMessage": "Discontinued products will appear here."
     },
     "form": {
-      "name": "Service Name",
+      "name": "Product Name",
       "description": "Description",
-      "descriptionPlaceholder": "Enter service description...",
+      "descriptionPlaceholder": "Enter product description...",
       "price": "Price",
       "currency": "Currency",
       "active": "Active",
-      "line": "Service Group",
-      "linePlaceholder": "Select a service group",
+      "line": "Product Line",
+      "linePlaceholder": "Select a product line",
       "pricePlaceholder": "Leave empty to use base price",
       "selectOption": "Select",
       "initialValues": "Initial Values",
-      "initialValuesPlaceholder": "e.g. Basic, Pro, Enterprise",
+      "initialValuesPlaceholder": "e.g. Small, Medium, Large",
       "required": "Required",
       "option": "Option",
       "selectAttribute": "— Select attribute —",
-      "allAttributesAssigned": "All available attributes have already been assigned to this service."
+      "allAttributesAssigned": "All available attributes have already been assigned to this product."
     },
     "actions": {
-      "view": "View Service",
-      "edit": "Edit Service",
-      "delete": "Delete Service"
+      "view": "View Product",
+      "edit": "Edit Product",
+      "delete": "Delete Product"
     },
     "bulkActions": {
       "delete": "Delete Selected"
     },
     "tabs": {
       "info": "Info",
-      "variants": "Plan Options",
+      "variants": "Variants",
       "attributes": "Attributes",
       "pricing": "Pricing",
       "options": "Options",
       "images": "Images",
-      "stock": "Resource Allocation",
+      "stock": "Stock",
       "attachments": "Attachments",
       "auditTrail": "Audit Trail",
       "serials": "Serials",
@@ -85,23 +66,23 @@
     "detail": {
       "price": "Price",
       "currency": "Currency",
-      "collections": "Service Groups",
-      "variantCount": "Plan Options",
+      "collections": "Product Lines",
+      "variantCount": "Variants",
       "status": "Status",
       "optionsLabel": "Options",
-      "emptyVariantsMessage": "No plan options have been created for this service yet.",
+      "emptyVariantsMessage": "No variants have been created for this product yet.",
       "serialNumber": "Serial Number",
       "imei": "IMEI",
       "warrantyEnd": "Warranty End",
       "purchaseOrder": "Purchase Order",
       "noSerialNumbers": "No Serial Numbers",
       "noSerialNumbersMsg": "No serial numbers have been recorded for this inventory item.",
-      "variantInformation": "Plan Option Information",
+      "variantInformation": "Variant Information",
       "options": "Options",
-      "variantPricing": "Plan Pricing",
-      "variantPricingDesc": "Set a custom price for this plan option, or leave empty to use the base service price.",
-      "inventoryStock": "Resource Allocation",
-      "inventoryStockDesc": "Resource allocation is tracked per team. View and manage from the resource module.",
+      "variantPricing": "Variant Pricing",
+      "variantPricingDesc": "Set a custom price for this variant, or leave empty to use the base product price.",
+      "inventoryStock": "Inventory Stock",
+      "inventoryStockDesc": "Inventory stock is tracked per location. View and manage from the inventory module.",
       "dropImagesHere": "Drop images here or click to browse",
       "imageFileHint": "Max 5 MB per file. JPEG, PNG, WebP.",
       "deleteSelected": "Delete Selected",
@@ -109,14 +90,14 @@
       "noImages": "No Images",
       "noImagesDesc": "Upload images using the drop zone above.",
       "auditTrail": "Audit Trail",
-      "auditTrailDesc": "Audit trail for plan option changes is coming soon.",
+      "auditTrailDesc": "Audit trail for variant changes is coming soon.",
       "noSerialNumbersDesc": "No serial numbers have been recorded for this inventory item.",
       "inventoryItem": "Inventory Item",
       "name": "Name",
       "sku": "SKU",
       "type": "Type",
-      "location": "Team",
-      "qtyOnHand": "Capacity",
+      "location": "Location",
+      "qtyOnHand": "Qty on Hand",
       "reserved": "Reserved",
       "available": "Available",
       "statTotal": "Total",
@@ -132,19 +113,19 @@
       "deactivate": "Deactivate"
     },
     "variant": {
-      "title": "Plan Options",
+      "title": "Variants",
       "sku": "SKU",
       "priceOverride": "Price Override",
       "attributes": "Attributes",
-      "assign": "Add Plan Option",
-      "edit": "Edit Plan Option",
-      "remove": "Remove Plan Option",
-      "empty": "No Plan Options",
-      "location": "Team",
-      "qtyOnHand": "Capacity",
+      "assign": "Add Variant",
+      "edit": "Edit Variant",
+      "remove": "Remove Variant",
+      "empty": "No Variants",
+      "location": "Location",
+      "qtyOnHand": "Qty on Hand",
       "serialCount": "Serial Count",
-      "noStock": "No Resource Allocation",
-      "noStockMsg": "No resource allocation records found for this plan option."
+      "noStock": "No Stock",
+      "noStockMsg": "No stock records found for this variant."
     },
     "attribute": {
       "title": "Attribute",
@@ -154,38 +135,38 @@
       "empty": "No Attributes"
     },
     "confirm": {
-      "activate": "Activate Service",
-      "activateMessage": "Are you sure you want to activate this service?",
-      "deactivate": "Deactivate Service",
-      "deactivateMessage": "Are you sure you want to deactivate this service?",
-      "bulkActivate": "Activate Services",
-      "bulkActivateMessage": "Are you sure you want to activate the selected services?",
-      "bulkDeactivate": "Deactivate Services",
-      "bulkDeactivateMessage": "Are you sure you want to deactivate the selected services?",
-      "bulkDelete": "Delete Services",
-      "bulkDeleteMessage": "Are you sure you want to delete the selected services? This action cannot be undone.",
-      "removeVariant": "Remove Plan Option",
-      "removeVariantMessage": "Are you sure you want to remove this plan option?"
+      "activate": "Activate Product",
+      "activateMessage": "Are you sure you want to activate this product?",
+      "deactivate": "Deactivate Product",
+      "deactivateMessage": "Are you sure you want to deactivate this product?",
+      "bulkActivate": "Activate Products",
+      "bulkActivateMessage": "Are you sure you want to activate the selected products?",
+      "bulkDeactivate": "Deactivate Products",
+      "bulkDeactivateMessage": "Are you sure you want to deactivate the selected products?",
+      "bulkDelete": "Delete Products",
+      "bulkDeleteMessage": "Are you sure you want to delete the selected products? This action cannot be undone.",
+      "removeVariant": "Remove Variant",
+      "removeVariantMessage": "Are you sure you want to remove this variant?"
     },
     "errors": {
       "permissionDenied": "You do not have permission to perform this action",
       "invalidFormData": "Invalid form data. Please check your inputs and try again.",
-      "notFound": "Service not found",
-      "idRequired": "Service ID is required",
-      "noIDsProvided": "No service IDs were provided",
-      "invalidStatus": "Invalid service status",
-      "cannotDelete": "This service cannot be deleted because it is in use",
-      "nameRequired": "Service name is required",
+      "notFound": "Product not found",
+      "idRequired": "Product ID is required",
+      "noIDsProvided": "No product IDs were provided",
+      "invalidStatus": "Invalid product status",
+      "cannotDelete": "This product cannot be deleted because it is in use",
+      "nameRequired": "Product name is required",
       "fieldRequired": "This field is required"
     },
     "breadcrumb": {
-      "products": "Services",
-      "product": "Service",
+      "products": "Products",
+      "product": "Product",
       "option": "Option"
     },
     "options": {
       "tab": {
-        "title": "Service Options"
+        "title": "Product Options"
       },
       "columns": {
         "name": "Name",
@@ -197,9 +178,9 @@
       },
       "form": {
         "name": "Option Name",
-        "namePlaceholder": "e.g. Tier, SLA, Support Level",
+        "namePlaceholder": "e.g. Size, Color, Material",
         "code": "Option Code",
-        "codePlaceholder": "e.g. tier, sla, support-level",
+        "codePlaceholder": "e.g. size, color, material",
         "dataType": "Data Type",
         "sortOrder": "Sort Order",
         "minValue": "Min Value",
@@ -224,9 +205,9 @@
         },
         "form": {
           "label": "Value Label",
-          "labelPlaceholder": "e.g. Basic, Pro, Enterprise",
+          "labelPlaceholder": "e.g. Small, Medium, Large",
           "value": "Value",
-          "valuePlaceholder": "e.g. basic, pro, enterprise",
+          "valuePlaceholder": "e.g. small, medium, large",
           "sortOrder": "Sort Order",
           "colorHex": "Color Hex",
           "colorHexPlaceholder": "#FF0000",
@@ -244,7 +225,7 @@
       },
       "empty": {
         "title": "No Options",
-        "message": "No options have been configured for this service yet.",
+        "message": "No options have been configured for this product yet.",
         "valueTitle": "No Values",
         "valueMessage": "No values have been added to this option yet."
       },

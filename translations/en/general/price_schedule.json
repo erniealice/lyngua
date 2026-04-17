@@ -1,0 +1,19 @@
+{
+  "priceSchedule": {
+    "validation": {
+      "data_required": "Price schedule data is required",
+      "name_required": "Price schedule name is required",
+      "id_required": "Price schedule ID is required",
+      "request_required": "Request is required for price schedules",
+      "date_start_required": "Start date is required for price schedules"
+    },
+    "errors": {
+      "not_found": "Price schedule with ID \"{entityId}\" not found",
+      "creation_failed": "Price schedule creation failed",
+      "update_failed": "Price schedule update failed",
+      "deletion_failed": "Price schedule deletion failed",
+      "list_failed": "Failed to retrieve price schedules",
+      "authorization_failed": "Authorization failed for price schedules"
+    }
+  }
+}

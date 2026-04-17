@@ -1,0 +1,12 @@
+{
+  "product_inventory": {
+    "page": {
+      "headingActive": "Active Products",
+      "headingInactive": "Inactive Products",
+      "caption": "Manage auxiliary products"
+    },
+    "buttons": {
+      "addProduct": "Add Product"
+    }
+  }
+}

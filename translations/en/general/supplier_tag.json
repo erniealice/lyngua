@@ -1,0 +1,30 @@
+{
+  "page": {
+    "heading": "Supplier Tags",
+    "subtitle": "Manage tags for organizing suppliers"
+  },
+  "buttons": {
+    "addTag": "Add Tag"
+  },
+  "columns": {
+    "tagName": "Tag Name",
+    "suppliers": "Suppliers",
+    "description": "Description",
+    "status": "Status"
+  },
+  "empty": {
+    "title": "No tags found",
+    "message": "Create your first tag to start organizing suppliers."
+  },
+  "actions": {
+    "edit": "Edit",
+    "delete": "Delete",
+    "activate": "Activate",
+    "deactivate": "Deactivate"
+  },
+  "confirm": {
+    "deleteTitle": "Delete Tags",
+    "deleteMessage": "Are you sure you want to delete the selected tag(s)? This action cannot be undone.",
+    "cannotDelete": "Cannot delete: tag is assigned to suppliers"
+  }
+}

@@ -15,14 +15,16 @@
     },
 
     "type": {
-      "physical": "Physical",
-      "service": "Service",
+      "instant": "Instant",
+      "scheduled": "Scheduled",
+      "shipped": "Shipped",
       "digital": "Digital",
-      "make_to_order": "Make to Order"
+      "project": "Project",
+      "subscription": "Subscription"
     },
 
     "columns": {
-      "fulfillment_method": "Type",
+      "delivery_mode": "Type",
       "status": "Status",
       "supplier_name": "Provider",
       "scheduled_at": "Scheduled",

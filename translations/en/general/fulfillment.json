@@ -13,13 +13,15 @@
       "cancelled": "Cancelled"
     },
     "type": {
-      "physical": "Physical",
-      "service": "Service",
+      "instant": "Instant",
+      "scheduled": "Scheduled",
+      "shipped": "Shipped",
       "digital": "Digital",
-      "make_to_order": "Make to Order"
+      "project": "Project",
+      "subscription": "Subscription"
     },
     "columns": {
-      "fulfillment_method": "Method",
+      "delivery_mode": "Method",
       "status": "Status",
       "supplier_name": "Supplier",
       "scheduled_at": "Scheduled",

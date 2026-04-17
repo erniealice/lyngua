@@ -50,10 +50,10 @@
       "audit": "Audit Trail",
       "attachments": "Attachments"
     },
-    "itemType": {
-      "serialized": "Dedicated",
-      "nonSerialized": "Shared",
-      "consumable": "Consumable"
+    "trackingMode": {
+      "none": "None",
+      "bulk": "Shared",
+      "serialized": "Dedicated"
     },
     "status": {
       "activate": "Activate",
