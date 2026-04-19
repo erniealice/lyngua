@@ -354,11 +354,15 @@
   "durationUnit": {
     "daySingular": "day",
     "dayPlural": "days",
+    "daySelect": "day(s)",
     "weekSingular": "week",
     "weekPlural": "weeks",
+    "weekSelect": "week(s)",
     "monthSingular": "month",
     "monthPlural": "months",
+    "monthSelect": "month(s)",
     "yearSingular": "year",
-    "yearPlural": "years"
+    "yearPlural": "years",
+    "yearSelect": "year(s)"
   }
 }

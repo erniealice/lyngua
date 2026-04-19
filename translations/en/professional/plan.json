@@ -9,13 +9,15 @@
       "captionInactive": "View discontinued packages"
     },
     "buttons": {
-      "addPlan": "Add Package"
+      "addPlan": "Add Package",
+      "addProduct": "Add Item"
     },
     "columns": {
       "name": "Package Name",
       "description": "Description",
       "price": "Price",
-      "status": "Status"
+      "status": "Status",
+      "itemType": "Item Type"
     },
     "empty": {
       "title": "No packages found",
@@ -61,11 +63,14 @@
       "dateCreated": "Date Created",
       "dateModified": "Date Modified",
       "edit": "Edit",
-      "editTitle": "Edit Package"
+      "editTitle": "Edit Package",
+      "noProductsAssigned": "No items assigned",
+      "noProductsAssignedMsg": "No items assigned to this package yet."
     },
     "tabs": {
       "info": "Information",
       "products": "Items",
+      "productsSlug": "items",
       "priceLists": "Rate Cards",
       "bundlePricing": "Pricing",
       "auditTrail": "Audit Trail"
@@ -101,6 +106,10 @@
       "noPermission": "You do not have permission to perform this action"
     },
     "productPlanForm": {
+      "product": "Item",
+      "productPlaceholder": "Select an item...",
+      "selectProduct": "— Select a product —",
+      "active": "Active",
       "productKindLabel": "Item Type",
       "productKind": {
         "service": "Service",

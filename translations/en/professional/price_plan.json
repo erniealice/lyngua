@@ -1,0 +1,25 @@
+{
+  "price_plan": {
+    "detail": {
+      "title": "Package",
+      "heading": "Package Info",
+      "name": "Name",
+      "description": "Description",
+      "amount": "Amount",
+      "currency": "Currency",
+      "duration": "Duration",
+      "scheduleLabel": "Rate Card",
+      "status": "Status",
+      "dateCreated": "Date Created",
+      "dateModified": "Date Modified",
+      "edit": "Edit Package",
+      "editTitle": "Edit Package"
+    },
+    "tabs": {
+      "info": "Info",
+      "products": "Services",
+      "attachments": "Attachments",
+      "audit": "Audit"
+    }
+  }
+}
