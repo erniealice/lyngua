@@ -105,7 +105,8 @@
         "dashboard_url": "/app/services/rate-cards/dashboard",
         "list_url": "/app/services/rate-cards/list/{status}",
         "detail_url": "/app/services/rate-cards/detail/{id}",
-        "plan_detail_url": "/app/services/rate-cards/detail/{id}/plan/{ppid}"
+        "plan_detail_url": "/app/services/rate-cards/detail/{id}/plan/{ppid}",
+        "tab_plans_slug": "packages"
     },
     "subscription": {
         "list_url": "/app/subscriptions/list/{status}",

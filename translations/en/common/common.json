@@ -350,5 +350,15 @@
   },
   "tabs": {
     "attachments": "Attachments"
+  },
+  "durationUnit": {
+    "daySingular": "day",
+    "dayPlural": "days",
+    "weekSingular": "week",
+    "weekPlural": "weeks",
+    "monthSingular": "month",
+    "monthPlural": "months",
+    "yearSingular": "year",
+    "yearPlural": "years"
   }
 }

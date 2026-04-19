@@ -149,7 +149,7 @@
     },
     "confirm": {
       "complete": "Approve Booking",
-      "completeMessage": "Are you sure you want to approve this booking? This action cannot be undone.",
+      "completeMessage": "Are you sure you want to approve booking %s? This action cannot be undone.",
       "reactivate": "Reactivate Booking",
       "reactivateMessage": "Are you sure you want to reactivate this booking?",
       "cancel": "Cancel Booking",

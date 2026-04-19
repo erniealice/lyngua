@@ -201,7 +201,7 @@
     },
     "confirm": {
       "complete": "Approve Sale",
-      "completeMessage": "Are you sure you want to approve this sale? This action cannot be undone.",
+      "completeMessage": "Are you sure you want to approve sale %s? This action cannot be undone.",
       "reactivate": "Reactivate Sale",
       "reactivateMessage": "Are you sure you want to reactivate this sale?",
       "cancel": "Cancel Sale",

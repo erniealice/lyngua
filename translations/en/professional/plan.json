@@ -14,7 +14,6 @@
     "columns": {
       "name": "Package Name",
       "description": "Description",
-      "interval": "Fulfillment Type",
       "price": "Price",
       "status": "Status"
     },
@@ -31,7 +30,6 @@
       "namePlaceholder": "Enter package name",
       "description": "Description",
       "descriptionPlaceholder": "Enter package description...",
-      "fulfillmentType": "Fulfillment Type",
       "active": "Active",
       "products": "Services",
       "productsPlaceholder": "Select services...",
@@ -52,14 +50,24 @@
       "currency": "Currency",
       "status": "Status",
       "description": "Description",
-      "fulfillmentType": "Fulfillment Type",
       "createdDate": "Created",
-      "modifiedDate": "Last Modified"
+      "modifiedDate": "Last Modified",
+      "heading": "Package Info",
+      "name": "Name",
+      "amount": "Amount",
+      "currency": "Currency",
+      "duration": "Duration",
+      "scheduleLabel": "Rate Card",
+      "dateCreated": "Date Created",
+      "dateModified": "Date Modified",
+      "edit": "Edit",
+      "editTitle": "Edit Package"
     },
     "tabs": {
       "info": "Information",
-      "products": "Services",
-      "priceLists": "Price Plans",
+      "products": "Items",
+      "priceLists": "Rate Cards",
+      "bundlePricing": "Pricing",
       "auditTrail": "Audit Trail"
     },
     "confirm": {
@@ -91,6 +99,15 @@
       "permissionDenied": "You do not have permission to perform this action",
       "invalidFormData": "Invalid form data. Please check your inputs and try again.",
       "noPermission": "You do not have permission to perform this action"
+    },
+    "productPlanForm": {
+      "productKindLabel": "Item Type",
+      "productKind": {
+        "service": "Service",
+        "stockedGood": "Stocked Good",
+        "nonStockedGood": "Non-Stocked Good",
+        "consumable": "Consumable"
+      }
     }
   }
 }

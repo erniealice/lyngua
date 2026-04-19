@@ -155,9 +155,9 @@
     },
     "confirm": {
       "activate": "Activate Service",
-      "activateMessage": "Are you sure you want to activate this service?",
+      "activateMessage": "Are you sure you want to activate service \"%s\"?",
       "deactivate": "Deactivate Service",
-      "deactivateMessage": "Are you sure you want to deactivate this service?",
+      "deactivateMessage": "Are you sure you want to deactivate service \"%s\"?",
       "bulkActivate": "Activate Services",
       "bulkActivateMessage": "Are you sure you want to activate the selected services?",
       "bulkDeactivate": "Deactivate Services",

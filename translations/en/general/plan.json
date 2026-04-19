@@ -14,7 +14,6 @@
     "columns": {
       "name": "Name",
       "description": "Description",
-      "interval": "Interval",
       "price": "Price",
       "status": "Status"
     },
@@ -31,7 +30,6 @@
       "namePlaceholder": "Enter plan name",
       "description": "Description",
       "descriptionPlaceholder": "Enter plan description...",
-      "fulfillmentType": "Fulfillment Type",
       "active": "Active",
       "products": "Products",
       "productsPlaceholder": "Select products...",
@@ -52,14 +50,24 @@
       "currency": "Currency",
       "status": "Status",
       "description": "Description",
-      "fulfillmentType": "Fulfillment Type",
       "createdDate": "Created",
-      "modifiedDate": "Last Modified"
+      "modifiedDate": "Last Modified",
+      "heading": "Plan Info",
+      "name": "Name",
+      "amount": "Amount",
+      "currency": "Currency",
+      "duration": "Duration",
+      "scheduleLabel": "Schedule",
+      "dateCreated": "Date Created",
+      "dateModified": "Date Modified",
+      "edit": "Edit",
+      "editTitle": "Edit Plan"
     },
     "tabs": {
       "info": "Information",
-      "products": "Products",
-      "priceLists": "Price Lists",
+      "products": "Items",
+      "priceLists": "Rate Cards",
+      "bundlePricing": "Pricing",
       "auditTrail": "Audit Trail"
     },
     "confirm": {
@@ -74,6 +82,15 @@
       "notFound": "Plan not found",
       "idRequired": "Plan ID is required",
       "noPermission": "No permission"
+    },
+    "productPlanForm": {
+      "productKindLabel": "Item Type",
+      "productKind": {
+        "service": "Service",
+        "stockedGood": "Stocked Good",
+        "nonStockedGood": "Non-Stocked Good",
+        "consumable": "Consumable"
+      }
     }
   }
 }

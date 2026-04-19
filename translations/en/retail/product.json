@@ -133,9 +133,9 @@
     },
     "confirm": {
       "activate": "Activate Product",
-      "activateMessage": "Are you sure you want to activate this product?",
+      "activateMessage": "Are you sure you want to activate product \"%s\"?",
       "deactivate": "Deactivate Product",
-      "deactivateMessage": "Are you sure you want to deactivate this product?",
+      "deactivateMessage": "Are you sure you want to deactivate product \"%s\"?",
       "bulkActivate": "Activate Products",
       "bulkActivateMessage": "Are you sure you want to activate the selected products?",
       "bulkDeactivate": "Deactivate Products",
