@@ -1,0 +1,21 @@
+{
+  "product_price_plan": {
+    "form": {
+      "billingTreatmentLabel": "Billing treatment",
+      "billingTreatmentRecurring": "Every cycle",
+      "billingTreatmentRecurringHelp": "Charge this line every billing cycle",
+      "billingTreatmentOneTimeInitial": "First cycle only",
+      "billingTreatmentOneTimeInitialHelp": "Charge once on the first invoice (setup fees, welcome gifts)",
+      "billingTreatmentUsageBased": "On use",
+      "billingTreatmentUsageBasedHelp": "Charge when consumed or performed",
+      "productLabel": "Item",
+      "productPlaceholder": "Select an item",
+      "priceLabel": "Price",
+      "pricePlaceholder": "0.00",
+      "currencyLabel": "Currency",
+      "currencyPlaceholder": "e.g. PHP",
+      "dateStartLabel": "Effective from",
+      "dateEndLabel": "Effective until"
+    }
+  }
+}

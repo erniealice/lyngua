@@ -1,5 +1,22 @@
 {
   "price_plan": {
+    "form": {
+      "sectionBasic": "Basic info",
+      "sectionPricing": "Pricing",
+      "billingKindLabel": "Billing model",
+      "billingKindOneTime": "One-time",
+      "billingKindRecurring": "Recurring retainer",
+      "billingKindContract": "Fixed-term engagement",
+      "amountBasisLabel": "Amount basis",
+      "amountBasisPerCycle": "Per cycle",
+      "amountBasisTotalPackage": "Total package",
+      "amountBasisDerivedFromLines": "Sum of items",
+      "billingCycleLabel": "Billing cycle",
+      "billingCyclePlaceholder": "e.g. every 1 month",
+      "defaultTermLabel": "Default term",
+      "defaultTermPlaceholder": "e.g. 12 months",
+      "defaultTermOpenEndedHelp": "Leave empty for open-ended / no expiration"
+    },
     "validation": {
       "data_required": "Rate card data is required",
       "name_required": "Rate card name is required",

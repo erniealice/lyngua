@@ -30,6 +30,9 @@
       "message": "No rate cards to display."
     },
     "form": {
+      "sectionScheduleDetails": "Schedule details",
+      "sectionDateRange": "Date range",
+      "sectionLocation": "Location",
       "name": "Rate Card Name",
       "namePlaceholder": "Enter rate card name",
       "description": "Description",

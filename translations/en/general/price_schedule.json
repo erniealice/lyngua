@@ -43,6 +43,11 @@
       "durationLabel": "Duration",
       "unitLabel": "Unit"
     },
+    "form": {
+      "sectionScheduleDetails": "Schedule details",
+      "sectionDateRange": "Date range",
+      "sectionLocation": "Location"
+    },
     "validation": {
       "data_required": "Price schedule data is required",
       "name_required": "Price schedule name is required",
