@@ -14,6 +14,8 @@
       "pricePlaceholder": "0.00",
       "currencyLabel": "Currency",
       "currencyPlaceholder": "e.g. PHP",
+      "currencyPHP": "PHP (₱)",
+      "currencyUSD": "USD ($)",
       "dateStartLabel": "Effective from",
       "dateEndLabel": "Effective until"
     }

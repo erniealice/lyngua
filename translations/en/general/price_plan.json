@@ -15,7 +15,31 @@
       "billingCyclePlaceholder": "e.g. every 1 month",
       "defaultTermLabel": "Default term",
       "defaultTermPlaceholder": "e.g. 12 months",
-      "defaultTermOpenEndedHelp": "Leave empty for open-ended / no expiration"
+      "defaultTermOpenEndedHelp": "Leave empty for open-ended / no expiration",
+      "currencyPHP": "PHP (₱)",
+      "currencyUSD": "USD ($)",
+      "planLabel": "Package",
+      "planPlaceholder": "Select a package...",
+      "planSearch": "Filter...",
+      "scheduleSearch": "Filter...",
+      "locationHintPrefix": "Location: "
+    },
+    "productPrice": {
+      "editTitle": "Edit Product Price",
+      "deleteTitle": "Delete Product Price",
+      "emptyTitle": "No Product Prices",
+      "emptyMsg": "No product prices have been configured for this rate card yet."
+    },
+    "messages": {
+      "pricingLockedReason": "This plan is in use by active subscriptions. Pricing changes are disabled. You can still rename or reassign the package.",
+      "itemPricingLockedReason": "This package is in use by active engagements. Item price and currency are locked to keep billing consistent.",
+      "createNotAvailable": "Product price plan create is not available.",
+      "updateNotAvailable": "Product price plan update is not available.",
+      "deleteNotAvailable": "Product price plan delete is not available.",
+      "productRequired": "Product is required.",
+      "invalidPrice": "Invalid price value.",
+      "inUseCannotModify": "This package is in use by active engagements. Item price and currency are locked.",
+      "idRequired": "ID is required."
     },
     "validation": {
       "data_required": "Rate card data is required",
