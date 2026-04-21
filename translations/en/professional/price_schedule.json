@@ -53,8 +53,8 @@
     },
     "tabs": {
       "info": "Info",
-      "plans": "Packages",
-      "plansSlug": "packages",
+      "pricePlan": "Package Prices",
+      "pricePlanSlug": "package-prices",
       "productPrices": "Package Item Prices",
       "productPricesSlug": "package-item-prices",
       "subscriptions": "Engagements"
@@ -128,7 +128,8 @@
       "unauthorized": "You are not authorized to perform this action",
       "createFailed": "Failed to create rate card",
       "updateFailed": "Failed to update rate card",
-      "deleteFailed": "Failed to delete rate card"
+      "deleteFailed": "Failed to delete rate card",
+      "inUse": "This rate card is in use by active engagements and cannot be deleted."
     },
     "validation": {
       "data_required": "Rate card data is required",

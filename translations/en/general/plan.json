@@ -15,7 +15,8 @@
       "name": "Name",
       "description": "Description",
       "price": "Price",
-      "status": "Status"
+      "status": "Status",
+      "priceSchedule": "Price Schedule"
     },
     "empty": {
       "title": "No plans found",
@@ -66,7 +67,7 @@
     "tabs": {
       "info": "Information",
       "products": "Items",
-      "priceLists": "Rate Cards",
+      "pricePlan": "Rate Cards",
       "bundlePricing": "Pricing",
       "auditTrail": "Audit Trail"
     },

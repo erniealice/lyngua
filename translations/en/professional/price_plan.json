@@ -20,6 +20,9 @@
       "products": "Services",
       "attachments": "Attachments",
       "audit": "Audit"
+    },
+    "errors": {
+      "inUse": "This plan is in use by active engagements and cannot be deleted."
     }
   }
 }

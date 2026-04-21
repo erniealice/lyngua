@@ -15,7 +15,8 @@
       "update_failed": "Rate card update failed",
       "deletion_failed": "Rate card deletion failed",
       "list_failed": "Failed to retrieve rate cards",
-      "authorization_failed": "Authorization failed for rate cards"
+      "authorization_failed": "Authorization failed for rate cards",
+      "inUse": "This price plan is in use by active subscriptions and cannot be deleted."
     }
   }
 }

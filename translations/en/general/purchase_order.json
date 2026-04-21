@@ -258,7 +258,8 @@
       "list_failed": "Failed to retrieve purchase orders",
       "authorization_failed": "Authorization failed for purchase orders",
       "approval_failed": "Purchase order approval failed",
-      "receive_failed": "Receiving update failed"
+      "receive_failed": "Receiving update failed",
+      "noPermission": "You do not have permission to perform this action."
     }
   }
 }

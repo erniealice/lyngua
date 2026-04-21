@@ -10,14 +10,17 @@
     },
     "buttons": {
       "addPlan": "Add Package",
-      "addProduct": "Add Item"
+      "addProduct": "Add Item",
+      "addPricePlan": "Add Package Price"
     },
     "columns": {
       "name": "Package Name",
       "description": "Description",
       "price": "Price",
       "status": "Status",
-      "itemType": "Item Type"
+      "itemType": "Item Type",
+      "pricePlan": "Package Price",
+      "priceSchedule": "Rate Card"
     },
     "empty": {
       "title": "No packages found",
@@ -65,13 +68,16 @@
       "edit": "Edit",
       "editTitle": "Edit Package",
       "noProductsAssigned": "No items assigned",
-      "noProductsAssignedMsg": "No items assigned to this package yet."
+      "noProductsAssignedMsg": "No items assigned to this package yet.",
+      "noPricePlans": "No package prices",
+      "noPricePlansMsg": "No package prices have been configured for this package yet."
     },
     "tabs": {
       "info": "Information",
       "products": "Items",
       "productsSlug": "items",
-      "priceLists": "Rate Cards",
+      "pricePlan": "Package Prices",
+      "pricePlanSlug": "package-prices",
       "bundlePricing": "Pricing",
       "auditTrail": "Audit Trail"
     },
@@ -104,6 +110,10 @@
       "permissionDenied": "You do not have permission to perform this action",
       "invalidFormData": "Invalid form data. Please check your inputs and try again.",
       "noPermission": "You do not have permission to perform this action"
+    },
+    "pricePlanForm": {
+      "schedule": "Rate Card",
+      "schedulePlaceholder": "Select a rate card..."
     },
     "productPlanForm": {
       "product": "Item",

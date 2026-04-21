@@ -284,7 +284,8 @@
       "list_failed": "Failed to retrieve expenditures",
       "authorization_failed": "Authorization failed for expenditures",
       "approval_failed": "Expenditure approval failed",
-      "payment_failed": "Payment recording failed"
+      "payment_failed": "Payment recording failed",
+      "noPermission": "You do not have permission to perform this action."
     }
   }
 }
