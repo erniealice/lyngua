@@ -32,7 +32,11 @@
       "quantity": "Quantity",
       "unitCost": "Unit Cost",
       "amount": "Amount",
-      "category": "Category"
+      "category": "Category",
+      "entryTypeInfo": "Labor = time-based; Material = goods used; Expense = cost incurred.",
+      "billableStatusInfo": "Whether this activity is charged to the client.",
+      "quantityInfo": "Number of units or hours recorded for this activity entry.",
+      "unitCostInfo": "Cost per unit or per hour for this activity entry."
     },
     "actions": {
       "view": "View Activity",

@@ -7,6 +7,12 @@
     },
     "buttons": {
       "addProduct": "Add Product"
+    },
+    "form": {
+      "variantModeLabel": "Allow Product Variants",
+      "variantModeInfo": "Turn on when this product comes in distinct SKUs (size, colour, material, pack size). Price then lives per-variant — useful when customers pick a specific variant at checkout.",
+      "variantModeNone": "Single SKU",
+      "variantModeConfigurable": "Multiple SKUs"
     }
   }
 }

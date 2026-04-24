@@ -1,0 +1,13 @@
+{
+  "revenue": {
+    "form": {
+      "referenceInfo": "Unique identifier for this revenue record. Used on invoices and receipts.",
+      "dateInfo": "The date the revenue is recognised or the transaction took place.",
+      "customerInfo": "The client this revenue record is billed to.",
+      "locationInfo": "The branch or location where this revenue was generated.",
+      "subscriptionInfo": "Link to an existing subscription to pre-fill line items and apply the agreed pricing.",
+      "currencyInfo": "Currency used for all amounts on this record.",
+      "notesInfo": "Internal remarks — shown on detail pages but not on customer-facing documents."
+    }
+  }
+}

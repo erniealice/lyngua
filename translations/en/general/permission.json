@@ -1,5 +1,12 @@
 {
   "permission": {
+    "form": {
+      "nameInfo": "Human-readable label for this permission entry.",
+      "permissionCodeInfo": "Machine identifier in the format entity:action (e.g. invoice:create). Used for permission checks in code.",
+      "permissionTypeInfo": "Allow grants the action; Deny explicitly blocks it even if another role grants it.",
+      "descriptionInfo": "Optional notes describing what this permission controls.",
+      "activeInfo": "Inactive permissions are ignored during authorization checks."
+    },
     "validation": {
       "data_required": "Permission data is required",
       "name_required": "Permission name is required",

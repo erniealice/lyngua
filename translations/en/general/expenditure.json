@@ -94,7 +94,17 @@
       "sectionInfo": "Expenditure Information",
       "sectionVendor": "Vendor",
       "sectionPayment": "Payment Details",
-      "sectionNotes": "Notes"
+      "sectionNotes": "Notes",
+
+      "nameInfo": "A short description identifying this expenditure.",
+      "expenditureTypeInfo": "Expense = operating cost; Purchase = asset or inventory acquisition.",
+      "categoryInfo": "Classifies the expenditure for reporting and approval workflows.",
+      "dateInfo": "The date the expenditure was incurred or the transaction took place.",
+      "amountInfo": "Total amount in the selected currency.",
+      "currencyInfo": "Currency used for all amounts on this record.",
+      "referenceNumberInfo": "Vendor invoice number or internal reference for this expenditure.",
+      "supplierInfo": "The supplier or vendor this expenditure is associated with.",
+      "notesInfo": "Internal remarks — shown on detail pages only."
     },
     "status": {
       "draft": "Draft",

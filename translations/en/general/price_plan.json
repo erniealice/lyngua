@@ -22,7 +22,18 @@
       "planPlaceholder": "Select a package...",
       "planSearch": "Filter...",
       "scheduleSearch": "Filter...",
-      "locationHintPrefix": "Location: "
+      "locationHintPrefix": "Location: ",
+      "planInfo": "The plan this price plan belongs to. Locked from the parent page.",
+      "scheduleInfo": "The price schedule (date range + location) this price plan belongs to.",
+      "nameInfo": "Optional — defaults to the plan name when left blank.",
+      "descriptionInfo": "Optional notes shown alongside the price plan in detail views.",
+      "billingKindInfo": "One-time = charged once. Recurring = billed every cycle. Fixed-term = recurring with an end date.",
+      "amountBasisInfo": "Per cycle = amount charged each billing cycle. Total package = amount charged across the full term. Sum of items = derived from the per-item breakdown.",
+      "amountInfo": "Price in the selected currency. For Sum of items, this is computed automatically.",
+      "currencyInfo": "Currency applied to this price plan and any auto-seeded product price plans.",
+      "billingCycleInfo": "How often the recurring charge is issued (e.g. every 1 month).",
+      "defaultTermInfo": "Catalog default subscription length. Leave empty for open-ended / no expiration.",
+      "activeInfo": "Inactive price plans stay on record but are hidden from new subscriptions."
     },
     "productPrice": {
       "editTitle": "Edit Product Price",

@@ -1,4 +1,12 @@
 {
+  "form": {
+    "nameInfo": "Display name for this location (e.g. Main Branch, Warehouse A).",
+    "addressInfo": "Physical street address for this location.",
+    "descriptionInfo": "Optional internal notes about this location.",
+    "timezoneInfo": "Timezone used when scheduling events or showing local time for this location.",
+    "areaInfo": "Assign this location to a geographic area for grouping and filtering.",
+    "activeInfo": "Inactive locations are hidden from new assignments but remain on record."
+  },
   "location": {
     "validation": {
       "data_required": "Location data is required",

@@ -59,7 +59,40 @@
       "required": "Required",
       "option": "Option",
       "selectAttribute": "— Select attribute —",
-      "allAttributesAssigned": "All available attributes have already been assigned to this service."
+      "allAttributesAssigned": "All available attributes have already been assigned to this service.",
+      "variantModeLabel": "Allow Service Variants",
+      "variantModeInfo": "Turn on when this service has distinct tiers or packages that are priced separately (e.g. 30-min / 60-min / 90-min, Basic / Pro / Premium, by practitioner level). Price then lives on each variant rather than on this form.",
+      "variantModeNone": "Single offering",
+      "variantModeConfigurable": "Multiple variants",
+      "unitLabel": "Unit of delivery",
+      "unitInfo": "Free-text display unit for how this service is billed or counted (e.g. hr, session, visit, consult, cycle). Stocked consumables can use ea, pack, bottle.",
+      "unitPlaceholder": "e.g. hr, session, visit",
+      "variantPriceVaries": "Varies",
+      "productKindLabel": "Item type",
+      "productKindInfo": "Whether this is the service you deliver, a supply you use to deliver it, or a good you resell.",
+      "productKindValueInfo": {
+        "service": "The offering itself — what the client pays for (consultation, treatment, session).",
+        "stocked_good": "Retail goods you hold inventory of and resell to clients (take-home products, merchandise).",
+        "non_stocked_good": "Items you sell but never stock — drop-shipped or ordered on demand.",
+        "consumable": "Back-of-house supplies used during service delivery and expensed on use (gauze, lotion, alcohol, gloves)."
+      },
+      "deliveryModeLabel": "How it's delivered",
+      "deliveryModeInfo": "How the client experiences or receives this item. Drives scheduling and billing behaviour.",
+      "deliveryModeValueInfo": {
+        "instant": "Consumed or handed over on the spot — walk-in service, quick check.",
+        "scheduled": "Requires a booked appointment — the standard clinic/salon/professional service mode.",
+        "shipped": "Physically delivered to the client (mail-order, home-care kit).",
+        "digital": "Remote or online delivery (telehealth, recorded course, license).",
+        "project": "Multi-session engagement with milestones (treatment plan, case).",
+        "subscription": "Recurring access — membership, monthly retainer."
+      },
+      "trackingModeLabel": "Inventory tracking",
+      "trackingModeInfo": "How stock is counted. Only applies to physical goods and supplies.",
+      "trackingModeValueInfo": {
+        "none": "No tracking — for services and one-off orders.",
+        "bulk": "Count on hand — the normal choice for consumables and most retail goods.",
+        "serialized": "One row per unit — use for regulated items with lot/serial numbers (medical devices, controlled products)."
+      }
     },
     "actions": {
       "view": "View Service",
@@ -166,6 +199,9 @@
       "bulkDeleteMessage": "Are you sure you want to delete the selected services? This action cannot be undone.",
       "removeVariant": "Remove Plan Option",
       "removeVariantMessage": "Are you sure you want to remove this plan option?"
+    },
+    "validation": {
+      "price_required_for_simple": "Price is required when this product is not variant-configurable."
     },
     "errors": {
       "permissionDenied": "You do not have permission to perform this action",

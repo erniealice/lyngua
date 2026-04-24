@@ -15,9 +15,27 @@
         },
         "empty": { "heading": "No events yet", "subheading": "Create your first event to get started" },
         "form": {
-            "name": "Event Name", "description": "Description", "startDate": "Start Date & Time",
-            "endDate": "End Date & Time", "timezone": "Timezone", "allDay": "All Day",
-            "organizer": "Organizer", "location": "Location", "status": "Status", "recurrence": "Recurrence"
+            "name": "Event Name",
+            "namePlaceholder": "e.g. Team Sync",
+            "description": "Description",
+            "startDate": "Start Date",
+            "startTime": "Start Time",
+            "endDate": "End Date",
+            "endTime": "End Time",
+            "timezone": "Timezone",
+            "allDay": "All Day",
+            "organizer": "Organizer",
+            "location": "Location",
+            "status": "Status",
+            "recurrence": "Recurrence",
+            "notes": "Notes",
+            "notesPlaceholder": "Add details, agenda, or links",
+            "invitees": "Invitees",
+            "inviteesPlaceholder": "Search staff or clients",
+            "tags": "Tags",
+            "tagsPlaceholder": "Pick one or more tags",
+            "attachments": "Attachments",
+            "attachmentsHint": "Drop files or click to upload"
         },
         "actions": { "edit": "Edit", "delete": "Delete", "cancel": "Cancel Event", "confirm": "Confirm Event", "duplicate": "Duplicate" },
         "detail": {
@@ -34,7 +52,13 @@
             "nameRequired": "Event name is required", "startDateRequired": "Start date is required",
             "endDateRequired": "End date is required", "invalidDateRange": "End date must be after start date"
         },
-        "status": { "tentative": "Tentative", "confirmed": "Confirmed", "cancelled": "Cancelled" }
+        "status": { "tentative": "Tentative", "confirmed": "Confirmed", "cancelled": "Cancelled" },
+        "calendar": {
+            "viewDay": "View day",
+            "newEventAt": "New event at {{.Time}}",
+            "newEvent": "New event",
+            "moreEvents": "+{{.Count}} more events"
+        }
     },
     "recurrence": {
         "page": { "heading": "Recurrence Patterns", "caption": "Manage recurring event patterns" },

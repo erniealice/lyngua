@@ -126,7 +126,10 @@
         "stockedGood": "Stocked Good",
         "nonStockedGood": "Non-Stocked Good",
         "consumable": "Consumable"
-      }
+      },
+      "variantSelectLabel": "Variant",
+      "variantSelectPlaceholder": "Select a variant",
+      "variantSelectInfo": "Required when the parent product has variants enabled."
     }
   }
 }

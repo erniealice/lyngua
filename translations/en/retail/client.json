@@ -198,7 +198,8 @@
       "tabs": {
         "info": "Info",
         "representative": "Representative",
-        "engagements": "Engagements",
+        "subscriptions": "Subscriptions",
+        "accounting": "Accounting",
         "history": "History",
         "statement": "Statement"
       },
@@ -209,7 +210,9 @@
       "colAmount": "Amount",
       "colStatus": "Status",
       "purchaseHistoryEmpty": "No purchase history available.",
-      "emptyEngagements": "No engagements found for this client.",
+      "addSubscription": "Add Subscription",
+      "emptySubscriptionsTitle": "No subscriptions",
+      "emptySubscriptions": "No subscriptions found for this client.",
       "outstandingBalance": "Outstanding Balance",
       "totalBilled": "Total Billed",
       "totalReceived": "Total Received",

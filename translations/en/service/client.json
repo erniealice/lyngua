@@ -87,6 +87,8 @@
       },
       "tabs": {
         "info": "Info",
+        "subscriptions": "Subscriptions",
+        "accounting": "Accounting",
         "purchaseHistory": "Booking History",
         "attachments": "Attachments",
         "statement": "Statement"
@@ -115,7 +117,9 @@
       "colAmount": "Amount",
       "colStatus": "Status",
       "purchaseHistoryEmpty": "No booking history available.",
-      "emptyEngagements": "No engagements found for this client.",
+      "addSubscription": "Add Subscription",
+      "emptySubscriptionsTitle": "No subscriptions",
+      "emptySubscriptions": "No subscriptions found for this client.",
       "outstandingBalance": "Outstanding Balance",
       "totalBilled": "Total Billed",
       "totalReceived": "Total Received",

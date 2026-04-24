@@ -37,7 +37,10 @@
     "form": {
       "namePlaceholder": "Enter job name",
       "clientPlaceholder": "Select client",
-      "locationPlaceholder": "Select location"
+      "locationPlaceholder": "Select location",
+      "nameInfo": "The name of the job as it appears in lists and documents.",
+      "clientInfo": "The client this job is being performed for.",
+      "locationInfo": "The location or site where this job takes place."
     },
     "actions": {
       "view": "View Job",

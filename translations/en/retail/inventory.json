@@ -31,7 +31,15 @@
       "unitOfMeasure": "Unit of Measure",
       "notes": "Notes",
       "notesPlaceholder": "Optional notes about this inventory item...",
-      "active": "Active"
+      "active": "Active",
+      "productInfo": "The product this inventory item represents. Cannot be changed after creation.",
+      "skuInfo": "Stock Keeping Unit — a unique identifier for this item at this location.",
+      "onHandInfo": "Total quantity physically present at this location, including reserved units.",
+      "reservedInfo": "Quantity set aside for pending orders. Deducted from available stock.",
+      "reorderLevelInfo": "When on-hand stock drops to or below this level, a restock alert is triggered.",
+      "unitOfMeasureInfo": "The unit used to count this item (e.g. pcs, kg, box).",
+      "notesInfo": "Internal notes visible only to staff. Not shown to customers.",
+      "activeInfo": "Inactive items are hidden from stock reports and cannot be sold."
     },
     "actions": {
       "view": "View Item",
@@ -76,7 +84,14 @@
       "statusSold": "Sold",
       "statusReserved": "Reserved",
       "statusDefective": "Defective",
-      "statusReturned": "Returned"
+      "statusReturned": "Returned",
+      "serialNumberInfo": "Unique identifier printed on the physical unit.",
+      "imeiInfo": "15-digit IMEI for mobile or wireless devices. Leave blank if not applicable.",
+      "statusInfo": "Current lifecycle state of this unit (available, sold, reserved, defective, returned).",
+      "warrantyStartInfo": "Date the manufacturer warranty begins for this unit.",
+      "warrantyEndInfo": "Date the manufacturer warranty expires for this unit.",
+      "purchaseOrderInfo": "The purchase order this unit was received against.",
+      "soldReferenceInfo": "The sale or invoice reference when this unit was sold."
     },
     "transaction": {
       "title": "Transactions",
@@ -92,7 +107,11 @@
       "typeAdjusted": "Adjusted",
       "typeTransferred": "Transferred",
       "typeReturned": "Returned",
-      "typeWriteOff": "Write-Off"
+      "typeWriteOff": "Write-Off",
+      "typeInfo": "The kind of stock movement being recorded.",
+      "quantityInfo": "Number of units affected. Use a positive value.",
+      "dateInfo": "Date when the movement actually occurred.",
+      "referenceInfo": "Optional reference number (e.g. PO number, sale ID) for traceability."
     },
     "depreciation": {
       "title": "Depreciation",
@@ -109,7 +128,12 @@
       "methodStraightLine": "Straight Line",
       "methodDecliningBalance": "Declining Balance",
       "methodSumOfYears": "Sum of Years' Digits",
-      "monthsUnit": "months"
+      "monthsUnit": "months",
+      "methodInfo": "Accounting method used to spread the asset's cost over its useful life.",
+      "costBasisInfo": "Original purchase cost of the asset in centavos (÷100 for display).",
+      "salvageValueInfo": "Estimated residual value at end of useful life, in centavos.",
+      "usefulLifeInfo": "Expected lifespan of the asset in months.",
+      "startDateInfo": "Date depreciation calculation begins (typically the acquisition date)."
     },
     "dashboard": {
       "title": "Inventory Dashboard",

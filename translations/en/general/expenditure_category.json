@@ -23,7 +23,10 @@
       "name": "Name",
       "namePlaceholder": "Enter category name",
       "description": "Description",
-      "descriptionPlaceholder": "Optional description..."
+      "descriptionPlaceholder": "Optional description...",
+      "codeInfo": "Short unique code used to classify expenses in reports (e.g. TRAVEL, SUPPLIES).",
+      "nameInfo": "Human-readable name for this expense category.",
+      "descriptionInfo": "Optional description to clarify when this category should be used."
     },
     "actions": {
       "add": "Add Category",

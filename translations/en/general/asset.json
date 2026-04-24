@@ -1,0 +1,9 @@
+{
+  "form": {
+    "assetNumberInfo": "Unique identifier for this asset in your register (e.g. FA-001).",
+    "acquisitionCostInfo": "Total cost to acquire or construct the asset, including installation.",
+    "salvageValueInfo": "Estimated residual value at the end of the asset's useful life.",
+    "usefulLifeMonthsInfo": "Expected productive life of the asset in months, used to calculate depreciation.",
+    "depreciationMethodInfo": "The accounting method used to allocate the asset's cost over its useful life."
+  }
+}

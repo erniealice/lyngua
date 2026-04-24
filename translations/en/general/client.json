@@ -1,3 +1,17 @@
 {
-  "client": {}
+  "client": {
+    "form": {
+      "nameInfo": "The company or organisation name for this client.",
+      "emailInfo": "Primary email address for invoices and notifications.",
+      "mobileInfo": "Primary contact number for the client representative.",
+      "notesInfo": "Internal remarks — shown on detail pages but not on customer-facing documents.",
+      "paymentTermsInfo": "Default payment terms applied to new invoices for this client.",
+      "tagsInfo": "Categories used for filtering and grouping clients in reports.",
+      "activeInfo": "Inactive clients are hidden from new transactions but remain on record.",
+      "accounting": "Accounting",
+      "billingCurrency": "Billing Currency",
+      "billingCurrencyPlaceholder": "e.g. PHP, USD, AUD",
+      "billingCurrencyInfo": "ISO 4217 currency the client is billed in. Defaults to workspace functional currency when blank."
+    }
+  }
 }

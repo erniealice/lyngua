@@ -1,12 +1,19 @@
 {
   "product_plan": {
+    "form": {
+      "variantSelectLabel": "Variant",
+      "variantSelectPlaceholder": "Select a variant",
+      "variantSelectInfo": "Required when the parent product has variants enabled."
+    },
     "validation": {
       "data_required": "Product plan data is required",
       "name_required": "Product plan name is required",
       "email_required": "Product plan email is required",
       "email_invalid": "Product plan email format is invalid",
       "id_required": "Product plan ID is required",
-      "request_required": "Request is required for product plans"
+      "request_required": "Request is required for product plans",
+      "variant_id_required_for_configurable": "A variant is required when the parent product has variants enabled.",
+      "variant_id_forbidden_for_simple": "Variant must be empty when the parent product is simple (no variants)."
     },
     "errors": {
       "not_found": "Product plan with ID \"{entityId}\" not found",
@@ -14,7 +21,9 @@
       "update_failed": "Product plan update failed",
       "deletion_failed": "Product plan deletion failed",
       "list_failed": "Failed to retrieve product plans",
-      "authorization_failed": "Authorization failed for product plans"
+      "authorization_failed": "Authorization failed for product plans",
+      "product_variant_validation_failed": "Could not validate the selected variant.",
+      "product_variant_not_found": "Selected variant not found."
     }
   }
 }

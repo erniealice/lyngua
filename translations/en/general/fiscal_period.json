@@ -1,4 +1,14 @@
 {
+  "form": {
+    "period_number": "Period Number",
+    "fiscal_year": "Fiscal Year",
+    "start_date": "Start Date",
+    "end_date": "End Date",
+    "periodNumberInfo": "Sequential number of this period within the fiscal year (e.g. 1 for January).",
+    "fiscalYearInfo": "The fiscal year this period belongs to (e.g. 2026).",
+    "startDateInfo": "First day of this accounting period. Journal entries dated on or after this date fall within the period.",
+    "endDateInfo": "Last day of this accounting period. Journal entries dated on or before this date fall within the period."
+  },
   "page": {
     "heading": "Fiscal Periods",
     "caption": "Manage accounting periods and year-end close"

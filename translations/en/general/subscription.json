@@ -36,7 +36,13 @@
       "customerNoResults": "No customers found",
       "planNoResults": "No plans found",
       "code": "Code",
-      "codePlaceholder": "e.g. A3K7PXR"
+      "codePlaceholder": "e.g. A3K7PXR",
+      "customerInfo": "The client this subscription is billed to.",
+      "planInfo": "The price plan this subscription follows. Determines amount, billing cycle, and any per-product prices.",
+      "codeInfo": "Short reference used on invoices and receipts. Leave blank to auto-generate.",
+      "startDateInfo": "First day the subscription is active. Billing cycles are counted from this date.",
+      "endDateInfo": "Last day the subscription is active. Leave blank for open-ended.",
+      "notesInfo": "Internal remarks — shown on detail pages but not on customer-facing documents."
     },
     "actions": {
       "view": "View Subscription",

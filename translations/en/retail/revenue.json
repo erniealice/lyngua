@@ -73,7 +73,14 @@
       "locationNoResults": "No locations found",
       "revenueType": "Revenue Type",
       "revenueTypeOneTime": "One-time",
-      "revenueTypeFromEngagement": "From Subscription"
+      "revenueTypeFromEngagement": "From Subscription",
+      "paymentMethodInfo": "How the customer is paying for this transaction.",
+      "amountInfo": "Total amount received in centavos (÷100 for display).",
+      "currencyInfo": "Currency of this payment. Defaults to the sale currency.",
+      "referenceNumberInfo": "OR number, transaction ID, or other payment reference.",
+      "receivedByInfo": "Staff member who processed or received this payment.",
+      "roleInfo": "Role of the staff member receiving this payment.",
+      "notesInfo": "Internal notes about this payment. Not shown to customers."
     },
     "actions": {
       "view": "View Sale",
@@ -152,7 +159,14 @@
       "notesPlaceholder": "Optional notes about this sale...",
       "product": "Product",
       "productNoResults": "No products found",
-      "productPlaceholder": "Search products..."
+      "productPlaceholder": "Search products...",
+      "productInfo": "The product being added to this sale.",
+      "descriptionInfo": "Line item description shown on the invoice.",
+      "quantityInfo": "Number of units sold. Must be greater than zero.",
+      "unitPriceInfo": "Selling price per unit in centavos (÷100 for display).",
+      "costPriceInfo": "Cost per unit used to calculate gross profit. Not shown to customers.",
+      "discountInfo": "Discount amount or percentage applied to this line item.",
+      "notesInfo": "Optional internal note for this line item."
     },
     "lineItems": {
       "addItem": "Add Item",

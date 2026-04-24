@@ -15,7 +15,9 @@
       "captionFailed":    "Failed service groups"
     },
     "buttons": {
-      "addProductLine": "Add Service Group"
+      "addProductLine":    "Add Service Group",
+      "editProductLine":   "Edit Service Group",
+      "deleteProductLine": "Delete Service Group"
     },
     "columns": {
       "name":        "Name",

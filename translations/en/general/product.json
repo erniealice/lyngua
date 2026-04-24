@@ -24,7 +24,48 @@
     },
     "form": {
       "line": "Line",
-      "linePlaceholder": "Select a line"
+      "linePlaceholder": "Select a line",
+      "nameInfo": "The item name as it appears in lists, invoices, and plan breakdowns.",
+      "descriptionInfo": "Optional detail shown on detail pages and product-facing documents.",
+      "lineInfo": "Product line this item belongs to. Used for grouping and filtering.",
+      "priceInfo": "Default unit price in the selected currency. Stored in centavos; displayed divided by 100.",
+      "currencyInfo": "Currency applied to this item's default price.",
+      "activeInfo": "Inactive items are hidden from selection in new plans and transactions.",
+      "variantModeLabel": "Variant Configurable",
+      "variantModeInfo": "Turn on if this product has options (e.g. size, color) that produce distinct SKUs. Price is then set per-variant rather than on this form.",
+      "variantModeNone": "Simple",
+      "variantModeConfigurable": "Configurable",
+      "unitLabel": "Unit of measure",
+      "unitInfo": "Free-text display unit (e.g. ea, lb, kg, hr, session). Tenants choose their own convention.",
+      "unitPlaceholder": "e.g. ea, lb",
+      "variantPriceVaries": "Varies",
+      "variantModeLockedHelp": "Delete all variants and options first to change this setting.",
+      "variantModeLockedError": "Delete all variants and options before changing the variant mode.",
+      "productKindLabel": "Item type",
+      "productKindInfo": "What kind of thing this is — determines inventory behaviour, GL posting, and which sidebar surfaces carry it.",
+      "productKindValueInfo": {
+        "service": "Not a physical good. No inventory, no stock tracking. Examples: consultation, haircut, license.",
+        "stocked_good": "Physical good you carry in inventory and resell. Stock is counted. Examples: retail item, finished product.",
+        "non_stocked_good": "Physical good you sell but do not stock. Drop-shipped or special-ordered. Examples: custom furniture, one-off import.",
+        "consumable": "Back-of-house supply used to deliver a service — expensed on use. Examples: gauze, lotion, cleaning solution, coffee beans."
+      },
+      "deliveryModeLabel": "How it reaches the client",
+      "deliveryModeInfo": "Drives the fulfillment UI, revenue recognition timing, and invoice template.",
+      "deliveryModeValueInfo": {
+        "instant": "Handed over at point of sale — retail checkout or walk-in.",
+        "scheduled": "Appointment-based — a booked time slot.",
+        "shipped": "Physical delivery to an address.",
+        "digital": "Downloaded, streamed, or licensed online.",
+        "project": "Multi-milestone fulfillment — a case or engagement.",
+        "subscription": "Recurring access over time — monthly SaaS, gym membership."
+      },
+      "trackingModeLabel": "Inventory tracking",
+      "trackingModeInfo": "How per-unit inventory is counted. Only meaningful for physical goods.",
+      "trackingModeValueInfo": {
+        "none": "No inventory tracking. Default for services and non-stocked goods.",
+        "bulk": "Count-based — quantity on hand only.",
+        "serialized": "Per-unit — one row per physical unit. Use for high-value electronics, regulated stock."
+      }
     },
     "actions": {
       "activate": "Activate",
@@ -39,7 +80,9 @@
       "collections": "Collections",
       "currency": "Currency",
       "price": "Price",
-      "variant_count": "Variant Count"
+      "variant_count": "Variant Count",
+      "unit": "Unit of measure",
+      "variantMode": "Variant mode"
     },
     "errors": {
       "authorization_failed": "Authorization failed for products",
@@ -62,6 +105,7 @@
       "email_required": "Product email is required",
       "id_required": "Product ID is required",
       "name_required": "Product name is required",
+      "price_required_for_simple": "Price is required when this product is not variant-configurable.",
       "request_required": "Request is required for products"
     }
   }

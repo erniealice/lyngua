@@ -31,6 +31,8 @@
       "namePlaceholder": "Enter engagement name",
       "client": "Customer",
       "clientPlaceholder": "Select customer...",
+      "plan": "Package",
+      "planPlaceholder": "Select package...",
       "pricePlan": "Price Plan",
       "pricePlanPlaceholder": "Select price plan...",
       "dateStart": "Start Date",

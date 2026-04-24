@@ -1,5 +1,10 @@
 {
   "user": {
+    "form": {
+      "emailInfo": "Primary email address used for login and system notifications.",
+      "mobileInfo": "Contact number for the user. Used for two-factor authentication if enabled.",
+      "activeInfo": "Inactive users cannot log in but their records are retained."
+    },
     "validation": {
       "data_required": "User data is required",
       "name_required": "User name is required",

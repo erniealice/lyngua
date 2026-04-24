@@ -1,0 +1,42 @@
+{
+  "page": {
+    "heading": "Tags",
+    "headingActive": "Active Tags",
+    "headingInactive": "Inactive Tags",
+    "caption": "Label events with colored tags",
+    "captionActive": "Manage your active tags",
+    "captionInactive": "View inactive tags"
+  },
+  "buttons": {
+    "addTag": "Add Tag"
+  },
+  "columns": {
+    "name": "Name",
+    "description": "Description",
+    "color": "Color",
+    "status": "Status",
+    "dateCreated": "Date Created"
+  },
+  "empty": {
+    "activeTitle": "No active tags",
+    "activeMessage": "Add your first tag to start categorizing events",
+    "inactiveTitle": "No inactive tags",
+    "inactiveMessage": "Inactive tags will appear here"
+  },
+  "form": {
+    "name": "Name",
+    "namePlaceholder": "e.g. Client Meeting",
+    "description": "Description",
+    "descriptionPlaceholder": "When to use this tag",
+    "color": "Color",
+    "colorPlaceholder": "Pick or enter a hex color",
+    "active": "Active"
+  },
+  "actions": {
+    "view": "View",
+    "edit": "Edit",
+    "delete": "Delete",
+    "activate": "Activate",
+    "deactivate": "Deactivate"
+  }
+}

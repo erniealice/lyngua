@@ -1,4 +1,12 @@
 {
+  "supplier": {
+    "tagForm": {
+      "tagNameInfo": "Label used to categorize and filter suppliers (e.g. Preferred, Local, High-Risk).",
+      "codeInfo": "Short identifier for this tag. Auto-generated from the name if left blank.",
+      "descriptionInfo": "Optional notes describing when to apply this tag.",
+      "activeInfo": "Inactive tags are hidden from new supplier assignments but remain on record."
+    }
+  },
   "page": {
     "heading": "Supplier Tags",
     "subtitle": "Manage tags for organizing suppliers"

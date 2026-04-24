@@ -33,7 +33,14 @@
       "product": "Product",
       "selectProduct": "Select a product...",
       "amount": "Amount",
-      "currency": "Currency"
+      "currency": "Currency",
+      "nameInfo": "Unique name to identify this price list (e.g. 'Holiday Sale 2026').",
+      "descriptionInfo": "Optional description of the purpose or scope of this price list.",
+      "dateStartInfo": "Date from which this price list becomes effective. Leave blank to apply immediately.",
+      "dateEndInfo": "Date after which this price list expires. Leave blank for no expiry.",
+      "activeInfo": "Inactive price lists are not applied at checkout.",
+      "amountInfo": "Price for this product in centavos (÷100 for display). Must be a whole number.",
+      "currencyInfo": "Currency for this price. Defaults to PHP."
     },
     "actions": {
       "view": "View",

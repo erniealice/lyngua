@@ -1,5 +1,13 @@
 {
   "product_price_plan": {
+    "validation": {
+      "product_plan_id_required": "A catalog line from the plan must be selected."
+    },
+    "errors": {
+      "product_plan_validation_failed": "Could not validate the selected catalog line.",
+      "product_plan_not_found": "Selected catalog line not found.",
+      "product_plan_plan_mismatch": "Selected catalog line does not belong to this plan."
+    },
     "form": {
       "billingTreatmentLabel": "Billing treatment",
       "billingTreatmentRecurring": "Every cycle",
@@ -17,7 +25,10 @@
       "currencyPHP": "PHP (₱)",
       "currencyUSD": "USD ($)",
       "dateStartLabel": "Effective from",
-      "dateEndLabel": "Effective until"
+      "dateEndLabel": "Effective until",
+      "catalogLineLabel": "Catalog line",
+      "catalogLinePlaceholder": "Select a line from the plan's catalog",
+      "catalogLineInfo": "Prices the chosen catalog line from the parent plan. If the line has a variant, that variant is priced."
     }
   }
 }

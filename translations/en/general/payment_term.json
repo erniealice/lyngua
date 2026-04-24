@@ -57,7 +57,10 @@
       "proximateDayPlaceholder": "e.g. 15",
       "scopesBoth": "Clients & Suppliers",
       "scopesSupplierOnly": "Suppliers Only",
-      "scopesClientOnly": "Clients Only"
+      "scopesClientOnly": "Clients Only",
+      "nameInfo": "Display name shown in dropdowns and on documents (e.g. Net 30, Due on Receipt).",
+      "codeInfo": "Short machine-readable identifier used internally (e.g. net_30). Auto-generated from the name if left blank.",
+      "descriptionInfo": "Optional notes explaining when or how this payment term applies."
     }
   }
 }

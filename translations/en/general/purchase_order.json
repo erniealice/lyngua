@@ -84,7 +84,16 @@
       "sectionInfo": "Purchase Order Information",
       "sectionSupplier": "Supplier Details",
       "sectionFinancials": "Financial Details",
-      "sectionNotes": "Notes"
+      "sectionNotes": "Notes",
+      "poNumberInfo": "Unique purchase order number for tracking and reference (e.g. PO-2026-001).",
+      "poTypeInfo": "Classifies the PO: Standard (one-time), Blanket (recurring), or Contract.",
+      "supplierInfo": "The vendor or supplier fulfilling this purchase order.",
+      "orderDateInfo": "Date the purchase order was issued to the supplier.",
+      "currencyInfo": "Currency for all line-item amounts on this purchase order.",
+      "paymentTermsInfo": "Agreed payment schedule (e.g. Net 30, COD).",
+      "shippingTermsInfo": "Delivery terms agreed with the supplier (e.g. FOB, CIF).",
+      "referenceNumberInfo": "Optional internal or supplier reference number for this order.",
+      "notesInfo": "Internal notes for this purchase order. Not sent to the supplier."
     },
     "status": {
       "draft": "Draft",
