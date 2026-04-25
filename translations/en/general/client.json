@@ -1,5 +1,50 @@
 {
   "client": {
+    "page": {
+      "heading": "Clients",
+      "caption": "View and manage your client portfolio",
+      "headingActive": "Active Clients",
+      "captionActive": "Manage your current client relationships",
+      "headingProspect": "Prospect Clients",
+      "captionProspect": "Track potential clients in your sales pipeline",
+      "headingOnHold": "On Hold Clients",
+      "captionOnHold": "Clients temporarily paused — billing or service is suspended",
+      "headingBlocked": "Blocked Clients",
+      "captionBlocked": "Clients flagged from new transactions",
+      "headingInactive": "Inactive Clients",
+      "captionInactive": "View former clients and archived accounts"
+    },
+    "empty": {
+      "activeTitle": "No active clients",
+      "activeMessage": "Add your first client to get started",
+      "prospectTitle": "No prospects",
+      "prospectMessage": "Potential clients will appear here",
+      "onHoldTitle": "No clients on hold",
+      "onHoldMessage": "Clients you put on hold will appear here",
+      "blockedTitle": "No blocked clients",
+      "blockedMessage": "Clients you block will appear here",
+      "inactiveTitle": "No inactive clients",
+      "inactiveMessage": "Inactive clients will appear here"
+    },
+    "detail": {
+      "actions": {
+        "viewClient": "View client",
+        "editClient": "Edit client",
+        "deleteClient": "Delete client",
+        "deactivateClient": "Set as inactive",
+        "activateClient": "Set as active",
+        "blockClient": "Block",
+        "holdClient": "Set on hold",
+        "setProspect": "Set as prospect"
+      }
+    },
+    "bulkActions": {
+      "setAsActive": "Set as active",
+      "setAsInactive": "Set as inactive",
+      "setAsBlocked": "Set as blocked",
+      "setAsOnHold": "Set on hold",
+      "setAsProspect": "Set as prospect"
+    },
     "form": {
       "nameInfo": "The company or organisation name for this client.",
       "emailInfo": "Primary email address for invoices and notifications.",
@@ -11,7 +56,12 @@
       "accounting": "Accounting",
       "billingCurrency": "Billing Currency",
       "billingCurrencyPlaceholder": "e.g. PHP, USD, AUD",
-      "billingCurrencyInfo": "ISO 4217 currency the client is billed in. Defaults to workspace functional currency when blank."
+      "billingCurrencyInfo": "ISO 4217 currency the client is billed in. Defaults to workspace functional currency when blank.",
+      "timezone": "Timezone",
+      "timezonePlaceholder": "Select timezone…",
+      "timezoneSearchPlaceholder": "Search timezones…",
+      "timezoneNoResults": "No matching timezones",
+      "timezoneInfo": "Display timezone for this representative."
     }
   }
 }

@@ -82,7 +82,8 @@
       "price": "Price",
       "variant_count": "Variant Count",
       "unit": "Unit of measure",
-      "variantMode": "Variant mode"
+      "variantMode": "Variant mode",
+      "noDescriptionSubtitle": "No description provided"
     },
     "errors": {
       "authorization_failed": "Authorization failed for products",

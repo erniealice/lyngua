@@ -309,6 +309,9 @@
   "status": {
     "active": "Active",
     "inactive": "Inactive",
+    "blocked": "Blocked",
+    "onHold": "On hold",
+    "prospect": "Prospect",
     "pending": "Pending",
     "draft": "Draft",
     "approved": "Approved",

@@ -32,7 +32,11 @@
     "addUser": "Add User"
   },
   "form": {
-    "mobile": "Mobile"
+    "mobile": "Mobile",
+    "timezone": "Timezone",
+    "timezonePlaceholder": "e.g. Asia/Manila",
+    "timezoneSearchPlaceholder": "Search timezones…",
+    "timezoneNoResults": "No matching timezones"
   },
   "detail": {
     "basicInfo": {

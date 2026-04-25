@@ -11,7 +11,8 @@
     "buttons": {
       "addPlan": "Add Package",
       "addProduct": "Add Item",
-      "addPricePlan": "Add Package Price"
+      "addPricePlan": "Add Package Price",
+      "editPricePlan": "Edit Package Price"
     },
     "columns": {
       "name": "Package Name",
@@ -19,7 +20,7 @@
       "price": "Price",
       "status": "Status",
       "itemType": "Item Type",
-      "pricePlan": "Package Price",
+      "pricePlan": "Package",
       "priceSchedule": "Rate Card"
     },
     "empty": {

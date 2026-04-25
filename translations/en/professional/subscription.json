@@ -24,7 +24,19 @@
     "actions": {
       "view": "View Engagement",
       "edit": "Edit Engagement",
-      "cancel": "Cancel Engagement"
+      "cancel": "Cancel Engagement",
+      "delete": "Delete",
+      "activate": "Activate",
+      "deactivate": "Deactivate"
+    },
+    "bulkActions": {
+      "delete": "Delete Selected",
+      "bulkActivate": "Activate Selected",
+      "bulkDeactivate": "Deactivate Selected"
+    },
+    "status": {
+      "activate": "Activate",
+      "deactivate": "Deactivate"
     },
     "form": {
       "name": "Engagement Name",
@@ -37,6 +49,11 @@
       "pricePlanPlaceholder": "Select price plan...",
       "dateStart": "Start Date",
       "dateEnd": "End Date",
+      "start_time": "Start time",
+      "end_time": "End time",
+      "start_time_info": "Time of day in the operator's display timezone.",
+      "end_time_info": "Optional. Leave blank for an open-ended subscription.",
+      "timezone": "Timezone",
       "notes": "Notes",
       "notesPlaceholder": "Enter any additional notes...",
       "customerSearchPlaceholder": "Search customers...",
@@ -64,18 +81,75 @@
     },
     "tabs": {
       "info": "Information",
+      "invoices": "Invoices",
       "auditTrail": "Audit Trail"
+    },
+    "invoices": {
+      "title": "Invoices",
+      "empty": "No invoices yet — click Generate Invoice to recognize the first one.",
+      "columnCode": "Number",
+      "columnDate": "Date",
+      "columnAmount": "Amount",
+      "columnStatus": "Status",
+      "recognizeAction": "Generate Invoice",
+      "recognizeTitle": "Generate Invoice",
+      "recognizeSubtitle": "Recognize revenue for this engagement's billing period."
+    },
+    "recognize": {
+      "contextSection": "Engagement",
+      "clientLabel": "Customer",
+      "planLabel": "Package",
+      "quantityLabel": "Seats",
+      "periodSection": "Billing period",
+      "periodStart": "Period start",
+      "periodEnd": "Period end",
+      "revenueDate": "Invoice date",
+      "lineItemsSection": "Line items",
+      "columnDescription": "Description",
+      "columnUnitPrice": "Unit price",
+      "columnQuantity": "Qty",
+      "columnLineTotal": "Line total",
+      "columnTreatment": "Treatment",
+      "totalLabel": "Total",
+      "removeLine": "Remove",
+      "treatmentRecurring": "Every cycle",
+      "treatmentFirstCycle": "First cycle only",
+      "treatmentUsageBased": "On use",
+      "treatmentOneTime": "One time",
+      "notesLabel": "Notes",
+      "notesPlaceholder": "Notes are auto-prefixed with the period; append any free-text below.",
+      "generate": "Generate Invoice",
+      "cancel": "Cancel",
+      "currencyMismatchError": "Customer billing currency ({{.ClientCurrency}}) does not match the package ({{.PlanCurrency}}). Update one before generating the invoice.",
+      "idempotencyError": "An invoice for this period already exists. Cancel the existing one or pick a different period.",
+      "idempotencyExistingLink": "View the existing invoice",
+      "cycleNotConfiguredWarning": "Package has no billing cycle configured; defaulting to 1 month.",
+      "usageBasedSkippedNotice": "Usage-based lines were skipped — record them via metering."
     },
     "confirm": {
       "cancel": "Cancel Engagement",
       "cancelMessage": "Are you sure you want to cancel \"%s\"?",
       "delete": "Delete Engagement",
-      "deleteMessage": "Are you sure you want to delete \"%s\"? This action cannot be undone."
+      "deleteMessage": "Are you sure you want to delete \"%s\"? This action cannot be undone.",
+      "activate": "Activate Engagement",
+      "activateMessage": "Are you sure you want to activate %s?",
+      "deactivate": "Deactivate Engagement",
+      "deactivateMessage": "Are you sure you want to deactivate %s?",
+      "bulkActivate": "Activate Selected",
+      "bulkActivateMessage": "Are you sure you want to activate the selected engagements?",
+      "bulkDeactivate": "Deactivate Selected",
+      "bulkDeactivateMessage": "Are you sure you want to deactivate the selected engagements?",
+      "bulkDelete": "Delete Selected",
+      "bulkDeleteMessage": "Are you sure you want to delete the selected engagements? This action cannot be undone."
     },
     "errors": {
       "noPermission": "You do not have permission to perform this action",
       "notFound": "Engagement not found",
-      "invalidFormData": "Invalid form data. Please check your inputs and try again."
+      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
+      "noIDsProvided": "No engagement IDs provided",
+      "invalidStatus": "Invalid status value",
+      "cannotDelete": "Cannot delete — this engagement has dependent records",
+      "inUse": "Cannot delete — this engagement has dependent records (jobs, revenue, invoices, etc.)"
     },
     "validation": {
       "data_required": "Engagement data is required",

@@ -15,17 +15,63 @@
             "plan": "Program",
             "startDate": "Enrollment Date",
             "endDate": "Expected Completion",
+            "start_time": "Start time",
+            "end_time": "End time",
+            "start_time_info": "Time of day in the operator's display timezone.",
+            "end_time_info": "Optional. Leave blank for an open-ended subscription.",
+            "timezone": "Timezone",
             "notes": "Notes"
         },
         "actions": {
             "view": "View Enrollment",
             "edit": "Edit Enrollment",
-            "cancel": "Withdraw Enrollment"
+            "cancel": "Withdraw Enrollment",
+            "delete": "Delete",
+            "activate": "Activate",
+            "deactivate": "Deactivate"
+        },
+        "bulkActions": {
+            "delete": "Delete Selected",
+            "bulkActivate": "Activate Selected",
+            "bulkDeactivate": "Deactivate Selected"
+        },
+        "status": {
+            "activate": "Activate",
+            "deactivate": "Deactivate"
         },
         "detail": { "pageTitle": "Enrollment Details" },
+        "tabs": {
+            "info": "Information",
+            "invoices": "Invoices",
+            "auditTrail": "Audit Trail"
+        },
+        "invoices": {
+            "title": "Invoices",
+            "empty": "No invoices yet for this enrollment.",
+            "columnCode": "Number",
+            "columnDate": "Date",
+            "columnAmount": "Amount",
+            "columnStatus": "Status"
+        },
         "confirm": {
             "cancelTitle": "Withdraw Enrollment",
-            "cancelMessage": "Are you sure you want to withdraw this enrollment?"
+            "cancelMessage": "Are you sure you want to withdraw this enrollment?",
+            "activate": "Activate Enrollment",
+            "activateMessage": "Are you sure you want to activate %s?",
+            "deactivate": "Deactivate Enrollment",
+            "deactivateMessage": "Are you sure you want to deactivate %s?",
+            "bulkActivate": "Activate Selected",
+            "bulkActivateMessage": "Are you sure you want to activate the selected enrollments?",
+            "bulkDeactivate": "Deactivate Selected",
+            "bulkDeactivateMessage": "Are you sure you want to deactivate the selected enrollments?",
+            "bulkDelete": "Delete Selected",
+            "bulkDeleteMessage": "Are you sure you want to delete the selected enrollments? This action cannot be undone."
+        },
+        "errors": {
+            "noIDsProvided": "No enrollment IDs provided",
+            "invalidStatus": "Invalid status value",
+            "cannotDelete": "Cannot delete — this enrollment has dependent records",
+            "inUse": "Cannot delete — this enrollment has dependent records (jobs, revenue, invoices, etc.)"
         }
     }
 }

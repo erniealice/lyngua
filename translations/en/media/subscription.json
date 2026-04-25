@@ -15,17 +15,63 @@
             "plan": "Retainer Type",
             "startDate": "Start Date",
             "endDate": "End Date",
+            "start_time": "Start time",
+            "end_time": "End time",
+            "start_time_info": "Time of day in the operator's display timezone.",
+            "end_time_info": "Optional. Leave blank for an open-ended subscription.",
+            "timezone": "Timezone",
             "notes": "Scope & Deliverables"
         },
         "actions": {
             "view": "View Retainer",
             "edit": "Edit Retainer",
-            "cancel": "Cancel Retainer"
+            "cancel": "Cancel Retainer",
+            "delete": "Delete",
+            "activate": "Activate",
+            "deactivate": "Deactivate"
+        },
+        "bulkActions": {
+            "delete": "Delete Selected",
+            "bulkActivate": "Activate Selected",
+            "bulkDeactivate": "Deactivate Selected"
+        },
+        "status": {
+            "activate": "Activate",
+            "deactivate": "Deactivate"
         },
         "detail": { "pageTitle": "Retainer Details" },
+        "tabs": {
+            "info": "Information",
+            "invoices": "Invoices",
+            "auditTrail": "Audit Trail"
+        },
+        "invoices": {
+            "title": "Invoices",
+            "empty": "No invoices yet for this retainer.",
+            "columnCode": "Number",
+            "columnDate": "Date",
+            "columnAmount": "Amount",
+            "columnStatus": "Status"
+        },
         "confirm": {
             "cancelTitle": "Cancel Retainer",
-            "cancelMessage": "Are you sure you want to cancel this retainer?"
+            "cancelMessage": "Are you sure you want to cancel this retainer?",
+            "activate": "Activate Retainer",
+            "activateMessage": "Are you sure you want to activate %s?",
+            "deactivate": "Deactivate Retainer",
+            "deactivateMessage": "Are you sure you want to deactivate %s?",
+            "bulkActivate": "Activate Selected",
+            "bulkActivateMessage": "Are you sure you want to activate the selected retainers?",
+            "bulkDeactivate": "Deactivate Selected",
+            "bulkDeactivateMessage": "Are you sure you want to deactivate the selected retainers?",
+            "bulkDelete": "Delete Selected",
+            "bulkDeleteMessage": "Are you sure you want to delete the selected retainers? This action cannot be undone."
+        },
+        "errors": {
+            "noIDsProvided": "No retainer IDs provided",
+            "invalidStatus": "Invalid status value",
+            "cannotDelete": "Cannot delete — this retainer has dependent records",
+            "inUse": "Cannot delete — this retainer has dependent records (jobs, revenue, invoices, etc.)"
         }
     }
 }

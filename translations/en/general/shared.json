@@ -19,14 +19,18 @@
   },
   "confirm": {
     "activate": "Are you sure you want to activate %s?",
-    "deactivate": "Are you sure you want to deactivate %s?",
+    "deactivate": "Are you sure you want to set %s as inactive?",
     "delete": "Are you sure you want to delete %s?",
     "block": "Are you sure you want to block %s?",
+    "hold": "Are you sure you want to put %s on hold?",
+    "prospect": "Are you sure you want to set %s as a prospect?",
     "remove": "Are you sure you want to remove %s?",
     "bulkActivate": "Are you sure you want to activate {{count}} item(s)?",
-    "bulkDeactivate": "Are you sure you want to deactivate {{count}} item(s)?",
+    "bulkDeactivate": "Are you sure you want to set {{count}} item(s) as inactive?",
     "bulkDelete": "Are you sure you want to delete {{count}} item(s)? This action cannot be undone.",
-    "bulkBlock": "Are you sure you want to block {{count}} item(s)?"
+    "bulkBlock": "Are you sure you want to block {{count}} item(s)?",
+    "bulkHold": "Are you sure you want to put {{count}} item(s) on hold?",
+    "bulkProspect": "Are you sure you want to set {{count}} item(s) as prospects?"
   },
   "badges": {
     "allow": "Allow",

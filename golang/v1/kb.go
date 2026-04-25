@@ -51,3 +51,18 @@ func (p *TranslationProvider) LoadKBIfExists(locale, businessType, topic string)
 	}
 	return kb, err
 }
+
+// LoadHelpHTML is a convenience wrapper around LoadKBIfExists that returns
+// only the rendered HTML body and a found flag — the two values needed by
+// the help-pane plumbing (PageData.HasHelp + PageData.HelpContent).
+//
+// It exists so callers in framework-level packages (pyeza/view) can match
+// this signature via a tiny duck-typed interface without importing lyngua.
+// Use `view.LoadHelpInto` from pyeza-golang for the one-liner at the call site.
+func (p *TranslationProvider) LoadHelpHTML(locale, businessType, topic string) (template.HTML, bool) {
+	kb, _ := p.LoadKBIfExists(locale, businessType, topic)
+	if kb == nil {
+		return "", false
+	}
+	return kb.Body, true
+}

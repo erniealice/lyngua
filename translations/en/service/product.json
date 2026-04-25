@@ -32,12 +32,11 @@
       "active": "Active",
       "pricePlaceholder": "Leave empty to use base price",
       "selectOption": "Select",
-      "initialValues": "Initial Values",
-      "initialValuesPlaceholder": "e.g. 30 min, 60 min, 90 min",
       "required": "Required",
       "option": "Option",
       "selectAttribute": "— Select attribute —",
-      "allAttributesAssigned": "All available attributes have already been assigned to this service."
+      "allAttributesAssigned": "All available attributes have already been assigned to this service.",
+      "optionNeedsValuesAlert": "This required option has no values yet. Add values on the option detail page before assigning variants."
     },
     "actions": {
       "view": "View Service",
@@ -165,12 +164,17 @@
       "tab": {
         "title": "Service Options"
       },
+      "tabs": {
+        "info": "Info",
+        "values": "Values"
+      },
       "columns": {
         "name": "Name",
         "code": "Code",
         "dataType": "Data Type",
         "valuesCount": "Values",
         "sortOrder": "Sort Order",
+        "required": "Required",
         "status": "Status"
       },
       "form": {
@@ -182,13 +186,17 @@
         "sortOrder": "Sort Order",
         "minValue": "Min Value",
         "maxValue": "Max Value",
-        "active": "Active"
+        "active": "Active",
+        "requiredCaution": "Marking this option as required means every variant of this service must supply a value for it. If this option has no values yet, variants can't be saved until you add some.",
+        "description": "Description",
+        "descriptionPlaceholder": "Optional notes about this option",
+        "descriptionEmpty": "No description provided",
+        "descriptionInfo": "Optional internal description. Up to 500 characters."
       },
       "dataTypes": {
         "textList": "Text List",
-        "numberList": "Number List",
+        "numberRange": "Number Range",
         "colorList": "Color List",
-        "enumList": "Enum List",
         "freeText": "Free Text",
         "freeNumber": "Free Number"
       },
@@ -214,6 +222,7 @@
       "actions": {
         "addOption": "Add Option",
         "editOption": "Edit Option",
+        "editProductOption": "Edit Product Option",
         "deleteOption": "Delete Option",
         "viewValues": "View Values",
         "addValue": "Add Value",

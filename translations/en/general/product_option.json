@@ -2,12 +2,17 @@
   "tab": {
     "title": "Options"
   },
+  "tabs": {
+    "info": "Info",
+    "values": "Values"
+  },
   "columns": {
     "name": "Name",
     "code": "Code",
     "dataType": "Data Type",
     "valuesCount": "Values",
     "sortOrder": "Order",
+    "required": "Required",
     "status": "Status"
   },
   "form": {
@@ -19,13 +24,25 @@
     "sortOrder": "Sort Order",
     "minValue": "Minimum Value",
     "maxValue": "Maximum Value",
-    "active": "Active"
+    "active": "Active",
+    "required": "Required",
+    "requiredCaution": "Marking this option as required means every variant of this product must supply a value for it. If this option has no values yet, variants can't be saved until you add some.",
+    "description": "Description",
+    "descriptionPlaceholder": "Optional notes about this option",
+    "descriptionEmpty": "No description provided",
+    "nameInfo": "Shown to customers picking this option (e.g., \"Color\", \"Size\").",
+    "codeInfo": "Machine-friendly slug used in APIs and URLs. Lowercase, no spaces.",
+    "dataTypeInfo": "Text/Number/Color lists use predefined values. Free Text and Free Number accept arbitrary input.",
+    "minValueInfo": "Smallest numeric value accepted. Only applies to numeric data types.",
+    "maxValueInfo": "Largest numeric value accepted. Only applies to numeric data types.",
+    "sortOrderInfo": "Lower numbers appear first when options are listed.",
+    "activeInfo": "Inactive options are hidden from new variants but preserved on existing rows.",
+    "descriptionInfo": "Optional internal description. Up to 500 characters."
   },
   "dataTypes": {
     "textList": "Text List",
-    "numberList": "Number List",
+    "numberRange": "Number Range",
     "colorList": "Color List",
-    "enumList": "Enum List",
     "freeText": "Free Text",
     "freeNumber": "Free Number"
   },
@@ -45,12 +62,15 @@
       "sortOrder": "Sort Order",
       "colorHex": "Color (Hex)",
       "colorHexPlaceholder": "#000000",
-      "active": "Active"
+      "active": "Active",
+      "option": "Option",
+      "required": "Required"
     }
   },
   "actions": {
     "addOption": "Add Option",
     "editOption": "Edit Option",
+    "editProductOption": "Edit Product Option",
     "deleteOption": "Delete Option",
     "viewValues": "View Values",
     "addValue": "Add Value",

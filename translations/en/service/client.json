@@ -7,6 +7,10 @@
       "captionActive": "Manage your current customer relationships",
       "headingProspect": "Prospect Customers",
       "captionProspect": "Track potential customers in your sales pipeline",
+      "headingOnHold": "On Hold Customers",
+      "captionOnHold": "Customers temporarily paused — bookings or service suspended",
+      "headingBlocked": "Blocked Customers",
+      "captionBlocked": "Customers flagged from new bookings",
       "headingInactive": "Inactive Customers",
       "captionInactive": "View former customers and paused accounts"
     },
@@ -25,6 +29,10 @@
       "activeMessage": "Add your first customer to get started",
       "prospectTitle": "No prospects",
       "prospectMessage": "Potential customers will appear here",
+      "onHoldTitle": "No customers on hold",
+      "onHoldMessage": "Customers you put on hold will appear here",
+      "blockedTitle": "No blocked customers",
+      "blockedMessage": "Customers you block will appear here",
       "inactiveTitle": "No inactive customers",
       "inactiveMessage": "Inactive customers will appear here"
     },
@@ -48,7 +56,12 @@
       "tags": "Tags",
       "tagsPlaceholder": "Select tags...",
       "tagsSearchPlaceholder": "Search tags...",
-      "tagsNoResults": "No tags available. Create tags in Settings."
+      "tagsNoResults": "No tags available. Create tags in Settings.",
+      "timezone": "Timezone",
+      "timezonePlaceholder": "Select timezone…",
+      "timezoneSearchPlaceholder": "Search timezones…",
+      "timezoneNoResults": "No matching timezones",
+      "timezoneInfo": "Display timezone for this representative."
     },
     "detail": {
       "companyDetails": {
@@ -58,8 +71,11 @@
         "viewClient": "View customer",
         "editClient": "Edit customer",
         "deleteClient": "Delete customer",
-        "deactivateClient": "Deactivate",
-        "activateClient": "Activate"
+        "deactivateClient": "Set as inactive",
+        "activateClient": "Set as active",
+        "blockClient": "Block",
+        "holdClient": "Set on hold",
+        "setProspect": "Set as prospect"
       },
       "profile": {
         "title": "Profile"
@@ -128,7 +144,11 @@
       "emptyStatementMessage": "There are no transactions for this client."
     },
     "bulkActions": {
-      "setAsInactive": "Set As Inactive"
+      "setAsActive": "Set as active",
+      "setAsInactive": "Set as inactive",
+      "setAsBlocked": "Set as blocked",
+      "setAsOnHold": "Set on hold",
+      "setAsProspect": "Set as prospect"
     }
   }
 }

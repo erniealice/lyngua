@@ -15,17 +15,63 @@
             "plan": "Contract Type",
             "startDate": "Commencement Date",
             "endDate": "Completion Date",
+            "start_time": "Start time",
+            "end_time": "End time",
+            "start_time_info": "Time of day in the operator's display timezone.",
+            "end_time_info": "Optional. Leave blank for an open-ended subscription.",
+            "timezone": "Timezone",
             "notes": "Scope & Terms"
         },
         "actions": {
             "view": "View Contract",
             "edit": "Edit Contract",
-            "cancel": "Terminate Contract"
+            "cancel": "Terminate Contract",
+            "delete": "Delete",
+            "activate": "Activate",
+            "deactivate": "Deactivate"
+        },
+        "bulkActions": {
+            "delete": "Delete Selected",
+            "bulkActivate": "Activate Selected",
+            "bulkDeactivate": "Deactivate Selected"
+        },
+        "status": {
+            "activate": "Activate",
+            "deactivate": "Deactivate"
         },
         "detail": { "pageTitle": "Contract Details" },
+        "tabs": {
+            "info": "Information",
+            "invoices": "Invoices",
+            "auditTrail": "Audit Trail"
+        },
+        "invoices": {
+            "title": "Invoices",
+            "empty": "No invoices yet for this contract.",
+            "columnCode": "Number",
+            "columnDate": "Date",
+            "columnAmount": "Amount",
+            "columnStatus": "Status"
+        },
         "confirm": {
             "cancelTitle": "Terminate Contract",
-            "cancelMessage": "Are you sure you want to terminate this contract?"
+            "cancelMessage": "Are you sure you want to terminate this contract?",
+            "activate": "Activate Contract",
+            "activateMessage": "Are you sure you want to activate %s?",
+            "deactivate": "Deactivate Contract",
+            "deactivateMessage": "Are you sure you want to deactivate %s?",
+            "bulkActivate": "Activate Selected",
+            "bulkActivateMessage": "Are you sure you want to activate the selected contracts?",
+            "bulkDeactivate": "Deactivate Selected",
+            "bulkDeactivateMessage": "Are you sure you want to deactivate the selected contracts?",
+            "bulkDelete": "Delete Selected",
+            "bulkDeleteMessage": "Are you sure you want to delete the selected contracts? This action cannot be undone."
+        },
+        "errors": {
+            "noIDsProvided": "No contract IDs provided",
+            "invalidStatus": "Invalid status value",
+            "cannotDelete": "Cannot delete — this contract has dependent records",
+            "inUse": "Cannot delete — this contract has dependent records (jobs, revenue, invoices, etc.)"
         }
     }
 }

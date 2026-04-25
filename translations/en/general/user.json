@@ -3,6 +3,11 @@
     "form": {
       "emailInfo": "Primary email address used for login and system notifications.",
       "mobileInfo": "Contact number for the user. Used for two-factor authentication if enabled.",
+      "timezone": "Timezone",
+      "timezonePlaceholder": "e.g. Asia/Manila",
+      "timezoneSearchPlaceholder": "Search timezones…",
+      "timezoneNoResults": "No matching timezones",
+      "timezoneInfo": "IANA timezone name. Used as the default for date and time pickers in this user's drawers.",
       "activeInfo": "Inactive users cannot log in but their records are retained."
     },
     "validation": {
