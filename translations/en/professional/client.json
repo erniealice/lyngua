@@ -120,7 +120,23 @@
       "timezonePlaceholder": "Select timezone…",
       "timezoneSearchPlaceholder": "Search timezones…",
       "timezoneNoResults": "No matching timezones",
-      "timezoneInfo": "Display timezone for this representative."
+      "timezoneInfo": "Display timezone for this representative.",
+      "status": "Status",
+      "statusPlaceholder": "Select status",
+      "statusActive": "Active",
+      "statusBlocked": "Blocked",
+      "statusOnHold": "On Hold",
+      "statusInactive": "Inactive",
+      "statusProspect": "Prospect",
+      "country": "Country",
+      "countryPlaceholder": "PH",
+      "website": "Website",
+      "websitePlaceholder": "https://example.com",
+      "sectionCompany": "Company Details",
+      "sectionAddress": "Address",
+      "sectionRepresentative": "Representative",
+      "sectionAccounting": "Accounting",
+      "sectionOthers": "Others"
     },
     "detail": {
       "pageTitle": "Client Details",
@@ -237,7 +253,19 @@
         "subscriptionsSlug": "engagements",
         "accounting": "Accounting",
         "history": "History",
-        "statement": "Statement"
+        "statement": "Statement",
+        "packages": "Custom rate cards",
+        "attachments": "Attachments",
+        "auditHistory": "History"
+      },
+      "packages": {
+        "empty": "No bespoke rate cards yet — every engagement uses a standard rate card.",
+        "addAction": "Add bespoke rate card"
+      },
+      "subscriptions": {
+        "columnPlan": "Engagement",
+        "confirmDeleteTitle": "Delete Engagement",
+        "confirmDeleteMessage": "Are you sure you want to delete %s?"
       },
       "statement": {
         "date": "Date",

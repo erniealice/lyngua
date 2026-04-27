@@ -15,9 +15,10 @@
     },
     "form": {
       "sectionCompany": "Supplier Information",
-      "sectionContact": "Contact Person",
-      "sectionFinancial": "Payment Details",
-      "sectionAddress": "Address"
+      "sectionAddress": "Address",
+      "sectionRepresentative": "Representative",
+      "sectionAccounting": "Payment Details",
+      "sectionOthers": "Others"
     },
     "detail": {
       "tabs": {

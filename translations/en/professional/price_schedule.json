@@ -29,6 +29,9 @@
       "title": "No Rate Cards",
       "message": "No rate cards to display."
     },
+    "fields": {
+      "customClientPriceScheduleLabelSuffix": "Rate Cards"
+    },
     "form": {
       "sectionScheduleDetails": "Schedule details",
       "sectionDateRange": "Date range",

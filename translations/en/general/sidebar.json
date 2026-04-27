@@ -60,5 +60,38 @@
     "receivables_aging_report_label": "Receivables Aging",
     "receivables_aging_report_icon": "icon-clock",
     "collection_summary_report_label": "Collection Summary",
-    "collection_summary_report_icon": "icon-bar-chart"
+    "collection_summary_report_icon": "icon-bar-chart",
+
+    "procurement_app_label": "Procurement",
+    "procurement_app_icon": "icon-package",
+
+    "supplier_contracts_title": "Supplier Contracts",
+    "supplier_contracts_active_icon": "icon-check-circle",
+    "supplier_contracts_expiring_icon": "icon-alert-triangle",
+    "supplier_contracts_pending_icon": "icon-clock",
+    "supplier_contracts_draft_icon": "icon-folder",
+    "supplier_contracts_terminated_icon": "icon-x-circle",
+
+    "procurement_requests_title": "Procurement Requests",
+    "procurement_requests_draft_icon": "icon-folder",
+    "procurement_requests_pending_icon": "icon-clock",
+    "procurement_requests_approved_icon": "icon-check-circle",
+    "procurement_requests_rejected_icon": "icon-x-circle",
+
+    "contract_operations_title": "Contract Operations",
+    "renewal_calendar_label": "Renewal Calendar",
+    "renewal_calendar_icon": "icon-calendar",
+    "variance_alerts_label": "Variance Alerts",
+    "variance_alerts_icon": "icon-alert-triangle",
+    "utilization_label": "Utilization",
+    "utilization_icon": "icon-bar-chart",
+
+    "recurrence_queue_title": "Recurrence Queue",
+    "pending_review_label": "Pending Review",
+    "drafts_pending_icon": "icon-inbox",
+
+    "expiring_label": "Expiring",
+    "terminated_label": "Terminated",
+    "pending_approval_label": "Pending Approval",
+    "rejected_label": "Rejected"
 }

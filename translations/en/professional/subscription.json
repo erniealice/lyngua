@@ -27,7 +27,8 @@
       "cancel": "Cancel Engagement",
       "delete": "Delete",
       "activate": "Activate",
-      "deactivate": "Deactivate"
+      "deactivate": "Deactivate",
+      "customizePackage": "Customize this rate card for {{.ClientName}}"
     },
     "bulkActions": {
       "delete": "Delete Selected",
@@ -142,6 +143,10 @@
       "bulkDelete": "Delete Selected",
       "bulkDeleteMessage": "Are you sure you want to delete the selected engagements? This action cannot be undone."
     },
+    "fields": {
+      "planGroupForClient": "Custom for {{.ClientName}}",
+      "planGroupGeneral": "Standard rate cards"
+    },
     "errors": {
       "noPermission": "You do not have permission to perform this action",
       "notFound": "Engagement not found",
@@ -149,7 +154,8 @@
       "noIDsProvided": "No engagement IDs provided",
       "invalidStatus": "Invalid status value",
       "cannotDelete": "Cannot delete — this engagement has dependent records",
-      "inUse": "Cannot delete — this engagement has dependent records (jobs, revenue, invoices, etc.)"
+      "inUse": "Cannot delete — this engagement has dependent records (jobs, revenue, invoices, etc.)",
+      "planClientMismatch": "This rate card belongs to a different client and cannot be used for this engagement."
     },
     "validation": {
       "data_required": "Engagement data is required",

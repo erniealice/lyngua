@@ -1,0 +1,11 @@
+{
+  "job_template_phase": {
+    "fields": {
+      "resourceId": "Resource",
+      "setupMinutes": "Setup Minutes",
+      "runMinutesPerUnit": "Run Minutes Per Unit",
+      "teardownMinutes": "Teardown Minutes",
+      "predecessorTemplatePhaseId": "Predecessor Phase"
+    }
+  }
+}

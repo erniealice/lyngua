@@ -1,0 +1,17 @@
+{
+  "job_template_task": {
+    "fields": {
+      "resourceId": "Resource",
+      "skillRequired": "Skill Required",
+      "quantityFactor": "Quantity Factor",
+      "standardLaborMinutes": "Standard Labor Minutes",
+      "standardMachineMinutes": "Standard Machine Minutes",
+      "setupMinutes": "Setup Minutes",
+      "runMinutesPerUnit": "Run Minutes Per Unit",
+      "teardownMinutes": "Teardown Minutes",
+      "toolRequired": "Tool Required",
+      "instructionDocId": "Instruction Doc",
+      "workflowStepId": "Workflow Step"
+    }
+  }
+}

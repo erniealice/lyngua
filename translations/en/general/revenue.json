@@ -1,5 +1,8 @@
 {
   "revenue": {
+    "errors": {
+      "subscriptionPlanClientDrift": "The subscription's client does not match the plan's client scope. Detach or re-scope the plan before recognizing revenue."
+    },
     "form": {
       "referenceInfo": "Unique identifier for this revenue record. Used on invoices and receipts.",
       "dateInfo": "The date the revenue is recognised or the transaction took place.",

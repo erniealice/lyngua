@@ -13,9 +13,9 @@
       "amountBasisDerivedFromLines": "Sum of items",
       "billingCycleLabel": "Billing cycle",
       "billingCyclePlaceholder": "e.g. every 1 month",
-      "defaultTermLabel": "Default term",
-      "defaultTermPlaceholder": "e.g. 12 months",
-      "defaultTermOpenEndedHelp": "Leave empty for open-ended / no expiration",
+      "termLabel": "Term",
+      "termPlaceholder": "e.g. 12 months",
+      "termOpenEndedHelp": "Leave empty for open-ended / no expiration",
       "currencyPHP": "PHP (₱)",
       "currencyUSD": "USD ($)",
       "planLabel": "Package",
@@ -61,6 +61,12 @@
       "products": "Services",
       "attachments": "Attachments",
       "audit": "Audit"
+    },
+    "fields": {
+      "parentScheduleClientNotice": "This rate card belongs to {{.ClientName}}. Price plans created here will be available only for engagements with this client."
+    },
+    "confirms": {
+      "editAmountMultipleEngagements": "This rate card is attached to {{.Count}} active engagements for {{.ClientName}}. Changing the amount or cycle will affect all of them on the next bill cycle. Continue?"
     },
     "errors": {
       "inUse": "This plan is in use by active engagements and cannot be deleted."

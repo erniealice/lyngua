@@ -121,7 +121,14 @@
       "qtyOnHand": "Capacity",
       "serialCount": "Serial Count",
       "noStock": "No Availability",
-      "noStockMsg": "No availability records found for this duration option."
+      "noStockMsg": "No availability records found for this duration option.",
+      "pricing": {
+        "start": "Start Date",
+        "end": "End Date",
+        "package": "Package",
+        "rateCard": "Rate Card",
+        "amount": "Amount"
+      }
     },
     "attribute": {
       "title": "Attribute",

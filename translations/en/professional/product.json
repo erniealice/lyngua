@@ -176,7 +176,14 @@
       "qtyOnHand": "Capacity",
       "serialCount": "Serial Count",
       "noStock": "No Resource Allocation",
-      "noStockMsg": "No resource allocation records found for this plan option."
+      "noStockMsg": "No resource allocation records found for this plan option.",
+      "pricing": {
+        "start": "Start Date",
+        "end": "End Date",
+        "package": "Package",
+        "rateCard": "Rate Card",
+        "amount": "Amount"
+      }
     },
     "attribute": {
       "title": "Attribute",

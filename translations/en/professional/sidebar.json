@@ -61,5 +61,7 @@
     "receivables_aging_report_label": "Receivables Aging",
     "receivables_aging_report_icon": "icon-clock",
     "collection_summary_report_label": "Collection Summary",
-    "collection_summary_report_icon": "icon-bar-chart"
+    "collection_summary_report_icon": "icon-bar-chart",
+
+    "supplier_contracts_title": "Vendor Agreements"
 }

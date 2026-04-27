@@ -13,9 +13,9 @@
       "amountBasisDerivedFromLines": "Sum of items",
       "billingCycleLabel": "Billing cycle",
       "billingCyclePlaceholder": "e.g. every 1 month",
-      "defaultTermLabel": "Default term",
-      "defaultTermPlaceholder": "e.g. 12 months",
-      "defaultTermOpenEndedHelp": "Leave empty for open-ended / no expiration",
+      "termLabel": "Term",
+      "termPlaceholder": "e.g. 12 months",
+      "termOpenEndedHelp": "Leave empty for open-ended / no expiration",
       "currencyPHP": "PHP (₱)",
       "currencyUSD": "USD ($)",
       "planLabel": "Package",
@@ -32,7 +32,7 @@
       "amountInfo": "Price in the selected currency. For Sum of items, this is computed automatically.",
       "currencyInfo": "Currency applied to this price plan and any auto-seeded product price plans.",
       "billingCycleInfo": "How often the recurring charge is issued (e.g. every 1 month).",
-      "defaultTermInfo": "Catalog default subscription length. Leave empty for open-ended / no expiration.",
+      "termInfo": "How long the engagement lasts. Leave empty for open-ended / no expiration.",
       "activeInfo": "Inactive price plans stay on record but are hidden from new subscriptions."
     },
     "productPrice": {
@@ -61,6 +61,12 @@
       "location_id_required": "Location selection is required for rate cards",
       "amount_required": "Amount is required for rate cards"
     },
+    "fields": {
+      "parentScheduleClientNotice": "This price schedule belongs to {{.ClientName}}. Price plans created here will be available only for engagements with this client."
+    },
+    "confirms": {
+      "editAmountMultipleEngagements": "This price plan is attached to {{.Count}} active subscriptions for {{.ClientName}}. Changing the amount or cycle will affect all of them on the next bill cycle. Continue?"
+    },
     "errors": {
       "not_found": "Rate card with ID \"{entityId}\" not found",
       "creation_failed": "Rate card creation failed",
@@ -68,7 +74,9 @@
       "deletion_failed": "Rate card deletion failed",
       "list_failed": "Failed to retrieve rate cards",
       "authorization_failed": "Authorization failed for rate cards",
-      "inUse": "This price plan is in use by active subscriptions and cannot be deleted."
+      "inUse": "This price plan is in use by active subscriptions and cannot be deleted.",
+      "clientScopeMismatch": "Price plan client must match its parent plan's client.",
+      "multiEngagementConfirmRequired": "Confirmation required — N > 1 attached subscriptions and monetary fields changing."
     }
   }
 }

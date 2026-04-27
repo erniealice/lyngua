@@ -27,10 +27,11 @@ type PricePlanFormLabels struct {
 	BillingCycleLabel       string `json:"billingCycleLabel"`
 	BillingCyclePlaceholder string `json:"billingCyclePlaceholder"`
 
-	// Default term field labels
-	DefaultTermLabel           string `json:"defaultTermLabel"`
-	DefaultTermPlaceholder     string `json:"defaultTermPlaceholder"`
-	DefaultTermOpenEndedHelp   string `json:"defaultTermOpenEndedHelp"`
+	// Term field labels (engagement length / contract length / catalog validity).
+	// Backed by proto fields default_term_value / default_term_unit on the wire.
+	TermLabel         string `json:"termLabel"`
+	TermPlaceholder   string `json:"termPlaceholder"`
+	TermOpenEndedHelp string `json:"termOpenEndedHelp"`
 }
 
 // ---------------------------------------------------------------------------

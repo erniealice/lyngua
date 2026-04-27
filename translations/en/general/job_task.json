@@ -1,0 +1,16 @@
+{
+  "job_task": {
+    "fields": {
+      "templateTaskId": "Template Task",
+      "resourceId": "Resource",
+      "plannedQuantity": "Planned Quantity",
+      "completedQuantity": "Completed Quantity",
+      "percentComplete": "Percent Complete",
+      "actualStart": "Actual Start",
+      "actualEnd": "Actual End",
+      "predecessorTaskIds": "Predecessors",
+      "allowParallel": "Allow Parallel",
+      "workflowStepId": "Workflow Step"
+    }
+  }
+}

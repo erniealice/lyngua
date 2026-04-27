@@ -99,6 +99,10 @@
       "invalid_limit": "Invalid pagination limit",
       "limit_too_large": "Pagination limit is too large"
     },
+    "fields": {
+      "clientLabel": "Client",
+      "clientHelp": "Leave blank for a standard rate card. Set a client to create a bespoke rate card for that client only."
+    },
     "errors": {
       "not_found": "Package with ID \"{entityId}\" not found",
       "creation_failed": "Package creation failed",

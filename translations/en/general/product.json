@@ -31,6 +31,9 @@
       "priceInfo": "Default unit price in the selected currency. Stored in centavos; displayed divided by 100.",
       "currencyInfo": "Currency applied to this item's default price.",
       "activeInfo": "Inactive items are hidden from selection in new plans and transactions.",
+      "expectedCost": "Expected Cost",
+      "expectedCostCurrency": "Cost Currency",
+      "defaultTemplateId": "Default Template",
       "variantModeLabel": "Variant Configurable",
       "variantModeInfo": "Turn on if this product has options (e.g. size, color) that produce distinct SKUs. Price is then set per-variant rather than on this form.",
       "variantModeNone": "Simple",
@@ -92,6 +95,15 @@
       "list_failed": "Failed to retrieve products",
       "not_found": "Product with ID \"{entityId}\" not found",
       "update_failed": "Product update failed"
+    },
+    "variant": {
+      "pricing": {
+        "start": "Start Date",
+        "end": "End Date",
+        "package": "Package",
+        "rateCard": "Rate Card",
+        "amount": "Amount"
+      }
     },
     "tabs": {
       "attributes": "Attributes",

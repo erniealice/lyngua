@@ -44,6 +44,23 @@
       "createdDate": "Created",
       "modifiedDate": "Last Modified"
     },
+    "fields": {
+      "templateCode": "Template Code",
+      "revision": "Revision",
+      "versionStatus": "Version Status",
+      "effectiveFrom": "Effective From",
+      "effectiveTo": "Effective To",
+      "supersedesTemplateId": "Supersedes Template",
+      "isDefault": "Default",
+      "publishedAt": "Published At",
+      "publishedBy": "Published By",
+      "defaultLotSize": "Default Lot Size",
+      "defaultUom": "Default Unit",
+      "outputProductId": "Output Product",
+      "outputProductVariantId": "Output Variant",
+      "workflowTemplateId": "Workflow Template",
+      "changeRequestId": "Change Request"
+    },
     "tabs": {
       "info": "Information",
       "phases": "Phases",

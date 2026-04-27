@@ -14,7 +14,7 @@
       "addNew": "Add Supplier"
     },
     "columns": {
-      "companyName": "Company Name",
+      "name": "Company Name",
       "supplierType": "Type",
       "internalId": "Internal ID",
       "status": "Status",
@@ -32,7 +32,7 @@
       "onHoldMessage": "Suppliers placed on hold will appear here."
     },
     "form": {
-      "companyName": "Company Name",
+      "name": "Company Name",
       "supplierType": "Supplier Type",
       "taxId": "Tax ID",
       "registrationNumber": "Registration Number",
@@ -55,11 +55,12 @@
       "active": "Active",
 
       "sectionCompany": "Company Information",
-      "sectionContact": "Contact Person",
-      "sectionFinancial": "Financial Details",
       "sectionAddress": "Address",
+      "sectionRepresentative": "Representative",
+      "sectionAccounting": "Accounting",
+      "sectionOthers": "Others",
 
-      "companyNamePlaceholder": "Enter company name",
+      "namePlaceholder": "Enter company name",
       "supplierTypePlaceholder": "Select type",
       "statusPlaceholder": "Select status",
       "firstNamePlaceholder": "Enter first name",
@@ -92,7 +93,12 @@
       "termsNet60": "Net 60",
       "terms2_10Net30": "2/10 Net 30",
 
-      "companyNameInfo": "Legal or trading name of the supplier.",
+      "nameInfo": "Legal or trading name of the supplier.",
+      "timezone": "Timezone",
+      "timezonePlaceholder": "Select timezone",
+      "timezoneSearchPlaceholder": "Search timezones...",
+      "timezoneNoResults": "No timezones found",
+      "timezoneInfo": "Timezone for this supplier's primary location",
       "supplierTypeInfo": "Company = a registered business; Individual = a sole trader or freelancer.",
       "statusInfo": "Active = available for new transactions; Blocked = suspended; On Hold = temporarily paused.",
       "emailInfo": "Primary email for purchase orders and supplier correspondence.",

@@ -121,7 +121,14 @@
       "qtyOnHand": "Qty On Hand",
       "serialCount": "Serial Count",
       "noStock": "No Stock",
-      "noStockMsg": "No stock records found for this variant."
+      "noStockMsg": "No stock records found for this variant.",
+      "pricing": {
+        "start": "Start Date",
+        "end": "End Date",
+        "package": "Package",
+        "rateCard": "Rate Card",
+        "amount": "Amount"
+      }
     },
     "attribute": {
       "title": "Attribute",

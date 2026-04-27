@@ -1,0 +1,177 @@
+{
+  "procurement_request": {
+    "page": {
+      "heading": "Procurement Requests",
+      "caption": "Manage internal purchase requests and approval workflows",
+      "headingDraft": "Draft Requests",
+      "headingSubmitted": "Submitted Requests",
+      "headingPendingApproval": "Requests Pending Approval",
+      "headingApproved": "Approved Requests",
+      "headingRejected": "Rejected Requests",
+      "headingFulfilled": "Fulfilled Requests",
+      "headingCancelled": "Cancelled Requests"
+    },
+    "buttons": {
+      "add": "New Request",
+      "addLine": "Add Request Line",
+      "submit": "Submit for Approval",
+      "approve": "Approve",
+      "reject": "Reject",
+      "cancel": "Cancel Request",
+      "spawnPO": "Create Purchase Order"
+    },
+    "columns": {
+      "requestNumber": "Request No.",
+      "requester": "Requested By",
+      "supplier": "Supplier",
+      "location": "Location",
+      "currency": "Currency",
+      "estimatedTotal": "Estimated Total",
+      "neededByDate": "Needed By",
+      "status": "Status",
+      "approvedBy": "Approved By",
+      "justification": "Justification"
+    },
+    "empty": {
+      "title": "No procurement requests found",
+      "message": "Create your first procurement request to begin the approval workflow.",
+      "draftTitle": "No draft requests",
+      "draftMessage": "Draft requests will appear here.",
+      "submittedTitle": "No submitted requests",
+      "submittedMessage": "Requests awaiting review will appear here.",
+      "pendingApprovalTitle": "No requests pending approval",
+      "pendingApprovalMessage": "Requests in the approval queue will appear here.",
+      "approvedTitle": "No approved requests",
+      "approvedMessage": "Approved requests ready for purchase order creation will appear here.",
+      "rejectedTitle": "No rejected requests",
+      "rejectedMessage": "Rejected requests will appear here.",
+      "fulfilledTitle": "No fulfilled requests",
+      "fulfilledMessage": "Fulfilled requests will appear here.",
+      "cancelledTitle": "No cancelled requests",
+      "cancelledMessage": "Cancelled requests will appear here."
+    },
+    "form": {
+      "sectionDetails": "Request Details",
+      "sectionSupplier": "Supplier & Location",
+      "sectionFinancials": "Financial",
+      "sectionApproval": "Approval",
+      "sectionNotes": "Notes",
+
+      "requestNumber": "Request Number",
+      "requestNumberPlaceholder": "e.g. PR-2026-001",
+      "requestNumberInfo": "Auto-generated unique request number. Leave blank to auto-assign.",
+      "requester": "Requested By",
+      "selectRequester": "Select requester...",
+      "requesterInfo": "The employee submitting this purchase request.",
+      "supplier": "Supplier",
+      "selectSupplier": "Select supplier...",
+      "supplierInfo": "The intended supplier, if already known. May be left blank for RFQ-style requests.",
+      "location": "Location",
+      "selectLocation": "Select location...",
+      "locationInfo": "The branch or department making the request.",
+
+      "currency": "Currency",
+      "currencyInfo": "Currency for all estimated amounts on this request.",
+      "estimatedTotal": "Estimated Total",
+      "estimatedTotalInfo": "Combined estimated value of all line items.",
+      "neededByDate": "Needed By",
+      "neededByDateInfo": "Latest date by which the goods or services are required.",
+
+      "justification": "Justification",
+      "justificationPlaceholder": "Explain why this purchase is needed...",
+      "justificationInfo": "Business reason for this request. Shown to approvers.",
+      "approvedBy": "Approved By",
+      "approvedDate": "Approval Date",
+      "rejectionReason": "Rejection Reason",
+      "rejectionReasonPlaceholder": "Explain why this request was rejected...",
+
+      "notes": "Notes",
+      "notesPlaceholder": "Optional internal notes...",
+      "notesInfo": "Internal remarks only."
+    },
+    "statusOptions": {
+      "draft": "Draft",
+      "submitted": "Submitted",
+      "pending_approval": "Pending Approval",
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "fulfilled": "Fulfilled",
+      "cancelled": "Cancelled"
+    },
+    "actions": {
+      "view": "View Request",
+      "edit": "Edit Request",
+      "delete": "Delete Request",
+      "submit": "Submit for Approval",
+      "approve": "Approve",
+      "reject": "Reject",
+      "cancel": "Cancel Request",
+      "spawnPO": "Create Purchase Order",
+      "addLine": "Add Line",
+      "editLine": "Edit Line",
+      "removeLine": "Remove Line"
+    },
+    "bulkActions": {
+      "delete": "Delete Selected",
+      "approve": "Approve Selected",
+      "reject": "Reject Selected",
+      "cancel": "Cancel Selected"
+    },
+    "confirm": {
+      "delete": "Delete Request",
+      "deleteMessage": "Are you sure you want to delete this procurement request? This action cannot be undone.",
+      "submit": "Submit Request",
+      "submitMessage": "Submit this request for approval? You will no longer be able to edit it.",
+      "approve": "Approve Request",
+      "approveMessage": "Approving this request will allow a purchase order to be created.",
+      "reject": "Reject Request",
+      "rejectMessage": "Rejecting this request will notify the requester. Provide a reason below.",
+      "cancel": "Cancel Request",
+      "cancelMessage": "Cancelling this request will close it without fulfilment.",
+      "spawnPO": "Create Purchase Order",
+      "spawnPOMessage": "This will create a purchase order from the approved request. Continue?",
+      "bulkDelete": "Delete Selected Requests",
+      "bulkDeleteMessage": "Are you sure you want to delete the selected requests? This action cannot be undone.",
+      "bulkApprove": "Approve Selected",
+      "bulkApproveMessage": "Are you sure you want to approve the selected requests?",
+      "bulkReject": "Reject Selected",
+      "bulkRejectMessage": "Are you sure you want to reject the selected requests?"
+    },
+    "errors": {
+      "permissionDenied": "You do not have permission to perform this action.",
+      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
+      "notFound": "Procurement request not found.",
+      "idRequired": "Request ID is required.",
+      "noIDsProvided": "No request IDs provided.",
+      "invalidStatus": "Invalid status value.",
+      "noPermission": "No permission.",
+      "cannotDelete": "Cannot delete — this request has been submitted or approved.",
+      "approvalFailed": "Request approval failed. Please try again.",
+      "spawnPOFailed": "Failed to create purchase order from this request."
+    },
+    "info": {
+      "supplierOptional": "Supplier may be left blank if supplier selection is part of the approval process.",
+      "spawnPOReady": "This request is approved and ready for purchase order creation.",
+      "fulfilledNotice": "This request has been fulfilled. A purchase order was created."
+    },
+    "tabs": {
+      "info": "Overview",
+      "lines": "Line Items",
+      "purchaseOrders": "Purchase Orders",
+      "activity": "Activity"
+    },
+    "lines": {
+      "title": "Request Lines",
+      "empty": "No line items yet. Add a line to detail what you need.",
+      "columnLineNumber": "Line #",
+      "columnDescription": "Description",
+      "columnProduct": "Product",
+      "columnLineType": "Type",
+      "columnQuantity": "Qty",
+      "columnEstimatedUnitPrice": "Est. Unit Price",
+      "columnEstimatedTotal": "Est. Total",
+      "columnCategory": "Category",
+      "columnContractLine": "Contract Line"
+    }
+  }
+}

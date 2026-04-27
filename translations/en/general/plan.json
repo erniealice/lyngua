@@ -77,12 +77,24 @@
       "deactivate": "Deactivate Plan",
       "deactivateMessage": "Are you sure you want to deactivate \"%s\"?"
     },
+    "fields": {
+      "clientLabel": "Client",
+      "clientHelp": "Leave blank to make this package available for any client. Set a client to make it a custom package for that client only.",
+      "clientLockedTooltip": "Locked — this plan has active subscriptions. Detach them or create a new plan."
+    },
+    "filters": {
+      "scopeChipLabel": "Show:",
+      "scopeMaster": "Master",
+      "scopeClient": "Client-specific",
+      "scopeAll": "All"
+    },
     "errors": {
       "permissionDenied": "You do not have permission to perform this action",
       "invalidFormData": "Invalid form data. Please check your inputs and try again.",
       "notFound": "Plan not found",
       "idRequired": "Plan ID is required",
-      "noPermission": "No permission"
+      "noPermission": "No permission",
+      "clientScopeLocked": "Cannot change this plan's client while it has active subscriptions."
     },
     "productPlanForm": {
       "productKindLabel": "Item Type",

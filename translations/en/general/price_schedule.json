@@ -43,6 +43,18 @@
       "durationLabel": "Duration",
       "unitLabel": "Unit"
     },
+    "fields": {
+      "clientLabel": "Client",
+      "clientHelp": "Leave blank for a general schedule. Set a client to create a bespoke schedule reused across that client's price plans.",
+      "customClientPriceScheduleLabelSuffix": "Price Schedule",
+      "locationSearchPlaceholder": "Filter..."
+    },
+    "filters": {
+      "scopeChipLabel": "Show:",
+      "scopeMaster": "Master",
+      "scopeClient": "Client-specific",
+      "scopeAll": "All"
+    },
     "form": {
       "sectionScheduleDetails": "Schedule details",
       "sectionDateRange": "Date range",
@@ -61,7 +73,8 @@
       "update_failed": "Price schedule update failed",
       "deletion_failed": "Price schedule deletion failed",
       "list_failed": "Failed to retrieve price schedules",
-      "authorization_failed": "Authorization failed for price schedules"
+      "authorization_failed": "Authorization failed for price schedules",
+      "pricePlanCreateUnavailable": "Adding a price plan is not available. Please contact support."
     }
   }
 }

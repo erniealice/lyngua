@@ -181,7 +181,9 @@
                 "ACTIVE": "Active",
                 "PAUSED": "Paused",
                 "COMPLETED": "Completed",
-                "CLOSED": "Closed"
+                "CLOSED": "Closed",
+                "PLANNED": "Planned",
+                "RELEASED": "Released"
             },
             "billable_status": {
                 "BILLABLE": "Billable",
@@ -204,6 +206,21 @@
                 "RETURN": "Return",
                 "SELL": "Sell",
                 "EXPIRE": "Expire"
+            },
+            "entry_type": {
+                "LABOR": "Labor",
+                "MATERIAL": "Material",
+                "EXPENSE": "Expense",
+                "EQUIPMENT": "Equipment",
+                "SUBCONTRACT": "Subcontract"
+            },
+            "task_status": {
+                "PENDING": "Pending",
+                "IN_PROGRESS": "In Progress",
+                "COMPLETED": "Completed",
+                "SKIPPED": "Skipped",
+                "HOLD": "On Hold",
+                "REWORK": "Rework"
             }
         },
         "sidebar": {
