@@ -3,6 +3,22 @@
     "form": {
       "sectionBasic": "Basic info",
       "sectionPricing": "Pricing",
+      "name": "Price Plan Name",
+      "namePlaceholder": "Enter price plan name",
+      "description": "Description",
+      "descriptionPlaceholder": "Enter description...",
+      "amount": "Amount",
+      "amountPlaceholder": "0.00",
+      "currency": "Currency",
+      "currencyPlaceholder": "e.g. PHP",
+      "durationValue": "Duration",
+      "durationUnit": "Unit",
+      "schedule": "Price Schedule",
+      "schedulePlaceholder": "Select a schedule...",
+      "active": "Active",
+      "scheduleLockedTooltip": "This price plan is bound to {{.ClientName}}'s price schedule.",
+      "scheduleAutoCreateHint": "No price schedule exists for {{.ClientName}} yet — one will be created automatically when you save.",
+      "scheduleAutoReuseHint": "This price plan will be added to the existing price schedule for {{.ClientName}}.",
       "billingKindLabel": "Billing model",
       "billingKindOneTime": "One-time",
       "billingKindRecurring": "Recurring retainer",
@@ -76,6 +92,8 @@
       "authorization_failed": "Authorization failed for rate cards",
       "inUse": "This price plan is in use by active subscriptions and cannot be deleted.",
       "clientScopeMismatch": "Price plan client must match its parent plan's client.",
+      "scheduleClientMismatch": "Selected schedule belongs to a different client and cannot be attached to this price plan.",
+      "scheduleRequiredForClientScope": "This package is scoped to a client. Pick or create a rate card for that client before adding a price plan.",
       "multiEngagementConfirmRequired": "Confirmation required — N > 1 attached subscriptions and monetary fields changing."
     }
   }

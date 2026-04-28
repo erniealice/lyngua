@@ -46,7 +46,6 @@
     "fields": {
       "clientLabel": "Client",
       "clientHelp": "Leave blank for a general schedule. Set a client to create a bespoke schedule reused across that client's price plans.",
-      "customClientPriceScheduleLabelSuffix": "Price Schedule",
       "locationSearchPlaceholder": "Filter..."
     },
     "filters": {
@@ -58,7 +57,19 @@
     "form": {
       "sectionScheduleDetails": "Schedule details",
       "sectionDateRange": "Date range",
-      "sectionLocation": "Location"
+      "sectionLocation": "Location",
+      "customClientPriceScheduleLabelSuffix": "Price Schedule",
+      "scopeLabel": "Scope",
+      "scopeInfo": "Choose whether this schedule is shared across every client at a location, or reserved for one client's bespoke pricing. Switching scope clears the inactive picker on save.",
+      "scopeOptionLocation": "Location-scoped",
+      "scopeOptionClient": "Client-scoped",
+      "scopeOptionLocationHelp": "Reusable across all clients at this location.",
+      "scopeOptionClientHelp": "Reserved for one client's bespoke pricing.",
+      "timeStart": "Start Time (optional)",
+      "timeEnd": "End Time (optional)",
+      "timePlaceholder": "HH:MM",
+      "timeStartInfo": "Optional time of day in the operator's display timezone. Leave blank for start of day (00:00).",
+      "timeEndInfo": "Optional time of day in the operator's display timezone. Leave blank for end of day (23:59)."
     },
     "validation": {
       "data_required": "Price schedule data is required",

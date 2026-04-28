@@ -29,13 +29,13 @@
       "title": "No Rate Cards",
       "message": "No rate cards to display."
     },
-    "fields": {
-      "customClientPriceScheduleLabelSuffix": "Rate Cards"
-    },
     "form": {
-      "sectionScheduleDetails": "Schedule details",
+      "sectionScheduleDetails": "Rate Card details",
       "sectionDateRange": "Date range",
       "sectionLocation": "Location",
+      "customClientPriceScheduleLabelSuffix": "Rate Cards",
+      "scopeInfo": "Choose whether this rate card is shared across every client at a location, or reserved for one client's bespoke pricing. Switching scope clears the inactive picker on save.",
+      "scopeOptionClientHelp": "Reserved for one client's bespoke rate cards.",
       "name": "Rate Card Name",
       "namePlaceholder": "Enter rate card name",
       "description": "Description",

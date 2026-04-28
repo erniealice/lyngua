@@ -21,8 +21,13 @@
       "planLabel": "Package",
       "planPlaceholder": "Select a package...",
       "planSearch": "Filter...",
+      "schedule": "Rate Card",
+      "schedulePlaceholder": "Select a rate card...",
       "scheduleSearch": "Filter...",
-      "locationHintPrefix": "Location: "
+      "locationHintPrefix": "Location: ",
+      "scheduleLockedTooltip": "This rate card is reserved for {{.ClientName}}.",
+      "scheduleAutoCreateHint": "No rate card exists for {{.ClientName}} yet — one will be created automatically when you save.",
+      "scheduleAutoReuseHint": "This price plan will be added to the existing rate card for {{.ClientName}}."
     },
     "productPrice": {
       "editTitle": "Edit Service Price",
@@ -69,7 +74,9 @@
       "editAmountMultipleEngagements": "This rate card is attached to {{.Count}} active engagements for {{.ClientName}}. Changing the amount or cycle will affect all of them on the next bill cycle. Continue?"
     },
     "errors": {
-      "inUse": "This plan is in use by active engagements and cannot be deleted."
+      "inUse": "This plan is in use by active engagements and cannot be deleted.",
+      "scheduleClientMismatch": "Selected rate card belongs to a different client and cannot be attached to this price plan.",
+      "scheduleRequiredForClientScope": "This package is scoped to a client. Pick or create a rate card for that client before adding a price plan."
     }
   }
 }

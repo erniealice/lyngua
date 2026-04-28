@@ -228,7 +228,8 @@
       "bulkHasPayments": "Some selected invoices have recorded payments and cannot be cancelled",
       "bulkNoItems": "Some selected invoices have no line items and cannot be approved",
       "paymentNotFound": "Payment not found",
-      "invalidDiscount": "Invalid discount amount"
+      "invalidDiscount": "Invalid discount amount",
+      "noLinesToInvoice": "Cannot create an invoice with no line items. Add a rate card with at least one product, or override at least one line."
     },
     "dashboard": {
       "title": "Invoices Dashboard",

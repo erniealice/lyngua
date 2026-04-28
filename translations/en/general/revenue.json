@@ -1,7 +1,8 @@
 {
   "revenue": {
     "errors": {
-      "subscriptionPlanClientDrift": "The subscription's client does not match the plan's client scope. Detach or re-scope the plan before recognizing revenue."
+      "subscriptionPlanClientDrift": "The subscription's client does not match the plan's client scope. Detach or re-scope the plan before recognizing revenue.",
+      "noLinesToInvoice": "Cannot create an invoice with no line items. Add a price plan with at least one product, or override at least one line."
     },
     "form": {
       "referenceInfo": "Unique identifier for this revenue record. Used on invoices and receipts.",
