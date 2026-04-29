@@ -70,7 +70,12 @@
       "allocatedAmount": "Allocated Amount",
       "settlementDate": "Settlement Date",
       "settlementStatus": "Settlement Status",
-      "originSubscriptionLink": "Spawned from Subscription"
+      "originSubscriptionLink": "Spawned from Subscription",
+      "phasesSectionTitle": "Phases",
+      "phaseMarkComplete": "Mark Complete",
+      "phaseStatusPending": "Pending",
+      "phaseStatusActive": "Active",
+      "phaseStatusCompleted": "Completed"
     },
     "fields": {
       "outputProductId": "Output Product",
