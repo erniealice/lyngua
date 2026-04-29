@@ -35,6 +35,9 @@
       "products": "Products",
       "productsPlaceholder": "Select products...",
       "productsSearch": "Search products...",
+      "jobTemplate": "Job Template",
+      "jobTemplateNone": "(none — engagement has no operational tracking)",
+      "jobTemplateHint": "Select the operational template that defines the work for this engagement. Leave empty for advisory-only plans.",
       "sections": {
         "basic": "Basic Information",
         "services": "Assigned Products"

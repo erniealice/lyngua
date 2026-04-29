@@ -40,6 +40,9 @@
       "products": "Services",
       "productsPlaceholder": "Select services...",
       "productsSearch": "Search services...",
+      "jobTemplate": "Engagement Template",
+      "jobTemplateNone": "(none — advisory engagement, no operational tracking)",
+      "jobTemplateHint": "Select the engagement template that defines the work delivered for this package. Leave empty for advisory-only retainers.",
       "sections": {
         "basic": "Basic Information",
         "services": "Assigned Services"
