@@ -78,6 +78,10 @@
       "location_id_required": "Location selection is required for rate cards",
       "amount_required": "Amount is required for rate cards"
     },
+    "detail": {
+      "edit": "Edit Price Plan",
+      "editTitle": "Edit Price Plan"
+    },
     "fields": {
       "parentScheduleClientNotice": "This price schedule belongs to {{.ClientName}}. Price plans created here will be available only for engagements with this client."
     },

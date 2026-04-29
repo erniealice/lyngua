@@ -59,8 +59,8 @@
       "status": "Status",
       "dateCreated": "Date Created",
       "dateModified": "Date Modified",
-      "edit": "Edit Package",
-      "editTitle": "Edit Package"
+      "edit": "Edit Package Price",
+      "editTitle": "Edit Package Price"
     },
     "tabs": {
       "info": "Info",
