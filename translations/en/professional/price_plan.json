@@ -7,6 +7,7 @@
       "billingKindOneTime": "One-time",
       "billingKindRecurring": "Recurring retainer",
       "billingKindContract": "Fixed-term engagement",
+      "billingKindMilestone": "Milestone",
       "amountBasisLabel": "Amount basis",
       "amountBasisPerCycle": "Per cycle",
       "amountBasisTotalPackage": "Total package",
