@@ -43,6 +43,7 @@
       "billableStatusIncluded": "Included",
       "billableStatusBillable": "Billable (T&M)",
       "billableStatusNonBillable": "Non-billable",
+      "billableStatusWriteOff": "Write-off",
       "entryTypeLabor": "Labor",
       "entryTypeMaterial": "Material",
       "entryTypeExpense": "Expense",
