@@ -28,7 +28,10 @@
       "dateEndLabel": "Effective until",
       "catalogLineLabel": "Catalog line",
       "catalogLinePlaceholder": "Select a line from the plan's catalog",
-      "catalogLineInfo": "Prices the chosen catalog line from the parent plan. If the line has a variant, that variant is priced."
+      "catalogLineInfo": "Prices the chosen catalog line from the parent plan. If the line has a variant, that variant is priced.",
+      "milestonePhaseLabel": "Milestone phase",
+      "milestonePhaseFallthrough": "Falls through to first event",
+      "milestonePhaseBillable": "billable"
     }
   }
 }
