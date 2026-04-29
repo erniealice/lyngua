@@ -48,7 +48,12 @@
       "codeInfo": "Short reference used on invoices and receipts. Leave blank to auto-generate.",
       "startDateInfo": "First day the subscription is active. Billing cycles are counted from this date.",
       "endDateInfo": "Last day the subscription is active. Leave blank for open-ended.",
-      "notesInfo": "Internal remarks — shown on detail pages but not on customer-facing documents."
+      "notesInfo": "Internal remarks — shown on detail pages but not on customer-facing documents.",
+      "spawnJobsSectionTitle": "Operations",
+      "spawnJobsToggle": "Spawn Job(s) on Create",
+      "spawnJobsHelpText": "Disable to start without operational tracking (e.g., advisory retainers).",
+      "spawnJobsSummary": "Spawning {{.JobCount}} Job(s) from {{.TemplateNames}} — includes {{.PhaseCount}} phases, {{.TaskCount}} tasks.",
+      "spawnJobsNone": "No JobTemplate is configured for this Plan. The engagement will start without operational tracking."
     },
     "actions": {
       "view": "View Subscription",
@@ -80,11 +85,31 @@
     },
     "tabs": {
       "info": "Information",
+      "operations": "Operations",
       "invoices": "Invoices",
       "history": "History",
       "attachments": "Attachments",
       "auditTrail": "Audit Trail",
       "auditHistory": "History"
+    },
+    "operations": {
+      "title": "Operational Jobs",
+      "emptyTitle": "No operational tracking",
+      "emptyMessage": "This engagement has no Jobs. {{.SpawnAction}} to start tracking work.",
+      "spawnAction": "Spawn Jobs",
+      "rootJob": "Root Job",
+      "childJob": "Child Job",
+      "phaseSummary": "{{.Complete}} / {{.Total}} phases complete",
+      "viewJobLink": "View in Operations"
+    },
+    "spawn": {
+      "title": "Spawn Operational Jobs",
+      "detectedTemplates": "Detected templates",
+      "rootTemplate": "Root template",
+      "cancel": "Cancel",
+      "confirm": "Spawn Jobs",
+      "successToast": "Spawned {{.JobCount}} Job(s).",
+      "skipped": "Nothing to spawn — no JobTemplate is linked to this Plan."
     },
     "invoices": {
       "title": "Invoices",

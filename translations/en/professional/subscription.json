@@ -65,6 +65,11 @@
       "active": "Active",
       "code": "Charge Code",
       "codePlaceholder": "e.g. A3K7PXR",
+      "spawnJobsSectionTitle": "Operations",
+      "spawnJobsToggle": "Spawn Engagement Job(s) on Create",
+      "spawnJobsHelpText": "Disable to start without operational tracking (e.g., advisory retainers).",
+      "spawnJobsSummary": "Spawning {{.JobCount}} Engagement Job(s) from {{.TemplateNames}} — includes {{.PhaseCount}} phases, {{.TaskCount}} tasks.",
+      "spawnJobsNone": "No JobTemplate is configured for this Package. The engagement will start without operational tracking.",
       "sections": {
         "basic": "Basic Information",
         "scheduling": "Scheduling"
@@ -83,8 +88,28 @@
     },
     "tabs": {
       "info": "Information",
+      "operations": "Operations",
       "invoices": "Invoices",
       "auditTrail": "Audit Trail"
+    },
+    "operations": {
+      "title": "Engagement Jobs",
+      "emptyTitle": "No operational tracking",
+      "emptyMessage": "This engagement has no Jobs. {{.SpawnAction}} to start tracking work.",
+      "spawnAction": "Spawn Engagement Jobs",
+      "rootJob": "Root Job",
+      "childJob": "Child Job",
+      "phaseSummary": "{{.Complete}} / {{.Total}} phases complete",
+      "viewJobLink": "View in Practice"
+    },
+    "spawn": {
+      "title": "Spawn Engagement Jobs",
+      "detectedTemplates": "Detected templates",
+      "rootTemplate": "Root template",
+      "cancel": "Cancel",
+      "confirm": "Spawn Engagement Jobs",
+      "successToast": "Spawned {{.JobCount}} Engagement Job(s).",
+      "skipped": "Nothing to spawn — no JobTemplate is linked to this Package."
     },
     "invoices": {
       "title": "Invoices",

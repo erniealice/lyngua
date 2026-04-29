@@ -69,7 +69,8 @@
       "targetId": "Target ID",
       "allocatedAmount": "Allocated Amount",
       "settlementDate": "Settlement Date",
-      "settlementStatus": "Settlement Status"
+      "settlementStatus": "Settlement Status",
+      "originSubscriptionLink": "Spawned from Subscription"
     },
     "fields": {
       "outputProductId": "Output Product",
