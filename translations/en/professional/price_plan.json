@@ -8,10 +8,15 @@
       "billingKindRecurring": "Recurring retainer",
       "billingKindContract": "Fixed-term engagement",
       "billingKindMilestone": "Milestone",
+      "billingKindAdHoc": "On-call engagement",
       "amountBasisLabel": "Amount basis",
       "amountBasisPerCycle": "Per cycle",
       "amountBasisTotalPackage": "Total package",
       "amountBasisDerivedFromLines": "Sum of items",
+      "amountBasisPerOccurrence": "Per service call",
+      "entitledOccurrencesLabel": "Entitled service calls",
+      "entitledOccurrencesPlaceholder": "e.g. 5",
+      "entitledOccurrencesInfo": "Number of service calls included in the prepaid retainer. Required when amount basis is Total Package on an On-call engagement.",
       "billingCycleLabel": "Billing cycle",
       "billingCyclePlaceholder": "e.g. every 1 month",
       "termLabel": "Term",
@@ -80,7 +85,14 @@
       "scheduleRequiredForClientScope": "This package is scoped to a client. Pick or create a rate card for that client before adding a price plan."
     },
     "validation": {
-      "milestoneCyclicBlock": "Milestone billing is not supported on cyclic packages (RECURRING / CONTRACT × PER_CYCLE / multi-visit)."
+      "milestoneCyclicBlock": "Milestone billing is not supported on cyclic packages (RECURRING / CONTRACT × PER_CYCLE / multi-visit).",
+      "adHocInvalidBasis": "On-call engagements require amount basis = Total Package (retainer) or Per service call.",
+      "adHocBillingIncompatibleWithCycleCadence": "On-call engagements cannot have a billing cycle.",
+      "adHocVisitsPerCycleMustBeOne": "On-call engagements cannot use multi-visit cycles.",
+      "adHocPoolNoTemplate": "On-call retainer engagements require the Package to have an Engagement Template.",
+      "adHocPerCallNoTemplate": "Per-call engagements require the Package to have an Engagement Template.",
+      "adHocEntitlementRequired": "On-call retainer engagements require entitled service calls > 0.",
+      "adHocEntitlementInvalidForPerCall": "Entitled service calls are only valid on retainer engagements, not per-call."
     },
     "detail": {
       "summary": {
@@ -112,12 +124,29 @@
             "operations": "Engagement spawns 1 lifetime engagement Job with phases (if Package has an Engagement Template).",
             "revenue": "One invoice at engagement signup covering the full amount."
           }
+        },
+        "adHoc": {
+          "totalPackage": {
+            "customer": "Pays {{.Amount}} upfront for {{.EntitledOccurrences}} service calls.",
+            "operations": "Operator requests each service call from the Work Plans tab. Retainer exhausts after {{.EntitledOccurrences}} calls — operator can extend.",
+            "revenue": "One invoice at engagement signup covering the entire retainer; subsequent service calls are operationally tracked only."
+          },
+          "perOccurrence": {
+            "customer": "Charged {{.Amount}} per service call. No upfront cost.",
+            "operations": "Operator requests each service call from the Work Plans tab. Each completed call flips its BillingEvent to READY for invoicing.",
+            "revenue": "One invoice per delivered service call. Generate Invoice per call row."
+          }
         }
       },
       "warning": {
         "milestoneNoTemplate": "Milestone billing requires the Package to have an Engagement Template. Configure it on the Package first.",
         "recurringNoTemplate": "This engagement will not have operational tracking. Add an Engagement Template to the Package to enable cycle Jobs.",
-        "visitsPerCycleInvalidKind": "visits_per_cycle is only valid for cyclic packages. Reset to 1 or change the billing kind."
+        "visitsPerCycleInvalidKind": "visits_per_cycle is only valid for cyclic packages. Reset to 1 or change the billing kind.",
+        "adHocPoolNoTemplate": "On-call retainer engagements require an Engagement Template so service calls can be tracked.",
+        "adHocPerCallNoTemplate": "Per-call engagements require an Engagement Template so service calls can be tracked.",
+        "adHocNoEntitlement": "On-call retainer engagements need entitled service calls > 0. Set the value or switch to per-call billing.",
+        "adHocBillingCycleNotAllowed": "On-call engagements are event-driven, not calendar-driven. Remove the billing cycle.",
+        "adHocVisitsPerCycleNotAllowed": "On-call engagements cannot use multi-visit cycles. Reset visits_per_cycle to 1."
       }
     }
   }

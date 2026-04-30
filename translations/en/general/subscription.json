@@ -114,7 +114,24 @@
       "cycleNoInvoice": "Not yet invoiced",
       "cycleEmpty": "No cycles yet",
       "backfillBanner": "{{.Count}} cycle(s) missing operational tracking. Spawn now to backfill.",
-      "backfillCta": "Backfill missing cycles"
+      "backfillCta": "Backfill missing cycles",
+      "adHocPoolHeading": "Pool — {{.UsedCount}} of {{.EntitledCount}} occurrences used",
+      "adHocPerCallHeading": "Pay-per-occurrence · {{.Amount}} per usage",
+      "entitlementUsed": "{{.UsedCount}} of {{.EntitledCount}} occurrences used",
+      "entitlementRemaining": "{{.RemainingCount}} remaining",
+      "entitlementExhausted": "Pool exhausted — extend to request more occurrences",
+      "requestUsageCta": "Request usage",
+      "extendEntitlementCta": "Extend pool",
+      "usageRequestedDate": "Requested {{.RequestedDate}}",
+      "usageDeliveredDate": "Delivered {{.DeliveredDate}}",
+      "usageOrdinalLabel": "Usage {{.Ordinal}}",
+      "usageNotDelivered": "Pending delivery",
+      "poolInvoiceLink": "Pool invoice {{.RevenueCode}} · {{.Status}}",
+      "poolInvoicePending": "Pool invoice not yet generated",
+      "poolGenerateInvoiceCta": "Generate pool invoice",
+      "perCallRecognizeCta": "Recognize revenue",
+      "perCallInvoiceLink": "Invoice {{.RevenueCode}} · {{.Status}}",
+      "perCallNotReady": "Not yet ready to invoice"
     },
     "backfill": {
       "drawerTitle": "Backfill cycle Jobs",
@@ -145,6 +162,7 @@
       "typeOnboarding": "Onboarding",
       "typeCycle": "Cycle",
       "typeVisit": "Visit",
+      "typeUsage": "Usage",
       "spawnFailedToast": "Cycle Job spawn failed for {{.Period}} — invoice was created but the operational Job will need a manual retry."
     },
     "spawn": {
@@ -207,7 +225,39 @@
       "closeShort": "Partial — close milestone short",
       "partialReason": "Reason",
       "partialReasonRequired": "A reason is required when billing partially.",
-      "overBillingRejected": "Cannot bill: total would exceed milestone amount."
+      "overBillingRejected": "Cannot bill: total would exceed milestone amount.",
+      "modeChip": {
+        "singleInvoice": {
+          "label": "One-time",
+          "explainer": "Single charge. No further invoices."
+        },
+        "periodBased": {
+          "label": "Per cycle",
+          "explainer": "One invoice per billing cycle. Auto-renews until cancelled."
+        },
+        "billingEvent": {
+          "label": "Milestone",
+          "explainer": "Invoice fires on phase completion."
+        },
+        "poolInitial": {
+          "label": "Pool · auto",
+          "explainer": "One invoice covering all entitled occurrences. No further cycle invoices."
+        },
+        "visitEvent": {
+          "label": "Per usage",
+          "explainer": "One invoice per delivered usage."
+        }
+      },
+      "adHocPoolSection": "Pool details",
+      "adHocPoolEntitled": "Entitled occurrences",
+      "adHocPoolPerOccurrenceInformational": "Per-occurrence value (informational)",
+      "adHocPoolGenerateCta": "Generate pool invoice",
+      "adHocPoolAlreadyInvoiced": "This pool subscription has already been invoiced.",
+      "adHocPerCallSection": "Usage to invoice",
+      "adHocPerCallNotReady": "Usage is not yet completed; cannot recognize revenue.",
+      "adHocPerCallAlreadyInvoiced": "This usage has already been invoiced.",
+      "adHocPerCallEventRequired": "A billing event is required for per-occurrence plans.",
+      "adHocInvalidBasis": "Pay-as-you-go plans require amount basis = Total Package or Per Occurrence."
     },
     "milestone": {
       "title": "Billing Schedule",

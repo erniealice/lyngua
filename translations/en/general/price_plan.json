@@ -24,10 +24,15 @@
       "billingKindRecurring": "Recurring retainer",
       "billingKindContract": "Fixed-term engagement",
       "billingKindMilestone": "Milestone",
+      "billingKindAdHoc": "Pay-as-you-go",
       "amountBasisLabel": "Amount basis",
       "amountBasisPerCycle": "Per cycle",
       "amountBasisTotalPackage": "Total package",
       "amountBasisDerivedFromLines": "Sum of items",
+      "amountBasisPerOccurrence": "Per occurrence",
+      "entitledOccurrencesLabel": "Entitled occurrences",
+      "entitledOccurrencesPlaceholder": "e.g. 5",
+      "entitledOccurrencesInfo": "Number of usage occurrences (visits, appointments, support calls) included in the prepaid pool. Required when amount basis is Total Package on a Pay-as-you-go plan.",
       "billingCycleLabel": "Billing cycle",
       "billingCyclePlaceholder": "e.g. every 1 month",
       "termLabel": "Term",
@@ -44,8 +49,8 @@
       "scheduleInfo": "The price schedule (date range + location) this price plan belongs to.",
       "nameInfo": "Optional — defaults to the plan name when left blank.",
       "descriptionInfo": "Optional notes shown alongside the price plan in detail views.",
-      "billingKindInfo": "One-time = charged once. Recurring = billed every cycle. Fixed-term = recurring with an end date.",
-      "amountBasisInfo": "Per cycle = amount charged each billing cycle. Total package = amount charged across the full term. Sum of items = derived from the per-item breakdown.",
+      "billingKindInfo": "One-time = charged once. Recurring = billed every cycle. Fixed-term = recurring with an end date. Milestone = invoice fires per phase. Pay-as-you-go = operator-requested usage occurrences (pool or per-occurrence).",
+      "amountBasisInfo": "Per cycle = amount charged each billing cycle. Total package = amount charged across the full term. Sum of items = derived from the per-item breakdown. Per occurrence = amount charged per delivered usage (Pay-as-you-go only).",
       "amountInfo": "Price in the selected currency. For Sum of items, this is computed automatically.",
       "currencyInfo": "Currency applied to this price plan and any auto-seeded product price plans.",
       "billingCycleInfo": "How often the recurring charge is issued (e.g. every 1 month).",
@@ -77,7 +82,14 @@
       "plan_id_required": "Plan selection is required for rate cards",
       "location_id_required": "Location selection is required for rate cards",
       "amount_required": "Amount is required for rate cards",
-      "milestoneCyclicBlock": "Milestone billing is not supported on cyclic plans (RECURRING / CONTRACT × PER_CYCLE / multi-visit)."
+      "milestoneCyclicBlock": "Milestone billing is not supported on cyclic plans (RECURRING / CONTRACT × PER_CYCLE / multi-visit).",
+      "adHocInvalidBasis": "Pay-as-you-go plans require amount basis = Total Package (pool) or Per Occurrence (pay-per-call).",
+      "adHocBillingIncompatibleWithCycleCadence": "Pay-as-you-go plans cannot have a billing cycle.",
+      "adHocVisitsPerCycleMustBeOne": "Pay-as-you-go plans cannot use multi-visit cycles. Reset visits_per_cycle to 1 or change the billing kind.",
+      "adHocPoolNoTemplate": "Pay-as-you-go pool plans require the parent Plan to have a Job Template.",
+      "adHocPerCallNoTemplate": "Pay-as-you-go per-occurrence plans require the parent Plan to have a Job Template.",
+      "adHocEntitlementRequired": "Pay-as-you-go pool plans require entitled occurrences > 0.",
+      "adHocEntitlementInvalidForPerCall": "Entitled occurrences are only valid on Pay-as-you-go pool plans, not pay-per-call."
     },
     "detail": {
       "edit": "Edit Price Plan",
@@ -124,12 +136,29 @@
             "operations": "Lifetime engagement Job with phases. BillingEvent rows gate per-milestone invoicing.",
             "revenue": "Revenue per milestone trigger; sum across milestones equals the total package."
           }
+        },
+        "adHoc": {
+          "totalPackage": {
+            "customer": "Pays {{.Amount}} upfront for {{.EntitledOccurrences}} usage occurrences (e.g. service visits, appointments, support calls).",
+            "operations": "Operator requests each usage from the Operations tab. Pool exhausts after {{.EntitledOccurrences}} usages — operator can extend.",
+            "revenue": "One Revenue at signup covering the whole pool; subsequent usages are operationally tracked only."
+          },
+          "perOccurrence": {
+            "customer": "Charged {{.Amount}} per usage occurrence. No upfront cost.",
+            "operations": "Operator requests each usage from the Operations tab. Each completed usage flips its BillingEvent to READY for invoicing.",
+            "revenue": "One Revenue per delivered usage. Recognize Revenue per usage row."
+          }
         }
       },
       "warning": {
         "milestoneNoTemplate": "Milestone billing requires the Plan to have a JobTemplate. Configure it on the Plan first.",
         "recurringNoTemplate": "This subscription will not have operational tracking. Add a JobTemplate to the Plan to enable cycle Jobs.",
-        "visitsPerCycleInvalidKind": "visits_per_cycle is only valid for cyclic plans. Reset to 1 or change the billing kind."
+        "visitsPerCycleInvalidKind": "visits_per_cycle is only valid for cyclic plans. Reset to 1 or change the billing kind.",
+        "adHocPoolNoTemplate": "AD_HOC pool plans require the Plan to have a JobTemplate so usages can be tracked. Configure it on the Plan first.",
+        "adHocPerCallNoTemplate": "AD_HOC pay-per-call plans require the Plan to have a JobTemplate so usages can be tracked. Configure it on the Plan first.",
+        "adHocNoEntitlement": "AD_HOC pool plans need entitled occurrences > 0. Set the value or switch to per-occurrence billing.",
+        "adHocBillingCycleNotAllowed": "AD_HOC plans are event-driven, not calendar-driven. Remove the billing cycle or change the billing kind.",
+        "adHocVisitsPerCycleNotAllowed": "AD_HOC plans cannot use multi-visit cycles. Reset visits_per_cycle to 1 or change the billing kind."
       }
     },
     "fields": {

@@ -103,7 +103,24 @@
       "phaseSummary": "{{.Complete}} / {{.Total}} phases complete",
       "viewJobLink": "View in Practice",
       "engagementHeading": "Engagement: {{.Name}} (since {{.Started}})",
-      "cycleSpawnNow": "Spawn this cycle's Jobs"
+      "cycleSpawnNow": "Spawn this cycle's Jobs",
+      "adHocPoolHeading": "Retainer — {{.UsedCount}} of {{.EntitledCount}} service calls used",
+      "adHocPerCallHeading": "Per-call engagement · {{.Amount}} per service call",
+      "entitlementUsed": "{{.UsedCount}} of {{.EntitledCount}} service calls used",
+      "entitlementRemaining": "{{.RemainingCount}} remaining",
+      "entitlementExhausted": "Retainer exhausted — extend to schedule more service calls",
+      "requestUsageCta": "Request service call",
+      "extendEntitlementCta": "Extend retainer",
+      "usageRequestedDate": "Requested {{.RequestedDate}}",
+      "usageDeliveredDate": "Delivered {{.DeliveredDate}}",
+      "usageOrdinalLabel": "Service call {{.Ordinal}}",
+      "usageNotDelivered": "Pending delivery",
+      "poolInvoiceLink": "Retainer invoice {{.RevenueCode}} · {{.Status}}",
+      "poolInvoicePending": "Retainer invoice not yet generated",
+      "poolGenerateInvoiceCta": "Generate retainer invoice",
+      "perCallRecognizeCta": "Generate invoice",
+      "perCallInvoiceLink": "Invoice {{.RevenueCode}} · {{.Status}}",
+      "perCallNotReady": "Service call not yet completed"
     },
     "jobs": {
       "heading": "Job Instances",
@@ -168,7 +185,39 @@
       "closeShort": "Partial — close milestone short",
       "partialReason": "Reason",
       "partialReasonRequired": "A reason is required when billing partially.",
-      "overBillingRejected": "Cannot bill: total would exceed milestone amount."
+      "overBillingRejected": "Cannot bill: total would exceed milestone amount.",
+      "modeChip": {
+        "singleInvoice": {
+          "label": "One-time",
+          "explainer": "Single charge. No further invoices."
+        },
+        "periodBased": {
+          "label": "Per cycle",
+          "explainer": "One invoice per billing cycle. Auto-renews until cancelled."
+        },
+        "billingEvent": {
+          "label": "Milestone",
+          "explainer": "Invoice fires on phase completion."
+        },
+        "poolInitial": {
+          "label": "Retainer · auto",
+          "explainer": "One invoice covering the full retainer. No per-call invoices."
+        },
+        "visitEvent": {
+          "label": "Per service call",
+          "explainer": "One invoice per delivered service call."
+        }
+      },
+      "adHocPoolSection": "Retainer details",
+      "adHocPoolEntitled": "Entitled service calls",
+      "adHocPoolPerOccurrenceInformational": "Per-call value (informational)",
+      "adHocPoolGenerateCta": "Generate retainer invoice",
+      "adHocPoolAlreadyInvoiced": "This retainer has already been invoiced.",
+      "adHocPerCallSection": "Service call to invoice",
+      "adHocPerCallNotReady": "Service call is not yet completed; cannot generate invoice.",
+      "adHocPerCallAlreadyInvoiced": "This service call has already been invoiced.",
+      "adHocPerCallEventRequired": "A billing event is required for per-call engagements.",
+      "adHocInvalidBasis": "On-call engagements require amount basis = Total Package or Per service call."
     },
     "milestone": {
       "title": "Billing Schedule",
