@@ -47,6 +47,8 @@
       "entryTypeLabor": "Labor",
       "entryTypeMaterial": "Material",
       "entryTypeExpense": "Expense",
+      "entryTypeEquipment": "Equipment",
+      "entryTypeSubcontract": "Subcontract",
       "submitCreate": "Save",
       "submitUpdate": "Update"
     },

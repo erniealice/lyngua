@@ -90,7 +90,8 @@
       "history": "History",
       "attachments": "Attachments",
       "auditTrail": "Audit Trail",
-      "auditHistory": "History"
+      "auditHistory": "History",
+      "jobs": "Jobs"
     },
     "operations": {
       "title": "Operational Jobs",
@@ -100,7 +101,51 @@
       "rootJob": "Root Job",
       "childJob": "Child Job",
       "phaseSummary": "{{.Complete}} / {{.Total}} phases complete",
-      "viewJobLink": "View in Operations"
+      "viewJobLink": "View in Operations",
+      "engagementHeading": "Engagement (since {{.Started}})",
+      "cycleHeading": "Cycle {{.CycleIndex}} — {{.PeriodLabel}}",
+      "cyclePlaceholder": "Cycle starts {{.PeriodStart}} — Jobs will spawn at cycle start, or click below to spawn now.",
+      "cycleSpawnNow": "Spawn this cycle now",
+      "cycleStatusPending": "Pending",
+      "cycleStatusInProgress": "In progress",
+      "cycleStatusCompleted": "Completed",
+      "cycleStatusOverdue": "Overdue",
+      "cycleInvoiceLinked": "Invoice {{.RevenueCode}} · {{.Status}}",
+      "cycleNoInvoice": "Not yet invoiced",
+      "cycleEmpty": "No cycles yet",
+      "backfillBanner": "{{.Count}} cycle(s) missing operational tracking. Spawn now to backfill.",
+      "backfillCta": "Backfill missing cycles"
+    },
+    "backfill": {
+      "drawerTitle": "Backfill cycle Jobs",
+      "drawerDescription": "Preview the cycles that will be spawned, then confirm to materialize them in one transaction.",
+      "previewLine": "Cycle {{.Index}} — {{.PeriodLabel}}",
+      "countLabel": "Cycles to spawn",
+      "confirm": "Spawn {{.Count}} cycle(s)",
+      "cancel": "Cancel",
+      "maxWarning": "Backfill is capped at 24 cycles per request. Reduce the range or run multiple backfills."
+    },
+    "jobs": {
+      "heading": "Jobs",
+      "empty": "No Jobs yet — this engagement has no operational tracking.",
+      "filterStatus": "Status",
+      "filterType": "Type",
+      "filterAll": "All",
+      "sortBy": "Sort",
+      "sortByCycle": "Cycle #",
+      "exportCsv": "Export CSV",
+      "summary": "Showing {{.Visible}} of {{.Total}} Jobs",
+      "columnNumber": "#",
+      "columnName": "Job Name",
+      "columnType": "Type",
+      "columnPhase": "Phase",
+      "columnStatus": "Status",
+      "columnPeriod": "Period",
+      "typeEngagement": "Engagement",
+      "typeOnboarding": "Onboarding",
+      "typeCycle": "Cycle",
+      "typeVisit": "Visit",
+      "spawnFailedToast": "Cycle Job spawn failed for {{.Period}} — invoice was created but the operational Job will need a manual retry."
     },
     "spawn": {
       "title": "Spawn Operational Jobs",

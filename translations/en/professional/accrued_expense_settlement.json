@@ -1,0 +1,8 @@
+{
+  "accruedExpenseSettlement": {
+    "labels": {
+      "name": "Service Accrual Settlement",
+      "namePlural": "Service Accrual Settlements"
+    }
+  }
+}

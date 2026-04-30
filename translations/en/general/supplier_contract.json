@@ -1,5 +1,11 @@
 {
-  "supplier_contract": {
+  "supplierContract": {
+    "labels": {
+      "name": "Supplier Contract",
+      "namePlural": "Supplier Contracts",
+      "line": "Contract Line",
+      "linePlural": "Contract Lines"
+    },
     "page": {
       "heading": "Supplier Contracts",
       "caption": "Manage standing agreements and commitments with suppliers",
@@ -22,12 +28,30 @@
       "reject": "Reject",
       "terminate": "Terminate",
       "suspend": "Suspend",
-      "submit": "Submit for Approval"
+      "submit": "Submit for Approval",
+      "renew": "Renew"
+    },
+    "search": {
+      "placeholder": "Search by name, supplier, or reference..."
+    },
+    "filters": {
+      "all": "All",
+      "kind": "Kind",
+      "status": "Status",
+      "supplier": "Supplier",
+      "location": "Location",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "anyKind": "Any Kind",
+      "anyStatus": "Any Status",
+      "anySupplier": "Any Supplier",
+      "anyLocation": "Any Location"
     },
     "columns": {
+      "internalId": "ID",
       "name": "Contract Name",
       "supplier": "Supplier",
-      "kind": "Type",
+      "kind": "Kind",
       "status": "Status",
       "dateStart": "Start Date",
       "dateEnd": "End Date",
@@ -37,9 +61,11 @@
       "billedAmount": "Billed",
       "remainingAmount": "Remaining",
       "cycleAmount": "Cycle Amount",
+      "spentAmount": "Spent",
       "autoRenew": "Auto-Renew",
       "renewalNoticeDays": "Notice Period",
       "location": "Location",
+      "category": "Category",
       "referenceNumber": "Reference No.",
       "paymentTerms": "Payment Terms"
     },
@@ -48,23 +74,41 @@
       "message": "Create your first supplier contract to track commitments.",
       "draftTitle": "No draft contracts",
       "draftMessage": "Draft contracts will appear here.",
+      "requestedTitle": "No submitted contracts",
+      "requestedMessage": "Submitted contracts awaiting approval will appear here.",
       "pendingApprovalTitle": "No contracts pending approval",
       "pendingApprovalMessage": "Contracts awaiting approval will appear here.",
+      "approvedTitle": "No approved contracts",
+      "approvedMessage": "Approved contracts will appear here.",
       "activeTitle": "No active contracts",
       "activeMessage": "Active supplier contracts will appear here.",
       "expiringTitle": "No contracts expiring soon",
       "expiringMessage": "Contracts nearing their end date will appear here.",
+      "suspendedTitle": "No suspended contracts",
+      "suspendedMessage": "Paused contracts will appear here.",
       "expiredTitle": "No expired contracts",
       "expiredMessage": "Expired contracts will appear here.",
       "terminatedTitle": "No terminated contracts",
-      "terminatedMessage": "Terminated contracts will appear here."
+      "terminatedMessage": "Terminated contracts will appear here.",
+      "rejectedTitle": "No rejected contracts",
+      "rejectedMessage": "Denied requests will appear here."
     },
     "form": {
       "sectionIdentity": "Contract Identity",
+      "sectionCounterparty": "Counterparty",
+      "sectionLifecycle": "Lifecycle",
+      "sectionRecurrence": "Recurrence",
       "sectionValidity": "Validity & Recurrence",
       "sectionMoneyApproval": "Financial & Approval",
+      "sectionMoney": "Money",
+      "sectionQuantity": "Quantity",
+      "sectionApproval": "Approval",
+      "sectionLocation": "Location",
+      "sectionAccounting": "Accounting",
       "sectionCategorization": "Categorization",
+      "sectionEmployment": "Employment Details",
       "sectionOthers": "Notes & Metadata",
+      "sectionNotes": "Notes",
 
       "name": "Contract Name",
       "namePlaceholder": "e.g. AWS Hosting MSA 2026",
@@ -85,35 +129,51 @@
       "selectLocation": "Select location...",
       "locationInfo": "The branch or office that is the contracting party.",
 
-      "kind": "Contract Type",
-      "selectKind": "Select contract type...",
+      "kind": "Contract Kind",
+      "selectKind": "Select contract kind...",
       "kindInfo": "Classification of this agreement. Drives validation rules and the recurrence engine.",
+
+      "status": "Status",
+      "selectStatus": "Select status...",
+      "statusInfo": "Lifecycle state. New contracts default to Draft and progress through Requested → Pending Approval → Approved → Active.",
 
       "billingKind": "Billing Kind",
       "selectBillingKind": "Select billing kind...",
       "billingCycleValue": "Billing Cycle",
+      "billingCycleValuePlaceholder": "e.g. 1",
       "billingCycleUnit": "Cycle Unit",
+      "selectBillingCycleUnit": "Select unit...",
       "defaultTermValue": "Default Term",
+      "defaultTermValuePlaceholder": "e.g. 12",
       "defaultTermUnit": "Term Unit",
+      "selectDefaultTermUnit": "Select unit...",
       "billingCycleInfo": "How often recurring charges are generated (e.g. 1 month).",
+      "defaultTermInfo": "The default contract length used to seed Validity Window when creating renewals.",
 
       "dateStart": "Start Date",
       "dateStartInfo": "Date the contract takes effect.",
       "dateEnd": "End Date",
+      "dateEndPlaceholder": "Leave empty for open-ended",
       "dateEndInfo": "Date the contract expires. Leave blank for open-ended.",
       "autoRenew": "Auto-Renew",
       "autoRenewInfo": "If enabled, the contract automatically renews when it expires.",
       "renewalNoticeDays": "Renewal Notice (days)",
+      "renewalNoticeDaysPlaceholder": "e.g. 30",
       "renewalNoticeDaysInfo": "Number of days before expiry to flag the contract as Expiring.",
 
       "currency": "Currency",
+      "currencyPlaceholder": "PHP",
       "currencyInfo": "ISO 4217 currency for all financial fields on this contract.",
       "committedAmount": "Committed Amount",
+      "committedAmountPlaceholder": "0.00",
       "committedAmountInfo": "Total value committed at signing. Immutable after approval.",
       "cycleAmount": "Expected Cycle Amount",
+      "cycleAmountPlaceholder": "0.00",
       "cycleAmountInfo": "Expected charge per billing cycle for recurring contracts.",
       "commitmentQuantity": "Committed Quantity",
+      "commitmentQuantityPlaceholder": "e.g. 5000",
       "commitmentQuantityInfo": "Total quantity committed (for blanket contracts).",
+      "releasedQuantity": "Released Quantity",
       "paymentTerms": "Payment Terms",
       "selectPaymentTerms": "Select payment terms...",
       "paymentTermsInfo": "Agreed payment schedule with this supplier.",
@@ -136,9 +196,34 @@
       "selectExpenditureCategory": "Select category...",
       "expenditureCategoryInfo": "Category for roll-up reporting and budget tracking.",
 
+      "payFrequency": "Pay Frequency",
+      "selectPayFrequency": "Select pay frequency...",
+      "payFrequencyInfo": "How often the employee is paid. Drives PayCycle generation.",
+      "employmentClass": "Employment Class",
+      "selectEmploymentClass": "Select employment class...",
+      "employmentClassInfo": "Classification used for statutory calculator selection.",
+      "position": "Position",
+      "positionPlaceholder": "e.g. Senior Engineer",
+      "department": "Department",
+      "departmentPlaceholder": "e.g. Engineering",
+
       "notes": "Notes",
       "notesPlaceholder": "Internal notes about this contract...",
       "notesInfo": "Internal remarks only. Not visible to the supplier."
+    },
+    "kind": {
+      "subscription": "Subscription",
+      "retainer": "Retainer",
+      "lease": "Lease",
+      "utility": "Utility",
+      "framework": "Framework",
+      "blanket": "Blanket",
+      "oneTime": "One-Time",
+      "other": "Other",
+      "employment": "Employment",
+      "nda": "Non-Disclosure",
+      "coi": "Certificate of Insurance",
+      "serviceAgreement": "Service Agreement"
     },
     "kindOptions": {
       "SUPPLIER_CONTRACT_KIND_SUBSCRIPTION": "Subscription",
@@ -148,7 +233,23 @@
       "SUPPLIER_CONTRACT_KIND_FRAMEWORK": "Framework Agreement",
       "SUPPLIER_CONTRACT_KIND_BLANKET": "Blanket Order",
       "SUPPLIER_CONTRACT_KIND_ONE_TIME": "One-Time",
-      "SUPPLIER_CONTRACT_KIND_OTHER": "Other"
+      "SUPPLIER_CONTRACT_KIND_OTHER": "Other",
+      "SUPPLIER_CONTRACT_KIND_EMPLOYMENT": "Employment",
+      "SUPPLIER_CONTRACT_KIND_NDA": "Non-Disclosure",
+      "SUPPLIER_CONTRACT_KIND_COI": "Certificate of Insurance",
+      "SUPPLIER_CONTRACT_KIND_SERVICE_AGREEMENT": "Service Agreement"
+    },
+    "status": {
+      "draft": "Draft",
+      "requested": "Requested",
+      "pendingApproval": "Pending Approval",
+      "approved": "Approved",
+      "active": "Active",
+      "expiring": "Expiring",
+      "suspended": "Suspended",
+      "expired": "Expired",
+      "terminated": "Terminated",
+      "rejected": "Rejected"
     },
     "statusOptions": {
       "draft": "Draft",
@@ -162,30 +263,59 @@
       "terminated": "Terminated",
       "rejected": "Rejected"
     },
+    "billingKind": {
+      "oneTime": "One-Time",
+      "recurring": "Recurring",
+      "contract": "Contract"
+    },
+    "cycleUnit": {
+      "day": "Day",
+      "week": "Week",
+      "month": "Month",
+      "year": "Year"
+    },
     "treatmentOptions": {
       "RECURRING": "Recurring",
       "ONE_TIME": "One-Time",
       "USAGE_BASED": "Usage-Based",
       "MINIMUM_COMMITMENT": "Minimum Commitment"
     },
+    "balances": {
+      "title": "Contract Balances",
+      "committed": "Committed",
+      "released": "Released",
+      "billed": "Billed",
+      "remaining": "Remaining",
+      "spent": "Spent",
+      "utilization": "Utilization",
+      "variance": "Variance",
+      "committedQuantity": "Committed Quantity",
+      "releasedQuantity": "Released Quantity"
+    },
     "actions": {
       "view": "View Contract",
       "edit": "Edit Contract",
       "delete": "Delete Contract",
+      "add": "Add Contract",
       "approve": "Approve Contract",
       "reject": "Reject Contract",
       "terminate": "Terminate Contract",
       "suspend": "Suspend Contract",
+      "resume": "Resume Contract",
       "submit": "Submit for Approval",
+      "renew": "Renew Contract",
       "linkExpenditure": "Link Expenditure",
       "addLine": "Add Contract Line",
       "editLine": "Edit Line",
-      "removeLine": "Remove Line"
+      "removeLine": "Remove Line",
+      "generateExpenditures": "Generate Upcoming Expenditures",
+      "noPermission": "No permission"
     },
     "bulkActions": {
       "delete": "Delete Selected",
       "approve": "Approve Selected",
-      "terminate": "Terminate Selected"
+      "terminate": "Terminate Selected",
+      "suspend": "Suspend Selected"
     },
     "confirm": {
       "delete": "Delete Contract",
@@ -196,21 +326,12 @@
       "terminateMessage": "Terminating this contract will stop any future expenditure generation. This action cannot be undone.",
       "suspend": "Suspend Contract",
       "suspendMessage": "Suspending this contract will pause expenditure generation. You can reactivate it later.",
+      "resume": "Resume Contract",
+      "resumeMessage": "Resuming this contract will restart expenditure generation.",
+      "submit": "Submit Contract",
+      "submitMessage": "Submit this contract for approval? You will no longer be able to edit it directly.",
       "bulkDelete": "Delete Selected Contracts",
       "bulkDeleteMessage": "Are you sure you want to delete the selected contracts? This action cannot be undone."
-    },
-    "errors": {
-      "permissionDenied": "You do not have permission to perform this action.",
-      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
-      "notFound": "Supplier contract not found.",
-      "idRequired": "Contract ID is required.",
-      "noIDsProvided": "No contract IDs provided.",
-      "invalidStatus": "Invalid status value.",
-      "noPermission": "No permission.",
-      "cannotDelete": "Cannot delete — this contract has linked expenditures or purchase orders.",
-      "inUse": "Cannot delete — this contract is referenced by existing records.",
-      "approvalFailed": "Contract approval failed. Please try again.",
-      "terminateFailed": "Contract termination failed. Please try again."
     },
     "info": {
       "expiringWarning": "This contract expires within the renewal notice window.",
@@ -219,15 +340,19 @@
       "balanceSummary": "Committed: {{.Committed}} | Released: {{.Released}} | Billed: {{.Billed}} | Remaining: {{.Remaining}}"
     },
     "tabs": {
-      "info": "Overview",
+      "info": "Information",
       "lines": "Contract Lines",
-      "expenditures": "Linked Expenditures",
+      "linkedPos": "Linked Purchase Orders",
+      "linkedExpenditures": "Linked Expenditures",
+      "balances": "Balances",
       "purchaseOrders": "Purchase Orders",
+      "expenditures": "Linked Expenditures",
       "activity": "Activity"
     },
     "lines": {
       "title": "Contract Lines",
       "empty": "No contract lines yet. Add a line to specify the goods or services covered.",
+      "addLine": "Add Line",
       "columnLineNumber": "Line #",
       "columnDescription": "Description",
       "columnProduct": "Product",
@@ -239,6 +364,73 @@
       "columnStart": "Start",
       "columnEnd": "End",
       "columnCategory": "Category"
+    },
+    "detail": {
+      "pageTitle": "Contract Details",
+      "title": "Contract Detail",
+      "infoSection": "Contract Information",
+      "linkedPosTitle": "Linked Purchase Orders",
+      "linkedPosEmptyTitle": "No linked purchase orders",
+      "linkedPosEmptyMessage": "Purchase orders that release against this contract will appear here.",
+      "linkedExpendituresTitle": "Linked Expenditures",
+      "linkedExpendituresEmptyTitle": "No linked expenditures",
+      "linkedExpendituresEmptyMessage": "Bills posted against this contract will appear here.",
+      "auditTrailComingSoon": "Activity log feature coming soon.",
+      "auditAction": "Action",
+      "auditUser": "User",
+      "auditEmptyTitle": "No activity entries",
+      "auditEmptyMessage": "Activity logs for this contract will appear here."
+    },
+    "statusMessages": {
+      "createSuccess": "Contract created successfully",
+      "updateSuccess": "Contract updated successfully",
+      "deleteSuccess": "Contract deleted successfully",
+      "submitSuccess": "Contract submitted for approval",
+      "approveSuccess": "Contract approved successfully",
+      "rejectSuccess": "Contract rejected successfully",
+      "suspendSuccess": "Contract suspended",
+      "resumeSuccess": "Contract resumed",
+      "terminateSuccess": "Contract terminated",
+      "renewSuccess": "Contract renewed",
+      "generateSuccess": "Upcoming expenditures generated"
+    },
+    "validation": {
+      "data_required": "Contract data is required",
+      "name_required": "Name is required",
+      "supplier_required": "Supplier is required",
+      "kind_required": "Contract kind is required",
+      "status_required": "Status is required",
+      "currency_required": "Currency is required",
+      "start_date_required": "Start date is required",
+      "billing_kind_required_for_recurring": "Billing kind is required for recurring contracts",
+      "cycle_amount_required_for_recurring": "Cycle amount is required for recurring contracts",
+      "commitment_quantity_required_for_blanket": "Committed quantity is required for blanket contracts",
+      "id_required": "Contract ID is required",
+      "approver_required": "Approver is required",
+      "rejection_reason_required": "Rejection reason is required when rejecting"
+    },
+    "errors": {
+      "permissionDenied": "You do not have permission to perform this action.",
+      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
+      "notFound": "Supplier contract not found.",
+      "not_found": "Supplier contract with ID \"{entityId}\" not found",
+      "idRequired": "Contract ID is required.",
+      "noIDsProvided": "No contract IDs provided.",
+      "invalidStatus": "Invalid status value.",
+      "invalid_status_transition": "Status transition from \"{from}\" to \"{to}\" is not allowed",
+      "noPermission": "No permission.",
+      "cannotDelete": "Cannot delete — this contract has linked expenditures or purchase orders.",
+      "inUse": "Cannot delete — this contract is referenced by existing records.",
+      "creation_failed": "Contract creation failed",
+      "update_failed": "Contract update failed",
+      "deletion_failed": "Contract deletion failed",
+      "list_failed": "Failed to retrieve supplier contracts",
+      "authorization_failed": "Authorization failed for supplier contracts",
+      "approvalFailed": "Contract approval failed. Please try again.",
+      "approval_failed": "Contract approval failed",
+      "terminateFailed": "Contract termination failed. Please try again.",
+      "termination_failed": "Contract termination failed",
+      "balance_drift": "Contract balance drift detected; recompute required"
     }
   }
 }

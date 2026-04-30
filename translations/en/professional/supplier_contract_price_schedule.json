@@ -1,0 +1,45 @@
+{
+  "supplierContractPriceSchedule": {
+    "labels": {
+      "name": "Contract Rate Period",
+      "namePlural": "Contract Rate Periods",
+      "line": "Rate Line",
+      "linePlural": "Rate Lines"
+    },
+    "page": {
+      "heading": "Contract Rate Periods",
+      "caption": "Date-windowed rate cards layered on top of a vendor agreement (e.g. annual SaaS or contractor escalations)",
+      "headingScheduled": "Upcoming Rate Periods",
+      "headingActive": "Current Rate Period",
+      "headingSuperseded": "Past Rate Periods",
+      "headingCancelled": "Cancelled Rate Periods",
+      "tabTitle": "Rate Periods"
+    },
+    "buttons": {
+      "add": "New Rate Period",
+      "addLine": "Add Rate Line",
+      "activate": "Activate",
+      "supersede": "Supersede",
+      "cancel": "Cancel Rate Period"
+    },
+    "columns": {
+      "name": "Rate Period Name",
+      "supplierContract": "Vendor Agreement"
+    },
+    "empty": {
+      "title": "No rate periods yet",
+      "message": "Add a rate period to track annual rate escalations on this vendor agreement."
+    },
+    "form": {
+      "name": "Rate Period Name",
+      "namePlaceholder": "e.g. Year 1 Rate Card",
+      "supplierContract": "Vendor Agreement",
+      "selectSupplierContract": "Select vendor agreement..."
+    },
+    "tabs": {
+      "info": "Information",
+      "lines": "Rate Lines",
+      "activity": "Activity"
+    }
+  }
+}

@@ -78,6 +78,47 @@
       "inUse": "This plan is in use by active engagements and cannot be deleted.",
       "scheduleClientMismatch": "Selected rate card belongs to a different client and cannot be attached to this price plan.",
       "scheduleRequiredForClientScope": "This package is scoped to a client. Pick or create a rate card for that client before adding a price plan."
+    },
+    "validation": {
+      "milestoneCyclicBlock": "Milestone billing is not supported on cyclic packages (RECURRING / CONTRACT × PER_CYCLE / multi-visit)."
+    },
+    "detail": {
+      "summary": {
+        "recurring": {
+          "perCycle": {
+            "customer": "Charged {{.Amount}} every {{.CycleLabel}}. Engagement auto-renews until cancelled.",
+            "operations": "Each cycle spawns {{.VisitsPerCycle}} engagement Job(s) (if Package has an Engagement Template). Work Plans tab shows cycle accordions.",
+            "revenue": "One invoice per cycle. Generate Invoice creates the invoice and (via piggyback) spawns the engagement Job if missing."
+          },
+          "derivedFromLines": {
+            "operations": "Each cycle spawns 1+ engagement Jobs. Operations tracking flows through the Package's Engagement Template.",
+            "revenue": "Invoice total computed from rate card lines; one invoice per cycle."
+          }
+        },
+        "contract": {
+          "totalPackage": {
+            "operations": "Engagement spawns 1 lifetime engagement Job (or cycle Jobs if cyclic — see Package's visits_per_cycle).",
+            "revenue": "One invoice at signup; cycle Jobs are operational only."
+          }
+        },
+        "milestone": {
+          "totalPackage": {
+            "operations": "Lifetime engagement Job with phases. BillingEvent rows gate per-milestone invoicing.",
+            "revenue": "Invoice per milestone trigger; sum across milestones equals the total package."
+          }
+        },
+        "oneTime": {
+          "totalPackage": {
+            "operations": "Engagement spawns 1 lifetime engagement Job with phases (if Package has an Engagement Template).",
+            "revenue": "One invoice at engagement signup covering the full amount."
+          }
+        }
+      },
+      "warning": {
+        "milestoneNoTemplate": "Milestone billing requires the Package to have an Engagement Template. Configure it on the Package first.",
+        "recurringNoTemplate": "This engagement will not have operational tracking. Add an Engagement Template to the Package to enable cycle Jobs.",
+        "visitsPerCycleInvalidKind": "visits_per_cycle is only valid for cyclic packages. Reset to 1 or change the billing kind."
+      }
     }
   }
 }

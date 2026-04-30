@@ -1,0 +1,45 @@
+{
+  "supplierContractPriceSchedule": {
+    "labels": {
+      "name": "Vendor Pricing Period",
+      "namePlural": "Vendor Pricing Periods",
+      "line": "Pricing Line",
+      "linePlural": "Pricing Lines"
+    },
+    "page": {
+      "heading": "Vendor Pricing Periods",
+      "caption": "Date-windowed pricing layered on top of a vendor agreement, e.g. annual price tiers from a wholesaler",
+      "headingScheduled": "Upcoming Pricing Periods",
+      "headingActive": "Current Pricing Period",
+      "headingSuperseded": "Past Pricing Periods",
+      "headingCancelled": "Cancelled Pricing Periods",
+      "tabTitle": "Pricing Periods"
+    },
+    "buttons": {
+      "add": "New Pricing Period",
+      "addLine": "Add Pricing Line",
+      "activate": "Activate",
+      "supersede": "Supersede",
+      "cancel": "Cancel Period"
+    },
+    "columns": {
+      "name": "Period Name",
+      "supplierContract": "Vendor Agreement"
+    },
+    "empty": {
+      "title": "No vendor pricing periods yet",
+      "message": "Add a period to track annual pricing on this vendor agreement."
+    },
+    "form": {
+      "name": "Period Name",
+      "namePlaceholder": "e.g. 2026 Wholesale Tier",
+      "supplierContract": "Vendor Agreement",
+      "selectSupplierContract": "Select vendor agreement..."
+    },
+    "tabs": {
+      "info": "Information",
+      "lines": "Pricing Lines",
+      "activity": "Activity"
+    }
+  }
+}

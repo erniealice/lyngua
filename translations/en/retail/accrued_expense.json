@@ -1,0 +1,22 @@
+{
+  "accruedExpense": {
+    "labels": {
+      "name": "Vendor Accrual",
+      "namePlural": "Vendor Accruals"
+    },
+    "page": {
+      "heading": "Vendor Accruals",
+      "caption": "Recognized vendor obligations awaiting the actual bill"
+    },
+    "buttons": {
+      "add": "New Vendor Accrual",
+      "accrueFromContract": "Accrue from Vendor Agreement"
+    },
+    "form": {
+      "name": "Accrual Name",
+      "namePlaceholder": "e.g. Wholesale Replenishment — May 2026 (estimate)",
+      "supplierContract": "Vendor Agreement",
+      "selectSupplierContract": "Select vendor agreement..."
+    }
+  }
+}

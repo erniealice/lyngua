@@ -1,0 +1,22 @@
+{
+  "accruedExpense": {
+    "labels": {
+      "name": "Service Accrual",
+      "namePlural": "Service Accruals"
+    },
+    "page": {
+      "heading": "Service Accruals",
+      "caption": "Recognized service or vendor obligations awaiting the actual bill"
+    },
+    "buttons": {
+      "add": "New Service Accrual",
+      "accrueFromContract": "Accrue from Vendor Agreement"
+    },
+    "form": {
+      "name": "Accrual Name",
+      "namePlaceholder": "e.g. Acme Consulting — May 2026 (estimate)",
+      "supplierContract": "Vendor Agreement",
+      "selectSupplierContract": "Select vendor agreement..."
+    }
+  }
+}

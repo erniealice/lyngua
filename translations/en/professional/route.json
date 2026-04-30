@@ -113,7 +113,11 @@
         "detail_url": "/app/subscriptions/detail/{id}",
         "add_url": "/action/subscription/add",
         "edit_url": "/action/subscription/edit/{id}",
-        "delete_url": "/action/subscription/delete"
+        "delete_url": "/action/subscription/delete",
+        "tabs": {
+            "operations": "work-plans",
+            "jobs": "jobs"
+        }
     },
     "treasury_collection": {
         "list_url": "/app/treasury-collections/list/{status}",

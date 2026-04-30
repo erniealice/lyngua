@@ -38,6 +38,9 @@
       "jobTemplate": "Job Template",
       "jobTemplateNone": "(none — engagement has no operational tracking)",
       "jobTemplateHint": "Select the operational template that defines the work for this engagement. Leave empty for advisory-only plans.",
+      "visitsPerCycleLabel": "Visits per billing cycle",
+      "visitsPerCyclePlaceholder": "1",
+      "visitsPerCycleHint": "Number of cycle Job instances per billing cycle. Default 1. Use 2 for biweekly visits billed monthly, 4 for weekly visits billed monthly.",
       "sections": {
         "basic": "Basic Information",
         "services": "Assigned Products"

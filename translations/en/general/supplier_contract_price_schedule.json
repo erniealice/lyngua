@@ -1,0 +1,240 @@
+{
+  "supplierContractPriceSchedule": {
+    "labels": {
+      "name": "Price Schedule",
+      "namePlural": "Price Schedules",
+      "line": "Schedule Line",
+      "linePlural": "Schedule Lines"
+    },
+    "page": {
+      "heading": "Contract Price Schedules",
+      "caption": "Date-windowed pricing layered on top of a supplier contract for multi-year escalation",
+      "headingScheduled": "Scheduled Periods",
+      "headingActive": "Active Periods",
+      "headingSuperseded": "Superseded Periods",
+      "headingCancelled": "Cancelled Periods",
+      "tabTitle": "Price Schedules"
+    },
+    "buttons": {
+      "add": "New Schedule",
+      "addLine": "Add Schedule Line",
+      "activate": "Activate",
+      "supersede": "Supersede",
+      "cancel": "Cancel Schedule"
+    },
+    "search": {
+      "placeholder": "Search by name or year..."
+    },
+    "filters": {
+      "all": "All",
+      "status": "Status",
+      "anyStatus": "Any Status",
+      "supplierContract": "Contract",
+      "anySupplierContract": "Any Contract",
+      "dateRange": "Effective Window"
+    },
+    "columns": {
+      "internalId": "ID",
+      "name": "Schedule Name",
+      "supplierContract": "Contract",
+      "sequenceNumber": "Seq.",
+      "dateStart": "Start",
+      "dateEnd": "End",
+      "status": "Status",
+      "currency": "Currency",
+      "lineCount": "Lines",
+      "total": "Total"
+    },
+    "empty": {
+      "title": "No price schedules yet",
+      "message": "Add a schedule period to layer multi-year pricing onto this contract.",
+      "scheduledTitle": "No upcoming schedules",
+      "scheduledMessage": "Future-dated schedules will appear here once added.",
+      "activeTitle": "No active schedule",
+      "activeMessage": "The contract is using header pricing — no schedule is in effect right now.",
+      "supersededTitle": "No past schedules",
+      "supersededMessage": "Schedules whose window has passed will be archived here.",
+      "cancelledTitle": "No cancelled schedules",
+      "cancelledMessage": "Schedules cancelled before activation will appear here."
+    },
+    "form": {
+      "sectionIdentity": "Schedule Identity",
+      "sectionValidity": "Validity Window",
+      "sectionScoping": "Scoping",
+      "sectionLifecycle": "Lifecycle",
+      "sectionNotes": "Notes",
+
+      "name": "Schedule Name",
+      "namePlaceholder": "e.g. Year 1 (2026)",
+      "nameInfo": "Human-readable label for this pricing window. Often a year or renewal label.",
+      "description": "Description",
+      "descriptionPlaceholder": "Optional details about this pricing window...",
+      "internalId": "Internal ID",
+      "internalIdPlaceholder": "Auto-generated",
+      "internalIdInfo": "Auto-generated unique identifier.",
+
+      "supplierContract": "Contract",
+      "selectSupplierContract": "Select contract...",
+      "supplierContractInfo": "The supplier contract this pricing window applies to. Schedules are scoped to a single contract.",
+
+      "dateStart": "Start Date",
+      "dateStartInfo": "When this pricing window takes effect. Window is half-open: start is inclusive.",
+      "dateEnd": "End Date",
+      "dateEndPlaceholder": "Leave empty for open-ended",
+      "dateEndInfo": "When this pricing window ends. Leave blank for the open-ended last bucket. Window is half-open: end is exclusive.",
+
+      "currency": "Currency",
+      "currencyPlaceholder": "PHP",
+      "currencyInfo": "ISO 4217 currency for prices in this schedule.",
+      "location": "Location",
+      "selectLocation": "Select location...",
+      "locationInfo": "Optional location override. Defaults to the parent contract's location.",
+
+      "status": "Status",
+      "selectStatus": "Select status...",
+      "statusInfo": "Lifecycle state. New schedules default to Scheduled and progress to Active when their window arrives.",
+      "sequenceNumber": "Sequence",
+      "sequenceNumberPlaceholder": "1",
+      "sequenceNumberInfo": "Ordering position within the contract (1, 2, 3...).",
+
+      "notes": "Notes",
+      "notesPlaceholder": "Internal notes about this pricing window...",
+      "notesInfo": "Internal remarks only. Not visible to the supplier."
+    },
+    "status": {
+      "scheduled": "Scheduled",
+      "active": "Active",
+      "superseded": "Superseded",
+      "cancelled": "Cancelled"
+    },
+    "statusOptions": {
+      "scheduled": "Scheduled",
+      "active": "Active",
+      "superseded": "Superseded",
+      "cancelled": "Cancelled"
+    },
+    "actions": {
+      "view": "View Schedule",
+      "edit": "Edit Schedule",
+      "delete": "Delete Schedule",
+      "add": "Add Schedule",
+      "activate": "Activate Schedule",
+      "supersede": "Supersede Schedule",
+      "cancel": "Cancel Schedule",
+      "addLine": "Add Schedule Line",
+      "editLine": "Edit Line",
+      "removeLine": "Remove Line",
+      "noPermission": "No permission"
+    },
+    "bulkActions": {
+      "delete": "Delete Selected",
+      "cancel": "Cancel Selected"
+    },
+    "confirm": {
+      "delete": "Delete Schedule",
+      "deleteMessage": "Are you sure you want to delete this schedule? This action cannot be undone.",
+      "activate": "Activate Schedule",
+      "activateMessage": "Activating this schedule will supersede any currently-active schedule on the same contract. Continue?",
+      "supersede": "Supersede Schedule",
+      "supersedeMessage": "Mark this schedule as superseded? Future cycles will fall back to header pricing or to the next active schedule.",
+      "cancel": "Cancel Schedule",
+      "cancelMessage": "Cancelling this schedule prevents it from ever activating. This action cannot be undone."
+    },
+    "info": {
+      "openEnded": "This schedule is open-ended (no end date). Only one open-ended schedule is allowed per contract.",
+      "activeNotice": "This schedule is currently in effect for the parent contract.",
+      "supersededNotice": "This schedule has been superseded and no longer affects pricing.",
+      "overlapBlocked": "Schedule windows cannot overlap. Adjust the start or end date so this window fits cleanly between existing schedules.",
+      "windowSummary": "Effective {{.Start}} through {{.End}}"
+    },
+    "tabs": {
+      "info": "Information",
+      "lines": "Schedule Lines",
+      "activity": "Activity"
+    },
+    "lines": {
+      "title": "Schedule Lines",
+      "empty": "No schedule lines yet. Add lines to override per-line pricing for this window.",
+      "addLine": "Add Line",
+      "columnContractLine": "Contract Line",
+      "columnUnitPrice": "Unit Price",
+      "columnQuantity": "Qty",
+      "columnMinimumAmount": "Minimum",
+      "columnCurrency": "Currency",
+      "columnCycleOverride": "Cycle Override",
+      "lineForm": {
+        "sectionLink": "Contract Line",
+        "sectionPricing": "Pricing",
+        "sectionCycle": "Cycle Override",
+        "supplierContractLine": "Contract Line",
+        "selectSupplierContractLine": "Select contract line...",
+        "supplierContractLineInfo": "The line whose unit price is overridden during this window.",
+        "unitPrice": "Unit Price",
+        "unitPricePlaceholder": "0.00",
+        "unitPriceInfo": "Per-unit price during this window, in the schedule's currency.",
+        "minimumAmount": "Minimum Amount",
+        "minimumAmountPlaceholder": "0.00",
+        "minimumAmountInfo": "For Minimum Commitment lines: the floor charged per cycle.",
+        "quantity": "Quantity",
+        "quantityPlaceholder": "0",
+        "quantityInfo": "Optional committed quantity for blanket or minimum-commitment lines.",
+        "currency": "Currency",
+        "currencyPlaceholder": "PHP",
+        "cycleValueOverride": "Cycle Value Override",
+        "cycleValueOverridePlaceholder": "e.g. 1",
+        "cycleValueOverrideInfo": "Optional cycle-length override. Most lines inherit the contract cycle.",
+        "cycleUnitOverride": "Cycle Unit Override",
+        "cycleUnitOverridePlaceholder": "month",
+        "cycleUnitOverrideInfo": "Optional cycle-unit override (day, week, month, year)."
+      }
+    },
+    "detail": {
+      "pageTitle": "Schedule Details",
+      "title": "Schedule Detail",
+      "infoSection": "Schedule Information",
+      "linesSection": "Per-Line Pricing",
+      "auditTrailComingSoon": "Activity log feature coming soon.",
+      "auditEmptyTitle": "No activity entries",
+      "auditEmptyMessage": "Activity logs for this schedule will appear here."
+    },
+    "statusMessages": {
+      "createSuccess": "Schedule created successfully",
+      "updateSuccess": "Schedule updated successfully",
+      "deleteSuccess": "Schedule deleted successfully",
+      "activateSuccess": "Schedule activated",
+      "supersedeSuccess": "Schedule superseded",
+      "cancelSuccess": "Schedule cancelled"
+    },
+    "validation": {
+      "data_required": "Schedule data is required",
+      "name_required": "Schedule name is required",
+      "supplier_contract_required": "Parent contract is required",
+      "currency_required": "Currency is required",
+      "start_date_required": "Start date is required",
+      "end_before_start": "End date must be after start date",
+      "id_required": "Schedule ID is required",
+      "overlap_with_existing": "This window overlaps an existing schedule on the same contract",
+      "open_ended_already_exists": "Only one open-ended schedule is allowed per contract",
+      "active_already_exists": "Another schedule is already active on this contract",
+      "cannot_activate_cancelled": "Cancelled schedules cannot be activated"
+    },
+    "errors": {
+      "permissionDenied": "You do not have permission to perform this action.",
+      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
+      "notFound": "Price schedule not found.",
+      "not_found": "Price schedule with ID \"{entityId}\" not found",
+      "idRequired": "Schedule ID is required.",
+      "noPermission": "No permission.",
+      "cannotDelete": "Cannot delete — this schedule is currently active or has dependent lines.",
+      "inUse": "Cannot delete — this schedule is referenced by existing records.",
+      "creation_failed": "Schedule creation failed",
+      "update_failed": "Schedule update failed",
+      "deletion_failed": "Schedule deletion failed",
+      "list_failed": "Failed to retrieve price schedules",
+      "authorization_failed": "Authorization failed for price schedules",
+      "activation_failed": "Schedule activation failed",
+      "supersede_failed": "Schedule supersede failed",
+      "overlap_detected": "Schedule windows overlap; adjust dates and retry"
+    }
+  }
+}

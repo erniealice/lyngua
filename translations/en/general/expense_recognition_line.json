@@ -1,0 +1,99 @@
+{
+  "expenseRecognitionLine": {
+    "labels": {
+      "name": "Recognition Line",
+      "namePlural": "Recognition Lines"
+    },
+    "page": {
+      "heading": "Recognition Lines",
+      "caption": "Per-line breakdown of an expense recognition"
+    },
+    "buttons": {
+      "add": "Add Line",
+      "addItem": "Add Recognition Line"
+    },
+    "columns": {
+      "lineNumber": "Line #",
+      "description": "Description",
+      "supplierContractLine": "Contract Line",
+      "expenditureLineItem": "Bill Line",
+      "product": "Product",
+      "quantity": "Qty",
+      "unitAmount": "Unit Amount",
+      "amount": "Total",
+      "currency": "Currency",
+      "expenseAccount": "Expense Account",
+      "jobActivity": "Job Activity"
+    },
+    "empty": {
+      "title": "No recognition lines yet",
+      "message": "Add a line to break this recognition down by source line item."
+    },
+    "form": {
+      "sectionDetails": "Line Details",
+      "sectionLink": "Source Link",
+      "sectionPricing": "Pricing",
+      "sectionAccounting": "Accounting",
+
+      "description": "Description",
+      "descriptionPlaceholder": "e.g. May 2026 hosting — Tier 1",
+      "descriptionInfo": "Short description of what this line covers.",
+      "supplierContractLine": "Contract Line",
+      "selectSupplierContractLine": "Select contract line...",
+      "supplierContractLineInfo": "Source contract line, if any.",
+      "expenditureLineItem": "Bill Line",
+      "selectExpenditureLineItem": "Select bill line...",
+      "expenditureLineItemInfo": "Source supplier-bill line, if any.",
+      "product": "Product",
+      "selectProduct": "Select product...",
+      "productInfo": "Optional catalog product associated with this line.",
+      "quantity": "Quantity",
+      "quantityPlaceholder": "0",
+      "unitAmount": "Unit Amount",
+      "unitAmountPlaceholder": "0.00",
+      "amount": "Line Total",
+      "amountPlaceholder": "0.00",
+      "amountInfo": "Auto-calculated as quantity × unit amount.",
+      "currency": "Currency",
+      "currencyPlaceholder": "PHP",
+      "expenseAccount": "Expense Account",
+      "selectExpenseAccount": "Select expense account...",
+      "expenseAccountInfo": "GL account override for this line.",
+      "jobActivity": "Job Activity",
+      "selectJobActivity": "Select job activity...",
+      "jobActivityInfo": "Associate this line with a job activity for project costing."
+    },
+    "actions": {
+      "edit": "Edit Line",
+      "remove": "Remove Line",
+      "delete": "Delete Line",
+      "save": "Save",
+      "cancel": "Cancel"
+    },
+    "confirm": {
+      "delete": "Remove Line",
+      "deleteMessage": "Are you sure you want to remove this line? This action cannot be undone."
+    },
+    "statusMessages": {
+      "createSuccess": "Line added successfully",
+      "updateSuccess": "Line updated successfully",
+      "deleteSuccess": "Line removed successfully"
+    },
+    "validation": {
+      "data_required": "Line data is required",
+      "description_required": "Description is required",
+      "amount_invalid": "Amount must be greater than zero",
+      "expense_recognition_required": "Parent recognition is required",
+      "id_required": "Line ID is required"
+    },
+    "errors": {
+      "notFound": "Recognition line not found.",
+      "not_found": "Recognition line with ID \"{entityId}\" not found",
+      "creation_failed": "Line creation failed",
+      "update_failed": "Line update failed",
+      "deletion_failed": "Line deletion failed",
+      "list_failed": "Failed to retrieve recognition lines",
+      "noPermission": "You do not have permission to perform this action."
+    }
+  }
+}

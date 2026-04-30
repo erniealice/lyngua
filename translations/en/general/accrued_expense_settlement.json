@@ -1,0 +1,107 @@
+{
+  "accruedExpenseSettlement": {
+    "labels": {
+      "name": "Settlement",
+      "namePlural": "Settlements"
+    },
+    "page": {
+      "heading": "Accrual Settlements",
+      "caption": "Bill applications against an accrued obligation"
+    },
+    "buttons": {
+      "add": "Record Settlement",
+      "reverse": "Reverse Settlement"
+    },
+    "columns": {
+      "settledAt": "Settled On",
+      "expenditure": "Bill",
+      "expenditureLineItem": "Bill Line",
+      "amountSettled": "Amount Applied",
+      "currency": "Currency",
+      "fxRate": "FX Rate",
+      "fxAdjustmentAmount": "FX Adjustment",
+      "reversedBy": "Reversed By",
+      "reversalReason": "Reversal Reason"
+    },
+    "empty": {
+      "title": "No settlements yet",
+      "message": "Record a settlement when a supplier bill arrives that applies against this accrual."
+    },
+    "form": {
+      "sectionLink": "Accrual & Bill",
+      "sectionAmount": "Amount",
+      "sectionFx": "FX Adjustment",
+      "sectionTiming": "Timing",
+      "sectionReversal": "Reversal",
+
+      "accruedExpense": "Accrual",
+      "selectAccruedExpense": "Select accrual...",
+      "accruedExpenseInfo": "The parent accrual being settled.",
+      "expenditure": "Bill",
+      "selectExpenditure": "Select bill...",
+      "expenditureInfo": "The supplier bill applying against this accrual.",
+      "expenditureLineItem": "Bill Line",
+      "selectExpenditureLineItem": "Select bill line...",
+      "expenditureLineItemInfo": "Optional bill line. One bill can split across multiple accruals.",
+
+      "amountSettled": "Amount Applied",
+      "amountSettledPlaceholder": "0.00",
+      "amountSettledInfo": "Portion of the bill that settles this accrual, in the accrual currency.",
+      "currency": "Currency",
+      "currencyPlaceholder": "PHP",
+
+      "fxRate": "FX Rate",
+      "fxRatePlaceholder": "1.0000",
+      "fxRateInfo": "Bill currency to accrual currency conversion rate at settlement date.",
+      "fxAdjustmentAmount": "FX Adjustment",
+      "fxAdjustmentAmountPlaceholder": "0.00",
+      "fxAdjustmentAmountInfo": "FX delta in the accrual currency, when the rate has shifted since recognition.",
+
+      "settledAt": "Settled On",
+      "settledAtInfo": "Date the settlement was applied.",
+
+      "reversedBySettlement": "Reversed By",
+      "reversedBySettlementInfo": "If this settlement has been reversed, link to the reversing settlement row.",
+      "reversalReason": "Reversal Reason",
+      "reversalReasonPlaceholder": "Explain why this settlement was reversed..."
+    },
+    "actions": {
+      "edit": "Edit Settlement",
+      "delete": "Delete Settlement",
+      "reverse": "Reverse Settlement",
+      "view": "View Settlement"
+    },
+    "confirm": {
+      "delete": "Delete Settlement",
+      "deleteMessage": "Are you sure you want to delete this settlement? The parent accrual balance will be recomputed.",
+      "reverse": "Reverse Settlement",
+      "reverseMessage": "Reversing creates an offsetting settlement row and recomputes parent balances. Continue?"
+    },
+    "statusMessages": {
+      "createSuccess": "Settlement recorded",
+      "updateSuccess": "Settlement updated",
+      "deleteSuccess": "Settlement removed",
+      "reverseSuccess": "Settlement reversed"
+    },
+    "validation": {
+      "data_required": "Settlement data is required",
+      "accrued_expense_required": "Parent accrual is required",
+      "expenditure_required": "Bill is required",
+      "amount_settled_invalid": "Amount applied must be greater than zero",
+      "currency_required": "Currency is required",
+      "settled_at_required": "Settlement date is required",
+      "exceeds_accrual_remaining": "Amount applied exceeds the accrual's remaining balance",
+      "id_required": "Settlement ID is required"
+    },
+    "errors": {
+      "notFound": "Settlement not found.",
+      "not_found": "Settlement with ID \"{entityId}\" not found",
+      "creation_failed": "Settlement recording failed",
+      "update_failed": "Settlement update failed",
+      "deletion_failed": "Settlement deletion failed",
+      "list_failed": "Failed to retrieve settlements",
+      "noPermission": "You do not have permission to perform this action.",
+      "reverse_failed": "Settlement reversal failed"
+    }
+  }
+}

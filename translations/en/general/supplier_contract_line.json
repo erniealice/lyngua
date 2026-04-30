@@ -1,0 +1,161 @@
+{
+  "supplierContractLine": {
+    "labels": {
+      "name": "Contract Line",
+      "namePlural": "Contract Lines"
+    },
+    "page": {
+      "heading": "Contract Lines",
+      "caption": "Line items within a supplier contract"
+    },
+    "buttons": {
+      "add": "Add Line",
+      "addItem": "Add Contract Line"
+    },
+    "columns": {
+      "lineNumber": "Line #",
+      "description": "Description",
+      "product": "Product",
+      "lineType": "Type",
+      "kind": "Kind",
+      "treatment": "Treatment",
+      "quantity": "Qty",
+      "unitPrice": "Unit Price",
+      "totalAmount": "Total",
+      "startDate": "Start",
+      "endDate": "End",
+      "category": "Category",
+      "location": "Location"
+    },
+    "empty": {
+      "title": "No contract lines yet",
+      "message": "Add a line to specify the goods or services covered by this contract."
+    },
+    "form": {
+      "lineNumber": "Line Number",
+      "lineNumberPlaceholder": "1",
+      "description": "Description",
+      "descriptionPlaceholder": "e.g. 50 user seats — Pro tier",
+      "descriptionInfo": "Short description of what the line covers.",
+      "product": "Product",
+      "selectProduct": "Select product...",
+      "productInfo": "Optional catalog product. Leave blank for bespoke lines.",
+      "lineType": "Line Type",
+      "selectLineType": "Select line type...",
+      "lineTypeInfo": "Whether the line covers goods, a service, or an expense.",
+      "kind": "Line Kind",
+      "selectKind": "Select kind...",
+      "kindInfo": "Discriminator that drives payroll calculator routing for employment contracts.",
+      "treatment": "Treatment",
+      "selectTreatment": "Select treatment...",
+      "treatmentInfo": "How the line is accounted and billed: recurring, one-time, usage-based, or minimum commitment.",
+      "quantity": "Quantity",
+      "quantityPlaceholder": "0",
+      "quantityInfo": "Number of units. Use 1 for flat-fee lines.",
+      "unitPrice": "Unit Price",
+      "unitPricePlaceholder": "0.00",
+      "unitPriceInfo": "Price per unit in the contract currency.",
+      "totalAmount": "Total Amount",
+      "totalAmountPlaceholder": "0.00",
+      "totalAmountInfo": "Total for this line. Auto-calculated as quantity × unit price.",
+      "startDate": "Start Date",
+      "startDateInfo": "When this line becomes effective. Defaults to the contract start.",
+      "endDate": "End Date",
+      "endDatePlaceholder": "Leave empty to inherit contract end",
+      "endDateInfo": "When this line expires. Defaults to the contract end.",
+      "expenditureCategory": "Category",
+      "selectExpenditureCategory": "Select category...",
+      "expenditureCategoryInfo": "Overrides the contract-level category for this line.",
+      "expenseAccount": "Expense Account",
+      "selectExpenseAccount": "Select expense account...",
+      "expenseAccountInfo": "GL account override for this line.",
+      "location": "Location",
+      "selectLocation": "Select location...",
+      "locationInfo": "Receiving location for this line, if different from the contract location.",
+      "active": "Active",
+
+      "sectionDetails": "Line Details",
+      "sectionPricing": "Pricing",
+      "sectionWindow": "Date Window",
+      "sectionAccounting": "Accounting"
+    },
+    "lineType": {
+      "goods": "Goods",
+      "service": "Service",
+      "expense": "Expense"
+    },
+    "kind": {
+      "goods": "Goods",
+      "service": "Service",
+      "expense": "Expense",
+      "basicSalary": "Basic Salary",
+      "allowanceTaxable": "Taxable Allowance",
+      "allowanceDeMinimis": "De Minimis Allowance",
+      "recurringBonus": "Recurring Bonus",
+      "loanAmortization": "Loan Amortization",
+      "companyDeduction": "Company Deduction"
+    },
+    "kindOptions": {
+      "SUPPLIER_CONTRACT_LINE_KIND_GOODS": "Goods",
+      "SUPPLIER_CONTRACT_LINE_KIND_SERVICE": "Service",
+      "SUPPLIER_CONTRACT_LINE_KIND_EXPENSE": "Expense",
+      "SUPPLIER_CONTRACT_LINE_KIND_BASIC_SALARY": "Basic Salary",
+      "SUPPLIER_CONTRACT_LINE_KIND_ALLOWANCE_TAXABLE": "Taxable Allowance",
+      "SUPPLIER_CONTRACT_LINE_KIND_ALLOWANCE_DE_MINIMIS": "De Minimis Allowance",
+      "SUPPLIER_CONTRACT_LINE_KIND_RECURRING_BONUS": "Recurring Bonus",
+      "SUPPLIER_CONTRACT_LINE_KIND_LOAN_AMORTIZATION": "Loan Amortization",
+      "SUPPLIER_CONTRACT_LINE_KIND_COMPANY_DEDUCTION": "Company Deduction"
+    },
+    "treatment": {
+      "recurring": "Recurring",
+      "oneTime": "One-Time",
+      "usageBased": "Usage-Based",
+      "minimumCommitment": "Minimum Commitment"
+    },
+    "treatmentOptions": {
+      "SUPPLIER_CONTRACT_LINE_TREATMENT_RECURRING": "Recurring",
+      "SUPPLIER_CONTRACT_LINE_TREATMENT_ONE_TIME": "One-Time",
+      "SUPPLIER_CONTRACT_LINE_TREATMENT_USAGE_BASED": "Usage-Based",
+      "SUPPLIER_CONTRACT_LINE_TREATMENT_MINIMUM_COMMITMENT": "Minimum Commitment"
+    },
+    "actions": {
+      "edit": "Edit Line",
+      "remove": "Remove Line",
+      "delete": "Delete Line",
+      "save": "Save",
+      "cancel": "Cancel"
+    },
+    "confirm": {
+      "delete": "Remove Line",
+      "deleteMessage": "Are you sure you want to remove this line? This action cannot be undone."
+    },
+    "statusMessages": {
+      "createSuccess": "Line added successfully",
+      "updateSuccess": "Line updated successfully",
+      "deleteSuccess": "Line removed successfully"
+    },
+    "validation": {
+      "data_required": "Line data is required",
+      "description_required": "Description is required",
+      "line_type_required": "Line type is required",
+      "treatment_required": "Treatment is required",
+      "quantity_invalid": "Quantity must be greater than zero",
+      "unit_price_invalid": "Unit price must be zero or greater",
+      "total_amount_invalid": "Total amount must be zero or greater",
+      "supplier_contract_required": "Parent contract is required",
+      "id_required": "Line ID is required",
+      "end_before_start": "End date must be on or after start date",
+      "kind_incompatible_with_contract": "Line kind is not compatible with the parent contract kind"
+    },
+    "errors": {
+      "permissionDenied": "You do not have permission to perform this action.",
+      "notFound": "Contract line not found.",
+      "not_found": "Contract line with ID \"{entityId}\" not found",
+      "creation_failed": "Line creation failed",
+      "update_failed": "Line update failed",
+      "deletion_failed": "Line deletion failed",
+      "list_failed": "Failed to retrieve contract lines",
+      "noPermission": "You do not have permission to perform this action."
+    }
+  }
+}

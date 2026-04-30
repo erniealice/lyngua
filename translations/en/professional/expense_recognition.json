@@ -1,0 +1,23 @@
+{
+  "expenseRecognition": {
+    "labels": {
+      "name": "Recognized Service Cost",
+      "namePlural": "Recognized Service Costs"
+    },
+    "page": {
+      "heading": "Recognized Service Costs",
+      "caption": "Period in which a service or vendor cost is recognized, independent of when the bill arrived"
+    },
+    "buttons": {
+      "add": "New Recognized Cost",
+      "recognizeFromExpenditure": "Recognize from Bill",
+      "recognizeFromContract": "Recognize from Vendor Agreement"
+    },
+    "form": {
+      "name": "Recognized Cost Name",
+      "namePlaceholder": "e.g. AWS Hosting — May 2026",
+      "supplierContract": "Vendor Agreement",
+      "selectSupplierContract": "Select vendor agreement..."
+    }
+  }
+}

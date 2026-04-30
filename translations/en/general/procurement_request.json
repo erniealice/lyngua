@@ -1,5 +1,11 @@
 {
-  "procurement_request": {
+  "procurementRequest": {
+    "labels": {
+      "name": "Procurement Request",
+      "namePlural": "Procurement Requests",
+      "line": "Request Line",
+      "linePlural": "Request Lines"
+    },
     "page": {
       "heading": "Procurement Requests",
       "caption": "Manage internal purchase requests and approval workflows",
@@ -9,7 +15,8 @@
       "headingApproved": "Approved Requests",
       "headingRejected": "Rejected Requests",
       "headingFulfilled": "Fulfilled Requests",
-      "headingCancelled": "Cancelled Requests"
+      "headingCancelled": "Cancelled Requests",
+      "dashboard": "Procurement Requests Dashboard"
     },
     "buttons": {
       "add": "New Request",
@@ -19,6 +26,24 @@
       "reject": "Reject",
       "cancel": "Cancel Request",
       "spawnPO": "Create Purchase Order"
+    },
+    "search": {
+      "placeholder": "Search by request number, requester, or supplier..."
+    },
+    "filters": {
+      "all": "All",
+      "status": "Status",
+      "supplier": "Supplier",
+      "requester": "Requester",
+      "location": "Location",
+      "fulfillmentStrategy": "Fulfillment",
+      "fulfillmentMode": "Mode",
+      "anyStatus": "Any Status",
+      "anySupplier": "Any Supplier",
+      "anyRequester": "Any Requester",
+      "anyLocation": "Any Location",
+      "anyFulfillmentStrategy": "Any Fulfillment",
+      "anyFulfillmentMode": "Any Mode"
     },
     "columns": {
       "requestNumber": "Request No.",
@@ -30,7 +55,8 @@
       "neededByDate": "Needed By",
       "status": "Status",
       "approvedBy": "Approved By",
-      "justification": "Justification"
+      "justification": "Justification",
+      "purchaseOrder": "Purchase Order"
     },
     "empty": {
       "title": "No procurement requests found",
@@ -52,9 +78,11 @@
     },
     "form": {
       "sectionDetails": "Request Details",
+      "sectionRequester": "Requester",
       "sectionSupplier": "Supplier & Location",
       "sectionFinancials": "Financial",
       "sectionApproval": "Approval",
+      "sectionAccounting": "Accounting",
       "sectionNotes": "Notes",
 
       "requestNumber": "Request Number",
@@ -70,9 +98,15 @@
       "selectLocation": "Select location...",
       "locationInfo": "The branch or department making the request.",
 
+      "status": "Status",
+      "selectStatus": "Select status...",
+      "statusInfo": "Lifecycle state of this request.",
+
       "currency": "Currency",
+      "currencyPlaceholder": "PHP",
       "currencyInfo": "Currency for all estimated amounts on this request.",
       "estimatedTotal": "Estimated Total",
+      "estimatedTotalPlaceholder": "0.00",
       "estimatedTotalInfo": "Combined estimated value of all line items.",
       "neededByDate": "Needed By",
       "neededByDateInfo": "Latest date by which the goods or services are required.",
@@ -85,23 +119,80 @@
       "rejectionReason": "Rejection Reason",
       "rejectionReasonPlaceholder": "Explain why this request was rejected...",
 
+      "expenseAccount": "Expense Account",
+      "selectExpenseAccount": "Select expense account...",
+      "expenseAccountInfo": "GL account that the resulting expenditure will post to.",
+      "expenditureCategory": "Expenditure Category",
+      "selectExpenditureCategory": "Select category...",
+      "expenditureCategoryInfo": "Category for roll-up reporting.",
+
+      "purchaseOrder": "Purchase Order",
+      "purchaseOrderInfo": "Purchase order spawned from this request after approval.",
+
       "notes": "Notes",
       "notesPlaceholder": "Optional internal notes...",
       "notesInfo": "Internal remarks only."
+    },
+    "status": {
+      "draft": "Draft",
+      "submitted": "Submitted",
+      "pendingApproval": "Pending Approval",
+      "approved": "Approved",
+      "approvedPendingSpawn": "Approved — Pending Spawn",
+      "rejected": "Rejected",
+      "fulfilled": "Fulfilled",
+      "cancelled": "Cancelled"
     },
     "statusOptions": {
       "draft": "Draft",
       "submitted": "Submitted",
       "pending_approval": "Pending Approval",
       "approved": "Approved",
+      "approved_pending_spawn": "Approved — Pending Spawn",
       "rejected": "Rejected",
       "fulfilled": "Fulfilled",
       "cancelled": "Cancelled"
     },
+    "fulfillmentStrategy": {
+      "uniformOutright": "Uniform — Outright",
+      "uniformStockable": "Uniform — Stockable",
+      "uniformRecurring": "Uniform — Recurring",
+      "uniformPetty": "Uniform — Petty",
+      "mixed": "Mixed Modes"
+    },
+    "fulfillmentStrategyOptions": {
+      "PROCUREMENT_REQUEST_FULFILLMENT_STRATEGY_UNIFORM_OUTRIGHT": "Uniform — Outright",
+      "PROCUREMENT_REQUEST_FULFILLMENT_STRATEGY_UNIFORM_STOCKABLE": "Uniform — Stockable",
+      "PROCUREMENT_REQUEST_FULFILLMENT_STRATEGY_UNIFORM_RECURRING": "Uniform — Recurring",
+      "PROCUREMENT_REQUEST_FULFILLMENT_STRATEGY_UNIFORM_PETTY": "Uniform — Petty",
+      "PROCUREMENT_REQUEST_FULFILLMENT_STRATEGY_MIXED": "Mixed Modes"
+    },
+    "fulfillmentMode": {
+      "outright": "Outright",
+      "stockable": "Stockable",
+      "recurring": "Recurring",
+      "petty": "Petty"
+    },
+    "fulfillmentModeOptions": {
+      "PROCUREMENT_REQUEST_LINE_FULFILLMENT_MODE_OUTRIGHT": "Outright",
+      "PROCUREMENT_REQUEST_LINE_FULFILLMENT_MODE_STOCKABLE": "Stockable",
+      "PROCUREMENT_REQUEST_LINE_FULFILLMENT_MODE_RECURRING": "Recurring",
+      "PROCUREMENT_REQUEST_LINE_FULFILLMENT_MODE_PETTY": "Petty"
+    },
+    "fulfillmentModeHints": {
+      "outright": "One-shot purchase. Spawns a single purchase order on approval; no recurrence, no inventory side-effect.",
+      "stockable": "Replenishment buy. Spawns a purchase order; received goods credit inventory on receipt.",
+      "recurring": "Standing agreement. Spawns a supplier contract on approval; the recurrence engine emits cycle bills.",
+      "petty": "Cash-out. Spawns an expenditure directly against petty cash. No PO, no contract."
+    },
+    "fulfillmentStrategyHint": "Auto-derived from the per-line fulfillment modes. Mixed strategy means lines split across multiple modes.",
+    "policyDecisionLog": "Approval Policy Log",
+    "policyDecisionLogInfo": "Audit trail of approval policy decisions taken on this request (auto-approve, escalation, override). Read-only.",
     "actions": {
       "view": "View Request",
       "edit": "Edit Request",
       "delete": "Delete Request",
+      "add": "Add Request",
       "submit": "Submit for Approval",
       "approve": "Approve",
       "reject": "Reject",
@@ -109,7 +200,8 @@
       "spawnPO": "Create Purchase Order",
       "addLine": "Add Line",
       "editLine": "Edit Line",
-      "removeLine": "Remove Line"
+      "removeLine": "Remove Line",
+      "noPermission": "No permission"
     },
     "bulkActions": {
       "delete": "Delete Selected",
@@ -137,32 +229,22 @@
       "bulkReject": "Reject Selected",
       "bulkRejectMessage": "Are you sure you want to reject the selected requests?"
     },
-    "errors": {
-      "permissionDenied": "You do not have permission to perform this action.",
-      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
-      "notFound": "Procurement request not found.",
-      "idRequired": "Request ID is required.",
-      "noIDsProvided": "No request IDs provided.",
-      "invalidStatus": "Invalid status value.",
-      "noPermission": "No permission.",
-      "cannotDelete": "Cannot delete — this request has been submitted or approved.",
-      "approvalFailed": "Request approval failed. Please try again.",
-      "spawnPOFailed": "Failed to create purchase order from this request."
-    },
     "info": {
       "supplierOptional": "Supplier may be left blank if supplier selection is part of the approval process.",
       "spawnPOReady": "This request is approved and ready for purchase order creation.",
       "fulfilledNotice": "This request has been fulfilled. A purchase order was created."
     },
     "tabs": {
-      "info": "Overview",
+      "info": "Information",
       "lines": "Line Items",
+      "spawnedPos": "Spawned Purchase Orders",
       "purchaseOrders": "Purchase Orders",
       "activity": "Activity"
     },
     "lines": {
       "title": "Request Lines",
       "empty": "No line items yet. Add a line to detail what you need.",
+      "addLine": "Add Line",
       "columnLineNumber": "Line #",
       "columnDescription": "Description",
       "columnProduct": "Product",
@@ -172,6 +254,62 @@
       "columnEstimatedTotal": "Est. Total",
       "columnCategory": "Category",
       "columnContractLine": "Contract Line"
+    },
+    "detail": {
+      "pageTitle": "Request Details",
+      "title": "Request Detail",
+      "infoSection": "Request Information",
+      "spawnedPosTitle": "Spawned Purchase Orders",
+      "spawnedPosEmptyTitle": "No spawned purchase orders",
+      "spawnedPosEmptyMessage": "Purchase orders created from this request will appear here.",
+      "auditTrailComingSoon": "Activity log feature coming soon.",
+      "auditAction": "Action",
+      "auditUser": "User",
+      "auditEmptyTitle": "No activity entries",
+      "auditEmptyMessage": "Activity logs for this request will appear here."
+    },
+    "statusMessages": {
+      "createSuccess": "Request created successfully",
+      "updateSuccess": "Request updated successfully",
+      "deleteSuccess": "Request deleted successfully",
+      "submitSuccess": "Request submitted for approval",
+      "approveSuccess": "Request approved successfully",
+      "rejectSuccess": "Request rejected successfully",
+      "cancelSuccess": "Request cancelled",
+      "spawnPOSuccess": "Purchase order created from request"
+    },
+    "validation": {
+      "data_required": "Request data is required",
+      "request_number_required": "Request number is required",
+      "requester_required": "Requester is required",
+      "currency_required": "Currency is required",
+      "estimated_total_invalid": "Estimated total must be zero or greater",
+      "id_required": "Request ID is required",
+      "approver_required": "Approver is required",
+      "rejection_reason_required": "Rejection reason is required when rejecting",
+      "must_be_approved_to_spawn_po": "Request must be approved before a purchase order can be created",
+      "supplier_required_to_spawn_po": "A supplier must be selected before a purchase order can be created"
+    },
+    "errors": {
+      "permissionDenied": "You do not have permission to perform this action.",
+      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
+      "notFound": "Procurement request not found.",
+      "not_found": "Procurement request with ID \"{entityId}\" not found",
+      "idRequired": "Request ID is required.",
+      "noIDsProvided": "No request IDs provided.",
+      "invalidStatus": "Invalid status value.",
+      "invalid_status_transition": "Status transition from \"{from}\" to \"{to}\" is not allowed",
+      "noPermission": "No permission.",
+      "cannotDelete": "Cannot delete — this request has been submitted or approved.",
+      "creation_failed": "Request creation failed",
+      "update_failed": "Request update failed",
+      "deletion_failed": "Request deletion failed",
+      "list_failed": "Failed to retrieve procurement requests",
+      "authorization_failed": "Authorization failed for procurement requests",
+      "approvalFailed": "Request approval failed. Please try again.",
+      "approval_failed": "Request approval failed",
+      "spawnPOFailed": "Failed to create purchase order from this request.",
+      "spawn_po_failed": "Failed to create purchase order from this request"
     }
   }
 }

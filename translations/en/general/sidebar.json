@@ -93,5 +93,27 @@
     "expiring_label": "Expiring",
     "terminated_label": "Terminated",
     "pending_approval_label": "Pending Approval",
-    "rejected_label": "Rejected"
+    "rejected_label": "Rejected",
+
+    "price_schedule_list_label": "Price Schedules",
+    "price_schedule_list_icon": "icon-calendar",
+    "price_schedule_detail_label": "Schedule Detail",
+    "price_schedule_detail_icon": "icon-calendar",
+
+    "expense_recognition_list_label": "Expense Recognition",
+    "expense_recognition_list_icon": "icon-check-square",
+    "expense_recognition_detail_label": "Recognition Detail",
+    "expense_recognition_detail_icon": "icon-check-square",
+
+    "accrued_expense_list_label": "Accrued Expenses",
+    "accrued_expense_list_icon": "icon-clock",
+    "accrued_expense_detail_label": "Accrual Detail",
+    "accrued_expense_detail_icon": "icon-clock",
+
+    "schedule_conflicts_label": "Schedule Conflicts",
+    "schedule_conflicts_icon": "icon-alert-triangle",
+    "open_accruals_label": "Open Accruals",
+    "open_accruals_icon": "icon-inbox",
+    "recognized_vs_settled_label": "Recognized vs Settled",
+    "recognized_vs_settled_icon": "icon-bar-chart"
 }

@@ -76,11 +76,61 @@
       "request_required": "Request is required for rate cards",
       "plan_id_required": "Plan selection is required for rate cards",
       "location_id_required": "Location selection is required for rate cards",
-      "amount_required": "Amount is required for rate cards"
+      "amount_required": "Amount is required for rate cards",
+      "milestoneCyclicBlock": "Milestone billing is not supported on cyclic plans (RECURRING / CONTRACT × PER_CYCLE / multi-visit)."
     },
     "detail": {
       "edit": "Edit Price Plan",
-      "editTitle": "Edit Price Plan"
+      "editTitle": "Edit Price Plan",
+      "summaryHeading": "Billing model summary",
+      "customerHeading": "Customer experience",
+      "operationsHeading": "Operations impact",
+      "revenueRecognitionHeading": "Revenue recognition",
+      "summary": {
+        "oneTime": {
+          "totalPackage": {
+            "customer": "Pays {{.Amount}} once at signup. No further charges.",
+            "operations": "Engagement spawns 1 lifetime Job with phases (if Plan has a JobTemplate).",
+            "revenue": "One Revenue at Subscription.Create covering the full amount."
+          }
+        },
+        "recurring": {
+          "perCycle": {
+            "customer": "Charged {{.Amount}} every {{.CycleLabel}}. Subscription auto-renews until cancelled.",
+            "operations": "Each cycle spawns {{.VisitsPerCycle}} cycle Job(s) (if Plan has a JobTemplate). Operations tab shows cycle accordions.",
+            "revenue": "One Revenue per cycle. Recognize Revenue creates the invoice and (via piggyback) spawns the cycle Job if missing."
+          },
+          "derivedFromLines": {
+            "customer": "Charged the sum of itemised lines every {{.CycleLabel}}.",
+            "operations": "Each cycle spawns 1+ cycle Jobs. Operations tracking flows through Plan's JobTemplate.",
+            "revenue": "Revenue total computed from ProductPricePlan rows; one Revenue per cycle."
+          }
+        },
+        "contract": {
+          "perCycle": {
+            "customer": "Charged {{.Amount}} every {{.CycleLabel}} for {{.TermLength}}. Auto-deactivates at term end.",
+            "operations": "Same as recurring + the engagement closes when the {{.TermLength}} term completes.",
+            "revenue": "Same as recurring. Operator can extend the term to spawn additional cycles."
+          },
+          "totalPackage": {
+            "customer": "Pays {{.Amount}} upfront for {{.TermLength}} of service.",
+            "operations": "Engagement spawns 1 lifetime Job (or cycle Jobs if cyclic — see Plan's visits_per_cycle).",
+            "revenue": "One Revenue at signup; cycle Jobs are operational only."
+          }
+        },
+        "milestone": {
+          "totalPackage": {
+            "customer": "Pays {{.Amount}} total. Invoice fires per milestone (engagement phase) as work completes.",
+            "operations": "Lifetime engagement Job with phases. BillingEvent rows gate per-milestone invoicing.",
+            "revenue": "Revenue per milestone trigger; sum across milestones equals the total package."
+          }
+        }
+      },
+      "warning": {
+        "milestoneNoTemplate": "Milestone billing requires the Plan to have a JobTemplate. Configure it on the Plan first.",
+        "recurringNoTemplate": "This subscription will not have operational tracking. Add a JobTemplate to the Plan to enable cycle Jobs.",
+        "visitsPerCycleInvalidKind": "visits_per_cycle is only valid for cyclic plans. Reset to 1 or change the billing kind."
+      }
     },
     "fields": {
       "parentScheduleClientNotice": "This price schedule belongs to {{.ClientName}}. Price plans created here will be available only for engagements with this client."

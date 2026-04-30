@@ -1,0 +1,23 @@
+{
+  "expenseRecognition": {
+    "labels": {
+      "name": "Vendor Recognized Expense",
+      "namePlural": "Vendor Recognized Expenses"
+    },
+    "page": {
+      "heading": "Vendor Recognized Expense",
+      "caption": "Period in which a vendor cost is recognized, independent of when the bill arrived"
+    },
+    "buttons": {
+      "add": "New Recognized Expense",
+      "recognizeFromExpenditure": "Recognize from Vendor Bill",
+      "recognizeFromContract": "Recognize from Vendor Agreement"
+    },
+    "form": {
+      "name": "Recognized Expense Name",
+      "namePlaceholder": "e.g. Wholesale COGS — May 2026",
+      "supplierContract": "Vendor Agreement",
+      "selectSupplierContract": "Select vendor agreement..."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "supplierContractLine": {
+    "labels": {
+      "name": "Agreement Line",
+      "namePlural": "Agreement Lines"
+    },
+    "page": {
+      "heading": "Agreement Lines",
+      "caption": "Line items within a vendor agreement"
+    },
+    "empty": {
+      "title": "No agreement lines yet",
+      "message": "Add a line to specify the services covered by this agreement."
+    }
+  }
+}
