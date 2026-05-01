@@ -1,5 +1,14 @@
 {
   "workspace": {
+    "detail": {
+      "tabs": {
+        "info": "Info",
+        "users": "Users"
+      },
+      "users": {
+        "addButton": "Add user to workspace"
+      }
+    },
     "validation": {
       "data_required": "Workspace data is required",
       "name_required": "Workspace name is required",

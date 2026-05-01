@@ -23,6 +23,7 @@
     "name": "Name",
     "email": "Email",
     "roles": "Roles",
+    "workspaces": "Workspaces",
     "division": "Division",
     "dateCreated": "Date Created",
     "status": "Status",

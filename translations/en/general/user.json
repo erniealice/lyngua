@@ -1,4 +1,7 @@
 {
+  "columns": {
+    "workspaces": "Workspaces"
+  },
   "user": {
     "form": {
       "emailInfo": "Primary email address used for login and system notifications.",

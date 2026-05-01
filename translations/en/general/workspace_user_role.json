@@ -17,13 +17,31 @@
       "business_rule_validation_failed": "Business rule validation failed",
       "not_found": "Workspace-User-Role with ID \"{workspaceUserRoleId}\" not found",
       "workspace_user_not_found": "Referenced workspace user with ID \"{workspaceUserId}\" not found",
+      "workspace_user_not_active": "Referenced workspace user with ID \"{workspaceUserId}\" is not active",
       "role_not_found": "Referenced role with ID \"{roleId}\" not found",
+      "role_not_active": "Referenced role with ID \"{roleId}\" is not active",
       "read_failed": "Failed to read workspace user role",
       "creation_failed": "Workspace-User-Role creation failed",
       "update_failed": "Workspace-User-Role update failed",
       "deletion_failed": "Workspace-User-Role deletion failed",
       "list_failed": "Failed to retrieve workspace user roles",
+      "list_page_data_failed": "Failed to retrieve workspace user role list",
+      "processing_failed": "Failed to process workspace user role list",
+      "type_conversion_failed": "Failed to convert item to workspace user role type",
       "authorization_failed": "Authorization failed for workspace user roles"
+    },
+    "form": {
+      "workspaceUser": "Workspace User",
+      "role": "Role",
+      "rolePlaceholder": "Select role...",
+      "roleSearchPlaceholder": "Search roles...",
+      "roleNoResults": "No roles found",
+      "permissions": "Permissions",
+      "permissionsHint": "Select a role to see its permissions."
+    },
+    "buttons": {
+      "submit": "Assign",
+      "cancel": "Cancel"
     }
   }
 }

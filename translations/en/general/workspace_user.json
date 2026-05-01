@@ -1,4 +1,40 @@
 {
+  "page": {
+    "heading": "Workspace Users",
+    "caption": "Manage user assignments for workspaces."
+  },
+  "columns": {
+    "userName": "Name",
+    "email": "Email",
+    "roles": "Roles",
+    "status": "Status",
+    "roleName": "Role",
+    "permCount": "Permissions",
+    "dateJoined": "Date Joined"
+  },
+  "detail": {
+    "backToWorkspace": "Back to workspace",
+    "tabs": {
+      "info": "Info",
+      "roles": "Roles"
+    },
+    "roles": {
+      "assignButton": "Assign role"
+    }
+  },
+  "form": {
+    "user": "User",
+    "userPlaceholder": "Select a user",
+    "userSearchPlaceholder": "Search users...",
+    "workspaceId": "Workspace",
+    "active": "Active"
+  },
+  "actions": {
+    "view": "View",
+    "delete": "Delete",
+    "activate": "Activate",
+    "deactivate": "Deactivate"
+  },
   "workspace_user": {
     "validation": {
       "data_required": "Workspace-User data is required",

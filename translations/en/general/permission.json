@@ -1,4 +1,7 @@
 {
+  "permissions": {
+    "missingWorkspaceCreate": "You don't have permission to create a workspace. Contact an administrator."
+  },
   "permission": {
     "form": {
       "nameInfo": "Human-readable label for this permission entry.",
