@@ -410,7 +410,27 @@
     "yearSelect": "year(s)"
   },
   "currency": {
-    "php": "Philippine Peso (PHP)",
-    "usd": "US Dollar (USD)"
+    "placeholder": "Select a currency",
+    "options": [
+      { "value": "AUD", "label": "AUD — Australian Dollar (A$)", "description": "Australia" },
+      { "value": "CAD", "label": "CAD — Canadian Dollar (C$)", "description": "Canada" },
+      { "value": "CHF", "label": "CHF — Swiss Franc (CHF)", "description": "Switzerland, Liechtenstein" },
+      { "value": "CNY", "label": "CNY — Chinese Yuan (¥)", "description": "Mainland China" },
+      { "value": "EUR", "label": "EUR — Euro (€)", "description": "Eurozone" },
+      { "value": "GBP", "label": "GBP — British Pound (£)", "description": "United Kingdom" },
+      { "value": "HKD", "label": "HKD — Hong Kong Dollar (HK$)", "description": "Hong Kong SAR" },
+      { "value": "IDR", "label": "IDR — Indonesian Rupiah (Rp)", "description": "Indonesia" },
+      { "value": "INR", "label": "INR — Indian Rupee (₹)", "description": "India" },
+      { "value": "JPY", "label": "JPY — Japanese Yen (¥)", "description": "Japan" },
+      { "value": "KRW", "label": "KRW — South Korean Won (₩)", "description": "South Korea" },
+      { "value": "MYR", "label": "MYR — Malaysian Ringgit (RM)", "description": "Malaysia" },
+      { "value": "NZD", "label": "NZD — New Zealand Dollar (NZ$)", "description": "New Zealand" },
+      { "value": "PHP", "label": "PHP — Philippine Peso (₱)", "description": "Philippines" },
+      { "value": "SGD", "label": "SGD — Singapore Dollar (S$)", "description": "Singapore" },
+      { "value": "THB", "label": "THB — Thai Baht (฿)", "description": "Thailand" },
+      { "value": "TWD", "label": "TWD — New Taiwan Dollar (NT$)", "description": "Taiwan" },
+      { "value": "USD", "label": "USD — US Dollar ($)", "description": "United States" },
+      { "value": "VND", "label": "VND — Vietnamese Dong (₫)", "description": "Vietnam" }
+    ]
   }
 }

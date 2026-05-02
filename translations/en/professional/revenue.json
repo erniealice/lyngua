@@ -246,7 +246,9 @@
       "newRevenueCreated": "New Invoice Created",
       "revenueCompleted": "Invoice Paid",
       "revenueUpdated": "Invoice Updated",
-      "revenueCancelled": "Invoice Cancelled"
+      "revenueCancelled": "Invoice Cancelled",
+      "quickNewRevenue": "New Invoice",
+      "quickViewAll": "View All Invoices"
     },
     "settings": {
       "pageTitle": "Invoice Templates",

@@ -31,8 +31,6 @@
       "termLabel": "Term",
       "termPlaceholder": "e.g. 12 months",
       "termOpenEndedHelp": "Leave empty for open-ended / no expiration",
-      "currencyPHP": "PHP (₱)",
-      "currencyUSD": "USD ($)",
       "planLabel": "Package",
       "planPlaceholder": "Select a package...",
       "planSearch": "Filter...",

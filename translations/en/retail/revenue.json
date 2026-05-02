@@ -259,7 +259,9 @@
       "newRevenueCreated": "New Sale Created",
       "revenueCompleted": "Sale Completed",
       "revenueUpdated": "Sale Updated",
-      "revenueCancelled": "Sale Cancelled"
+      "revenueCancelled": "Sale Cancelled",
+      "quickNewRevenue": "New Sale",
+      "quickViewAll": "View All Sales"
     },
     "settings": {
       "pageTitle": "Invoice Templates",

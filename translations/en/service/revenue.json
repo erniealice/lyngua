@@ -193,7 +193,9 @@
       "newRevenueCreated": "New Booking Created",
       "revenueCompleted": "Booking Completed",
       "revenueUpdated": "Booking Updated",
-      "revenueCancelled": "Booking Cancelled"
+      "revenueCancelled": "Booking Cancelled",
+      "quickNewRevenue": "New Booking",
+      "quickViewAll": "View All Bookings"
     },
     "settings": {
       "pageTitle": "Invoice Templates",
