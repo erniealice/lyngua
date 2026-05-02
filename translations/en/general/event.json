@@ -1,0 +1,20 @@
+{
+  "dashboard": {
+    "title": "Schedule",
+    "subtitle": "Today's events and upcoming activity",
+    "statToday": "Today",
+    "statThisWeek": "This Week",
+    "statByTag": "Tags",
+    "statUtilization": "Calendar Utilization",
+    "widgetByDay": "Events per Day",
+    "widgetByTag": "By Tag",
+    "widgetUpcoming": "Upcoming Events",
+    "quickNew": "New Event",
+    "quickCalendar": "Calendar",
+    "quickTags": "Manage Tags",
+    "quickRecurrence": "Recurrence",
+    "viewAll": "View All",
+    "emptyUpcoming": "No upcoming events",
+    "emptyByTag": "No tagged events"
+  }
+}

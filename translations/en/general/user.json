@@ -3,6 +3,27 @@
     "workspaces": "Workspaces"
   },
   "user": {
+    "dashboard": {
+      "totalUsers": "Total Users",
+      "active": "Active",
+      "inactive": "Inactive",
+      "roles": "Roles",
+      "userActivity": "User Activity",
+      "filterWeek": "Week",
+      "filterMonth": "Month",
+      "filterYear": "Year",
+      "recentActivity": "Recent Activity",
+      "viewAll": "View All",
+      "noRecentActivity": "No recent activity",
+      "quickNew": "New User",
+      "quickViewAll": "View All Users",
+      "quickRoles": "Manage Roles",
+      "quickPermissions": "Manage Permissions",
+      "userAdded": "New User Added",
+      "userActivated": "User Activated",
+      "roleAssigned": "Role Assigned",
+      "profileUpdated": "Profile Updated"
+    },
     "form": {
       "emailInfo": "Primary email address used for login and system notifications.",
       "mobileInfo": "Contact number for the user. Used for two-factor authentication if enabled.",

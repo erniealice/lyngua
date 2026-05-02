@@ -115,6 +115,25 @@
     "errors": {
       "notFound": "Job not found",
       "permissionDenied": "You do not have permission to perform this action"
+    },
+    "dashboard": {
+      "title": "Jobs Dashboard",
+      "subtitle": "Active workload, upcoming deadlines, hours logged, and risk",
+      "statActive": "Active Jobs",
+      "statDoneMonth": "Done This Month",
+      "statOverdue": "Overdue",
+      "statHoursWeek": "Hours This Week",
+      "hoursPerWeek": "Hours per Week",
+      "upcomingDeadlines": "Upcoming Deadlines",
+      "recentActivity": "Recent Activity",
+      "noDeadlines": "No upcoming deadlines",
+      "noActivity": "No recent activity",
+      "quickNewJob": "New Job",
+      "quickNewTemplate": "New Job Template",
+      "quickLogHours": "Log Hours",
+      "quickJobCalendar": "Job Calendar",
+      "viewAll": "View All",
+      "axisHours": "Hours"
     }
   }
 }

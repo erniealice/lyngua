@@ -121,7 +121,12 @@
       "serialUnitStatus": "Serial Unit Status",
       "recentMovements": "Recent Activity",
       "categoryDistribution": "Category Distribution",
-      "typesUnit": "types"
+      "typesUnit": "types",
+      "recentActivity": "Recent Activity",
+      "viewAll": "View All",
+      "quickNewItem": "New Service",
+      "quickViewAll": "View All Services",
+      "quickMovements": "Activity"
     },
     "movements": {
       "title": "Transactions",

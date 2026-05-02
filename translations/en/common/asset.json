@@ -8,8 +8,8 @@
     "captionInactive": "Deactivated or retired assets"
   },
   "dashboard": {
-    "heading": "Asset Overview",
-    "caption": "Summary of your asset portfolio",
+    "title": "Assets Dashboard",
+    "subtitle": "Overview of your fixed asset register",
     "totalAssets": "Total Assets",
     "totalBookValue": "Total Book Value",
     "fullyDepreciated": "Fully Depreciated",
@@ -19,7 +19,13 @@
     "activityAcquired": "New asset acquired",
     "activityMaintenance": "Maintenance completed",
     "activityDepreciation": "Depreciation recorded",
-    "unknownAsset": "Unknown Asset"
+    "unknownAsset": "Unknown Asset",
+    "assetValueTrend": "Asset Value Trend",
+    "viewAll": "View All",
+    "quickNewAsset": "New Asset",
+    "quickViewAll": "View All Assets",
+    "quickDepreciationSchedule": "Depreciation Schedule",
+    "quickMaintenanceLog": "Maintenance Log"
   },
   "columns": {
     "assetNumber": "Asset No.",

@@ -1,5 +1,7 @@
 {
   "clientTitle": "Clients Dashboard",
   "userTitle": "Users Dashboard",
-  "supplierTitle": "Suppliers Dashboard"
+  "supplierTitle": "Suppliers Dashboard",
+  "locationTitle": "Locations Dashboard",
+  "adminTitle": "Administration Dashboard"
 }

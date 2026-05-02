@@ -1,0 +1,20 @@
+{
+  "dashboard": {
+    "title": "Equity Dashboard",
+    "subtitle": "Owner contributions, distributions, and movements across capital accounts",
+    "totalContributed": "Total Contributed",
+    "activeOwners": "Active Owners",
+    "distributionsYtd": "Distributions YTD",
+    "netMovementYtd": "Net Movement YTD",
+    "equityByOwner": "Equity by Owner",
+    "topContributors": "Top Contributors",
+    "recentTransactions": "Recent Transactions",
+    "noRecentTxns": "No recent equity transactions",
+    "quickRecordContribution": "Record Contribution",
+    "quickRecordDistribution": "Record Distribution",
+    "quickOwnerStatement": "Owner Statement",
+    "quickEquityReport": "Equity Report",
+    "viewAll": "View All",
+    "axisAmount": "Amount"
+  }
+}

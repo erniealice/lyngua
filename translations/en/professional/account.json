@@ -18,5 +18,23 @@
     "runningBalance": "Running Balance",
     "noTransactionsTitle": "No transactions",
     "noTransactionsDetail": "No journal entries found for this account in the selected date range."
+  },
+  "dashboard": {
+    "title": "Books Overview",
+    "subtitle": "Real-time view of your firm's financial position",
+    "totalAssets": "Total Assets",
+    "totalLiabilities": "Total Liabilities",
+    "totalEquity": "Total Equity",
+    "netIncomeMtd": "Net Income (MTD)",
+    "balanceByType": "Account Balance by Type",
+    "unpostedJournals": "Unposted Journals",
+    "recentJournals": "Recent Journals",
+    "noRecentJournals": "No recent journal entries",
+    "quickNewJournal": "New Journal Entry",
+    "quickTrialBalance": "Trial Balance",
+    "quickClosePeriod": "Close Period",
+    "quickAccountLookup": "Account Lookup",
+    "viewAll": "View All",
+    "axisAmount": "Amount"
   }
 }

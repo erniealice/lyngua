@@ -56,5 +56,23 @@
   "type": {
     "payable": "Payable",
     "receivable": "Receivable"
+  },
+  "dashboard": {
+    "title": "Loans Dashboard",
+    "subtitle": "Outstanding balance, interest accrued, upcoming payments, and recent activity",
+    "totalOutstanding": "Total Outstanding",
+    "interestYtd": "Interest YTD",
+    "paymentsDue30": "Payments Due (30d)",
+    "defaultedCount": "Defaulted Loans",
+    "outstandingTrend": "Outstanding Principal Trend",
+    "topLoans": "Top Loans by Outstanding",
+    "recentPayments": "Recent Payments",
+    "noRecentPayments": "No recent payments",
+    "quickNewLoan": "New Loan",
+    "quickRecordPay": "Record Payment",
+    "quickAmortization": "Amortization Schedule",
+    "quickLoanCalendar": "Loan Calendar",
+    "viewAll": "View All",
+    "axisAmount": "Outstanding"
   }
 }

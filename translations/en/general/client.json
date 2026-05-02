@@ -77,6 +77,26 @@
       "setAsOnHold": "Set on hold",
       "setAsProspect": "Set as prospect"
     },
+    "dashboard": {
+      "totalClients": "Total Clients",
+      "active": "Active",
+      "inactive": "Inactive",
+      "newThisMonth": "New This Month",
+      "clientGrowth": "Client Growth",
+      "filterWeek": "Week",
+      "filterMonth": "Month",
+      "filterYear": "Year",
+      "recentActivity": "Recent Activity",
+      "viewAll": "View All",
+      "quickNew": "New Client",
+      "quickViewAll": "View All Clients",
+      "quickTags": "Manage Tags",
+      "quickPaymentTerms": "Payment Terms",
+      "clientAdded": "New Client Added",
+      "clientActivated": "Client Activated",
+      "profileUpdated": "Profile Updated",
+      "tagAssigned": "Tag Assigned"
+    },
     "form": {
       "nameInfo": "The company or organisation name for this client.",
       "emailInfo": "Primary email address for invoices and notifications.",

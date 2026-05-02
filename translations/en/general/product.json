@@ -120,6 +120,29 @@
       "name_required": "Product name is required",
       "price_required_for_simple": "Price is required when this product is not variant-configurable.",
       "request_required": "Request is required for products"
+    },
+    "serviceDashboard": {
+      "title": "Services",
+      "subtitle": "Track service catalogue, lines, and recent additions",
+      "statTotalActive": "Total Active Services",
+      "statTopRevenue": "Top Revenue Service",
+      "statByLineCount": "Lines",
+      "statRecentlyAdded": "Recently Added",
+      "widgetByLine": "Services by line",
+      "widgetTopRevenue": "Top revenue services",
+      "widgetRecent": "Recent additions",
+      "quickNew": "New Service",
+      "quickBundleBuilder": "Bundle Builder",
+      "quickTagService": "Tag Service",
+      "quickPriceSchedule": "Price Schedule",
+      "viewAll": "View All",
+      "emptyRecentTitle": "No recent additions",
+      "emptyRecentDesc": "Newly added services will appear here.",
+      "emptyTopRevenue": "Revenue ranking is unavailable.",
+      "newService": "New service",
+      "colLine": "Line",
+      "colRank": "Rank",
+      "colService": "Service"
     }
   }
 }

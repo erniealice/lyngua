@@ -58,6 +58,25 @@
       "permission_denied": "You do not have permission to perform this action",
       "load_failed": "Failed to load fulfillment data",
       "transition_failed": "Failed to update fulfillment status"
+    },
+    "dashboard": {
+      "title": "Fulfillment Dashboard",
+      "subtitle": "Pending, in-transit, deliveries today, and recent exceptions",
+      "statPending": "Pending",
+      "statInTransit": "In Transit",
+      "statDeliveredToday": "Delivered Today",
+      "statExceptions": "Exceptions",
+      "dailyDelivered": "Daily Delivered (30d)",
+      "statusMix": "Status Mix",
+      "recentExceptions": "Recent Exceptions",
+      "noExceptions": "No recent exceptions",
+      "quickNewFulfillment": "New Fulfillment",
+      "quickPickPack": "Pick + Pack",
+      "quickProcessReturn": "Process Return",
+      "quickMarkDelivered": "Mark Delivered",
+      "viewAll": "View All",
+      "axisCount": "Count",
+      "avgFulfillmentDays": "Avg Days to Deliver"
     }
   }
 }

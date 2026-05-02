@@ -1,0 +1,20 @@
+{
+  "dashboard": {
+    "title": "Ledger Dashboard",
+    "subtitle": "Live position of your books — assets, liabilities, equity, and net income",
+    "totalAssets": "Total Assets",
+    "totalLiabilities": "Total Liabilities",
+    "totalEquity": "Total Equity",
+    "netIncomeMtd": "Net Income (MTD)",
+    "balanceByType": "Account Balance by Type",
+    "unpostedJournals": "Unposted Journals",
+    "recentJournals": "Recent Journals",
+    "noRecentJournals": "No recent journal entries",
+    "quickNewJournal": "New Journal Entry",
+    "quickTrialBalance": "Trial Balance",
+    "quickClosePeriod": "Close Period",
+    "quickAccountLookup": "Account Lookup",
+    "viewAll": "View All",
+    "axisAmount": "Amount"
+  }
+}

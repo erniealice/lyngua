@@ -121,7 +121,12 @@
       "serialUnitStatus": "Engagement Status",
       "recentMovements": "Recent Activity",
       "categoryDistribution": "Skill Distribution",
-      "typesUnit": "types"
+      "typesUnit": "types",
+      "recentActivity": "Recent Activity",
+      "viewAll": "View All",
+      "quickNewItem": "New Resource",
+      "quickViewAll": "View All Resources",
+      "quickMovements": "Activity Log"
     },
     "movements": {
       "title": "Activity",

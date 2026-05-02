@@ -157,7 +157,15 @@
       "filterMonth": "Month",
       "filterYear": "Year",
       "recentActivity": "Recent Activity",
-      "viewAll": "View All"
+      "viewAll": "View All",
+      "quickNew": "New Supplier",
+      "quickViewAll": "View All Suppliers",
+      "quickTags": "Manage Tags",
+      "quickCategories": "Categories",
+      "supplierAdded": "New Supplier Added",
+      "supplierActivated": "Supplier Activated",
+      "detailsUpdated": "Details Updated",
+      "tagAssigned": "Tag Assigned"
     }
   }
 }

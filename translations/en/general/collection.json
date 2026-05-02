@@ -98,6 +98,26 @@
       "idRequired": "Collection ID is required",
       "noIDsProvided": "No collection IDs provided",
       "invalidStatus": "Invalid status"
+    },
+    "dashboard": {
+      "title": "Cash",
+      "subtitle": "Track collected payments and outstanding balances",
+      "statPending": "Pending",
+      "statOverdue": "Overdue",
+      "statCollectedToday": "Collected Today",
+      "statCollectedWeek": "Collected This Week",
+      "widgetDailyTrend": "Collected per day (30d)",
+      "widgetByMode": "By payment mode",
+      "widgetRecent": "Recent collections",
+      "quickRecord": "Record Collection",
+      "quickReconcile": "Reconcile",
+      "quickAging": "Aging Report",
+      "quickMarkCleared": "Mark Cleared",
+      "viewAll": "View All",
+      "emptyRecentTitle": "No recent collections",
+      "emptyRecentDesc": "Recent collections will appear here once payments are recorded.",
+      "newCollection": "New collection",
+      "collectionUpdated": "Collection updated"
     }
   }
 }

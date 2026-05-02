@@ -264,7 +264,15 @@
       "filterMonth": "Month",
       "filterYear": "Year",
       "recentActivity": "Recent Activity",
-      "viewAll": "View All"
+      "viewAll": "View All",
+      "quickNew": "New Customer",
+      "quickViewAll": "View All Customers",
+      "quickTags": "Manage Tags",
+      "quickPaymentTerms": "Payment Terms",
+      "clientAdded": "New Customer Added",
+      "clientActivated": "Customer Activated",
+      "profileUpdated": "Profile Updated",
+      "tagAssigned": "Tag Assigned"
     },
     "tagForm": {
       "tagName": "Tag Name",

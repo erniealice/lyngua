@@ -7,6 +7,26 @@
     "areaInfo": "Assign this location to a geographic area for grouping and filtering.",
     "activeInfo": "Inactive locations are hidden from new assignments but remain on record."
   },
+  "dashboard": {
+    "totalLocations": "Total Locations",
+    "active": "Active",
+    "regions": "Regions",
+    "areasCount": "Areas",
+    "locationsByRegion": "Locations by Region",
+    "topLocationsByArea": "Top Locations by Area Count",
+    "recentAdditions": "Recent Additions",
+    "viewAll": "View All",
+    "filterWeek": "Week",
+    "filterMonth": "Month",
+    "filterYear": "Year",
+    "quickNewLocation": "New Location",
+    "quickNewArea": "New Area",
+    "quickMoveStock": "Move Stock",
+    "quickLocationMap": "Location Map",
+    "columnLocation": "Location",
+    "columnAreas": "Areas",
+    "locationAdded": "Location Added"
+  },
   "location": {
     "validation": {
       "data_required": "Location data is required",

@@ -1,0 +1,24 @@
+{
+  "dashboard": {
+    "title": "Integrations",
+    "subtitle": "Provider health, recent sync activity, and webhook status across connected services",
+    "totalIntegrations": "Total Integrations",
+    "activeIntegrations": "Active",
+    "errorsLast24h": "Errors (24h)",
+    "disconnected": "Disconnected",
+    "syncEventsTrend": "Sync Events (7d)",
+    "byProvider": "By Provider",
+    "recentErrors": "Recent Errors",
+    "noRecentErrors": "No recent errors",
+    "noProviders": "No integrations configured",
+    "quickConnect": "Connect Integration",
+    "quickTestSync": "Test Sync",
+    "quickViewLogs": "View Logs",
+    "quickConfigureWebhook": "Configure Webhook",
+    "viewAll": "View All",
+    "axisEvents": "Events",
+    "providerColumn": "Provider",
+    "statusColumn": "Status",
+    "lastSyncColumn": "Last Sync"
+  }
+}

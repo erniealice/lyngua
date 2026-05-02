@@ -9,7 +9,7 @@
       "last_name_too_short": "Last name must be at least 1 character long",
       "full_name_too_short": "Admin full name must be at least 3 characters long",
       "full_name_too_long": "Admin full name cannot exceed 100 characters",
-      "name_required": "Admin name is required", 
+      "name_required": "Admin name is required",
       "email_required": "Admin email is required",
       "email_invalid": "Invalid email format",
       "role_required": "Admin role is required",
@@ -18,11 +18,30 @@
     },
     "errors": {
       "not_found": "Admin with ID \"{adminId}\" not found",
-      "creation_failed": "Admin creation failed", 
+      "creation_failed": "Admin creation failed",
       "update_failed": "Admin update failed",
       "deletion_failed": "Admin deletion failed",
       "list_failed": "Failed to retrieve admins",
       "authorization_failed": "Authorization failed for admins"
+    },
+    "dashboard": {
+      "title": "Administration",
+      "subtitle": "Workspaces, users, roles, and permissions",
+      "workspaceUsers": "Workspace Users",
+      "roles": "Roles",
+      "permissions": "Permissions",
+      "recentRoleChanges": "Role Changes (7d)",
+      "usersPerRole": "Users per Role",
+      "rolesByPermissionCount": "Roles by Permission Count",
+      "recentRoleChangesList": "Recent Role Changes",
+      "viewAll": "View All",
+      "quickNewUser": "New User",
+      "quickNewWorkspace": "New Workspace",
+      "quickAssignRole": "Assign Role",
+      "quickAuditLog": "Audit Log",
+      "columnRole": "Role",
+      "columnPermissionCount": "Permissions",
+      "roleAssigned": "Role Assigned"
     }
   }
 }

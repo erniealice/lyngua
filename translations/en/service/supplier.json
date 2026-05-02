@@ -41,6 +41,27 @@
         "no_entries": "No statement entries found",
         "no_entries_message": "There are no transactions for this period."
       }
+    },
+    "dashboard": {
+      "totalSuppliers": "Total Suppliers",
+      "active": "Active",
+      "blocked": "Blocked",
+      "onHold": "On Hold",
+      "supplierActivity": "Supplier Activity",
+      "topSuppliers": "Top Suppliers",
+      "filterWeek": "Week",
+      "filterMonth": "Month",
+      "filterYear": "Year",
+      "recentActivity": "Recent Activity",
+      "viewAll": "View All",
+      "quickNew": "New Supplier",
+      "quickViewAll": "View All Suppliers",
+      "quickTags": "Manage Tags",
+      "quickCategories": "Categories",
+      "supplierAdded": "New Supplier Added",
+      "supplierActivated": "Supplier Activated",
+      "detailsUpdated": "Details Updated",
+      "tagAssigned": "Tag Assigned"
     }
   }
 }

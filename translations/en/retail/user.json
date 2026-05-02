@@ -207,7 +207,15 @@
     "filterYear": "Year",
     "recentActivity": "Recent Activity",
     "viewAll": "View All",
-    "noRecentActivity": "No recent activity"
+    "noRecentActivity": "No recent activity",
+    "quickNew": "New User",
+    "quickViewAll": "View All Users",
+    "quickRoles": "Manage Roles",
+    "quickPermissions": "Manage Permissions",
+    "userAdded": "New User Added",
+    "userActivated": "User Activated",
+    "roleAssigned": "Role Assigned",
+    "profileUpdated": "Profile Updated"
   },
   "detailButtons": {
     "save": "Save Changes",

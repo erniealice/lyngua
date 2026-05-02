@@ -1,0 +1,22 @@
+{
+  "dashboard": {
+    "title": "Payroll Dashboard",
+    "subtitle": "Run status, monthly gross-pay trend, and upcoming government remittances",
+    "currentRunStatus": "Current Run Status",
+    "employeesInCurrent": "Employees in Current Run",
+    "totalGrossMtd": "Total Gross (MTD)",
+    "remittancesDue": "Remittances Due (30d)",
+    "grossPayByMonth": "Gross Pay by Month",
+    "recentRuns": "Recent Payroll Runs",
+    "upcomingRemittances": "Upcoming Remittance Deadlines",
+    "noRecentRuns": "No recent payroll runs",
+    "noUpcomingDeadlines": "No upcoming remittance deadlines",
+    "quickNewRun": "New Payroll Run",
+    "quickProcessRun": "Process Run",
+    "quickFileRemittance": "File Remittance",
+    "quickPayPeriodSettings": "Pay Period Settings",
+    "viewAll": "View All",
+    "axisGross": "Gross",
+    "noRunYet": "No run yet"
+  }
+}
