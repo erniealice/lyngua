@@ -14,6 +14,12 @@
     "quickTrialBalance": "Trial Balance",
     "quickClosePeriod": "Close Period",
     "quickAccountLookup": "Account Lookup",
+    "accountTypeAssets": "Assets",
+    "accountTypeLiabilities": "Liabilities",
+    "accountTypeEquity": "Equity",
+    "accountTypeRevenue": "Revenue",
+    "accountTypeExpense": "Expense",
+    "journalEntryFallback": "Journal",
     "viewAll": "View All",
     "axisAmount": "Amount"
   }
