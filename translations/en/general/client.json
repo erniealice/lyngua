@@ -70,7 +70,26 @@
         "totalsRowLabel": "Total"
       },
       "emptyStatementTitle": "No Statement Entries",
-      "emptyStatementMessage": "There are no transactions for this client."
+      "emptyStatementMessage": "There are no transactions for this client.",
+      "outstandingTable": {
+        "columns": {
+          "date": "Date",
+          "reference": "Reference",
+          "description": "Description",
+          "dueDate": "Due Date",
+          "billed": "Billed",
+          "paid": "Paid",
+          "outstanding": "Outstanding",
+          "status": "Status"
+        },
+        "empty": {
+          "title": "No outstanding invoices",
+          "message": "All revenue for this client is fully paid."
+        }
+      }
+    },
+    "columns": {
+      "activeEngagements": "Active Subscriptions"
     },
     "bulkActions": {
       "setAsActive": "Set as active",
@@ -131,7 +150,19 @@
       "sectionAddress": "Address",
       "sectionRepresentative": "Representative",
       "sectionAccounting": "Accounting",
-      "sectionOthers": "Others"
+      "sectionOthers": "Others",
+      "taxId": "Tax ID",
+      "taxIdPlaceholder": "Enter TIN/VAT/EIN",
+      "taxIdInfo": "Tax Identification Number (TIN, VAT, EIN) registered to this client.",
+      "registrationNumber": "Registration Number",
+      "registrationNumberPlaceholder": "Enter registration number",
+      "registrationNumberInfo": "Business registration or company number issued by the relevant authority.",
+      "creditLimit": "Credit Limit",
+      "creditLimitPlaceholder": "0.00",
+      "creditLimitInfo": "Maximum outstanding receivable balance allowed for this client at any time.",
+      "leadTimeDays": "Lead Time (Days)",
+      "leadTimeDaysPlaceholder": "0",
+      "leadTimeDaysInfo": "Default number of days between order placement and delivery for this client."
     }
   }
 }

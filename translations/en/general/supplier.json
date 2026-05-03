@@ -88,6 +88,8 @@
       "statusBlocked": "Blocked",
       "statusOnHold": "On Hold",
 
+      "selectPaymentTerm": "Select a payment term",
+
       "termsImmediate": "Immediate",
       "termsNet30": "Net 30",
       "termsNet60": "Net 60",

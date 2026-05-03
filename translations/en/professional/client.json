@@ -45,15 +45,16 @@
       "searchPlaceholder": "Filter clients..."
     },
     "columns": {
-      "clientName": "Client Name",
-      "representative": "Representative",
+      "activeEngagements": "Active Engagements",
       "category": "Category",
-      "paymentTerm": "Payment Term",
-      "townSuburb": "Town / Suburb",
-      "state": "State",
+      "clientName": "Client Name",
       "country": "Country",
-      "userDivision": "User Division",
-      "dateCreated": "Date Created"
+      "dateCreated": "Date Created",
+      "paymentTerm": "Payment Term",
+      "representative": "Representative",
+      "state": "State",
+      "townSuburb": "Town / Suburb",
+      "userDivision": "User Division"
     },
     "empty": {
       "activeTitle": "No active clients",

@@ -59,8 +59,22 @@
       "scopesSupplierOnly": "Suppliers Only",
       "scopesClientOnly": "Clients Only",
       "nameInfo": "Display name shown in dropdowns and on documents (e.g. Net 30, Due on Receipt).",
-      "codeInfo": "Short machine-readable identifier used internally (e.g. net_30). Auto-generated from the name if left blank.",
-      "descriptionInfo": "Optional notes explaining when or how this payment term applies."
+      "codeInfo": "Short machine-readable identifier used internally (e.g. net_30). Must be unique. Auto-generated from the name if left blank.",
+      "codeHint": "Lowercase, snake_case. Must be unique.",
+      "descriptionInfo": "Optional notes explaining when or how this payment term applies.",
+      "typeInfo": "Net = fixed days after invoice date. Due on Receipt = due immediately. COD = pay on delivery. Proximate = due on a fixed day of the month.",
+      "netDaysHintUpdated": "Days until due (0 = immediate). Required for Net type.",
+      "proximateDayHint": "Day of month (1–31).",
+      "proximateDayInfo": "Fixed day of the month invoices fall due. For example, 15 means every invoice is due on the 15th of its target month. If the day doesn't exist in a given month (29, 30, or 31 in shorter months — e.g. 31 in February), the due date falls back to the last day of that month.",
+      "discountDaysInfo": "Optional early-payment window. If the buyer pays within this many days, the discount applies.",
+      "discountPercentBpsInfo": "Optional early-payment discount in basis points (200 = 2.00%).",
+      "isDefaultInfo": "When checked, this term is the default for its entity scope (client, supplier, or both).",
+      "errors": {
+        "typeRequired": "Payment term type is required.",
+        "typeInvalid": "Invalid payment term type.",
+        "netDaysRequired": "Net Days is required for Net type.",
+        "proximateDayRequired": "Proximate Day is required for Proximate type."
+      }
     }
   }
 }
