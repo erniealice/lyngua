@@ -44,6 +44,7 @@
       "jobTemplateNone": "(none — advisory engagement, no operational tracking)",
       "jobTemplateHint": "Select the engagement template that defines the work delivered for this package. Leave empty for advisory-only retainers.",
       "visitsPerCycleLabel": "Cycle instances per billing cycle",
+      "clientScopeCascadeNotice": "If a client is selected, this package can only be assigned to a client-scoped rate card.",
       "sections": {
         "basic": "Basic Information",
         "services": "Assigned Services"

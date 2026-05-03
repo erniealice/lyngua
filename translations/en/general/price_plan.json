@@ -19,6 +19,9 @@
       "scheduleLockedTooltip": "This price plan is bound to {{.ClientName}}'s price schedule.",
       "scheduleAutoCreateHint": "No price schedule exists for {{.ClientName}} yet — one will be created automatically when you save.",
       "scheduleAutoReuseHint": "This price plan will be added to the existing price schedule for {{.ClientName}}.",
+      "scheduleClientPickerNotice": "Only plans assigned to this client are available below.",
+      "scheduleGeneralPickerNotice": "Plans assigned specifically to clients are not available for assignment to general-scope price schedules.",
+      "parentScheduleClientNotice": "This price schedule belongs to {{.ClientName}}. Price plans created here will be available only for engagements with this client.",
       "billingKindLabel": "Billing model",
       "billingKindOneTime": "One-time",
       "billingKindRecurring": "Recurring retainer",
@@ -167,9 +170,6 @@
         "adHocBillingCycleNotAllowed": "AD_HOC plans are event-driven, not calendar-driven. Remove the billing cycle or change the billing kind.",
         "adHocVisitsPerCycleNotAllowed": "AD_HOC plans cannot use multi-visit cycles. Reset visits_per_cycle to 1 or change the billing kind."
       }
-    },
-    "fields": {
-      "parentScheduleClientNotice": "This price schedule belongs to {{.ClientName}}. Price plans created here will be available only for engagements with this client."
     },
     "confirms": {
       "editAmountMultipleEngagements": "This price plan is attached to {{.Count}} active subscriptions for {{.ClientName}}. Changing the amount or cycle will affect all of them on the next bill cycle. Continue?"

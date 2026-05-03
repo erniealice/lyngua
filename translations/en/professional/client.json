@@ -254,16 +254,17 @@
         "accounting": "Accounting",
         "history": "History",
         "statement": "Statement",
-        "packages": "Custom rate cards",
+        "priceSchedules": "Custom rate cards",
+        "priceSchedulesSlug": "rate-cards",
         "attachments": "Attachments",
         "auditHistory": "History"
       },
-      "packages": {
+      "priceSchedules": {
         "empty": "No bespoke rate cards yet — every engagement uses a standard rate card.",
         "addAction": "Add bespoke rate card"
       },
       "subscriptions": {
-        "columnPlan": "Engagement",
+        "columnPlan": "Package",
         "confirmDeleteTitle": "Delete Engagement",
         "confirmDeleteMessage": "Are you sure you want to delete %s?"
       },

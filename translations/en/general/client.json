@@ -38,16 +38,18 @@
         "setProspect": "Set as prospect"
       },
       "tabs": {
-        "packages": "Packages",
+        "priceSchedules": "Price Schedules",
+        "priceSchedulesSlug": "price-schedules",
         "attachments": "Attachments",
         "auditHistory": "History"
       },
-      "packages": {
-        "empty": "No custom packages yet — every engagement uses a general package.",
-        "addAction": "Add custom package",
+      "priceSchedules": {
+        "empty": "No client-scoped price schedules yet — every engagement uses a general schedule.",
+        "addAction": "Add price schedule",
         "columnName": "Name",
-        "columnRateCard": "Rate card",
-        "columnEngagements": "Engagements"
+        "columnDateStart": "Start Date",
+        "columnDateEnd": "End Date",
+        "columnPlanCount": "Plans"
       },
       "subscriptions": {
         "columnName": "Name",

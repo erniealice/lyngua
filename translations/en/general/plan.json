@@ -41,6 +41,7 @@
       "visitsPerCycleLabel": "Visits per billing cycle",
       "visitsPerCyclePlaceholder": "1",
       "visitsPerCycleHint": "Number of cycle Job instances per billing cycle. Default 1. Use 2 for biweekly visits billed monthly, 4 for weekly visits billed monthly.",
+      "clientScopeCascadeNotice": "If a client is selected, this plan can only be assigned to a client-scoped price schedule.",
       "sections": {
         "basic": "Basic Information",
         "services": "Assigned Products"
