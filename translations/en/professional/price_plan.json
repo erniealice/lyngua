@@ -80,6 +80,7 @@
     "tabs": {
       "info": "Info",
       "products": "Services",
+      "subscriptions": "Engagements",
       "attachments": "Attachments",
       "audit": "Audit"
     },
@@ -154,6 +155,17 @@
         "adHocNoEntitlement": "On-call retainer engagements need entitled service calls > 0. Set the value or switch to per-call billing.",
         "adHocBillingCycleNotAllowed": "On-call engagements are event-driven, not calendar-driven. Remove the billing cycle.",
         "adHocVisitsPerCycleNotAllowed": "On-call engagements cannot use multi-visit cycles. Reset visits_per_cycle to 1."
+      },
+      "subscriptions": {
+        "columnName": "Engagement",
+        "columnClient": "Client",
+        "columnPlan": "Package",
+        "columnStartDate": "Start Date",
+        "columnEndDate": "End Date",
+        "emptyTitle": "No engagements yet",
+        "emptyMessage": "Engagements billing this package will appear here.",
+        "confirmDeleteTitle": "Delete Engagement",
+        "confirmDeleteMessage": "Are you sure you want to delete engagement %s? This action cannot be undone."
       }
     }
   }

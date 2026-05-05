@@ -101,6 +101,13 @@
       "adHocEntitlementRequired": "Pay-as-you-go pool plans require entitled occurrences > 0.",
       "adHocEntitlementInvalidForPerCall": "Entitled occurrences are only valid on Pay-as-you-go pool plans, not pay-per-call."
     },
+    "tabs": {
+      "info": "Information",
+      "products": "Products",
+      "subscriptions": "Subscriptions",
+      "attachments": "Attachments",
+      "audit": "Audit Trail"
+    },
     "detail": {
       "edit": "Edit Price Plan",
       "editTitle": "Edit Price Plan",
@@ -169,6 +176,17 @@
         "adHocNoEntitlement": "AD_HOC pool plans need entitled occurrences > 0. Set the value or switch to per-occurrence billing.",
         "adHocBillingCycleNotAllowed": "AD_HOC plans are event-driven, not calendar-driven. Remove the billing cycle or change the billing kind.",
         "adHocVisitsPerCycleNotAllowed": "AD_HOC plans cannot use multi-visit cycles. Reset visits_per_cycle to 1 or change the billing kind."
+      },
+      "subscriptions": {
+        "columnName": "Subscription",
+        "columnClient": "Client",
+        "columnPlan": "Plan",
+        "columnStartDate": "Start Date",
+        "columnEndDate": "End Date",
+        "emptyTitle": "No subscriptions yet",
+        "emptyMessage": "Subscriptions referencing this price plan will appear here.",
+        "confirmDeleteTitle": "Delete Subscription",
+        "confirmDeleteMessage": "Are you sure you want to delete subscription %s? This action cannot be undone."
       }
     },
     "confirms": {
