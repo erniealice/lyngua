@@ -1,0 +1,48 @@
+{
+  "supplierProductCostPlan": {
+    "validation": {
+      "supplier_product_plan_id_required": "A catalog line from the supplier plan must be selected.",
+      "cost_plan_id_required": "Cost plan is required.",
+      "billing_treatment_required": "Billing treatment is required."
+    },
+    "errors": {
+      "supplier_product_plan_validation_failed": "Could not validate the selected catalog line.",
+      "supplier_product_plan_not_found": "Selected catalog line not found.",
+      "supplier_product_plan_mismatch": "Selected catalog line does not belong to this supplier plan.",
+      "not_found": "Supplier product cost plan with ID \"{entityId}\" not found",
+      "creation_failed": "Supplier product cost plan creation failed",
+      "update_failed": "Supplier product cost plan update failed",
+      "deletion_failed": "Supplier product cost plan deletion failed",
+      "list_failed": "Failed to retrieve supplier product cost plans",
+      "authorization_failed": "Authorization failed for supplier product cost plans"
+    },
+    "form": {
+      "billingTreatmentLabel": "Billing treatment",
+      "billingTreatmentRecurring": "Every cycle",
+      "billingTreatmentRecurringHelp": "Charge this line every billing cycle",
+      "billingTreatmentOneTimeInitial": "First cycle only",
+      "billingTreatmentOneTimeInitialHelp": "Charge once on the first expenditure (setup fees, onboarding costs)",
+      "billingTreatmentUsageBased": "Usage-based",
+      "billingTreatmentUsageBasedHelp": "Charge based on metered consumption (API calls, compute hours, etc.)",
+      "billingTreatmentMinimumCommitment": "Minimum commitment",
+      "billingTreatmentMinimumCommitmentHelp": "A floor amount charged each cycle regardless of usage; actual usage may exceed the minimum",
+      "productLabel": "Product",
+      "productPlaceholder": "Select a product",
+      "priceLabel": "Unit Cost",
+      "pricePlaceholder": "0.00",
+      "currencyLabel": "Currency",
+      "currencyPlaceholder": "e.g. PHP",
+      "currencyPHP": "PHP (₱)",
+      "currencyUSD": "USD ($)",
+      "dateStartLabel": "Effective from",
+      "dateEndLabel": "Effective until",
+      "catalogLineLabel": "Catalog line",
+      "catalogLinePlaceholder": "Select a line from the supplier plan's catalog",
+      "catalogLineInfo": "Prices the chosen catalog line from the parent supplier plan. If the line has a variant, that variant is priced.",
+      "minimumAmountLabel": "Minimum amount",
+      "minimumAmountPlaceholder": "0.00",
+      "minimumAmountInfo": "Floor amount charged each cycle regardless of actual usage. Required when billing treatment is Minimum commitment.",
+      "activeLabel": "Active"
+    }
+  }
+}

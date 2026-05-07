@@ -395,6 +395,14 @@
   "tabs": {
     "attachments": "Attachments"
   },
+  "toast": {
+    "saved": "Changes saved successfully.",
+    "dismiss": "Dismiss notification"
+  },
+  "sheet": {
+    "errorFallback": "An error occurred. Please try again.",
+    "dismissAlert": "Dismiss alert"
+  },
   "durationUnit": {
     "daySingular": "day",
     "dayPlural": "days",

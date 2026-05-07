@@ -1,0 +1,20 @@
+{
+  "costSchedule": {
+    "page": {
+      "heading": "Subcontract Windows",
+      "headingActive": "Active Subcontract Windows",
+      "headingInactive": "Inactive Subcontract Windows",
+      "caption": "Manage subcontract pricing windows",
+      "captionActive": "Manage your active subcontract windows",
+      "captionInactive": "View inactive subcontract windows"
+    },
+    "buttons": {
+      "addCostSchedule": "Add Subcontract Window"
+    },
+    "actions": {
+      "view": "View Subcontract Window",
+      "edit": "Edit Subcontract Window",
+      "delete": "Delete Subcontract Window"
+    }
+  }
+}

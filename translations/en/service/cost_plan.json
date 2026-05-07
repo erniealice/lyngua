@@ -1,0 +1,12 @@
+{
+  "costPlan": {
+    "form": {
+      "name": "Supply Cost Plan Name",
+      "namePlaceholder": "Enter supply cost plan name"
+    },
+    "detail": {
+      "edit": "Edit Supply Cost Plan",
+      "editTitle": "Edit Supply Cost Plan"
+    }
+  }
+}

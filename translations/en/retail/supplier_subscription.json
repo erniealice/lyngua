@@ -1,0 +1,32 @@
+{
+  "supplierSubscription": {
+    "page": {
+      "heading": "Vendor Subscriptions",
+      "headingActive": "Active Vendor Subscriptions",
+      "headingInactive": "Inactive Vendor Subscriptions",
+      "caption": "Vendor subscription management",
+      "captionActive": "Manage your active vendor subscriptions",
+      "captionInactive": "View inactive or expired vendor subscriptions"
+    },
+    "buttons": {
+      "addSupplierSubscription": "Add Vendor Subscription"
+    },
+    "actions": {
+      "view": "View Vendor Subscription",
+      "edit": "Edit Vendor Subscription",
+      "delete": "Delete Vendor Subscription"
+    },
+    "detail": {
+      "pageTitle": "Vendor Subscription Details"
+    },
+    "confirm": {
+      "delete": "Delete Vendor Subscription",
+      "deleteMessage": "Are you sure you want to delete this vendor subscription? This action cannot be undone.",
+      "bulkDelete": "Delete Selected",
+      "bulkDeleteMessage": "Are you sure you want to delete the selected vendor subscriptions? This action cannot be undone."
+    },
+    "errors": {
+      "notFound": "Vendor subscription not found"
+    }
+  }
+}

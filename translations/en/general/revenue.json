@@ -13,5 +13,116 @@
       "currencyInfo": "Currency used for all amounts on this record.",
       "notesInfo": "Internal remarks — shown on detail pages but not on customer-facing documents."
     }
+  },
+  "revenueRun": {
+    "appLabel": "Invoice Run",
+    "queueTitle": "Invoice Run Queue",
+    "queueSubtitle": "Clients with pending invoice periods, ready to run.",
+    "queueColumns": {
+      "client": "Client",
+      "subscriptions": "Subscriptions",
+      "pendingPeriods": "Pending Periods",
+      "total": "Total",
+      "currency": "Currency",
+      "actions": "Actions",
+      "run": "Run"
+    },
+    "queueEmpty": {
+      "title": "No clients pending",
+      "message": "All clients are up to date — no invoice periods are waiting."
+    },
+    "queueBulk": {
+      "runSelected": "Run Selected",
+      "runAllMatching": "Run All Matching",
+      "capExceededMessage": "Selection capped at 50 clients. Narrow your filters to run more at once."
+    },
+    "listTitle": "Invoice Run History",
+    "listSubtitle": "Audit trail of every invoice generation run.",
+    "listColumns": {
+      "id": "Run ID",
+      "scope": "Scope",
+      "asOfDate": "As of Date",
+      "initiator": "Initiated By",
+      "initiatedAt": "Initiated At",
+      "status": "Status",
+      "created": "Created",
+      "skipped": "Skipped",
+      "errored": "Errored",
+      "actions": "Actions"
+    },
+    "listEmpty": {
+      "pending": {
+        "title": "No pending runs",
+        "message": "There are no invoice runs currently in progress."
+      },
+      "complete": {
+        "title": "No completed runs",
+        "message": "Completed invoice runs will appear here."
+      },
+      "failed": {
+        "title": "No failed runs",
+        "message": "Failed invoice runs will appear here."
+      }
+    },
+    "listFilterLabels": {
+      "pending": "Pending",
+      "complete": "Complete",
+      "failed": "Failed"
+    },
+    "detailTitle": "Invoice Run",
+    "detailTabs": {
+      "summary": "Summary",
+      "selections": "Selections",
+      "results": "Results",
+      "invoices": "Invoices",
+      "auditHistory": "Audit History"
+    },
+    "detailSummary": {
+      "scope": "Scope",
+      "asOfDate": "As of Date",
+      "initiator": "Initiated By",
+      "initiatedAt": "Initiated At",
+      "completedAt": "Completed At",
+      "status": "Status",
+      "totals": "Totals",
+      "possiblyInterruptedNote": "This run may have been interrupted before completing. Some invoices may be missing."
+    },
+    "statusBadges": {
+      "pending": "Pending",
+      "complete": "Complete",
+      "failed": "Failed",
+      "possiblyInterrupted": "Possibly Interrupted"
+    },
+    "actions": {
+      "run": "Run",
+      "reRunFailed": "Re-run Failed",
+      "reRunFailedComingSoon": "Re-run Failed (Coming Soon)",
+      "viewRun": "View Run",
+      "viewClient": "View Client",
+      "viewSubscription": "View Subscription"
+    },
+    "scopeKind": {
+      "subscription": "Subscription",
+      "client": "Client",
+      "workspace": "Workspace"
+    },
+    "attemptOutcome": {
+      "created": "Created",
+      "skipped": "Skipped",
+      "errored": "Errored"
+    },
+    "errors": {
+      "capExceeded": "Selection exceeds the maximum allowed batch size.",
+      "permissionDenied": "You do not have permission to perform this action.",
+      "useCaseUnavailable": "Invoice run is not available in this workspace configuration.",
+      "invalidSelection": "One or more selected subscriptions are invalid or ineligible.",
+      "idempotencyConflict": "An invoice for one or more of these periods already exists.",
+      "clientMismatch": "Selected subscriptions belong to different clients.",
+      "workspaceMismatch": "Selected items do not belong to the current workspace.",
+      "tamperedPeriod": "A billing period was modified after selection — please refresh and try again.",
+      "runAllMatchingNotImplemented": "Run for all matching is not yet available. Please select individual clients."
+    },
+    "toastBatchSuccess": "Invoice batch run — {{.Created}} created, {{.Skipped}} skipped, {{.Errored}} failed.",
+    "viewRunLink": "View run"
   }
 }

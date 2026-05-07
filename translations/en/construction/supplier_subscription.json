@@ -1,0 +1,32 @@
+{
+  "supplierSubscription": {
+    "page": {
+      "heading": "Subcontract Engagements",
+      "headingActive": "Active Subcontract Engagements",
+      "headingInactive": "Inactive Subcontract Engagements",
+      "caption": "Subcontract engagement management",
+      "captionActive": "Manage your active subcontract engagements",
+      "captionInactive": "View inactive or expired subcontract engagements"
+    },
+    "buttons": {
+      "addSupplierSubscription": "Add Subcontract Engagement"
+    },
+    "actions": {
+      "view": "View Subcontract Engagement",
+      "edit": "Edit Subcontract Engagement",
+      "delete": "Delete Subcontract Engagement"
+    },
+    "detail": {
+      "pageTitle": "Subcontract Engagement Details"
+    },
+    "confirm": {
+      "delete": "Delete Subcontract Engagement",
+      "deleteMessage": "Are you sure you want to delete this subcontract engagement? This action cannot be undone.",
+      "bulkDelete": "Delete Selected",
+      "bulkDeleteMessage": "Are you sure you want to delete the selected subcontract engagements? This action cannot be undone."
+    },
+    "errors": {
+      "notFound": "Subcontract engagement not found"
+    }
+  }
+}

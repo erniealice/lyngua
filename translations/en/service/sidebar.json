@@ -48,5 +48,15 @@
     "outcomes_title": "Quality",
     "criteria_label": "Service Standards",
     "outcome_log_label": "Service Outcomes",
-    "report_cards_label": "Service Reports"
+    "report_cards_label": "Service Reports",
+    "supplier_subscriptions_title": "Supply Subscriptions",
+    "supplier_subscriptions_add": "Add Supply Subscription",
+    "supplier_plans_title": "Supply Plans",
+    "supplier_plans_add": "Add Supply Plan",
+    "cost_schedules_title": "Supply Pricing Windows",
+    "cost_schedules_add": "Add Supply Pricing Window",
+    "cost_plans_title": "Supply Cost Plans",
+    "cost_plans_add": "Add Supply Cost Plan",
+    "supplier_product_plans_title": "Supply Product Plans",
+    "supplier_product_plans_add": "Add Supply Product Plan"
 }

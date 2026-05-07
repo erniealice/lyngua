@@ -1,0 +1,32 @@
+{
+  "supplierSubscription": {
+    "page": {
+      "heading": "Vendor Engagements",
+      "headingActive": "Active Vendor Engagements",
+      "headingInactive": "Inactive Vendor Engagements",
+      "caption": "Vendor engagement management",
+      "captionActive": "Manage your active vendor engagements",
+      "captionInactive": "View inactive or expired vendor engagements"
+    },
+    "buttons": {
+      "addSupplierSubscription": "Add Vendor Engagement"
+    },
+    "actions": {
+      "view": "View Vendor Engagement",
+      "edit": "Edit Vendor Engagement",
+      "delete": "Delete Vendor Engagement"
+    },
+    "detail": {
+      "pageTitle": "Vendor Engagement Details"
+    },
+    "confirm": {
+      "delete": "Delete Vendor Engagement",
+      "deleteMessage": "Are you sure you want to delete this vendor engagement? This action cannot be undone.",
+      "bulkDelete": "Delete Selected",
+      "bulkDeleteMessage": "Are you sure you want to delete the selected vendor engagements? This action cannot be undone."
+    },
+    "errors": {
+      "notFound": "Vendor engagement not found"
+    }
+  }
+}

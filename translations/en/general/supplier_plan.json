@@ -1,0 +1,88 @@
+{
+  "supplierPlan": {
+    "page": {
+      "heading": "Supplier Plans",
+      "headingActive": "Active Supplier Plans",
+      "headingInactive": "Inactive Supplier Plans",
+      "caption": "Manage your supplier plans",
+      "captionActive": "Manage your active supplier plans",
+      "captionInactive": "View inactive or archived supplier plans"
+    },
+    "buttons": {
+      "addSupplierPlan": "Add Supplier Plan"
+    },
+    "columns": {
+      "name": "Name",
+      "description": "Description",
+      "supplier": "Supplier",
+      "active": "Active"
+    },
+    "empty": {
+      "title": "No supplier plans found",
+      "message": "No supplier plans to display.",
+      "activeTitle": "No active supplier plans",
+      "activeMessage": "Create your first supplier plan to get started.",
+      "inactiveTitle": "No inactive supplier plans",
+      "inactiveMessage": "Discontinued supplier plans will appear here."
+    },
+    "form": {
+      "sectionBasic": "Basic Information",
+      "sectionProducts": "Assigned Products",
+      "name": "Supplier Plan Name",
+      "namePlaceholder": "Enter supplier plan name",
+      "description": "Description",
+      "descriptionPlaceholder": "Enter supplier plan description...",
+      "active": "Active",
+      "supplier": "Supplier",
+      "supplierPlaceholder": "Select supplier...",
+      "supplierSearchPlaceholder": "Search suppliers...",
+      "supplierNoResults": "No suppliers found",
+      "supplierInfo": "The supplier this plan is associated with.",
+      "nameInfo": "Name for this supplier plan.",
+      "descriptionInfo": "Optional notes shown alongside the supplier plan in detail views."
+    },
+    "actions": {
+      "view": "View Supplier Plan",
+      "edit": "Edit Supplier Plan",
+      "delete": "Delete Supplier Plan"
+    },
+    "detail": {
+      "pageTitle": "Supplier Plan Details",
+      "supplier": "Supplier",
+      "description": "Description",
+      "active": "Active",
+      "inactive": "Inactive",
+      "createdDate": "Created",
+      "modifiedDate": "Last Modified",
+      "heading": "Supplier Plan Info",
+      "name": "Name",
+      "edit": "Edit",
+      "editTitle": "Edit Supplier Plan"
+    },
+    "tabs": {
+      "info": "Information",
+      "products": "Products",
+      "costPlans": "Cost Plans",
+      "auditTrail": "Audit Trail"
+    },
+    "confirm": {
+      "delete": "Delete Supplier Plan",
+      "deleteMessage": "Are you sure you want to delete \"%s\"? This action cannot be undone.",
+      "deactivate": "Deactivate Supplier Plan",
+      "deactivateMessage": "Are you sure you want to deactivate \"%s\"?"
+    },
+    "errors": {
+      "permissionDenied": "You do not have permission to perform this action",
+      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
+      "notFound": "Supplier plan not found",
+      "idRequired": "Supplier plan ID is required",
+      "noPermission": "No permission"
+    },
+    "validation": {
+      "data_required": "Supplier plan data is required",
+      "name_required": "Supplier plan name is required",
+      "id_required": "Supplier plan ID is required",
+      "request_required": "Request is required for supplier plans"
+    }
+  }
+}

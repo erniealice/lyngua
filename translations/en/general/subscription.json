@@ -204,7 +204,39 @@
       "columnStatus": "Status",
       "recognizeAction": "Recognize Revenue",
       "recognizeTitle": "Recognize Revenue",
-      "recognizeSubtitle": "Generate an invoice from this subscription's price plan."
+      "recognizeSubtitle": "Generate an invoice from this subscription's price plan.",
+      "runInvoicesAction": "Run Invoices",
+      "poolRecognizeAction": "Generate Pool Invoice",
+      "requestUsageAction": "Request Usage"
+    },
+    "revenueRun": {
+      "title": "Run Invoices",
+      "subtitleTemplate": "{{.EligibleCount}} period(s) ready for this engagement",
+      "subscriptionLabel": "Engagement",
+      "planLabel": "Plan",
+      "asOfDateLabel": "As of",
+      "asOfDateHint": "Bill through this date — periods ending after this won't appear.",
+      "billThroughTodayLabel": "Bill through today",
+      "columnPeriod": "Period",
+      "columnAmount": "Amount",
+      "columnLines": "Lines",
+      "groupTotalLabel": "Group total",
+      "groupNoPending": "No pending periods for this engagement at the chosen date.",
+      "groupCurrencyMismatch": "Currency mismatch — operator review required.",
+      "emptyTitle": "No invoice periods are ready",
+      "emptyMessage": "This engagement is caught up at the chosen date.",
+      "generateButton": "Generate",
+      "generateButtonCount": "Generate {{.Count}} Invoice(s)",
+      "cancelButton": "Cancel",
+      "toastSuccess": "{{.Created}} created, {{.Skipped}} skipped, {{.Errored}} failed.",
+      "viewRunLink": "View run",
+      "errors": {
+        "permissionDenied": "You do not have permission to perform this action.",
+        "idRequired": "Subscription ID is required.",
+        "invalidFormData": "Invalid form data. Please check your inputs and try again.",
+        "useCaseUnavailable": "Invoice run is not available in this workspace configuration.",
+        "selectOne": "Select at least one period to generate."
+      }
     },
     "recognize": {
       "contextSection": "Subscription",

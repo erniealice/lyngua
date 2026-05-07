@@ -115,5 +115,22 @@
     "open_accruals_label": "Open Accruals",
     "open_accruals_icon": "icon-inbox",
     "recognized_vs_settled_label": "Recognized vs Settled",
-    "recognized_vs_settled_icon": "icon-bar-chart"
+    "recognized_vs_settled_icon": "icon-bar-chart",
+
+    "revenue_run_title": "Invoice Run",
+    "revenue_run_queue_label": "Queue",
+    "revenue_run_queue_icon": "icon-list",
+    "revenue_run_history_label": "History",
+    "revenue_run_history_icon": "icon-clock",
+
+    "supplier_subscriptions_title": "Supplier Subscriptions",
+    "supplier_subscriptions_add": "Add Supplier Subscription",
+    "supplier_plans_title": "Supplier Plans",
+    "supplier_plans_add": "Add Supplier Plan",
+    "cost_schedules_title": "Cost Schedules",
+    "cost_schedules_add": "Add Cost Schedule",
+    "cost_plans_title": "Cost Plans",
+    "cost_plans_add": "Add Cost Plan",
+    "supplier_product_plans_title": "Supplier Product Plans",
+    "supplier_product_plans_add": "Add Supplier Product Plan"
 }

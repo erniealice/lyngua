@@ -1,0 +1,150 @@
+{
+  "supplierSubscription": {
+    "page": {
+      "heading": "Supplier Subscriptions",
+      "headingActive": "Active Supplier Subscriptions",
+      "headingInactive": "Inactive Supplier Subscriptions",
+      "caption": "Supplier subscription management",
+      "captionActive": "Manage your active supplier subscriptions",
+      "captionInactive": "View inactive or expired supplier subscriptions"
+    },
+    "buttons": {
+      "addSupplierSubscription": "Add Supplier Subscription"
+    },
+    "columns": {
+      "supplier": "Supplier",
+      "costPlan": "Cost Plan",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "active": "Active",
+      "autoRenew": "Auto-Renew",
+      "code": "Code"
+    },
+    "empty": {
+      "title": "No supplier subscriptions found",
+      "message": "No supplier subscriptions to display.",
+      "activeTitle": "No active supplier subscriptions",
+      "activeMessage": "Create your first supplier subscription to get started.",
+      "inactiveTitle": "No inactive supplier subscriptions",
+      "inactiveMessage": "Inactive or expired supplier subscriptions will appear here."
+    },
+    "form": {
+      "sectionBasic": "Basic Information",
+      "sectionScheduling": "Scheduling",
+      "sectionOptions": "Options",
+      "name": "Subscription Name",
+      "namePlaceholder": "Enter subscription name",
+      "supplier": "Supplier",
+      "supplierPlaceholder": "Select supplier...",
+      "supplierSearchPlaceholder": "Search suppliers...",
+      "supplierNoResults": "No suppliers found",
+      "costPlan": "Cost Plan",
+      "costPlanPlaceholder": "Select cost plan...",
+      "costPlanSearchPlaceholder": "Search cost plans...",
+      "costPlanNoResults": "No cost plans found",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "startTime": "Start Time (optional)",
+      "endTime": "End Time (optional)",
+      "timePlaceholder": "HH:MM",
+      "startTimeInfo": "Optional time of day in the operator's display timezone. Leave blank for start of day (00:00).",
+      "endTimeInfo": "Optional time of day in the operator's display timezone. Leave blank for end of day (23:59).",
+      "active": "Active",
+      "autoRenew": "Auto-Renew",
+      "autoRenewHint": "When enabled, an operator can extend this subscription at term end. No automatic renewal — the operator clicks Renew to extend the end date.",
+      "code": "Code",
+      "codePlaceholder": "e.g. A3K7PXR",
+      "notes": "Notes",
+      "notesPlaceholder": "Enter notes...",
+      "location": "Location",
+      "locationPlaceholder": "Select location...",
+      "procurementRequest": "Linked Procurement Request",
+      "procurementRequestPlaceholder": "Select procurement request...",
+      "supplierInfo": "The supplier this subscription is with.",
+      "costPlanInfo": "The cost plan governing this subscription. Determines billing amount, cycle, and billing currency.",
+      "codeInfo": "Short reference for this subscription. Leave blank to auto-generate.",
+      "startDateInfo": "First day this subscription is active. Billing cycles are counted from this date.",
+      "endDateInfo": "Last day this subscription is active. Leave blank for open-ended.",
+      "startDateRowHelp": "Start date affects which cost plans are available — only cost plans active in this date range can be selected.",
+      "endDateRowHelp": "End date controls when recurring expenditures stop being generated. Leave blank for open-ended billing.",
+      "notesInfo": "Internal remarks — shown on detail pages but not on supplier-facing documents.",
+      "costPlanInfoSectionTitle": "Cost Plan Details",
+      "billingKindLabelLite": "Billing",
+      "amountBasisLabelLite": "Amount basis",
+      "amountLabelLite": "Amount",
+      "billingCycleLabelLite": "Cycle",
+      "termLabelLite": "Term",
+      "billingKindOneTime": "One-time",
+      "billingKindRecurring": "Recurring",
+      "billingKindContract": "Fixed-term contract",
+      "billingKindUsageBased": "Usage-based",
+      "billingKindAdHoc": "Ad hoc",
+      "amountBasisPerCycle": "Per cycle",
+      "amountBasisTotalPackage": "Total package",
+      "amountBasisDerived": "Derived from lines",
+      "amountBasisPerOccurrence": "Per occurrence",
+      "termOpenEnded": "Open-ended"
+    },
+    "actions": {
+      "view": "View Subscription",
+      "edit": "Edit Subscription",
+      "delete": "Delete Subscription"
+    },
+    "bulkActions": {
+      "delete": "Delete Selected"
+    },
+    "detail": {
+      "pageTitle": "Supplier Subscription Details",
+      "supplier": "Supplier",
+      "costPlan": "Cost Plan",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "active": "Active",
+      "inactive": "Inactive",
+      "autoRenew": "Auto-Renew",
+      "code": "Code",
+      "location": "Location",
+      "procurementRequest": "Procurement Request",
+      "createdDate": "Created",
+      "modifiedDate": "Last Modified"
+    },
+    "tabs": {
+      "info": "Information",
+      "costPlan": "Cost Plan",
+      "expenditures": "Expenditures",
+      "purchaseOrders": "Purchase Orders",
+      "attachments": "Attachments",
+      "auditTrail": "Audit Trail"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "confirm": {
+      "delete": "Delete Subscription",
+      "deleteMessage": "Are you sure you want to delete this supplier subscription? This action cannot be undone.",
+      "bulkDelete": "Delete Selected",
+      "bulkDeleteMessage": "Are you sure you want to delete the selected supplier subscriptions? This action cannot be undone."
+    },
+    "errors": {
+      "permissionDenied": "You do not have permission to perform this action",
+      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
+      "notFound": "Supplier subscription not found",
+      "idRequired": "Supplier subscription ID is required",
+      "noIDsProvided": "No supplier subscription IDs provided",
+      "cannotDelete": "Cannot delete — this subscription has dependent records",
+      "inUse": "Cannot delete — this subscription has dependent records (expenditures, purchase orders, etc.)"
+    },
+    "validation": {
+      "data_required": "Supplier subscription data is required",
+      "name_required": "Subscription name is required",
+      "name_max_length": "Subscription name must be less than 255 characters",
+      "supplier_id_required": "Supplier is required",
+      "cost_plan_id_required": "Cost plan is required",
+      "date_start_required": "Start date is required",
+      "id_required": "Subscription ID is required",
+      "request_required": "Request is required",
+      "currency_mismatch": "Cost plan currency must match the workspace base currency."
+    }
+  }
+}

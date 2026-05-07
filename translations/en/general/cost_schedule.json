@@ -1,0 +1,126 @@
+{
+  "costSchedule": {
+    "detail": {
+      "planColumnPlan": "Cost Plan",
+      "planColumnAmount": "Amount",
+      "planColumnBillingKind": "Billing model",
+      "planColumnAmountBasis": "Amount basis",
+      "planColumnCadence": "Cadence",
+      "planColumnDuration": "Duration",
+      "planColumnStatus": "Active",
+      "cadenceOneTime": "One-time payment",
+      "cadenceRecurring": "Every %s",
+      "cadenceContract": "Contract — billed every %s",
+      "cadenceUsageBased": "Usage-based",
+      "cadenceAdHoc": "Ad hoc",
+      "cadenceUnspecified": "—",
+      "billingKindOneTime": "One-time",
+      "billingKindRecurring": "Recurring",
+      "billingKindContract": "Contract",
+      "billingKindUsageBased": "Usage-based",
+      "billingKindAdHoc": "Ad hoc",
+      "amountBasisPerCycle": "Per cycle",
+      "amountBasisTotalPackage": "Total package",
+      "amountBasisDerivedFromLines": "Derived from lines",
+      "amountBasisPerOccurrence": "Per occurrence",
+      "planView": "View",
+      "planEdit": "Edit",
+      "planEditDrawerTitle": "Edit Cost Plan",
+      "planDelete": "Delete",
+      "planDeleteTitle": "Delete Cost Plan",
+      "planDeleteMsg": "Permanently delete %s? This cannot be undone.",
+      "planInUseTooltip": "In use by active subscriptions",
+      "planBulkDeleteTitle": "Delete Cost Plans",
+      "planBulkDeleteMsg": "Permanently delete the selected cost plans? This cannot be undone.",
+      "planAdd": "Add Cost Plan",
+      "planNoneSelected": "No cost plans selected",
+      "planRequired": "Cost plan is required",
+      "subColumnSupplier": "Supplier",
+      "subColumnStatus": "Active",
+      "subColumnStartDate": "Start Date",
+      "subView": "View"
+    },
+    "form": {
+      "sectionScheduleDetails": "Schedule details",
+      "sectionDateRange": "Date range",
+      "sectionLocation": "Location",
+      "name": "Schedule Name",
+      "namePlaceholder": "Enter schedule name",
+      "description": "Description",
+      "descriptionPlaceholder": "Optional notes for this schedule",
+      "active": "Active",
+      "dateStart": "Start Date",
+      "dateEnd": "End Date",
+      "timeStart": "Start Time (optional)",
+      "timeEnd": "End Time (optional)",
+      "timePlaceholder": "HH:MM",
+      "timeStartInfo": "Optional time of day in the operator's display timezone. Leave blank for start of day (00:00).",
+      "timeEndInfo": "Optional time of day in the operator's display timezone. Leave blank for end of day (23:59).",
+      "location": "Location",
+      "locationPlaceholder": "Select location...",
+      "locationSearchPlaceholder": "Filter...",
+      "nameInfo": "Name for this cost schedule.",
+      "descriptionInfo": "Optional notes shown in the schedule detail view.",
+      "activeInfo": "Inactive schedules stay on record but are hidden from new cost plan assignments."
+    },
+    "tabs": {
+      "info": "Information",
+      "costPlans": "Cost Plans",
+      "attachments": "Attachments",
+      "auditTrail": "Audit Trail"
+    },
+    "page": {
+      "heading": "Cost Schedules",
+      "headingActive": "Active Cost Schedules",
+      "headingInactive": "Inactive Cost Schedules",
+      "caption": "Manage supplier pricing windows",
+      "captionActive": "Manage your active cost schedules",
+      "captionInactive": "View inactive cost schedules"
+    },
+    "buttons": {
+      "addCostSchedule": "Add Cost Schedule"
+    },
+    "columns": {
+      "name": "Name",
+      "dateStart": "Start Date",
+      "dateEnd": "End Date",
+      "location": "Location",
+      "active": "Active"
+    },
+    "empty": {
+      "title": "No cost schedules found",
+      "message": "No cost schedules to display.",
+      "activeTitle": "No active cost schedules",
+      "activeMessage": "Create your first cost schedule to get started.",
+      "inactiveTitle": "No inactive cost schedules",
+      "inactiveMessage": "Inactive cost schedules will appear here."
+    },
+    "actions": {
+      "view": "View Cost Schedule",
+      "edit": "Edit Cost Schedule",
+      "delete": "Delete Cost Schedule"
+    },
+    "confirm": {
+      "delete": "Delete Cost Schedule",
+      "deleteMessage": "Are you sure you want to delete this cost schedule? This action cannot be undone.",
+      "bulkDelete": "Delete Selected",
+      "bulkDeleteMessage": "Are you sure you want to delete the selected cost schedules? This action cannot be undone."
+    },
+    "validation": {
+      "data_required": "Cost schedule data is required",
+      "name_required": "Cost schedule name is required",
+      "id_required": "Cost schedule ID is required",
+      "request_required": "Request is required for cost schedules",
+      "date_start_required": "Start date is required for cost schedules"
+    },
+    "errors": {
+      "not_found": "Cost schedule with ID \"{entityId}\" not found",
+      "creation_failed": "Cost schedule creation failed",
+      "update_failed": "Cost schedule update failed",
+      "deletion_failed": "Cost schedule deletion failed",
+      "list_failed": "Failed to retrieve cost schedules",
+      "authorization_failed": "Authorization failed for cost schedules",
+      "costPlanCreateUnavailable": "Adding a cost plan is not available. Please contact support."
+    }
+  }
+}

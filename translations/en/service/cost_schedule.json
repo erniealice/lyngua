@@ -1,0 +1,20 @@
+{
+  "costSchedule": {
+    "page": {
+      "heading": "Supply Pricing Windows",
+      "headingActive": "Active Supply Pricing Windows",
+      "headingInactive": "Inactive Supply Pricing Windows",
+      "caption": "Manage supply pricing windows",
+      "captionActive": "Manage your active supply pricing windows",
+      "captionInactive": "View inactive supply pricing windows"
+    },
+    "buttons": {
+      "addCostSchedule": "Add Supply Pricing Window"
+    },
+    "actions": {
+      "view": "View Supply Pricing Window",
+      "edit": "Edit Supply Pricing Window",
+      "delete": "Delete Supply Pricing Window"
+    }
+  }
+}

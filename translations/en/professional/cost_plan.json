@@ -1,0 +1,12 @@
+{
+  "costPlan": {
+    "form": {
+      "name": "Vendor Rate Card Name",
+      "namePlaceholder": "Enter vendor rate card name"
+    },
+    "detail": {
+      "edit": "Edit Vendor Rate Card",
+      "editTitle": "Edit Vendor Rate Card"
+    }
+  }
+}

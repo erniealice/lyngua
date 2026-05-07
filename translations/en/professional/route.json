@@ -109,8 +109,9 @@
         "tab_plans_slug": "packages"
     },
     "subscription": {
-        "list_url": "/app/subscriptions/list/{status}",
-        "detail_url": "/app/subscriptions/detail/{id}",
+        "list_url": "/app/engagements/list/{status}",
+        "detail_url": "/app/engagements/detail/{id}",
+        "under_client_detail_url": "/app/clients/detail/{client_id}/engagements/{id}",
         "add_url": "/action/subscription/add",
         "edit_url": "/action/subscription/edit/{id}",
         "delete_url": "/action/subscription/delete",
