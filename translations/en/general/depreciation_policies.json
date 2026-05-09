@@ -1,0 +1,24 @@
+{
+  "depreciationPolicies": {
+    "columns": {
+      "actions": "Actions",
+      "assetsDeviating": "Assets that deviate",
+      "assetsInPolicy": "Assets in policy",
+      "method": "Method",
+      "policy": "Policy",
+      "salvagePct": "Salvage %",
+      "usefulLife": "Useful life"
+    },
+    "previewDrawer": {
+      "subtitle": "Projected depreciation amounts for all in-service assets under this policy."
+    },
+    "rowActions": {
+      "preview": "Preview",
+      "run": "Run"
+    },
+    "runDrawer": {
+      "subtitle": "Post depreciation for all in-service assets under this policy."
+    },
+    "title": "Depreciation Policies"
+  }
+}

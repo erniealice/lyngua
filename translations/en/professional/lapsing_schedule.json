@@ -1,0 +1,61 @@
+{
+  "lapsingSchedule": {
+    "categoryRun": {
+      "cancelButton": "Cancel",
+      "columnAsset": "Asset",
+      "columnBlocker": "Blocker",
+      "columnPendingPeriods": "Pending Periods",
+      "columnStatus": "Status",
+      "submitButton": "Run depreciation",
+      "title": "Run depreciation for category: {category.name}"
+    },
+    "list": {
+      "asOfDateLabel": "As of date",
+      "bulkRunAllMatching": "Run for all matching",
+      "bulkRunSelected": "Run for selected",
+      "columns": {
+        "actions": "Actions",
+        "asset": "Asset",
+        "category": "Category",
+        "currency": "Currency",
+        "currentBV": "Current BV",
+        "lastPostedPeriod": "Last posted period",
+        "nextAmount": "Next amount",
+        "nextPendingPeriod": "Next pending period",
+        "pending": "Pending",
+        "policy": "Policy",
+        "status": "Status"
+      },
+      "confirmRunAllMatching": "Run depreciation for all {count} matching assets through {asOfDate}?",
+      "confirmRunSelected": "Run depreciation for {count} assets through {asOfDate}?",
+      "empty": {
+        "cta": "Go to Assets",
+        "message": "Add an asset to get started.",
+        "title": "No assets in service"
+      },
+      "filterLabels": {
+        "category": "Category",
+        "currency": "Currency",
+        "method": "Method",
+        "policy": "Policy",
+        "status": "Status"
+      },
+      "statusBadges": {
+        "blockedTemplate": "Blocked: {reason}",
+        "notStarted": "Not started",
+        "nPeriodsPendingTemplate": "{n} periods pending",
+        "upToDate": "Up to date"
+      },
+      "title": "Lapsing Schedule"
+    },
+    "policyRun": {
+      "cancelButton": "Cancel",
+      "columnAsset": "Asset",
+      "columnBlocker": "Blocker",
+      "columnPendingPeriods": "Pending Periods",
+      "columnStatus": "Status",
+      "submitButton": "Run depreciation",
+      "title": "Run depreciation for policy: {policy.name}"
+    }
+  }
+}

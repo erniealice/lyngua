@@ -1,0 +1,88 @@
+{
+  "supplierPlan": {
+    "page": {
+      "heading": "Subcontractor Plans",
+      "headingActive": "Active Subcontractor Plans",
+      "headingInactive": "Inactive Subcontractor Plans",
+      "caption": "Manage your subcontractor plans",
+      "captionActive": "Manage your active subcontractor plans",
+      "captionInactive": "View inactive or archived subcontractor plans"
+    },
+    "buttons": {
+      "addSupplierPlan": "Add Subcontractor Plan"
+    },
+    "columns": {
+      "name": "Name",
+      "description": "Description",
+      "supplier": "Subcontractor",
+      "active": "Active"
+    },
+    "empty": {
+      "title": "No subcontractor plans found",
+      "message": "No subcontractor plans to display.",
+      "activeTitle": "No active subcontractor plans",
+      "activeMessage": "Create your first subcontractor plan to get started.",
+      "inactiveTitle": "No inactive subcontractor plans",
+      "inactiveMessage": "Discontinued subcontractor plans will appear here."
+    },
+    "form": {
+      "sectionBasic": "Basic Information",
+      "sectionProducts": "Assigned Products",
+      "name": "Subcontractor Plan Name",
+      "namePlaceholder": "Enter subcontractor plan name",
+      "description": "Description",
+      "descriptionPlaceholder": "Enter subcontractor plan description...",
+      "active": "Active",
+      "supplier": "Subcontractor",
+      "supplierPlaceholder": "Select subcontractor...",
+      "supplierSearchPlaceholder": "Search subcontractors...",
+      "supplierNoResults": "No subcontractors found",
+      "supplierInfo": "The subcontractor this plan is associated with.",
+      "nameInfo": "Name for this subcontractor plan.",
+      "descriptionInfo": "Optional notes shown alongside the subcontractor plan in detail views."
+    },
+    "actions": {
+      "view": "View Subcontractor Plan",
+      "edit": "Edit Subcontractor Plan",
+      "delete": "Delete Subcontractor Plan"
+    },
+    "detail": {
+      "pageTitle": "Subcontractor Plan Details",
+      "supplier": "Subcontractor",
+      "description": "Description",
+      "active": "Active",
+      "inactive": "Inactive",
+      "createdDate": "Created",
+      "modifiedDate": "Last Modified",
+      "heading": "Subcontractor Plan Info",
+      "name": "Name",
+      "edit": "Edit",
+      "editTitle": "Edit Subcontractor Plan"
+    },
+    "tabs": {
+      "info": "Information",
+      "products": "Products",
+      "costPlans": "Cost Plans",
+      "auditTrail": "Audit Trail"
+    },
+    "confirm": {
+      "delete": "Delete Subcontractor Plan",
+      "deleteMessage": "Are you sure you want to delete \"%s\"? This action cannot be undone.",
+      "deactivate": "Deactivate Subcontractor Plan",
+      "deactivateMessage": "Are you sure you want to deactivate \"%s\"?"
+    },
+    "errors": {
+      "permissionDenied": "You do not have permission to perform this action",
+      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
+      "notFound": "Subcontractor plan not found",
+      "idRequired": "Subcontractor plan ID is required",
+      "noPermission": "No permission"
+    },
+    "validation": {
+      "data_required": "Subcontractor plan data is required",
+      "name_required": "Subcontractor plan name is required",
+      "id_required": "Subcontractor plan ID is required",
+      "request_required": "Request is required for subcontractor plans"
+    }
+  }
+}

@@ -65,12 +65,5 @@
   "assetEdit": {
     "depreciationFieldsLockedWarning": "Posted depreciation exists for this asset. Changing depreciation configuration requires a Useful Life Change action (not yet available — see Run history for posted periods).",
     "unitsOfProductionDisabledTooltip": "Units of Production depreciation is not yet supported. Coming in a future release."
-  },
-  "form": {
-    "acquisitionCostInfo": "Total cost to acquire or construct the asset, including installation.",
-    "assetNumberInfo": "Unique identifier for this asset in your register (e.g. FA-001).",
-    "depreciationMethodInfo": "The accounting method used to allocate the asset's cost over its useful life.",
-    "salvageValueInfo": "Estimated residual value at the end of the asset's useful life.",
-    "usefulLifeMonthsInfo": "Expected productive life of the asset in months, used to calculate depreciation."
   }
 }

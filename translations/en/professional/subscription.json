@@ -167,7 +167,15 @@
       "columnStatus": "Status",
       "recognizeAction": "Generate Invoice",
       "recognizeTitle": "Generate Invoice",
-      "recognizeSubtitle": "Recognize revenue for this engagement's billing period."
+      "recognizeSubtitle": "Recognize revenue for this engagement's billing period.",
+      "poolRecognizeAction": "Generate Retainer Invoice",
+      "requestUsageAction": "Request Service Call"
+    },
+    "revenueRun": {
+      "subtitleTemplate": "{{.EligibleCount}} period(s) ready for this engagement",
+      "errors": {
+        "idRequired": "Engagement ID is required."
+      }
     },
     "recognize": {
       "contextSection": "Engagement",

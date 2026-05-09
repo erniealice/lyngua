@@ -1,0 +1,79 @@
+{
+  "depreciationRun": {
+    "detailTabs": {
+      "auditHistory": "Audit History",
+      "results": "Results",
+      "selections": "Selections",
+      "summary": "Summary",
+      "transactions": "Transactions"
+    },
+    "detailTitle": "Depreciation Run",
+    "errors": {
+      "capExceeded": "Selection exceeds the maximum allowed batch size.",
+      "permissionDenied": "You do not have permission to perform this action.",
+      "runAllMatchingNotImplemented": "Run for all matching is not yet available. Please select individual assets.",
+      "workspaceRequired": "A workspace is required to run depreciation.",
+      "runForSelectedCapExceeded": "Cannot run for more than {cap} assets at once. Use 'Run for all matching' instead."
+    },
+    "listColumns": {
+      "actions": "Actions",
+      "asOfDate": "As of Date",
+      "created": "Created",
+      "errored": "Errored",
+      "id": "Run ID",
+      "initiatedAt": "Initiated At",
+      "initiator": "Initiated By",
+      "scope": "Scope",
+      "skipped": "Skipped",
+      "status": "Status"
+    },
+    "listEmpty": {
+      "complete": {
+        "message": "Completed depreciation runs will appear here.",
+        "title": "No completed runs"
+      },
+      "failed": {
+        "message": "Failed depreciation runs will appear here.",
+        "title": "No failed runs"
+      },
+      "pending": {
+        "message": "There are no depreciation runs currently in progress.",
+        "title": "No pending runs"
+      }
+    },
+    "listFilterLabels": {
+      "complete": "Complete",
+      "failed": "Failed",
+      "pending": "Pending"
+    },
+    "listTitle": "Depreciation Run History",
+    "possiblyInterruptedAlert": "This run may have been interrupted before completing. Some periods may be missing.",
+    "scopeKind": {
+      "asset": "Asset",
+      "category": "Category",
+      "policy": "Policy",
+      "workspace": "Workspace"
+    },
+    "stalePendingWarning": "This run has been pending for an unusually long time. It may have been interrupted.",
+    "statusBadges": {
+      "complete": "Complete",
+      "failed": "Failed",
+      "pending": "Pending",
+      "possiblyInterrupted": "Possibly Interrupted"
+    },
+    "summary": {
+      "asOfDate": "As of Date",
+      "completedAt": "Completed At",
+      "created": "Created",
+      "duration": "Duration",
+      "errored": "Errored",
+      "initiatedAt": "Initiated At",
+      "initiator": "Initiated By",
+      "scope": "Scope",
+      "skipped": "Skipped",
+      "status": "Status",
+      "totals": "Totals"
+    },
+    "viewRunLink": "View run"
+  }
+}

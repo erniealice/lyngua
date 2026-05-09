@@ -1,0 +1,88 @@
+{
+  "supplierProductPlan": {
+    "form": {
+      "variantSelectLabel": "Variant",
+      "variantSelectPlaceholder": "Select a variant",
+      "variantSelectInfo": "Required when the parent product has variants enabled.",
+      "productLabel": "Product",
+      "productPlaceholder": "Select a product",
+      "productSearch": "Search products...",
+      "supplierPlanLabel": "Subcontract Plan",
+      "supplierPlanPlaceholder": "Select a subcontract plan...",
+      "activeLabel": "Active",
+      "nameLabel": "Name",
+      "namePlaceholder": "Enter name",
+      "descriptionLabel": "Description",
+      "descriptionPlaceholder": "Optional notes"
+    },
+    "validation": {
+      "data_required": "Subcontract product plan data is required",
+      "name_required": "Subcontract product plan name is required",
+      "id_required": "Subcontract product plan ID is required",
+      "request_required": "Request is required for subcontract product plans",
+      "variant_id_required_for_configurable": "A variant is required when the parent product has variants enabled.",
+      "variant_id_forbidden_for_simple": "Variant must be empty when the parent product is simple (no variants).",
+      "supplier_plan_id_required": "Subcontract plan is required.",
+      "product_id_required": "Product is required."
+    },
+    "errors": {
+      "not_found": "Subcontract product plan with ID \"{entityId}\" not found",
+      "creation_failed": "Subcontract product plan creation failed",
+      "update_failed": "Subcontract product plan update failed",
+      "deletion_failed": "Subcontract product plan deletion failed",
+      "list_failed": "Failed to retrieve subcontract product plans",
+      "authorization_failed": "Authorization failed for subcontract product plans",
+      "product_variant_validation_failed": "Could not validate the selected variant.",
+      "product_variant_not_found": "Selected variant not found."
+    },
+    "page": {
+      "heading": "Subcontract Product Plans",
+      "headingActive": "Active Subcontract Product Plans",
+      "headingInactive": "Inactive Subcontract Product Plans",
+      "caption": "Manage product links for subcontract plans",
+      "captionActive": "Manage your active subcontract product plans",
+      "captionInactive": "View inactive subcontract product plans"
+    },
+    "buttons": {
+      "addSupplierProductPlan": "Add Subcontract Product Plan"
+    },
+    "columns": {
+      "product": "Product",
+      "supplierPlan": "Subcontract Plan",
+      "variant": "Variant",
+      "active": "Active"
+    },
+    "empty": {
+      "title": "No subcontract product plans found",
+      "message": "No subcontract product plans to display.",
+      "activeTitle": "No active subcontract product plans",
+      "activeMessage": "Link products to a subcontract plan to get started.",
+      "inactiveTitle": "No inactive subcontract product plans",
+      "inactiveMessage": "Inactive subcontract product plans will appear here."
+    },
+    "actions": {
+      "view": "View Subcontract Product Plan",
+      "edit": "Edit Subcontract Product Plan",
+      "delete": "Delete Subcontract Product Plan"
+    },
+    "confirm": {
+      "delete": "Delete Subcontract Product Plan",
+      "deleteMessage": "Are you sure you want to delete this subcontract product plan? This action cannot be undone."
+    },
+    "tabs": {
+      "info": "Information",
+      "costPlanLines": "Cost Plan Lines",
+      "auditTrail": "Audit Trail"
+    },
+    "detail": {
+      "pageTitle": "Subcontract Product Plan Details",
+      "product": "Product",
+      "supplierPlan": "Subcontract Plan",
+      "variant": "Variant",
+      "active": "Active",
+      "inactive": "Inactive",
+      "createdDate": "Created",
+      "modifiedDate": "Last Modified"
+    }
+  }
+}

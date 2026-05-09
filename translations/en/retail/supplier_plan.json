@@ -1,0 +1,88 @@
+{
+  "supplierPlan": {
+    "page": {
+      "heading": "Vendor Plans",
+      "headingActive": "Active Vendor Plans",
+      "headingInactive": "Inactive Vendor Plans",
+      "caption": "Manage your vendor plans",
+      "captionActive": "Manage your active vendor plans",
+      "captionInactive": "View inactive or archived vendor plans"
+    },
+    "buttons": {
+      "addSupplierPlan": "Add Vendor Plan"
+    },
+    "columns": {
+      "name": "Name",
+      "description": "Description",
+      "supplier": "Vendor",
+      "active": "Active"
+    },
+    "empty": {
+      "title": "No vendor plans found",
+      "message": "No vendor plans to display.",
+      "activeTitle": "No active vendor plans",
+      "activeMessage": "Create your first vendor plan to get started.",
+      "inactiveTitle": "No inactive vendor plans",
+      "inactiveMessage": "Discontinued vendor plans will appear here."
+    },
+    "form": {
+      "sectionBasic": "Basic Information",
+      "sectionProducts": "Assigned Products",
+      "name": "Vendor Plan Name",
+      "namePlaceholder": "Enter vendor plan name",
+      "description": "Description",
+      "descriptionPlaceholder": "Enter vendor plan description...",
+      "active": "Active",
+      "supplier": "Vendor",
+      "supplierPlaceholder": "Select vendor...",
+      "supplierSearchPlaceholder": "Search vendors...",
+      "supplierNoResults": "No vendors found",
+      "supplierInfo": "The vendor this plan is associated with.",
+      "nameInfo": "Name for this vendor plan.",
+      "descriptionInfo": "Optional notes shown alongside the vendor plan in detail views."
+    },
+    "actions": {
+      "view": "View Vendor Plan",
+      "edit": "Edit Vendor Plan",
+      "delete": "Delete Vendor Plan"
+    },
+    "detail": {
+      "pageTitle": "Vendor Plan Details",
+      "supplier": "Vendor",
+      "description": "Description",
+      "active": "Active",
+      "inactive": "Inactive",
+      "createdDate": "Created",
+      "modifiedDate": "Last Modified",
+      "heading": "Vendor Plan Info",
+      "name": "Name",
+      "edit": "Edit",
+      "editTitle": "Edit Vendor Plan"
+    },
+    "tabs": {
+      "info": "Information",
+      "products": "Products",
+      "costPlans": "Cost Plans",
+      "auditTrail": "Audit Trail"
+    },
+    "confirm": {
+      "delete": "Delete Vendor Plan",
+      "deleteMessage": "Are you sure you want to delete \"%s\"? This action cannot be undone.",
+      "deactivate": "Deactivate Vendor Plan",
+      "deactivateMessage": "Are you sure you want to deactivate \"%s\"?"
+    },
+    "errors": {
+      "permissionDenied": "You do not have permission to perform this action",
+      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
+      "notFound": "Vendor plan not found",
+      "idRequired": "Vendor plan ID is required",
+      "noPermission": "No permission"
+    },
+    "validation": {
+      "data_required": "Vendor plan data is required",
+      "name_required": "Vendor plan name is required",
+      "id_required": "Vendor plan ID is required",
+      "request_required": "Request is required for vendor plans"
+    }
+  }
+}

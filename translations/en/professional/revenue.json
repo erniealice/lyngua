@@ -278,5 +278,14 @@
       "statusComplete": "Paid",
       "statusCancelled": "Cancelled"
     }
+  },
+  "revenueRun": {
+    "queueSubtitle": "Clients with pending invoice periods, ready to run for their engagements.",
+    "queueColumns": {
+      "subscriptions": "Engagements"
+    },
+    "scopeKind": {
+      "subscription": "Engagement"
+    }
   }
 }

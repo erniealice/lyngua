@@ -1,0 +1,88 @@
+{
+  "supplierProductPlan": {
+    "form": {
+      "variantSelectLabel": "Variant",
+      "variantSelectPlaceholder": "Select a variant",
+      "variantSelectInfo": "Required when the parent product has variants enabled.",
+      "productLabel": "Product",
+      "productPlaceholder": "Select a product",
+      "productSearch": "Search products...",
+      "supplierPlanLabel": "Supply Plan",
+      "supplierPlanPlaceholder": "Select a supply plan...",
+      "activeLabel": "Active",
+      "nameLabel": "Name",
+      "namePlaceholder": "Enter name",
+      "descriptionLabel": "Description",
+      "descriptionPlaceholder": "Optional notes"
+    },
+    "validation": {
+      "data_required": "Supply product plan data is required",
+      "name_required": "Supply product plan name is required",
+      "id_required": "Supply product plan ID is required",
+      "request_required": "Request is required for supply product plans",
+      "variant_id_required_for_configurable": "A variant is required when the parent product has variants enabled.",
+      "variant_id_forbidden_for_simple": "Variant must be empty when the parent product is simple (no variants).",
+      "supplier_plan_id_required": "Supply plan is required.",
+      "product_id_required": "Product is required."
+    },
+    "errors": {
+      "not_found": "Supply product plan with ID \"{entityId}\" not found",
+      "creation_failed": "Supply product plan creation failed",
+      "update_failed": "Supply product plan update failed",
+      "deletion_failed": "Supply product plan deletion failed",
+      "list_failed": "Failed to retrieve supply product plans",
+      "authorization_failed": "Authorization failed for supply product plans",
+      "product_variant_validation_failed": "Could not validate the selected variant.",
+      "product_variant_not_found": "Selected variant not found."
+    },
+    "page": {
+      "heading": "Supply Product Plans",
+      "headingActive": "Active Supply Product Plans",
+      "headingInactive": "Inactive Supply Product Plans",
+      "caption": "Manage product links for supply plans",
+      "captionActive": "Manage your active supply product plans",
+      "captionInactive": "View inactive supply product plans"
+    },
+    "buttons": {
+      "addSupplierProductPlan": "Add Supply Product Plan"
+    },
+    "columns": {
+      "product": "Product",
+      "supplierPlan": "Supply Plan",
+      "variant": "Variant",
+      "active": "Active"
+    },
+    "empty": {
+      "title": "No supply product plans found",
+      "message": "No supply product plans to display.",
+      "activeTitle": "No active supply product plans",
+      "activeMessage": "Link products to a supply plan to get started.",
+      "inactiveTitle": "No inactive supply product plans",
+      "inactiveMessage": "Inactive supply product plans will appear here."
+    },
+    "actions": {
+      "view": "View Supply Product Plan",
+      "edit": "Edit Supply Product Plan",
+      "delete": "Delete Supply Product Plan"
+    },
+    "confirm": {
+      "delete": "Delete Supply Product Plan",
+      "deleteMessage": "Are you sure you want to delete this supply product plan? This action cannot be undone."
+    },
+    "tabs": {
+      "info": "Information",
+      "costPlanLines": "Cost Plan Lines",
+      "auditTrail": "Audit Trail"
+    },
+    "detail": {
+      "pageTitle": "Supply Product Plan Details",
+      "product": "Product",
+      "supplierPlan": "Supply Plan",
+      "variant": "Variant",
+      "active": "Active",
+      "inactive": "Inactive",
+      "createdDate": "Created",
+      "modifiedDate": "Last Modified"
+    }
+  }
+}

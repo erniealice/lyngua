@@ -1,10 +1,7 @@
 {
 	"common": {
 		"errors": {
-			"not_found": "Not found",
-			"invalid_data": "Invalid data",
 			"run_for_selected_cap_exceeded": "Cannot run for more than {cap} assets at once. Use 'Run for all matching' instead.",
-			"server_error": "Server error",
 			"workspace_required": "A workspace is required to perform this action."
 		}
 	}

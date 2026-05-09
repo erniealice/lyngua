@@ -1,0 +1,19 @@
+{
+  "assetRevaluation": {
+    "cancelButton": "Cancel",
+    "fields": {
+      "appraiserName": "Appraiser name",
+      "newFairValue": "New fair value",
+      "notes": "Notes",
+      "valuationMethod": "Valuation method"
+    },
+    "preview": {
+      "ociSplit": "OCI split",
+      "pnlSplit": "PnL split",
+      "revaluationAmount": "Revaluation amount"
+    },
+    "submitButton": "Revalue asset",
+    "title": "Revalue asset",
+    "toastTemplate": "Asset revalued: {sign}{amount} recognized in {account}."
+  }
+}
