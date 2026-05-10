@@ -10,7 +10,13 @@
       "headingCompleted": "Completed Jobs",
       "captionCompleted": "Review jobs that have been completed",
       "headingClosed": "Closed Jobs",
-      "captionClosed": "View archived or closed jobs"
+      "captionClosed": "View archived or closed jobs",
+      "headingPlanned": "Planned Jobs",
+      "captionPlanned": "Jobs scheduled for future execution",
+      "headingReleased": "Released Jobs",
+      "captionReleased": "Jobs released and ready to execute",
+      "headingOnHold": "On Hold Jobs",
+      "captionOnHold": "Jobs that are temporarily paused"
     },
     "buttons": {
       "addJob": "Add Job"
@@ -106,7 +112,10 @@
       "activities": "Activities",
       "settlement": "Settlement",
       "outcomes": "Outcomes",
-      "attachments": "Attachments"
+      "attachments": "Attachments",
+      "budget": "Budget",
+      "actuals": "Actuals",
+      "history": "History"
     },
     "confirm": {
       "delete": "Delete Job",
@@ -114,7 +123,13 @@
     },
     "errors": {
       "notFound": "Job not found",
-      "permissionDenied": "You do not have permission to perform this action"
+      "permissionDenied": "You do not have permission to perform this action",
+      "inUse": "Cannot delete: this job is in use",
+      "idRequired": "Job ID is required",
+      "invalidForm": "Invalid form data. Please check your inputs and try again.",
+      "noIds": "No IDs provided",
+      "statusRequired": "Status is required",
+      "targetStatusRequired": "Target status is required"
     },
     "dashboard": {
       "title": "Jobs Dashboard",
@@ -134,6 +149,17 @@
       "quickJobCalendar": "Job Calendar",
       "viewAll": "View All",
       "axisHours": "Hours"
+    },
+    "bulkActions": {
+      "delete": "Delete",
+      "bulkDelete": "Delete selected jobs",
+      "bulkDeleteConfirmTitle": "Delete jobs?",
+      "bulkDeleteConfirmMsg": "Delete {count} job(s)? This action cannot be undone.",
+      "setStatus": "Set Status",
+      "bulkSetStatus": "Set status for selected jobs",
+      "selectAll": "Select all",
+      "selectedCount": "{count} selected",
+      "cancel": "Cancel"
     }
   }
 }

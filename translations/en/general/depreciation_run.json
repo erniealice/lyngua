@@ -8,12 +8,17 @@
       "transactions": "Transactions"
     },
     "detailTitle": "Depreciation Run",
+    "blockerUnitsRequiredMessage": "Units of Production depreciation requires per-period units input. See the future-release plan.",
+    "blockerUnitsRequiredLink": "Open future-release plan",
     "errors": {
       "capExceeded": "Selection exceeds the maximum allowed batch size.",
       "permissionDenied": "You do not have permission to perform this action.",
       "runAllMatchingNotImplemented": "Run for all matching is not yet available. Please select individual assets.",
       "workspaceRequired": "A workspace is required to run depreciation.",
-      "runForSelectedCapExceeded": "Cannot run for more than {cap} assets at once. Use 'Run for all matching' instead."
+      "runForSelectedCapExceeded": "Cannot run for more than {cap} assets at once. Use 'Run for all matching' instead.",
+      "useCaseUnavailable": "Service unavailable. Please try again.",
+      "formParseFailed": "Form data could not be read.",
+      "generateFailed": "Failed to record the depreciation run."
     },
     "listColumns": {
       "actions": "Actions",

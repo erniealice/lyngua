@@ -1,0 +1,50 @@
+{
+  "page": {
+    "heading": "Tax Registrations",
+    "headingClient": "Client Tax Registrations",
+    "headingWorkspace": "Workspace Tax Registrations",
+    "caption": "Active tax registrations determine compute path during revenue recognition",
+    "addDrawerTitle": "Add Tax Registration",
+    "editDrawerTitle": "Edit Tax Registration"
+  },
+  "columns": {
+    "kindName": "Kind",
+    "computePath": "Compute Path",
+    "partyRole": "Party Role",
+    "status": "Status",
+    "effectiveFrom": "Effective From",
+    "registrationNumber": "Registration No."
+  },
+  "buttons": {
+    "add": "Add Tax Registration",
+    "edit": "Edit",
+    "delete": "Delete"
+  },
+  "actions": {
+    "view": "View",
+    "edit": "Edit",
+    "delete": "Delete",
+    "noPermission": "You do not have permission to manage tax registrations"
+  },
+  "empty": {
+    "title": "No tax registrations",
+    "message": "Add a tax registration to enable tax computation for this party."
+  },
+  "fields": {
+    "taxRegistrationKindId": "Tax Registration Kind",
+    "registrationNumber": "Registration Number",
+    "effectiveFrom": "Effective From",
+    "notes": "Notes",
+    "status": "Status"
+  },
+  "revoke": {
+    "warningMessage": "Revoking this registration will affect pending billing periods. Ensure all outstanding periods are settled before proceeding.",
+    "effectiveTo": "Effective To",
+    "affectedPeriodsNotice": "Some pending subscription billing periods fall within the revocation window and may need to be reprocessed.",
+    "affectedPeriodsCount": "Affected billing periods",
+    "affectedSubscriptionsCount": "Affected subscriptions",
+    "reasonLabel": "Reason for revocation",
+    "reasonPlaceholder": "Describe why this registration is being revoked",
+    "confirmButton": "Revoke Registration"
+  }
+}

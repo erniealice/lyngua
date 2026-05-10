@@ -1,6 +1,12 @@
 {
   "assetRevaluation": {
     "cancelButton": "Cancel",
+    "errors": {
+      "useCaseUnavailable": "Service unavailable. Please try again.",
+      "formParseFailed": "Form data could not be read.",
+      "revaluateFailed": "Failed to record the revaluation.",
+      "invalidAmount": "Invalid amount format. Use a number with up to 2 decimal places."
+    },
     "fields": {
       "appraiserName": "Appraiser name",
       "newFairValue": "New fair value",

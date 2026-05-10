@@ -98,7 +98,28 @@
     "errors": {
       "permissionDenied": "You do not have permission to perform this action",
       "notFound": "Activity not found",
-      "idRequired": "Activity ID is required"
+      "idRequired": "Activity ID is required",
+      "inUse": "Cannot delete: this activity is in use",
+      "invalidForm": "Invalid form data. Please check your inputs and try again.",
+      "noActivitiesSelected": "No activities selected",
+      "invoiceGenFailed": "Failed to generate invoice"
+    },
+    "tabs": {
+      "info": "Information",
+      "charge": "Charge",
+      "attachments": "Attachments",
+      "history": "History"
+    },
+    "bulkActions": {
+      "delete": "Delete",
+      "bulkDelete": "Delete selected activities",
+      "bulkDeleteConfirmTitle": "Delete activities?",
+      "bulkDeleteConfirmMsg": "Delete {count} activity(ies)? This action cannot be undone.",
+      "generateInvoice": "Generate Invoice",
+      "generateInvoiceConfirm": "Generate an invoice from the selected activities?",
+      "selectAll": "Select all",
+      "selectedCount": "{count} selected",
+      "cancel": "Cancel"
     }
   }
 }

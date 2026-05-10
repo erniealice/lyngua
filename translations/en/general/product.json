@@ -68,7 +68,14 @@
         "none": "No inventory tracking. Default for services and non-stocked goods.",
         "bulk": "Count-based — quantity on hand only.",
         "serialized": "Per-unit — one row per physical unit. Use for high-value electronics, regulated stock."
-      }
+      },
+      "sectionTax": "Tax",
+      "taxTreatmentLabel": "Tax Treatment",
+      "taxTreatmentPlaceholder": "Select tax treatment",
+      "taxTreatmentInfo": "How this product is classified for tax purposes: Standard (taxed), Reduced (lower rate), Zero Rated (0% tax, audit trail preserved), Exempt (no tax row), or Out of Scope (no tax row).",
+      "withholdingClassLabel": "Withholding Class",
+      "withholdingClassPlaceholder": "Select withholding class",
+      "withholdingClassInfo": "The withholding tax class that applies when the buyer is a top withholding agent (TWA). Leave blank for products not subject to creditable withholding tax."
     },
     "actions": {
       "activate": "Activate",

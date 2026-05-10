@@ -41,7 +41,8 @@
         "priceSchedules": "Price Schedules",
         "priceSchedulesSlug": "price-schedules",
         "attachments": "Attachments",
-        "auditHistory": "History"
+        "auditHistory": "History",
+        "taxRegistrations": "Tax Registrations"
       },
       "priceSchedules": {
         "empty": "No client-scoped price schedules yet — every engagement uses a general schedule.",
@@ -192,7 +193,13 @@
       "creditLimitInfo": "Maximum outstanding receivable balance allowed for this client at any time.",
       "leadTimeDays": "Lead Time (Days)",
       "leadTimeDaysPlaceholder": "0",
-      "leadTimeDaysInfo": "Default number of days between order placement and delivery for this client."
+      "leadTimeDaysInfo": "Default number of days between order placement and delivery for this client.",
+      "tin": "TIN",
+      "tinPlaceholder": "e.g. 987-654-321-000",
+      "tinInfo": "Tax Identification Number used for withholding certificate (Form 2307) and tax computation.",
+      "countryCode": "Country Code",
+      "countryCodePlaceholder": "e.g. PH",
+      "countryCodeInfo": "ISO 3166-1 alpha-2 country code for this client. Used for cross-border tax jurisdiction lookups (e.g. PH, US, GB)."
     }
   }
 }

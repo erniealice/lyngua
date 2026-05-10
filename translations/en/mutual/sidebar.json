@@ -1,0 +1,21 @@
+{
+    "subscriptions_title": "Memberships",
+    "jobs_title": "Service Engagements",
+    "jobs_label": "Member Services",
+    "jobs_app_label": "Cooperative",
+    "jobs_app_icon": "icon-users",
+    "activities_title": "Service Activity Log",
+    "outcomes_title": "Compliance Review",
+    "criteria_label": "Cooperative Principles / Standards",
+    "outcome_log_label": "Compliance Records",
+    "report_cards_label": "Service Reports",
+    "phase_reviews_label": "Period Reviews",
+    "job_templates_label": "Service SOPs",
+    "jobs_on_hold_label": "On Hold",
+    "time_expenses_drafts_label": "Drafts",
+    "time_expenses_pending_label": "Awaiting Approval",
+    "time_expenses_approved_label": "Approved",
+    "time_expenses_posted_label": "Posted",
+    "quality_review_group_title": "Compliance Review",
+    "practice_setup_group_title": "Cooperative Setup"
+}

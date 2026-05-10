@@ -1,5 +1,6 @@
 {
   "depreciationPolicies": {
+    "usefulLifeMonthsSuffix": " mo",
     "columns": {
       "actions": "Actions",
       "assetsDeviating": "Assets that deviate",

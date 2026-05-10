@@ -1,9 +1,25 @@
 {
   "workspace": {
+    "form": {
+      "sectionTax": "Tax",
+      "tin": "TIN",
+      "tinPlaceholder": "e.g. 123-456-789-000",
+      "tinInfo": "Tax Identification Number registered with the tax authority.",
+      "homeJurisdiction": "Home Jurisdiction",
+      "homeJurisdictionPlaceholder": "e.g. PH-NATIONAL",
+      "homeJurisdictionInfo": "The primary tax jurisdiction for this workspace. Drives SURCHARGE registration lookups (e.g. PH-NATIONAL for Philippines).",
+      "taxComputationEnabled": "Tax Computation Enabled",
+      "taxComputationEnabledInfo": "When enabled, revenue recognition automatically computes tax lines using active tax registrations. Disable only if this workspace is not tax-registered.",
+      "taxInclusivePricing": "Tax-Inclusive Pricing",
+      "taxInclusivePricingInfo": "When enabled, the product price already includes tax. The tax amount is back-calculated from the inclusive price instead of added on top.",
+      "moreInfo": "More info"
+    },
     "detail": {
       "tabs": {
         "info": "Info",
-        "users": "Users"
+        "users": "Users",
+        "attachments": "Attachments",
+        "taxRegistrations": "Tax Registrations"
       },
       "users": {
         "addButton": "Add user to workspace"

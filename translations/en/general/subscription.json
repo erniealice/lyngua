@@ -280,6 +280,11 @@
       "partialReason": "Reason",
       "partialReasonRequired": "A reason is required when billing partially.",
       "overBillingRejected": "Cannot bill: total would exceed milestone amount.",
+      "taxPreviewSection": "Taxes (preview)",
+      "taxDirectionSurcharge": "VAT / Sales Tax",
+      "taxDirectionWithholding": "Withholding Tax",
+      "netReceivable": "Net receivable",
+      "whtAmount": "WHT pending",
       "modeChip": {
         "singleInvoice": {
           "label": "One-time",

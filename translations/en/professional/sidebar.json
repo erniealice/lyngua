@@ -37,6 +37,8 @@
     "lapsing_schedule_icon": "icon-calendar",
     "depreciation_policies_label": "Depreciation Policies",
     "depreciation_policies_icon": "icon-settings",
+    "depreciation_runs_label": "Depreciation Runs",
+    "depreciation_runs_icon": "icon-trending-down",
     "cash_book_label": "Cash Book",
     "cash_book_icon": "icon-book",
     "price_lists_title": "Rate Cards",
@@ -73,5 +75,21 @@
     "cost_plans_title": "Vendor Rate Cards",
     "cost_plans_add": "Add Vendor Rate Card",
     "supplier_product_plans_title": "Vendor Product Plans",
-    "supplier_product_plans_add": "Add Vendor Product Plan"
+    "supplier_product_plans_add": "Add Vendor Product Plan",
+
+    "quality_review_group_title": "Quality Review",
+    "practice_setup_group_title": "Practice Setup",
+
+    "activities_title": "Time & Expenses",
+
+    "jobs_on_hold_label": "On Hold",
+    "jobs_on_hold_icon": "icon-pause-circle",
+
+    "time_expenses_drafts_label": "Drafts",
+    "time_expenses_pending_label": "Awaiting Approval",
+    "time_expenses_approved_label": "Approved",
+    "time_expenses_posted_label": "Posted",
+
+    "phase_reviews_label": "Phase Reviews",
+    "phase_reviews_icon": "icon-bar-chart"
 }

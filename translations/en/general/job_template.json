@@ -64,8 +64,11 @@
     "tabs": {
       "info": "Information",
       "phases": "Phases",
+      "tasks": "Tasks",
+      "standards": "Standards",
       "attachments": "Attachments",
-      "auditTrail": "Audit Trail"
+      "auditTrail": "Audit Trail",
+      "history": "History"
     },
     "confirm": {
       "delete": "Delete Template",
@@ -76,7 +79,18 @@
       "invalidFormData": "Invalid form data. Please check your inputs and try again.",
       "notFound": "Job template not found",
       "idRequired": "Job template ID is required",
-      "noPermission": "No permission"
+      "noPermission": "No permission",
+      "inUse": "Cannot delete: this template is in use",
+      "invalidForm": "Invalid form data. Please check your inputs and try again."
+    },
+    "bulkActions": {
+      "delete": "Delete",
+      "bulkDelete": "Delete selected templates",
+      "bulkDeleteConfirmTitle": "Delete templates?",
+      "bulkDeleteConfirmMsg": "Delete {count} job template(s)? This action cannot be undone.",
+      "selectAll": "Select all",
+      "selectedCount": "{count} selected",
+      "cancel": "Cancel"
     }
   }
 }

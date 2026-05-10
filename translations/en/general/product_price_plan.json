@@ -31,7 +31,14 @@
       "catalogLineInfo": "Prices the chosen catalog line from the parent plan. If the line has a variant, that variant is priced.",
       "milestonePhaseLabel": "Milestone phase",
       "milestonePhaseFallthrough": "Falls through to first event",
-      "milestonePhaseBillable": "billable"
+      "milestonePhaseBillable": "billable",
+      "sectionTax": "Tax Overrides",
+      "taxTreatmentLabel": "Tax Treatment (override)",
+      "taxTreatmentPlaceholder": "Inherit from product",
+      "taxTreatmentInfo": "Override the product's default tax treatment for this price plan line. Leave blank to inherit from the product.",
+      "withholdingClassLabel": "Withholding Class (override)",
+      "withholdingClassPlaceholder": "Inherit from product",
+      "withholdingClassInfo": "Override the product's default withholding class for this price plan line. Leave blank to inherit from the product."
     }
   }
 }

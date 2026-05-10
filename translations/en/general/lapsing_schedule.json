@@ -6,6 +6,9 @@
       "columnBlocker": "Blocker",
       "columnPendingPeriods": "Pending Periods",
       "columnStatus": "Status",
+      "errors": {
+        "useCaseUnavailable": "Service unavailable. Please try again."
+      },
       "submitButton": "Run depreciation",
       "title": "Run depreciation for category: {category.name}"
     },
@@ -40,6 +43,7 @@
         "policy": "Policy",
         "status": "Status"
       },
+      "blockedPrefix": "Blocked: ",
       "statusBadges": {
         "blockedTemplate": "Blocked: {reason}",
         "notStarted": "Not started",
