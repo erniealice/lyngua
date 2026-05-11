@@ -148,7 +148,7 @@
     "time_expenses_pending_label": "Awaiting Approval",
     "time_expenses_approved_label": "Approved",
     "time_expenses_posted_label": "Posted",
-    "time_expenses_drafts_icon": "icon-edit-2",
+    "time_expenses_drafts_icon": "icon-edit",
     "time_expenses_pending_icon": "icon-clock",
     "time_expenses_approved_icon": "icon-check",
     "time_expenses_posted_icon": "icon-check-circle",
