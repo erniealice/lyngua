@@ -1,0 +1,17 @@
+{
+    "home": {
+        "eyebrow": "Command Center",
+        "title": "Daily Overview",
+        "subtitleHint": "auto-refreshes every 60s",
+        "opsLive": "Operations live",
+        "today": "Today",
+        "dateRange": "Date range",
+        "refresh": "Refresh",
+        "customize": "Customize",
+        "overview": "Overview",
+        "attention": "Needs Attention",
+        "cashflowChart": "Cash flow forecast",
+        "todayTimeline": "Today timeline",
+        "quickActions": "Quick actions"
+    }
+}

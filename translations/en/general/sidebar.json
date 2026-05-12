@@ -157,5 +157,13 @@
     "jobs_on_hold_icon": "icon-pause-circle",
 
     "phase_reviews_label": "Phase Reviews",
-    "phase_reviews_icon": "icon-bar-chart"
+    "phase_reviews_icon": "icon-bar-chart",
+
+    "home_app_label": "Home",
+    "home_app_icon": "icon-layout-dashboard",
+    "home_overview_label": "Overview",
+    "home_pulse_label": "Operations Pulse",
+    "home_performance_label": "Performance",
+    "home_attention_label": "Needs Attention",
+    "overview_group_title": "Overview"
 }
