@@ -45,7 +45,7 @@
       "searchPlaceholder": "Filter clients..."
     },
     "columns": {
-      "activeEngagements": "Active Engagements",
+      "activeSubscriptions": "Active Engagements",
       "category": "Category",
       "clientName": "Client Name",
       "country": "Country",

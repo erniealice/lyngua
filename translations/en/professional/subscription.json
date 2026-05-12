@@ -125,7 +125,7 @@
       "childJob": "Child Job",
       "phaseSummary": "{{.Complete}} / {{.Total}} phases complete",
       "viewJobLink": "View in Practice",
-      "engagementHeading": "Engagement: {{.Name}} (since {{.Started}})",
+      "subscriptionHeading": "Engagement: {{.Name}} (since {{.Started}})",
       "cycleSpawnNow": "Spawn this cycle's Jobs",
       "adHocPoolHeading": "Retainer — {{.UsedCount}} of {{.EntitledCount}} service calls used",
       "adHocPerCallHeading": "Per-call engagement · {{.Amount}} per service call",

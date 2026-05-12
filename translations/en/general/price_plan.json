@@ -190,7 +190,7 @@
       }
     },
     "confirms": {
-      "editAmountMultipleEngagements": "This price plan is attached to {{.Count}} active subscriptions for {{.ClientName}}. Changing the amount or cycle will affect all of them on the next bill cycle. Continue?"
+      "editAmountMultipleSubscriptions": "This price plan is attached to {{.Count}} active subscriptions for {{.ClientName}}. Changing the amount or cycle will affect all of them on the next bill cycle. Continue?"
     },
     "errors": {
       "not_found": "Rate card with ID \"{entityId}\" not found",
@@ -203,7 +203,7 @@
       "clientScopeMismatch": "Price plan client must match its parent plan's client.",
       "scheduleClientMismatch": "Selected schedule belongs to a different client and cannot be attached to this price plan.",
       "scheduleRequiredForClientScope": "This package is scoped to a client. Pick or create a rate card for that client before adding a price plan.",
-      "multiEngagementConfirmRequired": "Confirmation required — N > 1 attached subscriptions and monetary fields changing."
+      "multiSubscriptionConfirmRequired": "Confirmation required — N > 1 attached subscriptions and monetary fields changing."
     }
   }
 }

@@ -85,7 +85,7 @@
       "audit": "Audit"
     },
     "confirms": {
-      "editAmountMultipleEngagements": "This rate card is attached to {{.Count}} active engagements for {{.ClientName}}. Changing the amount or cycle will affect all of them on the next bill cycle. Continue?"
+      "editAmountMultipleSubscriptions": "This rate card is attached to {{.Count}} active engagements for {{.ClientName}}. Changing the amount or cycle will affect all of them on the next bill cycle. Continue?"
     },
     "errors": {
       "inUse": "This plan is in use by active engagements and cannot be deleted.",

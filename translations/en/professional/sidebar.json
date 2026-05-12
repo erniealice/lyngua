@@ -1,7 +1,7 @@
 {
     "accounting_reports_group_title": "Accounting & Reports",
-    "engagements_app_label": "Engagements",
-    "engagements_app_icon": "icon-refresh-cw",
+    "subscriptions_app_label": "Engagements",
+    "subscriptions_app_icon": "icon-refresh-cw",
     "revenue_app_label": "Revenue",
     "revenue_app_icon": "icon-hand-coins",
     "revenue_title": "Revenue",

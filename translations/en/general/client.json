@@ -95,7 +95,7 @@
         "asOfDateLabel": "As of",
         "asOfDateHint": "Bill through this date — periods ending after this won't appear.",
         "billThroughTodayLabel": "Bill through today",
-        "columnEngagement": "Engagement",
+        "columnSubscription": "Engagement",
         "columnPeriod": "Period",
         "columnAmount": "Amount",
         "columnLines": "Lines",
@@ -122,7 +122,7 @@
       }
     },
     "columns": {
-      "activeEngagements": "Active Subscriptions"
+      "activeSubscriptions": "Active Subscriptions"
     },
     "bulkActions": {
       "setAsActive": "Set as active",

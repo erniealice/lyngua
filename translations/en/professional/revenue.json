@@ -73,7 +73,7 @@
       "locationNoResults": "No offices found",
       "revenueType": "Revenue Type",
       "revenueTypeOneTime": "One-time",
-      "revenueTypeFromEngagement": "From Engagement"
+      "revenueTypeFromSubscription": "From Engagement"
     },
     "actions": {
       "view": "View Invoice",

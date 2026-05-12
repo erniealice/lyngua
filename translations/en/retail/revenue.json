@@ -73,7 +73,7 @@
       "locationNoResults": "No locations found",
       "revenueType": "Revenue Type",
       "revenueTypeOneTime": "One-time",
-      "revenueTypeFromEngagement": "From Subscription",
+      "revenueTypeFromSubscription": "From Subscription",
       "paymentMethodInfo": "How the customer is paying for this transaction.",
       "amountInfo": "Total amount received in centavos (÷100 for display).",
       "currencyInfo": "Currency of this payment. Defaults to the sale currency.",
