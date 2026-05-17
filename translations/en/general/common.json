@@ -15,6 +15,7 @@
     "unauthorized": "Unauthorized",
     "forbidden": "Forbidden",
     "noPermission": "No permission",
+    "missingPermission": "Missing permission: %s",
     "permissionDenied": "Permission denied",
     "invalidFormData": "Invalid form data",
     "invalidStatus": "Invalid status",

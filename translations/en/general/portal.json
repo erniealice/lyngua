@@ -1,0 +1,122 @@
+{
+  "portal": {
+    "client": {
+      "name": "My Account",
+      "home": {
+        "pageTitle": "My Account — Home",
+        "heading": "Welcome to your account",
+        "subheading": "Choose a section to get started."
+      },
+      "profile": { "pageTitle": "Profile" },
+      "account": { "pageTitle": "Account" },
+      "billing": { "pageTitle": "Billing" },
+      "preferences": { "pageTitle": "Preferences" }
+    },
+    "supplier": {
+      "name": "Supplier Portal",
+      "home": {
+        "pageTitle": "Supplier Portal — Home",
+        "heading": "Welcome to your supplier portal",
+        "subheading": "Choose a section to get started."
+      },
+      "profile": { "pageTitle": "Profile" },
+      "account": { "pageTitle": "Account" },
+      "billing": { "pageTitle": "Billing" },
+      "preferences": { "pageTitle": "Preferences" }
+    },
+    "client_delegate": {
+      "name": "Delegate Portal",
+      "home": {
+        "pageTitle": "Delegate Portal — Home",
+        "heading": "Welcome to your delegate portal",
+        "subheading": "You are acting on behalf of a client. Choose a section to continue."
+      },
+      "profile": { "pageTitle": "Profile" },
+      "account": { "pageTitle": "Account" },
+      "billing": { "pageTitle": "Billing" },
+      "preferences": { "pageTitle": "Preferences" },
+      "select": {
+        "pageTitle": "Choose a client",
+        "heading": "Choose a client",
+        "subheading": "You represent multiple clients. Pick the one you want to act as right now — you can switch later.",
+        "emptyState": "No client accounts found. Contact your administrator."
+      }
+    },
+    "supplier_delegate": {
+      "name": "Delegate Portal",
+      "home": {
+        "pageTitle": "Delegate Portal — Home",
+        "heading": "Welcome to your delegate portal",
+        "subheading": "You are acting on behalf of a supplier. Choose a section to continue."
+      },
+      "profile": { "pageTitle": "Profile" },
+      "account": { "pageTitle": "Account" },
+      "billing": { "pageTitle": "Billing" },
+      "preferences": { "pageTitle": "Preferences" },
+      "select": {
+        "pageTitle": "Choose a supplier",
+        "heading": "Choose a supplier",
+        "subheading": "You represent multiple suppliers. Pick the one you want to act as right now — you can switch later.",
+        "emptyState": "No supplier accounts found. Contact your administrator."
+      }
+    },
+    "home": {
+      "recentActivityTitle": "Recent activity",
+      "noRecentActivity": "No recent activity to show."
+    },
+    "page": {
+      "profile": {
+        "title": "Your profile",
+        "comingSoon": "Profile information — coming soon."
+      },
+      "account": {
+        "title": "Account & security",
+        "comingSoon": "Email address and session management — coming soon."
+      },
+      "billing": {
+        "title": "Billing",
+        "comingSoon": "Your billing context — coming soon.",
+        "comingSoonDelegate": "Acting-as client billing context — coming soon.",
+        "comingSoonSupplierDelegate": "Acting-as supplier billing context — coming soon."
+      },
+      "preferences": {
+        "title": "Preferences",
+        "comingSoon": "User preference settings — coming soon."
+      }
+    },
+    "header": {
+      "navAriaLabel": "Portal navigation"
+    },
+    "accessibility": {
+      "skipToMainContent": "Skip to main content"
+    },
+    "sidebar": {
+      "nav": {
+        "home": "Home",
+        "profile": "Profile",
+        "account": "Account",
+        "billing": "Billing",
+        "preferences": "Preferences",
+        "invoices": "Invoices",
+        "messages": "Messages",
+        "documents": "Documents",
+        "purchaseOrders": "POs",
+        "submittedInvoices": "Submitted Invoices",
+        "contracts": "Contracts"
+      },
+      "section": {
+        "overview": "Overview",
+        "summary": "Summary",
+        "paymentMethod": "Payment Method",
+        "paymentHistory": "Payment History",
+        "outstanding": "Outstanding",
+        "paid": "Paid",
+        "draft": "Draft",
+        "pending": "Pending",
+        "active": "Active",
+        "expiring": "Expiring",
+        "terminated": "Terminated"
+      }
+    }
+  }
+}

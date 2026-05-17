@@ -3,9 +3,11 @@
     "operations_group_title": "Operations",
     "transactions_group_title": "Transactions",
     "accounting_reports_group_title": "Accounting & Reports",
-    "funding_group_title": "Funding",
+    "funding_group_title": "Capital",
     "admin_group_title": "Administration",
 
+    "subscriptions_app_label": "Subscriptions",
+    "subscriptions_app_icon": "icon-refresh-cw",
     "clients_app_label": "Clients",
     "users_app_label": "Users",
     "inventory_app_label": "Inventory",
@@ -165,5 +167,54 @@
     "home_pulse_label": "Operations Pulse",
     "home_performance_label": "Performance",
     "home_attention_label": "Needs Attention",
-    "overview_group_title": "Overview"
+    "overview_group_title": "Overview",
+
+    "sidebarProfile": {
+        "triggerAriaLabel": "Open account menu",
+        "menuAriaLabel": "Account menu",
+        "profile": "Profile",
+        "account": "Account & security",
+        "billing": "Billing",
+        "preferences": "Preferences",
+        "signOut": "Sign out"
+    },
+
+    "funding_app_label": "Funding",
+    "funding_app_icon": "icon-wallet",
+
+    "funding_sources_title": "Funding Sources",
+    "funding_sources_all_icon": "icon-list",
+
+    "funding_cards_title": "Cards",
+    "funding_cards_active_icon": "icon-credit-card",
+    "funding_cards_suspended_label": "Suspended",
+    "funding_cards_suspended_icon": "icon-pause-circle",
+    "funding_cards_closed_label": "Closed",
+    "funding_cards_closed_icon": "icon-x-circle",
+
+    "funding_activity_title": "Activity",
+    "funding_activity_posted_label": "Posted",
+    "funding_activity_posted_icon": "icon-check-circle",
+    "funding_activity_draft_label": "Draft",
+    "funding_activity_draft_icon": "icon-edit",
+    "funding_activity_voided_label": "Voided",
+    "funding_activity_voided_icon": "icon-x-circle",
+
+    "funding_reconciliation_label": "GL Reconciliation",
+    "funding_reconciliation_icon": "icon-check-square",
+
+    "fund_kind_cash_on_hand_label": "Cash on Hand",
+    "fund_kind_cash_on_hand_icon": "icon-dollar-sign",
+    "fund_kind_bank_account_label": "Bank Account",
+    "fund_kind_bank_account_icon": "icon-briefcase",
+    "fund_kind_petty_cash_label": "Petty Cash",
+    "fund_kind_petty_cash_icon": "icon-clipboard",
+    "fund_kind_credit_line_label": "Credit Line",
+    "fund_kind_credit_line_icon": "icon-trending-up",
+    "fund_kind_credit_card_label": "Credit Card",
+    "fund_kind_credit_card_icon": "icon-credit-card",
+    "fund_kind_prepaid_card_label": "Prepaid Card",
+    "fund_kind_prepaid_card_icon": "icon-credit-card",
+    "fund_kind_mobile_money_label": "Mobile Money",
+    "fund_kind_mobile_money_icon": "icon-smartphone"
 }

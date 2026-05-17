@@ -1,0 +1,110 @@
+{
+    "memberPages": {
+        "section": {
+            "profile": {
+                "title": "Profile",
+                "icon": "icon-user"
+            },
+            "account": {
+                "title": "Account & security",
+                "icon": "icon-shield"
+            },
+            "billing": {
+                "title": "Billing",
+                "icon": "icon-credit-card"
+            },
+            "preferences": {
+                "title": "Preferences",
+                "icon": "icon-sliders-horizontal"
+            }
+        },
+        "profile": {
+            "subtitle": "Your name, contact details, and how teammates see you.",
+            "personalInfo": {
+                "title": "Personal information",
+                "help": "Your name and contact details. Visible to teammates inside your workspace."
+            },
+            "field": {
+                "firstName": "First name",
+                "lastName": "Last name",
+                "email": "Email"
+            },
+            "editingComingSoon": "Editing controls are coming soon. For now this view is read-only."
+        },
+        "account": {
+            "subtitle": "Email, password, and active sessions for your sign-in.",
+            "tabsAriaLabel": "Account & security sections",
+            "tab": {
+                "email": "Sign-in email",
+                "password": "Password",
+                "sessions": "Sessions"
+            },
+            "email": {
+                "title": "Sign-in email",
+                "help": "The email address you use to sign in. Used for password resets and login notifications.",
+                "fieldLabel": "Email"
+            },
+            "password": {
+                "title": "Password",
+                "help": "Change your password. We'll ask for your current password and require a new one entered twice.",
+                "changeLink": "Change password"
+            },
+            "sessions": {
+                "title": "Active sessions",
+                "help": "Sessions you're currently signed in from. Sign-out-everywhere coming soon.",
+                "empty": "No session list yet — this section is a placeholder."
+            }
+        },
+        "billing": {
+            "subtitle": "Subscription, payment method, and invoice history for this workspace.",
+            "tabsAriaLabel": "Billing sections",
+            "tab": {
+                "subscription": "Subscription",
+                "paymentMethod": "Payment method",
+                "invoices": "Invoices"
+            },
+            "subscription": {
+                "title": "Subscription",
+                "help": "Your workspace's plan and renewal date. Billing applies to the whole workspace, not individual users.",
+                "empty": "No active subscription — billing flow is not yet wired."
+            },
+            "paymentMethod": {
+                "title": "Payment method",
+                "help": "The card or account we charge for your subscription.",
+                "empty": "No payment method on file."
+            },
+            "invoices": {
+                "title": "Invoices",
+                "help": "Past invoices and receipts, downloadable as PDF.",
+                "empty": "No invoices yet."
+            }
+        },
+        "preferences": {
+            "subtitle": "Theme, density, notifications, and language preferences.",
+            "tabsAriaLabel": "Preferences sections",
+            "tab": {
+                "appearance": "Appearance",
+                "notifications": "Notifications",
+                "languageRegion": "Language & region"
+            },
+            "appearance": {
+                "title": "Appearance",
+                "help": "Theme, density, and font. Existing controls live in the header theme switcher; this page consolidates them.",
+                "empty": "Inline appearance controls are not yet wired here — use the theme switcher in the top header for now."
+            },
+            "notifications": {
+                "title": "Notifications",
+                "help": "Choose which events deliver an email or in-app notification.",
+                "empty": "Notification controls coming soon."
+            },
+            "languageRegion": {
+                "title": "Language & region",
+                "help": "Display language, date format, and timezone defaults.",
+                "empty": "Language settings coming soon."
+            }
+        },
+        "fallback": {
+            "noValue": "—"
+        }
+    }
+}
