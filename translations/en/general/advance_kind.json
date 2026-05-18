@@ -1,0 +1,29 @@
+{
+  "advanceKind": {
+    "labels": {
+      "kind": {
+        "none": "None",
+        "timeBased": "Time-based",
+        "burnDown": "Burn-down",
+        "milestone": "Milestone",
+        "unscheduled": "Unscheduled"
+      },
+      "status": {
+        "active": "Active",
+        "fullyRecognized": "Fully recognized",
+        "fullyAmortized": "Fully amortized",
+        "fullyDrawn": "Fully drawn",
+        "settled": "Settled",
+        "partiallySettled": "Partially settled",
+        "refunded": "Refunded",
+        "cancelled": "Cancelled",
+        "expired": "Expired"
+      },
+      "prorationPolicy": {
+        "dayProrated": "Day-prorated",
+        "fullTranche": "Full tranche",
+        "nextPeriodStart": "Next period start"
+      }
+    }
+  }
+}

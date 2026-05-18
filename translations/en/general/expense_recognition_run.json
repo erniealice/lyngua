@@ -1,0 +1,310 @@
+{
+    "expenseRecognitionRun": {
+        "appLabel": "Expense Run",
+        "labels": {
+            "nameSingular": "Expense Run",
+            "namePlural": "Expense Runs",
+            "moduleTitle": "Expense Recognition Run"
+        },
+        "page": {
+            "queueTitle": "Expense Run Queue",
+            "queueSubtitle": "Suppliers with pending subscription cycles or advance disbursement tranches ready to recognize",
+            "listTitle": "Expense Runs",
+            "listSubtitle": "History of expense run batches",
+            "detailTitle": "Expense Run"
+        },
+        "buttons": {
+            "generate": "Generate",
+            "runForSelected": "Run for selected",
+            "runForAllMatching": "Run for all matching",
+            "cancel": "Cancel",
+            "viewAttempts": "View attempts",
+            "viewRun": "View run",
+            "viewSupplier": "View supplier",
+            "viewSupplierSubscription": "View supplier subscription",
+            "viewAdvanceDisbursement": "View advance disbursement",
+            "reRunFailed": "Re-run failed",
+            "runRecognitions": "Run Recognitions"
+        },
+        "search": {
+            "placeholder": "Search expense runs"
+        },
+        "filters": {
+            "asOfDate": "As of date",
+            "supplier": "Supplier",
+            "status": "Status",
+            "pending": "Pending",
+            "complete": "Complete",
+            "failed": "Failed"
+        },
+        "columns": {
+            "id": "Run",
+            "scope": "Scope",
+            "asOfDate": "As of date",
+            "initiator": "Initiator",
+            "initiatedAt": "Initiated",
+            "status": "Status",
+            "created": "Created",
+            "skipped": "Skipped",
+            "errored": "Errored",
+            "actions": "Actions"
+        },
+        "queue": {
+            "title": "Expense Run Queue",
+            "subtitle": "Suppliers with pending subscription cycles or advance disbursement tranches ready to recognize",
+            "asOfDateLabel": "As of date",
+            "columns": {
+                "supplier": "Supplier",
+                "subscriptions": "Subscriptions",
+                "advanceDisbursements": "Advance Disbursements",
+                "pendingPeriods": "Pending periods",
+                "total": "Total",
+                "currency": "Currency",
+                "actions": "Actions",
+                "run": "Run"
+            },
+            "empty": {
+                "title": "Nothing to recognize",
+                "message": "No suppliers have pending subscription cycles or advance disbursement tranches as of this date."
+            },
+            "bulk": {
+                "runSelected": "Run for selected",
+                "runAllMatching": "Run for all matching",
+                "capExceededMessage": "Capped at 50 suppliers per batch. Narrow the filter to run the rest."
+            }
+        },
+        "list": {
+            "title": "Expense Runs",
+            "subtitle": "History of expense run batches",
+            "columns": {
+                "id": "Run",
+                "scope": "Scope",
+                "asOfDate": "As of date",
+                "initiator": "Initiator",
+                "initiatedAt": "Initiated",
+                "status": "Status",
+                "created": "Created",
+                "skipped": "Skipped",
+                "errored": "Errored",
+                "actions": "Actions"
+            },
+            "empty": {
+                "pending": {
+                    "title": "No pending runs",
+                    "message": "Runs in flight will appear here."
+                },
+                "complete": {
+                    "title": "No completed runs",
+                    "message": "Completed runs will appear here."
+                },
+                "failed": {
+                    "title": "No failed runs",
+                    "message": "Failed runs will appear here."
+                }
+            },
+            "filterLabels": {
+                "pending": "Pending",
+                "complete": "Complete",
+                "failed": "Failed"
+            }
+        },
+        "detail": {
+            "title": "Expense Run",
+            "tabs": {
+                "summary": "Summary",
+                "selections": "Selections",
+                "results": "Results",
+                "bills": "Draft Bills",
+                "recognitions": "Recognitions",
+                "auditHistory": "Audit History",
+                "attachments": "Attachments"
+            },
+            "tabHints": {
+                "billsHint": "Draft Expenditure rows created by this run. AP edits or cancels them when actual vendor bills arrive.",
+                "recognitionsHint": "ExpenseRecognition rows created or amortized by this run."
+            },
+            "summary": {
+                "scope": "Scope",
+                "asOfDate": "As of date",
+                "initiator": "Initiator",
+                "initiatedAt": "Initiated",
+                "completedAt": "Completed",
+                "status": "Status",
+                "totals": "Totals",
+                "possiblyInterruptedNote": "This run may have been interrupted before completing. Some recognitions may be missing."
+            },
+            "selections": {
+                "colSource": "Source",
+                "colSupplierSubscription": "Supplier Subscription",
+                "colAdvanceDisbursement": "Advance Disbursement",
+                "colPeriodStart": "Period start",
+                "colPeriodEnd": "Period end",
+                "colPeriodMarker": "Period marker",
+                "emptyTitle": "No selections",
+                "emptyMessage": "This run has no attempt records."
+            },
+            "results": {
+                "colSource": "Source",
+                "colSupplierSubscription": "Supplier Subscription",
+                "colAdvanceDisbursement": "Advance Disbursement",
+                "colPeriodStart": "Period start",
+                "colPeriodEnd": "Period end",
+                "colOutcome": "Outcome",
+                "colErrorCode": "Error code",
+                "emptyTitle": "No results",
+                "emptyMessage": "This run has no attempt records."
+            },
+            "bills": {
+                "colReference": "Reference",
+                "colDate": "Date",
+                "colAmount": "Amount",
+                "colStatus": "Status",
+                "emptyTitle": "No draft bills",
+                "emptyMessage": "No draft Expenditure rows were created by this run.",
+                "hint": "Draft Expenditure rows created by this run. AP edits or cancels them when actual vendor bills arrive."
+            },
+            "recognitions": {
+                "colReference": "Reference",
+                "colDate": "Date",
+                "colAmount": "Amount",
+                "colSourceKind": "Source",
+                "colStatus": "Status",
+                "emptyTitle": "No recognitions",
+                "emptyMessage": "No ExpenseRecognition rows were created by this run.",
+                "hint": "ExpenseRecognition rows created or amortized by this run."
+            },
+            "auditHistoryComingSoon": "Audit history is coming soon."
+        },
+        "drawer": {
+            "supplier": {
+                "title": "Run Recognitions",
+                "subtitleTemplate": "Pending periods for {{.SupplierName}} as of {{.AsOfDate}}",
+                "asOfDateLabel": "As of date",
+                "asOfDateHint": "Defaults to today in the workspace timezone.",
+                "columnSource": "Source",
+                "columnPeriod": "Period",
+                "columnAmount": "Amount",
+                "columnLines": "Lines",
+                "columnRemaining": "Remaining",
+                "groupSubscriptionCycle": "Subscription cycles",
+                "groupAdvanceDisbursementTranche": "Advance disbursement tranches",
+                "groupNoPending": "No pending periods",
+                "groupCurrencyMismatch": "Currency mismatch",
+                "emptyTitle": "Nothing to recognize",
+                "emptyMessage": "This supplier has no pending subscription cycles or advance disbursement tranches as of this date.",
+                "generateButton": "Generate",
+                "generateButtonCount": "Generate ({{.Count}})",
+                "cancelButton": "Cancel",
+                "viewRunLink": "View run"
+            },
+            "subscription": {
+                "title": "Run Recognitions",
+                "subtitleTemplate": "Pending periods for {{.SubscriptionName}} as of {{.AsOfDate}}",
+                "asOfDateLabel": "As of date",
+                "asOfDateHint": "Defaults to today in the workspace timezone.",
+                "columnPeriod": "Period",
+                "columnAmount": "Amount",
+                "columnLines": "Lines",
+                "emptyTitle": "Nothing to recognize",
+                "emptyMessage": "This supplier subscription has no pending periods as of this date.",
+                "suppressedByAdvanceTitle": "Suppressed by linked advance",
+                "suppressedByAdvanceExplainer": "Cycles for this subscription are recognized via the linked advance disbursement.",
+                "viewAdvanceLink": "View advance",
+                "generateButton": "Generate",
+                "generateButtonCount": "Generate ({{.Count}})",
+                "cancelButton": "Cancel",
+                "viewRunLink": "View run"
+            },
+            "confirmation": {
+                "title": "Confirm Generate",
+                "bodyTemplate": "Generate {{.Count}} recognitions for {{.ScopeName}} as of {{.AsOfDate}}?",
+                "noteIdempotent": "Re-running the same period for the same source skips already-recognized rows; no duplicates will be created.",
+                "confirmButton": "Generate",
+                "cancelButton": "Cancel"
+            }
+        },
+        "statusBadges": {
+            "pending": "Pending",
+            "complete": "Complete",
+            "failed": "Failed",
+            "possiblyInterrupted": "Possibly interrupted"
+        },
+        "actions": {
+            "run": "Run",
+            "runRecognitions": "Run Recognitions",
+            "reRunFailed": "Re-run failed",
+            "reRunFailedComingSoon": "Re-run failed (coming soon)",
+            "viewRun": "View run",
+            "viewSupplier": "View supplier",
+            "viewSupplierSubscription": "View supplier subscription",
+            "viewAdvanceDisbursement": "View advance disbursement",
+            "runAriaLabel": "Run expense recognition"
+        },
+        "scopeKind": {
+            "supplier": "Supplier",
+            "subscription": "Supplier Subscription",
+            "workspace": "Workspace"
+        },
+        "sourceKind": {
+            "subscriptionCycle": "Subscription cycle",
+            "advanceDisbursement": "Advance disbursement"
+        },
+        "attemptOutcome": {
+            "created": "Created",
+            "skipped": "Skipped",
+            "errored": "Errored"
+        },
+        "outcome": {
+            "created": "Created",
+            "skipped": "Skipped",
+            "errored": "Errored"
+        },
+        "linkedAdvanceSuppression": {
+            "bannerTitle": "Cycle suppressed by linked advance",
+            "bannerMessage": "An advance disbursement covers this subscription cycle. Recognition flows through the advance amortization.",
+            "rowChip": "Suppressed",
+            "rowExplainer": "Covered by linked advance disbursement",
+            "viewAdvanceLink": "View advance disbursement",
+            "ariaLabel": "Row suppressed by linked advance disbursement"
+        },
+        "empty": {
+            "queueTitle": "Nothing to recognize",
+            "queueMessage": "No suppliers have pending subscription cycles or advance disbursement tranches as of this date.",
+            "listTitle": "No expense runs",
+            "listMessage": "Expense runs you initiate will appear here.",
+            "selectionsTitle": "No selections",
+            "selectionsMessage": "This run has no attempt records.",
+            "resultsTitle": "No results",
+            "resultsMessage": "This run has no attempt records.",
+            "billsTitle": "No draft bills",
+            "billsMessage": "No draft Expenditure rows were created by this run.",
+            "recognitionsTitle": "No recognitions",
+            "recognitionsMessage": "No ExpenseRecognition rows were created by this run."
+        },
+        "toast": {
+            "success": "Recognized {{.Created}} of {{.Total}} ({{.Skipped}} skipped, {{.Errored}} errored)",
+            "batchSuccess": "Expense batch run — {{.Created}} created, {{.Skipped}} skipped, {{.Errored}} failed.",
+            "batchSuccessMultiRun": "Ran {{.RunCount}} expense runs ({{.Created}} created, {{.Skipped}} skipped, {{.Errored}} errored)",
+            "viewRunLink": "View run",
+            "generateFailed": "Failed to generate expense run.",
+            "permissionDenied": "You do not have permission to run expense recognition."
+        },
+        "errors": {
+            "capExceeded": "Run for selected is capped at 50 suppliers per batch.",
+            "permissionDenied": "You do not have permission to run expense recognition.",
+            "useCaseUnavailable": "Expense run is not available for this supplier subscription type.",
+            "invalidSelection": "One or more selected supplier subscriptions are invalid.",
+            "idempotencyConflict": "A recognition for one or more periods already exists.",
+            "supplierMismatch": "Selected supplier subscriptions belong to different suppliers.",
+            "workspaceMismatch": "Selected supplier subscriptions belong to a different workspace.",
+            "tamperedPeriod": "A period was modified after selection. Please retry.",
+            "runAllMatchingNotImplemented": "Run for all matching is not yet available. Please select individual suppliers.",
+            "crossWorkspace": "Selection crosses workspace boundary.",
+            "missingCostPlan": "SupplierSubscription has no active CostPlan.",
+            "noPendingPeriods": "No pending periods for the chosen as-of date.",
+            "currencyMismatch": "Currency mismatch between source and recognition.",
+            "generationFailed": "Expense run generation failed.",
+            "suppressedByAdvance": "Subscription cycle suppressed by linked advance disbursement."
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+  "advance": {
+    "tab": "Advance Schedule",
+    "dashboardCard": "Advance Disbursements",
+    "totalLabel": "Total",
+    "remainingLabel": "Remaining",
+    "recognizedLabel": "Recognized",
+    "startDate": "Start",
+    "endDate": "End",
+    "periodCount": "Periods",
+    "periodUnit": "Unit",
+    "tranches": "Tranches",
+    "balanceAccount": "Asset (prepaid) account",
+    "targetAccount": "Expense account",
+    "kindField": "Advance kind",
+    "statusField": "Advance status",
+    "prorationPolicyField": "Proration policy",
+    "kindShort": "Kind",
+    "statusShort": "Status",
+    "actionsSection": "Actions",
+    "linkedMilestones": "Linked Milestones",
+    "trancheColumn": "Tranche",
+    "currencyColumn": "Currency",
+    "billingEventColumn": "Billing event",
+    "supplierBillingEventColumn": "Supplier billing event",
+    "revenueColumn": "Revenue",
+    "expenseRecognitionColumn": "Expense recognition",
+    "recognizeButton": "Recognize",
+    "emptyTranchesTitle": "No tranches recognized yet",
+    "emptyTranchesDesc": "Tranches appear here as each period is recognized.",
+    "actions": {
+      "settle": "Settle",
+      "refund": "Refund",
+      "cancel": "Cancel",
+      "settleConfirm": "Settle advance",
+      "refundConfirm": "Refund advance",
+      "cancelConfirm": "Cancel advance",
+      "reasonField": "Reason",
+      "amountField": "Amount",
+      "targetAccountField": "Target account"
+    }
+  }
+}

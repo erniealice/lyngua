@@ -1,0 +1,37 @@
+{
+  "advancesDashboard": {
+    "title": "Advances Dashboard",
+    "asOfLabel": "As of",
+    "totalOutflow": "Total prepaid (asset)",
+    "totalInflow": "Total deferred (liability)",
+    "utilizationLabel": "Utilization",
+    "activeCount": "Active",
+    "fullyRecognizedCount": "Fully recognized",
+    "outflow": {
+      "cardTitle": "Outflows (Advance Disbursements)",
+      "table": {
+        "id": "Advance",
+        "counterparty": "Supplier",
+        "kind": "Kind",
+        "total": "Total",
+        "remaining": "Remaining",
+        "status": "Status"
+      },
+      "emptyTitle": "No outflow advances",
+      "emptyMessage": "Advance disbursements appear here as they are recorded."
+    },
+    "inflow": {
+      "cardTitle": "Inflows (Advance Collections)",
+      "table": {
+        "id": "Advance",
+        "counterparty": "Customer",
+        "kind": "Kind",
+        "total": "Total",
+        "remaining": "Remaining",
+        "status": "Status"
+      },
+      "emptyTitle": "No inflow advances",
+      "emptyMessage": "Advance collections appear here as they are recorded."
+    }
+  }
+}

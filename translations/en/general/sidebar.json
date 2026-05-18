@@ -47,6 +47,14 @@
     "collections_title": "Collections",
     "disbursements_title": "Disbursements",
 
+    "cash_advances_title": "Advances",
+    "cash_advances_dashboard_label": "Advances Dashboard",
+    "cash_advances_dashboard_icon": "icon-trending-up",
+    "cash_advance_collections_label": "Advance Collections",
+    "cash_advance_collections_icon": "icon-trending-up",
+    "cash_advance_disbursements_label": "Advance Disbursements",
+    "cash_advance_disbursements_icon": "icon-trending-down",
+
     "payroll_runs_title": "Payroll Runs",
     "employees_label": "Employees",
 
@@ -124,6 +132,12 @@
     "revenue_run_queue_icon": "icon-list",
     "revenue_run_history_label": "History",
     "revenue_run_history_icon": "icon-clock",
+
+    "expense_recognition_run_title": "Expense Run",
+    "expense_recognition_run_queue_label": "Queue",
+    "expense_recognition_run_queue_icon": "icon-list",
+    "expense_recognition_run_history_label": "History",
+    "expense_recognition_run_history_icon": "icon-clock",
 
     "lapsing_schedule_label": "Lapsing Schedule",
     "lapsing_schedule_icon": "icon-calendar",

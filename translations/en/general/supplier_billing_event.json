@@ -1,0 +1,54 @@
+{
+  "supplierBillingEvent": {
+    "page": {
+      "title": "Supplier Billing Events",
+      "caption": "Manual billing triggers for supplier subscriptions and contracts."
+    },
+    "columns": {
+      "id": "ID",
+      "supplierSubscription": "Supplier subscription",
+      "supplierContract": "Supplier contract",
+      "billableAmount": "Billable amount",
+      "currency": "Currency",
+      "status": "Status",
+      "trigger": "Trigger",
+      "expenseRecognition": "Expense recognition",
+      "dateCreated": "Created"
+    },
+    "status": {
+      "unspecified": "Unspecified",
+      "ready": "Ready",
+      "billed": "Billed",
+      "waived": "Waived",
+      "cancelled": "Cancelled"
+    },
+    "trigger": {
+      "unspecified": "Unspecified",
+      "manualEarly": "Manual (early)",
+      "manualLate": "Manual (late)"
+    },
+    "actions": {
+      "recognize": "Recognize",
+      "markReady": "Mark ready",
+      "waive": "Waive",
+      "cancel": "Cancel"
+    },
+    "detail": {
+      "title": "Supplier billing event",
+      "tabInfo": "Info",
+      "tabAudit": "Audit",
+      "infoHeading": "Billing event details",
+      "linkedAdvanceBadge": "Linked advance"
+    },
+    "empty": {
+      "title": "No supplier billing events",
+      "message": "Supplier billing events appear here once created."
+    },
+    "errors": {
+      "permissionDenied": "Permission denied",
+      "notFound": "Supplier billing event not found",
+      "alreadyRecognized": "This billing event has already been recognized",
+      "invalidTransition": "Cannot transition from %s to %s"
+    }
+  }
+}

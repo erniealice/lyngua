@@ -341,7 +341,9 @@
       "statusCancelled": "Cancelled",
       "totalInvoiced": "Total Invoiced",
       "amountFull": "Full amount",
-      "amountPartial": "Partial — {{.Billed}} of {{.Full}}"
+      "amountPartial": "Partial — {{.Billed}} of {{.Full}}",
+      "recognize": "Recognize",
+      "linkedAdvanceBadge": "Linked advance"
     },
     "confirm": {
       "cancel": "Cancel Subscription",
