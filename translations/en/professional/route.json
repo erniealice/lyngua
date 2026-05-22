@@ -189,8 +189,8 @@
         "expenses_summary_url": "/expenses/reports/expenses-summary"
     },
     "asset": {
-        "lapsing_schedule_url": "/assets/reports/lapsing-schedule",
-        "depreciation_policies_url": "/assets/settings/depreciation-policies"
+        "lapsing_schedule_url": "/asset/reports/lapsing-schedule",
+        "depreciation_policies_url": "/asset/settings/depreciation-policies"
     },
     "job": {
         "list_url": "/practice/list/{status}",
