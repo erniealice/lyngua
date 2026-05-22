@@ -1,5 +1,5 @@
 {
-  "portal": {
+  "member": {
     "client": {
       "name": "My Account",
       "home": {
@@ -85,7 +85,7 @@
       }
     },
     "header": {
-      "navAriaLabel": "Portal navigation"
+      "navAriaLabel": "Member navigation"
     },
     "accessibility": {
       "skipToMainContent": "Skip to main content"
