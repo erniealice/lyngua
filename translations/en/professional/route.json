@@ -2,9 +2,9 @@
     "product": {
         "active_nav": "service",
         "active_sub_nav": "services-active",
-        "list_url": "/app/services/list/{status}",
+        "list_url": "/services/list/{status}",
         "table_url": "/action/service/table/{status}",
-        "detail_url": "/app/services/detail/{id}",
+        "detail_url": "/services/detail/{id}",
         "add_url": "/action/service/add",
         "edit_url": "/action/service/edit/{id}",
         "delete_url": "/action/service/delete",
@@ -16,13 +16,13 @@
         "variant_assign_url": "/action/service/detail/{id}/variants/assign",
         "variant_edit_url": "/action/service/detail/{id}/variants/edit/{vid}",
         "variant_remove_url": "/action/service/detail/{id}/variants/remove",
-        "variant_detail_url": "/app/services/detail/{id}/variant/{vid}",
+        "variant_detail_url": "/services/detail/{id}/variant/{vid}",
         "variant_tab_action_url": "/action/service/detail/{id}/variant/{vid}/tab/{tab}",
         "variant_image_upload_url": "/action/service/detail/{id}/variant/{vid}/images/upload",
         "variant_image_delete_url": "/action/service/detail/{id}/variant/{vid}/images/delete",
-        "variant_stock_detail_url": "/app/services/detail/{id}/variant/{vid}/stock/{iid}",
+        "variant_stock_detail_url": "/services/detail/{id}/variant/{vid}/stock/{iid}",
         "variant_stock_tab_action_url": "/action/service/detail/{id}/variant/{vid}/stock/{iid}/tab/{tab}",
-        "variant_serial_detail_url": "/app/services/detail/{id}/variant/{vid}/stock/{iid}/serial/{sid}",
+        "variant_serial_detail_url": "/services/detail/{id}/variant/{vid}/stock/{iid}/serial/{sid}",
         "attribute_table_url": "/action/service/detail/{id}/attributes/table",
         "attribute_assign_url": "/action/service/detail/{id}/attributes/assign",
         "attribute_remove_url": "/action/service/detail/{id}/attributes/remove",
@@ -30,7 +30,7 @@
         "option_add_url": "/action/service/detail/{id}/options/add",
         "option_edit_url": "/action/service/detail/{id}/options/edit/{oid}",
         "option_delete_url": "/action/service/detail/{id}/options/delete",
-        "option_detail_url": "/app/services/detail/{id}/option/{oid}",
+        "option_detail_url": "/services/detail/{id}/option/{oid}",
         "option_value_table_url": "/action/service/detail/{id}/options/{oid}/values/table",
         "option_value_add_url": "/action/service/detail/{id}/options/{oid}/values/add",
         "option_value_edit_url": "/action/service/detail/{id}/options/{oid}/values/edit/{vid}",
@@ -39,9 +39,9 @@
     "product_inventory": {
         "active_nav": "inventory",
         "active_sub_nav": "masterlist",
-        "list_url": "/app/inventory/products/list/{status}",
-        "dashboard_url": "/app/inventory/products/list/active",
-        "detail_url": "/app/inventory/products/detail/{id}",
+        "list_url": "/inventory/products/list/{status}",
+        "dashboard_url": "/inventory/products/list/active",
+        "detail_url": "/inventory/products/detail/{id}",
         "table_url": "/action/inventory-product/table/{status}",
         "add_url": "/action/inventory-product/add",
         "edit_url": "/action/inventory-product/edit/{id}",
@@ -54,10 +54,10 @@
     "product_line": {
         "active_nav": "service",
         "active_sub_nav": "product-lines",
-        "dashboard_url": "/app/services/groups/list/active",
-        "list_url": "/app/services/groups/list/{status}",
+        "dashboard_url": "/services/groups/list/active",
+        "list_url": "/services/groups/list/{status}",
         "table_url": "/action/product-line/table/{status}",
-        "detail_url": "/app/services/groups/detail/{id}",
+        "detail_url": "/services/groups/detail/{id}",
         "add_url": "/action/product-line/add",
         "edit_url": "/action/product-line/edit/{id}",
         "delete_url": "/action/product-line/delete",
@@ -69,25 +69,25 @@
         "attachment_delete_url": "/action/product-line/{id}/attachments/delete"
     },
     "inventory": {
-        "product_detail_url": "/app/services/detail/{pid}/inventory/detail/{iid}",
+        "product_detail_url": "/services/detail/{pid}/inventory/detail/{iid}",
         "product_tab_action_url": "/action/service/{pid}/inventory/{iid}/tab/{tab}"
     },
     "client": {
-        "dashboard_url": "/app/clients/dashboard",
-        "list_url": "/app/clients/list/{status}",
+        "dashboard_url": "/clients/dashboard",
+        "list_url": "/clients/list/{status}",
         "table_url": "/action/client/table/{status}",
         "add_url": "/action/client/add",
         "edit_url": "/action/client/edit/{id}",
         "delete_url": "/action/client/delete",
         "bulk_delete_url": "/action/client/bulk-delete",
-        "detail_url": "/app/clients/detail/{id}",
+        "detail_url": "/clients/detail/{id}",
         "tab_action_url": "/action/client/{id}/tab/{tab}",
         "set_status_url": "/action/client/set-status",
         "bulk_set_status_url": "/action/client/bulk-set-status",
-        "receivables_aging_url": "/app/clients/reports/receivables-aging"
+        "receivables_aging_url": "/clients/reports/receivables-aging"
     },
     "client_tag": {
-        "list_url": "/app/clients/settings/tags/list",
+        "list_url": "/clients/settings/tags/list",
         "add_url": "/action/client/tags/add",
         "edit_url": "/action/client/tags/edit/{id}",
         "delete_url": "/action/client/tags/delete",
@@ -96,22 +96,22 @@
     "plan": {
         "active_nav": "service",
         "active_sub_nav": "plans-active",
-        "list_url": "/app/services/packages/list/{status}",
-        "detail_url": "/app/services/packages/detail/{id}"
+        "list_url": "/services/packages/list/{status}",
+        "detail_url": "/services/packages/detail/{id}"
     },
     "price_schedule": {
         "active_nav": "service",
         "active_sub_nav": "price-schedules-active",
-        "dashboard_url": "/app/services/rate-cards/dashboard",
-        "list_url": "/app/services/rate-cards/list/{status}",
-        "detail_url": "/app/services/rate-cards/detail/{id}",
-        "plan_detail_url": "/app/services/rate-cards/detail/{id}/plan/{ppid}",
+        "dashboard_url": "/services/rate-cards/dashboard",
+        "list_url": "/services/rate-cards/list/{status}",
+        "detail_url": "/services/rate-cards/detail/{id}",
+        "plan_detail_url": "/services/rate-cards/detail/{id}/plan/{ppid}",
         "tab_plans_slug": "packages"
     },
     "subscription": {
-        "list_url": "/app/engagements/list/{status}",
-        "detail_url": "/app/engagements/detail/{id}",
-        "under_client_detail_url": "/app/clients/detail/{client_id}/engagements/{id}",
+        "list_url": "/engagements/list/{status}",
+        "detail_url": "/engagements/detail/{id}",
+        "under_client_detail_url": "/clients/detail/{client_id}/engagements/{id}",
         "add_url": "/action/subscription/add",
         "edit_url": "/action/subscription/edit/{id}",
         "delete_url": "/action/subscription/delete",
@@ -121,20 +121,20 @@
         }
     },
     "treasury_collection": {
-        "list_url": "/app/treasury-collections/list/{status}",
-        "detail_url": "/app/treasury-collections/{id}",
+        "list_url": "/treasury-collections/list/{status}",
+        "detail_url": "/treasury-collections/{id}",
         "add_url": "/action/treasury-collection/add",
         "edit_url": "/action/treasury-collection/edit/{id}",
         "delete_url": "/action/treasury-collection/delete"
     },
     "location": {
-        "detail_url": "/app/locations/detail/{id}"
+        "detail_url": "/locations/detail/{id}"
     },
     "revenue": {
-        "dashboard_url": "/app/revenue/dashboard",
-        "list_url": "/app/revenue/list/{status}",
+        "dashboard_url": "/revenue/dashboard",
+        "list_url": "/revenue/list/{status}",
         "table_url": "/action/revenue/table/{status}",
-        "detail_url": "/app/revenue/detail/{id}",
+        "detail_url": "/revenue/detail/{id}",
         "add_url": "/action/revenue/add",
         "edit_url": "/action/revenue/edit/{id}",
         "delete_url": "/action/revenue/delete",
@@ -151,10 +151,10 @@
         "payment_add_url": "/action/revenue/detail/{id}/payment/add",
         "payment_edit_url": "/action/revenue/detail/{id}/payment/edit/{pid}",
         "payment_remove_url": "/action/revenue/detail/{id}/payment/remove",
-        "revenue_summary_url": "/app/revenue/reports/revenue-summary",
+        "revenue_summary_url": "/revenue/reports/revenue-summary",
         "invoice_download_url": "/action/revenue/detail/{id}/invoice/download",
         "send_email_url": "/action/revenue/detail/{id}/invoice/send-email",
-        "settings_templates_url": "/app/revenue/settings/templates",
+        "settings_templates_url": "/revenue/settings/templates",
         "settings_template_upload_url": "/action/revenue/settings/templates/upload",
         "settings_template_delete_url": "/action/revenue/settings/templates/delete",
         "settings_template_default_url": "/action/revenue/settings/templates/set-default/{id}",
@@ -164,47 +164,47 @@
         "attachment_delete_url": "/action/revenue/detail/{id}/attachments/delete"
     },
     "reports": {
-        "dashboard_url": "/app/financial/dashboard",
-        "revenue_url": "/app/financial/revenue",
-        "cost_of_sales_url": "/app/financial/cost-of-sales",
-        "gross_profit_url": "/app/financial/gross-profit",
-        "expenses_url": "/app/financial/expenses",
-        "net_profit_url": "/app/financial/net-profit",
-        "revenue_report_url": "/app/revenue/reports/summary",
-        "revenue_report_export_url": "/app/revenue/reports/summary/export",
-        "receivables_aging_report_url": "/app/revenue/reports/receivables-aging",
-        "receivables_aging_report_export_url": "/app/revenue/reports/receivables-aging/export",
-        "collection_summary_report_url": "/app/revenue/reports/collection-summary",
-        "collection_summary_report_export_url": "/app/revenue/reports/collection-summary/export",
-        "expenditure_report_url": "/app/expenses/reports/summary",
-        "expenditure_report_export_url": "/app/expenses/reports/summary/export",
-        "disbursement_report_url": "/app/cash/reports/disbursement-report",
-        "disbursement_report_export_url": "/app/cash/reports/disbursement-report/export"
+        "dashboard_url": "/financial/dashboard",
+        "revenue_url": "/financial/revenue",
+        "cost_of_sales_url": "/financial/cost-of-sales",
+        "gross_profit_url": "/financial/gross-profit",
+        "expenses_url": "/financial/expenses",
+        "net_profit_url": "/financial/net-profit",
+        "revenue_report_url": "/revenue/reports/summary",
+        "revenue_report_export_url": "/revenue/reports/summary/export",
+        "receivables_aging_report_url": "/revenue/reports/receivables-aging",
+        "receivables_aging_report_export_url": "/revenue/reports/receivables-aging/export",
+        "collection_summary_report_url": "/revenue/reports/collection-summary",
+        "collection_summary_report_export_url": "/revenue/reports/collection-summary/export",
+        "expenditure_report_url": "/expenses/reports/summary",
+        "expenditure_report_export_url": "/expenses/reports/summary/export",
+        "disbursement_report_url": "/cash/reports/disbursement-report",
+        "disbursement_report_export_url": "/cash/reports/disbursement-report/export"
     },
     "supplier": {
-        "payables_aging_url": "/app/suppliers/reports/payables-aging"
+        "payables_aging_url": "/suppliers/reports/payables-aging"
     },
     "expenditure": {
-        "purchases_summary_url": "/app/purchases/reports/purchases-summary",
-        "expenses_summary_url": "/app/expenses/reports/expenses-summary"
+        "purchases_summary_url": "/purchases/reports/purchases-summary",
+        "expenses_summary_url": "/expenses/reports/expenses-summary"
     },
     "asset": {
-        "lapsing_schedule_url": "/app/assets/reports/lapsing-schedule",
-        "depreciation_policies_url": "/app/assets/settings/depreciation-policies"
+        "lapsing_schedule_url": "/assets/reports/lapsing-schedule",
+        "depreciation_policies_url": "/assets/settings/depreciation-policies"
     },
     "job": {
-        "list_url": "/app/practice/list/{status}",
-        "detail_url": "/app/practice/detail/{id}",
+        "list_url": "/practice/list/{status}",
+        "detail_url": "/practice/detail/{id}",
         "add_url": "/action/matter/add",
         "edit_url": "/action/matter/edit/{id}",
         "delete_url": "/action/matter/delete"
     },
     "job_template": {
-        "list_url": "/app/practice/sops/list/{status}",
-        "detail_url": "/app/practice/sops/detail/{id}"
+        "list_url": "/practice/sops/list/{status}",
+        "detail_url": "/practice/sops/detail/{id}"
     },
     "job_activity": {
-        "list_url": "/app/practice/timesheet/list",
-        "detail_url": "/app/practice/timesheet/detail/{id}"
+        "list_url": "/practice/timesheet/list",
+        "detail_url": "/practice/timesheet/detail/{id}"
     }
 }

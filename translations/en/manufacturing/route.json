@@ -1,16 +1,16 @@
 {
     "job": {
-        "list_url": "/app/production-orders/list/{status}",
-        "detail_url": "/app/production-orders/detail/{id}",
+        "list_url": "/production-orders/list/{status}",
+        "detail_url": "/production-orders/detail/{id}",
         "add_url": "/action/production-order/add",
         "edit_url": "/action/production-order/edit/{id}",
         "delete_url": "/action/production-order/delete"
     },
     "job_template": {
-        "list_url": "/app/bom-routings/list/{status}",
-        "detail_url": "/app/bom-routings/detail/{id}"
+        "list_url": "/bom-routings/list/{status}",
+        "detail_url": "/bom-routings/detail/{id}"
     },
     "job_activity": {
-        "list_url": "/app/production-tickets/list"
+        "list_url": "/production-tickets/list"
     }
 }

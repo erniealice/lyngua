@@ -2,8 +2,8 @@
     "product": {
         "active_nav": "service",
         "active_sub_nav": "services-active",
-        "list_url": "/app/services/list/{status}",
-        "detail_url": "/app/services/detail/{id}",
+        "list_url": "/services/list/{status}",
+        "detail_url": "/services/detail/{id}",
         "add_url": "/action/service/add",
         "edit_url": "/action/service/edit/{id}",
         "delete_url": "/action/service/delete",
@@ -15,13 +15,13 @@
         "variant_assign_url": "/action/service/detail/{id}/variants/assign",
         "variant_edit_url": "/action/service/detail/{id}/variants/edit/{vid}",
         "variant_remove_url": "/action/service/detail/{id}/variants/remove",
-        "variant_detail_url": "/app/services/detail/{id}/variant/{vid}",
+        "variant_detail_url": "/services/detail/{id}/variant/{vid}",
         "variant_tab_action_url": "/action/service/detail/{id}/variant/{vid}/tab/{tab}",
         "variant_image_upload_url": "/action/service/detail/{id}/variant/{vid}/images/upload",
         "variant_image_delete_url": "/action/service/detail/{id}/variant/{vid}/images/delete",
-        "variant_stock_detail_url": "/app/services/detail/{id}/variant/{vid}/stock/{iid}",
+        "variant_stock_detail_url": "/services/detail/{id}/variant/{vid}/stock/{iid}",
         "variant_stock_tab_action_url": "/action/service/detail/{id}/variant/{vid}/stock/{iid}/tab/{tab}",
-        "variant_serial_detail_url": "/app/services/detail/{id}/variant/{vid}/stock/{iid}/serial/{sid}",
+        "variant_serial_detail_url": "/services/detail/{id}/variant/{vid}/stock/{iid}/serial/{sid}",
         "attribute_table_url": "/action/service/detail/{id}/attributes/table",
         "attribute_assign_url": "/action/service/detail/{id}/attributes/assign",
         "attribute_remove_url": "/action/service/detail/{id}/attributes/remove",
@@ -29,65 +29,65 @@
         "option_add_url": "/action/service/detail/{id}/options/add",
         "option_edit_url": "/action/service/detail/{id}/options/edit/{oid}",
         "option_delete_url": "/action/service/detail/{id}/options/delete",
-        "option_detail_url": "/app/services/detail/{id}/option/{oid}",
+        "option_detail_url": "/services/detail/{id}/option/{oid}",
         "option_value_table_url": "/action/service/detail/{id}/options/{oid}/values/table",
         "option_value_add_url": "/action/service/detail/{id}/options/{oid}/values/add",
         "option_value_edit_url": "/action/service/detail/{id}/options/{oid}/values/edit/{vid}",
         "option_value_delete_url": "/action/service/detail/{id}/options/{oid}/values/delete"
     },
     "inventory": {
-        "product_detail_url": "/app/services/detail/{pid}/inventory/detail/{iid}",
+        "product_detail_url": "/services/detail/{pid}/inventory/detail/{iid}",
         "product_tab_action_url": "/action/service/{pid}/inventory/{iid}/tab/{tab}"
     },
     "client": {
-        "dashboard_url": "/app/customers/dashboard",
-        "list_url": "/app/customers/list/{status}",
+        "dashboard_url": "/customers/dashboard",
+        "list_url": "/customers/list/{status}",
         "table_url": "/action/customer/table/{status}",
         "add_url": "/action/customer/add",
         "edit_url": "/action/customer/edit/{id}",
         "delete_url": "/action/customer/delete",
         "bulk_delete_url": "/action/customer/bulk-delete",
-        "detail_url": "/app/customers/detail/{id}",
+        "detail_url": "/customers/detail/{id}",
         "tab_action_url": "/action/customer/{id}/tab/{tab}",
         "set_status_url": "/action/customer/set-status",
         "bulk_set_status_url": "/action/customer/bulk-set-status",
-        "receivables_aging_url": "/app/customers/reports/receivables-aging"
+        "receivables_aging_url": "/customers/reports/receivables-aging"
     },
     "client_tag": {
-        "list_url": "/app/customers/settings/tags/list",
+        "list_url": "/customers/settings/tags/list",
         "add_url": "/action/customer/tags/add",
         "edit_url": "/action/customer/tags/edit/{id}",
         "delete_url": "/action/customer/tags/delete",
         "bulk_delete_url": "/action/customer/tags/bulk-delete"
     },
     "plan": {
-        "list_url": "/app/packages/list/{status}",
-        "detail_url": "/app/packages/{id}",
+        "list_url": "/packages/list/{status}",
+        "detail_url": "/packages/{id}",
         "add_url": "/action/package/add",
         "edit_url": "/action/package/edit/{id}",
         "delete_url": "/action/package/delete"
     },
     "subscription": {
-        "list_url": "/app/memberships/list/{status}",
-        "detail_url": "/app/memberships/detail/{id}",
+        "list_url": "/memberships/list/{status}",
+        "detail_url": "/memberships/detail/{id}",
         "add_url": "/action/membership/add",
         "edit_url": "/action/membership/edit/{id}",
         "delete_url": "/action/membership/delete"
     },
     "treasury_collection": {
-        "list_url": "/app/payment-collections/list/{status}",
-        "detail_url": "/app/payment-collections/{id}",
+        "list_url": "/payment-collections/list/{status}",
+        "detail_url": "/payment-collections/{id}",
         "add_url": "/action/payment-collection/add",
         "edit_url": "/action/payment-collection/edit/{id}",
         "delete_url": "/action/payment-collection/delete"
     },
     "location": {
-        "detail_url": "/app/locations/{id}"
+        "detail_url": "/locations/{id}"
     },
     "revenue": {
-        "dashboard_url": "/app/bookings/dashboard",
-        "list_url": "/app/bookings/list/{status}",
-        "detail_url": "/app/bookings/detail/{id}",
+        "dashboard_url": "/bookings/dashboard",
+        "list_url": "/bookings/list/{status}",
+        "detail_url": "/bookings/detail/{id}",
         "add_url": "/action/booking/add",
         "edit_url": "/action/booking/edit/{id}",
         "delete_url": "/action/booking/delete",
@@ -104,49 +104,49 @@
         "payment_add_url": "/action/booking/detail/{id}/payment/add",
         "payment_edit_url": "/action/booking/detail/{id}/payment/edit/{pid}",
         "payment_remove_url": "/action/booking/detail/{id}/payment/remove",
-        "revenue_summary_url": "/app/bookings/reports/bookings-summary"
+        "revenue_summary_url": "/bookings/reports/bookings-summary"
     },
     "reports": {
-        "dashboard_url": "/app/financial/dashboard",
-        "revenue_url": "/app/financial/revenue",
-        "cost_of_sales_url": "/app/financial/cost-of-sales",
-        "gross_profit_url": "/app/financial/gross-profit",
-        "expenses_url": "/app/financial/expenses",
-        "net_profit_url": "/app/financial/net-profit",
-        "revenue_report_url": "/app/revenue/reports/summary",
-        "revenue_report_export_url": "/app/revenue/reports/summary/export",
-        "receivables_aging_report_url": "/app/revenue/reports/receivables-aging",
-        "receivables_aging_report_export_url": "/app/revenue/reports/receivables-aging/export",
-        "collection_summary_report_url": "/app/revenue/reports/collection-summary",
-        "collection_summary_report_export_url": "/app/revenue/reports/collection-summary/export",
-        "expenditure_report_url": "/app/expenses/reports/summary",
-        "expenditure_report_export_url": "/app/expenses/reports/summary/export",
-        "disbursement_report_url": "/app/cash/reports/disbursement-report",
-        "disbursement_report_export_url": "/app/cash/reports/disbursement-report/export"
+        "dashboard_url": "/financial/dashboard",
+        "revenue_url": "/financial/revenue",
+        "cost_of_sales_url": "/financial/cost-of-sales",
+        "gross_profit_url": "/financial/gross-profit",
+        "expenses_url": "/financial/expenses",
+        "net_profit_url": "/financial/net-profit",
+        "revenue_report_url": "/revenue/reports/summary",
+        "revenue_report_export_url": "/revenue/reports/summary/export",
+        "receivables_aging_report_url": "/revenue/reports/receivables-aging",
+        "receivables_aging_report_export_url": "/revenue/reports/receivables-aging/export",
+        "collection_summary_report_url": "/revenue/reports/collection-summary",
+        "collection_summary_report_export_url": "/revenue/reports/collection-summary/export",
+        "expenditure_report_url": "/expenses/reports/summary",
+        "expenditure_report_export_url": "/expenses/reports/summary/export",
+        "disbursement_report_url": "/cash/reports/disbursement-report",
+        "disbursement_report_export_url": "/cash/reports/disbursement-report/export"
     },
     "supplier": {
-        "payables_aging_url": "/app/suppliers/reports/payables-aging"
+        "payables_aging_url": "/suppliers/reports/payables-aging"
     },
     "expenditure": {
-        "purchases_summary_url": "/app/purchases/reports/purchases-summary",
-        "expenses_summary_url": "/app/expenses/reports/expenses-summary"
+        "purchases_summary_url": "/purchases/reports/purchases-summary",
+        "expenses_summary_url": "/expenses/reports/expenses-summary"
     },
     "asset": {
-        "lapsing_schedule_url": "/app/assets/reports/lapsing-schedule",
-        "depreciation_policies_url": "/app/assets/settings/depreciation-policies"
+        "lapsing_schedule_url": "/assets/reports/lapsing-schedule",
+        "depreciation_policies_url": "/assets/settings/depreciation-policies"
     },
     "job": {
-        "list_url": "/app/appointments/list/{status}",
-        "detail_url": "/app/appointments/detail/{id}",
+        "list_url": "/appointments/list/{status}",
+        "detail_url": "/appointments/detail/{id}",
         "add_url": "/action/appointment/add",
         "edit_url": "/action/appointment/edit/{id}",
         "delete_url": "/action/appointment/delete"
     },
     "job_template": {
-        "list_url": "/app/service-protocols/list/{status}",
-        "detail_url": "/app/service-protocols/detail/{id}"
+        "list_url": "/service-protocols/list/{status}",
+        "detail_url": "/service-protocols/detail/{id}"
     },
     "job_activity": {
-        "list_url": "/app/chair-log/list"
+        "list_url": "/chair-log/list"
     }
 }
