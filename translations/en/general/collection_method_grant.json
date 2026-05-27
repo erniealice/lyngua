@@ -1,0 +1,30 @@
+{
+  "collectionMethodGrant": {
+    "tab": {
+      "title": "Grants"
+    },
+    "columns": {
+      "subject": "Subject",
+      "clientId": "Client",
+      "status": "Status",
+      "grantedBy": "Granted By",
+      "revokedBy": "Revoked By",
+      "revokeReason": "Revoke Reason"
+    },
+    "form": {
+      "bulkGrantTitle": "Bulk Grant Access",
+      "clientIds": "Client IDs",
+      "clientIdsInfo": "Paste or type one client ID per line. Each client will be granted access to this collection method.",
+      "clientIdsPlaceholder": "client-id-1\nclient-id-2\nclient-id-3",
+      "grantButton": "Grant Access"
+    },
+    "empty": {
+      "title": "No grants yet",
+      "message": "Grant access to specific clients to restrict who can use this collection method."
+    },
+    "revoke": {
+      "confirm": "Are you sure you want to revoke this grant? The client will lose access immediately.",
+      "button": "Revoke"
+    }
+  }
+}
