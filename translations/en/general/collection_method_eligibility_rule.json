@@ -1,0 +1,61 @@
+{
+  "collectionMethodEligibilityRule": {
+    "tab": {
+      "title": "Eligibility Rules"
+    },
+    "columns": {
+      "name": "Name",
+      "bearerMode": "Bearer Mode",
+      "validFrom": "Valid From",
+      "validUntil": "Valid Until",
+      "stackingPolicy": "Stacking",
+      "jurisdictionCode": "Jurisdiction",
+      "maxPerInstance": "Max / Instance",
+      "maxPerClient": "Max / Client"
+    },
+    "form": {
+      "addTitle": "New Eligibility Rule",
+      "editTitle": "Edit Eligibility Rule",
+      "name": "Name",
+      "namePlaceholder": "e.g. Gift Card Standard Terms",
+      "nameInfo": "A short internal name for this rule. Operators see it; customers do not.",
+      "bearerMode": "Bearer Mode",
+      "bearerModeInfo": "Whether the issued instrument is tied to one customer or can be transferred to another.",
+      "bearerModeHolderBound": "Holder bound (non-transferable)",
+      "bearerModeTransferable": "Holder transferable",
+      "validFromDate": "Valid From",
+      "validFromDateInfo": "Optional. The earliest date an instrument under this rule can be used.",
+      "validUntilDate": "Valid Until",
+      "validUntilDateInfo": "Optional. The last date an instrument under this rule can be used. Leave blank for no hard cutoff.",
+      "expiryDaysAfterIssuance": "Expires After (days)",
+      "expiryDaysInfo": "Optional. Number of days after issuance before the instrument expires. Overrides Valid Until when both are set.",
+      "minAmountCentavos": "Minimum Amount",
+      "minAmountInfo": "Optional. The smallest face value allowed when issuing under this rule.",
+      "maxAmountCentavos": "Maximum Amount",
+      "maxAmountInfo": "Optional. The largest face value allowed when issuing under this rule.",
+      "stackingPolicy": "Stacking Policy",
+      "stackingPolicyInfo": "How this instrument interacts with other discounts or instruments at the point of redemption.",
+      "stackingExclusive": "Exclusive — cannot be combined with others",
+      "stackingStackable": "Stackable — can be combined freely",
+      "stackingFirstOnly": "First only — only applied if no other discount is active",
+      "jurisdictionCode": "Jurisdiction",
+      "jurisdictionInfo": "Optional ISO 3166-2 code (e.g. PH, US-CA) if this rule applies to a specific region.",
+      "maxRedemptionsPerInstance": "Max Uses per Instrument",
+      "maxRedemptionsPerInstanceInfo": "Optional. How many times a single issued instrument can be redeemed. Leave blank for unlimited.",
+      "maxRedemptionsPerClient": "Max Uses per Customer",
+      "maxRedemptionsPerClientInfo": "Optional. How many times any one customer can use instruments under this rule. Leave blank for unlimited.",
+      "termsUrl": "Terms URL",
+      "termsUrlInfo": "Optional link to the full terms and conditions for this rule.",
+      "termsSummary": "Terms Summary",
+      "termsSummaryInfo": "Optional plain-language summary of the key conditions."
+    },
+    "empty": {
+      "title": "No eligibility rules yet",
+      "message": "Create an eligibility rule to control how instruments issued under this method can be used."
+    },
+    "delete": {
+      "confirm": "Are you sure you want to delete this eligibility rule? This cannot be undone.",
+      "button": "Delete Rule"
+    }
+  }
+}
