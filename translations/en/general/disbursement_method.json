@@ -1,0 +1,97 @@
+{
+  "disbursementMethod": {
+    "page": {
+      "heading": "Payment Methods",
+      "headingActive": "Active Payment Methods",
+      "headingDraft": "Draft Payment Methods",
+      "headingArchived": "Archived Payment Methods",
+      "caption": "Templates that define how you pay suppliers.",
+      "addButton": "New Payment Method",
+      "detailSubtitle": "Payment method template"
+    },
+    "columns": {
+      "templateCode": "Code",
+      "name": "Name",
+      "category": "Category",
+      "postingKind": "Posting",
+      "lifecycle": "Lifecycle",
+      "source": "Source",
+      "revision": "Rev."
+    },
+    "tabs": {
+      "info": "Info",
+      "approvals": "Approval Rules",
+      "instances": "Instances",
+      "profiles": "Disbursement Profiles",
+      "transitions": "Transition Requests",
+      "versions": "Versions",
+      "activity": "Activity",
+      "stagePending": "This section is coming in a later release."
+    },
+    "detail": {
+      "overviewSection": "Template Overview",
+      "name": "Name",
+      "templateCode": "Template Code",
+      "category": "Category",
+      "postingKind": "Posting Kind",
+      "taxEffectKind": "Tax Effect",
+      "lifecycle": "Lifecycle",
+      "source": "Source",
+      "revision": "Revision",
+      "versionStatus": "Version Status",
+      "balanceAccount": "Balance Account",
+      "targetAccount": "Target Account",
+      "kindSummary": "Kind Configuration"
+    },
+    "form": {
+      "addTitle": "New Payment Method",
+      "editTitle": "Edit Payment Method",
+      "sectionCommon": "Method Details",
+      "sectionGl": "Accounting Defaults",
+      "sectionVersion": "Versioning",
+      "sectionKind": "Kind-specific Settings",
+      "name": "Name",
+      "namePlaceholder": "e.g. Corporate Check Series A",
+      "nameInfo": "A short, recognizable name for this method template.",
+      "category": "Category",
+      "categoryInfo": "What kind of method this is. Determines which settings appear below.",
+      "postingKind": "Posting Kind",
+      "postingKindInfo": "How disbursements through this method are recorded in your books.",
+      "taxEffectKind": "Tax Effect",
+      "taxEffectInfo": "Whether amounts include or exclude tax.",
+      "balanceAccount": "Balance Account",
+      "targetAccount": "Target Account",
+      "lifecycle": "Lifecycle",
+      "lifecycleInfo": "New templates start as Draft.",
+      "source": "Source",
+      "templateCode": "Template Code",
+      "templateCodeInfo": "Stable code shared across revisions of this template.",
+      "revision": "Revision",
+      "versionStatus": "Version Status",
+      "supersedes": "Supersedes",
+      "categoryStandard": "Standard / Bank Account",
+      "categoryAdvance": "Advance Template",
+      "categoryCard": "Card",
+      "categoryVoucher": "Voucher Program"
+    },
+    "fragment": {
+      "bankIntro": "This sets up the kind of bank account you pay from or to. A supplier's actual account details are saved against that supplier, not here.",
+      "checkIntro": "This sets up a check series and signing policy. Individual checks are issued from this series.",
+      "advanceIntro": "This is an advance template — for prepayments to suppliers. The settings below are the starting defaults for each prepayment you record.",
+      "bankName": "Bank Name",
+      "accountFormat": "Account Format Rules",
+      "checkSeries": "Check Series",
+      "signingPolicy": "Signing Policy",
+      "advanceKind": "Advance Kind",
+      "defaultBalanceAcct": "Default Balance Account",
+      "defaultTargetAcct": "Default Target Account",
+      "defaultPeriodCount": "Default Period Count",
+      "defaultPeriodUnit": "Default Period Unit",
+      "defaultProration": "Default Proration Policy"
+    },
+    "empty": {
+      "title": "No payment methods yet",
+      "message": "Create a method template to start paying suppliers."
+    }
+  }
+}
