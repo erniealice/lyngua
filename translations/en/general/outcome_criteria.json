@@ -4,6 +4,15 @@
       "typeInfo": "The evaluation method used to measure this criterion (e.g. numeric score, pass/fail).",
       "scopeInfo": "Whether this criterion applies at the task, phase, or job level.",
       "weightInfo": "Relative importance of this criterion when computing an aggregate score."
+    },
+    "tabs": {
+      "info": "Information",
+      "thresholds": "Thresholds",
+      "options": "Options",
+      "templates": "Templates",
+      "versions": "Versions",
+      "attachments": "Attachments",
+      "history": "History"
     }
   }
 }

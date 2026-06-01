@@ -58,6 +58,7 @@
     "noPermissionsDesc": "Assign permissions to this role to control access.",
     "noUsersAssigned": "No users assigned",
     "noUsersDesc": "Assign users to this role to grant them its permissions.",
-    "attachmentsTab": "Attachments"
+    "attachmentsTab": "Attachments",
+    "auditHistoryTab": "History"
   }
 }

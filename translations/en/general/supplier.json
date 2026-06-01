@@ -121,6 +121,7 @@
       "financialInfo": { "title": "Financial Information" },
       "addressInfo": { "title": "Address" },
       "attachmentsTab": "Attachments",
+      "auditHistoryTab": "History",
       "statementTab": "Statement",
       "daysSuffix": "days",
       "website": "Website",

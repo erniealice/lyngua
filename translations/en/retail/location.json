@@ -68,6 +68,7 @@
     },
     "updateSuccess": "Location updated successfully",
     "updateError": "Failed to update location",
-    "attachmentsTab": "Attachments"
+    "attachmentsTab": "Attachments",
+    "auditHistoryTab": "History"
   }
 }

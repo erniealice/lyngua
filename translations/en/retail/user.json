@@ -194,7 +194,8 @@
     "generatePassword": "Generate Password",
     "passwordUpdated": "Password updated successfully",
     "passwordFailed": "Failed to update password",
-    "attachmentsTab": "Attachments"
+    "attachmentsTab": "Attachments",
+    "auditHistoryTab": "History"
   },
   "dashboard": {
     "totalUsers": "Total Users",

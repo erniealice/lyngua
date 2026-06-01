@@ -68,6 +68,7 @@
     },
     "updateSuccess": "Branch updated successfully",
     "updateError": "Failed to update branch",
-    "attachmentsTab": "Attachments"
+    "attachmentsTab": "Attachments",
+    "auditHistoryTab": "History"
   }
 }
