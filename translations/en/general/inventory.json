@@ -56,7 +56,8 @@
       "transactions": "Transactions",
       "depreciation": "Depreciation",
       "audit": "Audit Trail",
-      "attachments": "Attachments"
+      "attachments": "Attachments",
+      "auditHistory": "History"
     },
     "trackingMode": {
       "none": "None",

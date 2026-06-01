@@ -76,7 +76,8 @@
       "products": "Items",
       "pricePlan": "Rate Cards",
       "bundlePricing": "Pricing",
-      "auditTrail": "Audit Trail"
+      "auditTrail": "Audit Trail",
+      "auditHistory": "History"
     },
     "confirm": {
       "delete": "Delete Plan",

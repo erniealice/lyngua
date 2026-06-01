@@ -54,8 +54,10 @@
       "options": "Options",
       "images": "Images",
       "stock": "Availability",
+      "lines": "Lines",
       "attachments": "Attachments",
       "auditTrail": "Audit Trail",
+      "auditHistory": "History",
       "serials": "Serials",
       "pricingHistory": "Pricing History"
     },

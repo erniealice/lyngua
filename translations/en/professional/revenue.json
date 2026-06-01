@@ -107,6 +107,7 @@
       "tabPayment": "Payment",
       "tabAttachments": "Attachments",
       "tabAuditTrail": "Audit Trail",
+      "tabAuditHistory": "History",
       "customer": "Client",
       "date": "Invoice Date",
       "amount": "Amount",

@@ -109,8 +109,10 @@
       "options": "Options",
       "images": "Images",
       "stock": "Resource Allocation",
+      "lines": "Lines",
       "attachments": "Attachments",
       "auditTrail": "Audit Trail",
+      "auditHistory": "History",
       "serials": "Serials",
       "pricingHistory": "Pricing History"
     },

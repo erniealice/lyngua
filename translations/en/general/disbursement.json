@@ -89,6 +89,7 @@
       "tabBasicInfo": "Basic Info",
       "tabAttachments": "Attachments",
       "tabAuditTrail": "Audit Trail",
+      "tabAuditHistory": "History",
       "auditAction": "Action",
       "auditUser": "User",
       "auditEmptyTitle": "No audit records",

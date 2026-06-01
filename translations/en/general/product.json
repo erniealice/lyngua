@@ -115,9 +115,11 @@
     "tabs": {
       "attributes": "Attributes",
       "info": "Info",
+      "lines": "Lines",
       "options": "Options",
       "pricing": "Pricing",
-      "variants": "Variants"
+      "variants": "Variants",
+      "auditHistory": "History"
     },
     "validation": {
       "data_required": "Product data is required",
