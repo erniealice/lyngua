@@ -328,7 +328,9 @@
     "colAmount": "Amount",
     "totalPrefix": "Total",
     "totalUpperPrefix": "TOTAL",
-    "totalLiabAndEquity": "TOTAL LIABILITIES & EQUITY"
+    "totalLiabAndEquity": "TOTAL LIABILITIES & EQUITY",
+    "equationVerified": "A = L + E verified: %s = %s + %s",
+    "equationWarning": "Warning: Assets (%s) ≠ Liabilities + Equity (%s). Difference: %s"
   },
   "cashFlow": {
     "title": "Cash Flow Statement",
@@ -378,6 +380,9 @@
     "creditsLabel": "Credits:",
     "differenceLabel": "Difference:",
     "asOfPrefix": "As of",
-    "generatePrompt": "Select an as-of date and click Generate to view the trial balance."
+    "generatePrompt": "Select an as-of date and click Generate to view the trial balance.",
+    "colAccountName": "Account Name",
+    "colDebitBalance": "Debit Balance",
+    "colCreditBalance": "Credit Balance"
   }
 }

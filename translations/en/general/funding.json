@@ -22,7 +22,24 @@
     },
     "source": {
       "title": "Fund Sources",
-      "subtitle": "Funds you own and share with workspaces"
+      "subtitle": "Funds you own and share with workspaces",
+      "kind": {
+        "cashOnHand": "Cash on Hand",
+        "bankAccount": "Bank Account",
+        "pettyCash": "Petty Cash",
+        "creditCard": "Credit Card",
+        "creditLine": "Credit Line",
+        "prepaidCard": "Prepaid Card",
+        "mobileMoney": "Mobile Money",
+        "unknown": "Unknown"
+      },
+      "status": {
+        "draft": "Draft",
+        "active": "Active",
+        "suspended": "Suspended",
+        "archived": "Archived",
+        "unknown": "Unknown"
+      }
     }
   }
 }

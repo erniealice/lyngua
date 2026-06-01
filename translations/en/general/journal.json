@@ -94,5 +94,28 @@
     },
     "sourceLabel": "Source",
     "viewSource": "View Source \u2192"
+  },
+  "source": {
+    "manual": "Manual",
+    "revenue": "Revenue",
+    "expenditure": "Expenditure",
+    "collection": "Collection",
+    "disbursement": "Disbursement",
+    "depreciation": "Depreciation",
+    "assetAcquisition": "Asset Acquisition",
+    "assetDisposal": "Asset Disposal",
+    "prepayment": "Prepayment",
+    "prepaymentAmortization": "Prepayment Amortization",
+    "loanReceipt": "Loan Receipt",
+    "loanPayment": "Loan Payment",
+    "pettyCashReplenishment": "Petty Cash Replenishment",
+    "badDebtProvision": "Bad Debt Provision",
+    "deferredRevenue": "Deferred Revenue",
+    "equityContribution": "Equity Contribution",
+    "equityWithdrawal": "Equity Withdrawal",
+    "equityDistribution": "Equity Distribution",
+    "yearEndClose": "Year-End Close",
+    "recurring": "Recurring",
+    "payroll": "Payroll"
   }
 }

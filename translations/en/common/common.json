@@ -270,6 +270,17 @@
       "phone": "Phone"
     }
   },
+  "columns": {
+    "code": "Code",
+    "name": "Name",
+    "amount": "Amount",
+    "status": "Status",
+    "date": "Date",
+    "description": "Description",
+    "reference": "Reference",
+    "type": "Type",
+    "total": "Total"
+  },
   "pagination": {
     "prev": "Prev",
     "next": "Next",
