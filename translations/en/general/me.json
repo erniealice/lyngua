@@ -1,0 +1,33 @@
+{
+  "me": {
+    "inbox": {
+      "title": "Inbox",
+      "subtitle": "Notifications aggregated across your workspaces.",
+      "empty": "Cross-workspace notifications coming soon — your inbox is currently empty."
+    },
+    "invoices": {
+      "title": "My Invoices",
+      "subtitle": "Invoices across all workspaces where you are a client, supplier, or operator.",
+      "empty": "Cross-workspace invoice aggregation coming soon."
+    },
+    "notifications": {
+      "title": "Notifications",
+      "subtitle": "All notifications across your workspaces.",
+      "empty": "No notifications yet."
+    },
+    "profileOverview": {
+      "title": "Profile Overview",
+      "subtitle": "Your identity and workspace bindings.",
+      "empty": "Workspace-binding aggregation coming soon — see Sidebar profile button for current identity."
+    },
+    "recentActivity": {
+      "title": "Recent Activity",
+      "subtitle": "Your recent workspace switches across all sessions.",
+      "empty": "No recent workspace switches.",
+      "colWhen": "When",
+      "colUseCase": "Use case",
+      "colRequestUrl": "Request URL",
+      "colReferer": "Referer"
+    }
+  }
+}

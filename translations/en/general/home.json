@@ -12,6 +12,56 @@
         "attention": "Needs Attention",
         "cashflowChart": "Cash flow forecast",
         "todayTimeline": "Today timeline",
-        "quickActions": "Quick actions"
+        "quickActions": "Quick actions",
+        "range": {
+            "today": "Today",
+            "wtd": "WTD",
+            "mtd": "MTD",
+            "qtd": "QTD",
+            "ytd": "YTD"
+        },
+        "kpi": {
+            "netCash": "Net Cash Position",
+            "revenueMtd": "Revenue MTD",
+            "receivablesHealth": "Receivables Health",
+            "apDue7": "A/P Due 7 Days",
+            "activeJobs": "Active Jobs",
+            "grossMargin": "Gross Margin"
+        },
+        "cashflow": {
+            "heading": "Cash Flow Forecast · Next 12 Weeks",
+            "legendIn": "Expected inflow",
+            "legendOut": "Expected outflow"
+        },
+        "aging": {
+            "receivablesHeading": "Receivables Aging",
+            "payablesHeading": "Payables Aging",
+            "bucketCurrent": "Current",
+            "bucket30": "1–30 d",
+            "bucket60": "31–60 d",
+            "bucket90": "61–90 d",
+            "bucketOver90": "90+ d"
+        },
+        "attentionHeading": "Needs Attention",
+        "timelineHeading": "Today · Operations Pulse",
+        "movers": {
+            "heading": "Top Movers · MTD",
+            "tabClients": "Clients",
+            "tabSuppliers": "Suppliers",
+            "tabVariances": "Variances"
+        },
+        "performanceHeading": "Performance vs Target",
+        "quick": {
+            "invoice": "Invoice",
+            "expense": "Expense",
+            "collection": "Collection",
+            "disburse": "Disburse",
+            "engagement": "Engagement",
+            "newInvoice": "New Invoice",
+            "logExpense": "Log Expense",
+            "recordCollection": "Record Collection",
+            "newDisbursement": "New Disbursement",
+            "newEngagement": "New Engagement"
+        }
     }
 }

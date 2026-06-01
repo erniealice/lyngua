@@ -18,8 +18,18 @@
       "info": "Info",
       "roles": "Roles"
     },
+    "info": {
+      "sectionTitle": "User Details",
+      "name": "Name",
+      "email": "Email",
+      "workspace": "Workspace",
+      "dateJoined": "Date Joined",
+      "status": "Status"
+    },
     "roles": {
-      "assignButton": "Assign role"
+      "assignButton": "Assign role",
+      "emptyTitle": "No roles assigned",
+      "emptyMessage": "No roles have been assigned to this workspace user yet."
     }
   },
   "form": {

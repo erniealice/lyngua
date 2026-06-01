@@ -21,8 +21,20 @@
         "attachments": "Attachments",
         "taxRegistrations": "Tax Registrations"
       },
+      "info": {
+        "sectionTitle": "Details",
+        "currency": "Currency",
+        "region": "Region"
+      },
+      "taxReg": {
+        "loading": "Loading tax registrations…",
+        "title": "Tax Registrations",
+        "notConfigured": "Tax registration routes are not configured for this deployment."
+      },
       "users": {
-        "addButton": "Add user to workspace"
+        "addButton": "Add user to workspace",
+        "emptyTitle": "No users",
+        "emptyMessage": "No users have been added to this workspace yet."
       }
     },
     "validation": {
