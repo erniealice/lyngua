@@ -38,7 +38,14 @@
       "settlementTitle": "No settlement entries",
       "settlementMessage": "No settlement entries to display.",
       "outcomesTitle": "No outcomes found",
-      "outcomesMessage": "No outcome records for this job."
+      "outcomesMessage": "No outcome records for this job.",
+      "budgetTitle": "No budget available",
+      "budgetMessage": "No template attached. Budget unavailable until a JobTemplate is linked to this matter.",
+      "budgetNoPhasesTitle": "No phases defined",
+      "budgetNoPhasesMessage": "The linked template has no phases or tasks. Add phases to the template to see the budget breakdown.",
+      "budgetNoTasks": "No tasks",
+      "actualsTitle": "No actuals recorded",
+      "actualsMessage": "No activity entries have been posted for this job yet."
     },
     "form": {
       "namePlaceholder": "Enter job name",
@@ -81,7 +88,19 @@
       "phaseMarkComplete": "Mark Complete",
       "phaseStatusPending": "Pending",
       "phaseStatusActive": "Active",
-      "phaseStatusCompleted": "Completed"
+      "phaseStatusCompleted": "Completed",
+      "budgetSectionTitle": "Estimated Hours by Phase",
+      "budgetTask": "Task",
+      "budgetHours": "Hours",
+      "budgetSubtotalSuffix": "subtotal",
+      "budgetTotalHours": "Total estimated hours",
+      "actualsSectionTitle": "Cost by Entry Type",
+      "actualsCount": "Count",
+      "actualsGrandTotal": "Grand Total",
+      "varianceSectionTitle": "Budget vs Actuals",
+      "varianceBudgetHours": "Budget (estimated hours)",
+      "varianceActualsCost": "Actuals (total cost)",
+      "varianceNote": "Full money-vs-money variance available after Wave 3 (resource bill rates)."
     },
     "fields": {
       "outputProductId": "Output Product",

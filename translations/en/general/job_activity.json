@@ -120,6 +120,22 @@
       "selectAll": "Select all",
       "selectedCount": "{count} selected",
       "cancel": "Cancel"
+    },
+    "charge": {
+      "editLabor": "Edit Labor Charge",
+      "editLaborTitle": "Edit labor charge",
+      "emptyLabor": "No labor charge recorded.",
+      "editMaterial": "Edit Material Charge",
+      "editMaterialTitle": "Edit material charge",
+      "emptyMaterial": "No material charge recorded.",
+      "editExpense": "Edit Expense Charge",
+      "editExpenseTitle": "Edit expense charge",
+      "emptyExpense": "No expense charge recorded.",
+      "vendorRef": "Vendor Ref",
+      "receiptUrl": "Receipt URL",
+      "paymentMethod": "Payment Method",
+      "markupPct": "Markup %",
+      "unavailable": "Charge detail not available for this entry type."
     }
   }
 }
