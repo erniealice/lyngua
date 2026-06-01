@@ -1,0 +1,11 @@
+{
+  "funding": {
+    "draw": {
+      "submit": "Drawdown"
+    },
+    "source": {
+      "title": "Fund Sources",
+      "subtitle": "Funds you manage and allocate to workspaces"
+    }
+  }
+}

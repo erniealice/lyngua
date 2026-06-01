@@ -302,7 +302,21 @@
       "operatingIncome": "OPERATING INCOME",
       "otherExpenses": "OTHER EXPENSES",
       "netIncome": "NET INCOME"
-    }
+    },
+    "showing": "Showing",
+    "export": "Export",
+    "exportSoon": "Export coming soon",
+    "kpiTotalRevenue": "Total Revenue",
+    "kpiTotalExpenses": "Total Expenses",
+    "kpiNetIncome": "Net Income",
+    "statementTitle": "Income Statement",
+    "colCode": "Code",
+    "colAccount": "Account",
+    "colThisPeriod": "This Period",
+    "colPriorPeriod": "Prior Period",
+    "colChange": "Change",
+    "subtotalPrefix": "Total",
+    "totalPrefix": "Total"
   },
   "balanceSheet": {
     "title": "Balance Sheet",
@@ -315,7 +329,22 @@
       "currentLiabilities": "Current Liabilities",
       "nonCurrentLiabilities": "Non-Current Liabilities",
       "equity": "EQUITY"
-    }
+    },
+    "asOf": "As of",
+    "generate": "Generate",
+    "export": "Export",
+    "exportSoon": "Export coming soon",
+    "kpiTotalAssets": "Total Assets",
+    "kpiTotalLiabilities": "Total Liabilities",
+    "kpiTotalEquity": "Total Equity",
+    "statementTitle": "Balance Sheet",
+    "asOfPrefix": "As of",
+    "colCode": "Code",
+    "colAccount": "Account",
+    "colAmount": "Amount",
+    "totalPrefix": "Total",
+    "totalUpperPrefix": "TOTAL",
+    "totalLiabAndEquity": "TOTAL LIABILITIES & EQUITY"
   },
   "cashFlow": {
     "title": "Cash Flow Statement",
@@ -327,7 +356,23 @@
       "netCashOperating": "Net Cash from Operating Activities",
       "netCashInvesting": "Net Cash used in Investing Activities",
       "netCashFinancing": "Net Cash used in Financing Activities"
-    }
+    },
+    "showing": "Showing",
+    "export": "Export",
+    "exportSoon": "Export coming soon",
+    "kpiOperating": "Operating Cash Flow",
+    "kpiNetChange": "Net Change in Cash",
+    "kpiEnding": "Ending Cash",
+    "statementTitle": "Cash Flow Statement",
+    "colDescription": "Description",
+    "colAmount": "Amount",
+    "netChangeRow": "Net Change in Cash",
+    "cashBeginning": "Cash at Beginning of Period",
+    "cashEnding": "Cash at End of Period",
+    "reconciliation": "Cash Account Reconciliation",
+    "totalCashBalanceSheet": "Total Cash per Balance Sheet",
+    "verified": "Verified",
+    "mismatch": "Mismatch"
   },
   "equityChanges": {
     "title": "Statement of Changes in Equity",
@@ -338,6 +383,17 @@
     "subtitle": "Verify that total debits equal total credits",
     "totals": "TOTALS",
     "emptyTitle": "No accounts with balances",
-    "emptyMessage": "No accounts have non-zero balances as of the selected date."
+    "emptyMessage": "No accounts have non-zero balances as of the selected date.",
+    "filterAsOfDate": "As of Date",
+    "generate": "Generate",
+    "print": "Print",
+    "balancedTitle": "Trial Balance is Balanced",
+    "balancedMessage": "Total debits equal total credits:",
+    "unbalancedTitle": "Trial Balance is Not Balanced",
+    "debitsLabel": "Debits:",
+    "creditsLabel": "Credits:",
+    "differenceLabel": "Difference:",
+    "asOfPrefix": "As of",
+    "generatePrompt": "Select an as-of date and click Generate to view the trial balance."
   }
 }

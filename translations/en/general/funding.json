@@ -1,0 +1,28 @@
+{
+  "funding": {
+    "allocation": {
+      "allocatedLimit": "Allocated Limit",
+      "mode": "Mode",
+      "modeHardLimit": "Hard Limit",
+      "modeSoftLimit": "Soft Limit"
+    },
+    "draw": {
+      "amount": "Amount",
+      "description": "Description",
+      "submit": "Charge"
+    },
+    "settlement": {
+      "amount": "Settlement Amount",
+      "submit": "Settle"
+    },
+    "transfer": {
+      "destinationFundId": "Destination Fund ID",
+      "amount": "Amount",
+      "submit": "Transfer"
+    },
+    "source": {
+      "title": "Fund Sources",
+      "subtitle": "Funds you own and share with workspaces"
+    }
+  }
+}
