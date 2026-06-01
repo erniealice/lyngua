@@ -403,6 +403,10 @@
     "errorFallback": "An error occurred. Please try again.",
     "dismissAlert": "Dismiss alert"
   },
+  "a11y": {
+    "skipToContent": "Skip to main content",
+    "moreInfo": "More info"
+  },
   "durationUnit": {
     "daySingular": "day",
     "dayPlural": "days",
