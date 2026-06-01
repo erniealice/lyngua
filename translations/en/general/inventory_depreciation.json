@@ -1,33 +1,19 @@
 {
   "inventory_depreciation": {
-    "actions": {
-      "configure": "Configure",
-      "edit": "Edit Policy"
-    },
-    "errors": {
-      "not_configured": "No depreciation policy configured for this item"
-    },
-    "form": {
-      "title_add": "Configure Depreciation",
-      "title_edit": "Edit Depreciation Policy"
-    },
-    "labels": {
-      "accumulated": "Accumulated Depreciation",
-      "book_value": "Book Value",
-      "cost_basis": "Cost Basis",
-      "method": "Method",
-      "name": "Depreciation",
-      "salvage_value": "Salvage Value",
-      "start_date": "Start Date",
-      "useful_life": "Useful Life (months)"
-    },
-    "method": {
-      "declining_balance": "Declining Balance",
-      "straight_line": "Straight Line",
-      "sum_of_years_digits": "Sum of Years' Digits"
-    },
-    "table": {
-      "schedule": "Depreciation Schedule"
-    }
+    "title": "Depreciation",
+    "method": "Method",
+    "costBasis": "Cost Basis",
+    "salvageValue": "Salvage Value",
+    "usefulLife": "Useful Life (months)",
+    "startDate": "Start Date",
+    "accumulated": "Accumulated Depreciation",
+    "bookValue": "Book Value",
+    "configure": "Configure",
+    "edit": "Edit Policy",
+    "notConfigured": "No depreciation policy configured for this item",
+    "methodStraightLine": "Straight Line",
+    "methodDecliningBalance": "Declining Balance",
+    "methodSumOfYears": "Sum of Years' Digits",
+    "monthsUnit": "months"
   }
 }

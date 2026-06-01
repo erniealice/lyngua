@@ -121,10 +121,6 @@
       "invalidFormData": "Invalid form data. Please check your inputs and try again.",
       "noPermission": "You do not have permission to perform this action"
     },
-    "pricePlanForm": {
-      "schedule": "Rate Card",
-      "schedulePlaceholder": "Select a rate card..."
-    },
     "productPlanForm": {
       "product": "Item",
       "productPlaceholder": "Select an item...",

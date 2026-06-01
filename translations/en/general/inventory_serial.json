@@ -1,45 +1,24 @@
 {
   "inventory_serial": {
-    "actions": {
-      "assign": "Add Serial",
-      "edit": "Edit Serial",
-      "remove": "Remove Serial",
-      "remove_confirm": "Are you sure you want to remove this serial number?"
-    },
+    "title": "Serial Numbers",
+    "serialNumber": "Serial Number",
+    "imei": "IMEI",
+    "status": "Status",
+    "warrantyStart": "Warranty Start",
+    "warrantyEnd": "Warranty End",
+    "purchaseOrder": "Purchase Order",
+    "soldReference": "Sales Reference",
+    "assign": "Add Serial",
+    "edit": "Edit Serial",
+    "remove": "Remove Serial",
+    "empty": "No serial numbers recorded",
+    "statusAvailable": "Available",
+    "statusSold": "Sold",
+    "statusReserved": "Reserved",
+    "statusDefective": "Defective",
+    "statusReturned": "Returned",
     "errors": {
-      "duplicate": "This serial number already exists",
       "not_found": "Serial number not found"
-    },
-    "form": {
-      "title_add": "Add Serial Number",
-      "title_edit": "Edit Serial Number"
-    },
-    "labels": {
-      "imei": "IMEI",
-      "name": "Serial Number",
-      "notes": "Notes",
-      "purchase_order": "Purchase Order",
-      "serial_number": "Serial Number",
-      "sold_reference": "Sales Reference",
-      "status": "Status",
-      "warranty_end": "Warranty End",
-      "warranty_start": "Warranty Start"
-    },
-    "status": {
-      "available": "Available",
-      "defective": "Defective",
-      "reserved": "Reserved",
-      "returned": "Returned",
-      "sold": "Sold"
-    },
-    "summary": {
-      "available": "Available",
-      "reserved": "Reserved",
-      "sold": "Sold",
-      "total": "Total Units"
-    },
-    "table": {
-      "empty": "No serial numbers recorded"
     }
   }
 }
