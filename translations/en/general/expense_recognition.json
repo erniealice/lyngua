@@ -197,7 +197,13 @@
       "sourceSection": "Source",
       "auditTrailComingSoon": "Activity log feature coming soon.",
       "auditEmptyTitle": "No activity entries",
-      "auditEmptyMessage": "Activity logs for this recognition will appear here."
+      "auditEmptyMessage": "Activity logs for this recognition will appear here.",
+      "notes": "Notes",
+      "sourceContract": "Source Contract",
+      "sourceBill": "Source Bill",
+      "deferredExpense": "Deferred Expense",
+      "sourceAccrual": "Source Accrual",
+      "reversalOf": "Reversal Of"
     },
     "statusMessages": {
       "createSuccess": "Recognition created successfully",

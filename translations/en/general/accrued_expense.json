@@ -178,7 +178,12 @@
       "sourceSection": "Source",
       "auditTrailComingSoon": "Activity log feature coming soon.",
       "auditEmptyTitle": "No activity entries",
-      "auditEmptyMessage": "Activity logs for this accrual will appear here."
+      "auditEmptyMessage": "Activity logs for this accrual will appear here.",
+      "notes": "Notes",
+      "sourceContract": "Source Contract",
+      "supplier": "Supplier",
+      "expenseAccount": "Expense Account",
+      "accrualAccount": "Accrual Account"
     },
     "balances": {
       "title": "Settlement Progress",

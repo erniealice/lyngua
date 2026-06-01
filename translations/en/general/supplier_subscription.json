@@ -103,10 +103,19 @@
       "inactive": "Inactive",
       "autoRenew": "Auto-Renew",
       "code": "Code",
+      "status": "Status",
       "location": "Location",
       "procurementRequest": "Procurement Request",
       "createdDate": "Created",
-      "modifiedDate": "Last Modified"
+      "modifiedDate": "Last Modified",
+      "recognitions": {
+        "name": "Name",
+        "status": "Status",
+        "recognitionDate": "Recognition Date",
+        "amount": "Amount",
+        "emptyTitle": "No recognitions yet",
+        "emptyMessage": "Expense recognitions linked to this subscription will appear here."
+      }
     },
     "tabs": {
       "info": "Information",

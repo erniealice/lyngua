@@ -38,7 +38,16 @@
       "taxTreatmentInfo": "Override the product's default tax treatment for this price plan line. Leave blank to inherit from the product.",
       "withholdingClassLabel": "Withholding Class (override)",
       "withholdingClassPlaceholder": "Inherit from product",
-      "withholdingClassInfo": "Override the product's default withholding class for this price plan line. Leave blank to inherit from the product."
+      "withholdingClassInfo": "Override the product's default withholding class for this price plan line. Leave blank to inherit from the product.",
+      "parentContext": {
+        "moreDetails": "More details",
+        "rateCard": "Price Schedule",
+        "billingModel": "Billing model",
+        "amountBasis": "Amount basis",
+        "billingCycle": "Billing cycle",
+        "term": "Term",
+        "currency": "Currency"
+      }
     }
   }
 }
