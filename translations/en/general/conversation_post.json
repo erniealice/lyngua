@@ -1,0 +1,24 @@
+{
+  "conversationPost": {
+    "composer": {
+      "placeholder": "Reply...",
+      "send": "Send",
+      "attach": "Attach",
+      "sending": "Sending..."
+    },
+    "bubble": {
+      "you": "You",
+      "staff": "Support team",
+      "attachments": "Attachments",
+      "noAttachments": "No attachments"
+    },
+    "subtitle": "Secure messaging. Every conversation is logged.",
+    "eyebrow": "Communication",
+    "empty": "No messages yet. Send the first message.",
+    "errors": {
+      "sendFailed": "Failed to send. Please try again.",
+      "attachFailed": "Failed to attach file. Please try again.",
+      "duplicate": "This message was already sent."
+    }
+  }
+}

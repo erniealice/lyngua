@@ -40,5 +40,22 @@
     "treasury_disbursement": {},
     "user": {},
     "workspace": {},
-    "workspace_user": {}
+    "workspace_user": {},
+    "conversation": {
+        "list_url": "/app/conversations/list/{status}",
+        "table_url": "/action/conversation/table/{status}",
+        "detail_url": "/app/conversations/detail/{id}",
+        "add_url": "/action/conversation/add",
+        "assign_url": "/action/conversation/assign",
+        "set_status_url": "/action/conversation/set-status",
+        "posts_url": "/action/conversation/posts",
+        "send_url": "/action/conversation_post/send",
+        "mark_read_url": "/action/conversation/mark-read",
+        "portal_list_url": "/portal/conversations",
+        "portal_posts_url": "/action/conversation/portal-posts"
+    },
+    "conversation_post": {
+        "create_url": "/action/conversation_post/send",
+        "list_url": "/action/conversation/posts"
+    }
 }

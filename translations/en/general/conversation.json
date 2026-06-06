@@ -1,0 +1,67 @@
+{
+  "conversation": {
+    "list": {
+      "title": "Conversations",
+      "newButton": "New",
+      "empty": "No conversations yet.",
+      "searchPlaceholder": "Search conversations..."
+    },
+    "inbox": {
+      "title": "Conversations",
+      "subtitle": "Triage and reply to client messages.",
+      "filters": {
+        "all": "All open",
+        "unassigned": "Unassigned",
+        "myQueue": "My queue",
+        "open": "Open",
+        "inProgress": "In progress",
+        "resolved": "Resolved",
+        "closed": "Closed"
+      }
+    },
+    "thread": {
+      "viewRequest": "View request →",
+      "assignedTo": "Assigned to",
+      "unassigned": "Unassigned",
+      "linkedRequest": "Linked request",
+      "noLinkedRequest": "No linked request",
+      "lastActivity": "Last activity",
+      "created": "Created"
+    },
+    "status": {
+      "open": "Open",
+      "inProgress": "In progress",
+      "resolved": "Resolved",
+      "closed": "Closed",
+      "unspecified": "Unknown"
+    },
+    "actions": {
+      "assign": "Assign",
+      "open": "Open",
+      "action": "Action",
+      "resolve": "Mark resolved",
+      "close": "Close",
+      "reopen": "Reopen",
+      "newConversation": "New conversation",
+      "archive": "Archive"
+    },
+    "form": {
+      "subjectLabel": "Subject",
+      "subjectPlaceholder": "What is this about?",
+      "assigneeLabel": "Assign to",
+      "assigneePlaceholder": "Select a staff member",
+      "linkLabel": "Linked request (optional)",
+      "linkPlaceholder": "e.g. REQ-0091"
+    },
+    "confirm": {
+      "close": "Close this conversation? Staff can still reopen it.",
+      "archive": "Archive this conversation? This cannot be undone.",
+      "assign": "Assign conversation to %s?"
+    },
+    "errors": {
+      "notFound": "Conversation not found.",
+      "forbidden": "You do not have access to this conversation.",
+      "invalidTransition": "This status transition is not allowed."
+    }
+  }
+}

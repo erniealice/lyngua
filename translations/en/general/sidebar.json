@@ -230,5 +230,12 @@
     "fund_kind_prepaid_card_label": "Prepaid Card",
     "fund_kind_prepaid_card_icon": "icon-credit-card",
     "fund_kind_mobile_money_label": "Mobile Money",
-    "fund_kind_mobile_money_icon": "icon-smartphone"
+    "fund_kind_mobile_money_icon": "icon-smartphone",
+
+    "messages": {
+        "label": "Messages",
+        "portalLabel": "Messages",
+        "staffLabel": "Conversations",
+        "icon": "chat"
+    }
 }
