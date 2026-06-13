@@ -60,5 +60,8 @@
     },
     "reports": {},
     "product_inventory": {},
-    "product_line": {}
+    "product_line": {},
+    "work_request": {},
+    "work_request_type": {},
+    "workflow_template": {}
 }

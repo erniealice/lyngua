@@ -232,6 +232,14 @@
     "fund_kind_mobile_money_label": "Mobile Money",
     "fund_kind_mobile_money_icon": "icon-smartphone",
 
+    "requests_title": "Requests",
+    "requests_label": "Requests",
+    "requests_icon": "icon-inbox",
+    "request_types_label": "Request Types",
+    "request_types_icon": "icon-list",
+    "workflow_templates_label": "Workflow Templates",
+    "workflow_templates_icon": "icon-git-branch",
+
     "messages": {
         "label": "Messages",
         "portalLabel": "Messages",

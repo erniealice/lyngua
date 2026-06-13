@@ -1,0 +1,231 @@
+{
+  "workRequest": {
+    "page": {
+      "heading": "Requests",
+      "headingOpen": "Open Requests",
+      "headingInReview": "In Review",
+      "headingReturnedForInfo": "Returned for Info",
+      "headingOnHold": "On Hold",
+      "headingEscalated": "Escalated",
+      "headingPendingOverride": "Pending Override",
+      "headingApproved": "Approved Requests",
+      "headingDeclined": "Declined Requests",
+      "headingCompleted": "Completed Requests",
+      "headingAll": "All Requests",
+      "caption": "Manage and triage incoming requests",
+      "captionOpen": "Requests awaiting triage or assignment",
+      "captionInReview": "Requests currently under review",
+      "captionApproved": "Approved requests pending fulfillment",
+      "captionCompleted": "Fulfilled and closed requests"
+    },
+    "entity": {
+      "singular": "Request",
+      "plural": "Requests"
+    },
+    "buttons": {
+      "addRequest": "New Request",
+      "addInternalRequest": "New Internal Request"
+    },
+    "columns": {
+      "requestNumber": "Request #",
+      "title": "Title",
+      "type": "Type",
+      "status": "Status",
+      "origin": "Origin",
+      "client": "Client",
+      "assignedTo": "Assigned To",
+      "requestedBy": "Requested By",
+      "slaDue": "SLA Due",
+      "slaStatus": "SLA",
+      "created": "Created",
+      "updated": "Updated"
+    },
+    "status": {
+      "new": "New",
+      "submitted": "Submitted",
+      "inReview": "In Review",
+      "approved": "Approved",
+      "declined": "Declined",
+      "completed": "Completed",
+      "cancelled": "Cancelled",
+      "returnedForInfo": "Returned for Info",
+      "onHold": "On Hold",
+      "escalated": "Escalated",
+      "pendingOverride": "Pending Override",
+      "unspecified": "Unknown"
+    },
+    "origin": {
+      "clientOriginated": "Client",
+      "clientRelatedInternal": "Client-Related",
+      "internal": "Internal"
+    },
+    "sla": {
+      "onTrack": "On Track",
+      "atRisk": "At Risk",
+      "breached": "Breached",
+      "noSla": "No SLA"
+    },
+    "form": {
+      "title": "Title",
+      "titlePlaceholder": "Brief summary of the request",
+      "titleInfo": "A short description that appears in lists and notifications.",
+      "description": "Description",
+      "descriptionPlaceholder": "Provide details about this request...",
+      "descriptionInfo": "Full context for the reviewer. Include any relevant background or references.",
+      "type": "Request Type",
+      "typePlaceholder": "Select a request type",
+      "typeInfo": "Determines the required fields and default workflow for this request.",
+      "typeSearchPlaceholder": "Search request types...",
+      "typeNoResults": "No request types found",
+      "origin": "Origin",
+      "originInfo": "Where this request came from. Client-originated requests are visible to the client; internal requests are staff-only.",
+      "client": "Client",
+      "clientPlaceholder": "Select a client",
+      "clientInfo": "The client this request relates to. Required for client-originated and client-related requests.",
+      "clientSearchPlaceholder": "Search clients...",
+      "clientNoResults": "No clients found",
+      "assignedTo": "Assign To",
+      "assignedToPlaceholder": "Select a staff member",
+      "assignedToInfo": "The staff member responsible for triaging and progressing this request.",
+      "assignedToSearchPlaceholder": "Search staff...",
+      "assignedToNoResults": "No staff found",
+      "priority": "Priority",
+      "priorityPlaceholder": "Select priority",
+      "notes": "Notes",
+      "notesPlaceholder": "Internal notes for staff...",
+      "notesInfo": "Internal remarks visible only to staff. Not shown to clients.",
+      "statusReason": "Reason",
+      "statusReasonPlaceholder": "Reason for this status change...",
+      "statusReasonInfo": "Explain why this request is being moved to this status.",
+      "selectStatus": "New Status",
+      "selectStatusPlaceholder": "Select a status",
+      "sectionPayload": "Request Details",
+      "sectionPayloadInfo": "Type-specific fields required for this request."
+    },
+    "actions": {
+      "submit": "Submit",
+      "assign": "Assign",
+      "bulkAssign": "Assign Selected",
+      "resolve": "Resolve",
+      "setStatus": "Set Status",
+      "triage": "Triage",
+      "approve": "Approve",
+      "decline": "Decline",
+      "cancel": "Cancel Request",
+      "returnForInfo": "Return for Info",
+      "putOnHold": "Put On Hold",
+      "escalate": "Escalate",
+      "resume": "Resume",
+      "resubmit": "Resubmit",
+      "withdraw": "Withdraw",
+      "view": "View Request",
+      "edit": "Edit Request"
+    },
+    "bulk": {
+      "assign": "Assign Selected",
+      "setStatus": "Set Status for Selected"
+    },
+    "tabs": {
+      "info": "Info",
+      "activityTimeline": "Activity",
+      "attachments": "Attachments",
+      "messages": "Messages",
+      "auditHistory": "History"
+    },
+    "detail": {
+      "pageTitle": "Request Detail",
+      "requestNumber": "Request #",
+      "title": "Title",
+      "description": "Description",
+      "type": "Type",
+      "status": "Status",
+      "origin": "Origin",
+      "client": "Client",
+      "assignedTo": "Assigned To",
+      "requestedBy": "Requested By",
+      "slaDue": "SLA Due",
+      "slaStatus": "SLA Status",
+      "payload": "Request Details",
+      "created": "Created",
+      "updated": "Last Updated",
+      "noDescription": "No description provided",
+      "noAssignee": "Unassigned",
+      "noClient": "No client"
+    },
+    "empty": {
+      "title": "No requests found",
+      "message": "No requests match the current filters.",
+      "cta": "Create a request to get started."
+    },
+    "confirm": {
+      "cancel": "Cancel Request",
+      "cancelMessage": "Are you sure you want to cancel this request? The client will be notified.",
+      "decline": "Decline Request",
+      "declineMessage": "Are you sure you want to decline this request? A reason will be recorded.",
+      "resolve": "Resolve Request",
+      "resolveMessage": "Are you sure you want to resolve this request? This will mark it as completed.",
+      "bulkAssign": "Assign Selected",
+      "bulkAssignMessage": "Are you sure you want to assign the selected requests?"
+    },
+    "kpi": {
+      "openRequests": "Open",
+      "inReview": "In Review",
+      "slaBreached": "SLA Breached",
+      "avgResolutionTime": "Avg Resolution",
+      "dueToday": "Due Today",
+      "overdueCount": "Overdue"
+    },
+    "filters": {
+      "origin": "Origin",
+      "originAll": "All Origins",
+      "type": "Type",
+      "typeAll": "All Types",
+      "assignee": "Assignee",
+      "assigneeAll": "All Assignees",
+      "assigneeUnassigned": "Unassigned",
+      "sla": "SLA Status",
+      "slaAll": "All"
+    },
+    "timeline": {
+      "statusChanged": "Status changed to %s",
+      "assigned": "Assigned to %s",
+      "created": "Request created",
+      "submitted": "Request submitted",
+      "commentAdded": "Comment added",
+      "attachmentAdded": "Attachment added",
+      "workflowStarted": "Workflow started",
+      "workflowCompleted": "Workflow completed"
+    },
+    "portal": {
+      "raiseHeading": "Raise a Request",
+      "raiseCaption": "Select a request type to get started.",
+      "myRequestsHeading": "My Requests",
+      "myRequestsCaption": "Track the status of your submitted requests.",
+      "myRequestsEmpty": "You have not submitted any requests yet.",
+      "submitButton": "Submit Request",
+      "withdrawButton": "Withdraw"
+    },
+    "errors": {
+      "permissionDenied": "You do not have permission to perform this action.",
+      "notFound": "Request not found.",
+      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
+      "invalidTransition": "This status transition is not allowed.",
+      "idRequired": "Request ID is required.",
+      "clientRequired": "A client is required for client-originated requests.",
+      "typeRequired": "Request type is required.",
+      "titleRequired": "Title is required.",
+      "assigneeRequired": "An assignee is required.",
+      "reasonRequired": "A reason is required for this status change.",
+      "alreadyResolved": "This request has already been resolved.",
+      "alreadyCancelled": "This request has already been cancelled.",
+      "slaComputationFailed": "Failed to compute SLA status."
+    },
+    "validation": {
+      "data_required": "Request data is required",
+      "title_required": "Request title is required",
+      "type_required": "Request type is required",
+      "id_required": "Request ID is required",
+      "request_required": "Request is required"
+    }
+  }
+}
