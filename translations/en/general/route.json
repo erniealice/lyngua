@@ -57,5 +57,8 @@
     "conversation_post": {
         "create_url": "/action/conversation_post/send",
         "list_url": "/action/conversation/posts"
-    }
+    },
+    "reports": {},
+    "product_inventory": {},
+    "product_line": {}
 }
