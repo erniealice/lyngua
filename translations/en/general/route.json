@@ -93,5 +93,13 @@
     "product_line": {},
     "work_request": {},
     "work_request_type": {},
-    "workflow_template": {}
+    "workflow_template": {},
+    "job": {},
+    "job_template": {},
+    "job_activity": {},
+    "evaluation": {},
+    "evaluation_template": {},
+    "evaluation_template_item": {},
+    "evaluation_cycle": {},
+    "performance": {}
 }
