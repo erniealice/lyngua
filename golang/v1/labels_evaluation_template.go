@@ -1,0 +1,374 @@
+package v1
+
+// labels_evaluation_template.go — Go label structs for evaluation_template and
+// evaluation_template_item domains (performance-evaluation layer 12).
+//
+// Root keys (camelCase, matching JSON files):
+//   evaluation_template.json      → EvaluationTemplateLabels      (root key "evaluationTemplate")
+//   evaluation_template_item.json → EvaluationTemplateItemLabels   (root key "evaluationTemplateItem")
+
+// EvaluationTemplateLabels holds all translatable strings for the evaluation template module.
+type EvaluationTemplateLabels struct {
+	Page        EvaluationTemplatePageLabels    `json:"page"`
+	Buttons     EvaluationTemplateButtonLabels  `json:"buttons"`
+	Columns     EvaluationTemplateColumnLabels  `json:"columns"`
+	Status      EvaluationTemplateStatusLabels  `json:"status"`
+	Tabs        EvaluationTemplateTabLabels     `json:"tabs"`
+	Empty       EvaluationTemplateEmptyLabels   `json:"empty"`
+	Form        EvaluationTemplateFormLabels    `json:"form"`
+	Actions     EvaluationTemplateActionLabels  `json:"actions"`
+	BulkActions EvaluationTemplateBulkLabels    `json:"bulkActions"`
+	Detail      EvaluationTemplateDetailLabels  `json:"detail"`
+	Confirm     EvaluationTemplateConfirmLabels `json:"confirm"`
+	Errors      EvaluationTemplateErrorLabels   `json:"errors"`
+}
+
+type EvaluationTemplatePageLabels struct {
+	Heading           string `json:"heading"`
+	Caption           string `json:"caption"`
+	HeadingDraft      string `json:"headingDraft"`
+	HeadingActive     string `json:"headingActive"`
+	HeadingDeprecated string `json:"headingDeprecated"`
+}
+
+type EvaluationTemplateButtonLabels struct {
+	AddTemplate string `json:"addTemplate"`
+	Activate    string `json:"activate"`
+	Deprecate   string `json:"deprecate"`
+	Clone       string `json:"clone"`
+}
+
+type EvaluationTemplateColumnLabels struct {
+	Name             string `json:"name"`
+	EvaluationType   string `json:"evaluationType"`
+	RelationshipType string `json:"relationshipType"`
+	Version          string `json:"version"`
+	Status           string `json:"status"`
+	Visibility       string `json:"visibility"`
+	ItemCount        string `json:"itemCount"`
+	Created          string `json:"created"`
+}
+
+// EvaluationTemplateStatusLabels maps EvaluationTemplateStatus enum values.
+// Mirrors DRAFT | ACTIVE | DEPRECATED (new-entity enum convention, per entities.md).
+type EvaluationTemplateStatusLabels struct {
+	Draft      string `json:"draft"`
+	Active     string `json:"active"`
+	Deprecated string `json:"deprecated"`
+}
+
+type EvaluationTemplateTabLabels struct {
+	All        string `json:"all"`
+	Draft      string `json:"draft"`
+	Active     string `json:"active"`
+	Deprecated string `json:"deprecated"`
+	Info       string `json:"info"`
+	Items      string `json:"items"`
+}
+
+type EvaluationTemplateEmptyLabels struct {
+	Title         string `json:"title"`
+	Message       string `json:"message"`
+	ActiveTitle   string `json:"activeTitle"`
+	ActiveMessage string `json:"activeMessage"`
+	DraftTitle    string `json:"draftTitle"`
+	DraftMessage  string `json:"draftMessage"`
+}
+
+type EvaluationTemplateFormLabels struct {
+	Name                    string `json:"name"`
+	NamePlaceholder         string `json:"namePlaceholder"`
+	Description             string `json:"description"`
+	DescriptionPlaceholder  string `json:"descriptionPlaceholder"`
+	EvaluationType          string `json:"evaluationType"`
+	EvaluationTypePH        string `json:"evaluationTypePlaceholder"`
+	RelationshipType        string `json:"relationshipType"`
+	RelationshipTypePH      string `json:"relationshipTypePlaceholder"`
+	VisibilityType          string `json:"visibilityType"`
+	VisibilityTypePH        string `json:"visibilityTypePlaceholder"`
+}
+
+type EvaluationTemplateActionLabels struct {
+	View      string `json:"view"`
+	Edit      string `json:"edit"`
+	Activate  string `json:"activate"`
+	Deprecate string `json:"deprecate"`
+	Clone     string `json:"clone"`
+	Delete    string `json:"delete"`
+}
+
+type EvaluationTemplateBulkLabels struct {
+	Deprecate string `json:"deprecate"`
+}
+
+type EvaluationTemplateDetailLabels struct {
+	PageTitle        string                         `json:"pageTitle"`
+	Name             string                         `json:"name"`
+	Description      string                         `json:"description"`
+	EvaluationType   string                         `json:"evaluationType"`
+	RelationshipType string                         `json:"relationshipType"`
+	Version          string                         `json:"version"`
+	Status           string                         `json:"status"`
+	Visibility       string                         `json:"visibility"`
+	CreatedDate      string                         `json:"createdDate"`
+	ModifiedDate     string                         `json:"modifiedDate"`
+	Items            EvaluationTemplateDetailItems  `json:"items"`
+}
+
+type EvaluationTemplateDetailItems struct {
+	Heading  string `json:"heading"`
+	AddItem  string `json:"addItem"`
+	Reorder  string `json:"reorder"`
+	Empty    string `json:"empty"`
+}
+
+type EvaluationTemplateConfirmLabels struct {
+	Activate            string `json:"activate"`
+	ActivateMessage     string `json:"activateMessage"`
+	Deprecate           string `json:"deprecate"`
+	DeprecateMessage    string `json:"deprecateMessage"`
+	Clone               string `json:"clone"`
+	CloneMessage        string `json:"cloneMessage"`
+	Delete              string `json:"delete"`
+	DeleteMessage       string `json:"deleteMessage"`
+	BulkDeprecate       string `json:"bulkDeprecate"`
+	BulkDeprecateMessage string `json:"bulkDeprecateMessage"`
+}
+
+type EvaluationTemplateErrorLabels struct {
+	PermissionDenied          string `json:"permissionDenied"`
+	InvalidFormData           string `json:"invalidFormData"`
+	NotFound                  string `json:"notFound"`
+	IDRequired                string `json:"idRequired"`
+	NoPermission              string `json:"noPermission"`
+	WeightedNonNumericGuard   string `json:"weightedNonNumericGuard"`
+	InUse                     string `json:"inUse"`
+}
+
+// DefaultEvaluationTemplateLabels returns EvaluationTemplateLabels with sensible English defaults.
+func DefaultEvaluationTemplateLabels() EvaluationTemplateLabels {
+	return EvaluationTemplateLabels{
+		Page: EvaluationTemplatePageLabels{
+			Heading:           "Evaluation Templates",
+			Caption:           "Manage reusable rubric templates for performance reviews",
+			HeadingDraft:      "Draft Templates",
+			HeadingActive:     "Active Templates",
+			HeadingDeprecated: "Deprecated Templates",
+		},
+		Buttons: EvaluationTemplateButtonLabels{
+			AddTemplate: "New Template",
+			Activate:    "Activate",
+			Deprecate:   "Deprecate",
+			Clone:       "Clone",
+		},
+		Columns: EvaluationTemplateColumnLabels{
+			Name:             "Name",
+			EvaluationType:   "Eval Type",
+			RelationshipType: "Relationship",
+			Version:          "Version",
+			Status:           "Status",
+			Visibility:       "Visibility",
+			ItemCount:        "Items",
+			Created:          "Created",
+		},
+		Status: EvaluationTemplateStatusLabels{
+			Draft:      "Draft",
+			Active:     "Active",
+			Deprecated: "Deprecated",
+		},
+		Tabs: EvaluationTemplateTabLabels{
+			All:        "All",
+			Draft:      "Draft",
+			Active:     "Active",
+			Deprecated: "Deprecated",
+			Info:       "Information",
+			Items:      "Rubric Items",
+		},
+		Empty: EvaluationTemplateEmptyLabels{
+			Title:         "No templates found",
+			Message:       "No evaluation templates to display.",
+			ActiveTitle:   "No active templates",
+			ActiveMessage: "Create and activate a template to make it available for reviews.",
+			DraftTitle:    "No draft templates",
+			DraftMessage:  "Draft templates will appear here.",
+		},
+		Form: EvaluationTemplateFormLabels{
+			Name:                   "Template Name",
+			NamePlaceholder:        "Enter template name",
+			Description:            "Description",
+			DescriptionPlaceholder: "Optional description...",
+			EvaluationType:         "Evaluation Type",
+			EvaluationTypePH:       "Select evaluation type",
+			RelationshipType:       "Relationship Type",
+			RelationshipTypePH:     "Select relationship type",
+			VisibilityType:         "Visibility",
+			VisibilityTypePH:       "Select visibility",
+		},
+		Actions: EvaluationTemplateActionLabels{
+			View:      "View Template",
+			Edit:      "Edit Template",
+			Activate:  "Activate",
+			Deprecate: "Deprecate",
+			Clone:     "Clone",
+			Delete:    "Delete",
+		},
+		BulkActions: EvaluationTemplateBulkLabels{
+			Deprecate: "Deprecate Selected",
+		},
+		Detail: EvaluationTemplateDetailLabels{
+			PageTitle:        "Template Details",
+			Name:             "Name",
+			Description:      "Description",
+			EvaluationType:   "Evaluation Type",
+			RelationshipType: "Relationship Type",
+			Version:          "Version",
+			Status:           "Status",
+			Visibility:       "Visibility",
+			CreatedDate:      "Created",
+			ModifiedDate:     "Last Modified",
+			Items: EvaluationTemplateDetailItems{
+				Heading: "Rubric Items",
+				AddItem: "Add Question",
+				Reorder: "Drag to reorder",
+				Empty:   "No items yet — add a question to build the rubric.",
+			},
+		},
+		Confirm: EvaluationTemplateConfirmLabels{
+			Activate:             "Activate Template",
+			ActivateMessage:      "Activate \"%s\"? It will be available for new reviews.",
+			Deprecate:            "Deprecate Template",
+			DeprecateMessage:     "Deprecate \"%s\"? It will no longer be available for new reviews. Existing draft reviews can still be submitted.",
+			Clone:                "Clone Template",
+			CloneMessage:         "Clone \"%s\"? A new draft copy will be created.",
+			Delete:               "Delete Template",
+			DeleteMessage:        "Are you sure you want to delete \"%s\"? This action cannot be undone.",
+			BulkDeprecate:        "Deprecate Selected",
+			BulkDeprecateMessage: "Deprecate {count} template(s)?",
+		},
+		Errors: EvaluationTemplateErrorLabels{
+			PermissionDenied:        "You do not have permission to perform this action",
+			InvalidFormData:         "Invalid form data. Please check your inputs and try again.",
+			NotFound:                "Evaluation template not found",
+			IDRequired:              "Template ID is required",
+			NoPermission:            "No permission",
+			WeightedNonNumericGuard: "Cannot activate: a rubric item with a non-zero weight has a non-numeric criteria type. Remove the weight or change the criteria type.",
+			InUse:                   "Cannot delete: this template is in use by existing reviews",
+		},
+	}
+}
+
+// EvaluationTemplateItemLabels holds all translatable strings for rubric items.
+type EvaluationTemplateItemLabels struct {
+	Page    EvaluationTemplateItemPageLabels   `json:"page"`
+	Buttons EvaluationTemplateItemButtonLabels `json:"buttons"`
+	Columns EvaluationTemplateItemColumnLabels `json:"columns"`
+	Empty   EvaluationTemplateItemEmptyLabels  `json:"empty"`
+	Form    EvaluationTemplateItemFormLabels   `json:"form"`
+	Actions EvaluationTemplateItemActionLabels `json:"actions"`
+	Errors  EvaluationTemplateItemErrorLabels  `json:"errors"`
+}
+
+type EvaluationTemplateItemPageLabels struct {
+	Heading string `json:"heading"`
+}
+
+type EvaluationTemplateItemButtonLabels struct {
+	AddItem    string `json:"addItem"`
+	RemoveItem string `json:"removeItem"`
+}
+
+type EvaluationTemplateItemColumnLabels struct {
+	Criterion    string `json:"criterion"`
+	CriteriaType string `json:"criteriaType"`
+	Weight       string `json:"weight"`
+	Required     string `json:"required"`
+	Order        string `json:"order"`
+}
+
+type EvaluationTemplateItemEmptyLabels struct {
+	Title   string `json:"title"`
+	Message string `json:"message"`
+}
+
+type EvaluationTemplateItemFormLabels struct {
+	Criterion              string `json:"criterion"`
+	CriterionPlaceholder   string `json:"criterionPlaceholder"`
+	CriterionInfo          string `json:"criterionInfo"`
+	QuestionLabel          string `json:"questionLabel"`
+	QuestionLabelPH        string `json:"questionLabelPlaceholder"`
+	QuestionPrompt         string `json:"questionPrompt"`
+	QuestionPromptPH       string `json:"questionPromptPlaceholder"`
+	Weight                 string `json:"weight"`
+	WeightInfo             string `json:"weightInfo"`
+	Required               string `json:"required"`
+	RequiredInfo           string `json:"requiredInfo"`
+	CriteriaType           string `json:"criteriaType"`
+	CriteriaTypeReadOnly   string `json:"criteriaTypeReadOnly"`
+}
+
+type EvaluationTemplateItemActionLabels struct {
+	Edit    string `json:"edit"`
+	Remove  string `json:"remove"`
+	Reorder string `json:"reorder"`
+}
+
+type EvaluationTemplateItemErrorLabels struct {
+	PermissionDenied    string `json:"permissionDenied"`
+	InvalidFormData     string `json:"invalidFormData"`
+	NotFound            string `json:"notFound"`
+	IDRequired          string `json:"idRequired"`
+	CriterionRequired   string `json:"criterionRequired"`
+	DuplicateCriterion  string `json:"duplicateCriterion"`
+}
+
+// DefaultEvaluationTemplateItemLabels returns EvaluationTemplateItemLabels with sensible English defaults.
+func DefaultEvaluationTemplateItemLabels() EvaluationTemplateItemLabels {
+	return EvaluationTemplateItemLabels{
+		Page: EvaluationTemplateItemPageLabels{
+			Heading: "Rubric Items",
+		},
+		Buttons: EvaluationTemplateItemButtonLabels{
+			AddItem:    "Add Question",
+			RemoveItem: "Remove",
+		},
+		Columns: EvaluationTemplateItemColumnLabels{
+			Criterion:    "Criterion",
+			CriteriaType: "Type",
+			Weight:       "Weight",
+			Required:     "Required",
+			Order:        "Order",
+		},
+		Empty: EvaluationTemplateItemEmptyLabels{
+			Title:   "No rubric items",
+			Message: "Add a question to start building the rubric.",
+		},
+		Form: EvaluationTemplateItemFormLabels{
+			Criterion:            "Criterion",
+			CriterionPlaceholder: "Search criteria...",
+			CriterionInfo:        "Select the outcome criterion this item evaluates.",
+			QuestionLabel:        "Question Label",
+			QuestionLabelPH:      "Override criterion name (optional)",
+			QuestionPrompt:       "Question Prompt",
+			QuestionPromptPH:     "Instructions shown to the evaluator (optional)",
+			Weight:               "Weight",
+			WeightInfo:           "Relative importance when computing the overall score. Leave blank to use the criterion default.",
+			Required:             "Required",
+			RequiredInfo:         "Whether this question must be answered before submitting.",
+			CriteriaType:         "Type",
+			CriteriaTypeReadOnly: "Set by the linked criterion",
+		},
+		Actions: EvaluationTemplateItemActionLabels{
+			Edit:    "Edit Item",
+			Remove:  "Remove Item",
+			Reorder: "Reorder",
+		},
+		Errors: EvaluationTemplateItemErrorLabels{
+			PermissionDenied:   "You do not have permission to perform this action",
+			InvalidFormData:    "Invalid form data. Please check your inputs and try again.",
+			NotFound:           "Rubric item not found",
+			IDRequired:         "Item ID is required",
+			CriterionRequired:  "A criterion must be selected",
+			DuplicateCriterion: "This criterion is already in the template",
+		},
+	}
+}

@@ -1,0 +1,50 @@
+{
+  "evaluationTemplateItem": {
+    "page": {
+      "heading": "Rubric Items"
+    },
+    "buttons": {
+      "addItem": "Add Question",
+      "removeItem": "Remove"
+    },
+    "columns": {
+      "criterion": "Criterion",
+      "criteriaType": "Type",
+      "weight": "Weight",
+      "required": "Required",
+      "order": "Order"
+    },
+    "empty": {
+      "title": "No rubric items",
+      "message": "Add a question to start building the rubric."
+    },
+    "form": {
+      "criterion": "Criterion",
+      "criterionPlaceholder": "Search criteria...",
+      "criterionInfo": "Select the outcome criterion this item evaluates.",
+      "questionLabel": "Question Label",
+      "questionLabelPlaceholder": "Override criterion name (optional)",
+      "questionPrompt": "Question Prompt",
+      "questionPromptPlaceholder": "Instructions shown to the evaluator (optional)",
+      "weight": "Weight",
+      "weightInfo": "Relative importance when computing the overall score. Leave blank to use the criterion default.",
+      "required": "Required",
+      "requiredInfo": "Whether this question must be answered before submitting.",
+      "criteriaType": "Type",
+      "criteriaTypeReadOnly": "Set by the linked criterion"
+    },
+    "actions": {
+      "edit": "Edit Item",
+      "remove": "Remove Item",
+      "reorder": "Reorder"
+    },
+    "errors": {
+      "permissionDenied": "You do not have permission to perform this action",
+      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
+      "notFound": "Rubric item not found",
+      "idRequired": "Item ID is required",
+      "criterionRequired": "A criterion must be selected",
+      "duplicateCriterion": "This criterion is already in the template"
+    }
+  }
+}

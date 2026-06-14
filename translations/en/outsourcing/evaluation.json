@@ -1,0 +1,27 @@
+{
+  "evaluation": {
+    "page": {
+      "heading": "Reviews",
+      "caption": "Track performance reviews for your associates"
+    },
+    "columns": {
+      "associate": "Associate"
+    },
+    "portal": {
+      "heading": "Rate My Team",
+      "caption": "Submit performance reviews for your associates",
+      "startReview": "Rate Associate",
+      "ratingLabel": "Associate Rating",
+      "lastReview": "Last review",
+      "noReview": "No review yet",
+      "empty": "No associates to review at this time."
+    },
+    "buttons": {
+      "startReview": "Rate Associate",
+      "signOff": "Sign off"
+    },
+    "actions": {
+      "signOff": "Sign Off"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "staff": {
+    "page": {
+      "heading": "Associates",
+      "caption": "Manage your associates and virtual assistants",
+      "headingActive": "Active Associates",
+      "headingInactive": "Inactive Associates"
+    },
+    "buttons": {
+      "addStaff": "Add Associate"
+    },
+    "columns": {
+      "name": "Associate",
+      "rating": "Rating"
+    },
+    "empty": {
+      "title": "No associates found",
+      "message": "No associates to display.",
+      "activeTitle": "No active associates",
+      "activeMessage": "Add your first associate to get started.",
+      "inactiveTitle": "No inactive associates",
+      "inactiveMessage": "Offboarded associates will appear here."
+    },
+    "actions": {
+      "view": "View Associate",
+      "edit": "Edit Associate",
+      "delete": "Delete Associate"
+    },
+    "detail": {
+      "pageTitle": "Associate Details",
+      "name": "Name"
+    },
+    "employment": {
+      "contractor": "VA",
+      "external": "VA",
+      "subcontractor": "VA"
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "evaluationTemplate": {
+    "page": {
+      "heading": "Evaluation Templates",
+      "caption": "Manage reusable rubric templates for performance reviews",
+      "headingDraft": "Draft Templates",
+      "headingActive": "Active Templates",
+      "headingDeprecated": "Deprecated Templates"
+    },
+    "buttons": {
+      "addTemplate": "New Template",
+      "activate": "Activate",
+      "deprecate": "Deprecate",
+      "clone": "Clone"
+    },
+    "columns": {
+      "name": "Name",
+      "evaluationType": "Eval Type",
+      "relationshipType": "Relationship",
+      "version": "Version",
+      "status": "Status",
+      "visibility": "Visibility",
+      "itemCount": "Items",
+      "created": "Created"
+    },
+    "status": {
+      "draft": "Draft",
+      "active": "Active",
+      "deprecated": "Deprecated"
+    },
+    "tabs": {
+      "all": "All",
+      "draft": "Draft",
+      "active": "Active",
+      "deprecated": "Deprecated",
+      "info": "Information",
+      "items": "Rubric Items"
+    },
+    "empty": {
+      "title": "No templates found",
+      "message": "No evaluation templates to display.",
+      "activeTitle": "No active templates",
+      "activeMessage": "Create and activate a template to make it available for reviews.",
+      "draftTitle": "No draft templates",
+      "draftMessage": "Draft templates will appear here."
+    },
+    "form": {
+      "name": "Template Name",
+      "namePlaceholder": "Enter template name",
+      "description": "Description",
+      "descriptionPlaceholder": "Optional description...",
+      "evaluationType": "Evaluation Type",
+      "evaluationTypePlaceholder": "Select evaluation type",
+      "relationshipType": "Relationship Type",
+      "relationshipTypePlaceholder": "Select relationship type",
+      "visibilityType": "Visibility",
+      "visibilityTypePlaceholder": "Select visibility"
+    },
+    "actions": {
+      "view": "View Template",
+      "edit": "Edit Template",
+      "activate": "Activate",
+      "deprecate": "Deprecate",
+      "clone": "Clone",
+      "delete": "Delete"
+    },
+    "bulkActions": {
+      "deprecate": "Deprecate Selected"
+    },
+    "detail": {
+      "pageTitle": "Template Details",
+      "name": "Name",
+      "description": "Description",
+      "evaluationType": "Evaluation Type",
+      "relationshipType": "Relationship Type",
+      "version": "Version",
+      "status": "Status",
+      "visibility": "Visibility",
+      "createdDate": "Created",
+      "modifiedDate": "Last Modified",
+      "items": {
+        "heading": "Rubric Items",
+        "addItem": "Add Question",
+        "reorder": "Drag to reorder",
+        "empty": "No items yet — add a question to build the rubric."
+      }
+    },
+    "confirm": {
+      "activate": "Activate Template",
+      "activateMessage": "Activate \"%s\"? It will be available for new reviews.",
+      "deprecate": "Deprecate Template",
+      "deprecateMessage": "Deprecate \"%s\"? It will no longer be available for new reviews. Existing draft reviews can still be submitted.",
+      "clone": "Clone Template",
+      "cloneMessage": "Clone \"%s\"? A new draft copy will be created.",
+      "delete": "Delete Template",
+      "deleteMessage": "Are you sure you want to delete \"%s\"? This action cannot be undone.",
+      "bulkDeprecate": "Deprecate Selected",
+      "bulkDeprecateMessage": "Deprecate {count} template(s)?"
+    },
+    "errors": {
+      "permissionDenied": "You do not have permission to perform this action",
+      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
+      "notFound": "Evaluation template not found",
+      "idRequired": "Template ID is required",
+      "noPermission": "No permission",
+      "weightedNonNumericGuard": "Cannot activate: a rubric item with a non-zero weight has a non-numeric criteria type. Remove the weight or change the criteria type.",
+      "inUse": "Cannot delete: this template is in use by existing reviews"
+    }
+  }
+}

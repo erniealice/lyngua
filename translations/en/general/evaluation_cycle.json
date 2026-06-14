@@ -1,0 +1,112 @@
+{
+  "evaluationCycle": {
+    "page": {
+      "heading": "Evaluation Cycles",
+      "caption": "Manage structured review periods across your engagements",
+      "headingOpen": "Open Cycles",
+      "headingSignOff": "Sign-Off Cycles",
+      "headingClosed": "Closed Cycles"
+    },
+    "buttons": {
+      "addCycle": "New Cycle",
+      "open": "Open",
+      "close": "Close"
+    },
+    "columns": {
+      "name": "Name",
+      "engagement": "Engagement",
+      "period": "Period",
+      "progress": "Progress",
+      "signOffDue": "Sign-off Due",
+      "closes": "Closes",
+      "status": "Status"
+    },
+    "status": {
+      "open": "Open",
+      "signOff": "Sign Off",
+      "closed": "Closed"
+    },
+    "tabs": {
+      "all": "All",
+      "open": "Open",
+      "signOff": "Sign Off",
+      "closed": "Closed",
+      "info": "Information",
+      "members": "Members"
+    },
+    "banner": {
+      "signOffDue": "Sign-off due",
+      "closes": "Closes",
+      "progress": "{{.Complete}} of {{.Total}} complete",
+      "progressDetail": "{{.Complete}} reviews submitted or signed off",
+      "allComplete": "All reviews complete",
+      "noneComplete": "No reviews submitted yet",
+      "membersLabel": "Members",
+      "cycleOpen": "Cycle is open",
+      "cycleClosed": "Cycle is closed",
+      "cycleSignOff": "Awaiting sign-off"
+    },
+    "empty": {
+      "title": "No cycles found",
+      "message": "No evaluation cycles to display.",
+      "openTitle": "No open cycles",
+      "openMessage": "Open a cycle to start tracking reviews.",
+      "closedTitle": "No closed cycles",
+      "closedMessage": "Closed cycles will appear here."
+    },
+    "form": {
+      "name": "Cycle Name",
+      "namePlaceholder": "e.g. H1 2026 Performance Review",
+      "engagement": "Engagement",
+      "engagementPlaceholder": "Select engagement",
+      "engagementInfo": "The subscription (engagement) this cycle is scoped to.",
+      "periodStart": "Period Start",
+      "periodEnd": "Period End",
+      "signOffDueDate": "Sign-off Due Date",
+      "signOffDueDateInfo": "Deadline for all sign-offs. Distinct from the close date.",
+      "closeDate": "Close Date",
+      "closeDateInfo": "When this cycle will be closed. Reviews cannot be submitted after this date."
+    },
+    "actions": {
+      "view": "View Cycle",
+      "open": "Open",
+      "close": "Close"
+    },
+    "detail": {
+      "pageTitle": "Cycle Details",
+      "name": "Name",
+      "engagement": "Engagement",
+      "periodStart": "Period Start",
+      "periodEnd": "Period End",
+      "signOffDueDate": "Sign-off Due",
+      "closeDate": "Close Date",
+      "status": "Status",
+      "createdDate": "Created",
+      "modifiedDate": "Last Modified",
+      "members": {
+        "heading": "Members",
+        "empty": "No members enrolled in this cycle.",
+        "columnAssociate": "Associate",
+        "columnClient": "Client",
+        "columnProbation": "Probation",
+        "columnAdded": "Added"
+      }
+    },
+    "confirm": {
+      "open": "Open Cycle",
+      "openMessage": "Open \"%s\"? Members will be enrolled and reviews can be submitted.",
+      "close": "Close Cycle",
+      "closeMessage": "Close \"%s\"? No further reviews can be submitted after closing."
+    },
+    "errors": {
+      "permissionDenied": "You do not have permission to perform this action",
+      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
+      "notFound": "Evaluation cycle not found",
+      "idRequired": "Cycle ID is required",
+      "noPermission": "No permission",
+      "alreadyOpen": "This cycle is already open",
+      "alreadyClosed": "This cycle is already closed",
+      "engagementRequired": "An engagement is required"
+    }
+  }
+}

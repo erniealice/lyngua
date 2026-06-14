@@ -1,5 +1,12 @@
 {
   "product_price_plan": {
+    "columns": {
+      "product": "Product",
+      "price": "Price",
+      "billingTreatment": "Treatment",
+      "billingAmountMin": "Rate Min",
+      "billingAmountMax": "Rate Max"
+    },
     "validation": {
       "product_plan_id_required": "A catalog line from the plan must be selected."
     },
@@ -39,6 +46,13 @@
       "withholdingClassLabel": "Withholding Class (override)",
       "withholdingClassPlaceholder": "Inherit from product",
       "withholdingClassInfo": "Override the product's default withholding class for this price plan line. Leave blank to inherit from the product.",
+      "billingAmountMin": "Rate Band Floor",
+      "billingAmountMinPlaceholder": "0.00",
+      "billingAmountMinInfo": "Advertised minimum rate for this line (display and quote only — does not affect the contracted billing amount).",
+      "billingAmountMax": "Rate Band Ceiling",
+      "billingAmountMaxPlaceholder": "0.00",
+      "billingAmountMaxInfo": "Advertised maximum rate for this line. A seat's contracted amount must fall within [floor, ceiling] when both are set.",
+      "sectionRateBand": "Rate Band",
       "parentContext": {
         "moreDetails": "More details",
         "rateCard": "Price Schedule",

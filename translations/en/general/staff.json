@@ -1,5 +1,87 @@
 {
   "staff": {
+    "page": {
+      "heading": "Staff",
+      "caption": "Manage your staff members",
+      "headingActive": "Active Staff",
+      "headingInactive": "Inactive Staff"
+    },
+    "buttons": {
+      "addStaff": "Add Staff"
+    },
+    "columns": {
+      "name": "Name",
+      "email": "Email",
+      "status": "Availability",
+      "employmentType": "Employment Type",
+      "seniority": "Seniority",
+      "rating": "Rating",
+      "employmentStart": "Start Date"
+    },
+    "availability": {
+      "available": "Available",
+      "assigned": "Assigned",
+      "bench": "Bench",
+      "offboarded": "Offboarded"
+    },
+    "employment": {
+      "employed": "Employed",
+      "contractor": "Contractor",
+      "external": "External",
+      "partner": "Partner",
+      "retained": "Retained",
+      "subcontractor": "Subcontractor"
+    },
+    "rating": {
+      "label": "Rating",
+      "noRating": "—"
+    },
+    "form": {
+      "status": "Availability",
+      "statusPlaceholder": "Select availability status",
+      "employmentType": "Employment Type",
+      "employmentTypePlaceholder": "Select employment type",
+      "seniority": "Seniority",
+      "seniorityPlaceholder": "e.g. Senior, Mid, Junior",
+      "employmentStart": "Employment Start",
+      "employmentEnd": "Employment End"
+    },
+    "empty": {
+      "title": "No staff found",
+      "message": "No staff members to display.",
+      "activeTitle": "No active staff",
+      "activeMessage": "Add your first staff member to get started.",
+      "inactiveTitle": "No inactive staff",
+      "inactiveMessage": "Offboarded staff will appear here."
+    },
+    "actions": {
+      "view": "View Staff",
+      "edit": "Edit Staff",
+      "delete": "Delete Staff"
+    },
+    "detail": {
+      "pageTitle": "Staff Details",
+      "name": "Name",
+      "email": "Email",
+      "status": "Availability",
+      "employmentType": "Employment Type",
+      "seniority": "Seniority",
+      "employmentStart": "Employment Start",
+      "employmentEnd": "Employment End",
+      "rating": "Latest Rating",
+      "createdDate": "Created",
+      "modifiedDate": "Last Modified"
+    },
+    "tabs": {
+      "info": "Information",
+      "evaluations": "Reviews",
+      "auditTrail": "Audit Trail"
+    },
+    "errors": {
+      "permissionDenied": "You do not have permission to perform this action",
+      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
+      "notFound": "Staff member not found"
+    },
     "validation": {
       "data_required": "Staff data is required",
       "user_data_required": "Staff user data is required",

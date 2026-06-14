@@ -1,0 +1,34 @@
+{
+  "evaluationResponse": {
+    "columns": {
+      "criterion": "Criterion",
+      "weight": "Weight",
+      "score": "Score",
+      "comment": "Comment"
+    },
+    "empty": {
+      "title": "No responses",
+      "message": "No evaluation responses have been recorded."
+    },
+    "form": {
+      "criterion": "Criterion",
+      "score": "Score",
+      "comment": "Comment",
+      "commentPlaceholder": "Optional comment...",
+      "passFail": {
+        "pass": "Pass",
+        "fail": "Fail"
+      }
+    },
+    "detail": {
+      "weightedTotal": "Weighted Total",
+      "scoreSummary": "Score Summary",
+      "notScored": "(not scored)"
+    },
+    "errors": {
+      "notFound": "Evaluation response not found",
+      "permissionDenied": "You do not have permission to perform this action",
+      "invalidFormData": "Invalid form data. Please check your inputs and try again."
+    }
+  }
+}
