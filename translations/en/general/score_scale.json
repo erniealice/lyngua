@@ -1,0 +1,82 @@
+{
+  "score_scale": {
+    "page": {
+      "heading": "Score Scales",
+      "headingActive": "Active Score Scales",
+      "headingInactive": "Inactive Score Scales",
+      "caption": "Manage score scale definitions",
+      "captionActive": "Manage your active score scales",
+      "captionInactive": "View deprecated or draft score scales"
+    },
+    "buttons": {
+      "addScoreScale": "Add Score Scale"
+    },
+    "columns": {
+      "inputUnit": "Input Unit",
+      "name": "Name",
+      "outputUnit": "Output Unit",
+      "scaleKind": "Kind",
+      "version": "Version",
+      "versionStatus": "Status"
+    },
+    "empty": {
+      "activeMessage": "Create your first score scale to get started.",
+      "activeTitle": "No active score scales",
+      "inactiveMessage": "Deprecated or draft score scales will appear here.",
+      "inactiveTitle": "No inactive score scales",
+      "message": "No score scales to display.",
+      "title": "No score scales found"
+    },
+    "form": {
+      "inputMax": "Input Maximum",
+      "inputMin": "Input Minimum",
+      "inputUnit": "Input Unit",
+      "inputUnitHint": "Unit label for the raw input value (e.g. %, points).",
+      "name": "Name",
+      "namePlaceholder": "Enter scale name",
+      "outputUnit": "Output Unit",
+      "outputUnitHint": "Unit label for the mapped output value.",
+      "scaleGroupId": "Scale Group",
+      "scaleGroupIdHint": "ID of the scale group this scale belongs to.",
+      "scaleKind": "Scale Kind",
+      "scaleKindInfo": "Whether the scale maps a numeric range or an exact value to an output.",
+      "versionStatusInfo": "Publishing status of this scale version."
+    },
+    "actions": {
+      "delete": "Delete Scale",
+      "edit": "Edit Scale",
+      "view": "View Scale"
+    },
+    "detail": {
+      "active": "Active",
+      "createdBy": "Created By",
+      "createdDate": "Created",
+      "inputMax": "Input Maximum",
+      "inputMin": "Input Minimum",
+      "inputUnit": "Input Unit",
+      "modifiedDate": "Last Modified",
+      "name": "Name",
+      "outputUnit": "Output Unit",
+      "pageTitle": "Score Scale Details",
+      "scaleGroupId": "Scale Group",
+      "scaleKind": "Kind",
+      "version": "Version",
+      "versionStatus": "Version Status"
+    },
+    "tabs": {
+      "history": "History",
+      "info": "Information"
+    },
+    "confirm": {
+      "delete": "Delete Score Scale",
+      "deleteMessage": "Are you sure you want to delete \"%s\"? This action cannot be undone."
+    },
+    "errors": {
+      "idRequired": "Score scale ID is required",
+      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
+      "notFound": "Score scale not found",
+      "noPermission": "No permission",
+      "permissionDenied": "You do not have permission to perform this action"
+    }
+  }
+}

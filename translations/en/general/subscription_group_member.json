@@ -1,0 +1,81 @@
+{
+  "subscriptionGroupMember": {
+    "page": {
+      "title": "Members",
+      "subtitle": "Manage subscription group members",
+      "activeTitle": "Active Members",
+      "inactiveTitle": "Inactive Members"
+    },
+    "buttons": {
+      "activate": "Activate",
+      "add": "Add Member",
+      "bulkDelete": "Delete Members",
+      "deactivate": "Deactivate",
+      "delete": "Delete Member",
+      "edit": "Edit Member",
+      "view": "View"
+    },
+    "columns": {
+      "actions": "Actions",
+      "clientId": "Client",
+      "dateCreated": "Date Created",
+      "status": "Status",
+      "subscriptionGroupId": "Group",
+      "subscriptionId": "Subscription"
+    },
+    "empty": {
+      "message": "No members to display.",
+      "title": "No Members"
+    },
+    "form": {
+      "active": "Active",
+      "activeInfo": "Inactive members are hidden from active group rosters.",
+      "client": "Client",
+      "clientInfo": "The client (account) associated with this member.",
+      "clientPlaceholder": "Enter client ID",
+      "sectionIdentity": "Member details",
+      "subscription": "Subscription",
+      "subscriptionGroup": "Subscription group",
+      "subscriptionGroupInfo": "The subscription group this member belongs to.",
+      "subscriptionGroupPlaceholder": "Enter group ID",
+      "subscriptionInfo": "The subscription linked to this member.",
+      "subscriptionPlaceholder": "Enter subscription ID"
+    },
+    "bulk": {
+      "activateMessage": "Activate the selected members?",
+      "activateTitle": "Activate Members",
+      "deactivateMessage": "Deactivate the selected members?",
+      "deactivateTitle": "Deactivate Members",
+      "deleteMessage": "Permanently delete the selected members? This cannot be undone.",
+      "deleteTitle": "Delete Members"
+    },
+    "confirm": {
+      "activateMessage": "Activate this member?",
+      "activateTitle": "Activate Member",
+      "deactivateMessage": "Deactivate this member?",
+      "deactivateTitle": "Deactivate Member",
+      "deleteMessage": "Permanently delete this member? This cannot be undone.",
+      "deleteTitle": "Delete Member"
+    },
+    "tabs": {
+      "info": "Info"
+    },
+    "detail": {
+      "dateCreated": "Date Created",
+      "dateModified": "Date Modified",
+      "noClient": "No client",
+      "noGroup": "No group",
+      "noSub": "No subscription",
+      "title": "Member"
+    },
+    "errors": {
+      "createFailed": "Failed to create member",
+      "deleteFailed": "Failed to delete member",
+      "inUse": "This member is in use and cannot be deleted.",
+      "loadFailed": "Failed to load member",
+      "notFound": "Member not found",
+      "unauthorized": "You are not authorized to perform this action",
+      "updateFailed": "Failed to update member"
+    }
+  }
+}

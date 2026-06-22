@@ -1,0 +1,92 @@
+{
+  "subscriptionGroupWorkspaceUser": {
+    "page": {
+      "title": "Group Assignments",
+      "subtitle": "Manage operator assignments to subscription groups",
+      "activeTitle": "Active Assignments",
+      "inactiveTitle": "Inactive Assignments"
+    },
+    "buttons": {
+      "activate": "Activate",
+      "add": "Add Assignment",
+      "bulkDelete": "Delete Assignments",
+      "deactivate": "Deactivate",
+      "delete": "Delete Assignment",
+      "edit": "Edit Assignment",
+      "view": "View"
+    },
+    "columns": {
+      "actions": "Actions",
+      "dateCreated": "Date Created",
+      "isOwner": "Owner",
+      "role": "Role",
+      "scope": "Scope",
+      "status": "Status",
+      "subscriptionGroup": "Group",
+      "workspaceUser": "Workspace User"
+    },
+    "empty": {
+      "message": "No operator assignments to display.",
+      "title": "No Assignments"
+    },
+    "form": {
+      "active": "Active",
+      "activeInfo": "Inactive assignments are excluded from group-level servicing.",
+      "isOwner": "Owner",
+      "isOwnerInfo": "Marks this operator as the group owner.",
+      "role": "Role",
+      "rolePlaceholder": "e.g. lead",
+      "roleInfo": "The role within the assigned scope.",
+      "scope": "Scope",
+      "scopeInfo": "The servicing scope of this assignment (e.g. coordinator, adviser).",
+      "scopePlaceholder": "e.g. coordinator",
+      "sectionAssignment": "Assignment",
+      "sectionServicing": "Servicing",
+      "subscriptionGroupId": "Subscription Group",
+      "subscriptionGroupIdInfo": "The subscription group (cohort) this operator is assigned to.",
+      "subscriptionGroupIdPlaceholder": "Enter group ID",
+      "workspaceUserId": "Workspace User",
+      "workspaceUserIdInfo": "The operator (workspace user) being assigned to this group.",
+      "workspaceUserIdPlaceholder": "Enter workspace user ID"
+    },
+    "bulk": {
+      "activateMessage": "Activate the selected assignments?",
+      "activateTitle": "Activate Assignments",
+      "deactivateMessage": "Deactivate the selected assignments?",
+      "deactivateTitle": "Deactivate Assignments",
+      "deleteMessage": "Permanently delete the selected assignments? This cannot be undone.",
+      "deleteTitle": "Delete Assignments"
+    },
+    "confirm": {
+      "activateMessage": "Activate {{name}}?",
+      "activateTitle": "Activate Assignment",
+      "deactivateMessage": "Deactivate {{name}}?",
+      "deactivateTitle": "Deactivate Assignment",
+      "deleteMessage": "Permanently delete this assignment? This cannot be undone.",
+      "deleteTitle": "Delete Assignment"
+    },
+    "tabs": {
+      "info": "Info"
+    },
+    "detail": {
+      "dateCreated": "Date Created",
+      "dateModified": "Date Modified",
+      "noGroup": "No group",
+      "noRole": "—",
+      "noScope": "—",
+      "noUser": "No user",
+      "ownerNo": "No",
+      "ownerYes": "Yes",
+      "title": "Assignment"
+    },
+    "errors": {
+      "createFailed": "Failed to create assignment",
+      "deleteFailed": "Failed to delete assignment",
+      "inUse": "This assignment is in use and cannot be deleted.",
+      "loadFailed": "Failed to load assignment",
+      "notFound": "Assignment not found",
+      "unauthorized": "You are not authorized to perform this action",
+      "updateFailed": "Failed to update assignment"
+    }
+  }
+}

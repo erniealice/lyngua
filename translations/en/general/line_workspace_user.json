@@ -1,0 +1,87 @@
+{
+  "lineWorkspaceUser": {
+    "page": {
+      "title": "Line Workspace Users",
+      "subtitle": "Manage operator assignments at line nodes",
+      "activeTitle": "Active Line Workspace Users",
+      "inactiveTitle": "Inactive Line Workspace Users"
+    },
+    "buttons": {
+      "activate": "Activate",
+      "add": "Add Assignment",
+      "bulkDelete": "Delete Assignments",
+      "deactivate": "Deactivate",
+      "delete": "Delete Assignment",
+      "edit": "Edit Assignment",
+      "view": "View"
+    },
+    "columns": {
+      "actions": "Actions",
+      "dateCreated": "Date Created",
+      "isOwner": "Owner",
+      "lineId": "Line",
+      "role": "Role",
+      "scope": "Scope",
+      "status": "Status",
+      "workspaceUserId": "Workspace User"
+    },
+    "empty": {
+      "message": "No line workspace user assignments to display.",
+      "title": "No Assignments"
+    },
+    "form": {
+      "active": "Active",
+      "activeInfo": "Inactive assignments are hidden from tier-2 group visibility.",
+      "isOwner": "Owner",
+      "isOwnerInfo": "Mark this user as the owner of the line node.",
+      "lineId": "Line ID",
+      "lineIdInfo": "The line node this operator is pinned to.",
+      "lineIdPlaceholder": "Enter line ID",
+      "role": "Role",
+      "roleInfo": "The servicing role discriminator for this assignment.",
+      "rolePlaceholder": "e.g. coordinator, adviser",
+      "scope": "Scope",
+      "scopeInfo": "The visibility scope discriminator for this assignment.",
+      "scopePlaceholder": "e.g. coordinator, adviser",
+      "sectionAssignment": "Assignment details",
+      "sectionRole": "Role & scope",
+      "workspaceUserId": "Workspace User ID",
+      "workspaceUserIdInfo": "The operator (workspace user) being assigned to the line node.",
+      "workspaceUserIdPlaceholder": "Enter workspace user ID"
+    },
+    "bulk": {
+      "activateMessage": "Activate the selected assignments?",
+      "activateTitle": "Activate Assignments",
+      "deactivateMessage": "Deactivate the selected assignments?",
+      "deactivateTitle": "Deactivate Assignments",
+      "deleteMessage": "Permanently delete the selected assignments? This cannot be undone.",
+      "deleteTitle": "Delete Assignments"
+    },
+    "confirm": {
+      "activateMessage": "Activate {{name}}?",
+      "activateTitle": "Activate Assignment",
+      "deactivateMessage": "Deactivate {{name}}?",
+      "deactivateTitle": "Deactivate Assignment",
+      "deleteMessage": "Permanently delete this assignment? This cannot be undone.",
+      "deleteTitle": "Delete Assignment"
+    },
+    "tabs": {
+      "info": "Info"
+    },
+    "detail": {
+      "dateCreated": "Date Created",
+      "dateModified": "Date Modified",
+      "noSubtitle": "No description provided",
+      "title": "Line Workspace User"
+    },
+    "errors": {
+      "createFailed": "Failed to create assignment",
+      "deleteFailed": "Failed to delete assignment",
+      "inUse": "This assignment is in use and cannot be deleted.",
+      "loadFailed": "Failed to load assignment",
+      "notFound": "Assignment not found",
+      "unauthorized": "You are not authorized to perform this action",
+      "updateFailed": "Failed to update assignment"
+    }
+  }
+}

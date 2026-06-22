@@ -1,0 +1,82 @@
+{
+  "productPlanStaff": {
+    "page": {
+      "title": "Plan Staff",
+      "subtitle": "Manage staff eligibility for product plans",
+      "activeTitle": "Active Plan Staff",
+      "inactiveTitle": "Inactive Plan Staff"
+    },
+    "buttons": {
+      "activate": "Activate",
+      "add": "Add Staff",
+      "bulkDelete": "Delete Staff",
+      "deactivate": "Deactivate",
+      "delete": "Delete Staff",
+      "edit": "Edit Staff",
+      "view": "View"
+    },
+    "columns": {
+      "actions": "Actions",
+      "dateCreated": "Date Created",
+      "productPlan": "Product Plan",
+      "role": "Role",
+      "staffId": "Staff",
+      "status": "Status"
+    },
+    "empty": {
+      "message": "No plan staff assignments to display.",
+      "title": "No Plan Staff"
+    },
+    "form": {
+      "active": "Active",
+      "activeInfo": "Inactive assignments are excluded from the deliverer picker.",
+      "productPlanId": "Product Plan",
+      "productPlanInfo": "The product_plan this staff member is eligible for.",
+      "productPlanPlaceholder": "Enter product plan ID",
+      "role": "Role",
+      "roleInfo": "Pool membership role: eligible / primary / assistant (data-driven, not an enum).",
+      "rolePlaceholder": "e.g. eligible, primary, assistant",
+      "sectionAssignment": "Plan assignment",
+      "sectionStaff": "Staff member",
+      "staffId": "Staff ID",
+      "staffIdInfo": "The workspace_user ID of the eligible staff member.",
+      "staffIdPlaceholder": "Enter staff ID"
+    },
+    "bulk": {
+      "activateMessage": "Activate the selected staff assignments?",
+      "activateTitle": "Activate Plan Staff",
+      "deactivateMessage": "Deactivate the selected staff assignments?",
+      "deactivateTitle": "Deactivate Plan Staff",
+      "deleteMessage": "Permanently delete the selected staff assignments? This cannot be undone.",
+      "deleteTitle": "Delete Plan Staff"
+    },
+    "confirm": {
+      "activateMessage": "Activate {{name}}?",
+      "activateTitle": "Activate Staff Assignment",
+      "deactivateMessage": "Deactivate {{name}}?",
+      "deactivateTitle": "Deactivate Staff Assignment",
+      "deleteMessage": "Permanently delete this staff assignment? This cannot be undone.",
+      "deleteTitle": "Delete Staff Assignment"
+    },
+    "tabs": {
+      "info": "Info"
+    },
+    "detail": {
+      "dateCreated": "Date Created",
+      "dateModified": "Date Modified",
+      "noProductPlan": "No product plan",
+      "noRole": "—",
+      "noSubtitle": "No role specified",
+      "title": "Plan Staff"
+    },
+    "errors": {
+      "createFailed": "Failed to create staff assignment",
+      "deleteFailed": "Failed to delete staff assignment",
+      "inUse": "This staff assignment is in use and cannot be deleted.",
+      "loadFailed": "Failed to load staff assignment",
+      "notFound": "Staff assignment not found",
+      "unauthorized": "You are not authorized to perform this action",
+      "updateFailed": "Failed to update staff assignment"
+    }
+  }
+}

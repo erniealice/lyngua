@@ -1,0 +1,76 @@
+{
+  "scoring_component": {
+    "page": {
+      "heading": "Scoring Components",
+      "headingActive": "Active Components",
+      "headingInactive": "Inactive Components",
+      "caption": "Manage scoring components within scoring schemes",
+      "captionActive": "Manage your active scoring components",
+      "captionInactive": "View inactive scoring components"
+    },
+    "buttons": {
+      "addComponent": "Add Component"
+    },
+    "columns": {
+      "active": "Active",
+      "code": "Code",
+      "label": "Label",
+      "sequenceOrder": "Order",
+      "weight": "Weight"
+    },
+    "empty": {
+      "activeMessage": "Create your first scoring component to get started.",
+      "activeTitle": "No active components",
+      "inactiveMessage": "Deactivated scoring components will appear here.",
+      "inactiveTitle": "No inactive components",
+      "message": "No scoring components to display.",
+      "title": "No components found"
+    },
+    "form": {
+      "active": "Active",
+      "code": "Code",
+      "codePlaceholder": "Enter component code",
+      "label": "Label",
+      "labelPlaceholder": "Enter component label",
+      "parentComponentId": "Parent Component",
+      "parentComponentIdInfo": "Optional parent component for nested component hierarchies.",
+      "scoringSchemeId": "Scoring Scheme",
+      "sequenceOrder": "Sequence Order",
+      "sequenceOrderInfo": "Display and evaluation order of this component.",
+      "weight": "Weight",
+      "weightInfo": "Relative weight of this component in the overall scoring scheme."
+    },
+    "actions": {
+      "delete": "Delete Component",
+      "edit": "Edit Component",
+      "view": "View Component"
+    },
+    "detail": {
+      "active": "Active",
+      "code": "Code",
+      "createdDate": "Created",
+      "label": "Label",
+      "modifiedDate": "Last Modified",
+      "pageTitle": "Component Details",
+      "parentComponentId": "Parent Component",
+      "scoringSchemeId": "Scoring Scheme",
+      "sequenceOrder": "Sequence Order",
+      "weight": "Weight"
+    },
+    "tabs": {
+      "history": "History",
+      "info": "Information"
+    },
+    "confirm": {
+      "delete": "Delete Component",
+      "deleteMessage": "Are you sure you want to delete \"%s\"? This action cannot be undone."
+    },
+    "errors": {
+      "idRequired": "Component ID is required",
+      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
+      "notFound": "Scoring component not found",
+      "noPermission": "No permission",
+      "permissionDenied": "You do not have permission to perform this action"
+    }
+  }
+}

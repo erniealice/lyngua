@@ -1,0 +1,84 @@
+{
+  "score_scale_band": {
+    "page": {
+      "heading": "Score Scale Bands",
+      "headingActive": "Active Bands",
+      "headingInactive": "Inactive Bands",
+      "caption": "Manage score scale band definitions",
+      "captionActive": "Active score scale bands",
+      "captionInactive": "Inactive score scale bands"
+    },
+    "buttons": {
+      "addBand": "Add Band"
+    },
+    "columns": {
+      "determination": "Determination",
+      "inputMax": "Input Max",
+      "inputMin": "Input Min",
+      "outputLabel": "Output Label",
+      "outputValue": "Output Value",
+      "sequenceOrder": "Order",
+      "status": "Status"
+    },
+    "empty": {
+      "activeMessage": "Add the first band to this scale.",
+      "activeTitle": "No active bands",
+      "inactiveMessage": "Deactivated bands will appear here.",
+      "inactiveTitle": "No inactive bands",
+      "message": "No score scale bands to display.",
+      "title": "No bands found"
+    },
+    "form": {
+      "bandRole": "Band Role",
+      "bandRolePlaceholder": "e.g. passing",
+      "determination": "Determination",
+      "determinationInfo": "The pass/fail determination applied when a score falls within this band.",
+      "inputMatch": "Input Match",
+      "inputMatchPlaceholder": "Exact match string",
+      "inputMax": "Input Max",
+      "inputMaxPlaceholder": "e.g. 100",
+      "inputMin": "Input Min",
+      "inputMinPlaceholder": "e.g. 0",
+      "outputLabel": "Output Label",
+      "outputLabelPlaceholder": "e.g. Excellent",
+      "outputValue": "Output Value",
+      "scoreScaleId": "Score Scale",
+      "sequenceOrder": "Sequence Order"
+    },
+    "actions": {
+      "delete": "Delete Band",
+      "edit": "Edit Band",
+      "view": "View Band"
+    },
+    "detail": {
+      "bandRole": "Band Role",
+      "createdDate": "Created",
+      "determination": "Determination",
+      "inputMatch": "Input Match",
+      "inputMax": "Input Max",
+      "inputMin": "Input Min",
+      "modifiedDate": "Last Modified",
+      "outputLabel": "Output Label",
+      "outputValue": "Output Value",
+      "pageTitle": "Band Details",
+      "scoreScaleId": "Score Scale",
+      "sequenceOrder": "Sequence Order",
+      "status": "Status"
+    },
+    "tabs": {
+      "history": "History",
+      "info": "Information"
+    },
+    "confirm": {
+      "delete": "Delete Band",
+      "deleteMessage": "Are you sure you want to delete \"%s\"? This action cannot be undone."
+    },
+    "errors": {
+      "idRequired": "Band ID is required",
+      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
+      "notFound": "Score scale band not found",
+      "noPermission": "No permission",
+      "permissionDenied": "You do not have permission to perform this action"
+    }
+  }
+}

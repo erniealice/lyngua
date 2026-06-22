@@ -1,0 +1,88 @@
+{
+  "priceScheduleWorkspaceUser": {
+    "page": {
+      "title": "Period Coordinators",
+      "subtitle": "Manage operator access at period (price schedule) level",
+      "activeTitle": "Active Period Coordinators",
+      "inactiveTitle": "Inactive Period Coordinators"
+    },
+    "buttons": {
+      "activate": "Activate",
+      "add": "Add Coordinator",
+      "bulkDelete": "Delete Coordinators",
+      "deactivate": "Deactivate",
+      "delete": "Delete Coordinator",
+      "edit": "Edit Coordinator",
+      "view": "View"
+    },
+    "columns": {
+      "actions": "Actions",
+      "dateCreated": "Date Created",
+      "isOwner": "Owner",
+      "priceScheduleId": "Period",
+      "role": "Role",
+      "scope": "Scope",
+      "status": "Status",
+      "workspaceUserId": "Operator"
+    },
+    "empty": {
+      "message": "No period coordinator records to display.",
+      "title": "No Period Coordinators"
+    },
+    "form": {
+      "active": "Active",
+      "activeInfo": "Inactive coordinators are hidden from period-level views.",
+      "isOwner": "Owner",
+      "isOwnerInfo": "Mark this operator as the primary owner of the period.",
+      "priceScheduleId": "Period",
+      "priceScheduleIdInfo": "The price schedule (period / academic year) this coordinator is pinned to.",
+      "priceScheduleIdPlaceholder": "Enter period ID",
+      "role": "Role",
+      "rolePlaceholder": "e.g. coordinator",
+      "roleInfo": "Role label for this coordinator (free-text).",
+      "scope": "Scope",
+      "scopeInfo": "Optional scope tag narrowing the coordinator's visibility within the period.",
+      "scopePlaceholder": "e.g. academic_year",
+      "sectionAccess": "Access settings",
+      "sectionCoordinator": "Coordinator details",
+      "workspaceUserId": "Operator",
+      "workspaceUserIdInfo": "The workspace user who acts as coordinator for this period.",
+      "workspaceUserIdPlaceholder": "Enter operator ID"
+    },
+    "bulk": {
+      "activateMessage": "Activate the selected coordinator records?",
+      "activateTitle": "Activate Period Coordinators",
+      "deactivateMessage": "Deactivate the selected coordinator records?",
+      "deactivateTitle": "Deactivate Period Coordinators",
+      "deleteMessage": "Permanently delete the selected coordinator records? This cannot be undone.",
+      "deleteTitle": "Delete Period Coordinators"
+    },
+    "confirm": {
+      "activateMessage": "Activate {{id}}?",
+      "activateTitle": "Activate Coordinator",
+      "deactivateMessage": "Deactivate {{id}}?",
+      "deactivateTitle": "Deactivate Coordinator",
+      "deleteMessage": "Permanently delete this coordinator record? This cannot be undone.",
+      "deleteTitle": "Delete Coordinator"
+    },
+    "tabs": {
+      "info": "Info"
+    },
+    "detail": {
+      "dateCreated": "Date Created",
+      "dateModified": "Date Modified",
+      "noSchedule": "No period",
+      "noUser": "No operator",
+      "title": "Period Coordinator"
+    },
+    "errors": {
+      "createFailed": "Failed to create coordinator record",
+      "deleteFailed": "Failed to delete coordinator record",
+      "inUse": "This coordinator record is in use and cannot be deleted.",
+      "loadFailed": "Failed to load coordinator record",
+      "notFound": "Coordinator record not found",
+      "unauthorized": "You are not authorized to perform this action",
+      "updateFailed": "Failed to update coordinator record"
+    }
+  }
+}

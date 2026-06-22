@@ -1,0 +1,72 @@
+{
+  "job_outcome_line": {
+    "page": {
+      "heading": "Outcome Lines",
+      "headingActive": "Active Outcome Lines",
+      "headingInactive": "Inactive Outcome Lines",
+      "caption": "Manage job outcome lines",
+      "captionActive": "Manage your active outcome lines",
+      "captionInactive": "View inactive outcome lines"
+    },
+    "buttons": {
+      "addLine": "Add Outcome Line"
+    },
+    "columns": {
+      "active": "Active",
+      "label": "Label",
+      "outputLabel": "Output Label",
+      "outputValue": "Output Value",
+      "reportingRole": "Reporting Role"
+    },
+    "empty": {
+      "activeMessage": "Create your first outcome line to get started.",
+      "activeTitle": "No active outcome lines",
+      "inactiveMessage": "Deactivated outcome lines will appear here.",
+      "inactiveTitle": "No inactive outcome lines",
+      "message": "No job outcome lines to display.",
+      "title": "No outcome lines found"
+    },
+    "form": {
+      "label": "Label",
+      "labelPlaceholder": "Enter outcome line label",
+      "outputLabel": "Output Label",
+      "outputValue": "Output Value",
+      "reportingRole": "Reporting Role",
+      "reportingRoleInfo": "The role this line plays in reporting (e.g. primary grade, transcript, percentile).",
+      "scoreScaleBandId": "Score Scale Band",
+      "weightOrCredits": "Weight / Credits"
+    },
+    "actions": {
+      "delete": "Delete Outcome Line",
+      "edit": "Edit Outcome Line",
+      "view": "View Outcome Line"
+    },
+    "detail": {
+      "active": "Active",
+      "createdDate": "Created",
+      "label": "Label",
+      "modifiedDate": "Last Modified",
+      "outputLabel": "Output Label",
+      "outputValue": "Output Value",
+      "pageTitle": "Outcome Line Details",
+      "reportingRole": "Reporting Role",
+      "scoreScaleBandId": "Score Scale Band",
+      "weightOrCredits": "Weight / Credits"
+    },
+    "tabs": {
+      "history": "History",
+      "info": "Information"
+    },
+    "confirm": {
+      "delete": "Delete Outcome Line",
+      "deleteMessage": "Are you sure you want to delete \"%s\"? This action cannot be undone."
+    },
+    "errors": {
+      "idRequired": "Outcome line ID is required",
+      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
+      "notFound": "Job outcome line not found",
+      "noPermission": "No permission",
+      "permissionDenied": "You do not have permission to perform this action"
+    }
+  }
+}

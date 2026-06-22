@@ -1,0 +1,75 @@
+{
+  "scoring_scheme": {
+    "page": {
+      "heading": "Scoring Schemes",
+      "headingActive": "Active Scoring Schemes",
+      "headingInactive": "Inactive Scoring Schemes",
+      "caption": "Manage reusable scoring schemes for evaluation",
+      "captionActive": "Manage your active scoring schemes",
+      "captionInactive": "View deprecated or inactive scoring schemes"
+    },
+    "buttons": {
+      "addScheme": "Add Scheme"
+    },
+    "columns": {
+      "compositeMethod": "Composite Method",
+      "name": "Name",
+      "status": "Status",
+      "version": "Version"
+    },
+    "empty": {
+      "activeMessage": "Create your first scoring scheme to get started.",
+      "activeTitle": "No active scoring schemes",
+      "inactiveMessage": "Deprecated schemes will appear here.",
+      "inactiveTitle": "No inactive scoring schemes",
+      "message": "No scoring schemes to display.",
+      "title": "No scoring schemes found"
+    },
+    "form": {
+      "compositeMethod": "Composite Method",
+      "compositeMethodInfo": "The method used to compute the composite score from individual criterion scores.",
+      "name": "Name",
+      "namePlaceholder": "Enter scheme name",
+      "roundingMode": "Rounding Mode",
+      "roundingModeInfo": "How fractional scores are rounded when computing final results.",
+      "weightsMustSumToOne": "Weights Must Sum to One",
+      "weightsMustSumToOneInfo": "Enforce that criterion weights sum to exactly 1.0."
+    },
+    "actions": {
+      "delete": "Delete Scheme",
+      "edit": "Edit Scheme",
+      "view": "View Scheme"
+    },
+    "detail": {
+      "compositeMethod": "Composite Method",
+      "createdDate": "Created",
+      "modifiedDate": "Last Modified",
+      "name": "Name",
+      "pageTitle": "Scheme Details",
+      "roundingMode": "Rounding Mode",
+      "schemeGroupId": "Scheme Group",
+      "scoreScaleId": "Score Scale",
+      "status": "Status",
+      "version": "Version",
+      "weightsMustSumToOne": "Weights Must Sum to One"
+    },
+    "tabs": {
+      "attachments": "Attachments",
+      "criteria": "Criteria",
+      "history": "History",
+      "info": "Information",
+      "versions": "Versions"
+    },
+    "confirm": {
+      "delete": "Delete Scheme",
+      "deleteMessage": "Are you sure you want to delete \"%s\"? This action cannot be undone."
+    },
+    "errors": {
+      "idRequired": "Scheme ID is required",
+      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
+      "notFound": "Scoring scheme not found",
+      "noPermission": "No permission",
+      "permissionDenied": "You do not have permission to perform this action"
+    }
+  }
+}

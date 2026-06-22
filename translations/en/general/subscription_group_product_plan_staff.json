@@ -1,0 +1,89 @@
+{
+  "subscriptionGroupProductPlanStaff": {
+    "page": {
+      "title": "Class Assignments",
+      "subtitle": "Manage staff assignments to section-subject pairs",
+      "activeTitle": "Active Assignments",
+      "inactiveTitle": "Inactive Assignments"
+    },
+    "buttons": {
+      "activate": "Activate",
+      "add": "Add Assignment",
+      "bulkDelete": "Delete Assignments",
+      "deactivate": "Deactivate",
+      "delete": "Delete Assignment",
+      "edit": "Edit Assignment",
+      "view": "View"
+    },
+    "columns": {
+      "actions": "Actions",
+      "dateCreated": "Date Created",
+      "productPlanId": "Subject",
+      "role": "Role",
+      "staffId": "Staff",
+      "status": "Status",
+      "subscriptionGroupId": "Section"
+    },
+    "empty": {
+      "message": "No class assignments to display.",
+      "title": "No Assignments"
+    },
+    "form": {
+      "active": "Active",
+      "activeInfo": "Inactive assignments are excluded from grade-sheet scoping.",
+      "productPlanId": "Subject",
+      "productPlanInfo": "The subject (product plan) delivered in this section.",
+      "productPlanPlaceholder": "Select a subject...",
+      "productPlanSearch": "Filter...",
+      "role": "Role",
+      "roleInfo": "The role this staff member holds in this class assignment.",
+      "rolePlaceholder": "e.g. teacher, co-teacher, tutor",
+      "sectionAssignment": "Assignment details",
+      "staffId": "Staff member",
+      "staffInfo": "The staff member delivering this subject in this section.",
+      "staffPlaceholder": "Select a staff member...",
+      "staffSearch": "Filter...",
+      "subscriptionGroupId": "Section",
+      "subscriptionGroupInfo": "The section (cohort) this staff member is assigned to.",
+      "subscriptionGroupPlaceholder": "Select a section...",
+      "subscriptionGroupSearch": "Filter..."
+    },
+    "bulk": {
+      "activateMessage": "Activate the selected assignments?",
+      "activateTitle": "Activate Assignments",
+      "deactivateMessage": "Deactivate the selected assignments?",
+      "deactivateTitle": "Deactivate Assignments",
+      "deleteMessage": "Permanently delete the selected assignments? This cannot be undone.",
+      "deleteTitle": "Delete Assignments"
+    },
+    "confirm": {
+      "activateMessage": "Activate {{name}}?",
+      "activateTitle": "Activate Assignment",
+      "deactivateMessage": "Deactivate {{name}}?",
+      "deactivateTitle": "Deactivate Assignment",
+      "deleteMessage": "Permanently delete this assignment? This cannot be undone.",
+      "deleteTitle": "Delete Assignment"
+    },
+    "tabs": {
+      "info": "Info"
+    },
+    "detail": {
+      "dateCreated": "Date Created",
+      "dateModified": "Date Modified",
+      "noGroup": "No section",
+      "noPlan": "No subject",
+      "noRole": "—",
+      "noStaff": "No staff",
+      "title": "Class Assignment"
+    },
+    "errors": {
+      "createFailed": "Failed to create assignment",
+      "deleteFailed": "Failed to delete assignment",
+      "inUse": "This assignment is in use and cannot be deleted.",
+      "loadFailed": "Failed to load assignment",
+      "notFound": "Assignment not found",
+      "unauthorized": "You are not authorized to perform this action",
+      "updateFailed": "Failed to update assignment"
+    }
+  }
+}

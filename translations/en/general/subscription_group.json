@@ -1,0 +1,103 @@
+{
+  "subscriptionGroup": {
+    "page": {
+      "title": "Sections",
+      "subtitle": "Manage your sections and cohorts",
+      "activeTitle": "Active Sections",
+      "inactiveTitle": "Inactive Sections"
+    },
+    "buttons": {
+      "activate": "Activate",
+      "add": "Add Section",
+      "bulkDelete": "Delete Sections",
+      "deactivate": "Deactivate",
+      "delete": "Delete Section",
+      "edit": "Edit Section",
+      "view": "View"
+    },
+    "columns": {
+      "actions": "Actions",
+      "capacity": "Capacity",
+      "dateCreated": "Date Created",
+      "kind": "Type",
+      "name": "Name",
+      "status": "Status"
+    },
+    "empty": {
+      "message": "No sections to display.",
+      "title": "No Sections"
+    },
+    "form": {
+      "active": "Active",
+      "activeInfo": "Inactive sections are hidden from new enrollments.",
+      "capCapped": "Capped",
+      "capClosed": "Closed",
+      "capUnlimited": "Unlimited",
+      "capacityMode": "Capacity mode",
+      "capacityModeInfo": "Unlimited admits everyone; Closed admits no one; Capped enforces the seat limit below.",
+      "kind": "Type",
+      "kindCohort": "Cohort",
+      "kindInfo": "The shape of this cohort: a class roster, a panel, or a project team.",
+      "kindPanel": "Panel",
+      "kindPlaceholder": "Select a type...",
+      "kindProjectTeam": "Project team",
+      "kindRoster": "Roster",
+      "maxCapacity": "Maximum seats",
+      "maxCapacityInfo": "Read only when the capacity mode is Capped.",
+      "maxCapacityPlaceholder": "e.g. 30",
+      "name": "Name",
+      "nameInfo": "A short display name for this section or cohort.",
+      "namePlaceholder": "Enter section name",
+      "plan": "Program",
+      "planInfo": "The program (plan) this section realizes. Section identity is program × period.",
+      "planPlaceholder": "Select a program...",
+      "planSearch": "Filter...",
+      "priceSchedule": "Period",
+      "priceScheduleInfo": "The billing period this section is anchored to (e.g. the academic-year price schedule).",
+      "priceSchedulePlaceholder": "Select a period...",
+      "priceScheduleSearch": "Filter...",
+      "sectionAnchors": "Program & period",
+      "sectionCapacity": "Capacity",
+      "sectionIdentity": "Section details"
+    },
+    "bulk": {
+      "activateMessage": "Activate the selected sections?",
+      "activateTitle": "Activate Sections",
+      "deactivateMessage": "Deactivate the selected sections?",
+      "deactivateTitle": "Deactivate Sections",
+      "deleteMessage": "Permanently delete the selected sections? This cannot be undone.",
+      "deleteTitle": "Delete Sections"
+    },
+    "confirm": {
+      "activateMessage": "Activate {{name}}?",
+      "activateTitle": "Activate Section",
+      "deactivateMessage": "Deactivate {{name}}?",
+      "deactivateTitle": "Deactivate Section",
+      "deleteMessage": "Permanently delete this section? This cannot be undone.",
+      "deleteTitle": "Delete Section"
+    },
+    "tabs": {
+      "info": "Info"
+    },
+    "detail": {
+      "capacityModeNF": "Unlimited",
+      "capacityValue": "%d seats",
+      "dateCreated": "Date Created",
+      "dateModified": "Date Modified",
+      "noKind": "—",
+      "noPlan": "No program",
+      "noSchedule": "No period",
+      "noSubtitle": "No description provided",
+      "title": "Section"
+    },
+    "errors": {
+      "createFailed": "Failed to create section",
+      "deleteFailed": "Failed to delete section",
+      "inUse": "This section is in use and cannot be deleted.",
+      "loadFailed": "Failed to load section",
+      "notFound": "Section not found",
+      "unauthorized": "You are not authorized to perform this action",
+      "updateFailed": "Failed to update section"
+    }
+  }
+}
