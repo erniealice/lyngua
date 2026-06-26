@@ -1,0 +1,40 @@
+{
+    "generalLedger": {
+        "title": "General Ledger",
+        "subtitle": "Detailed transaction history by account",
+        "account": "Account",
+        "accountPlaceholder": "Select an account",
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "apply": "Apply",
+        "clear": "Clear",
+        "print": "Print",
+        "selectAccountMessage": "Select an account above to view its detailed transaction history.",
+        "noTransactionsMessage": "No transactions found for the selected account and date range.",
+        "dateRangeSeparator": "to",
+        "openingBalance": "Opening Balance",
+        "periodDebits": "Period Debits",
+        "periodCredits": "Period Credits",
+        "runningBalance": "Running Balance",
+        "noTransactionsTitle": "No transactions",
+        "noTransactionsDetail": "No journal entries found for this account in the selected date range."
+    },
+    "dashboard": {
+        "title": "Books Overview",
+        "subtitle": "Real-time view of your school's financial position",
+        "totalAssets": "Total Assets",
+        "totalLiabilities": "Total Liabilities",
+        "totalEquity": "Total Equity",
+        "netIncomeMtd": "Net Income (MTD)",
+        "balanceByType": "Account Balance by Type",
+        "unpostedJournals": "Unposted Journals",
+        "recentJournals": "Recent Journals",
+        "noRecentJournals": "No recent journal entries",
+        "quickNewJournal": "New Journal Entry",
+        "quickTrialBalance": "Trial Balance",
+        "quickClosePeriod": "Close Period",
+        "quickAccountLookup": "Account Lookup",
+        "viewAll": "View All",
+        "axisAmount": "Amount"
+    }
+}

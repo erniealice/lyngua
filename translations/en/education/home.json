@@ -1,0 +1,63 @@
+{
+    "page": {
+        "title": "Dashboard",
+        "heading": "Dashboard",
+        "subtitle": "Welcome back"
+    },
+    "stats": {
+        "totalClients": "Total Students",
+        "pipelineValue": "Enrollment Value",
+        "openQuotes": "Open Proposals",
+        "winRate": "Acceptance Rate"
+    },
+    "revenue": {
+        "title": "Tuition & Fees Overview",
+        "week": "Week",
+        "month": "Month",
+        "year": "Year",
+        "jan": "Jan",
+        "mar": "Mar",
+        "may": "May",
+        "jul": "Jul",
+        "sep": "Sep",
+        "nov": "Nov"
+    },
+    "activity": {
+        "title": "Recent Activity",
+        "viewAll": "View All",
+        "newClientAdded": "New student added",
+        "acmeCorporationJoined": "Riverside Academy joined",
+        "agoMinutes": "m ago",
+        "quoteAccepted": "Proposal accepted",
+        "projectAlpha": "Course Alpha - $24,500",
+        "agoHours": "h ago",
+        "awardEarned": "Award earned",
+        "topPerformerQ4": "Top Performer Q4",
+        "integrationSynced": "Integration synced",
+        "salesforceDataUpdated": "Salesforce data updated"
+    },
+    "tasks": {
+        "title": "Today's Tasks",
+        "addTask": "+ Add Task",
+        "reviewAcmeProposal": "Review Riverside proposal",
+        "dueTodayAt2PM": "Due today at 2:00 PM",
+        "sendFollowUpToTechCorp": "Send follow-up to Hillcrest School",
+        "dueTodayAt4PM": "Due today at 4:00 PM",
+        "updateClientDatabase": "Update student database",
+        "completedAt930AM": "Completed at 9:30 AM",
+        "prepareQ1Report": "Prepare Q1 report",
+        "dueTomorrow": "Due tomorrow"
+    },
+    "topClients": {
+        "title": "Top Students",
+        "seeAll": "See All",
+        "acmeCorporation": "Riverside Academy",
+        "projects12": "12 courses",
+        "techCorpInc": "Hillcrest School",
+        "projects8": "8 courses",
+        "globalSolutions": "Maplewood Academy",
+        "projects6": "6 courses",
+        "startupXYZ": "Eastside Prep",
+        "projects4": "4 courses"
+    }
+}

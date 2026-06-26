@@ -1,0 +1,399 @@
+{
+    "client": {
+        "page": {
+            "title": "Student Management",
+            "heading": "Student Management",
+            "caption": "View and manage your student roster",
+            "titleActive": "Active Students",
+            "headingActive": "Active Students",
+            "captionActive": "Manage your current student relationships",
+            "titleProspect": "Prospect Students",
+            "headingProspect": "Prospect Students",
+            "captionProspect": "Track potential students in your admissions pipeline",
+            "titleOnHold": "On Hold Students",
+            "headingOnHold": "On Hold Students",
+            "captionOnHold": "Students temporarily paused — enrollments or billing suspended",
+            "titleBlocked": "Blocked Students",
+            "headingBlocked": "Blocked Students",
+            "captionBlocked": "Students flagged from new enrollments",
+            "titleInactive": "Inactive Students",
+            "headingInactive": "Inactive Students",
+            "captionInactive": "View former students and paused accounts"
+        },
+        "buttons": {
+            "addNew": "Add New Student",
+            "addDivision": "Add Division",
+            "addContact": "Add Contact",
+            "addRate": "Add Fee",
+            "addNote": "Add Note"
+        },
+        "tabs": {
+            "active": "Active",
+            "prospect": "Prospect",
+            "inactive": "In-active",
+            "profile": "Profile",
+            "rates": "Fees",
+            "contacts": "Contacts",
+            "divisions": "Divisions",
+            "settings": "Settings",
+            "notes": "Notes"
+        },
+        "table": {
+            "titleActive": "Active Students",
+            "titleProspect": "Prospect Students",
+            "titleInactive": "Inactive Students",
+            "searchPlaceholder": "Filter students..."
+        },
+        "columns": {
+            "activeSubscriptions": "Active Enrollments",
+            "category": "Category",
+            "clientName": "Student Name",
+            "country": "Country",
+            "dateCreated": "Date Created",
+            "paymentTerm": "Payment Term",
+            "representative": "Representative",
+            "state": "State",
+            "townSuburb": "Town / Suburb",
+            "userDivision": "User Division"
+        },
+        "empty": {
+            "activeTitle": "No active students",
+            "activeMessage": "Add your first student to get started",
+            "prospectTitle": "No prospects",
+            "prospectMessage": "Potential students will appear here",
+            "onHoldTitle": "No students on hold",
+            "onHoldMessage": "Students you put on hold will appear here",
+            "blockedTitle": "No blocked students",
+            "blockedMessage": "Students you block will appear here",
+            "inactiveTitle": "No inactive students",
+            "inactiveMessage": "Inactive students will appear here"
+        },
+        "form": {
+            "firstName": "First Name",
+            "firstNamePlaceholder": "e.g. John",
+            "lastName": "Last Name",
+            "lastNamePlaceholder": "e.g. Smith",
+            "position": "Position",
+            "positionPlaceholder": "e.g. Account Manager, Finance Director",
+            "email": "Email",
+            "emailPlaceholder": "contact@company.com",
+            "phone": "Phone",
+            "phonePlaceholder": "+61 X XXXX XXXX",
+            "mobile": "Mobile",
+            "mobilePlaceholder": "04XX XXX XXX",
+            "division": "Division",
+            "selectDivision": "Select division",
+            "save": "Save",
+            "update": "Update",
+            "cancel": "Cancel",
+            "required": "*",
+            "office": "Office",
+            "officePlaceholder": "e.g. Head Office, Sydney Branch",
+            "telephone": "Telephone",
+            "telephonePlaceholder": "+61 X XXXX XXXX",
+            "fax": "Fax",
+            "faxPlaceholder": "+61 X XXXX XXXX",
+            "paymentTerm": "Payment Term",
+            "paymentTerms": "Payment Terms",
+            "selectPaymentTerm": "Select payment term...",
+            "slugPlaceholder": "auto-generated if empty",
+            "active": "Active",
+            "name": "Student Name",
+            "namePlaceholder": "Enter student name",
+            "companyDetails": "Company Details",
+            "representative": "Representative",
+            "accounting": "Accounting",
+            "streetAddress": "Street Address",
+            "streetAddressPlaceholder": "123 Main St",
+            "city": "City",
+            "cityPlaceholder": "e.g. Manila",
+            "province": "Province",
+            "provincePlaceholder": "e.g. Metro Manila",
+            "postalCode": "Postal Code",
+            "postalCodePlaceholder": "e.g. 1000",
+            "notes": "Notes",
+            "notesPlaceholder": "Internal notes about this student...",
+            "tags": "Tags",
+            "tagsPlaceholder": "Select tags...",
+            "tagsSearchPlaceholder": "Search tags...",
+            "tagsNoResults": "No tags available. Create tags in Settings.",
+            "timezone": "Timezone",
+            "timezonePlaceholder": "Select timezone…",
+            "timezoneSearchPlaceholder": "Search timezones…",
+            "timezoneNoResults": "No matching timezones",
+            "timezoneInfo": "Display timezone for this representative.",
+            "status": "Status",
+            "statusPlaceholder": "Select status",
+            "statusActive": "Active",
+            "statusBlocked": "Blocked",
+            "statusOnHold": "On Hold",
+            "statusInactive": "Inactive",
+            "statusProspect": "Prospect",
+            "country": "Country",
+            "countryPlaceholder": "PH",
+            "website": "Website",
+            "websitePlaceholder": "https://example.com",
+            "sectionCompany": "Company Details",
+            "sectionAddress": "Address",
+            "sectionRepresentative": "Representative",
+            "sectionAccounting": "Accounting",
+            "sectionOthers": "Others"
+        },
+        "detail": {
+            "pageTitle": "Student Details",
+            "companyDetails": {
+                "title": "Company Details",
+                "companyName": "Company Name",
+                "abn": "ABN",
+                "abnPlaceholder": "XX XXX XXX XXX",
+                "externalId": "External ID",
+                "email": "Email",
+                "emailPlaceholder": "contact@company.com",
+                "phone": "Phone",
+                "phonePlaceholder": "+61 X XXXX XXXX",
+                "status": "Status"
+            },
+            "address": {
+                "title": "Address",
+                "streetAddress": "Street Address",
+                "streetAddressPlaceholder": "Street address",
+                "addressLine2": "Address Line 2",
+                "addressLine2Placeholder": "Unit, suite (optional)",
+                "suburb": "Suburb",
+                "state": "State",
+                "statePlaceholder": "--",
+                "postcode": "Postcode",
+                "postcodePlaceholder": "0000",
+                "country": "Country"
+            },
+            "configuration": {
+                "title": "Configuration",
+                "division": "Division",
+                "decimals": "Decimals",
+                "payrollTaxExempt": "Payroll Tax Exempt",
+                "autoIncreaseRates": "Auto-increase Fees",
+                "noneOption": "-None-",
+                "autoIncreaseDesc": "Automatically adjust non-base items when base fee changes"
+            },
+            "wicConfiguration": {
+                "title": "WIC Configuration",
+                "systemWics": "System WICs",
+                "clientWics": "Student WICs",
+                "noItemsConfigured": "No items configured",
+                "addNewItem": "Add new item"
+            },
+            "emptyStates": {
+                "ratesTitle": "Fees",
+                "ratesDesc": "Configure tuition fees for this student",
+                "contactsTitle": "Contacts",
+                "contactsDesc": "Manage student contact information",
+                "divisionsTitle": "Divisions",
+                "divisionsDesc": "Organize student by divisions",
+                "notesTitle": "Notes",
+                "notesDesc": "Internal notes and comments about this student"
+            },
+            "notes": {
+                "title": "Student Notes",
+                "itemsLabel": "notes",
+                "titlePlaceholder": "Note title...",
+                "contentPlaceholder": "Add details about this note...",
+                "deleteConfirm": "Are you sure you want to delete this note?"
+            },
+            "actions": {
+                "viewClient": "View student",
+                "editClient": "Edit student",
+                "deleteClient": "Delete student",
+                "deactivateClient": "Set as inactive",
+                "activateClient": "Set as active",
+                "blockClient": "Block",
+                "holdClient": "Set on hold",
+                "setProspect": "Set as prospect"
+            },
+            "profile": {
+                "title": "Profile"
+            },
+            "company": {
+                "title": "Company"
+            },
+            "notesSection": {
+                "title": "Notes"
+            },
+            "tags": {
+                "title": "Tags",
+                "noTags": "No tags assigned"
+            },
+            "purchaseHistory": {
+                "title": "Course History",
+                "lifetimeSpend": "Lifetime Spend",
+                "totalOrders": "Total Courses",
+                "avgOrderValue": "Avg Course Value",
+                "lastPurchase": "Last Enrollment",
+                "empty": "No course history yet"
+            },
+            "representative": "Representative",
+            "name": "Name",
+            "recentOrders": "Recent Orders",
+            "colDate": "Date",
+            "colReference": "Reference",
+            "colAmount": "Amount",
+            "colStatus": "Status",
+            "purchaseHistoryEmpty": "No purchase history for this student.",
+            "addSubscription": "Add Enrollment",
+            "emptySubscriptionsTitle": "No enrollments",
+            "emptySubscriptions": "No enrollments found for this student.",
+            "outstandingBalance": "Outstanding Balance",
+            "totalBilled": "Total Billed",
+            "totalReceived": "Total Received",
+            "invoices": "Invoices",
+            "emptyStatementTitle": "No Statement Entries",
+            "emptyStatementMessage": "There are no transactions for this student.",
+            "tabs": {
+                "info": "Info",
+                "representative": "Representative",
+                "subscriptions": "Enrollments",
+                "subscriptionsSlug": "engagements",
+                "accounting": "Accounting",
+                "history": "History",
+                "statement": "Statement",
+                "priceSchedules": "Custom fee schedules",
+                "priceSchedulesSlug": "rate-cards",
+                "attachments": "Attachments",
+                "auditHistory": "History"
+            },
+            "priceSchedules": {
+                "empty": "No bespoke fee schedules yet — every enrollment uses a standard fee schedule.",
+                "addAction": "Add bespoke fee schedule"
+            },
+            "subscriptions": {
+                "columnPlan": "Program",
+                "confirmDeleteTitle": "Delete Enrollment",
+                "confirmDeleteMessage": "Are you sure you want to delete %s?"
+            },
+            "statement": {
+                "date": "Date",
+                "type": "Type",
+                "reference": "Reference",
+                "description": "Description",
+                "billed": "Billed",
+                "received": "Received",
+                "balance": "Balance",
+                "total": "TOTAL",
+                "outstanding_balance": "Outstanding Balance",
+                "total_billed": "Total Billed",
+                "total_received": "Total Received",
+                "invoices": "Invoices",
+                "collections": "Collections",
+                "no_entries": "No statement entries found",
+                "no_entries_message": "There are no transactions for this period."
+            }
+        },
+        "tagForm": {
+            "tagName": "Tag Name",
+            "code": "Code",
+            "codeAutoPlaceholder": "auto-generated",
+            "description": "Description",
+            "descriptionPlaceholder": "Enter a description...",
+            "active": "Active"
+        },
+        "settings": {
+            "userDivisions": {
+                "pageTitle": "User Divisions",
+                "heading": "User Divisions",
+                "caption": "Manage user divisions for your school",
+                "addDivision": "Add Division",
+                "searchPlaceholder": "Search divisions...",
+                "columns": {
+                    "office": "Office",
+                    "division": "Division",
+                    "default": "Default"
+                },
+                "actions": {
+                    "activate": "Activate",
+                    "deactivate": "Deactivate"
+                },
+                "empty": {
+                    "title": "No Divisions Found",
+                    "message": "Get started by adding your first division."
+                },
+                "badges": {
+                    "yes": "YES",
+                    "no": "NO"
+                }
+            },
+            "paymentTerms": {
+                "pageTitle": "Payment Terms",
+                "heading": "Payment Terms",
+                "caption": "Manage payment terms for student invoicing",
+                "addPaymentTerm": "Add Payment Term",
+                "searchPlaceholder": "Search payment terms...",
+                "columns": {
+                    "paymentTerms": "Payment Terms",
+                    "description": "Description",
+                    "userDivisionId": "User Division",
+                    "status": "Status"
+                },
+                "actions": {
+                    "edit": "Edit",
+                    "activate": "Activate",
+                    "deactivate": "Deactivate",
+                    "delete": "Delete",
+                    "deleteDisabled": "Cannot delete: payment term is in use"
+                },
+                "empty": {
+                    "title": "No Payment Terms Found",
+                    "message": "Add your first payment term to get started."
+                },
+                "form": {
+                    "paymentTerms": "Payment Terms",
+                    "description": "Description",
+                    "userDivisionId": "User Division",
+                    "status": "Active",
+                    "required": "*",
+                    "save": "Save"
+                }
+            }
+        },
+        "helpdesk": {
+            "title": "Students - Help",
+            "comingSoon": "Help content for the Students module is coming soon.",
+            "quickLinks": "Quick Links",
+            "viewAllClients": "View All Students",
+            "helpCenter": "Help Center"
+        },
+        "errors": {
+            "notFound": "Student not found",
+            "emptySlug": "Student slug cannot be empty",
+            "slugExists": "Student slug already exists",
+            "alreadyActive": "Student is already active",
+            "alreadyInactive": "Student is already inactive",
+            "alreadyProspect": "Student is already a prospect"
+        },
+        "bulkActions": {
+            "setAsInactive": "Set as inactive",
+            "setAsProspect": "Set as prospect",
+            "setAsActive": "Set as active",
+            "setAsBlocked": "Set as blocked",
+            "setAsOnHold": "Set on hold"
+        },
+        "dashboard": {
+            "totalClients": "Total Students",
+            "active": "Active",
+            "inactive": "Inactive",
+            "newThisMonth": "New This Month",
+            "clientGrowth": "Student Growth",
+            "filterWeek": "Week",
+            "filterMonth": "Month",
+            "filterYear": "Year",
+            "recentActivity": "Recent Activity",
+            "viewAll": "View All",
+            "quickNew": "New Student",
+            "quickViewAll": "View All Students",
+            "quickTags": "Manage Tags",
+            "quickPaymentTerms": "Payment Terms",
+            "clientAdded": "New Student Added",
+            "clientActivated": "Student Activated",
+            "profileUpdated": "Profile Updated",
+            "tagAssigned": "Tag Assigned"
+        }
+    }
+}

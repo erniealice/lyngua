@@ -1,0 +1,40 @@
+{
+    "page": {
+        "heading": "Schools",
+        "headingActive": "Active Schools",
+        "headingInactive": "Inactive Schools",
+        "caption": "School management",
+        "captionActive": "Manage your active schools",
+        "captionInactive": "View inactive schools"
+    },
+    "buttons": {
+        "addWorkspace": "Add School"
+    },
+    "columns": {
+        "name": "Name",
+        "description": "Description",
+        "private": "Private",
+        "status": "Status"
+    },
+    "empty": {
+        "activeTitle": "No active schools",
+        "activeMessage": "Add your first school to get started",
+        "inactiveTitle": "No inactive schools",
+        "inactiveMessage": "Inactive schools will appear here"
+    },
+    "form": {
+        "name": "Name",
+        "namePlaceholder": "e.g. Default School",
+        "description": "Description",
+        "descriptionPlaceholder": "e.g. Main school for the team",
+        "private": "Private",
+        "active": "Active"
+    },
+    "actions": {
+        "view": "View school",
+        "edit": "Edit school",
+        "delete": "Delete school",
+        "activate": "Activate",
+        "deactivate": "Deactivate"
+    }
+}

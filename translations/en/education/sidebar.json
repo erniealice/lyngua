@@ -1,7 +1,8 @@
 {
-    "jobs_app_label": "Programs",
+    "clients_app_label": "Students",
+    "jobs_app_label": "Classes",
     "jobs_app_icon": "icon-briefcase",
-    "jobs_title": "Programs",
+    "jobs_title": "Classes",
     "jobs_label": "Courses",
     "jobs_icon": "icon-clipboard",
     "job_templates_label": "Curricula",
@@ -14,5 +15,9 @@
     "outcomes_title": "Grading",
     "criteria_label": "Rubrics",
     "outcome_log_label": "Grade Book",
-    "report_cards_label": "Report Cards"
+    "report_cards_label": "Report Cards",
+    "services_app_label": "Subjects",
+    "plans_title": "Programs",
+    "price_lists_title": "Academic Years",
+    "activities_title": "Instructor Log"
 }
