@@ -4,7 +4,6 @@
         "criteriaLibrary": "QC Specifications",
         "observation": "Measurement",
         "summary": "QC Report",
-        "reportCard": "QC Certificate",
         "phaseSummary": "Phase QC Report",
         "jobSummary": "QC Certificate"
     }

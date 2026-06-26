@@ -9,7 +9,7 @@
     "outcomes_title": "Quality Review",
     "criteria_label": "Inspection Standards",
     "outcome_log_label": "Inspection Records",
-    "report_cards_label": "Service Reports",
+    "job_outcome_summary_label": "Service Reports",
     "phase_reviews_label": "Engagement Reviews",
     "job_templates_label": "Service SOPs",
     "jobs_on_hold_label": "On Hold",
@@ -17,6 +17,5 @@
     "time_expenses_pending_label": "Awaiting Approval",
     "time_expenses_approved_label": "Approved",
     "time_expenses_posted_label": "Posted",
-    "quality_review_group_title": "Quality Review",
-    "practice_setup_group_title": "Setup"
+    "quality_review_group_title": "Quality Review"
 }

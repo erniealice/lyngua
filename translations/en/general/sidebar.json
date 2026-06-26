@@ -35,7 +35,7 @@
     "outcomes_title": "Outcomes",
     "criteria_label": "Criteria",
     "outcome_log_label": "Outcome Log",
-    "report_cards_label": "Outcome Reports",
+    "job_outcome_summary_label": "Outcome Reports",
 
     "revenue_title": "Sales",
     "revenue_draft_label": "Draft",
@@ -158,7 +158,6 @@
     "supplier_product_plans_add": "Add Supplier Product Plan",
 
     "quality_review_group_title": "Quality Review",
-    "practice_setup_group_title": "Setup",
 
     "time_expenses_drafts_label": "Drafts",
     "time_expenses_pending_label": "Awaiting Approval",

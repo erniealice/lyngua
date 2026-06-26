@@ -14,5 +14,5 @@
     "outcomes_title": "Quality Control",
     "criteria_label": "QC Specifications",
     "outcome_log_label": "QC Results",
-    "report_cards_label": "QC Certificates"
+    "job_outcome_summary_label": "QC Certificates"
 }

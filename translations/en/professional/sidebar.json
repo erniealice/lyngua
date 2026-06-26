@@ -57,7 +57,7 @@
     "outcomes_title": "Assessment",
     "criteria_label": "Standards",
     "outcome_log_label": "Case Outcomes",
-    "report_cards_label": "Assessments",
+    "job_outcome_summary_label": "Assessments",
     "revenue_report_label": "Revenue Analysis",
     "revenue_report_icon": "icon-bar-chart",
     "receivables_aging_report_label": "Receivables Aging",
@@ -78,7 +78,6 @@
     "supplier_product_plans_add": "Add Vendor Product Plan",
 
     "quality_review_group_title": "Quality Review",
-    "practice_setup_group_title": "Practice Setup",
 
     "activities_title": "Time & Expenses",
 
