@@ -1,5 +1,6 @@
 {
     "clients_app_label": "Students",
+    "delegates_app_label": "Guardians",
     "jobs_app_label": "Classes",
     "jobs_app_icon": "icon-briefcase",
     "jobs_title": "Classes",

@@ -9,6 +9,8 @@
     "subscriptions_app_label": "Subscriptions",
     "subscriptions_app_icon": "icon-refresh-cw",
     "clients_app_label": "Clients",
+    "delegates_app_label": "Delegates",
+    "delegates_app_icon": "icon-users",
     "users_app_label": "Users",
     "inventory_app_label": "Inventory",
     "services_app_label": "Services",

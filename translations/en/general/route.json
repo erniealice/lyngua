@@ -52,6 +52,7 @@
   "ledger_statement": {},
   "loan": {},
   "loan_payment": {},
+  "delegate": {},
   "location_area": {},
   "outcome_criteria": {},
   "outcome_summary": {},

@@ -1,5 +1,8 @@
 {
   "delegate": {
+    "page":    { "heading": "Delegates", "caption": "Manage delegates" },
+    "list":    { "columns": { "name": "Name", "email": "Email", "students": "Students", "active": "Active" } },
+    "actions": { "add": "Add Delegate", "edit": "Edit Delegate", "delete": "Delete Delegate" },
     "validation": {
       "data_required": "Delegate data is required",
       "user_data_required": "Delegate user data is required",
