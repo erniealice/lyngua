@@ -9,6 +9,7 @@
     "noIdsProvided": "No IDs provided",
     "passwordRequired": "Password is required",
     "passwordFailed": "Password change failed",
+    "passwordManagedByProvider": "This account is managed by an external sign-in provider; password reset is not available here.",
     "roleRequired": "Role is required",
     "permissionRequired": "Permission is required",
     "userRequired": "User is required",

@@ -84,7 +84,10 @@
       "mfaEnabled": "Enabled",
       "mfaDisabled": "Not Enabled",
       "passwordSection": "Password",
-      "resetPassword": "Reset Password"
+      "resetPassword": "Reset Password",
+      "authMethod": "Sign-in Method",
+      "managedByProvider": "Your password is managed by your",
+      "manageAccountLink": "Manage account"
     },
     "emptyStates": {
       "auditTitle": "No Audit History",
