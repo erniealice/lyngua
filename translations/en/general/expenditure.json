@@ -187,7 +187,15 @@
       "emptyTitle": "No line items",
       "emptyMessage": "Add line items to this expense.",
       "tabDetails": "Details",
-      "tabPayments": "Payments"
+      "tabPayments": "Payments",
+      "tabRecognition": "Recognition",
+      "tabAccrual": "Accrual",
+      "tabAttachments": "Attachments",
+      "recognitionEmptyTitle": "Not yet recognized",
+      "recognitionEmptyMessage": "This bill has no linked expense recognition yet. Recognize it to assign the cost to a period.",
+      "recognitionRecognizeCta": "Recognize",
+      "accrualEmptyTitle": "No accruals",
+      "accrualEmptyMessage": "Accruals tied to this bill or its supplier contract will appear here."
     },
     "lineItems": {
       "addItem": "Add Item",
