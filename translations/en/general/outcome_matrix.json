@@ -1,0 +1,29 @@
+{
+  "outcomeMatrix": {
+    "page": {
+      "title": "Outcome Matrix"
+    },
+    "picker": {
+      "template": "Template"
+    },
+    "scope": {
+      "mine": "My clients",
+      "all": "All clients"
+    },
+    "grid": {
+      "clientColumn": "Client",
+      "criterionColumn": "Criterion",
+      "scoreColumn": "Score",
+      "saveButton": "Save scores",
+      "savingButton": "Saving…",
+      "savedBanner": "Scores saved.",
+      "errorBanner": "Save failed — please try again.",
+      "readOnlyMarker": "(read only)",
+      "readOnlyTooltip": "Recorded by another staff member — read only",
+      "emptyGrid": "No rows to display."
+    },
+    "errors": {
+      "permissionDenied": "You do not have permission to perform this action"
+    }
+  }
+}

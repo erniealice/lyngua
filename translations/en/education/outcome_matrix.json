@@ -1,0 +1,29 @@
+{
+    "outcomeMatrix": {
+        "page": {
+            "title": "Grade Sheet"
+        },
+        "picker": {
+            "template": "Subject"
+        },
+        "scope": {
+            "mine": "My students",
+            "all": "All students"
+        },
+        "grid": {
+            "clientColumn": "Student",
+            "criterionColumn": "Grading Criterion",
+            "scoreColumn": "Grade",
+            "saveButton": "Save grades",
+            "savingButton": "Saving…",
+            "savedBanner": "Grades saved.",
+            "errorBanner": "Save failed — please try again.",
+            "readOnlyMarker": "(read only)",
+            "readOnlyTooltip": "Recorded by another staff member — read only",
+            "emptyGrid": "No rows to display."
+        },
+        "errors": {
+            "permissionDenied": "You do not have permission to perform this action"
+        }
+    }
+}
