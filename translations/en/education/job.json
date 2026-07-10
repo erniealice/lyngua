@@ -1,5 +1,25 @@
 {
   "job": {
+    "page": {
+      "heading": "Classes",
+      "caption": "Manage your classes",
+      "heading_draft": "Draft Classes",
+      "caption_draft": "Review classes that are still being prepared",
+      "heading_active": "Active Classes",
+      "caption_active": "Classes currently in session",
+      "heading_completed": "Completed Classes",
+      "caption_completed": "Review classes that have concluded",
+      "heading_closed": "Closed Classes",
+      "caption_closed": "View archived or closed classes",
+      "heading_on_hold": "Classes On Hold",
+      "caption_on_hold": "Classes that are temporarily paused"
+    },
+    "buttons": {
+      "add_job": "Add Class"
+    },
+    "columns": {
+      "client": "Student"
+    },
     "detail": {
       "origin_subscription_link": "Spawned from Enrollment"
     }

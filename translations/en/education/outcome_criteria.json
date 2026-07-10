@@ -1,0 +1,47 @@
+{
+    "outcome_criteria": {
+        "page": {
+            "heading": "Rubrics",
+            "heading_active": "Active Rubrics",
+            "heading_inactive": "Inactive Rubrics",
+            "caption": "Manage reusable grading rubrics",
+            "caption_active": "Manage your active rubrics",
+            "caption_inactive": "View inactive or deprecated rubrics"
+        },
+        "buttons": {
+            "add_criterion": "Add Rubric"
+        },
+        "empty": {
+            "title": "No rubrics found",
+            "message": "No rubrics to display.",
+            "active_title": "No active rubrics",
+            "active_message": "Create your first rubric to get started.",
+            "inactive_title": "No inactive rubrics",
+            "inactive_message": "Deactivated rubrics will appear here."
+        },
+        "form": {
+            "name_placeholder": "Enter rubric name",
+            "type": "Rubric Type",
+            "description_placeholder": "Enter rubric description...",
+            "type_info": "The evaluation method used to measure this rubric (e.g. numeric score, pass/fail).",
+            "scope_info": "Whether this rubric applies at the assignment, phase, or class level.",
+            "weight_info": "Relative importance of this rubric when computing an aggregate grade."
+        },
+        "actions": {
+            "view": "View Rubric",
+            "edit": "Edit Rubric",
+            "delete": "Delete Rubric"
+        },
+        "detail": {
+            "page_title": "Rubric Details",
+            "type": "Rubric Type"
+        },
+        "confirm": {
+            "delete": "Delete Rubric"
+        },
+        "errors": {
+            "not_found": "Rubric not found",
+            "id_required": "Rubric ID is required"
+        }
+    }
+}

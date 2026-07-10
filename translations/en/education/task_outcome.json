@@ -1,0 +1,50 @@
+{
+    "task_outcome": {
+        "page": {
+            "heading": "Grade Book",
+            "caption": "Record and review student grades"
+        },
+        "buttons": {
+            "record_outcome": "Record Grade"
+        },
+        "columns": {
+            "task": "Assignment",
+            "criteria": "Rubric",
+            "value": "Score",
+            "determination": "Result"
+        },
+        "empty": {
+            "title": "No grades found",
+            "message": "No grade records to display."
+        },
+        "form": {
+            "task": "Assignment",
+            "criteria": "Rubric",
+            "value": "Score",
+            "notes_placeholder": "Enter grade notes...",
+            "determination": "Result"
+        },
+        "actions": {
+            "view": "View Grade",
+            "edit": "Edit Grade",
+            "delete": "Delete Grade"
+        },
+        "detail": {
+            "page_title": "Grade Details",
+            "task": "Assignment",
+            "criteria": "Rubric",
+            "criteria_type": "Rubric Type",
+            "value": "Score",
+            "determination": "Result",
+            "determination_source": "Result Source"
+        },
+        "confirm": {
+            "delete": "Delete Grade",
+            "delete_message": "Are you sure you want to delete this grade record? This action cannot be undone."
+        },
+        "errors": {
+            "not_found": "Grade record not found",
+            "id_required": "Grade ID is required"
+        }
+    }
+}

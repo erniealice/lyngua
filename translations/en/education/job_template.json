@@ -1,0 +1,49 @@
+{
+    "job_template": {
+        "page": {
+            "heading": "Curricula",
+            "heading_active": "Active Curricula",
+            "heading_inactive": "Inactive Curricula",
+            "caption": "Manage reusable class curricula",
+            "caption_active": "Manage your active curricula",
+            "caption_inactive": "View inactive or archived curricula"
+        },
+        "buttons": {
+            "add_job_template": "Add Curriculum"
+        },
+        "empty": {
+            "title": "No curricula found",
+            "message": "No curricula to display.",
+            "active_title": "No active curricula",
+            "active_message": "Create your first curriculum to get started.",
+            "inactive_title": "No inactive curricula",
+            "inactive_message": "Deactivated curricula will appear here."
+        },
+        "form": {
+            "name": "Curriculum Name",
+            "name_placeholder": "Enter curriculum name",
+            "description_placeholder": "Enter curriculum description..."
+        },
+        "actions": {
+            "view": "View Curriculum",
+            "edit": "Edit Curriculum",
+            "delete": "Delete Curriculum"
+        },
+        "detail": {
+            "page_title": "Curriculum Details"
+        },
+        "confirm": {
+            "delete": "Delete Curriculum"
+        },
+        "errors": {
+            "not_found": "Curriculum not found",
+            "id_required": "Curriculum ID is required",
+            "in_use": "Cannot delete: this curriculum is in use"
+        },
+        "bulk_actions": {
+            "bulk_delete": "Delete selected curricula",
+            "bulk_delete_confirm_title": "Delete curricula?",
+            "bulk_delete_confirm_msg": "Delete {count} curriculum(s)? This action cannot be undone."
+        }
+    }
+}

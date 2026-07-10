@@ -40,7 +40,10 @@
             "products": "Subjects",
             "products_placeholder": "Select subjects...",
             "products_search": "Search subjects...",
-            "job_template": "Curriculum",
+            "client_label": "Student",
+            "client_placeholder": "Leave blank for a general level",
+            "client_help": "Leave blank to make this level available for any student. Set a student to make it a bespoke level for that student only.",
+            "job_template": "",
             "job_template_none": "(none — guidance-only level, no course tracking)",
             "job_template_hint": "Select the curriculum that defines the coursework delivered for this level. Leave empty for guidance-only levels.",
             "visits_per_cycle_label": "Sessions per billing cycle",
@@ -103,10 +106,6 @@
             "id_too_long": "Plan ID is too long",
             "invalid_limit": "Invalid pagination limit",
             "limit_too_large": "Pagination limit is too large"
-        },
-        "fields": {
-            "client_label": "Student",
-            "client_help": "Leave blank for a standard fee schedule. Set a student to create a bespoke fee schedule for that student only."
         },
         "errors": {
             "not_found": "Level with ID \"{entityId}\" not found",
