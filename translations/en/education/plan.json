@@ -21,7 +21,7 @@
             "status": "Status",
             "item_type": "Subject Type",
             "price_plan": "Level",
-            "price_schedule": "Fee Schedule"
+            "price_schedule": "Academic Year"
         },
         "empty": {
             "title": "No levels found",
@@ -70,7 +70,7 @@
             "name": "Name",
             "amount": "Amount",
             "duration": "Duration",
-            "schedule_label": "Fee Schedule",
+            "schedule_label": "Academic Year",
             "date_created": "Date Created",
             "date_modified": "Date Modified",
             "edit": "Edit",
