@@ -1,142 +1,141 @@
 {
     "plan": {
         "page": {
-            "heading": "Program",
-            "headingActive": "Active Programs",
-            "headingInactive": "Inactive Programs",
-            "caption": "Manage your programs",
-            "captionActive": "View and manage active programs",
-            "captionInactive": "View discontinued programs"
+            "heading": "Level",
+            "heading_active": "Active Levels",
+            "heading_inactive": "Inactive Levels",
+            "caption": "Manage your levels",
+            "caption_active": "View and manage active levels",
+            "caption_inactive": "View discontinued levels"
         },
         "buttons": {
-            "addPlan": "Add Program",
-            "addProduct": "Add Subject",
-            "addPricePlan": "Add Program Price",
-            "editPricePlan": "Edit Program Price"
+            "add_plan": "Add Level",
+            "add_product": "Add Subject",
+            "add_price_plan": "Add Level Price",
+            "edit_price_plan": "Edit Level Price"
         },
         "columns": {
-            "name": "Program Name",
+            "name": "Level Name",
             "description": "Description",
             "price": "Price",
             "status": "Status",
-            "itemType": "Subject Type",
-            "pricePlan": "Program",
-            "priceSchedule": "Fee Schedule"
+            "item_type": "Subject Type",
+            "price_plan": "Level",
+            "price_schedule": "Fee Schedule"
         },
         "empty": {
-            "title": "No programs found",
-            "message": "Create your first program to get started.",
-            "activeTitle": "No active programs",
-            "activeMessage": "Create your first program to get started.",
-            "inactiveTitle": "No inactive programs",
-            "inactiveMessage": "Discontinued programs will appear here."
+            "title": "No levels found",
+            "message": "Create your first level to get started.",
+            "active_title": "No active levels",
+            "active_message": "Create your first level to get started.",
+            "inactive_title": "No inactive levels",
+            "inactive_message": "Discontinued levels will appear here."
         },
         "form": {
-            "name": "Program Name",
-            "namePlaceholder": "Enter program name",
+            "name": "Level Name",
+            "name_placeholder": "Enter level name",
             "description": "Description",
-            "descriptionPlaceholder": "Enter program description...",
+            "description_placeholder": "Enter level description...",
             "active": "Active",
             "products": "Subjects",
-            "productsPlaceholder": "Select subjects...",
-            "productsSearch": "Search subjects...",
-            "jobTemplate": "Curriculum",
-            "jobTemplateNone": "(none — guidance-only program, no course tracking)",
-            "jobTemplateHint": "Select the curriculum that defines the coursework delivered for this program. Leave empty for guidance-only programs.",
-            "visitsPerCycleLabel": "Sessions per billing cycle",
-            "clientScopeCascadeNotice": "If a student is selected, this program can only be assigned to a student-scoped fee schedule.",
+            "products_placeholder": "Select subjects...",
+            "products_search": "Search subjects...",
+            "job_template": "Curriculum",
+            "job_template_none": "(none — guidance-only level, no course tracking)",
+            "job_template_hint": "Select the curriculum that defines the coursework delivered for this level. Leave empty for guidance-only levels.",
+            "visits_per_cycle_label": "Sessions per billing cycle",
+            "client_scope_cascade_notice": "If a student is selected, this level can only be assigned to a student-scoped fee schedule.",
             "sections": {
                 "basic": "Basic Information",
                 "services": "Assigned Subjects"
             }
         },
         "actions": {
-            "view": "View Program",
-            "edit": "Edit Program",
-            "delete": "Delete Program"
+            "view": "View Level",
+            "edit": "Edit Level",
+            "delete": "Delete Level"
         },
         "detail": {
-            "pageTitle": "Program Details",
+            "page_title": "Level Details",
             "price": "Price",
             "currency": "Currency",
             "status": "Status",
             "description": "Description",
-            "createdDate": "Created",
-            "modifiedDate": "Last Modified",
-            "heading": "Program Info",
+            "created_date": "Created",
+            "modified_date": "Last Modified",
+            "heading": "Level Info",
             "name": "Name",
             "amount": "Amount",
-            "currency": "Currency",
             "duration": "Duration",
-            "scheduleLabel": "Fee Schedule",
-            "dateCreated": "Date Created",
-            "dateModified": "Date Modified",
+            "schedule_label": "Fee Schedule",
+            "date_created": "Date Created",
+            "date_modified": "Date Modified",
             "edit": "Edit",
-            "editTitle": "Edit Program",
-            "noProductsAssigned": "No subjects assigned",
-            "noProductsAssignedMsg": "No subjects assigned to this program yet.",
-            "noPricePlans": "No program prices",
-            "noPricePlansMsg": "No program prices have been configured for this program yet."
+            "edit_title": "Edit Level",
+            "no_products_assigned": "No subjects assigned",
+            "no_products_assigned_msg": "No subjects assigned to this level yet.",
+            "no_price_plans": "No level prices",
+            "no_price_plans_msg": "No level prices have been configured for this level yet."
         },
         "tabs": {
             "info": "Information",
             "products": "Subjects",
-            "productsSlug": "items",
-            "pricePlan": "Program Prices",
-            "pricePlanSlug": "package-prices",
-            "bundlePricing": "Pricing",
-            "auditTrail": "Audit Trail",
-            "auditHistory": "History"
+            "products_slug": "subjects",
+            "price_plan": "Level Prices",
+            "price_plan_slug": "level-prices",
+            "bundle_pricing": "Pricing",
+            "audit_trail": "Audit Trail",
+            "audit_history": "History"
         },
         "confirm": {
-            "delete": "Delete Program",
-            "deleteMessage": "Are you sure you want to delete \"%s\"? This action cannot be undone.",
-            "deactivate": "Deactivate Program",
-            "deactivateMessage": "Are you sure you want to deactivate \"%s\"?"
+            "delete": "Delete Level",
+            "delete_message": "Are you sure you want to delete \"%s\"? This action cannot be undone.",
+            "deactivate": "Deactivate Level",
+            "deactivate_message": "Are you sure you want to deactivate \"%s\"?"
         },
         "validation": {
-            "data_required": "Program data is required",
-            "name_required": "Program name is required",
-            "email_required": "Program email is required",
-            "email_invalid": "Program email format is invalid",
-            "id_required": "Program ID is required",
-            "request_required": "Request is required for programs",
+            "data_required": "Level data is required",
+            "name_required": "Level name is required",
+            "email_required": "Level email is required",
+            "email_invalid": "Level email format is invalid",
+            "id_required": "Level ID is required",
+            "request_required": "Request is required for levels",
             "id_too_long": "Plan ID is too long",
             "invalid_limit": "Invalid pagination limit",
             "limit_too_large": "Pagination limit is too large"
         },
         "fields": {
-            "clientLabel": "Student",
-            "clientHelp": "Leave blank for a standard fee schedule. Set a student to create a bespoke fee schedule for that student only."
+            "client_label": "Student",
+            "client_help": "Leave blank for a standard fee schedule. Set a student to create a bespoke fee schedule for that student only."
         },
         "errors": {
-            "not_found": "Program with ID \"{entityId}\" not found",
-            "creation_failed": "Program creation failed",
-            "update_failed": "Program update failed",
-            "deletion_failed": "Program deletion failed",
-            "list_failed": "Failed to retrieve programs",
-            "authorization_failed": "Authorization failed for programs",
-            "get_item_page_data_failed": "Failed to load program details",
-            "get_list_page_data_failed": "Failed to load program list",
-            "permissionDenied": "You do not have permission to perform this action",
-            "invalidFormData": "Invalid form data. Please check your inputs and try again.",
-            "noPermission": "You do not have permission to perform this action"
+            "not_found": "Level with ID \"{entityId}\" not found",
+            "creation_failed": "Level creation failed",
+            "update_failed": "Level update failed",
+            "deletion_failed": "Level deletion failed",
+            "list_failed": "Failed to retrieve levels",
+            "authorization_failed": "Authorization failed for levels",
+            "get_item_page_data_failed": "Failed to load level details",
+            "get_list_page_data_failed": "Failed to load level list",
+            "permission_denied": "You do not have permission to perform this action",
+            "invalid_form_data": "Invalid form data. Please check your inputs and try again.",
+            "no_permission": "You do not have permission to perform this action"
         },
-        "productPlanForm": {
+        "product_plan_form": {
             "product": "Subject",
-            "productPlaceholder": "Select a subject...",
-            "selectProduct": "— Select a subject —",
+            "product_placeholder": "Select a subject...",
+            "select_product": "— Select a subject —",
             "active": "Active",
-            "productKindLabel": "Subject Type",
-            "productKind": {
+            "product_kind_label": "Subject Type",
+            "product_kind": {
                 "service": "Subject",
-                "stockedGood": "Stocked Good",
-                "nonStockedGood": "Non-Stocked Good",
+                "stocked_good": "Stocked Good",
+                "non_stocked_good": "Non-Stocked Good",
                 "consumable": "Consumable"
             },
-            "variantSelectLabel": "Variant",
-            "variantSelectPlaceholder": "Select a variant",
-            "variantSelectInfo": "Required when the parent subject has variants enabled."
+            "variant_select_label": "Variant",
+            "variant_select_placeholder": "Select a variant",
+            "variant_select_info": "Required when the parent subject has variants enabled."
         }
     }
 }

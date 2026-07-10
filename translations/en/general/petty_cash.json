@@ -1,20 +1,20 @@
 {
   "page": {
-    "registerHeading": "Petty Cash Register",
-    "registerCaption": "Manage petty cash funds across locations and custodians",
-    "replenishmentsHeading": "Petty Cash Replenishments",
-    "replenishmentsCaption": "Track fund replenishments and reimbursements",
-    "custodianBalancesHeading": "Custodian Balances",
-    "custodianBalancesCaption": "Current balance summary by custodian"
+    "register_heading": "Petty Cash Register",
+    "register_caption": "Manage petty cash funds across locations and custodians",
+    "replenishments_heading": "Petty Cash Replenishments",
+    "replenishments_caption": "Track fund replenishments and reimbursements",
+    "custodian_balances_heading": "Custodian Balances",
+    "custodian_balances_caption": "Current balance summary by custodian"
   },
   "buttons": {
-    "addFund": "Add Fund",
+    "add_fund": "Add Fund",
     "replenish": "Replenish"
   },
   "columns": {
     "name": "Fund Name",
-    "authorizedAmount": "Authorized Amount",
-    "currentBalance": "Current Balance",
+    "authorized_amount": "Authorized Amount",
+    "current_balance": "Current Balance",
     "custodian": "Custodian",
     "location": "Location",
     "status": "Status",
@@ -22,34 +22,34 @@
     "amount": "Amount",
     "date": "Date",
     "notes": "Notes",
-    "totalFunds": "Total Funds",
-    "totalBalance": "Total Balance"
+    "total_funds": "Total Funds",
+    "total_balance": "Total Balance"
   },
   "status": {
     "active": "Active",
     "inactive": "Inactive"
   },
   "empty": {
-    "registerTitle": "No petty cash funds",
-    "registerMessage": "Set up petty cash funds for each location or department.",
-    "replenishmentsTitle": "No replenishments",
-    "replenishmentsMessage": "Replenishment records will appear here when funds are restocked.",
-    "custodianTitle": "No custodian data",
-    "custodianMessage": "Assign custodians to funds to see balance summaries here."
+    "register_title": "No petty cash funds",
+    "register_message": "Set up petty cash funds for each location or department.",
+    "replenishments_title": "No replenishments",
+    "replenishments_message": "Replenishment records will appear here when funds are restocked.",
+    "custodian_title": "No custodian data",
+    "custodian_message": "Assign custodians to funds to see balance summaries here."
   },
   "form": {
     "name": "Fund Name",
-    "namePlaceholder": "e.g. Main Office Petty Cash",
-    "authorizedAmount": "Authorized Amount",
-    "authorizedPlaceholder": "0.00",
-    "custodianId": "Custodian",
-    "locationId": "Location"
+    "name_placeholder": "e.g. Main Office Petty Cash",
+    "authorized_amount": "Authorized Amount",
+    "authorized_placeholder": "0.00",
+    "custodian_id": "Custodian",
+    "location_id": "Location"
   },
   "actions": {
     "view": "View",
     "replenish": "Replenish",
     "delete": "Delete",
-    "noPermission": "No permission",
-    "confirmDelete": "Are you sure you want to delete this petty cash fund? This action cannot be undone."
+    "no_permission": "No permission",
+    "confirm_delete": "Are you sure you want to delete this petty cash fund? This action cannot be undone."
   }
 }

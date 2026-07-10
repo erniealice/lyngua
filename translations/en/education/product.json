@@ -1,12 +1,12 @@
 {
     "product": {
-        "productKind": {
+        "product_kind": {
             "service": "Subject",
-            "stockedGood": "Stocked Good",
-            "nonStockedGood": "Non-Stocked Good",
+            "stocked_good": "Stocked Good",
+            "non_stocked_good": "Non-Stocked Good",
             "consumable": "Consumable"
         },
-        "deliveryMode": {
+        "delivery_mode": {
             "instant": "Instant",
             "scheduled": "Scheduled",
             "shipped": "Shipped",
@@ -14,21 +14,21 @@
             "project": "Project",
             "subscription": "Enrollment"
         },
-        "trackingMode": {
+        "tracking_mode": {
             "none": "None",
             "bulk": "Bulk",
             "serialized": "Serialized"
         },
         "page": {
             "heading": "Subjects",
-            "headingActive": "Active Subjects",
-            "headingInactive": "Inactive Subjects",
+            "heading_active": "Active Subjects",
+            "heading_inactive": "Inactive Subjects",
             "caption": "Manage your subject offerings",
-            "captionActive": "View and manage active subjects",
-            "captionInactive": "View discontinued subjects"
+            "caption_active": "View and manage active subjects",
+            "caption_inactive": "View discontinued subjects"
         },
         "buttons": {
-            "addProduct": "Add Subject"
+            "add_product": "Add Subject"
         },
         "columns": {
             "name": "Subject Name",
@@ -38,46 +38,46 @@
             "status": "Status"
         },
         "empty": {
-            "activeTitle": "No active subjects",
-            "activeMessage": "Add your first subject to get started.",
-            "inactiveTitle": "No inactive subjects",
-            "inactiveMessage": "Discontinued subjects will appear here."
+            "active_title": "No active subjects",
+            "active_message": "Add your first subject to get started.",
+            "inactive_title": "No inactive subjects",
+            "inactive_message": "Discontinued subjects will appear here."
         },
         "form": {
             "name": "Subject Name",
             "description": "Description",
-            "descriptionPlaceholder": "Enter subject description...",
+            "description_placeholder": "Enter subject description...",
             "price": "Price",
             "currency": "Currency",
             "active": "Active",
             "line": "Discipline",
-            "linePlaceholder": "Select a discipline",
-            "pricePlaceholder": "Leave empty to use base price",
-            "selectOption": "Select",
+            "line_placeholder": "Select a discipline",
+            "price_placeholder": "Leave empty to use base price",
+            "select_option": "Select",
             "required": "Required",
             "option": "Option",
-            "selectAttribute": "— Select attribute —",
-            "allAttributesAssigned": "All available attributes have already been assigned to this subject.",
-            "optionNeedsValuesAlert": "This required option has no values yet. Add values on the option detail page before assigning variants.",
-            "variantModeLabel": "Allow Subject Variants",
-            "variantModeInfo": "Turn on when this subject has distinct tiers or packages that are priced separately (e.g. 30-min / 60-min / 90-min, Basic / Pro / Premium, by instructor level). Price then lives on each variant rather than on this form.",
-            "variantModeNone": "Single offering",
-            "variantModeConfigurable": "Multiple variants",
-            "unitLabel": "Unit of delivery",
-            "unitInfo": "Free-text display unit for how this subject is billed or counted (e.g. hr, session, class, term, cycle). Stocked consumables can use ea, pack, bottle.",
-            "unitPlaceholder": "e.g. hr, session, class",
-            "variantPriceVaries": "Varies",
-            "productKindLabel": "Item type",
-            "productKindInfo": "Whether this is the subject you offer, a supply you use to deliver it, or a good you resell.",
-            "productKindValueInfo": {
+            "select_attribute": "— Select attribute —",
+            "all_attributes_assigned": "All available attributes have already been assigned to this subject.",
+            "option_needs_values_alert": "This required option has no values yet. Add values on the option detail page before assigning variants.",
+            "variant_mode_label": "Allow Subject Variants",
+            "variant_mode_info": "Turn on when this subject has distinct tiers or packages that are priced separately (e.g. 30-min / 60-min / 90-min, Basic / Pro / Premium, by instructor level). Price then lives on each variant rather than on this form.",
+            "variant_mode_none": "Single offering",
+            "variant_mode_configurable": "Multiple variants",
+            "unit_label": "Unit of delivery",
+            "unit_info": "Free-text display unit for how this subject is billed or counted (e.g. hr, session, class, term, cycle). Stocked consumables can use ea, pack, bottle.",
+            "unit_placeholder": "e.g. hr, session, class",
+            "variant_price_varies": "Varies",
+            "product_kind_label": "Item type",
+            "product_kind_info": "Whether this is the subject you offer, a supply you use to deliver it, or a good you resell.",
+            "product_kind_value_info": {
                 "service": "The offering itself — what the student pays for (subject, course, session).",
                 "stocked_good": "Retail goods you hold inventory of and resell to students (take-home materials, merchandise).",
                 "non_stocked_good": "Items you sell but never stock — drop-shipped or ordered on demand.",
                 "consumable": "Back-of-house supplies used during delivery and expensed on use (paper, lab supplies, markers, gloves)."
             },
-            "deliveryModeLabel": "How it's delivered",
-            "deliveryModeInfo": "How the student experiences or receives this item. Drives scheduling and billing behaviour.",
-            "deliveryModeValueInfo": {
+            "delivery_mode_label": "How it's delivered",
+            "delivery_mode_info": "How the student experiences or receives this item. Drives scheduling and billing behaviour.",
+            "delivery_mode_value_info": {
                 "instant": "Consumed or handed over on the spot — walk-in help, quick check.",
                 "scheduled": "Requires a booked session — the standard classroom subject mode.",
                 "shipped": "Physically delivered to the student (mail-order, home-study kit).",
@@ -85,9 +85,9 @@
                 "project": "Multi-session course with milestones (term plan, capstone).",
                 "subscription": "Recurring access — membership, monthly enrollment."
             },
-            "trackingModeLabel": "Inventory tracking",
-            "trackingModeInfo": "How stock is counted. Only applies to physical goods and supplies.",
-            "trackingModeValueInfo": {
+            "tracking_mode_label": "Inventory tracking",
+            "tracking_mode_info": "How stock is counted. Only applies to physical goods and supplies.",
+            "tracking_mode_value_info": {
                 "none": "No tracking — for subjects and one-off orders.",
                 "bulk": "Count on hand — the normal choice for consumables and most retail goods.",
                 "serialized": "One row per unit — use for regulated items with lot/serial numbers (devices, controlled products)."
@@ -98,12 +98,12 @@
             "edit": "Edit Subject",
             "delete": "Delete Subject"
         },
-        "bulkActions": {
+        "bulk_actions": {
             "delete": "Delete Selected"
         },
         "tabs": {
             "info": "Info",
-            "variants": "Program Options",
+            "variants": "Level Options",
             "attributes": "Attributes",
             "pricing": "Pricing",
             "options": "Options",
@@ -111,116 +111,116 @@
             "stock": "Resource Allocation",
             "lines": "Disciplines",
             "attachments": "Attachments",
-            "auditTrail": "Audit Trail",
-            "auditHistory": "History",
+            "audit_trail": "Audit Trail",
+            "audit_history": "History",
             "serials": "Serials",
-            "pricingHistory": "Pricing History"
+            "pricing_history": "Pricing History"
         },
         "detail": {
             "price": "Price",
             "currency": "Currency",
             "collections": "Disciplines",
-            "variantCount": "Program Options",
+            "variant_count": "Level Options",
             "status": "Status",
-            "optionsLabel": "Options",
-            "emptyVariantsMessage": "No program options have been created for this subject yet.",
-            "serialNumber": "Serial Number",
+            "options_label": "Options",
+            "empty_variants_message": "No level options have been created for this subject yet.",
+            "serial_number": "Serial Number",
             "imei": "IMEI",
-            "warrantyEnd": "Warranty End",
-            "purchaseOrder": "Purchase Order",
-            "noSerialNumbers": "No Serial Numbers",
-            "noSerialNumbersMsg": "No serial numbers have been recorded for this inventory item.",
-            "variantInformation": "Program Option Information",
+            "warranty_end": "Warranty End",
+            "purchase_order": "Purchase Order",
+            "no_serial_numbers": "No Serial Numbers",
+            "no_serial_numbers_msg": "No serial numbers have been recorded for this inventory item.",
+            "variant_information": "Level Option Information",
             "options": "Options",
-            "variantPricing": "Program Pricing",
-            "variantPricingDesc": "Set a custom price for this program option, or leave empty to use the base subject price.",
-            "inventoryStock": "Resource Allocation",
-            "inventoryStockDesc": "Resource allocation is tracked per team. View and manage from the resource module.",
-            "dropImagesHere": "Drop images here or click to browse",
-            "imageFileHint": "Max 5 MB per file. JPEG, PNG, WebP.",
-            "deleteSelected": "Delete Selected",
-            "primaryBadge": "Primary",
-            "noImages": "No Images",
-            "noImagesDesc": "Upload images using the drop zone above.",
-            "auditTrail": "Audit Trail",
-            "auditTrailDesc": "Audit trail for program option changes is coming soon.",
-            "noSerialNumbersDesc": "No serial numbers have been recorded for this inventory item.",
-            "inventoryItem": "Inventory Item",
+            "variant_pricing": "Level Pricing",
+            "variant_pricing_desc": "Set a custom price for this level option, or leave empty to use the base subject price.",
+            "inventory_stock": "Resource Allocation",
+            "inventory_stock_desc": "Resource allocation is tracked per team. View and manage from the resource module.",
+            "drop_images_here": "Drop images here or click to browse",
+            "image_file_hint": "Max 5 MB per file. JPEG, PNG, WebP.",
+            "delete_selected": "Delete Selected",
+            "primary_badge": "Primary",
+            "no_images": "No Images",
+            "no_images_desc": "Upload images using the drop zone above.",
+            "audit_trail": "Audit Trail",
+            "audit_trail_desc": "Audit trail for level option changes is coming soon.",
+            "no_serial_numbers_desc": "No serial numbers have been recorded for this inventory item.",
+            "inventory_item": "Inventory Item",
             "name": "Name",
             "sku": "SKU",
             "type": "Type",
             "location": "Team",
-            "qtyOnHand": "Capacity",
+            "qty_on_hand": "Capacity",
             "reserved": "Reserved",
             "available": "Available",
-            "statTotal": "Total",
-            "statAvailable": "Available",
-            "statSold": "Sold",
-            "statReserved": "Reserved",
-            "pricingHistory": "Pricing History",
-            "pricingHistoryDesc": "Pricing history for this item is coming soon.",
-            "serialInformation": "Serial Information"
+            "stat_total": "Total",
+            "stat_available": "Available",
+            "stat_sold": "Sold",
+            "stat_reserved": "Reserved",
+            "pricing_history": "Pricing History",
+            "pricing_history_desc": "Pricing history for this item is coming soon.",
+            "serial_information": "Serial Information"
         },
         "status": {
             "activate": "Activate",
             "deactivate": "Deactivate"
         },
         "variant": {
-            "title": "Program Options",
+            "title": "Level Options",
             "sku": "SKU",
-            "priceOverride": "Price Override",
+            "price_override": "Price Override",
             "attributes": "Attributes",
-            "assign": "Add Program Option",
-            "edit": "Edit Program Option",
-            "remove": "Remove Program Option",
-            "empty": "No Program Options",
+            "assign": "Add Level Option",
+            "edit": "Edit Level Option",
+            "remove": "Remove Level Option",
+            "empty": "No Level Options",
             "location": "Team",
-            "qtyOnHand": "Capacity",
-            "serialCount": "Serial Count",
-            "noStock": "No Resource Allocation",
-            "noStockMsg": "No resource allocation records found for this program option.",
+            "qty_on_hand": "Capacity",
+            "serial_count": "Serial Count",
+            "no_stock": "No Resource Allocation",
+            "no_stock_msg": "No resource allocation records found for this level option.",
             "pricing": {
                 "start": "Start Date",
                 "end": "End Date",
                 "package": "Package",
-                "rateCard": "Fee Schedule",
+                "rate_card": "Fee Schedule",
                 "amount": "Amount"
             }
         },
         "attribute": {
             "title": "Attribute",
-            "defaultValue": "Default Value",
+            "default_value": "Default Value",
             "assign": "Add Attribute",
             "remove": "Remove Attribute",
             "empty": "No Attributes"
         },
         "confirm": {
             "activate": "Activate Subject",
-            "activateMessage": "Are you sure you want to activate subject \"%s\"?",
+            "activate_message": "Are you sure you want to activate subject \"%s\"?",
             "deactivate": "Deactivate Subject",
-            "deactivateMessage": "Are you sure you want to deactivate subject \"%s\"?",
-            "bulkActivate": "Activate Subjects",
-            "bulkActivateMessage": "Are you sure you want to activate the selected subjects?",
-            "bulkDeactivate": "Deactivate Subjects",
-            "bulkDeactivateMessage": "Are you sure you want to deactivate the selected subjects?",
-            "bulkDelete": "Delete Subjects",
-            "bulkDeleteMessage": "Are you sure you want to delete the selected subjects? This action cannot be undone.",
-            "removeVariant": "Remove Program Option",
-            "removeVariantMessage": "Are you sure you want to remove this program option?"
+            "deactivate_message": "Are you sure you want to deactivate subject \"%s\"?",
+            "bulk_activate": "Activate Subjects",
+            "bulk_activate_message": "Are you sure you want to activate the selected subjects?",
+            "bulk_deactivate": "Deactivate Subjects",
+            "bulk_deactivate_message": "Are you sure you want to deactivate the selected subjects?",
+            "bulk_delete": "Delete Subjects",
+            "bulk_delete_message": "Are you sure you want to delete the selected subjects? This action cannot be undone.",
+            "remove_variant": "Remove Level Option",
+            "remove_variant_message": "Are you sure you want to remove this level option?"
         },
         "validation": {
             "price_required_for_simple": "Price is required when this subject is not variant-configurable."
         },
         "errors": {
-            "permissionDenied": "You do not have permission to perform this action",
-            "invalidFormData": "Invalid form data. Please check your inputs and try again.",
-            "notFound": "Subject not found",
-            "idRequired": "Subject ID is required",
-            "noIDsProvided": "No subject IDs were provided",
-            "invalidStatus": "Invalid subject status",
-            "cannotDelete": "This subject cannot be deleted because it is in use",
-            "nameRequired": "Subject name is required",
-            "fieldRequired": "This field is required"
+            "permission_denied": "You do not have permission to perform this action",
+            "invalid_form_data": "Invalid form data. Please check your inputs and try again.",
+            "not_found": "Subject not found",
+            "id_required": "Subject ID is required",
+            "no_ids_provided": "No subject IDs were provided",
+            "invalid_status": "Invalid subject status",
+            "cannot_delete": "This subject cannot be deleted because it is in use",
+            "name_required": "Subject name is required",
+            "field_required": "This field is required"
         },
         "breadcrumb": {
             "products": "Subjects",
@@ -238,76 +238,76 @@
             "columns": {
                 "name": "Name",
                 "code": "Code",
-                "dataType": "Data Type",
-                "valuesCount": "Values",
-                "sortOrder": "Sort Order",
+                "data_type": "Data Type",
+                "values_count": "Values",
+                "sort_order": "Sort Order",
                 "required": "Required",
                 "status": "Status"
             },
             "form": {
                 "name": "Option Name",
-                "namePlaceholder": "e.g. Tier, SLA, Support Level",
+                "name_placeholder": "e.g. Tier, SLA, Support Level",
                 "code": "Option Code",
-                "codePlaceholder": "e.g. tier, sla, support-level",
-                "dataType": "Data Type",
-                "sortOrder": "Sort Order",
-                "minValue": "Min Value",
-                "maxValue": "Max Value",
+                "code_placeholder": "e.g. tier, sla, support-level",
+                "data_type": "Data Type",
+                "sort_order": "Sort Order",
+                "min_value": "Min Value",
+                "max_value": "Max Value",
                 "active": "Active",
                 "required": "Required",
-                "requiredCaution": "Marking this option as required means every variant of this subject must supply a value for it. If this option has no values yet, variants can't be saved until you add some.",
+                "required_caution": "Marking this option as required means every variant of this subject must supply a value for it. If this option has no values yet, variants can't be saved until you add some.",
                 "description": "Description",
-                "descriptionPlaceholder": "Optional notes about this option",
-                "descriptionEmpty": "No description provided",
-                "descriptionInfo": "Optional internal description. Up to 500 characters."
+                "description_placeholder": "Optional notes about this option",
+                "description_empty": "No description provided",
+                "description_info": "Optional internal description. Up to 500 characters."
             },
-            "dataTypes": {
-                "textList": "Text List",
-                "numberRange": "Number Range",
-                "colorList": "Color List",
-                "freeText": "Free Text",
-                "freeNumber": "Free Number"
+            "data_types": {
+                "text_list": "Text List",
+                "number_range": "Number Range",
+                "color_list": "Color List",
+                "free_text": "Free Text",
+                "free_number": "Free Number"
             },
             "value": {
                 "columns": {
                     "label": "Label",
                     "value": "Value",
-                    "sortOrder": "Sort Order",
-                    "colorPreview": "Preview",
+                    "sort_order": "Sort Order",
+                    "color_preview": "Preview",
                     "status": "Status"
                 },
                 "form": {
                     "label": "Value Label",
-                    "labelPlaceholder": "e.g. Basic, Pro, Enterprise",
+                    "label_placeholder": "e.g. Basic, Pro, Enterprise",
                     "value": "Value",
-                    "valuePlaceholder": "e.g. basic, pro, enterprise",
-                    "sortOrder": "Sort Order",
-                    "colorHex": "Color Hex",
-                    "colorHexPlaceholder": "#FF0000",
+                    "value_placeholder": "e.g. basic, pro, enterprise",
+                    "sort_order": "Sort Order",
+                    "color_hex": "Color Hex",
+                    "color_hex_placeholder": "#FF0000",
                     "active": "Active",
                     "option": "Option",
                     "required": "Required"
                 }
             },
             "actions": {
-                "addOption": "Add Option",
-                "editOption": "Edit Option",
-                "editProductOption": "Edit Subject Option",
-                "deleteOption": "Delete Option",
-                "viewValues": "View Values",
-                "addValue": "Add Value",
-                "editValue": "Edit Value",
-                "deleteValue": "Delete Value"
+                "add_option": "Add Option",
+                "edit_option": "Edit Option",
+                "edit_product_option": "Edit Subject Option",
+                "delete_option": "Delete Option",
+                "view_values": "View Values",
+                "add_value": "Add Value",
+                "edit_value": "Edit Value",
+                "delete_value": "Delete Value"
             },
             "empty": {
                 "title": "No Options",
                 "message": "No options have been configured for this subject yet.",
-                "valueTitle": "No Values",
-                "valueMessage": "No values have been added to this option yet."
+                "value_title": "No Values",
+                "value_message": "No values have been added to this option yet."
             },
             "confirm": {
-                "deleteOption": "Are you sure you want to delete option",
-                "deleteValue": "Are you sure you want to delete value"
+                "delete_option": "Are you sure you want to delete option",
+                "delete_value": "Are you sure you want to delete value"
             }
         }
     }

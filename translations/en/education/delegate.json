@@ -1,6 +1,6 @@
 {
   "delegate": {
-    "page":    { "heading": "Guardians", "caption": "Manage parent and guardian access for students" },
+    "page":    { "heading": "Parents/Guardians", "caption": "Manage parent and guardian access for students" },
     "actions": { "add": "Add Guardian", "edit": "Edit Guardian", "delete": "Remove Guardian" }
   }
 }

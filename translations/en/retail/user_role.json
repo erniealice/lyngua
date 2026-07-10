@@ -4,13 +4,13 @@
     "caption": "Manage roles assigned to this user"
   },
   "buttons": {
-    "assignRole": "Assign Role"
+    "assign_role": "Assign Role"
   },
   "columns": {
-    "roleName": "Role Name",
+    "role_name": "Role Name",
     "description": "Description",
     "color": "Color",
-    "dateAssigned": "Date Assigned"
+    "date_assigned": "Date Assigned"
   },
   "empty": {
     "title": "No roles assigned",
@@ -22,6 +22,6 @@
   "actions": {
     "assign": "Assign",
     "remove": "Remove",
-    "manageRoles": "Manage Roles"
+    "manage_roles": "Manage Roles"
   }
 }

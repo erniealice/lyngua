@@ -1,18 +1,18 @@
 {
   "product_inventory": {
     "page": {
-      "headingActive": "Active Products",
-      "headingInactive": "Inactive Products",
+      "heading_active": "Active Products",
+      "heading_inactive": "Inactive Products",
       "caption": "Manage auxiliary products"
     },
     "buttons": {
-      "addProduct": "Add Product"
+      "add_product": "Add Product"
     },
     "form": {
-      "variantModeLabel": "Allow Product Variants",
-      "variantModeInfo": "Turn on when this product comes in distinct SKUs (size, colour, material, pack size). Price then lives per-variant — useful when customers pick a specific variant at checkout.",
-      "variantModeNone": "Single SKU",
-      "variantModeConfigurable": "Multiple SKUs"
+      "variant_mode_label": "Allow Product Variants",
+      "variant_mode_info": "Turn on when this product comes in distinct SKUs (size, colour, material, pack size). Price then lives per-variant — useful when customers pick a specific variant at checkout.",
+      "variant_mode_none": "Single SKU",
+      "variant_mode_configurable": "Multiple SKUs"
     }
   }
 }

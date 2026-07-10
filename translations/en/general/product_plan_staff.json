@@ -1,15 +1,15 @@
 {
-  "productPlanStaff": {
+  "product_plan_staff": {
     "page": {
       "title": "Plan Staff",
       "subtitle": "Manage staff eligibility for product plans",
-      "activeTitle": "Active Plan Staff",
-      "inactiveTitle": "Inactive Plan Staff"
+      "active_title": "Active Plan Staff",
+      "inactive_title": "Inactive Plan Staff"
     },
     "buttons": {
       "activate": "Activate",
       "add": "Add Staff",
-      "bulkDelete": "Delete Staff",
+      "bulk_delete": "Delete Staff",
       "deactivate": "Deactivate",
       "delete": "Delete Staff",
       "edit": "Edit Staff",
@@ -17,10 +17,10 @@
     },
     "columns": {
       "actions": "Actions",
-      "dateCreated": "Date Created",
-      "productPlan": "Product Plan",
+      "date_created": "Date Created",
+      "product_plan": "Product Plan",
       "role": "Role",
-      "staffId": "Staff",
+      "staff_id": "Staff",
       "status": "Status"
     },
     "empty": {
@@ -29,54 +29,54 @@
     },
     "form": {
       "active": "Active",
-      "activeInfo": "Inactive assignments are excluded from the deliverer picker.",
-      "productPlanId": "Product Plan",
-      "productPlanInfo": "The product_plan this staff member is eligible for.",
-      "productPlanPlaceholder": "Enter product plan ID",
+      "active_info": "Inactive assignments are excluded from the deliverer picker.",
+      "product_plan_id": "Product Plan",
+      "product_plan_info": "The product_plan this staff member is eligible for.",
+      "product_plan_placeholder": "Enter product plan ID",
       "role": "Role",
-      "roleInfo": "Pool membership role: eligible / primary / assistant (data-driven, not an enum).",
-      "rolePlaceholder": "e.g. eligible, primary, assistant",
-      "sectionAssignment": "Plan assignment",
-      "sectionStaff": "Staff member",
-      "staffId": "Staff ID",
-      "staffIdInfo": "The workspace_user ID of the eligible staff member.",
-      "staffIdPlaceholder": "Enter staff ID"
+      "role_info": "Pool membership role: eligible / primary / assistant (data-driven, not an enum).",
+      "role_placeholder": "e.g. eligible, primary, assistant",
+      "section_assignment": "Plan assignment",
+      "section_staff": "Staff member",
+      "staff_id": "Staff ID",
+      "staff_id_info": "The workspace_user ID of the eligible staff member.",
+      "staff_id_placeholder": "Enter staff ID"
     },
     "bulk": {
-      "activateMessage": "Activate the selected staff assignments?",
-      "activateTitle": "Activate Plan Staff",
-      "deactivateMessage": "Deactivate the selected staff assignments?",
-      "deactivateTitle": "Deactivate Plan Staff",
-      "deleteMessage": "Permanently delete the selected staff assignments? This cannot be undone.",
-      "deleteTitle": "Delete Plan Staff"
+      "activate_message": "Activate the selected staff assignments?",
+      "activate_title": "Activate Plan Staff",
+      "deactivate_message": "Deactivate the selected staff assignments?",
+      "deactivate_title": "Deactivate Plan Staff",
+      "delete_message": "Permanently delete the selected staff assignments? This cannot be undone.",
+      "delete_title": "Delete Plan Staff"
     },
     "confirm": {
-      "activateMessage": "Activate {{name}}?",
-      "activateTitle": "Activate Staff Assignment",
-      "deactivateMessage": "Deactivate {{name}}?",
-      "deactivateTitle": "Deactivate Staff Assignment",
-      "deleteMessage": "Permanently delete this staff assignment? This cannot be undone.",
-      "deleteTitle": "Delete Staff Assignment"
+      "activate_message": "Activate {{name}}?",
+      "activate_title": "Activate Staff Assignment",
+      "deactivate_message": "Deactivate {{name}}?",
+      "deactivate_title": "Deactivate Staff Assignment",
+      "delete_message": "Permanently delete this staff assignment? This cannot be undone.",
+      "delete_title": "Delete Staff Assignment"
     },
     "tabs": {
       "info": "Info"
     },
     "detail": {
-      "dateCreated": "Date Created",
-      "dateModified": "Date Modified",
-      "noProductPlan": "No product plan",
-      "noRole": "—",
-      "noSubtitle": "No role specified",
+      "date_created": "Date Created",
+      "date_modified": "Date Modified",
+      "no_product_plan": "No product plan",
+      "no_role": "—",
+      "no_subtitle": "No role specified",
       "title": "Plan Staff"
     },
     "errors": {
-      "createFailed": "Failed to create staff assignment",
-      "deleteFailed": "Failed to delete staff assignment",
-      "inUse": "This staff assignment is in use and cannot be deleted.",
-      "loadFailed": "Failed to load staff assignment",
-      "notFound": "Staff assignment not found",
+      "create_failed": "Failed to create staff assignment",
+      "delete_failed": "Failed to delete staff assignment",
+      "in_use": "This staff assignment is in use and cannot be deleted.",
+      "load_failed": "Failed to load staff assignment",
+      "not_found": "Staff assignment not found",
       "unauthorized": "You are not authorized to perform this action",
-      "updateFailed": "Failed to update staff assignment"
+      "update_failed": "Failed to update staff assignment"
     }
   }
 }

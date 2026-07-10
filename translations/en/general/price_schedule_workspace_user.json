@@ -1,15 +1,15 @@
 {
-  "priceScheduleWorkspaceUser": {
+  "price_schedule_workspace_user": {
     "page": {
       "title": "Period Coordinators",
       "subtitle": "Manage operator access at period (price schedule) level",
-      "activeTitle": "Active Period Coordinators",
-      "inactiveTitle": "Inactive Period Coordinators"
+      "active_title": "Active Period Coordinators",
+      "inactive_title": "Inactive Period Coordinators"
     },
     "buttons": {
       "activate": "Activate",
       "add": "Add Coordinator",
-      "bulkDelete": "Delete Coordinators",
+      "bulk_delete": "Delete Coordinators",
       "deactivate": "Deactivate",
       "delete": "Delete Coordinator",
       "edit": "Edit Coordinator",
@@ -17,13 +17,13 @@
     },
     "columns": {
       "actions": "Actions",
-      "dateCreated": "Date Created",
-      "isOwner": "Owner",
-      "priceScheduleId": "Period",
+      "date_created": "Date Created",
+      "is_owner": "Owner",
+      "price_schedule_id": "Period",
       "role": "Role",
       "scope": "Scope",
       "status": "Status",
-      "workspaceUserId": "Operator"
+      "workspace_user_id": "Operator"
     },
     "empty": {
       "message": "No period coordinator records to display.",
@@ -31,58 +31,58 @@
     },
     "form": {
       "active": "Active",
-      "activeInfo": "Inactive coordinators are hidden from period-level views.",
-      "isOwner": "Owner",
-      "isOwnerInfo": "Mark this operator as the primary owner of the period.",
-      "priceScheduleId": "Period",
-      "priceScheduleIdInfo": "The price schedule (period / academic year) this coordinator is pinned to.",
-      "priceScheduleIdPlaceholder": "Enter period ID",
+      "active_info": "Inactive coordinators are hidden from period-level views.",
+      "is_owner": "Owner",
+      "is_owner_info": "Mark this operator as the primary owner of the period.",
+      "price_schedule_id": "Period",
+      "price_schedule_id_info": "The price schedule (period / academic year) this coordinator is pinned to.",
+      "price_schedule_id_placeholder": "Enter period ID",
       "role": "Role",
-      "rolePlaceholder": "e.g. coordinator",
-      "roleInfo": "Role label for this coordinator (free-text).",
+      "role_placeholder": "e.g. coordinator",
+      "role_info": "Role label for this coordinator (free-text).",
       "scope": "Scope",
-      "scopeInfo": "Optional scope tag narrowing the coordinator's visibility within the period.",
-      "scopePlaceholder": "e.g. academic_year",
-      "sectionAccess": "Access settings",
-      "sectionCoordinator": "Coordinator details",
-      "workspaceUserId": "Operator",
-      "workspaceUserIdInfo": "The workspace user who acts as coordinator for this period.",
-      "workspaceUserIdPlaceholder": "Enter operator ID"
+      "scope_info": "Optional scope tag narrowing the coordinator's visibility within the period.",
+      "scope_placeholder": "e.g. academic_year",
+      "section_access": "Access settings",
+      "section_coordinator": "Coordinator details",
+      "workspace_user_id": "Operator",
+      "workspace_user_id_info": "The workspace user who acts as coordinator for this period.",
+      "workspace_user_id_placeholder": "Enter operator ID"
     },
     "bulk": {
-      "activateMessage": "Activate the selected coordinator records?",
-      "activateTitle": "Activate Period Coordinators",
-      "deactivateMessage": "Deactivate the selected coordinator records?",
-      "deactivateTitle": "Deactivate Period Coordinators",
-      "deleteMessage": "Permanently delete the selected coordinator records? This cannot be undone.",
-      "deleteTitle": "Delete Period Coordinators"
+      "activate_message": "Activate the selected coordinator records?",
+      "activate_title": "Activate Period Coordinators",
+      "deactivate_message": "Deactivate the selected coordinator records?",
+      "deactivate_title": "Deactivate Period Coordinators",
+      "delete_message": "Permanently delete the selected coordinator records? This cannot be undone.",
+      "delete_title": "Delete Period Coordinators"
     },
     "confirm": {
-      "activateMessage": "Activate {{id}}?",
-      "activateTitle": "Activate Coordinator",
-      "deactivateMessage": "Deactivate {{id}}?",
-      "deactivateTitle": "Deactivate Coordinator",
-      "deleteMessage": "Permanently delete this coordinator record? This cannot be undone.",
-      "deleteTitle": "Delete Coordinator"
+      "activate_message": "Activate {{id}}?",
+      "activate_title": "Activate Coordinator",
+      "deactivate_message": "Deactivate {{id}}?",
+      "deactivate_title": "Deactivate Coordinator",
+      "delete_message": "Permanently delete this coordinator record? This cannot be undone.",
+      "delete_title": "Delete Coordinator"
     },
     "tabs": {
       "info": "Info"
     },
     "detail": {
-      "dateCreated": "Date Created",
-      "dateModified": "Date Modified",
-      "noSchedule": "No period",
-      "noUser": "No operator",
+      "date_created": "Date Created",
+      "date_modified": "Date Modified",
+      "no_schedule": "No period",
+      "no_user": "No operator",
       "title": "Period Coordinator"
     },
     "errors": {
-      "createFailed": "Failed to create coordinator record",
-      "deleteFailed": "Failed to delete coordinator record",
-      "inUse": "This coordinator record is in use and cannot be deleted.",
-      "loadFailed": "Failed to load coordinator record",
-      "notFound": "Coordinator record not found",
+      "create_failed": "Failed to create coordinator record",
+      "delete_failed": "Failed to delete coordinator record",
+      "in_use": "This coordinator record is in use and cannot be deleted.",
+      "load_failed": "Failed to load coordinator record",
+      "not_found": "Coordinator record not found",
       "unauthorized": "You are not authorized to perform this action",
-      "updateFailed": "Failed to update coordinator record"
+      "update_failed": "Failed to update coordinator record"
     }
   }
 }

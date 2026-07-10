@@ -1,30 +1,30 @@
 {
-  "supplierContractPriceSchedule": {
+  "supplier_contract_price_schedule": {
     "labels": {
       "name": "Vendor Pricing Period",
-      "namePlural": "Vendor Pricing Periods",
+      "name_plural": "Vendor Pricing Periods",
       "line": "Pricing Line",
-      "linePlural": "Pricing Lines"
+      "line_plural": "Pricing Lines"
     },
     "page": {
       "heading": "Vendor Pricing Periods",
       "caption": "Date-windowed pricing layered on top of a vendor agreement, e.g. annual price tiers from a wholesaler",
-      "headingScheduled": "Upcoming Pricing Periods",
-      "headingActive": "Current Pricing Period",
-      "headingSuperseded": "Past Pricing Periods",
-      "headingCancelled": "Cancelled Pricing Periods",
-      "tabTitle": "Pricing Periods"
+      "heading_scheduled": "Upcoming Pricing Periods",
+      "heading_active": "Current Pricing Period",
+      "heading_superseded": "Past Pricing Periods",
+      "heading_cancelled": "Cancelled Pricing Periods",
+      "tab_title": "Pricing Periods"
     },
     "buttons": {
       "add": "New Pricing Period",
-      "addLine": "Add Pricing Line",
+      "add_line": "Add Pricing Line",
       "activate": "Activate",
       "supersede": "Supersede",
       "cancel": "Cancel Period"
     },
     "columns": {
       "name": "Period Name",
-      "supplierContract": "Vendor Agreement"
+      "supplier_contract": "Vendor Agreement"
     },
     "empty": {
       "title": "No vendor pricing periods yet",
@@ -32,9 +32,9 @@
     },
     "form": {
       "name": "Period Name",
-      "namePlaceholder": "e.g. 2026 Wholesale Tier",
-      "supplierContract": "Vendor Agreement",
-      "selectSupplierContract": "Select vendor agreement..."
+      "name_placeholder": "e.g. 2026 Wholesale Tier",
+      "supplier_contract": "Vendor Agreement",
+      "select_supplier_contract": "Select vendor agreement..."
     },
     "tabs": {
       "info": "Information",

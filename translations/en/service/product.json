@@ -2,14 +2,14 @@
   "product": {
     "page": {
       "heading": "Services",
-      "headingActive": "Active Services",
-      "headingInactive": "Inactive Services",
+      "heading_active": "Active Services",
+      "heading_inactive": "Inactive Services",
       "caption": "Manage your service menu",
-      "captionActive": "View and manage active services",
-      "captionInactive": "View discontinued services"
+      "caption_active": "View and manage active services",
+      "caption_inactive": "View discontinued services"
     },
     "buttons": {
-      "addProduct": "Add Service"
+      "add_product": "Add Service"
     },
     "columns": {
       "name": "Service Name",
@@ -18,32 +18,32 @@
       "status": "Status"
     },
     "empty": {
-      "activeTitle": "No active services",
-      "activeMessage": "Add your first service to get started.",
-      "inactiveTitle": "No inactive services",
-      "inactiveMessage": "Discontinued services will appear here."
+      "active_title": "No active services",
+      "active_message": "Add your first service to get started.",
+      "inactive_title": "No inactive services",
+      "inactive_message": "Discontinued services will appear here."
     },
     "form": {
       "name": "Service Name",
       "description": "Description",
-      "descriptionPlaceholder": "Enter service description...",
+      "description_placeholder": "Enter service description...",
       "price": "Price",
       "currency": "Currency",
       "active": "Active",
-      "pricePlaceholder": "Leave empty to use base price",
-      "selectOption": "Select",
+      "price_placeholder": "Leave empty to use base price",
+      "select_option": "Select",
       "required": "Required",
       "option": "Option",
-      "selectAttribute": "— Select attribute —",
-      "allAttributesAssigned": "All available attributes have already been assigned to this service.",
-      "optionNeedsValuesAlert": "This required option has no values yet. Add values on the option detail page before assigning variants."
+      "select_attribute": "— Select attribute —",
+      "all_attributes_assigned": "All available attributes have already been assigned to this service.",
+      "option_needs_values_alert": "This required option has no values yet. Add values on the option detail page before assigning variants."
     },
     "actions": {
       "view": "View Service",
       "edit": "Edit Service",
       "delete": "Delete Service"
     },
-    "bulkActions": {
+    "bulk_actions": {
       "delete": "Delete Selected"
     },
     "tabs": {
@@ -56,55 +56,55 @@
       "stock": "Availability",
       "lines": "Lines",
       "attachments": "Attachments",
-      "auditTrail": "Audit Trail",
-      "auditHistory": "History",
+      "audit_trail": "Audit Trail",
+      "audit_history": "History",
       "serials": "Serials",
-      "pricingHistory": "Pricing History"
+      "pricing_history": "Pricing History"
     },
     "detail": {
       "price": "Price",
       "currency": "Currency",
       "collections": "Categories",
-      "variantCount": "Duration Options",
+      "variant_count": "Duration Options",
       "status": "Status",
-      "optionsLabel": "Options",
-      "emptyVariantsMessage": "No duration options have been created for this service yet.",
-      "serialNumber": "Serial Number",
+      "options_label": "Options",
+      "empty_variants_message": "No duration options have been created for this service yet.",
+      "serial_number": "Serial Number",
       "imei": "IMEI",
-      "warrantyEnd": "Warranty End",
-      "purchaseOrder": "Purchase Order",
-      "noSerialNumbers": "No Serial Numbers",
-      "noSerialNumbersMsg": "No serial numbers have been recorded for this inventory item.",
-      "variantInformation": "Duration Option Information",
+      "warranty_end": "Warranty End",
+      "purchase_order": "Purchase Order",
+      "no_serial_numbers": "No Serial Numbers",
+      "no_serial_numbers_msg": "No serial numbers have been recorded for this inventory item.",
+      "variant_information": "Duration Option Information",
       "options": "Options",
-      "variantPricing": "Variant Pricing",
-      "variantPricingDesc": "Set a custom price for this duration option, or leave empty to use the base service price.",
-      "inventoryStock": "Availability",
-      "inventoryStockDesc": "Availability is tracked per branch. View and manage from the availability module.",
-      "dropImagesHere": "Drop images here or click to browse",
-      "imageFileHint": "Max 5 MB per file. JPEG, PNG, WebP.",
-      "deleteSelected": "Delete Selected",
-      "primaryBadge": "Primary",
-      "noImages": "No Images",
-      "noImagesDesc": "Upload images using the drop zone above.",
-      "auditTrail": "Audit Trail",
-      "auditTrailDesc": "Audit trail for duration option changes is coming soon.",
-      "noSerialNumbersDesc": "No serial numbers have been recorded for this inventory item.",
-      "inventoryItem": "Inventory Item",
+      "variant_pricing": "Variant Pricing",
+      "variant_pricing_desc": "Set a custom price for this duration option, or leave empty to use the base service price.",
+      "inventory_stock": "Availability",
+      "inventory_stock_desc": "Availability is tracked per branch. View and manage from the availability module.",
+      "drop_images_here": "Drop images here or click to browse",
+      "image_file_hint": "Max 5 MB per file. JPEG, PNG, WebP.",
+      "delete_selected": "Delete Selected",
+      "primary_badge": "Primary",
+      "no_images": "No Images",
+      "no_images_desc": "Upload images using the drop zone above.",
+      "audit_trail": "Audit Trail",
+      "audit_trail_desc": "Audit trail for duration option changes is coming soon.",
+      "no_serial_numbers_desc": "No serial numbers have been recorded for this inventory item.",
+      "inventory_item": "Inventory Item",
       "name": "Name",
       "sku": "SKU",
       "type": "Type",
       "location": "Branch",
-      "qtyOnHand": "Capacity",
+      "qty_on_hand": "Capacity",
       "reserved": "Reserved",
       "available": "Available",
-      "statTotal": "Total",
-      "statAvailable": "Available",
-      "statSold": "Sold",
-      "statReserved": "Reserved",
-      "pricingHistory": "Pricing History",
-      "pricingHistoryDesc": "Pricing history for this item is coming soon.",
-      "serialInformation": "Serial Information"
+      "stat_total": "Total",
+      "stat_available": "Available",
+      "stat_sold": "Sold",
+      "stat_reserved": "Reserved",
+      "pricing_history": "Pricing History",
+      "pricing_history_desc": "Pricing history for this item is coming soon.",
+      "serial_information": "Serial Information"
     },
     "status": {
       "activate": "Activate",
@@ -113,56 +113,56 @@
     "variant": {
       "title": "Duration Options",
       "sku": "SKU",
-      "priceOverride": "Price Override",
+      "price_override": "Price Override",
       "attributes": "Attributes",
       "assign": "Add Duration Option",
       "edit": "Edit Duration Option",
       "remove": "Remove Duration Option",
       "empty": "No Duration Options",
       "location": "Branch",
-      "qtyOnHand": "Capacity",
-      "serialCount": "Serial Count",
-      "noStock": "No Availability",
-      "noStockMsg": "No availability records found for this duration option.",
+      "qty_on_hand": "Capacity",
+      "serial_count": "Serial Count",
+      "no_stock": "No Availability",
+      "no_stock_msg": "No availability records found for this duration option.",
       "pricing": {
         "start": "Start Date",
         "end": "End Date",
         "package": "Package",
-        "rateCard": "Rate Card",
+        "rate_card": "Rate Card",
         "amount": "Amount"
       }
     },
     "attribute": {
       "title": "Attribute",
-      "defaultValue": "Default Value",
+      "default_value": "Default Value",
       "assign": "Add Attribute",
       "remove": "Remove Attribute",
       "empty": "No Attributes"
     },
     "confirm": {
       "activate": "Activate Service",
-      "activateMessage": "Are you sure you want to activate service \"%s\"?",
+      "activate_message": "Are you sure you want to activate service \"%s\"?",
       "deactivate": "Deactivate Service",
-      "deactivateMessage": "Are you sure you want to deactivate service \"%s\"?",
-      "bulkActivate": "Activate Services",
-      "bulkActivateMessage": "Are you sure you want to activate the selected services?",
-      "bulkDeactivate": "Deactivate Services",
-      "bulkDeactivateMessage": "Are you sure you want to deactivate the selected services?",
-      "bulkDelete": "Delete Services",
-      "bulkDeleteMessage": "Are you sure you want to delete the selected services? This action cannot be undone.",
-      "removeVariant": "Remove Duration Option",
-      "removeVariantMessage": "Are you sure you want to remove this duration option?"
+      "deactivate_message": "Are you sure you want to deactivate service \"%s\"?",
+      "bulk_activate": "Activate Services",
+      "bulk_activate_message": "Are you sure you want to activate the selected services?",
+      "bulk_deactivate": "Deactivate Services",
+      "bulk_deactivate_message": "Are you sure you want to deactivate the selected services?",
+      "bulk_delete": "Delete Services",
+      "bulk_delete_message": "Are you sure you want to delete the selected services? This action cannot be undone.",
+      "remove_variant": "Remove Duration Option",
+      "remove_variant_message": "Are you sure you want to remove this duration option?"
     },
     "errors": {
-      "permissionDenied": "You do not have permission to perform this action",
-      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
-      "notFound": "Service not found",
-      "idRequired": "Service ID is required",
-      "noIDsProvided": "No service IDs were provided",
-      "invalidStatus": "Invalid service status",
-      "cannotDelete": "This service cannot be deleted because it is in use",
-      "nameRequired": "Service name is required",
-      "fieldRequired": "This field is required"
+      "permission_denied": "You do not have permission to perform this action",
+      "invalid_form_data": "Invalid form data. Please check your inputs and try again.",
+      "not_found": "Service not found",
+      "id_required": "Service ID is required",
+      "no_ids_provided": "No service IDs were provided",
+      "invalid_status": "Invalid service status",
+      "cannot_delete": "This service cannot be deleted because it is in use",
+      "name_required": "Service name is required",
+      "field_required": "This field is required"
     },
     "breadcrumb": {
       "products": "Services",
@@ -180,73 +180,73 @@
       "columns": {
         "name": "Name",
         "code": "Code",
-        "dataType": "Data Type",
-        "valuesCount": "Values",
-        "sortOrder": "Sort Order",
+        "data_type": "Data Type",
+        "values_count": "Values",
+        "sort_order": "Sort Order",
         "required": "Required",
         "status": "Status"
       },
       "form": {
         "name": "Option Name",
-        "namePlaceholder": "e.g. Duration, Add-on, Intensity",
+        "name_placeholder": "e.g. Duration, Add-on, Intensity",
         "code": "Option Code",
-        "codePlaceholder": "e.g. duration, addon, intensity",
-        "dataType": "Data Type",
-        "sortOrder": "Sort Order",
-        "minValue": "Min Value",
-        "maxValue": "Max Value",
+        "code_placeholder": "e.g. duration, addon, intensity",
+        "data_type": "Data Type",
+        "sort_order": "Sort Order",
+        "min_value": "Min Value",
+        "max_value": "Max Value",
         "active": "Active",
-        "requiredCaution": "Marking this option as required means every variant of this service must supply a value for it. If this option has no values yet, variants can't be saved until you add some.",
+        "required_caution": "Marking this option as required means every variant of this service must supply a value for it. If this option has no values yet, variants can't be saved until you add some.",
         "description": "Description",
-        "descriptionPlaceholder": "Optional notes about this option",
-        "descriptionEmpty": "No description provided",
-        "descriptionInfo": "Optional internal description. Up to 500 characters."
+        "description_placeholder": "Optional notes about this option",
+        "description_empty": "No description provided",
+        "description_info": "Optional internal description. Up to 500 characters."
       },
-      "dataTypes": {
-        "textList": "Text List",
-        "numberRange": "Number Range",
-        "colorList": "Color List",
-        "freeText": "Free Text",
-        "freeNumber": "Free Number"
+      "data_types": {
+        "text_list": "Text List",
+        "number_range": "Number Range",
+        "color_list": "Color List",
+        "free_text": "Free Text",
+        "free_number": "Free Number"
       },
       "value": {
         "columns": {
           "label": "Label",
           "value": "Value",
-          "sortOrder": "Sort Order",
-          "colorPreview": "Preview",
+          "sort_order": "Sort Order",
+          "color_preview": "Preview",
           "status": "Status"
         },
         "form": {
           "label": "Value Label",
-          "labelPlaceholder": "e.g. 30 min, 60 min, 90 min",
+          "label_placeholder": "e.g. 30 min, 60 min, 90 min",
           "value": "Value",
-          "valuePlaceholder": "e.g. 30min, 60min, 90min",
-          "sortOrder": "Sort Order",
-          "colorHex": "Color Hex",
-          "colorHexPlaceholder": "#FF0000",
+          "value_placeholder": "e.g. 30min, 60min, 90min",
+          "sort_order": "Sort Order",
+          "color_hex": "Color Hex",
+          "color_hex_placeholder": "#FF0000",
           "active": "Active"
         }
       },
       "actions": {
-        "addOption": "Add Option",
-        "editOption": "Edit Option",
-        "editProductOption": "Edit Product Option",
-        "deleteOption": "Delete Option",
-        "viewValues": "View Values",
-        "addValue": "Add Value",
-        "editValue": "Edit Value",
-        "deleteValue": "Delete Value"
+        "add_option": "Add Option",
+        "edit_option": "Edit Option",
+        "edit_product_option": "Edit Product Option",
+        "delete_option": "Delete Option",
+        "view_values": "View Values",
+        "add_value": "Add Value",
+        "edit_value": "Edit Value",
+        "delete_value": "Delete Value"
       },
       "empty": {
         "title": "No Options",
         "message": "No options have been configured for this service yet.",
-        "valueTitle": "No Values",
-        "valueMessage": "No values have been added to this option yet."
+        "value_title": "No Values",
+        "value_message": "No values have been added to this option yet."
       },
       "confirm": {
-        "deleteOption": "Are you sure you want to delete option",
-        "deleteValue": "Are you sure you want to delete value"
+        "delete_option": "Are you sure you want to delete option",
+        "delete_value": "Are you sure you want to delete value"
       }
     }
   }

@@ -1,7 +1,7 @@
 {
   "errors": {
-    "nameRequired": "Tag name is required",
-    "colorRequired": "Tag color is required",
-    "deleteInUse": "Cannot delete tag — it's assigned to {{.count}} event(s). Deactivate instead or remove assignments first."
+    "name_required": "Tag name is required",
+    "color_required": "Tag color is required",
+    "delete_in_use": "Cannot delete tag — it's assigned to {{.count}} event(s). Deactivate instead or remove assignments first."
   }
 }

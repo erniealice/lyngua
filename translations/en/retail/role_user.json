@@ -4,12 +4,12 @@
     "caption": "Manage users assigned to this role"
   },
   "buttons": {
-    "assignUser": "Assign User"
+    "assign_user": "Assign User"
   },
   "columns": {
-    "userName": "User Name",
+    "user_name": "User Name",
     "email": "Email",
-    "dateAssigned": "Date Assigned"
+    "date_assigned": "Date Assigned"
   },
   "empty": {
     "title": "No users assigned",

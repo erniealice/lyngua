@@ -3,7 +3,7 @@ package v1
 // labels_evaluation_cycle.go — Go label structs for evaluation_cycle domain
 // (performance-evaluation layer 12, v1 — Q-EVAL-CYCLE-1).
 //
-// Root key: "evaluationCycle" (file evaluation_cycle.json).
+// Root key: "evaluation_cycle" (file evaluation_cycle.json).
 //
 // EvaluationCycleLabels includes EvaluationCycleBannerLabels for the
 // "X of Y" read-projection partial (cycle-progress-banner.html), rendered
@@ -13,59 +13,59 @@ package v1
 
 // EvaluationCycleLabels holds all translatable strings for the evaluation cycle module.
 type EvaluationCycleLabels struct {
-	Page        EvaluationCyclePageLabels    `json:"page"`
-	Buttons     EvaluationCycleButtonLabels  `json:"buttons"`
-	Columns     EvaluationCycleColumnLabels  `json:"columns"`
-	Status      EvaluationCycleStatusLabels  `json:"status"`
-	Tabs        EvaluationCycleTabLabels     `json:"tabs"`
-	Banner      EvaluationCycleBannerLabels  `json:"banner"`
-	Empty       EvaluationCycleEmptyLabels   `json:"empty"`
-	Form        EvaluationCycleFormLabels    `json:"form"`
-	Actions     EvaluationCycleActionLabels  `json:"actions"`
-	Detail      EvaluationCycleDetailLabels  `json:"detail"`
-	Confirm     EvaluationCycleConfirmLabels `json:"confirm"`
-	Errors      EvaluationCycleErrorLabels   `json:"errors"`
+	Page    EvaluationCyclePageLabels    `json:"page"`
+	Buttons EvaluationCycleButtonLabels  `json:"buttons"`
+	Columns EvaluationCycleColumnLabels  `json:"columns"`
+	Status  EvaluationCycleStatusLabels  `json:"status"`
+	Tabs    EvaluationCycleTabLabels     `json:"tabs"`
+	Banner  EvaluationCycleBannerLabels  `json:"banner"`
+	Empty   EvaluationCycleEmptyLabels   `json:"empty"`
+	Form    EvaluationCycleFormLabels    `json:"form"`
+	Actions EvaluationCycleActionLabels  `json:"actions"`
+	Detail  EvaluationCycleDetailLabels  `json:"detail"`
+	Confirm EvaluationCycleConfirmLabels `json:"confirm"`
+	Errors  EvaluationCycleErrorLabels   `json:"errors"`
 }
 
 type EvaluationCyclePageLabels struct {
-	Heading          string `json:"heading"`
-	Caption          string `json:"caption"`
-	HeadingOpen      string `json:"headingOpen"`
-	HeadingSignOff   string `json:"headingSignOff"`
-	HeadingClosed    string `json:"headingClosed"`
+	Heading        string `json:"heading"`
+	Caption        string `json:"caption"`
+	HeadingOpen    string `json:"heading_open"`
+	HeadingSignOff string `json:"heading_sign_off"`
+	HeadingClosed  string `json:"heading_closed"`
 }
 
 type EvaluationCycleButtonLabels struct {
-	AddCycle string `json:"addCycle"`
+	AddCycle string `json:"add_cycle"`
 	Open     string `json:"open"`
 	Close    string `json:"close"`
 }
 
 type EvaluationCycleColumnLabels struct {
-	Name        string `json:"name"`
-	Engagement  string `json:"engagement"`
-	Period      string `json:"period"`
-	Progress    string `json:"progress"`
-	SignOffDue  string `json:"signOffDue"`
-	Closes      string `json:"closes"`
-	Status      string `json:"status"`
+	Name       string `json:"name"`
+	Engagement string `json:"engagement"`
+	Period     string `json:"period"`
+	Progress   string `json:"progress"`
+	SignOffDue string `json:"sign_off_due"`
+	Closes     string `json:"closes"`
+	Status     string `json:"status"`
 }
 
 // EvaluationCycleStatusLabels maps EvaluationCycleStatus enum values.
 // Mirrors OPEN | SIGN_OFF | CLOSED (entities.md §E4, v1).
 type EvaluationCycleStatusLabels struct {
 	Open    string `json:"open"`
-	SignOff string `json:"signOff"`
+	SignOff string `json:"sign_off"`
 	Closed  string `json:"closed"`
 }
 
 type EvaluationCycleTabLabels struct {
-	All      string `json:"all"`
-	Open     string `json:"open"`
-	SignOff  string `json:"signOff"`
-	Closed   string `json:"closed"`
-	Info     string `json:"info"`
-	Members  string `json:"members"`
+	All     string `json:"all"`
+	Open    string `json:"open"`
+	SignOff string `json:"sign_off"`
+	Closed  string `json:"closed"`
+	Info    string `json:"info"`
+	Members string `json:"members"`
 }
 
 // EvaluationCycleBannerLabels holds labels for the "X of Y" read-projection
@@ -75,39 +75,39 @@ type EvaluationCycleTabLabels struct {
 // Progress contains a Go template string with {{.Complete}} and {{.Total}} placeholders.
 // SignOffDue and Closes are date-field header labels (LBL-2, Phase E, v1).
 type EvaluationCycleBannerLabels struct {
-	SignOffDue    string `json:"signOffDue"`
-	Closes        string `json:"closes"`
-	Progress      string `json:"progress"`
-	ProgressDetail string `json:"progressDetail"`
-	AllComplete   string `json:"allComplete"`
-	NoneComplete  string `json:"noneComplete"`
-	MembersLabel  string `json:"membersLabel"`
-	CycleOpen     string `json:"cycleOpen"`
-	CycleClosed   string `json:"cycleClosed"`
-	CycleSignOff  string `json:"cycleSignOff"`
+	SignOffDue     string `json:"sign_off_due"`
+	Closes         string `json:"closes"`
+	Progress       string `json:"progress"`
+	ProgressDetail string `json:"progress_detail"`
+	AllComplete    string `json:"all_complete"`
+	NoneComplete   string `json:"none_complete"`
+	MembersLabel   string `json:"members_label"`
+	CycleOpen      string `json:"cycle_open"`
+	CycleClosed    string `json:"cycle_closed"`
+	CycleSignOff   string `json:"cycle_sign_off"`
 }
 
 type EvaluationCycleEmptyLabels struct {
 	Title         string `json:"title"`
 	Message       string `json:"message"`
-	OpenTitle     string `json:"openTitle"`
-	OpenMessage   string `json:"openMessage"`
-	ClosedTitle   string `json:"closedTitle"`
-	ClosedMessage string `json:"closedMessage"`
+	OpenTitle     string `json:"open_title"`
+	OpenMessage   string `json:"open_message"`
+	ClosedTitle   string `json:"closed_title"`
+	ClosedMessage string `json:"closed_message"`
 }
 
 type EvaluationCycleFormLabels struct {
 	Name               string `json:"name"`
-	NamePlaceholder    string `json:"namePlaceholder"`
+	NamePlaceholder    string `json:"name_placeholder"`
 	Engagement         string `json:"engagement"`
-	EngagementPH       string `json:"engagementPlaceholder"`
-	EngagementInfo     string `json:"engagementInfo"`
-	PeriodStart        string `json:"periodStart"`
-	PeriodEnd          string `json:"periodEnd"`
-	SignOffDueDate     string `json:"signOffDueDate"`
-	SignOffDueDateInfo string `json:"signOffDueDateInfo"`
-	CloseDate          string `json:"closeDate"`
-	CloseDateInfo      string `json:"closeDateInfo"`
+	EngagementPH       string `json:"engagement_placeholder"`
+	EngagementInfo     string `json:"engagement_info"`
+	PeriodStart        string `json:"period_start"`
+	PeriodEnd          string `json:"period_end"`
+	SignOffDueDate     string `json:"sign_off_due_date"`
+	SignOffDueDateInfo string `json:"sign_off_due_date_info"`
+	CloseDate          string `json:"close_date"`
+	CloseDateInfo      string `json:"close_date_info"`
 }
 
 type EvaluationCycleActionLabels struct {
@@ -117,44 +117,44 @@ type EvaluationCycleActionLabels struct {
 }
 
 type EvaluationCycleDetailLabels struct {
-	PageTitle    string                        `json:"pageTitle"`
-	Name         string                        `json:"name"`
-	Engagement   string                        `json:"engagement"`
-	PeriodStart  string                        `json:"periodStart"`
-	PeriodEnd    string                        `json:"periodEnd"`
-	SignOffDueDate string                      `json:"signOffDueDate"`
-	CloseDate    string                        `json:"closeDate"`
-	Status       string                        `json:"status"`
-	CreatedDate  string                        `json:"createdDate"`
-	ModifiedDate string                        `json:"modifiedDate"`
-	Members      EvaluationCycleMembersLabels  `json:"members"`
+	PageTitle      string                       `json:"page_title"`
+	Name           string                       `json:"name"`
+	Engagement     string                       `json:"engagement"`
+	PeriodStart    string                       `json:"period_start"`
+	PeriodEnd      string                       `json:"period_end"`
+	SignOffDueDate string                       `json:"sign_off_due_date"`
+	CloseDate      string                       `json:"close_date"`
+	Status         string                       `json:"status"`
+	CreatedDate    string                       `json:"created_date"`
+	ModifiedDate   string                       `json:"modified_date"`
+	Members        EvaluationCycleMembersLabels `json:"members"`
 }
 
 type EvaluationCycleMembersLabels struct {
 	Heading         string `json:"heading"`
 	Empty           string `json:"empty"`
-	ColumnAssociate string `json:"columnAssociate"`
-	ColumnClient    string `json:"columnClient"`
-	ColumnProbation string `json:"columnProbation"`
-	ColumnAdded     string `json:"columnAdded"`
+	ColumnAssociate string `json:"column_associate"`
+	ColumnClient    string `json:"column_client"`
+	ColumnProbation string `json:"column_probation"`
+	ColumnAdded     string `json:"column_added"`
 }
 
 type EvaluationCycleConfirmLabels struct {
 	Open         string `json:"open"`
-	OpenMessage  string `json:"openMessage"`
+	OpenMessage  string `json:"open_message"`
 	Close        string `json:"close"`
-	CloseMessage string `json:"closeMessage"`
+	CloseMessage string `json:"close_message"`
 }
 
 type EvaluationCycleErrorLabels struct {
-	PermissionDenied    string `json:"permissionDenied"`
-	InvalidFormData     string `json:"invalidFormData"`
-	NotFound            string `json:"notFound"`
-	IDRequired          string `json:"idRequired"`
-	NoPermission        string `json:"noPermission"`
-	AlreadyOpen         string `json:"alreadyOpen"`
-	AlreadyClosed       string `json:"alreadyClosed"`
-	EngagementRequired  string `json:"engagementRequired"`
+	PermissionDenied   string `json:"permission_denied"`
+	InvalidFormData    string `json:"invalid_form_data"`
+	NotFound           string `json:"not_found"`
+	IDRequired         string `json:"id_required"`
+	NoPermission       string `json:"no_permission"`
+	AlreadyOpen        string `json:"already_open"`
+	AlreadyClosed      string `json:"already_closed"`
+	EngagementRequired string `json:"engagement_required"`
 }
 
 // DefaultEvaluationCycleLabels returns EvaluationCycleLabels with sensible English defaults.

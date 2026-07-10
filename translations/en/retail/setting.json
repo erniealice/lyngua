@@ -6,29 +6,29 @@
   },
   "sidebar": {
     "title": "Settings",
-    "searchPlaceholder": "Find a setting..."
+    "search_placeholder": "Find a setting..."
   },
   "breadcrumb": {
     "settings": "Settings"
   },
-  "companyProfile": {
+  "company_profile": {
     "title": "Company Profile",
     "subtitle": "Manage your company information and branding",
-    "logoSection": "Company Logo",
-    "logoUploadTitle": "Upload company logo",
-    "logoUploadDesc": "Your logo will appear on invoices, quotes, and reports. Supported formats: JPG, JPEG, PNG. Max size: 2MB.",
-    "chooseFile": "Choose File",
+    "logo_section": "Company Logo",
+    "logo_upload_title": "Upload company logo",
+    "logo_upload_desc": "Your logo will appear on invoices, quotes, and reports. Supported formats: JPG, JPEG, PNG. Max size: 2MB.",
+    "choose_file": "Choose File",
     "remove": "Remove",
-    "detailsSection": "Company Details",
-    "companyName": "Company Name",
+    "details_section": "Company Details",
+    "company_name": "Company Name",
     "abn": "ABN",
     "address": "Address",
     "city": "City",
     "state": "State",
-    "selectState": "Select state",
+    "select_state": "Select state",
     "country": "Country",
     "postcode": "Postcode",
-    "contactSection": "Contact Information",
+    "contact_section": "Contact Information",
     "phone": "Phone",
     "email": "Email",
     "website": "Website"
@@ -36,35 +36,35 @@
   "general": {
     "title": "General Settings",
     "subtitle": "Configure default application settings",
-    "regionalSection": "Regional Settings",
+    "regional_section": "Regional Settings",
     "currency": "Default Currency",
-    "dateFormat": "Date Format",
-    "timeZone": "Time Zone",
-    "fiscalYearStart": "Fiscal Year Start",
-    "payrollSection": "Payroll Defaults",
-    "payFrequency": "Default Pay Frequency",
-    "hoursPerWeek": "Default Hours per Week"
+    "date_format": "Date Format",
+    "time_zone": "Time Zone",
+    "fiscal_year_start": "Fiscal Year Start",
+    "payroll_section": "Payroll Defaults",
+    "pay_frequency": "Default Pay Frequency",
+    "hours_per_week": "Default Hours per Week"
   },
   "users": {
     "title": "Users",
     "subtitle": "Manage user accounts and permissions",
-    "addUser": "Add User",
-    "colName": "Name",
-    "colEmail": "Email",
-    "colRole": "Role",
-    "colDivision": "Division",
-    "colStatus": "Status",
-    "colActions": "Actions",
+    "add_user": "Add User",
+    "col_name": "Name",
+    "col_email": "Email",
+    "col_role": "Role",
+    "col_division": "Division",
+    "col_status": "Status",
+    "col_actions": "Actions",
     "active": "Active",
     "inactive": "Inactive"
   },
   "buttons": {
     "cancel": "Cancel",
-    "saveChanges": "Save Changes"
+    "save_changes": "Save Changes"
   },
   "empty": {
-    "comingSoonTitle": "Coming Soon",
-    "comingSoonMsg": "This settings panel is under development. Check back soon for updates.",
-    "backToSettings": "Back to Settings"
+    "coming_soon_title": "Coming Soon",
+    "coming_soon_msg": "This settings panel is under development. Check back soon for updates.",
+    "back_to_settings": "Back to Settings"
   }
 }

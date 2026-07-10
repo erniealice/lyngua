@@ -1,9 +1,9 @@
 {
   "product_plan": {
     "form": {
-      "variantSelectLabel": "Variant",
-      "variantSelectPlaceholder": "Select a variant",
-      "variantSelectInfo": "Required when the parent product has variants enabled."
+      "variant_select_label": "Variant",
+      "variant_select_placeholder": "Select a variant",
+      "variant_select_info": "Required when the parent product has variants enabled."
     },
     "validation": {
       "data_required": "Product plan data is required",

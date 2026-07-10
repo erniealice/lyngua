@@ -4,24 +4,24 @@
     "fiscal_year": "Fiscal Year",
     "start_date": "Start Date",
     "end_date": "End Date",
-    "periodNumberInfo": "Sequential number of this period within the fiscal year (e.g. 1 for January).",
-    "fiscalYearInfo": "The fiscal year this period belongs to (e.g. 2026).",
-    "startDateInfo": "First day of this accounting period. Journal entries dated on or after this date fall within the period.",
-    "endDateInfo": "Last day of this accounting period. Journal entries dated on or before this date fall within the period."
+    "period_number_info": "Sequential number of this period within the fiscal year (e.g. 1 for January).",
+    "fiscal_year_info": "The fiscal year this period belongs to (e.g. 2026).",
+    "start_date_info": "First day of this accounting period. Journal entries dated on or after this date fall within the period.",
+    "end_date_info": "Last day of this accounting period. Journal entries dated on or before this date fall within the period."
   },
   "page": {
     "heading": "Fiscal Periods",
     "caption": "Manage accounting periods and year-end close"
   },
   "buttons": {
-    "addPeriod": "Add Period",
-    "closeYearEnd": "Close Year-End"
+    "add_period": "Add Period",
+    "close_year_end": "Close Year-End"
   },
   "columns": {
     "period": "Period",
     "year": "Year",
-    "startDate": "Start Date",
-    "endDate": "End Date",
+    "start_date": "Start Date",
+    "end_date": "End Date",
     "status": "Status"
   },
   "status": {
@@ -35,7 +35,7 @@
   },
   "actions": {
     "close": "Close",
-    "noPermission": "No permission",
-    "confirmClose": "Are you sure you want to close %s? This will prevent new journal entries from being posted to this period."
+    "no_permission": "No permission",
+    "confirm_close": "Are you sure you want to close %s? This will prevent new journal entries from being posted to this period."
   }
 }

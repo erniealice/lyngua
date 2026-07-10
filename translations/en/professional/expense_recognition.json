@@ -1,8 +1,8 @@
 {
-  "expenseRecognition": {
+  "expense_recognition": {
     "labels": {
       "name": "Recognized Service Cost",
-      "namePlural": "Recognized Service Costs"
+      "name_plural": "Recognized Service Costs"
     },
     "page": {
       "heading": "Recognized Service Costs",
@@ -10,14 +10,14 @@
     },
     "buttons": {
       "add": "New Recognized Cost",
-      "recognizeFromExpenditure": "Recognize from Bill",
-      "recognizeFromContract": "Recognize from Vendor Agreement"
+      "recognize_from_expenditure": "Recognize from Bill",
+      "recognize_from_contract": "Recognize from Vendor Agreement"
     },
     "form": {
       "name": "Recognized Cost Name",
-      "namePlaceholder": "e.g. AWS Hosting — May 2026",
-      "supplierContract": "Vendor Agreement",
-      "selectSupplierContract": "Select vendor agreement..."
+      "name_placeholder": "e.g. AWS Hosting — May 2026",
+      "supplier_contract": "Vendor Agreement",
+      "select_supplier_contract": "Select vendor agreement..."
     }
   }
 }

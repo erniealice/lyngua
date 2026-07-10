@@ -1,40 +1,40 @@
 {
   "workspace": {
     "form": {
-      "sectionTax": "Tax",
+      "section_tax": "Tax",
       "tin": "TIN",
-      "tinPlaceholder": "e.g. 123-456-789-000",
-      "tinInfo": "Tax Identification Number registered with the tax authority.",
-      "homeJurisdiction": "Home Jurisdiction",
-      "homeJurisdictionPlaceholder": "e.g. PH-NATIONAL",
-      "homeJurisdictionInfo": "The primary tax jurisdiction for this workspace. Drives SURCHARGE registration lookups (e.g. PH-NATIONAL for Philippines).",
-      "taxComputationEnabled": "Tax Computation Enabled",
-      "taxComputationEnabledInfo": "When enabled, revenue recognition automatically computes tax lines using active tax registrations. Disable only if this workspace is not tax-registered.",
-      "taxInclusivePricing": "Tax-Inclusive Pricing",
-      "taxInclusivePricingInfo": "When enabled, the product price already includes tax. The tax amount is back-calculated from the inclusive price instead of added on top.",
-      "moreInfo": "More info"
+      "tin_placeholder": "e.g. 123-456-789-000",
+      "tin_info": "Tax Identification Number registered with the tax authority.",
+      "home_jurisdiction": "Home Jurisdiction",
+      "home_jurisdiction_placeholder": "e.g. PH-NATIONAL",
+      "home_jurisdiction_info": "The primary tax jurisdiction for this workspace. Drives SURCHARGE registration lookups (e.g. PH-NATIONAL for Philippines).",
+      "tax_computation_enabled": "Tax Computation Enabled",
+      "tax_computation_enabled_info": "When enabled, revenue recognition automatically computes tax lines using active tax registrations. Disable only if this workspace is not tax-registered.",
+      "tax_inclusive_pricing": "Tax-Inclusive Pricing",
+      "tax_inclusive_pricing_info": "When enabled, the product price already includes tax. The tax amount is back-calculated from the inclusive price instead of added on top.",
+      "more_info": "More info"
     },
     "detail": {
       "tabs": {
         "info": "Info",
         "users": "Users",
         "attachments": "Attachments",
-        "taxRegistrations": "Tax Registrations"
+        "tax_registrations": "Tax Registrations"
       },
       "info": {
-        "sectionTitle": "Details",
+        "section_title": "Details",
         "currency": "Currency",
         "region": "Region"
       },
-      "taxReg": {
+      "tax_reg": {
         "loading": "Loading tax registrations…",
         "title": "Tax Registrations",
-        "notConfigured": "Tax registration routes are not configured for this deployment."
+        "not_configured": "Tax registration routes are not configured for this deployment."
       },
       "users": {
-        "addButton": "Add user to workspace",
-        "emptyTitle": "No users",
-        "emptyMessage": "No users have been added to this workspace yet."
+        "add_button": "Add user to workspace",
+        "empty_title": "No users",
+        "empty_message": "No users have been added to this workspace yet."
       }
     },
     "validation": {

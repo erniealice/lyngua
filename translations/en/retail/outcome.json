@@ -1,10 +1,10 @@
 {
     "outcome": {
         "criteria": "Quality Standard",
-        "criteriaLibrary": "Quality Standards",
+        "criteria_library": "Quality Standards",
         "observation": "Inspection Result",
         "summary": "Quality Report",
-        "phaseSummary": "Stage Quality Report",
-        "jobSummary": "Quality Certificate"
+        "phase_summary": "Stage Quality Report",
+        "job_summary": "Quality Certificate"
     }
 }

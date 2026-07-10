@@ -62,21 +62,21 @@
     "dashboard": {
       "title": "Fulfillment Dashboard",
       "subtitle": "Pending, in-transit, deliveries today, and recent exceptions",
-      "statPending": "Pending",
-      "statInTransit": "In Transit",
-      "statDeliveredToday": "Delivered Today",
-      "statExceptions": "Exceptions",
-      "dailyDelivered": "Daily Delivered (30d)",
-      "statusMix": "Status Mix",
-      "recentExceptions": "Recent Exceptions",
-      "noExceptions": "No recent exceptions",
-      "quickNewFulfillment": "New Fulfillment",
-      "quickPickPack": "Pick + Pack",
-      "quickProcessReturn": "Process Return",
-      "quickMarkDelivered": "Mark Delivered",
-      "viewAll": "View All",
-      "axisCount": "Count",
-      "avgFulfillmentDays": "Avg Days to Deliver"
+      "stat_pending": "Pending",
+      "stat_in_transit": "In Transit",
+      "stat_delivered_today": "Delivered Today",
+      "stat_exceptions": "Exceptions",
+      "daily_delivered": "Daily Delivered (30d)",
+      "status_mix": "Status Mix",
+      "recent_exceptions": "Recent Exceptions",
+      "no_exceptions": "No recent exceptions",
+      "quick_new_fulfillment": "New Fulfillment",
+      "quick_pick_pack": "Pick + Pack",
+      "quick_process_return": "Process Return",
+      "quick_mark_delivered": "Mark Delivered",
+      "view_all": "View All",
+      "axis_count": "Count",
+      "avg_fulfillment_days": "Avg Days to Deliver"
     }
   }
 }

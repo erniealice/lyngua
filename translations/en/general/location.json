@@ -1,29 +1,29 @@
 {
   "form": {
-    "nameInfo": "Display name for this location (e.g. Main Branch, Warehouse A).",
-    "addressInfo": "Physical street address for this location.",
-    "descriptionInfo": "Optional internal notes about this location.",
-    "timezoneInfo": "Timezone used when scheduling events or showing local time for this location.",
-    "areaInfo": "Assign this location to a geographic area for grouping and filtering.",
-    "activeInfo": "Inactive locations are hidden from new assignments but remain on record."
+    "name_info": "Display name for this location (e.g. Main Branch, Warehouse A).",
+    "address_info": "Physical street address for this location.",
+    "description_info": "Optional internal notes about this location.",
+    "timezone_info": "Timezone used when scheduling events or showing local time for this location.",
+    "area_info": "Assign this location to a geographic area for grouping and filtering.",
+    "active_info": "Inactive locations are hidden from new assignments but remain on record."
   },
   "dashboard": {
-    "totalLocations": "Total Locations",
+    "total_locations": "Total Locations",
     "active": "Active",
     "regions": "Regions",
-    "areasCount": "Areas",
-    "locationsByRegion": "Locations by Region",
-    "topLocationsByArea": "Top Locations by Area Count",
-    "recentAdditions": "Recent Additions",
-    "viewAll": "View All",
-    "filterWeek": "Week",
-    "filterMonth": "Month",
-    "filterYear": "Year",
-    "quickNewLocation": "New Location",
-    "quickNewArea": "New Area",
-    "columnLocation": "Location",
-    "columnAreas": "Areas",
-    "locationAdded": "Location Added"
+    "areas_count": "Areas",
+    "locations_by_region": "Locations by Region",
+    "top_locations_by_area": "Top Locations by Area Count",
+    "recent_additions": "Recent Additions",
+    "view_all": "View All",
+    "filter_week": "Week",
+    "filter_month": "Month",
+    "filter_year": "Year",
+    "quick_new_location": "New Location",
+    "quick_new_area": "New Area",
+    "column_location": "Location",
+    "column_areas": "Areas",
+    "location_added": "Location Added"
   },
   "location": {
     "validation": {

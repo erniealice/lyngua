@@ -1,5 +1,5 @@
 {
-  "conversationPost": {
+  "conversation_post": {
     "composer": {
       "placeholder": "Reply...",
       "send": "Send",
@@ -10,14 +10,14 @@
       "you": "You",
       "staff": "Support team",
       "attachments": "Attachments",
-      "noAttachments": "No attachments"
+      "no_attachments": "No attachments"
     },
     "subtitle": "Secure messaging. Every conversation is logged.",
     "eyebrow": "Communication",
     "empty": "No messages yet. Send the first message.",
     "errors": {
-      "sendFailed": "Failed to send. Please try again.",
-      "attachFailed": "Failed to attach file. Please try again.",
+      "send_failed": "Failed to send. Please try again.",
+      "attach_failed": "Failed to attach file. Please try again.",
       "duplicate": "This message was already sent."
     }
   }

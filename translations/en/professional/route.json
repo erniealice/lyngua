@@ -114,11 +114,7 @@
         "under_client_detail_url": "/clients/detail/{client_id}/engagements/{id}",
         "add_url": "/action/subscription/add",
         "edit_url": "/action/subscription/edit/{id}",
-        "delete_url": "/action/subscription/delete",
-        "tabs": {
-            "operations": "work-plans",
-            "jobs": "jobs"
-        }
+        "delete_url": "/action/subscription/delete"
     },
     "treasury_collection": {
         "list_url": "/treasury-collections/list/{status}",

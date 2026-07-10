@@ -1,44 +1,44 @@
 {
   "dashboard": {
-    "totalUsers": "Total Users",
+    "total_users": "Total Users",
     "active": "Active",
     "inactive": "Inactive",
     "roles": "Roles",
-    "userActivity": "User Activity",
-    "filterWeek": "Week",
-    "filterMonth": "Month",
-    "filterYear": "Year",
-    "recentActivity": "Recent Activity",
-    "viewAll": "View All",
-    "noRecentActivity": "No recent activity",
-    "quickNew": "New User",
-    "quickViewAll": "View All Users",
-    "quickRoles": "Manage Roles",
-    "quickPermissions": "Manage Permissions",
-    "userAdded": "New User Added",
-    "userActivated": "User Activated",
-    "roleAssigned": "Role Assigned",
-    "profileUpdated": "Profile Updated"
+    "user_activity": "User Activity",
+    "filter_week": "Week",
+    "filter_month": "Month",
+    "filter_year": "Year",
+    "recent_activity": "Recent Activity",
+    "view_all": "View All",
+    "no_recent_activity": "No recent activity",
+    "quick_new": "New User",
+    "quick_view_all": "View All Users",
+    "quick_roles": "Manage Roles",
+    "quick_permissions": "Manage Permissions",
+    "user_added": "New User Added",
+    "user_activated": "User Activated",
+    "role_assigned": "Role Assigned",
+    "profile_updated": "Profile Updated"
   },
   "page": {
     "title": "Users",
-    "titleSuffix": " - Users",
+    "title_suffix": " - Users",
     "heading": "Users",
     "caption": "User management",
-    "headingActive": "Active Users",
-    "captionActive": "Manage your active user accounts",
-    "headingInactive": "Inactive Users",
-    "captionInactive": "View inactive user accounts"
+    "heading_active": "Active Users",
+    "caption_active": "Manage your active user accounts",
+    "heading_inactive": "Inactive Users",
+    "caption_inactive": "View inactive user accounts"
   },
   "roles": {
-    "adminManagers": "Admin Managers",
+    "admin_managers": "Admin Managers",
     "managers": "Managers",
     "standard": "Standard Users",
     "spectator": "Spectators"
   },
   "header": {
-    "subtitlePrefix": "Manage",
-    "subtitleSuffix": "in your organization"
+    "subtitle_prefix": "Manage",
+    "subtitle_suffix": "in your organization"
   },
   "columns": {
     "name": "Name",
@@ -46,89 +46,89 @@
     "roles": "Roles",
     "workspaces": "Workspaces",
     "division": "Division",
-    "dateCreated": "Date Created",
+    "date_created": "Date Created",
     "status": "Status",
     "office": "Office",
     "default": "Default"
   },
   "table": {
-    "searchPlaceholder": "Search users...",
-    "searchDivisionsPlaceholder": "Search divisions..."
+    "search_placeholder": "Search users...",
+    "search_divisions_placeholder": "Search divisions..."
   },
   "actions": {
     "view": "View user",
     "edit": "Edit user",
     "delete": "Delete user",
-    "deleteDisabled": "Cannot delete: division is assigned to users or clients",
+    "delete_disabled": "Cannot delete: division is assigned to users or clients",
     "activate": "Activate",
     "deactivate": "Deactivate",
-    "manageRoles": "Manage Roles"
+    "manage_roles": "Manage Roles"
   },
   "empty": {
-    "noUsersFound": "No {roleName} Found",
-    "noAdminManagersFound": "No Admin Managers Found",
-    "noManagersFound": "No Managers Found",
-    "noStandardUsersFound": "No Standard Users Found",
-    "noSpectatorsFound": "No Spectators Found",
-    "noDivisionsFound": "No Divisions Found",
-    "addFirstUser": "Get started by adding your first user.",
-    "addFirstDivision": "Get started by adding your first division.",
-    "activeTitle": "No active users",
-    "activeMessage": "Add your first user to get started",
-    "inactiveTitle": "No inactive users",
-    "inactiveMessage": "Inactive users will appear here"
+    "no_users_found": "No {roleName} Found",
+    "no_admin_managers_found": "No Admin Managers Found",
+    "no_managers_found": "No Managers Found",
+    "no_standard_users_found": "No Standard Users Found",
+    "no_spectators_found": "No Spectators Found",
+    "no_divisions_found": "No Divisions Found",
+    "add_first_user": "Get started by adding your first user.",
+    "add_first_division": "Get started by adding your first division.",
+    "active_title": "No active users",
+    "active_message": "Add your first user to get started",
+    "inactive_title": "No inactive users",
+    "inactive_message": "Inactive users will appear here"
   },
   "buttons": {
-    "addUser": "Add User",
-    "addDivision": "Add User Division",
-    "addAdminManager": "Add Admin Manager",
-    "addManager": "Add Manager",
-    "addStandardUser": "Add Standard User",
-    "addSpectator": "Add Spectator"
+    "add_user": "Add User",
+    "add_division": "Add User Division",
+    "add_admin_manager": "Add Admin Manager",
+    "add_manager": "Add Manager",
+    "add_standard_user": "Add Standard User",
+    "add_spectator": "Add Spectator"
   },
   "form": {
-    "firstName": "First Name",
-    "firstNamePlaceholder": "e.g. John",
-    "lastName": "Last Name",
-    "lastNamePlaceholder": "e.g. Smith",
+    "first_name": "First Name",
+    "first_name_placeholder": "e.g. John",
+    "last_name": "Last Name",
+    "last_name_placeholder": "e.g. Smith",
     "email": "Email",
-    "emailAddress": "Email Address",
-    "emailPlaceholder": "user@example.com",
+    "email_address": "Email Address",
+    "email_placeholder": "user@example.com",
     "mobile": "Mobile",
-    "mobilePlaceholder": "04XX XXX XXX",
+    "mobile_placeholder": "04XX XXX XXX",
     "timezone": "Timezone",
-    "timezonePlaceholder": "e.g. Asia/Manila",
-    "timezoneSearchPlaceholder": "Search timezones…",
-    "timezoneNoResults": "No matching timezones",
-    "userDivision": "User Division",
+    "timezone_placeholder": "e.g. Asia/Manila",
+    "timezone_search_placeholder": "Search timezones…",
+    "timezone_no_results": "No matching timezones",
+    "user_division": "User Division",
     "password": "Password",
-    "passwordPlaceholder": "Enter password or generate one",
-    "passwordGenerate": "Generate Secure Password",
+    "password_placeholder": "Enter password or generate one",
+    "password_generate": "Generate Secure Password",
     "status": "Status",
-    "selectDivision": "Select division",
+    "select_division": "Select division",
     "required": "*",
     "save": "Save",
     "cancel": "Cancel",
     "active": "Active",
     "inactive": "Inactive",
     "validation": {
-      "firstNameRequired": "First name is required",
-      "lastNameRequired": "Last name is required",
-      "emailRequired": "Email address is required",
-      "emailInvalid": "Please enter a valid email address",
-      "divisionRequired": "User division is required"
+      "first_name_required": "First name is required",
+      "last_name_required": "Last name is required",
+      "email_required": "Email address is required",
+      "email_invalid": "Please enter a valid email address",
+      "division_required": "User division is required"
     },
     "hints": {
       "password": "Leave blank to auto-generate a secure 16-character password",
-      "passwordAuto": "Auto-generated or enter custom password",
-      "divisionSelect": "Select one or more divisions this user can access",
-      "activeStatus": "User can log in and access the system"
+      "password_auto": "Auto-generated or enter custom password",
+      "division_select": "Select one or more divisions this user can access",
+      "active_status": "User can log in and access the system"
     },
-    "multiSelect": {
-      "searchDivisions": "Search divisions...",
-      "noDivisionsFound": "No divisions found",
-      "moreSelected": "+{count} more",
-      "generatePassword": "Generate Secure Password"
+    "multi_select": {
+      "search_divisions": "Search divisions...",
+      "no_divisions_found": "No divisions found",
+      "more_selected": "+{count} more",
+      "generate_password": "Generate Secure Password"
     }
   },
   "status": {
@@ -138,114 +138,114 @@
     "no": "NO"
   },
   "settings": {
-    "userDivisions": {
+    "user_divisions": {
       "title": "User Divisions",
       "subtitle": "Manage user divisions for your organization"
     }
   },
   "bulk": {
-    "setAsAdminManager": "Set As Admin Manager",
-    "setAsManager": "Set As Manager",
-    "setAsStandard": "Set As Standard",
-    "setAsSpectator": "Set As Spectator"
+    "set_as_admin_manager": "Set As Admin Manager",
+    "set_as_manager": "Set As Manager",
+    "set_as_standard": "Set As Standard",
+    "set_as_spectator": "Set As Spectator"
   },
   "tabs": {
-    "basicInfo": "Basic Information",
+    "basic_info": "Basic Information",
     "security": "Security",
     "license": "License",
-    "auditTrail": "Audit Trail",
-    "userDivisions": "User Divisions"
+    "audit_trail": "Audit Trail",
+    "user_divisions": "User Divisions"
   },
   "detail": {
-    "basicInfo": {
+    "basic_info": {
       "title": "Basic Information",
-      "firstName": "First Name",
-      "firstNamePlaceholder": "e.g. John",
-      "lastName": "Last Name",
-      "lastNamePlaceholder": "e.g. Smith",
+      "first_name": "First Name",
+      "first_name_placeholder": "e.g. John",
+      "last_name": "Last Name",
+      "last_name_placeholder": "e.g. Smith",
       "email": "Email",
-      "emailPlaceholder": "user@example.com",
+      "email_placeholder": "user@example.com",
       "username": "Username",
       "division": "Division",
       "status": "Status",
-      "userType": "User Type",
+      "user_type": "User Type",
       "mobile": "Mobile",
-      "mobilePlaceholder": "+63 XXX XXX XXXX",
+      "mobile_placeholder": "+63 XXX XXX XXXX",
       "active": "Active",
       "save": "Save Changes"
     },
     "security": {
       "title": "Security Settings",
-      "lastLogin": "Last Login",
-      "mfaStatus": "Two-Factor Authentication",
-      "mfaEnabled": "Enabled",
-      "mfaDisabled": "Not Enabled",
-      "passwordSection": "Password",
-      "resetPassword": "Reset Password",
-      "authMethod": "Sign-in Method",
-      "managedByProvider": "Your password is managed by your",
-      "manageAccountLink": "Manage account"
+      "last_login": "Last Login",
+      "mfa_status": "Two-Factor Authentication",
+      "mfa_enabled": "Enabled",
+      "mfa_disabled": "Not Enabled",
+      "password_section": "Password",
+      "reset_password": "Reset Password",
+      "auth_method": "Sign-in Method",
+      "managed_by_provider": "Your password is managed by your",
+      "manage_account_link": "Manage account"
     },
     "license": {
       "title": "License Information",
-      "signupDate": "Signup Date",
-      "expiryDate": "Expiry Date",
-      "externalId": "External ID",
-      "freeCredits": "Free Credits"
+      "signup_date": "Signup Date",
+      "expiry_date": "Expiry Date",
+      "external_id": "External ID",
+      "free_credits": "Free Credits"
     },
-    "auditColumns": {
+    "audit_columns": {
       "action": "Action",
       "date": "Date"
     },
-    "emptyStates": {
-      "auditTitle": "No Audit History",
-      "auditDesc": "User activity will appear here once they start using the system.",
-      "divisionsTitle": "No Divisions Assigned",
-      "divisionsDesc": "Assign this user to divisions to manage their access."
+    "empty_states": {
+      "audit_title": "No Audit History",
+      "audit_desc": "User activity will appear here once they start using the system.",
+      "divisions_title": "No Divisions Assigned",
+      "divisions_desc": "Assign this user to divisions to manage their access."
     },
     "tabs": {
       "info": "Info",
       "roles": "Roles",
       "security": "Security",
-      "auditTrail": "Audit Trail"
+      "audit_trail": "Audit Trail"
     }
   },
-  "detailButtons": {
+  "detail_buttons": {
     "save": "Save Changes",
     "cancel": "Cancel",
     "deactivate": "Deactivate User",
     "activate": "Activate User",
-    "resetMfa": "Reset MFA"
+    "reset_mfa": "Reset MFA"
   },
-  "divisionTabs": {
-    "basicInfo": "Basic Information",
+  "division_tabs": {
+    "basic_info": "Basic Information",
     "users": "Users",
-    "paymentTerms": "Payment Terms"
+    "payment_terms": "Payment Terms"
   },
   "helpdesk": {
     "title": "Users - Help",
-    "comingSoon": "Help content for the Users module is coming soon.",
-    "quickLinks": "Quick Links",
-    "adminUsers": "Admin Users",
-    "managerUsers": "Manager Users",
-    "userDivisions": "User Divisions"
+    "coming_soon": "Help content for the Users module is coming soon.",
+    "quick_links": "Quick Links",
+    "admin_users": "Admin Users",
+    "manager_users": "Manager Users",
+    "user_divisions": "User Divisions"
   },
-  "divisionDetail": {
-    "basicInfo": {
+  "division_detail": {
+    "basic_info": {
       "title": "Basic Information",
-      "divisionName": "Division Name",
+      "division_name": "Division Name",
       "office": "Office",
-      "entityName": "Entity Name",
+      "entity_name": "Entity Name",
       "abn": "ABN",
       "status": "Status",
-      "setDefault": "Set as Default",
-      "payrollTaxExempt": "Payroll Tax Exempt",
-      "externalCompanyId": "External Company ID"
+      "set_default": "Set as Default",
+      "payroll_tax_exempt": "Payroll Tax Exempt",
+      "external_company_id": "External Company ID"
     },
     "address": {
       "title": "Address",
-      "addressLine1": "Address Line 1",
-      "addressLine2": "Address Line 2",
+      "address_line1": "Address Line 1",
+      "address_line2": "Address Line 2",
       "suburb": "Suburb",
       "city": "City",
       "state": "State",
@@ -256,25 +256,25 @@
       "title": "Contact Information",
       "telephone": "Telephone",
       "fax": "Fax",
-      "afterHours": "After Hours",
+      "after_hours": "After Hours",
       "email": "Email",
-      "payrollEmail": "Payroll Email",
-      "financeEmail": "Finance Email",
-      "genericEmail": "Generic Email"
+      "payroll_email": "Payroll Email",
+      "finance_email": "Finance Email",
+      "generic_email": "Generic Email"
     },
-    "userColumns": {
+    "user_columns": {
       "name": "Name",
       "email": "Email",
       "status": "Status"
     },
-    "emptyStates": {
-      "usersTitle": "No Users Assigned",
-      "usersDesc": "No users are currently assigned to this division.",
-      "paymentTermsTitle": "No Payment Terms",
-      "paymentTermsDesc": "Configure payment terms for this division."
+    "empty_states": {
+      "users_title": "No Users Assigned",
+      "users_desc": "No users are currently assigned to this division.",
+      "payment_terms_title": "No Payment Terms",
+      "payment_terms_desc": "Configure payment terms for this division."
     }
   },
-  "divisionButtons": {
+  "division_buttons": {
     "save": "Save Changes",
     "cancel": "Cancel",
     "deactivate": "Deactivate Division",

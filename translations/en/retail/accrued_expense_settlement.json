@@ -1,8 +1,8 @@
 {
-  "accruedExpenseSettlement": {
+  "accrued_expense_settlement": {
     "labels": {
       "name": "Vendor Accrual Settlement",
-      "namePlural": "Vendor Accrual Settlements"
+      "name_plural": "Vendor Accrual Settlements"
     }
   }
 }

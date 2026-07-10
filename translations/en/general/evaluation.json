@@ -3,16 +3,16 @@
     "page": {
       "heading": "Reviews",
       "caption": "Track and manage performance evaluations",
-      "headingDraft": "Draft Reviews",
-      "headingSubmitted": "Submitted Reviews",
-      "headingSignedOff": "Signed-Off Reviews",
-      "headingArchived": "Archived Reviews"
+      "heading_draft": "Draft Reviews",
+      "heading_submitted": "Submitted Reviews",
+      "heading_signed_off": "Signed-Off Reviews",
+      "heading_archived": "Archived Reviews"
     },
     "buttons": {
-      "startReview": "Start Review",
-      "saveDraft": "Save Draft",
+      "start_review": "Start Review",
+      "save_draft": "Save Draft",
       "submit": "Sign off",
-      "signOff": "Sign off",
+      "sign_off": "Sign off",
       "archive": "Archive",
       "delete": "Delete"
     },
@@ -23,83 +23,83 @@
       "type": "Type",
       "overall": "Overall Score",
       "status": "Status",
-      "submittedAt": "Submitted"
+      "submitted_at": "Submitted"
     },
     "status": {
       "draft": "Draft",
       "submitted": "Submitted",
-      "signedOff": "Signed Off",
+      "signed_off": "Signed Off",
       "archived": "Archived"
     },
     "tabs": {
       "all": "All",
       "draft": "Draft",
       "submitted": "Submitted",
-      "signedOff": "Signed Off",
+      "signed_off": "Signed Off",
       "archived": "Archived",
       "info": "Information",
       "scores": "Scores",
-      "signOff": "Sign Off",
-      "auditTrail": "Audit Trail"
+      "sign_off": "Sign Off",
+      "audit_trail": "Audit Trail"
     },
     "empty": {
       "title": "No reviews found",
       "message": "No evaluations to display.",
-      "draftTitle": "No draft reviews",
-      "draftMessage": "Start a new review to get started.",
-      "submittedTitle": "No submitted reviews",
-      "submittedMessage": "Completed reviews will appear here.",
-      "signedOffTitle": "No signed-off reviews",
-      "signedOffMessage": "Reviews awaiting or completed sign-off will appear here."
+      "draft_title": "No draft reviews",
+      "draft_message": "Start a new review to get started.",
+      "submitted_title": "No submitted reviews",
+      "submitted_message": "Completed reviews will appear here.",
+      "signed_off_title": "No signed-off reviews",
+      "signed_off_message": "Reviews awaiting or completed sign-off will appear here."
     },
     "form": {
-      "evaluationType": "Review Type",
-      "evaluationTypePlaceholder": "Select review type",
+      "evaluation_type": "Review Type",
+      "evaluation_type_placeholder": "Select review type",
       "template": "Evaluation Template",
-      "templatePlaceholder": "Select a template",
-      "periodStart": "Period Start",
-      "periodEnd": "Period End",
+      "template_placeholder": "Select a template",
+      "period_start": "Period Start",
+      "period_end": "Period End",
       "narrative": "Narrative",
-      "narrativePlaceholder": "Optional comments or summary...",
+      "narrative_placeholder": "Optional comments or summary...",
       "associate": "Associate",
       "client": "Client",
-      "sectionHeader": "Evaluation",
-      "sectionRubric": "Rubric",
-      "sectionNarrative": "Narrative"
+      "section_header": "Evaluation",
+      "section_rubric": "Rubric",
+      "section_narrative": "Narrative"
     },
     "dimension": {
-      "notScored": "(not scored)",
-      "passFail": {
+      "not_scored": "(not scored)",
+      "pass_fail": {
         "pass": "Pass",
         "fail": "Fail"
       },
-      "ratingBar": {
-        "ariaLabel": "Score for {{.Name}}: {{.Value}} of {{.Max}}"
+      "rating_bar": {
+        "aria_label": "Score for {{.Name}}: {{.Value}} of {{.Max}}"
       }
     },
     "actions": {
       "view": "View Review",
       "edit": "Edit Review",
-      "signOff": "Sign Off",
+      "sign_off": "Sign Off",
       "archive": "Archive",
       "delete": "Delete"
     },
-    "bulkActions": {
+    "bulk_actions": {
       "archive": "Archive Selected",
       "delete": "Delete Selected"
     },
     "detail": {
-      "pageTitle": "Review Details",
+      "page_title": "Review Details",
       "associate": "Associate",
       "client": "Client",
       "period": "Period",
       "type": "Type",
       "template": "Template",
-      "overallScore": "Overall Score",
+      "overall_score": "Overall Score",
       "status": "Status",
-      "submittedAt": "Submitted",
-      "signedOffAt": "Signed Off",
-      "signedOffBy": "Signed Off By",
+      "submitted_at": "Submitted",
+      "signed_off_at": "Signed Off",
+      "signed_off_by": "Signed Off By",
       "narrative": "Narrative",
       "scores": {
         "heading": "Scores",
@@ -107,49 +107,49 @@
         "weight": "Weight",
         "score": "Score",
         "comment": "Comment",
-        "weightedTotal": "Weighted Total",
+        "weighted_total": "Weighted Total",
         "empty": "No responses recorded."
       },
-      "signOff": {
+      "sign_off": {
         "heading": "Sign Off",
         "status": "Status",
-        "signedBy": "Signed By",
-        "signedAt": "Signed At",
+        "signed_by": "Signed By",
+        "signed_at": "Signed At",
         "pending": "Awaiting sign-off",
         "complete": "Signed off"
       }
     },
     "confirm": {
-      "signOff": "Sign Off Review",
-      "signOffMessage": "Sign off on this review for \"%s\"? This action cannot be undone.",
+      "sign_off": "Sign Off Review",
+      "sign_off_message": "Sign off on this review for \"%s\"? This action cannot be undone.",
       "archive": "Archive Review",
-      "archiveMessage": "Are you sure you want to archive this review?",
+      "archive_message": "Are you sure you want to archive this review?",
       "delete": "Delete Review",
-      "deleteMessage": "Are you sure you want to delete this review? This action cannot be undone.",
-      "bulkArchive": "Archive Selected",
-      "bulkArchiveMessage": "Archive {count} review(s)? This action cannot be undone.",
-      "bulkDelete": "Delete Selected",
-      "bulkDeleteMessage": "Delete {count} review(s)? This action cannot be undone."
+      "delete_message": "Are you sure you want to delete this review? This action cannot be undone.",
+      "bulk_archive": "Archive Selected",
+      "bulk_archive_message": "Archive {count} review(s)? This action cannot be undone.",
+      "bulk_delete": "Delete Selected",
+      "bulk_delete_message": "Delete {count} review(s)? This action cannot be undone."
     },
     "errors": {
-      "permissionDenied": "You do not have permission to perform this action",
-      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
-      "notFound": "Review not found",
-      "idRequired": "Review ID is required",
-      "noPermission": "No permission",
-      "templateRequired": "An evaluation template is required for performance reviews",
-      "alreadySignedOff": "This review has already been signed off",
-      "notSubmitted": "Only submitted reviews can be signed off"
+      "permission_denied": "You do not have permission to perform this action",
+      "invalid_form_data": "Invalid form data. Please check your inputs and try again.",
+      "not_found": "Review not found",
+      "id_required": "Review ID is required",
+      "no_permission": "No permission",
+      "template_required": "An evaluation template is required for performance reviews",
+      "already_signed_off": "This review has already been signed off",
+      "not_submitted": "Only submitted reviews can be signed off"
     },
     "portal": {
       "heading": "Rate My Team",
       "caption": "Submit performance reviews for your team members",
-      "startReview": "Start Review",
-      "viewLastReview": "View Last Review",
+      "start_review": "Start Review",
+      "view_last_review": "View Last Review",
       "empty": "No team members to review at this time.",
-      "ratingLabel": "Rating",
-      "lastReview": "Last review",
-      "noReview": "No review yet"
+      "rating_label": "Rating",
+      "last_review": "Last review",
+      "no_review": "No review yet"
     }
   }
 }

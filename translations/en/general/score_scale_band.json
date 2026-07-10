@@ -2,48 +2,48 @@
   "score_scale_band": {
     "page": {
       "heading": "Score Scale Bands",
-      "headingActive": "Active Bands",
-      "headingInactive": "Inactive Bands",
+      "heading_active": "Active Bands",
+      "heading_inactive": "Inactive Bands",
       "caption": "Manage score scale band definitions",
-      "captionActive": "Active score scale bands",
-      "captionInactive": "Inactive score scale bands"
+      "caption_active": "Active score scale bands",
+      "caption_inactive": "Inactive score scale bands"
     },
     "buttons": {
-      "addBand": "Add Band"
+      "add_band": "Add Band"
     },
     "columns": {
       "determination": "Determination",
-      "inputMax": "Input Max",
-      "inputMin": "Input Min",
-      "outputLabel": "Output Label",
-      "outputValue": "Output Value",
-      "sequenceOrder": "Order",
+      "input_max": "Input Max",
+      "input_min": "Input Min",
+      "output_label": "Output Label",
+      "output_value": "Output Value",
+      "sequence_order": "Order",
       "status": "Status"
     },
     "empty": {
-      "activeMessage": "Add the first band to this scale.",
-      "activeTitle": "No active bands",
-      "inactiveMessage": "Deactivated bands will appear here.",
-      "inactiveTitle": "No inactive bands",
+      "active_message": "Add the first band to this scale.",
+      "active_title": "No active bands",
+      "inactive_message": "Deactivated bands will appear here.",
+      "inactive_title": "No inactive bands",
       "message": "No score scale bands to display.",
       "title": "No bands found"
     },
     "form": {
-      "bandRole": "Band Role",
-      "bandRolePlaceholder": "e.g. passing",
+      "band_role": "Band Role",
+      "band_role_placeholder": "e.g. passing",
       "determination": "Determination",
-      "determinationInfo": "The pass/fail determination applied when a score falls within this band.",
-      "inputMatch": "Input Match",
-      "inputMatchPlaceholder": "Exact match string",
-      "inputMax": "Input Max",
-      "inputMaxPlaceholder": "e.g. 100",
-      "inputMin": "Input Min",
-      "inputMinPlaceholder": "e.g. 0",
-      "outputLabel": "Output Label",
-      "outputLabelPlaceholder": "e.g. Excellent",
-      "outputValue": "Output Value",
-      "scoreScaleId": "Score Scale",
-      "sequenceOrder": "Sequence Order"
+      "determination_info": "The pass/fail determination applied when a score falls within this band.",
+      "input_match": "Input Match",
+      "input_match_placeholder": "Exact match string",
+      "input_max": "Input Max",
+      "input_max_placeholder": "e.g. 100",
+      "input_min": "Input Min",
+      "input_min_placeholder": "e.g. 0",
+      "output_label": "Output Label",
+      "output_label_placeholder": "e.g. Excellent",
+      "output_value": "Output Value",
+      "score_scale_id": "Score Scale",
+      "sequence_order": "Sequence Order"
     },
     "actions": {
       "delete": "Delete Band",
@@ -51,18 +51,18 @@
       "view": "View Band"
     },
     "detail": {
-      "bandRole": "Band Role",
-      "createdDate": "Created",
+      "band_role": "Band Role",
+      "created_date": "Created",
       "determination": "Determination",
-      "inputMatch": "Input Match",
-      "inputMax": "Input Max",
-      "inputMin": "Input Min",
-      "modifiedDate": "Last Modified",
-      "outputLabel": "Output Label",
-      "outputValue": "Output Value",
-      "pageTitle": "Band Details",
-      "scoreScaleId": "Score Scale",
-      "sequenceOrder": "Sequence Order",
+      "input_match": "Input Match",
+      "input_max": "Input Max",
+      "input_min": "Input Min",
+      "modified_date": "Last Modified",
+      "output_label": "Output Label",
+      "output_value": "Output Value",
+      "page_title": "Band Details",
+      "score_scale_id": "Score Scale",
+      "sequence_order": "Sequence Order",
       "status": "Status"
     },
     "tabs": {
@@ -71,14 +71,14 @@
     },
     "confirm": {
       "delete": "Delete Band",
-      "deleteMessage": "Are you sure you want to delete \"%s\"? This action cannot be undone."
+      "delete_message": "Are you sure you want to delete \"%s\"? This action cannot be undone."
     },
     "errors": {
-      "idRequired": "Band ID is required",
-      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
-      "notFound": "Score scale band not found",
-      "noPermission": "No permission",
-      "permissionDenied": "You do not have permission to perform this action"
+      "id_required": "Band ID is required",
+      "invalid_form_data": "Invalid form data. Please check your inputs and try again.",
+      "not_found": "Score scale band not found",
+      "no_permission": "No permission",
+      "permission_denied": "You do not have permission to perform this action"
     }
   }
 }

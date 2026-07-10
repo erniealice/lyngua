@@ -2,43 +2,43 @@
   "reporting_checkpoint": {
     "page": {
       "heading": "Reporting Checkpoints",
-      "headingActive": "Active Checkpoints",
-      "headingInactive": "Inactive Checkpoints",
+      "heading_active": "Active Checkpoints",
+      "heading_inactive": "Inactive Checkpoints",
       "caption": "Manage reporting checkpoints for workflow stages",
-      "captionActive": "Manage your active reporting checkpoints",
-      "captionInactive": "View deprecated or draft checkpoints"
+      "caption_active": "Manage your active reporting checkpoints",
+      "caption_inactive": "View deprecated or draft checkpoints"
     },
     "buttons": {
-      "addCheckpoint": "Add Checkpoint"
+      "add_checkpoint": "Add Checkpoint"
     },
     "columns": {
       "label": "Label",
-      "roleCode": "Role",
-      "sequenceOrder": "Order",
+      "role_code": "Role",
+      "sequence_order": "Order",
       "version": "Version",
-      "versionStatus": "Status"
+      "version_status": "Status"
     },
     "empty": {
-      "activeMessage": "Create your first reporting checkpoint to get started.",
-      "activeTitle": "No active checkpoints",
-      "inactiveMessage": "Deprecated or draft checkpoints will appear here.",
-      "inactiveTitle": "No inactive checkpoints",
+      "active_message": "Create your first reporting checkpoint to get started.",
+      "active_title": "No active checkpoints",
+      "inactive_message": "Deprecated or draft checkpoints will appear here.",
+      "inactive_title": "No inactive checkpoints",
       "message": "No reporting checkpoints to display.",
       "title": "No checkpoints found"
     },
     "form": {
-      "checkpointGroupId": "Checkpoint Group ID",
-      "isTerminal": "Terminal Checkpoint",
+      "checkpoint_group_id": "Checkpoint Group ID",
+      "is_terminal": "Terminal Checkpoint",
       "label": "Label",
-      "labelPlaceholder": "Enter checkpoint label",
-      "periodId": "Period (optional)",
-      "roleCode": "Role Code",
-      "roleCodePlaceholder": "Enter role code",
-      "sequenceOrder": "Sequence Order",
-      "sequenceOrderInfo": "Position of this checkpoint in the reporting sequence.",
-      "versionStatus": "Version Status",
-      "versionStatusInfo": "The publication state of this checkpoint version.",
-      "workspaceId": "Workspace (optional)"
+      "label_placeholder": "Enter checkpoint label",
+      "period_id": "Period (optional)",
+      "role_code": "Role Code",
+      "role_code_placeholder": "Enter role code",
+      "sequence_order": "Sequence Order",
+      "sequence_order_info": "Position of this checkpoint in the reporting sequence.",
+      "version_status": "Version Status",
+      "version_status_info": "The publication state of this checkpoint version.",
+      "workspace_id": "Workspace (optional)"
     },
     "actions": {
       "delete": "Delete Checkpoint",
@@ -47,18 +47,18 @@
     },
     "detail": {
       "active": "Active",
-      "checkpointGroupId": "Checkpoint Group ID",
-      "createdDate": "Created",
-      "isTerminal": "Terminal",
+      "checkpoint_group_id": "Checkpoint Group ID",
+      "created_date": "Created",
+      "is_terminal": "Terminal",
       "label": "Label",
-      "modifiedDate": "Last Modified",
-      "pageTitle": "Checkpoint Details",
-      "periodId": "Period",
-      "roleCode": "Role Code",
-      "sequenceOrder": "Sequence Order",
+      "modified_date": "Last Modified",
+      "page_title": "Checkpoint Details",
+      "period_id": "Period",
+      "role_code": "Role Code",
+      "sequence_order": "Sequence Order",
       "version": "Version",
-      "versionStatus": "Status",
-      "workspaceId": "Workspace"
+      "version_status": "Status",
+      "workspace_id": "Workspace"
     },
     "tabs": {
       "history": "History",
@@ -66,14 +66,14 @@
     },
     "confirm": {
       "delete": "Delete Checkpoint",
-      "deleteMessage": "Are you sure you want to delete \"%s\"? This action cannot be undone."
+      "delete_message": "Are you sure you want to delete \"%s\"? This action cannot be undone."
     },
     "errors": {
-      "idRequired": "Checkpoint ID is required",
-      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
-      "notFound": "Reporting checkpoint not found",
-      "noPermission": "No permission",
-      "permissionDenied": "You do not have permission to perform this action"
+      "id_required": "Checkpoint ID is required",
+      "invalid_form_data": "Invalid form data. Please check your inputs and try again.",
+      "not_found": "Reporting checkpoint not found",
+      "no_permission": "No permission",
+      "permission_denied": "You do not have permission to perform this action"
     }
   }
 }

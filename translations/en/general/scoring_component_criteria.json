@@ -2,36 +2,36 @@
   "scoring_component_criteria": {
     "page": {
       "heading": "Scoring Component Criteria",
-      "headingActive": "Active Links",
-      "headingInactive": "Inactive Links",
+      "heading_active": "Active Links",
+      "heading_inactive": "Inactive Links",
       "caption": "Manage criteria linked to scoring components",
-      "captionActive": "Active scoring component criteria links",
-      "captionInactive": "Inactive scoring component criteria links"
+      "caption_active": "Active scoring component criteria links",
+      "caption_inactive": "Inactive scoring component criteria links"
     },
     "buttons": {
-      "addLink": "Add Link"
+      "add_link": "Add Link"
     },
     "columns": {
-      "outcomeCriteriaId": "Outcome Criterion",
-      "scoringComponentId": "Scoring Component",
-      "scoringSchemeId": "Scoring Scheme",
+      "outcome_criteria_id": "Outcome Criterion",
+      "scoring_component_id": "Scoring Component",
+      "scoring_scheme_id": "Scoring Scheme",
       "status": "Status"
     },
     "empty": {
-      "activeMessage": "Create your first scoring component criteria link to get started.",
-      "activeTitle": "No active links",
-      "inactiveMessage": "Deactivated links will appear here.",
-      "inactiveTitle": "No inactive links",
+      "active_message": "Create your first scoring component criteria link to get started.",
+      "active_title": "No active links",
+      "inactive_message": "Deactivated links will appear here.",
+      "inactive_title": "No inactive links",
       "message": "No scoring component criteria links to display.",
       "title": "No links found"
     },
     "form": {
-      "outcomeCriteriaId": "Outcome Criteria ID",
-      "outcomeCriteriaIdInfo": "The outcome criterion being linked to the scoring component.",
-      "scoringComponentId": "Scoring Component ID",
-      "scoringComponentIdInfo": "The scoring component being linked.",
-      "scoringSchemeId": "Scoring Scheme ID",
-      "scoringSchemeIdInfo": "The scoring scheme this link belongs to."
+      "outcome_criteria_id": "Outcome Criteria ID",
+      "outcome_criteria_id_info": "The outcome criterion being linked to the scoring component.",
+      "scoring_component_id": "Scoring Component ID",
+      "scoring_component_id_info": "The scoring component being linked.",
+      "scoring_scheme_id": "Scoring Scheme ID",
+      "scoring_scheme_id_info": "The scoring scheme this link belongs to."
     },
     "actions": {
       "delete": "Delete Link",
@@ -39,12 +39,12 @@
       "view": "View Link"
     },
     "detail": {
-      "createdDate": "Created",
-      "modifiedDate": "Last Modified",
-      "outcomeCriteriaId": "Outcome Criterion",
-      "pageTitle": "Scoring Component Criteria Details",
-      "scoringComponentId": "Scoring Component",
-      "scoringSchemeId": "Scoring Scheme",
+      "created_date": "Created",
+      "modified_date": "Last Modified",
+      "outcome_criteria_id": "Outcome Criterion",
+      "page_title": "Scoring Component Criteria Details",
+      "scoring_component_id": "Scoring Component",
+      "scoring_scheme_id": "Scoring Scheme",
       "status": "Status"
     },
     "tabs": {
@@ -53,14 +53,14 @@
     },
     "confirm": {
       "delete": "Delete Link",
-      "deleteMessage": "Are you sure you want to delete this scoring component criteria link? This action cannot be undone."
+      "delete_message": "Are you sure you want to delete this scoring component criteria link? This action cannot be undone."
     },
     "errors": {
-      "idRequired": "Link ID is required",
-      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
-      "notFound": "Scoring component criteria link not found",
-      "noPermission": "No permission",
-      "permissionDenied": "You do not have permission to perform this action"
+      "id_required": "Link ID is required",
+      "invalid_form_data": "Invalid form data. Please check your inputs and try again.",
+      "not_found": "Scoring component criteria link not found",
+      "no_permission": "No permission",
+      "permission_denied": "You do not have permission to perform this action"
     }
   }
 }

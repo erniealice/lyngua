@@ -1,14 +1,14 @@
 {
   "page": {
     "heading": "Roles",
-    "headingActive": "Active Roles",
-    "headingInactive": "Inactive Roles",
+    "heading_active": "Active Roles",
+    "heading_inactive": "Inactive Roles",
     "caption": "Role management",
-    "captionActive": "Manage your active roles",
-    "captionInactive": "View inactive roles"
+    "caption_active": "Manage your active roles",
+    "caption_inactive": "View inactive roles"
   },
   "buttons": {
-    "addRole": "Add Role"
+    "add_role": "Add Role"
   },
   "columns": {
     "name": "Name",
@@ -16,21 +16,21 @@
     "color": "Color",
     "permissions": "Permissions",
     "status": "Status",
-    "dateCreated": "Date Created"
+    "date_created": "Date Created"
   },
   "empty": {
-    "activeTitle": "No active roles",
-    "activeMessage": "Add your first role to get started",
-    "inactiveTitle": "No inactive roles",
-    "inactiveMessage": "Inactive roles will appear here"
+    "active_title": "No active roles",
+    "active_message": "Add your first role to get started",
+    "inactive_title": "No inactive roles",
+    "inactive_message": "Inactive roles will appear here"
   },
   "form": {
     "name": "Name",
-    "namePlaceholder": "e.g. Administrator",
+    "name_placeholder": "e.g. Administrator",
     "description": "Description",
-    "descriptionPlaceholder": "e.g. Full system access",
+    "description_placeholder": "e.g. Full system access",
     "color": "Color",
-    "colorPlaceholder": "e.g. #FF0000",
+    "color_placeholder": "e.g. #FF0000",
     "active": "Active"
   },
   "actions": {
@@ -39,7 +39,7 @@
     "delete": "Delete role",
     "activate": "Activate",
     "deactivate": "Deactivate",
-    "managePermissions": "Manage Permissions"
+    "manage_permissions": "Manage Permissions"
   },
   "detail": {
     "tabs": {

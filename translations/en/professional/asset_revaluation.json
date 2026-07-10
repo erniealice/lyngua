@@ -1,25 +1,25 @@
 {
-  "assetRevaluation": {
-    "cancelButton": "Cancel",
+  "asset_revaluation": {
+    "cancel_button": "Cancel",
     "errors": {
-      "useCaseUnavailable": "Service unavailable. Please try again.",
-      "formParseFailed": "Form data could not be read.",
-      "revaluateFailed": "Failed to record the revaluation.",
-      "invalidAmount": "Invalid amount format. Use a number with up to 2 decimal places."
+      "use_case_unavailable": "Service unavailable. Please try again.",
+      "form_parse_failed": "Form data could not be read.",
+      "revaluate_failed": "Failed to record the revaluation.",
+      "invalid_amount": "Invalid amount format. Use a number with up to 2 decimal places."
     },
     "fields": {
-      "appraiserName": "Appraiser name",
-      "newFairValue": "New fair value",
+      "appraiser_name": "Appraiser name",
+      "new_fair_value": "New fair value",
       "notes": "Notes",
-      "valuationMethod": "Valuation method"
+      "valuation_method": "Valuation method"
     },
     "preview": {
-      "ociSplit": "OCI split",
-      "pnlSplit": "PnL split",
-      "revaluationAmount": "Revaluation amount"
+      "oci_split": "OCI split",
+      "pnl_split": "PnL split",
+      "revaluation_amount": "Revaluation amount"
     },
-    "submitButton": "Revalue asset",
+    "submit_button": "Revalue asset",
     "title": "Revalue asset",
-    "toastTemplate": "Asset revalued: {sign}{amount} recognized in {account}."
+    "toast_template": "Asset revalued: {sign}{amount} recognized in {account}."
   }
 }

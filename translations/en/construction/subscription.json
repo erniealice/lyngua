@@ -2,19 +2,25 @@
     "subscription": {
         "page": {
             "heading": "Contracts",
-            "headingActive": "Active Contracts",
-            "headingInactive": "Inactive Contracts",
+            "heading_active": "Active Contracts",
+            "heading_inactive": "Inactive Contracts",
             "caption": "Project contracts and framework agreements",
-            "captionActive": "Active project contracts",
-            "captionInactive": "Completed or terminated contracts"
+            "caption_active": "Active project contracts",
+            "caption_inactive": "Completed or terminated contracts"
         },
-        "buttons": { "addSubscription": "Add Contract" },
-        "columns": { "customer": "Client", "plan": "Contract Type", "startDate": "Start Date" },
+        "buttons": {
+            "add_subscription": "Add Contract"
+        },
+        "columns": {
+            "customer": "Client",
+            "plan": "Contract Type",
+            "start_date": "Start Date"
+        },
         "form": {
             "customer": "Client",
             "plan": "Contract Type",
-            "startDate": "Commencement Date",
-            "endDate": "Completion Date",
+            "start_date": "Commencement Date",
+            "end_date": "Completion Date",
             "start_time": "Start time",
             "end_time": "End time",
             "start_time_info": "Time of day in the operator's display timezone.",
@@ -30,48 +36,50 @@
             "activate": "Activate",
             "deactivate": "Deactivate"
         },
-        "bulkActions": {
+        "bulk_actions": {
             "delete": "Delete Selected",
-            "bulkActivate": "Activate Selected",
-            "bulkDeactivate": "Deactivate Selected"
+            "bulk_activate": "Activate Selected",
+            "bulk_deactivate": "Deactivate Selected"
         },
         "status": {
             "activate": "Activate",
             "deactivate": "Deactivate"
         },
-        "detail": { "pageTitle": "Contract Details" },
+        "detail": {
+            "page_title": "Contract Details"
+        },
         "tabs": {
             "info": "Information",
             "invoices": "Invoices",
-            "auditTrail": "Audit Trail"
+            "audit_trail": "Audit Trail"
         },
         "invoices": {
             "title": "Invoices",
             "empty": "No invoices yet for this contract.",
-            "columnCode": "Number",
-            "columnDate": "Date",
-            "columnAmount": "Amount",
-            "columnStatus": "Status"
+            "column_code": "Number",
+            "column_date": "Date",
+            "column_amount": "Amount",
+            "column_status": "Status"
         },
         "confirm": {
-            "cancelTitle": "Terminate Contract",
-            "cancelMessage": "Are you sure you want to terminate this contract?",
+            "cancel_title": "Terminate Contract",
+            "cancel_message": "Are you sure you want to terminate this contract?",
             "activate": "Activate Contract",
-            "activateMessage": "Are you sure you want to activate %s?",
+            "activate_message": "Are you sure you want to activate %s?",
             "deactivate": "Deactivate Contract",
-            "deactivateMessage": "Are you sure you want to deactivate %s?",
-            "bulkActivate": "Activate Selected",
-            "bulkActivateMessage": "Are you sure you want to activate the selected contracts?",
-            "bulkDeactivate": "Deactivate Selected",
-            "bulkDeactivateMessage": "Are you sure you want to deactivate the selected contracts?",
-            "bulkDelete": "Delete Selected",
-            "bulkDeleteMessage": "Are you sure you want to delete the selected contracts? This action cannot be undone."
+            "deactivate_message": "Are you sure you want to deactivate %s?",
+            "bulk_activate": "Activate Selected",
+            "bulk_activate_message": "Are you sure you want to activate the selected contracts?",
+            "bulk_deactivate": "Deactivate Selected",
+            "bulk_deactivate_message": "Are you sure you want to deactivate the selected contracts?",
+            "bulk_delete": "Delete Selected",
+            "bulk_delete_message": "Are you sure you want to delete the selected contracts? This action cannot be undone."
         },
         "errors": {
-            "noIDsProvided": "No contract IDs provided",
-            "invalidStatus": "Invalid status value",
-            "cannotDelete": "Cannot delete — this contract has dependent records",
-            "inUse": "Cannot delete — this contract has dependent records (jobs, revenue, invoices, etc.)"
+            "no_ids_provided": "No contract IDs provided",
+            "invalid_status": "Invalid status value",
+            "cannot_delete": "Cannot delete — this contract has dependent records",
+            "in_use": "Cannot delete — this contract has dependent records (jobs, revenue, invoices, etc.)"
         }
     }
 }

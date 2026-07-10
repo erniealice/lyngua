@@ -1,15 +1,15 @@
 {
-  "supplierPlan": {
+  "supplier_plan": {
     "page": {
       "heading": "Supplier Plans",
-      "headingActive": "Active Supplier Plans",
-      "headingInactive": "Inactive Supplier Plans",
+      "heading_active": "Active Supplier Plans",
+      "heading_inactive": "Inactive Supplier Plans",
       "caption": "Manage your supplier plans",
-      "captionActive": "Manage your active supplier plans",
-      "captionInactive": "View inactive or archived supplier plans"
+      "caption_active": "Manage your active supplier plans",
+      "caption_inactive": "View inactive or archived supplier plans"
     },
     "buttons": {
-      "addSupplierPlan": "Add Supplier Plan"
+      "add_supplier_plan": "Add Supplier Plan"
     },
     "columns": {
       "name": "Name",
@@ -20,26 +20,26 @@
     "empty": {
       "title": "No supplier plans found",
       "message": "No supplier plans to display.",
-      "activeTitle": "No active supplier plans",
-      "activeMessage": "Create your first supplier plan to get started.",
-      "inactiveTitle": "No inactive supplier plans",
-      "inactiveMessage": "Discontinued supplier plans will appear here."
+      "active_title": "No active supplier plans",
+      "active_message": "Create your first supplier plan to get started.",
+      "inactive_title": "No inactive supplier plans",
+      "inactive_message": "Discontinued supplier plans will appear here."
     },
     "form": {
-      "sectionBasic": "Basic Information",
-      "sectionProducts": "Assigned Products",
+      "section_basic": "Basic Information",
+      "section_products": "Assigned Products",
       "name": "Supplier Plan Name",
-      "namePlaceholder": "Enter supplier plan name",
+      "name_placeholder": "Enter supplier plan name",
       "description": "Description",
-      "descriptionPlaceholder": "Enter supplier plan description...",
+      "description_placeholder": "Enter supplier plan description...",
       "active": "Active",
       "supplier": "Supplier",
-      "supplierPlaceholder": "Select supplier...",
-      "supplierSearchPlaceholder": "Search suppliers...",
-      "supplierNoResults": "No suppliers found",
-      "supplierInfo": "The supplier this plan is associated with.",
-      "nameInfo": "Name for this supplier plan.",
-      "descriptionInfo": "Optional notes shown alongside the supplier plan in detail views."
+      "supplier_placeholder": "Select supplier...",
+      "supplier_search_placeholder": "Search suppliers...",
+      "supplier_no_results": "No suppliers found",
+      "supplier_info": "The supplier this plan is associated with.",
+      "name_info": "Name for this supplier plan.",
+      "description_info": "Optional notes shown alongside the supplier plan in detail views."
     },
     "actions": {
       "view": "View Supplier Plan",
@@ -47,36 +47,36 @@
       "delete": "Delete Supplier Plan"
     },
     "detail": {
-      "pageTitle": "Supplier Plan Details",
+      "page_title": "Supplier Plan Details",
       "supplier": "Supplier",
       "description": "Description",
       "active": "Active",
       "inactive": "Inactive",
-      "createdDate": "Created",
-      "modifiedDate": "Last Modified",
+      "created_date": "Created",
+      "modified_date": "Last Modified",
       "heading": "Supplier Plan Info",
       "name": "Name",
       "edit": "Edit",
-      "editTitle": "Edit Supplier Plan"
+      "edit_title": "Edit Supplier Plan"
     },
     "tabs": {
       "info": "Information",
       "products": "Products",
-      "costPlans": "Cost Plans",
-      "auditTrail": "Audit Trail"
+      "cost_plans": "Cost Plans",
+      "audit_trail": "Audit Trail"
     },
     "confirm": {
       "delete": "Delete Supplier Plan",
-      "deleteMessage": "Are you sure you want to delete \"%s\"? This action cannot be undone.",
+      "delete_message": "Are you sure you want to delete \"%s\"? This action cannot be undone.",
       "deactivate": "Deactivate Supplier Plan",
-      "deactivateMessage": "Are you sure you want to deactivate \"%s\"?"
+      "deactivate_message": "Are you sure you want to deactivate \"%s\"?"
     },
     "errors": {
-      "permissionDenied": "You do not have permission to perform this action",
-      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
-      "notFound": "Supplier plan not found",
-      "idRequired": "Supplier plan ID is required",
-      "noPermission": "No permission"
+      "permission_denied": "You do not have permission to perform this action",
+      "invalid_form_data": "Invalid form data. Please check your inputs and try again.",
+      "not_found": "Supplier plan not found",
+      "id_required": "Supplier plan ID is required",
+      "no_permission": "No permission"
     },
     "validation": {
       "data_required": "Supplier plan data is required",

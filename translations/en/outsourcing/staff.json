@@ -3,11 +3,11 @@
     "page": {
       "heading": "Associates",
       "caption": "Manage your associates and virtual assistants",
-      "headingActive": "Active Associates",
-      "headingInactive": "Inactive Associates"
+      "heading_active": "Active Associates",
+      "heading_inactive": "Inactive Associates"
     },
     "buttons": {
-      "addStaff": "Add Associate"
+      "add_staff": "Add Associate"
     },
     "columns": {
       "name": "Associate",
@@ -16,10 +16,10 @@
     "empty": {
       "title": "No associates found",
       "message": "No associates to display.",
-      "activeTitle": "No active associates",
-      "activeMessage": "Add your first associate to get started.",
-      "inactiveTitle": "No inactive associates",
-      "inactiveMessage": "Offboarded associates will appear here."
+      "active_title": "No active associates",
+      "active_message": "Add your first associate to get started.",
+      "inactive_title": "No inactive associates",
+      "inactive_message": "Offboarded associates will appear here."
     },
     "actions": {
       "view": "View Associate",
@@ -27,7 +27,7 @@
       "delete": "Delete Associate"
     },
     "detail": {
-      "pageTitle": "Associate Details",
+      "page_title": "Associate Details",
       "name": "Name"
     },
     "employment": {

@@ -1,5 +1,5 @@
 {
-    "memberPages": {
+    "member_pages": {
         "section": {
             "profile": {
                 "title": "Profile",
@@ -20,20 +20,20 @@
         },
         "profile": {
             "subtitle": "Your name, contact details, and how teammates see you.",
-            "personalInfo": {
+            "personal_info": {
                 "title": "Personal information",
                 "help": "Your name and contact details. Visible to teammates inside your workspace."
             },
             "field": {
-                "firstName": "First name",
-                "lastName": "Last name",
+                "first_name": "First name",
+                "last_name": "Last name",
                 "email": "Email"
             },
-            "editingComingSoon": "Editing controls are coming soon. For now this view is read-only."
+            "editing_coming_soon": "Editing controls are coming soon. For now this view is read-only."
         },
         "account": {
             "subtitle": "Email, password, and active sessions for your sign-in.",
-            "tabsAriaLabel": "Account & security sections",
+            "tabs_aria_label": "Account & security sections",
             "tab": {
                 "email": "Sign-in email",
                 "password": "Password",
@@ -42,12 +42,12 @@
             "email": {
                 "title": "Sign-in email",
                 "help": "The email address you use to sign in. Used for password resets and login notifications.",
-                "fieldLabel": "Email"
+                "field_label": "Email"
             },
             "password": {
                 "title": "Password",
                 "help": "Change your password. We'll ask for your current password and require a new one entered twice.",
-                "changeLink": "Change password"
+                "change_link": "Change password"
             },
             "sessions": {
                 "title": "Active sessions",
@@ -57,10 +57,10 @@
         },
         "billing": {
             "subtitle": "Subscription, payment method, and invoice history for this workspace.",
-            "tabsAriaLabel": "Billing sections",
+            "tabs_aria_label": "Billing sections",
             "tab": {
                 "subscription": "Subscription",
-                "paymentMethod": "Payment method",
+                "payment_method": "Payment method",
                 "invoices": "Invoices"
             },
             "subscription": {
@@ -68,7 +68,7 @@
                 "help": "Your workspace's plan and renewal date. Billing applies to the whole workspace, not individual users.",
                 "empty": "No active subscription — billing flow is not yet wired."
             },
-            "paymentMethod": {
+            "payment_method": {
                 "title": "Payment method",
                 "help": "The card or account we charge for your subscription.",
                 "empty": "No payment method on file."
@@ -81,11 +81,11 @@
         },
         "preferences": {
             "subtitle": "Theme, density, notifications, and language preferences.",
-            "tabsAriaLabel": "Preferences sections",
+            "tabs_aria_label": "Preferences sections",
             "tab": {
                 "appearance": "Appearance",
                 "notifications": "Notifications",
-                "languageRegion": "Language & region"
+                "language_region": "Language & region"
             },
             "appearance": {
                 "title": "Appearance",
@@ -97,14 +97,14 @@
                 "help": "Choose which events deliver an email or in-app notification.",
                 "empty": "Notification controls coming soon."
             },
-            "languageRegion": {
+            "language_region": {
                 "title": "Language & region",
                 "help": "Display language, date format, and timezone defaults.",
                 "empty": "Language settings coming soon."
             }
         },
         "fallback": {
-            "noValue": "—"
+            "no_value": "—"
         }
     }
 }

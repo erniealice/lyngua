@@ -13,7 +13,7 @@
       "deletion_failed": "Location area deletion failed",
       "list_failed": "Failed to retrieve location areas",
       "authorization_failed": "Authorization failed for location areas",
-      "cannotDeleteInUse": "Cannot delete — this location area is in use by one or more locations."
+      "cannot_delete_in_use": "Cannot delete — this location area is in use by one or more locations."
     }
   }
 }

@@ -1,15 +1,15 @@
 {
-  "planGroupPlan": {
+  "plan_group_plan": {
     "page": {
       "title": "Plan Group Plans",
       "subtitle": "Manage plans within plan groups",
-      "activeTitle": "Active Plan Group Plans",
-      "inactiveTitle": "Inactive Plan Group Plans"
+      "active_title": "Active Plan Group Plans",
+      "inactive_title": "Inactive Plan Group Plans"
     },
     "buttons": {
       "activate": "Activate",
       "add": "Add Plan Group Plan",
-      "bulkDelete": "Delete Plan Group Plans",
+      "bulk_delete": "Delete Plan Group Plans",
       "deactivate": "Deactivate",
       "delete": "Delete Plan Group Plan",
       "edit": "Edit Plan Group Plan",
@@ -17,10 +17,10 @@
     },
     "columns": {
       "actions": "Actions",
-      "dateCreated": "Date Created",
-      "planGroupId": "Plan Group",
-      "planId": "Plan",
-      "sequenceOrder": "Order",
+      "date_created": "Date Created",
+      "plan_group_id": "Plan Group",
+      "plan_id": "Plan",
+      "sequence_order": "Order",
       "status": "Status"
     },
     "empty": {
@@ -29,52 +29,52 @@
     },
     "form": {
       "active": "Active",
-      "activeInfo": "Inactive plan group plans are hidden from selection.",
-      "planGroupId": "Plan Group",
-      "planGroupIdInfo": "The plan group this plan belongs to.",
-      "planGroupIdPlaceholder": "Enter plan group ID",
-      "planId": "Plan",
-      "planIdInfo": "The plan assigned to this plan group.",
-      "planIdPlaceholder": "Enter plan ID",
-      "sectionIdentity": "Plan group plan details",
-      "sectionOrdering": "Ordering",
-      "sequenceOrder": "Sequence order",
-      "sequenceOrderInfo": "Optional display order within the plan group. Leave blank for no specific order.",
-      "sequenceOrderPlaceholder": "e.g. 1"
+      "active_info": "Inactive plan group plans are hidden from selection.",
+      "plan_group_id": "Plan Group",
+      "plan_group_id_info": "The plan group this plan belongs to.",
+      "plan_group_id_placeholder": "Enter plan group ID",
+      "plan_id": "Plan",
+      "plan_id_info": "The plan assigned to this plan group.",
+      "plan_id_placeholder": "Enter plan ID",
+      "section_identity": "Plan group plan details",
+      "section_ordering": "Ordering",
+      "sequence_order": "Sequence order",
+      "sequence_order_info": "Optional display order within the plan group. Leave blank for no specific order.",
+      "sequence_order_placeholder": "e.g. 1"
     },
     "bulk": {
-      "activateMessage": "Activate the selected plan group plans?",
-      "activateTitle": "Activate Plan Group Plans",
-      "deactivateMessage": "Deactivate the selected plan group plans?",
-      "deactivateTitle": "Deactivate Plan Group Plans",
-      "deleteMessage": "Permanently delete the selected plan group plans? This cannot be undone.",
-      "deleteTitle": "Delete Plan Group Plans"
+      "activate_message": "Activate the selected plan group plans?",
+      "activate_title": "Activate Plan Group Plans",
+      "deactivate_message": "Deactivate the selected plan group plans?",
+      "deactivate_title": "Deactivate Plan Group Plans",
+      "delete_message": "Permanently delete the selected plan group plans? This cannot be undone.",
+      "delete_title": "Delete Plan Group Plans"
     },
     "confirm": {
-      "activateMessage": "Activate this plan group plan?",
-      "activateTitle": "Activate Plan Group Plan",
-      "deactivateMessage": "Deactivate this plan group plan?",
-      "deactivateTitle": "Deactivate Plan Group Plan",
-      "deleteMessage": "Permanently delete this plan group plan? This cannot be undone.",
-      "deleteTitle": "Delete Plan Group Plan"
+      "activate_message": "Activate this plan group plan?",
+      "activate_title": "Activate Plan Group Plan",
+      "deactivate_message": "Deactivate this plan group plan?",
+      "deactivate_title": "Deactivate Plan Group Plan",
+      "delete_message": "Permanently delete this plan group plan? This cannot be undone.",
+      "delete_title": "Delete Plan Group Plan"
     },
     "tabs": {
       "info": "Info"
     },
     "detail": {
-      "dateCreated": "Date Created",
-      "dateModified": "Date Modified",
-      "noSubtitle": "No description provided",
+      "date_created": "Date Created",
+      "date_modified": "Date Modified",
+      "no_subtitle": "No description provided",
       "title": "Plan Group Plan"
     },
     "errors": {
-      "createFailed": "Failed to create plan group plan",
-      "deleteFailed": "Failed to delete plan group plan",
-      "inUse": "This plan group plan is in use and cannot be deleted.",
-      "loadFailed": "Failed to load plan group plan",
-      "notFound": "Plan group plan not found",
+      "create_failed": "Failed to create plan group plan",
+      "delete_failed": "Failed to delete plan group plan",
+      "in_use": "This plan group plan is in use and cannot be deleted.",
+      "load_failed": "Failed to load plan group plan",
+      "not_found": "Plan group plan not found",
       "unauthorized": "You are not authorized to perform this action",
-      "updateFailed": "Failed to update plan group plan"
+      "update_failed": "Failed to update plan group plan"
     }
   }
 }

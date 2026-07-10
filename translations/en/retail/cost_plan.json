@@ -1,12 +1,12 @@
 {
-  "costPlan": {
+  "cost_plan": {
     "form": {
       "name": "Vendor Cost Plan Name",
-      "namePlaceholder": "Enter vendor cost plan name"
+      "name_placeholder": "Enter vendor cost plan name"
     },
     "detail": {
       "edit": "Edit Vendor Cost Plan",
-      "editTitle": "Edit Vendor Cost Plan"
+      "edit_title": "Edit Vendor Cost Plan"
     }
   }
 }

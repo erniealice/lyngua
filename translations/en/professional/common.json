@@ -1,7 +1,7 @@
 {
   "sidebar": {
-    "appSwitcher": {
-      "switchApp": "Switch App"
+    "app_switcher": {
+      "switch_app": "Switch App"
     },
     "apps": {
       "clients": "Clients",
@@ -17,20 +17,20 @@
       "prospect": "Prospect",
       "inactive": "Inactive",
       "settings": "Settings",
-      "paymentTerms": "Payment Terms"
+      "payment_terms": "Payment Terms"
     },
     "regulations": {
       "title": "Regulations",
       "awards": "Awards",
       "agreements": "Agreements",
-      "workersComp": "Workers Comp",
+      "workers_comp": "Workers Comp",
       "superannuation": "Superannuation",
-      "payrollTax": "Payroll Tax",
+      "payroll_tax": "Payroll Tax",
       "settings": "Settings",
-      "payItems": "Pay Items / Allowances",
-      "payItemsMapping": "Pay Items Mapping",
-      "awardMultipliers": "Award Multipliers",
-      "additionalItems": "Additional Items"
+      "pay_items": "Pay Items / Allowances",
+      "pay_items_mapping": "Pay Items Mapping",
+      "award_multipliers": "Award Multipliers",
+      "additional_items": "Additional Items"
     },
     "marketplace": {
       "title": "Solutions",
@@ -42,29 +42,29 @@
     "quotes": {
       "title": "Proposals",
       "calculation": "Calculation",
-      "approvedSigned": "Approved/Signed",
-      "forApproval": "For Approval",
+      "approved_signed": "Approved/Signed",
+      "for_approval": "For Approval",
       "templates": "Templates",
       "archived": "Archived",
       "settings": "Settings",
-      "quoteTemplates": "Proposal Templates",
-      "contractTemplates": "Contract Templates",
-      "proposalTemplates": "Proposal Templates",
-      "costManagement": "Cost Management"
+      "quote_templates": "Proposal Templates",
+      "contract_templates": "Contract Templates",
+      "proposal_templates": "Proposal Templates",
+      "cost_management": "Cost Management"
     },
     "users": {
       "title": "Users",
-      "adminManagers": "Admin Managers",
+      "admin_managers": "Admin Managers",
       "managers": "Managers",
       "standard": "Standard",
       "spectator": "Spectator",
       "settings": "Settings",
-      "userDivisions": "User Divisions"
+      "user_divisions": "User Divisions"
     },
     "reports": {
       "title": "Reports",
       "quote": "Proposal Report",
-      "awardChanges": "Award Changes"
+      "award_changes": "Award Changes"
     },
     "main": {
       "title": "Main",
@@ -72,33 +72,33 @@
     },
     "support": {
       "title": "Support",
-      "helpCenter": "Help Center"
+      "help_center": "Help Center"
     },
-    "userMenu": {
+    "user_menu": {
       "profile": "Profile",
       "billing": "Billing",
       "logout": "Log out"
     },
-    "userCard": {
-      "proPlan": "Pro Plan"
+    "user_card": {
+      "pro_plan": "Pro Plan"
     }
   },
-  "bottomNav": {
+  "bottom_nav": {
     "customers": "Clients",
     "bookings": "Projects",
     "services": "Solutions",
     "financial": "Financial"
   },
   "header": {
-    "welcomeBack": "Welcome back",
-    "searchPlaceholder": "Search anything...",
-    "searchShortcut": "Ctrl+K",
+    "welcome_back": "Welcome back",
+    "search_placeholder": "Search anything...",
+    "search_shortcut": "Ctrl+K",
     "notifications": "Notifications",
-    "showHelp": "Show help (?)"
+    "show_help": "Show help (?)"
   },
   "notifications": {
     "title": "Notifications",
-    "markAllRead": "Mark all read",
+    "mark_all_read": "Mark all read",
     "close": "Close notifications",
     "tabs": {
       "all": "All",
@@ -110,7 +110,7 @@
       "title": "All caught up!",
       "message": "You have no new notifications"
     },
-    "viewAll": "View All Notifications"
+    "view_all": "View All Notifications"
   },
   "settings": {
     "title": "Settings",
@@ -129,24 +129,34 @@
   "theme": {
     "title": "Choose Theme",
     "toggle": "Toggle theme menu",
-    "changeTheme": "Change theme (Ctrl+Shift+T)",
+    "change_theme": "Change theme (Ctrl+Shift+T)",
     "themes": {
-      "warmCream": "Warm Cream",
-      "oceanDeep": "Ocean Deep",
-      "forestNight": "Forest Night",
-      "minimalLight": "Minimal Light",
-      "sunsetGlow": "Sunset Glow",
-      "corporateSteel": "Corporate Steel",
-      "paperInk": "Paper & Ink",
-      "peachFizz": "Peach Fizz",
-      "modernRetail": "Modern Agency",
-      "ichizenDefault": "Ichizen Default",
-      "salonBlush": "Salon Blush",
-      "ledgerMono": "Ledger Mono",
-      "brutalistInk": "Brutalist Ink",
-      "softClay": "Soft Clay"
+      "warm_cream": "Warm Cream",
+      "ocean_deep": "Ocean Deep",
+      "forest_night": "Forest Night",
+      "minimal_light": "Minimal Light",
+      "sunset_glow": "Sunset Glow",
+      "corporate_steel": "Corporate Steel",
+      "paper_ink": "Paper & Ink",
+      "peach_fizz": "Peach Fizz",
+      "modern_retail": "Modern Agency",
+      "ichizen_default": "Ichizen Default",
+      "salon_blush": "Salon Blush",
+      "ledger_mono": "Ledger Mono",
+      "brutalist_ink": "Brutalist Ink",
+      "soft_clay": "Soft Clay",
+      "riso_pop": "Riso Pop",
+      "atelier_ink": "Atelier Ink",
+      "ultramarine": "Ultramarine",
+      "terminal_phosphor": "Terminal Phosphor",
+      "velvet_noir": "Velvet Noir",
+      "kyoto_indigo": "Kyoto Indigo",
+      "matcha_garden": "Matcha Garden",
+      "midnight_scholar": "Midnight Scholar",
+      "aurora_haze": "Aurora Haze",
+      "blueprint_draft": "Blueprint Draft"
     },
-    "fontFamily": "Font Family",
+    "font_family": "Font Family",
     "fonts": {
       "default": "Figtree + Playfair",
       "serif": "Playfair Display",
@@ -154,7 +164,7 @@
       "rounded": "Nunito",
       "condensed": "Barlow Condensed",
       "exa": "Bricolage Grotesque",
-      "ichizenMinimal": "Ichizen Minimal"
+      "ichizen_minimal": "Ichizen Minimal"
     },
     "density": {
       "title": "Density",
@@ -177,28 +187,28 @@
       "default": "Default",
       "heavy": "Heavy"
     },
-    "resetDefaults": "Reset to theme defaults"
+    "reset_defaults": "Reset to theme defaults"
   },
-  "helpPane": {
+  "help_pane": {
     "title": "Knowledge Base",
     "close": "Close help pane"
   },
   "table": {
     "search": "Search",
-    "searchPlaceholder": "Search...",
+    "search_placeholder": "Search...",
     "filters": "Filters",
-    "filterConditions": "Filter Conditions",
-    "clearAll": "Clear All",
-    "addCondition": "Add condition",
+    "filter_conditions": "Filter Conditions",
+    "clear_all": "Clear All",
+    "add_condition": "Add condition",
     "clear": "Clear",
-    "applyFilters": "Apply Filters",
+    "apply_filters": "Apply Filters",
     "sort": "Sort",
     "ascending": "Ascending",
     "descending": "Descending",
     "columns": "Columns",
     "export": "Export",
-    "exportCsv": "Export as CSV",
-    "exportExcel": "Export as Excel",
+    "export_csv": "Export as CSV",
+    "export_excel": "Export as Excel",
     "density": {
       "title": "Row density",
       "dense": "Dense",
@@ -206,16 +216,16 @@
       "default": "Default",
       "comfortable": "Comfortable"
     },
-    "selectAll": "Select all",
-    "selectRow": "Select row",
+    "select_all": "Select all",
+    "select_row": "Select row",
     "actions": "Actions",
     "show": "Show",
     "entries": "entries",
     "showing": "Showing",
     "to": "to",
     "of": "of",
-    "entriesLabel": "entries",
-    "columnsLabel": {
+    "entries_label": "entries",
+    "columns_label": {
       "name": "Name",
       "email": "Email",
       "division": "Division",
@@ -234,12 +244,12 @@
     "previous": "Previous",
     "page": "Page",
     "of": "of",
-    "loadMore": "Load More",
+    "load_more": "Load More",
     "showing": "Showing",
     "items": "items",
-    "allLoaded": "All items loaded",
-    "previousPage": "Previous page",
-    "nextPage": "Next page"
+    "all_loaded": "All items loaded",
+    "previous_page": "Previous page",
+    "next_page": "Next page"
   },
   "buttons": {
     "save": "Save",
@@ -267,17 +277,17 @@
     "search": "Search",
     "filter": "Filter",
     "clear": "Clear",
-    "selectAll": "Select All",
-    "deselectAll": "Deselect All",
+    "select_all": "Select All",
+    "deselect_all": "Deselect All",
     "more": "More",
     "less": "Less",
-    "seeMore": "see more",
-    "seeLess": "see less",
-    "moreOptions": "More options",
+    "see_more": "see more",
+    "see_less": "see less",
+    "more_options": "More options",
     "settings": "Settings",
     "connect": "Connect",
     "configure": "Configure",
-    "readMore": "Read more"
+    "read_more": "Read more"
   },
   "actions": {
     "view": "View",
@@ -293,10 +303,10 @@
     "export": "Export"
   },
   "bulk": {
-    "selectAll": "Select all",
+    "select_all": "Select all",
     "selected": "selected",
     "cancel": "Cancel",
-    "clearSelection": "Clear selection",
+    "clear_selection": "Clear selection",
     "activate": "Activate",
     "deactivate": "Deactivate",
     "delete": "Delete",
@@ -315,27 +325,27 @@
     "default": "Default"
   },
   "empty": {
-    "noResults": "No results found",
-    "noData": "No data available"
+    "no_results": "No results found",
+    "no_data": "No data available"
   },
   "loading": {
     "loading": "Loading...",
-    "pleaseWait": "Please wait..."
+    "please_wait": "Please wait..."
   },
   "errors": {
     "general": "An error occurred",
-    "notFound": "Not found",
+    "not_found": "Not found",
     "unauthorized": "Unauthorized",
     "forbidden": "Forbidden",
     "validation": {
       "required": "This field is required",
-      "emptyId": "ID cannot be empty",
-      "emptyName": "Name cannot be empty",
-      "invalidStatus": "Invalid status"
+      "empty_id": "ID cannot be empty",
+      "empty_name": "Name cannot be empty",
+      "invalid_status": "Invalid status"
     }
   },
   "dropdown": {
-    "moreOptions": "More options"
+    "more_options": "More options"
   },
   "integration": {
     "popular": "Popular",
@@ -344,6 +354,6 @@
     "connect": "Connect"
   },
   "card": {
-    "readMore": "Read more"
+    "read_more": "Read more"
   }
 }

@@ -1,38 +1,38 @@
 {
   "dashboard": {
-    "totalUsers": "Total Users",
+    "total_users": "Total Users",
     "active": "Active",
     "inactive": "Inactive",
     "roles": "Roles",
-    "userActivity": "User Activity",
-    "filterWeek": "Week",
-    "filterMonth": "Month",
-    "filterYear": "Year",
-    "recentActivity": "Recent Activity",
-    "viewAll": "View All",
-    "noRecentActivity": "No recent activity",
-    "quickNew": "New User",
-    "quickViewAll": "View All Users",
-    "quickRoles": "Manage Roles",
-    "quickPermissions": "Manage Permissions",
-    "userAdded": "New User Added",
-    "userActivated": "User Activated",
-    "roleAssigned": "Role Assigned",
-    "profileUpdated": "Profile Updated"
+    "user_activity": "User Activity",
+    "filter_week": "Week",
+    "filter_month": "Month",
+    "filter_year": "Year",
+    "recent_activity": "Recent Activity",
+    "view_all": "View All",
+    "no_recent_activity": "No recent activity",
+    "quick_new": "New User",
+    "quick_view_all": "View All Users",
+    "quick_roles": "Manage Roles",
+    "quick_permissions": "Manage Permissions",
+    "user_added": "New User Added",
+    "user_activated": "User Activated",
+    "role_assigned": "Role Assigned",
+    "profile_updated": "Profile Updated"
   },
   "page": {
     "heading": "Users",
     "caption": "User management",
-    "headingActive": "Active Users",
-    "captionActive": "Manage your active user accounts",
-    "headingInactive": "Inactive Users",
-    "captionInactive": "View inactive user accounts"
+    "heading_active": "Active Users",
+    "caption_active": "Manage your active user accounts",
+    "heading_inactive": "Inactive Users",
+    "caption_inactive": "View inactive user accounts"
   },
   "columns": {
     "name": "Name",
     "email": "Email",
     "roles": "Roles",
-    "dateCreated": "Date Created",
+    "date_created": "Date Created",
     "status": "Status"
   },
   "actions": {
@@ -41,74 +41,74 @@
     "delete": "Delete user",
     "activate": "Activate",
     "deactivate": "Deactivate",
-    "manageRoles": "Manage Roles"
+    "manage_roles": "Manage Roles"
   },
   "empty": {
-    "activeTitle": "No active users",
-    "activeMessage": "Add your first user to get started",
-    "inactiveTitle": "No inactive users",
-    "inactiveMessage": "Inactive users will appear here"
+    "active_title": "No active users",
+    "active_message": "Add your first user to get started",
+    "inactive_title": "No inactive users",
+    "inactive_message": "Inactive users will appear here"
   },
   "buttons": {
-    "addUser": "Add User"
+    "add_user": "Add User"
   },
   "form": {
     "mobile": "Mobile",
     "timezone": "Timezone",
-    "timezonePlaceholder": "e.g. Asia/Manila",
-    "timezoneSearchPlaceholder": "Search timezones…",
-    "timezoneNoResults": "No matching timezones"
+    "timezone_placeholder": "e.g. Asia/Manila",
+    "timezone_search_placeholder": "Search timezones…",
+    "timezone_no_results": "No matching timezones"
   },
   "detail": {
-    "basicInfo": {
+    "basic_info": {
       "title": "Basic Information",
-      "firstName": "First Name",
-      "firstNamePlaceholder": "e.g. John",
-      "lastName": "Last Name",
-      "lastNamePlaceholder": "e.g. Smith",
+      "first_name": "First Name",
+      "first_name_placeholder": "e.g. John",
+      "last_name": "Last Name",
+      "last_name_placeholder": "e.g. Smith",
       "email": "Email",
-      "emailPlaceholder": "user@example.com",
+      "email_placeholder": "user@example.com",
       "username": "Username",
       "division": "Division",
       "status": "Status",
-      "userType": "User Type",
+      "user_type": "User Type",
       "mobile": "Mobile",
-      "mobilePlaceholder": "+63 XXX XXX XXXX",
+      "mobile_placeholder": "+63 XXX XXX XXXX",
       "active": "Active",
       "save": "Save Changes"
     },
     "security": {
       "title": "Security Settings",
-      "lastLogin": "Last Login",
-      "mfaStatus": "Two-Factor Authentication",
-      "mfaEnabled": "Enabled",
-      "mfaDisabled": "Not Enabled",
-      "passwordSection": "Password",
-      "resetPassword": "Reset Password",
-      "authMethod": "Sign-in Method",
-      "managedByProvider": "Your password is managed by your",
-      "manageAccountLink": "Manage account"
+      "last_login": "Last Login",
+      "mfa_status": "Two-Factor Authentication",
+      "mfa_enabled": "Enabled",
+      "mfa_disabled": "Not Enabled",
+      "password_section": "Password",
+      "reset_password": "Reset Password",
+      "auth_method": "Sign-in Method",
+      "managed_by_provider": "Your password is managed by your",
+      "manage_account_link": "Manage account"
     },
-    "emptyStates": {
-      "auditTitle": "No Audit History",
-      "auditDesc": "User activity will appear here once they start using the system."
+    "empty_states": {
+      "audit_title": "No Audit History",
+      "audit_desc": "User activity will appear here once they start using the system."
     },
     "tabs": {
       "info": "Info",
       "roles": "Roles",
       "security": "Security",
-      "auditTrail": "Audit Trail"
+      "audit_trail": "Audit Trail"
     },
-    "updateSuccess": "User updated successfully",
-    "updateError": "Failed to update user",
-    "noRolesAssigned": "No roles assigned",
-    "noRolesDesc": "Assign roles to this user to control their access.",
-    "newPasswordPlaceholder": "Enter new password",
-    "togglePasswordVisibility": "Toggle password visibility",
-    "generatePassword": "Generate Password",
-    "passwordUpdated": "Password updated successfully",
-    "passwordFailed": "Failed to update password",
-    "attachmentsTab": "Attachments",
-    "auditHistoryTab": "History"
+    "update_success": "User updated successfully",
+    "update_error": "Failed to update user",
+    "no_roles_assigned": "No roles assigned",
+    "no_roles_desc": "Assign roles to this user to control their access.",
+    "new_password_placeholder": "Enter new password",
+    "toggle_password_visibility": "Toggle password visibility",
+    "generate_password": "Generate Password",
+    "password_updated": "Password updated successfully",
+    "password_failed": "Failed to update password",
+    "attachments_tab": "Attachments",
+    "audit_history_tab": "History"
   }
 }

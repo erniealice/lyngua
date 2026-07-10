@@ -1,8 +1,8 @@
 {
-  "accruedExpense": {
+  "accrued_expense": {
     "labels": {
       "name": "Vendor Accrual",
-      "namePlural": "Vendor Accruals"
+      "name_plural": "Vendor Accruals"
     },
     "page": {
       "heading": "Vendor Accruals",
@@ -10,13 +10,13 @@
     },
     "buttons": {
       "add": "New Vendor Accrual",
-      "accrueFromContract": "Accrue from Vendor Agreement"
+      "accrue_from_contract": "Accrue from Vendor Agreement"
     },
     "form": {
       "name": "Accrual Name",
-      "namePlaceholder": "e.g. Wholesale Replenishment — May 2026 (estimate)",
-      "supplierContract": "Vendor Agreement",
-      "selectSupplierContract": "Select vendor agreement..."
+      "name_placeholder": "e.g. Wholesale Replenishment — May 2026 (estimate)",
+      "supplier_contract": "Vendor Agreement",
+      "select_supplier_contract": "Select vendor agreement..."
     }
   }
 }

@@ -1,22 +1,22 @@
 {
   "inventory_serial": {
     "title": "Serial Numbers",
-    "serialNumber": "Serial Number",
+    "serial_number": "Serial Number",
     "imei": "IMEI",
     "status": "Status",
-    "warrantyStart": "Warranty Start",
-    "warrantyEnd": "Warranty End",
-    "purchaseOrder": "Purchase Order",
-    "soldReference": "Sales Reference",
+    "warranty_start": "Warranty Start",
+    "warranty_end": "Warranty End",
+    "purchase_order": "Purchase Order",
+    "sold_reference": "Sales Reference",
     "assign": "Add Serial",
     "edit": "Edit Serial",
     "remove": "Remove Serial",
     "empty": "No serial numbers recorded",
-    "statusAvailable": "Available",
-    "statusSold": "Sold",
-    "statusReserved": "Reserved",
-    "statusDefective": "Defective",
-    "statusReturned": "Returned",
+    "status_available": "Available",
+    "status_sold": "Sold",
+    "status_reserved": "Reserved",
+    "status_defective": "Defective",
+    "status_returned": "Returned",
     "errors": {
       "not_found": "Serial number not found"
     }

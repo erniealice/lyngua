@@ -1,8 +1,8 @@
 {
-  "accruedExpense": {
+  "accrued_expense": {
     "labels": {
       "name": "Service Accrual",
-      "namePlural": "Service Accruals"
+      "name_plural": "Service Accruals"
     },
     "page": {
       "heading": "Service Accruals",
@@ -10,13 +10,13 @@
     },
     "buttons": {
       "add": "New Service Accrual",
-      "accrueFromContract": "Accrue from Vendor Agreement"
+      "accrue_from_contract": "Accrue from Vendor Agreement"
     },
     "form": {
       "name": "Accrual Name",
-      "namePlaceholder": "e.g. Acme Consulting — May 2026 (estimate)",
-      "supplierContract": "Vendor Agreement",
-      "selectSupplierContract": "Select vendor agreement..."
+      "name_placeholder": "e.g. Acme Consulting — May 2026 (estimate)",
+      "supplier_contract": "Vendor Agreement",
+      "select_supplier_contract": "Select vendor agreement..."
     }
   }
 }

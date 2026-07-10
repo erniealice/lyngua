@@ -1,5 +1,5 @@
 {
-    "outcomeMatrix": {
+    "outcome_matrix": {
         "page": {
             "title": "Grade Sheet"
         },
@@ -11,19 +11,19 @@
             "all": "All students"
         },
         "grid": {
-            "clientColumn": "Student",
-            "criterionColumn": "Grading Criterion",
-            "scoreColumn": "Grade",
-            "saveButton": "Save grades",
-            "savingButton": "Saving…",
-            "savedBanner": "Grades saved.",
-            "errorBanner": "Save failed — please try again.",
-            "readOnlyMarker": "(read only)",
-            "readOnlyTooltip": "Recorded by another staff member — read only",
-            "emptyGrid": "No rows to display."
+            "client_column": "Student",
+            "criterion_column": "Grading Criterion",
+            "score_column": "Grade",
+            "save_button": "Save grades",
+            "saving_button": "Saving…",
+            "saved_banner": "Grades saved.",
+            "error_banner": "Save failed — please try again.",
+            "read_only_marker": "(read only)",
+            "read_only_tooltip": "Recorded by another staff member — read only",
+            "empty_grid": "No rows to display."
         },
         "errors": {
-            "permissionDenied": "You do not have permission to perform this action"
+            "permission_denied": "You do not have permission to perform this action"
         }
     }
 }

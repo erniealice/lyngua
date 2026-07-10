@@ -1,13 +1,13 @@
 {
-  "supplierContractPriceSchedule": {
+  "supplier_contract_price_schedule": {
     "labels": {
       "name": "Service Rate Period",
-      "namePlural": "Service Rate Periods"
+      "name_plural": "Service Rate Periods"
     },
     "page": {
       "heading": "Service Rate Periods",
       "caption": "Date-windowed rate cards layered on top of a service supplier contract",
-      "tabTitle": "Rate Periods"
+      "tab_title": "Rate Periods"
     },
     "buttons": {
       "add": "New Service Rate Period"

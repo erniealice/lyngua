@@ -2,20 +2,20 @@
   "page": {
     "heading": "Prepayments",
     "caption": "Track prepaid expenses and their amortization schedules",
-    "amortizationHeading": "Amortization Schedule",
-    "amortizationCaption": "Monthly expense recognition for active prepayments"
+    "amortization_heading": "Amortization Schedule",
+    "amortization_caption": "Monthly expense recognition for active prepayments"
   },
   "buttons": {
-    "addPrepayment": "Add Prepayment"
+    "add_prepayment": "Add Prepayment"
   },
   "columns": {
     "description": "Description",
     "vendor": "Vendor",
-    "totalAmount": "Total Amount",
-    "remainingAmount": "Remaining",
-    "amortizationMonths": "Months",
-    "startDate": "Start Date",
-    "endDate": "End Date",
+    "total_amount": "Total Amount",
+    "remaining_amount": "Remaining",
+    "amortization_months": "Months",
+    "start_date": "Start Date",
+    "end_date": "End Date",
     "status": "Status",
     "month": "Month",
     "opening": "Opening Balance",
@@ -33,22 +33,22 @@
   },
   "form": {
     "description": "Description",
-    "descriptionPlaceholder": "e.g. Annual insurance premium",
+    "description_placeholder": "e.g. Annual insurance premium",
     "vendor": "Vendor",
-    "vendorPlaceholder": "e.g. ABC Insurance Co.",
-    "totalAmount": "Total Amount",
-    "totalAmountPlaceholder": "0.00",
-    "amortizationMonths": "Amortization Period (Months)",
-    "amortizationPlaceholder": "e.g. 12",
-    "startDate": "Start Date",
-    "endDate": "End Date",
-    "prepaidAccount": "Prepaid Account (Asset)",
-    "expenseAccount": "Expense Account"
+    "vendor_placeholder": "e.g. ABC Insurance Co.",
+    "total_amount": "Total Amount",
+    "total_amount_placeholder": "0.00",
+    "amortization_months": "Amortization Period (Months)",
+    "amortization_placeholder": "e.g. 12",
+    "start_date": "Start Date",
+    "end_date": "End Date",
+    "prepaid_account": "Prepaid Account (Asset)",
+    "expense_account": "Expense Account"
   },
   "actions": {
     "view": "View",
     "delete": "Delete",
-    "noPermission": "No permission",
-    "confirmDelete": "Are you sure you want to delete this prepayment? This action cannot be undone."
+    "no_permission": "No permission",
+    "confirm_delete": "Are you sure you want to delete this prepayment? This action cannot be undone."
   }
 }

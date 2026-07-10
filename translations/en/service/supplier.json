@@ -2,27 +2,27 @@
   "supplier": {
     "page": {
       "heading": "Suppliers",
-      "headingActive": "Active Suppliers",
-      "headingBlocked": "Blocked Suppliers",
-      "headingOnHold": "On Hold Suppliers",
+      "heading_active": "Active Suppliers",
+      "heading_blocked": "Blocked Suppliers",
+      "heading_on_hold": "On Hold Suppliers",
       "caption": "Manage your product and service suppliers",
-      "captionActive": "Suppliers currently active and available for orders",
-      "captionBlocked": "Suppliers that have been blocked",
-      "captionOnHold": "Suppliers temporarily placed on hold"
+      "caption_active": "Suppliers currently active and available for orders",
+      "caption_blocked": "Suppliers that have been blocked",
+      "caption_on_hold": "Suppliers temporarily placed on hold"
     },
     "buttons": {
-      "addNew": "Add Supplier"
+      "add_new": "Add Supplier"
     },
     "form": {
-      "sectionCompany": "Supplier Information",
-      "sectionAddress": "Address",
-      "sectionRepresentative": "Representative",
-      "sectionAccounting": "Payment Details",
-      "sectionOthers": "Others"
+      "section_company": "Supplier Information",
+      "section_address": "Address",
+      "section_representative": "Representative",
+      "section_accounting": "Payment Details",
+      "section_others": "Others"
     },
     "detail": {
       "tabs": {
-        "statementTab": "Statement"
+        "statement_tab": "Statement"
       },
       "statement": {
         "date": "Date",
@@ -43,25 +43,25 @@
       }
     },
     "dashboard": {
-      "totalSuppliers": "Total Suppliers",
+      "total_suppliers": "Total Suppliers",
       "active": "Active",
       "blocked": "Blocked",
-      "onHold": "On Hold",
-      "supplierActivity": "Supplier Activity",
-      "topSuppliers": "Top Suppliers",
-      "filterWeek": "Week",
-      "filterMonth": "Month",
-      "filterYear": "Year",
-      "recentActivity": "Recent Activity",
-      "viewAll": "View All",
-      "quickNew": "New Supplier",
-      "quickViewAll": "View All Suppliers",
-      "quickTags": "Manage Tags",
-      "quickCategories": "Categories",
-      "supplierAdded": "New Supplier Added",
-      "supplierActivated": "Supplier Activated",
-      "detailsUpdated": "Details Updated",
-      "tagAssigned": "Tag Assigned"
+      "on_hold": "On Hold",
+      "supplier_activity": "Supplier Activity",
+      "top_suppliers": "Top Suppliers",
+      "filter_week": "Week",
+      "filter_month": "Month",
+      "filter_year": "Year",
+      "recent_activity": "Recent Activity",
+      "view_all": "View All",
+      "quick_new": "New Supplier",
+      "quick_view_all": "View All Suppliers",
+      "quick_tags": "Manage Tags",
+      "quick_categories": "Categories",
+      "supplier_added": "New Supplier Added",
+      "supplier_activated": "Supplier Activated",
+      "details_updated": "Details Updated",
+      "tag_assigned": "Tag Assigned"
     }
   }
 }

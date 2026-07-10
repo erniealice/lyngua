@@ -2,17 +2,17 @@
     "home": {
         "eyebrow": "Command Center",
         "title": "Daily Overview",
-        "subtitleHint": "auto-refreshes every 60s",
-        "opsLive": "Operations live",
+        "subtitle_hint": "auto-refreshes every 60s",
+        "ops_live": "Operations live",
         "today": "Today",
-        "dateRange": "Date range",
+        "date_range": "Date range",
         "refresh": "Refresh",
         "customize": "Customize",
         "overview": "Overview",
         "attention": "Needs Attention",
-        "cashflowChart": "Cash flow forecast",
-        "todayTimeline": "Today timeline",
-        "quickActions": "Quick actions",
+        "cashflow_chart": "Cash flow forecast",
+        "today_timeline": "Today timeline",
+        "quick_actions": "Quick actions",
         "range": {
             "today": "Today",
             "wtd": "WTD",
@@ -21,47 +21,47 @@
             "ytd": "YTD"
         },
         "kpi": {
-            "netCash": "Net Cash Position",
-            "revenueMtd": "Revenue MTD",
-            "receivablesHealth": "Receivables Health",
-            "apDue7": "A/P Due 7 Days",
-            "activeJobs": "Active Jobs",
-            "grossMargin": "Gross Margin"
+            "net_cash": "Net Cash Position",
+            "revenue_mtd": "Revenue MTD",
+            "receivables_health": "Receivables Health",
+            "ap_due7": "A/P Due 7 Days",
+            "active_jobs": "Active Jobs",
+            "gross_margin": "Gross Margin"
         },
         "cashflow": {
             "heading": "Cash Flow Forecast · Next 12 Weeks",
-            "legendIn": "Expected inflow",
-            "legendOut": "Expected outflow"
+            "legend_in": "Expected inflow",
+            "legend_out": "Expected outflow"
         },
         "aging": {
-            "receivablesHeading": "Receivables Aging",
-            "payablesHeading": "Payables Aging",
-            "bucketCurrent": "Current",
+            "receivables_heading": "Receivables Aging",
+            "payables_heading": "Payables Aging",
+            "bucket_current": "Current",
             "bucket30": "1–30 d",
             "bucket60": "31–60 d",
             "bucket90": "61–90 d",
-            "bucketOver90": "90+ d"
+            "bucket_over90": "90+ d"
         },
-        "attentionHeading": "Needs Attention",
-        "timelineHeading": "Today · Operations Pulse",
+        "attention_heading": "Needs Attention",
+        "timeline_heading": "Today · Operations Pulse",
         "movers": {
             "heading": "Top Movers · MTD",
-            "tabClients": "Clients",
-            "tabSuppliers": "Suppliers",
-            "tabVariances": "Variances"
+            "tab_clients": "Clients",
+            "tab_suppliers": "Suppliers",
+            "tab_variances": "Variances"
         },
-        "performanceHeading": "Performance vs Target",
+        "performance_heading": "Performance vs Target",
         "quick": {
             "invoice": "Invoice",
             "expense": "Expense",
             "collection": "Collection",
             "disburse": "Disburse",
             "engagement": "Engagement",
-            "newInvoice": "New Invoice",
-            "logExpense": "Log Expense",
-            "recordCollection": "Record Collection",
-            "newDisbursement": "New Disbursement",
-            "newEngagement": "New Engagement"
+            "new_invoice": "New Invoice",
+            "log_expense": "Log Expense",
+            "record_collection": "Record Collection",
+            "new_disbursement": "New Disbursement",
+            "new_engagement": "New Engagement"
         }
     }
 }

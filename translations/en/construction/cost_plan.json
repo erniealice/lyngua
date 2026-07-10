@@ -1,12 +1,12 @@
 {
-  "costPlan": {
+  "cost_plan": {
     "form": {
       "name": "Subcontract Rate Card Name",
-      "namePlaceholder": "Enter subcontract rate card name"
+      "name_placeholder": "Enter subcontract rate card name"
     },
     "detail": {
       "edit": "Edit Subcontract Rate Card",
-      "editTitle": "Edit Subcontract Rate Card"
+      "edit_title": "Edit Subcontract Rate Card"
     }
   }
 }

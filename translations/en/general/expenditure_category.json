@@ -5,7 +5,7 @@
       "caption": "Manage expense categories"
     },
     "buttons": {
-      "addCategory": "Add Category"
+      "add_category": "Add Category"
     },
     "columns": {
       "code": "Code",
@@ -19,14 +19,14 @@
     },
     "form": {
       "code": "Code",
-      "codePlaceholder": "e.g. TRAVEL",
+      "code_placeholder": "e.g. TRAVEL",
       "name": "Name",
-      "namePlaceholder": "Enter category name",
+      "name_placeholder": "Enter category name",
       "description": "Description",
-      "descriptionPlaceholder": "Optional description...",
-      "codeInfo": "Short unique code used to classify expenses in reports (e.g. TRAVEL, SUPPLIES).",
-      "nameInfo": "Human-readable name for this expense category.",
-      "descriptionInfo": "Optional description to clarify when this category should be used."
+      "description_placeholder": "Optional description...",
+      "code_info": "Short unique code used to classify expenses in reports (e.g. TRAVEL, SUPPLIES).",
+      "name_info": "Human-readable name for this expense category.",
+      "description_info": "Optional description to clarify when this category should be used."
     },
     "actions": {
       "add": "Add Category",
@@ -34,8 +34,8 @@
       "delete": "Delete Category"
     },
     "confirm": {
-      "deleteTitle": "Delete Category",
-      "deleteMessage": "Are you sure you want to delete this category? This action cannot be undone."
+      "delete_title": "Delete Category",
+      "delete_message": "Are you sure you want to delete this category? This action cannot be undone."
     },
     "validation": {
       "name_required": "Category name is required",

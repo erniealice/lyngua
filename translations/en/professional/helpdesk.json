@@ -7,72 +7,72 @@
   "hero": {
     "title": "How can we help you today?",
     "subtitle": "Search our knowledge base or browse the categories below",
-    "searchPlaceholder": "Search for articles, definitions, guides..."
+    "search_placeholder": "Search for articles, definitions, guides..."
   },
-  "quickLinks": {
-    "contactSupport": "Contact Support",
-    "contactSupportDesc": "Get help from our expert team",
-    "videoTutorials": "Video Tutorials",
-    "videoTutorialsDesc": "Watch step-by-step guides",
-    "communityForum": "Community Forum",
-    "communityForumDesc": "Connect with other users"
+  "quick_links": {
+    "contact_support": "Contact Support",
+    "contact_support_desc": "Get help from our expert team",
+    "video_tutorials": "Video Tutorials",
+    "video_tutorials_desc": "Watch step-by-step guides",
+    "community_forum": "Community Forum",
+    "community_forum_desc": "Connect with other users"
   },
   "tabs": {
     "all": "All",
     "definitions": "Definitions",
-    "calculationTypes": "Calculation Types",
-    "howTo": "How-To Guides",
+    "calculation_types": "Calculation Types",
+    "how_to": "How-To Guides",
     "sales": "Billing Resources",
     "faqs": "FAQs"
   },
   "sections": {
     "definitions": "Definitions",
-    "definitionsGlossary": "Definitions & Glossary",
-    "termsCount": "terms",
-    "calculationTypes": "Calculation Types",
-    "typesOfCalculation": "Types of Calculation",
-    "typesCount": "types",
+    "definitions_glossary": "Definitions & Glossary",
+    "terms_count": "terms",
+    "calculation_types": "Calculation Types",
+    "types_of_calculation": "Types of Calculation",
+    "types_count": "types",
     "faqs": "Frequently Asked Questions",
-    "questionsCount": "questions",
-    "howToGuides": "How-To Guides",
-    "guidesCount": "guides",
-    "watchTutorial": "Watch Tutorial",
-    "readArticle": "Read article"
+    "questions_count": "questions",
+    "how_to_guides": "How-To Guides",
+    "guides_count": "guides",
+    "watch_tutorial": "Watch Tutorial",
+    "read_article": "Read article"
   },
   "badges": {
-    "howTo": "How-To"
+    "how_to": "How-To"
   },
   "empty": {
-    "definitionsTitle": "No definitions found",
-    "definitionsDesc": "Try adjusting your search terms or browse other categories.",
-    "calculationTypesTitle": "No calculation types found",
-    "calculationTypesDesc": "Try adjusting your search terms or browse other categories.",
-    "guidesTitle": "No guides found",
-    "guidesDesc": "Try adjusting your search terms or browse other categories.",
-    "salesTitle": "No billing resources found",
-    "salesDesc": "Try adjusting your search terms or browse other categories.",
-    "faqsTitle": "No FAQs found",
-    "faqsDesc": "Try adjusting your search terms or browse other categories."
+    "definitions_title": "No definitions found",
+    "definitions_desc": "Try adjusting your search terms or browse other categories.",
+    "calculation_types_title": "No calculation types found",
+    "calculation_types_desc": "Try adjusting your search terms or browse other categories.",
+    "guides_title": "No guides found",
+    "guides_desc": "Try adjusting your search terms or browse other categories.",
+    "sales_title": "No billing resources found",
+    "sales_desc": "Try adjusting your search terms or browse other categories.",
+    "faqs_title": "No FAQs found",
+    "faqs_desc": "Try adjusting your search terms or browse other categories."
   },
-  "salesMatrix": {
-    "weeklyTimeSchedule": "Weekly Time Schedule"
+  "sales_matrix": {
+    "weekly_time_schedule": "Weekly Time Schedule"
   },
   "support": {
-    "stillNeedHelp": "Still need help?",
-    "supportMessage": "Our support team is here to help you with any questions. Get in touch and we'll respond as soon as possible.",
-    "startChat": "Start a Chat",
-    "emailSupport": "Email Support"
+    "still_need_help": "Still need help?",
+    "support_message": "Our support team is here to help you with any questions. Get in touch and we'll respond as soon as possible.",
+    "start_chat": "Start a Chat",
+    "email_support": "Email Support"
   },
   "app": {
-    "helpCenter": "Help Center",
-    "noHelpContent": "No help content available",
-    "helpComingSoon": "Help documentation for this section is coming soon.",
-    "backToHelpCenter": "Back to Help Center",
-    "wasArticleHelpful": "Was this article helpful?",
+    "help_center": "Help Center",
+    "no_help_content": "No help content available",
+    "help_coming_soon": "Help documentation for this section is coming soon.",
+    "back_to_help_center": "Back to Help Center",
+    "was_article_helpful": "Was this article helpful?",
     "yes": "Yes",
     "no": "No",
-    "stillNeedHelpContact": "Still need help? Contact us",
-    "onThisPage": "On this page",
-    "noSectionsFound": "No sections found"
+    "still_need_help_contact": "Still need help? Contact us",
+    "on_this_page": "On this page",
+    "no_sections_found": "No sections found"
   }
 }

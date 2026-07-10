@@ -2,19 +2,31 @@
     "subscription": {
         "page": {
             "heading": "Enrollments",
-            "headingActive": "Active Enrollments",
-            "headingInactive": "Inactive Enrollments",
-            "caption": "Student enrollments and program registrations",
-            "captionActive": "Currently enrolled students",
-            "captionInactive": "Completed or withdrawn enrollments"
+            "heading_active": "Active Enrollments",
+            "heading_inactive": "Inactive Enrollments",
+            "caption": "Student enrollments and level registrations",
+            "caption_active": "Currently enrolled students",
+            "caption_inactive": "Completed or withdrawn enrollments"
         },
-        "buttons": { "addSubscription": "Add Enrollment" },
-        "columns": { "customer": "Student", "plan": "Program", "startDate": "Enrollment Date" },
+        "buttons": {
+            "add_subscription": "Add Enrollment"
+        },
+        "columns": {
+            "name": "Enrollment",
+            "client": "Student",
+            "customer": "Student",
+            "plan": "Level",
+            "start_date": "Enrollment Date"
+        },
+        "empty": {
+            "title": "No enrollments found",
+            "message": "No enrollments to display."
+        },
         "form": {
             "customer": "Student",
-            "plan": "Program",
-            "startDate": "Enrollment Date",
-            "endDate": "Expected Completion",
+            "plan": "Level",
+            "start_date": "Enrollment Date",
+            "end_date": "Expected Completion",
             "start_time": "Start time",
             "end_time": "End time",
             "start_time_info": "Time of day in the operator's display timezone.",
@@ -30,48 +42,105 @@
             "activate": "Activate",
             "deactivate": "Deactivate"
         },
-        "bulkActions": {
+        "bulk_actions": {
             "delete": "Delete Selected",
-            "bulkActivate": "Activate Selected",
-            "bulkDeactivate": "Deactivate Selected"
+            "bulk_activate": "Activate Selected",
+            "bulk_deactivate": "Deactivate Selected"
         },
         "status": {
             "activate": "Activate",
             "deactivate": "Deactivate"
         },
-        "detail": { "pageTitle": "Enrollment Details" },
+        "detail": {
+            "page_title": "Enrollment Details",
+            "customer": "Student",
+            "plan": "Level",
+            "price_schedule": "Academic Year",
+            "start_date": "Enrollment Date",
+            "end_date": "Expected Completion",
+            "section_client": "Student",
+            "section_terms": "Enrollment",
+            "section_logs": "Logs",
+            "package_empty": "No level details for this enrollment."
+        },
         "tabs": {
             "info": "Information",
+            "operations": "Courses",
+            "jobs": "Classes",
             "invoices": "Invoices",
-            "auditTrail": "Audit Trail"
+            "audit_trail": "Audit Trail"
+        },
+        "operations": {
+            "title": "Courses",
+            "empty_title": "No courses yet",
+            "empty_message": "This enrollment has no Courses. {{.SpawnAction}} to set them up.",
+            "spawn_action": "Create Courses",
+            "root_job": "Root Course",
+            "child_job": "Child Course",
+            "view_job_link": "View in Courses",
+            "subscription_heading": "Enrollment (since {{.Started}})",
+            "cycle_placeholder": "Cycle starts {{.PeriodStart}} — Courses will be created at cycle start, or click below to create now.",
+            "cycle_spawn_now": "Create this cycle now",
+            "backfill_banner": "{{.Count}} cycle(s) missing Courses. Create now to backfill.",
+            "per_call_recognize_cta": "Generate invoice"
+        },
+        "jobs": {
+            "heading": "Classes",
+            "empty": "No classes yet for this enrollment.",
+            "summary": "Showing {{.Visible}} of {{.Total}} Classes",
+            "column_name": "Class",
+            "type_subscription": "Enrollment",
+            "spawn_failed_toast": "Cycle class creation failed for {{.Period}} — the invoice was created but the class will need a manual retry."
+        },
+        "spawn": {
+            "title": "Create Courses",
+            "confirm": "Create Courses",
+            "success_toast": "Created {{.JobCount}} Course(s).",
+            "skipped": "Nothing to create — no Curriculum is linked to this Level."
         },
         "invoices": {
             "title": "Invoices",
             "empty": "No invoices yet for this enrollment.",
-            "columnCode": "Number",
-            "columnDate": "Date",
-            "columnAmount": "Amount",
-            "columnStatus": "Status"
+            "column_code": "Number",
+            "column_date": "Date",
+            "column_amount": "Amount",
+            "column_status": "Status",
+            "recognize_action": "Generate Invoice",
+            "recognize_title": "Generate Invoice",
+            "recognize_subtitle": "Generate an invoice from this enrollment's level price."
+        },
+        "recognize": {
+            "context_section": "Enrollment",
+            "client_label": "Student",
+            "plan_label": "Level",
+            "client_custom_notice": "This enrollment uses a custom package for {{.ClientName}}."
+        },
+        "revenue_run": {
+            "subtitle_template": "{eligible} period(s) ready for this enrollment",
+            "subscription_label": "Enrollment",
+            "client_hint_template": "Student: {client}",
+            "group_no_pending": "No pending periods for this enrollment at the chosen date.",
+            "empty_message": "This enrollment is caught up at the chosen date."
         },
         "confirm": {
-            "cancelTitle": "Withdraw Enrollment",
-            "cancelMessage": "Are you sure you want to withdraw this enrollment?",
+            "cancel_title": "Withdraw Enrollment",
+            "cancel_message": "Are you sure you want to withdraw this enrollment?",
             "activate": "Activate Enrollment",
-            "activateMessage": "Are you sure you want to activate %s?",
+            "activate_message": "Are you sure you want to activate %s?",
             "deactivate": "Deactivate Enrollment",
-            "deactivateMessage": "Are you sure you want to deactivate %s?",
-            "bulkActivate": "Activate Selected",
-            "bulkActivateMessage": "Are you sure you want to activate the selected enrollments?",
-            "bulkDeactivate": "Deactivate Selected",
-            "bulkDeactivateMessage": "Are you sure you want to deactivate the selected enrollments?",
-            "bulkDelete": "Delete Selected",
-            "bulkDeleteMessage": "Are you sure you want to delete the selected enrollments? This action cannot be undone."
+            "deactivate_message": "Are you sure you want to deactivate %s?",
+            "bulk_activate": "Activate Selected",
+            "bulk_activate_message": "Are you sure you want to activate the selected enrollments?",
+            "bulk_deactivate": "Deactivate Selected",
+            "bulk_deactivate_message": "Are you sure you want to deactivate the selected enrollments?",
+            "bulk_delete": "Delete Selected",
+            "bulk_delete_message": "Are you sure you want to delete the selected enrollments? This action cannot be undone."
         },
         "errors": {
-            "noIDsProvided": "No enrollment IDs provided",
-            "invalidStatus": "Invalid status value",
-            "cannotDelete": "Cannot delete — this enrollment has dependent records",
-            "inUse": "Cannot delete — this enrollment has dependent records (jobs, revenue, invoices, etc.)"
+            "no_ids_provided": "No enrollment IDs provided",
+            "invalid_status": "Invalid status value",
+            "cannot_delete": "Cannot delete — this enrollment has dependent records",
+            "in_use": "Cannot delete — this enrollment has dependent records (courses, invoices, etc.)"
         }
     }
 }

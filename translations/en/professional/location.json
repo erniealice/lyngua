@@ -1,14 +1,14 @@
 {
   "page": {
     "heading": "Locations",
-    "headingActive": "Active Locations",
-    "headingInactive": "Inactive Locations",
+    "heading_active": "Active Locations",
+    "heading_inactive": "Inactive Locations",
     "caption": "Location management",
-    "captionActive": "Manage your active locations",
-    "captionInactive": "View inactive locations"
+    "caption_active": "Manage your active locations",
+    "caption_inactive": "View inactive locations"
   },
   "buttons": {
-    "addLocation": "Add Location"
+    "add_location": "Add Location"
   },
   "columns": {
     "name": "Name",
@@ -16,21 +16,21 @@
     "status": "Status"
   },
   "empty": {
-    "activeTitle": "No active locations",
-    "activeMessage": "Add your first location to get started",
-    "inactiveTitle": "No inactive locations",
-    "inactiveMessage": "Inactive locations will appear here"
+    "active_title": "No active locations",
+    "active_message": "Add your first location to get started",
+    "inactive_title": "No inactive locations",
+    "inactive_message": "Inactive locations will appear here"
   },
   "form": {
     "name": "Name",
-    "namePlaceholder": "e.g. Headquarters",
+    "name_placeholder": "e.g. Headquarters",
     "address": "Address",
-    "addressPlaceholder": "e.g. 123 Main Street",
+    "address_placeholder": "e.g. 123 Main Street",
     "description": "Description",
-    "descriptionPlaceholder": "e.g. Primary company location",
+    "description_placeholder": "e.g. Primary company location",
     "timezone": "Timezone",
     "area": "Area",
-    "areaPlaceholder": "Select area...",
+    "area_placeholder": "Select area...",
     "active": "Active"
   },
   "actions": {
@@ -41,30 +41,30 @@
     "deactivate": "Deactivate"
   },
   "detail": {
-    "basicInfo": {
+    "basic_info": {
       "title": "Basic Information",
       "name": "Name",
-      "namePlaceholder": "e.g. Headquarters",
+      "name_placeholder": "e.g. Headquarters",
       "address": "Address",
-      "addressPlaceholder": "e.g. 123 Main Street",
+      "address_placeholder": "e.g. 123 Main Street",
       "description": "Description",
-      "descriptionPlaceholder": "e.g. Primary company location",
+      "description_placeholder": "e.g. Primary company location",
       "active": "Active",
       "save": "Save Changes"
     },
     "tabs": {
       "info": "Info",
       "users": "Users",
-      "priceLists": "Rate Cards",
-      "auditTrail": "Audit Trail"
+      "price_lists": "Rate Cards",
+      "audit_trail": "Audit Trail"
     },
-    "emptyStates": {
-      "usersTitle": "No Users Assigned",
-      "usersDesc": "Users assigned to this location will appear here.",
-      "priceListsTitle": "No Rate Cards",
-      "priceListsDesc": "Rate cards for this location will appear here.",
-      "auditTitle": "No Audit History",
-      "auditDesc": "Office activity will appear here."
+    "empty_states": {
+      "users_title": "No Users Assigned",
+      "users_desc": "Users assigned to this location will appear here.",
+      "price_lists_title": "No Rate Cards",
+      "price_lists_desc": "Rate cards for this location will appear here.",
+      "audit_title": "No Audit History",
+      "audit_desc": "Office activity will appear here."
     }
   }
 }

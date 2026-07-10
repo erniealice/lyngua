@@ -4,13 +4,13 @@
     "caption": "Manage permissions assigned to this role"
   },
   "buttons": {
-    "assignPermission": "Assign Permission"
+    "assign_permission": "Assign Permission"
   },
   "columns": {
-    "permissionName": "Permission Name",
+    "permission_name": "Permission Name",
     "code": "Code",
     "type": "Type",
-    "dateAssigned": "Date Assigned"
+    "date_assigned": "Date Assigned"
   },
   "empty": {
     "title": "No permissions assigned",
@@ -22,6 +22,6 @@
   "actions": {
     "assign": "Assign",
     "remove": "Remove",
-    "managePermissions": "Manage Permissions"
+    "manage_permissions": "Manage Permissions"
   }
 }

@@ -1,15 +1,15 @@
 {
-  "planGroup": {
+  "plan_group": {
     "page": {
       "title": "Plan Groups",
       "subtitle": "Manage your plan group taxonomy",
-      "activeTitle": "Active Plan Groups",
-      "inactiveTitle": "Inactive Plan Groups"
+      "active_title": "Active Plan Groups",
+      "inactive_title": "Inactive Plan Groups"
     },
     "buttons": {
       "activate": "Activate",
       "add": "Add Plan Group",
-      "bulkDelete": "Delete Plan Groups",
+      "bulk_delete": "Delete Plan Groups",
       "deactivate": "Deactivate",
       "delete": "Delete Plan Group",
       "edit": "Edit Plan Group",
@@ -18,7 +18,7 @@
     "columns": {
       "actions": "Actions",
       "code": "Code",
-      "dateCreated": "Date Created",
+      "date_created": "Date Created",
       "name": "Name",
       "status": "Status"
     },
@@ -28,55 +28,55 @@
     },
     "form": {
       "active": "Active",
-      "activeInfo": "Inactive plan groups are hidden from new plan assignments.",
+      "active_info": "Inactive plan groups are hidden from new plan assignments.",
       "code": "Code",
-      "codeInfo": "Optional short identifier for this group used in reporting.",
-      "codePlaceholder": "Enter a short code (optional)",
+      "code_info": "Optional short identifier for this group used in reporting.",
+      "code_placeholder": "Enter a short code (optional)",
       "name": "Name",
-      "nameInfo": "A short display name for this plan group (e.g. \"Junior High\").",
-      "namePlaceholder": "Enter plan group name",
-      "parentGroup": "Parent group",
-      "parentGroupInfo": "Optional parent in the plan group hierarchy. Leave unset for a top-level group.",
-      "parentGroupPlaceholder": "Select a parent group...",
-      "parentGroupSearch": "Filter...",
-      "sectionHierarchy": "Hierarchy",
-      "sectionIdentity": "Group details"
+      "name_info": "A short display name for this plan group (e.g. \"Junior High\").",
+      "name_placeholder": "Enter plan group name",
+      "parent_group": "Parent group",
+      "parent_group_info": "Optional parent in the plan group hierarchy. Leave unset for a top-level group.",
+      "parent_group_placeholder": "Select a parent group...",
+      "parent_group_search": "Filter...",
+      "section_hierarchy": "Hierarchy",
+      "section_identity": "Group details"
     },
     "bulk": {
-      "activateMessage": "Activate the selected plan groups?",
-      "activateTitle": "Activate Plan Groups",
-      "deactivateMessage": "Deactivate the selected plan groups?",
-      "deactivateTitle": "Deactivate Plan Groups",
-      "deleteMessage": "Permanently delete the selected plan groups? This cannot be undone.",
-      "deleteTitle": "Delete Plan Groups"
+      "activate_message": "Activate the selected plan groups?",
+      "activate_title": "Activate Plan Groups",
+      "deactivate_message": "Deactivate the selected plan groups?",
+      "deactivate_title": "Deactivate Plan Groups",
+      "delete_message": "Permanently delete the selected plan groups? This cannot be undone.",
+      "delete_title": "Delete Plan Groups"
     },
     "confirm": {
-      "activateMessage": "Activate {{name}}?",
-      "activateTitle": "Activate Plan Group",
-      "deactivateMessage": "Deactivate {{name}}?",
-      "deactivateTitle": "Deactivate Plan Group",
-      "deleteMessage": "Permanently delete this plan group? This cannot be undone.",
-      "deleteTitle": "Delete Plan Group"
+      "activate_message": "Activate {{name}}?",
+      "activate_title": "Activate Plan Group",
+      "deactivate_message": "Deactivate {{name}}?",
+      "deactivate_title": "Deactivate Plan Group",
+      "delete_message": "Permanently delete this plan group? This cannot be undone.",
+      "delete_title": "Delete Plan Group"
     },
     "tabs": {
       "info": "Info"
     },
     "detail": {
-      "dateCreated": "Date Created",
-      "dateModified": "Date Modified",
-      "noCode": "—",
-      "noParent": "No parent group",
-      "noSubtitle": "No description provided",
+      "date_created": "Date Created",
+      "date_modified": "Date Modified",
+      "no_code": "—",
+      "no_parent": "No parent group",
+      "no_subtitle": "No description provided",
       "title": "Plan Group"
     },
     "errors": {
-      "createFailed": "Failed to create plan group",
-      "deleteFailed": "Failed to delete plan group",
-      "inUse": "This plan group is in use and cannot be deleted.",
-      "loadFailed": "Failed to load plan group",
-      "notFound": "Plan group not found",
+      "create_failed": "Failed to create plan group",
+      "delete_failed": "Failed to delete plan group",
+      "in_use": "This plan group is in use and cannot be deleted.",
+      "load_failed": "Failed to load plan group",
+      "not_found": "Plan group not found",
       "unauthorized": "You are not authorized to perform this action",
-      "updateFailed": "Failed to update plan group"
+      "update_failed": "Failed to update plan group"
     }
   }
 }

@@ -1,8 +1,8 @@
 {
-  "expenseRecognitionLine": {
+  "expense_recognition_line": {
     "labels": {
       "name": "Recognized Expense Line",
-      "namePlural": "Recognized Expense Lines"
+      "name_plural": "Recognized Expense Lines"
     }
   }
 }

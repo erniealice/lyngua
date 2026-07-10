@@ -1,8 +1,8 @@
 {
-  "procurementRequestLine": {
+  "procurement_request_line": {
     "labels": {
       "name": "Request Line",
-      "namePlural": "Request Lines"
+      "name_plural": "Request Lines"
     },
     "page": {
       "heading": "Request Lines",
@@ -10,18 +10,18 @@
     },
     "buttons": {
       "add": "Add Line",
-      "addItem": "Add Request Line"
+      "add_item": "Add Request Line"
     },
     "columns": {
-      "lineNumber": "Line #",
+      "line_number": "Line #",
       "description": "Description",
       "product": "Product",
-      "lineType": "Type",
+      "line_type": "Type",
       "quantity": "Qty",
-      "estimatedUnitPrice": "Est. Unit Price",
-      "estimatedTotal": "Est. Total",
+      "estimated_unit_price": "Est. Unit Price",
+      "estimated_total": "Est. Total",
       "category": "Category",
-      "contractLine": "Contract Line",
+      "contract_line": "Contract Line",
       "location": "Location"
     },
     "empty": {
@@ -29,46 +29,45 @@
       "message": "Add a line to detail what you need."
     },
     "form": {
-      "lineNumber": "Line Number",
-      "lineNumberPlaceholder": "1",
+      "line_number": "Line Number",
+      "line_number_placeholder": "1",
       "description": "Description",
-      "descriptionPlaceholder": "e.g. 50 user licenses for new project",
-      "descriptionInfo": "Short description of what is needed.",
+      "description_placeholder": "e.g. 50 user licenses for new project",
+      "description_info": "Short description of what is needed.",
       "product": "Product",
-      "selectProduct": "Select product...",
-      "productInfo": "Optional catalog product. Leave blank for bespoke items.",
-      "lineType": "Line Type",
-      "selectLineType": "Select line type...",
-      "lineTypeInfo": "Whether the line covers goods, a service, or an expense.",
+      "select_product": "Select product...",
+      "product_info": "Optional catalog product. Leave blank for bespoke items.",
+      "line_type": "Line Type",
+      "select_line_type": "Select line type...",
+      "line_type_info": "Whether the line covers goods, a service, or an expense.",
       "quantity": "Quantity",
-      "quantityPlaceholder": "0",
-      "quantityInfo": "Number of units. Use 1 for flat-fee lines.",
-      "estimatedUnitPrice": "Estimated Unit Price",
-      "estimatedUnitPricePlaceholder": "0.00",
-      "estimatedUnitPriceInfo": "Estimated price per unit. Approver may revise during review.",
-      "estimatedTotalPrice": "Estimated Total",
-      "estimatedTotalPricePlaceholder": "0.00",
-      "estimatedTotalPriceInfo": "Total estimated for this line. Auto-calculated as quantity × unit price.",
-      "supplierContractLine": "Pre-Linked Contract Line",
-      "selectSupplierContractLine": "Select contract line...",
-      "supplierContractLineInfo": "Optionally pre-link to an existing contract line if this item is already covered.",
-      "expenditureCategory": "Category",
-      "selectExpenditureCategory": "Select category...",
-      "expenditureCategoryInfo": "Category for roll-up reporting.",
-      "expenseAccount": "Expense Account",
-      "selectExpenseAccount": "Select expense account...",
-      "expenseAccountInfo": "GL account override for this line.",
+      "quantity_placeholder": "0",
+      "quantity_info": "Number of units. Use 1 for flat-fee lines.",
+      "estimated_unit_price": "Estimated Unit Price",
+      "estimated_unit_price_placeholder": "0.00",
+      "estimated_unit_price_info": "Estimated price per unit. Approver may revise during review.",
+      "estimated_total_price": "Estimated Total",
+      "estimated_total_price_placeholder": "0.00",
+      "estimated_total_price_info": "Total estimated for this line. Auto-calculated as quantity × unit price.",
+      "supplier_contract_line": "Pre-Linked Contract Line",
+      "select_supplier_contract_line": "Select contract line...",
+      "supplier_contract_line_info": "Optionally pre-link to an existing contract line if this item is already covered.",
+      "expenditure_category": "Category",
+      "select_expenditure_category": "Select category...",
+      "expenditure_category_info": "Category for roll-up reporting.",
+      "expense_account": "Expense Account",
+      "select_expense_account": "Select expense account...",
+      "expense_account_info": "GL account override for this line.",
       "location": "Location",
-      "selectLocation": "Select location...",
-      "locationInfo": "Receiving location for this line, if different from the request location.",
+      "select_location": "Select location...",
+      "location_info": "Receiving location for this line, if different from the request location.",
       "active": "Active",
-
-      "sectionDetails": "Line Details",
-      "sectionPricing": "Estimated Pricing",
-      "sectionLink": "Contract Linkage",
-      "sectionAccounting": "Accounting"
+      "section_details": "Line Details",
+      "section_pricing": "Estimated Pricing",
+      "section_link": "Contract Linkage",
+      "section_accounting": "Accounting"
     },
-    "lineType": {
+    "line_type": {
       "goods": "Goods",
       "service": "Service",
       "expense": "Expense"
@@ -82,12 +81,12 @@
     },
     "confirm": {
       "delete": "Remove Line",
-      "deleteMessage": "Are you sure you want to remove this line? This action cannot be undone."
+      "delete_message": "Are you sure you want to remove this line? This action cannot be undone."
     },
-    "statusMessages": {
-      "createSuccess": "Line added successfully",
-      "updateSuccess": "Line updated successfully",
-      "deleteSuccess": "Line removed successfully"
+    "status_messages": {
+      "create_success": "Line added successfully",
+      "update_success": "Line updated successfully",
+      "delete_success": "Line removed successfully"
     },
     "validation": {
       "data_required": "Line data is required",
@@ -100,14 +99,13 @@
       "id_required": "Line ID is required"
     },
     "errors": {
-      "permissionDenied": "You do not have permission to perform this action.",
-      "notFound": "Request line not found.",
-      "not_found": "Request line with ID \"{entityId}\" not found",
+      "permission_denied": "You do not have permission to perform this action.",
+      "not_found": "Request line not found.",
       "creation_failed": "Line creation failed",
       "update_failed": "Line update failed",
       "deletion_failed": "Line deletion failed",
       "list_failed": "Failed to retrieve request lines",
-      "noPermission": "You do not have permission to perform this action."
+      "no_permission": "You do not have permission to perform this action."
     }
   }
 }

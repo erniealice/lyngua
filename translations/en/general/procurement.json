@@ -1,13 +1,13 @@
 {
   "procurement": {
     "page": {
-      "appLabel": "Procurement",
-      "dashboardTitle": "Procurement Dashboard",
-      "renewalsTitle": "Renewal Calendar",
-      "varianceTitle": "Variance Alerts",
-      "utilizationTitle": "Utilization",
-      "recurrenceTitle": "Recurrence Drafts",
-      "pendingApprovalsTitle": "Pending Approvals"
+      "app_label": "Procurement",
+      "dashboard_title": "Procurement Dashboard",
+      "renewals_title": "Renewal Calendar",
+      "variance_title": "Variance Alerts",
+      "utilization_title": "Utilization",
+      "recurrence_title": "Recurrence Drafts",
+      "pending_approvals_title": "Pending Approvals"
     },
     "empty": {
       "renewals": "No contracts expiring soon",
@@ -16,9 +16,9 @@
       "recurrence": "No recurrence drafts pending review"
     },
     "fields": {
-      "daysUntilExpiry": "Days Until Expiry",
-      "utilizationPercent": "Utilization %",
-      "budgetPressureLabel": "Budget Pressure"
+      "days_until_expiry": "Days Until Expiry",
+      "utilization_percent": "Utilization %",
+      "budget_pressure_label": "Budget Pressure"
     }
   }
 }

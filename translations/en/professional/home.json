@@ -5,10 +5,10 @@
     "subtitle": "Welcome back"
   },
   "stats": {
-    "totalClients": "Total Clients",
-    "pipelineValue": "Pipeline Value",
-    "openQuotes": "Open Proposals",
-    "winRate": "Win Rate"
+    "total_clients": "Total Clients",
+    "pipeline_value": "Pipeline Value",
+    "open_quotes": "Open Proposals",
+    "win_rate": "Win Rate"
   },
   "revenue": {
     "title": "Revenue Overview",
@@ -24,40 +24,40 @@
   },
   "activity": {
     "title": "Recent Activity",
-    "viewAll": "View All",
-    "newClientAdded": "New client added",
-    "acmeCorporationJoined": "Acme Corporation joined",
-    "agoMinutes": "m ago",
-    "quoteAccepted": "Proposal accepted",
-    "projectAlpha": "Project Alpha - $24,500",
-    "agoHours": "h ago",
-    "awardEarned": "Award earned",
-    "topPerformerQ4": "Top Performer Q4",
-    "integrationSynced": "Integration synced",
-    "salesforceDataUpdated": "Salesforce data updated"
+    "view_all": "View All",
+    "new_client_added": "New client added",
+    "acme_corporation_joined": "Acme Corporation joined",
+    "ago_minutes": "m ago",
+    "quote_accepted": "Proposal accepted",
+    "project_alpha": "Project Alpha - $24,500",
+    "ago_hours": "h ago",
+    "award_earned": "Award earned",
+    "top_performer_q4": "Top Performer Q4",
+    "integration_synced": "Integration synced",
+    "salesforce_data_updated": "Salesforce data updated"
   },
   "tasks": {
     "title": "Today's Tasks",
-    "addTask": "+ Add Task",
-    "reviewAcmeProposal": "Review Acme proposal",
-    "dueTodayAt2PM": "Due today at 2:00 PM",
-    "sendFollowUpToTechCorp": "Send follow-up to TechCorp",
-    "dueTodayAt4PM": "Due today at 4:00 PM",
-    "updateClientDatabase": "Update client database",
-    "completedAt930AM": "Completed at 9:30 AM",
-    "prepareQ1Report": "Prepare Q1 report",
-    "dueTomorrow": "Due tomorrow"
+    "add_task": "+ Add Task",
+    "review_acme_proposal": "Review Acme proposal",
+    "due_today_at2_pm": "Due today at 2:00 PM",
+    "send_follow_up_to_tech_corp": "Send follow-up to TechCorp",
+    "due_today_at4_pm": "Due today at 4:00 PM",
+    "update_client_database": "Update client database",
+    "completed_at930_am": "Completed at 9:30 AM",
+    "prepare_q1_report": "Prepare Q1 report",
+    "due_tomorrow": "Due tomorrow"
   },
-  "topClients": {
+  "top_clients": {
     "title": "Top Clients",
-    "seeAll": "See All",
-    "acmeCorporation": "Acme Corporation",
+    "see_all": "See All",
+    "acme_corporation": "Acme Corporation",
     "projects12": "12 projects",
-    "techCorpInc": "TechCorp Inc",
+    "tech_corp_inc": "TechCorp Inc",
     "projects8": "8 projects",
-    "globalSolutions": "Global Solutions",
+    "global_solutions": "Global Solutions",
     "projects6": "6 projects",
-    "startupXYZ": "StartupXYZ",
+    "startup_xyz": "StartupXYZ",
     "projects4": "4 projects"
   }
 }

@@ -1,23 +1,23 @@
 {
-  "depreciationPolicies": {
-    "usefulLifeMonthsSuffix": " mo",
+  "depreciation_policies": {
+    "useful_life_months_suffix": " mo",
     "columns": {
       "actions": "Actions",
-      "assetsDeviating": "Assets that deviate",
-      "assetsInPolicy": "Assets in policy",
+      "assets_deviating": "Assets that deviate",
+      "assets_in_policy": "Assets in policy",
       "method": "Method",
       "policy": "Policy",
-      "salvagePct": "Salvage %",
-      "usefulLife": "Useful life"
+      "salvage_pct": "Salvage %",
+      "useful_life": "Useful life"
     },
-    "previewDrawer": {
+    "preview_drawer": {
       "subtitle": "Projected depreciation amounts for all in-service assets under this policy."
     },
-    "rowActions": {
+    "row_actions": {
       "preview": "Preview",
       "run": "Run"
     },
-    "runDrawer": {
+    "run_drawer": {
       "subtitle": "Post depreciation for all in-service assets under this policy."
     },
     "title": "Depreciation Policies"

@@ -1,10 +1,10 @@
 {
     "outcome": {
         "criteria": "Rubric Item",
-        "criteriaLibrary": "Rubrics",
+        "criteria_library": "Rubrics",
         "observation": "Score",
         "summary": "Grade Report",
-        "phaseSummary": "Module Grade",
-        "jobSummary": "Report Card"
+        "phase_summary": "Module Grade",
+        "job_summary": "Report Card"
     }
 }

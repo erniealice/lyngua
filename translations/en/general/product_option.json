@@ -9,82 +9,82 @@
   "columns": {
     "name": "Name",
     "code": "Code",
-    "dataType": "Data Type",
-    "valuesCount": "Values",
-    "sortOrder": "Order",
+    "data_type": "Data Type",
+    "values_count": "Values",
+    "sort_order": "Order",
     "required": "Required",
     "status": "Status"
   },
   "form": {
     "name": "Option Name",
-    "namePlaceholder": "e.g., Color, Size, Storage",
+    "name_placeholder": "e.g., Color, Size, Storage",
     "code": "Code",
-    "codePlaceholder": "e.g., color, size, storage",
-    "dataType": "Data Type",
-    "sortOrder": "Sort Order",
-    "minValue": "Minimum Value",
-    "maxValue": "Maximum Value",
+    "code_placeholder": "e.g., color, size, storage",
+    "data_type": "Data Type",
+    "sort_order": "Sort Order",
+    "min_value": "Minimum Value",
+    "max_value": "Maximum Value",
     "active": "Active",
     "required": "Required",
-    "requiredCaution": "Marking this option as required means every variant of this product must supply a value for it. If this option has no values yet, variants can't be saved until you add some.",
+    "required_caution": "Marking this option as required means every variant of this product must supply a value for it. If this option has no values yet, variants can't be saved until you add some.",
     "description": "Description",
-    "descriptionPlaceholder": "Optional notes about this option",
-    "descriptionEmpty": "No description provided",
-    "nameInfo": "Shown to customers picking this option (e.g., \"Color\", \"Size\").",
-    "codeInfo": "Machine-friendly slug used in APIs and URLs. Lowercase, no spaces.",
-    "dataTypeInfo": "Text/Number/Color lists use predefined values. Free Text and Free Number accept arbitrary input.",
-    "minValueInfo": "Smallest numeric value accepted. Only applies to numeric data types.",
-    "maxValueInfo": "Largest numeric value accepted. Only applies to numeric data types.",
-    "sortOrderInfo": "Lower numbers appear first when options are listed.",
-    "activeInfo": "Inactive options are hidden from new variants but preserved on existing rows.",
-    "descriptionInfo": "Optional internal description. Up to 500 characters."
+    "description_placeholder": "Optional notes about this option",
+    "description_empty": "No description provided",
+    "name_info": "Shown to customers picking this option (e.g., \"Color\", \"Size\").",
+    "code_info": "Machine-friendly slug used in APIs and URLs. Lowercase, no spaces.",
+    "data_type_info": "Text/Number/Color lists use predefined values. Free Text and Free Number accept arbitrary input.",
+    "min_value_info": "Smallest numeric value accepted. Only applies to numeric data types.",
+    "max_value_info": "Largest numeric value accepted. Only applies to numeric data types.",
+    "sort_order_info": "Lower numbers appear first when options are listed.",
+    "active_info": "Inactive options are hidden from new variants but preserved on existing rows.",
+    "description_info": "Optional internal description. Up to 500 characters."
   },
-  "dataTypes": {
-    "textList": "Text List",
-    "numberRange": "Number Range",
-    "colorList": "Color List",
-    "freeText": "Free Text",
-    "freeNumber": "Free Number"
+  "data_types": {
+    "text_list": "Text List",
+    "number_range": "Number Range",
+    "color_list": "Color List",
+    "free_text": "Free Text",
+    "free_number": "Free Number"
   },
   "value": {
     "columns": {
       "label": "Label",
       "value": "Value",
-      "sortOrder": "Order",
-      "colorPreview": "Preview",
+      "sort_order": "Order",
+      "color_preview": "Preview",
       "status": "Status"
     },
     "form": {
       "label": "Label",
-      "labelPlaceholder": "e.g., Black, 256GB",
+      "label_placeholder": "e.g., Black, 256GB",
       "value": "Value",
-      "valuePlaceholder": "e.g., black, 256gb",
-      "sortOrder": "Sort Order",
-      "colorHex": "Color (Hex)",
-      "colorHexPlaceholder": "#000000",
+      "value_placeholder": "e.g., black, 256gb",
+      "sort_order": "Sort Order",
+      "color_hex": "Color (Hex)",
+      "color_hex_placeholder": "#000000",
       "active": "Active",
       "option": "Option",
       "required": "Required"
     }
   },
   "actions": {
-    "addOption": "Add Option",
-    "editOption": "Edit Option",
-    "editProductOption": "Edit Product Option",
-    "deleteOption": "Delete Option",
-    "viewValues": "View Values",
-    "addValue": "Add Value",
-    "editValue": "Edit Value",
-    "deleteValue": "Delete Value"
+    "add_option": "Add Option",
+    "edit_option": "Edit Option",
+    "edit_product_option": "Edit Product Option",
+    "delete_option": "Delete Option",
+    "view_values": "View Values",
+    "add_value": "Add Value",
+    "edit_value": "Edit Value",
+    "delete_value": "Delete Value"
   },
   "empty": {
     "title": "No Options",
     "message": "No product options have been added yet.",
-    "valueTitle": "No Values",
-    "valueMessage": "No values have been added to this option yet."
+    "value_title": "No Values",
+    "value_message": "No values have been added to this option yet."
   },
   "confirm": {
-    "deleteOption": "Are you sure you want to delete this option? All associated values will also be removed.",
-    "deleteValue": "Are you sure you want to delete this value?"
+    "delete_option": "Are you sure you want to delete this option? All associated values will also be removed.",
+    "delete_value": "Are you sure you want to delete this value?"
   }
 }

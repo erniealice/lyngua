@@ -1,29 +1,29 @@
 {
-  "workflowTemplate": {
+  "workflow_template": {
     "page": {
       "heading": "Workflow Templates",
-      "headingActive": "Active Templates",
-      "headingDraft": "Draft Templates",
-      "headingArchived": "Archived Templates",
-      "headingAll": "All Templates",
+      "heading_active": "Active Templates",
+      "heading_draft": "Draft Templates",
+      "heading_archived": "Archived Templates",
+      "heading_all": "All Templates",
       "caption": "Design automation workflows for request processing",
-      "captionActive": "Templates currently assigned to request types",
-      "captionDraft": "Templates in progress — not yet assignable",
-      "captionArchived": "Archived templates no longer in use"
+      "caption_active": "Templates currently assigned to request types",
+      "caption_draft": "Templates in progress — not yet assignable",
+      "caption_archived": "Archived templates no longer in use"
     },
     "entity": {
       "singular": "Workflow Template",
       "plural": "Workflow Templates"
     },
     "buttons": {
-      "addTemplate": "New Template"
+      "add_template": "New Template"
     },
     "columns": {
       "name": "Name",
       "description": "Description",
-      "stageCount": "Stages",
+      "stage_count": "Stages",
       "status": "Status",
-      "linkedTypes": "Linked Types",
+      "linked_types": "Linked Types",
       "updated": "Updated"
     },
     "status": {
@@ -34,96 +34,96 @@
     },
     "form": {
       "name": "Name",
-      "namePlaceholder": "e.g. Standard Approval Workflow",
-      "nameInfo": "Display name for this workflow template.",
+      "name_placeholder": "e.g. Standard Approval Workflow",
+      "name_info": "Display name for this workflow template.",
       "description": "Description",
-      "descriptionPlaceholder": "Describe the workflow steps...",
-      "descriptionInfo": "Internal description of what this workflow automates.",
-      "inputSchema": "Input Schema",
-      "inputSchemaPlaceholder": "JSON Schema for workflow inputs...",
-      "inputSchemaInfo": "JSON Schema defining input fields that the workflow requires at start.",
+      "description_placeholder": "Describe the workflow steps...",
+      "description_info": "Internal description of what this workflow automates.",
+      "input_schema": "Input Schema",
+      "input_schema_placeholder": "JSON Schema for workflow inputs...",
+      "input_schema_info": "JSON Schema defining input fields that the workflow requires at start.",
       "configuration": "Configuration",
-      "configurationPlaceholder": "Configuration JSON...",
-      "configurationInfo": "Workflow-level configuration including SLA settings and routing rules."
+      "configuration_placeholder": "Configuration JSON...",
+      "configuration_info": "Workflow-level configuration including SLA settings and routing rules."
     },
     "builder": {
       "heading": "Workflow Builder",
-      "tabBuilder": "Builder",
-      "tabConfig": "Configuration",
-      "tabPreview": "Preview",
-      "stagesHeading": "Stages",
-      "activitiesHeading": "Activities",
-      "addStage": "Add Stage",
-      "addActivity": "Add Activity",
+      "tab_builder": "Builder",
+      "tab_config": "Configuration",
+      "tab_preview": "Preview",
+      "stages_heading": "Stages",
+      "activities_heading": "Activities",
+      "add_stage": "Add Stage",
+      "add_activity": "Add Activity",
       "reorder": "Reorder",
-      "moveUp": "Move Up",
-      "moveDown": "Move Down",
-      "deleteStage": "Delete Stage",
-      "deleteActivity": "Delete Activity",
+      "move_up": "Move Up",
+      "move_down": "Move Down",
+      "delete_stage": "Delete Stage",
+      "delete_activity": "Delete Activity",
       "validate": "Validate",
       "save": "Save",
-      "saveAndActivate": "Save & Activate",
-      "emptyStages": "No stages yet. Add a stage to start building the workflow.",
-      "emptyActivities": "No activities in this stage. Add an activity to define work steps.",
-      "stageForm": {
+      "save_and_activate": "Save & Activate",
+      "empty_stages": "No stages yet. Add a stage to start building the workflow.",
+      "empty_activities": "No activities in this stage. Add an activity to define work steps.",
+      "stage_form": {
         "name": "Stage Name",
-        "namePlaceholder": "e.g. Manager Review",
-        "nameInfo": "Display name for this stage in the workflow pipeline.",
+        "name_placeholder": "e.g. Manager Review",
+        "name_info": "Display name for this stage in the workflow pipeline.",
         "type": "Stage Type",
-        "typePlaceholder": "Select stage type",
-        "typeInfo": "Determines how activities in this stage are processed.",
+        "type_placeholder": "Select stage type",
+        "type_info": "Determines how activities in this stage are processed.",
         "order": "Order",
-        "orderInfo": "Position of this stage in the workflow sequence."
+        "order_info": "Position of this stage in the workflow sequence."
       },
-      "activityForm": {
+      "activity_form": {
         "name": "Activity Name",
-        "namePlaceholder": "e.g. Send Approval Email",
-        "nameInfo": "Display name for this activity within the stage.",
+        "name_placeholder": "e.g. Send Approval Email",
+        "name_info": "Display name for this activity within the stage.",
         "type": "Activity Type",
-        "typePlaceholder": "Select activity type",
-        "typeInfo": "How this activity is executed.",
-        "typeUseCase": "Use Case",
-        "typeIntegration": "Integration",
-        "typeHumanTask": "Human Task",
-        "humanTaskComingSoon": "Human task activities are coming soon.",
+        "type_placeholder": "Select activity type",
+        "type_info": "How this activity is executed.",
+        "type_use_case": "Use Case",
+        "type_integration": "Integration",
+        "type_human_task": "Human Task",
+        "human_task_coming_soon": "Human task activities are coming soon.",
         "executor": "Executor",
-        "executorPlaceholder": "Select an executor",
-        "executorInfo": "The registered executor that runs this activity.",
-        "executorSearchPlaceholder": "Search executors...",
-        "executorNoResults": "No executors found",
-        "inputSchema": "Input Schema",
-        "inputSchemaPlaceholder": "JSON Schema for activity inputs...",
-        "inputSchemaInfo": "JSON Schema defining the inputs this activity expects.",
+        "executor_placeholder": "Select an executor",
+        "executor_info": "The registered executor that runs this activity.",
+        "executor_search_placeholder": "Search executors...",
+        "executor_no_results": "No executors found",
+        "input_schema": "Input Schema",
+        "input_schema_placeholder": "JSON Schema for activity inputs...",
+        "input_schema_info": "JSON Schema defining the inputs this activity expects.",
         "configuration": "Configuration",
-        "configurationPlaceholder": "Activity configuration JSON...",
-        "configurationInfo": "Activity-specific configuration passed to the executor at runtime."
+        "configuration_placeholder": "Activity configuration JSON...",
+        "configuration_info": "Activity-specific configuration passed to the executor at runtime."
       },
       "validation": {
         "valid": "Workflow template is valid.",
-        "invalidSchema": "Input schema is not valid JSON Schema.",
-        "noStages": "Workflow must have at least one stage.",
-        "noActivities": "Each stage must have at least one activity.",
-        "executorNotFound": "Executor not found: %s",
-        "duplicateStageName": "Duplicate stage name: %s"
+        "invalid_schema": "Input schema is not valid JSON Schema.",
+        "no_stages": "Workflow must have at least one stage.",
+        "no_activities": "Each stage must have at least one activity.",
+        "executor_not_found": "Executor not found: %s",
+        "duplicate_stage_name": "Duplicate stage name: %s"
       }
     },
     "actions": {
       "edit": "Edit",
-      "openBuilder": "Open Builder",
+      "open_builder": "Open Builder",
       "archive": "Archive",
       "activate": "Activate",
       "duplicate": "Duplicate",
       "view": "View Template"
     },
     "detail": {
-      "pageTitle": "Workflow Template",
+      "page_title": "Workflow Template",
       "name": "Name",
       "description": "Description",
       "status": "Status",
-      "stageCount": "Stages",
-      "linkedTypes": "Linked Request Types",
-      "noDescription": "No description provided",
-      "noLinkedTypes": "Not linked to any request types"
+      "stage_count": "Stages",
+      "linked_types": "Linked Request Types",
+      "no_description": "No description provided",
+      "no_linked_types": "Not linked to any request types"
     },
     "empty": {
       "title": "No workflow templates found",
@@ -132,20 +132,20 @@
     },
     "confirm": {
       "archive": "Archive Template",
-      "archiveMessage": "Are you sure you want to archive this workflow template? Request types using it will fall back to status-only processing.",
-      "deleteStage": "Delete Stage",
-      "deleteStageMessage": "Are you sure you want to delete this stage? All activities in the stage will also be removed.",
-      "deleteActivity": "Delete Activity",
-      "deleteActivityMessage": "Are you sure you want to delete this activity?"
+      "archive_message": "Are you sure you want to archive this workflow template? Request types using it will fall back to status-only processing.",
+      "delete_stage": "Delete Stage",
+      "delete_stage_message": "Are you sure you want to delete this stage? All activities in the stage will also be removed.",
+      "delete_activity": "Delete Activity",
+      "delete_activity_message": "Are you sure you want to delete this activity?"
     },
     "errors": {
-      "permissionDenied": "You do not have permission to manage workflow templates.",
-      "notFound": "Workflow template not found.",
-      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
-      "nameRequired": "Template name is required.",
-      "idRequired": "Template ID is required.",
-      "stageNotFound": "Stage not found.",
-      "activityNotFound": "Activity not found."
+      "permission_denied": "You do not have permission to manage workflow templates.",
+      "not_found": "Workflow template not found.",
+      "invalid_form_data": "Invalid form data. Please check your inputs and try again.",
+      "name_required": "Template name is required.",
+      "id_required": "Template ID is required.",
+      "stage_not_found": "Stage not found.",
+      "activity_not_found": "Activity not found."
     },
     "validation": {
       "data_required": "Workflow template data is required",

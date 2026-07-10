@@ -27,21 +27,21 @@
     "dashboard": {
       "title": "Administration",
       "subtitle": "Workspaces, users, roles, and permissions",
-      "workspaceUsers": "Workspace Users",
+      "workspace_users": "Workspace Users",
       "roles": "Roles",
       "permissions": "Permissions",
-      "recentRoleChanges": "Role Changes (7d)",
-      "usersPerRole": "Users per Role",
-      "rolesByPermissionCount": "Roles by Permission Count",
-      "recentRoleChangesList": "Recent Role Changes",
-      "viewAll": "View All",
-      "quickNewUser": "New User",
-      "quickNewWorkspace": "New Workspace",
-      "quickAssignRole": "Assign Role",
-      "quickAuditLog": "Audit Log",
-      "columnRole": "Role",
-      "columnPermissionCount": "Permissions",
-      "roleAssigned": "Role Assigned"
+      "recent_role_changes": "Role Changes (7d)",
+      "users_per_role": "Users per Role",
+      "roles_by_permission_count": "Roles by Permission Count",
+      "recent_role_changes_list": "Recent Role Changes",
+      "view_all": "View All",
+      "quick_new_user": "New User",
+      "quick_new_workspace": "New Workspace",
+      "quick_assign_role": "Assign Role",
+      "quick_audit_log": "Audit Log",
+      "column_role": "Role",
+      "column_permission_count": "Permissions",
+      "role_assigned": "Role Assigned"
     }
   }
 }

@@ -3,20 +3,20 @@
     "page": {
       "heading": "Staff",
       "caption": "Manage your staff members",
-      "headingActive": "Active Staff",
-      "headingInactive": "Inactive Staff"
+      "heading_active": "Active Staff",
+      "heading_inactive": "Inactive Staff"
     },
     "buttons": {
-      "addStaff": "Add Staff"
+      "add_staff": "Add Staff"
     },
     "columns": {
       "name": "Name",
       "email": "Email",
       "status": "Availability",
-      "employmentType": "Employment Type",
+      "employment_type": "Employment Type",
       "seniority": "Seniority",
       "rating": "Rating",
-      "employmentStart": "Start Date"
+      "employment_start": "Start Date"
     },
     "availability": {
       "available": "Available",
@@ -34,25 +34,25 @@
     },
     "rating": {
       "label": "Rating",
-      "noRating": "—"
+      "no_rating": "—"
     },
     "form": {
       "status": "Availability",
-      "statusPlaceholder": "Select availability status",
-      "employmentType": "Employment Type",
-      "employmentTypePlaceholder": "Select employment type",
+      "status_placeholder": "Select availability status",
+      "employment_type": "Employment Type",
+      "employment_type_placeholder": "Select employment type",
       "seniority": "Seniority",
-      "seniorityPlaceholder": "e.g. Senior, Mid, Junior",
-      "employmentStart": "Employment Start",
-      "employmentEnd": "Employment End"
+      "seniority_placeholder": "e.g. Senior, Mid, Junior",
+      "employment_start": "Employment Start",
+      "employment_end": "Employment End"
     },
     "empty": {
       "title": "No staff found",
       "message": "No staff members to display.",
-      "activeTitle": "No active staff",
-      "activeMessage": "Add your first staff member to get started.",
-      "inactiveTitle": "No inactive staff",
-      "inactiveMessage": "Offboarded staff will appear here."
+      "active_title": "No active staff",
+      "active_message": "Add your first staff member to get started.",
+      "inactive_title": "No inactive staff",
+      "inactive_message": "Offboarded staff will appear here."
     },
     "actions": {
       "view": "View Staff",
@@ -60,27 +60,30 @@
       "delete": "Delete Staff"
     },
     "detail": {
-      "pageTitle": "Staff Details",
+      "page_title": "Staff Details",
       "name": "Name",
       "email": "Email",
       "status": "Availability",
-      "employmentType": "Employment Type",
+      "employment_type": "Employment Type",
       "seniority": "Seniority",
-      "employmentStart": "Employment Start",
-      "employmentEnd": "Employment End",
+      "employment_start": "Employment Start",
+      "employment_end": "Employment End",
       "rating": "Latest Rating",
-      "createdDate": "Created",
-      "modifiedDate": "Last Modified"
+      "created_date": "Created",
+      "modified_date": "Last Modified"
     },
     "tabs": {
       "info": "Information",
       "evaluations": "Reviews",
-      "auditTrail": "Audit Trail"
+      "audit_trail": "Audit Trail"
     },
     "errors": {
-      "permissionDenied": "You do not have permission to perform this action",
-      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
-      "notFound": "Staff member not found"
+      "not_found": "Staff with ID \"{staffId}\" not found",
+      "creation_failed": "Staff creation failed",
+      "update_failed": "Staff update failed",
+      "deletion_failed": "Staff deletion failed",
+      "list_failed": "Failed to retrieve staff",
+      "authorization_failed": "Authorization failed for staff"
     },
     "validation": {
       "data_required": "Staff data is required",
@@ -96,14 +99,6 @@
       "email_invalid": "Staff email format is invalid",
       "id_required": "Staff ID is required",
       "request_required": "Request is required for staff"
-    },
-    "errors": {
-      "not_found": "Staff with ID \"{staffId}\" not found",
-      "creation_failed": "Staff creation failed",
-      "update_failed": "Staff update failed",
-      "deletion_failed": "Staff deletion failed",
-      "list_failed": "Failed to retrieve staff",
-      "authorization_failed": "Authorization failed for staff"
     }
   }
 }

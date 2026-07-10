@@ -1,64 +1,64 @@
 {
-  "lapsingSchedule": {
-    "categoryRun": {
-      "cancelButton": "Cancel",
-      "columnAsset": "Asset",
-      "columnBlocker": "Blocker",
-      "columnPendingPeriods": "Pending Periods",
-      "columnStatus": "Status",
+  "lapsing_schedule": {
+    "category_run": {
+      "cancel_button": "Cancel",
+      "column_asset": "Asset",
+      "column_blocker": "Blocker",
+      "column_pending_periods": "Pending Periods",
+      "column_status": "Status",
       "errors": {
-        "useCaseUnavailable": "Service unavailable. Please try again."
+        "use_case_unavailable": "Service unavailable. Please try again."
       },
-      "submitButton": "Run depreciation",
+      "submit_button": "Run depreciation",
       "title": "Run depreciation for category: {category.name}"
     },
     "list": {
-      "asOfDateLabel": "As of date",
-      "bulkRunAllMatching": "Run for all matching",
-      "bulkRunSelected": "Run for selected",
+      "as_of_date_label": "As of date",
+      "bulk_run_all_matching": "Run for all matching",
+      "bulk_run_selected": "Run for selected",
       "columns": {
         "actions": "Actions",
         "asset": "Asset",
         "category": "Category",
         "currency": "Currency",
-        "currentBV": "Current BV",
-        "lastPostedPeriod": "Last posted period",
-        "nextAmount": "Next amount",
-        "nextPendingPeriod": "Next pending period",
+        "current_bv": "Current BV",
+        "last_posted_period": "Last posted period",
+        "next_amount": "Next amount",
+        "next_pending_period": "Next pending period",
         "pending": "Pending",
         "policy": "Policy",
         "status": "Status"
       },
-      "confirmRunAllMatching": "Run depreciation for all {count} matching assets through {asOfDate}?",
-      "confirmRunSelected": "Run depreciation for {count} assets through {asOfDate}?",
+      "confirm_run_all_matching": "Run depreciation for all {count} matching assets through {asOfDate}?",
+      "confirm_run_selected": "Run depreciation for {count} assets through {asOfDate}?",
       "empty": {
         "cta": "Go to Assets",
         "message": "Add an asset to get started.",
         "title": "No assets in service"
       },
-      "filterLabels": {
+      "filter_labels": {
         "category": "Category",
         "currency": "Currency",
         "method": "Method",
         "policy": "Policy",
         "status": "Status"
       },
-      "blockedPrefix": "Blocked: ",
-      "statusBadges": {
-        "blockedTemplate": "Blocked: {reason}",
-        "notStarted": "Not started",
-        "nPeriodsPendingTemplate": "{n} periods pending",
-        "upToDate": "Up to date"
+      "blocked_prefix": "Blocked: ",
+      "status_badges": {
+        "blocked_template": "Blocked: {reason}",
+        "not_started": "Not started",
+        "n_periods_pending_template": "{n} periods pending",
+        "up_to_date": "Up to date"
       },
       "title": "Lapsing Schedule"
     },
-    "policyRun": {
-      "cancelButton": "Cancel",
-      "columnAsset": "Asset",
-      "columnBlocker": "Blocker",
-      "columnPendingPeriods": "Pending Periods",
-      "columnStatus": "Status",
-      "submitButton": "Run depreciation",
+    "policy_run": {
+      "cancel_button": "Cancel",
+      "column_asset": "Asset",
+      "column_blocker": "Blocker",
+      "column_pending_periods": "Pending Periods",
+      "column_status": "Status",
+      "submit_button": "Run depreciation",
       "title": "Run depreciation for policy: {policy.name}"
     }
   }

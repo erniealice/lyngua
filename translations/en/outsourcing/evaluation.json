@@ -10,18 +10,18 @@
     "portal": {
       "heading": "Rate My Team",
       "caption": "Submit performance reviews for your associates",
-      "startReview": "Rate Associate",
-      "ratingLabel": "Associate Rating",
-      "lastReview": "Last review",
-      "noReview": "No review yet",
+      "start_review": "Rate Associate",
+      "rating_label": "Associate Rating",
+      "last_review": "Last review",
+      "no_review": "No review yet",
       "empty": "No associates to review at this time."
     },
     "buttons": {
-      "startReview": "Rate Associate",
-      "signOff": "Sign off"
+      "start_review": "Rate Associate",
+      "sign_off": "Sign off"
     },
     "actions": {
-      "signOff": "Sign Off"
+      "sign_off": "Sign Off"
     }
   }
 }

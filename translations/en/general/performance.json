@@ -10,39 +10,39 @@
       "groups": {
         "overdue": "Overdue",
         "due": "Due",
-        "upToDate": "Up to Date"
+        "up_to_date": "Up to Date"
       },
       "columns": {
         "associate": "Associate",
         "client": "Client",
-        "lastReview": "Last Review",
-        "nextDue": "Next Due",
+        "last_review": "Last Review",
+        "next_due": "Next Due",
         "rating": "Rating",
         "status": "Status"
       },
       "actions": {
-        "startReview": "Start Review",
-        "viewLastReview": "View Last Review"
+        "start_review": "Start Review",
+        "view_last_review": "View Last Review"
       },
       "empty": {
         "title": "No reviews due",
         "message": "All team members are up to date.",
-        "overdueEmpty": "No overdue reviews",
-        "dueEmpty": "No reviews due soon",
-        "upToDateEmpty": "No reviews up to date"
+        "overdue_empty": "No overdue reviews",
+        "due_empty": "No reviews due soon",
+        "up_to_date_empty": "No reviews up to date"
       },
       "rating": {
-        "noRating": "—",
+        "no_rating": "—",
         "label": "Rating"
       },
       "cycle": {
         "heading": "Active Cycle",
-        "noCycle": "No active cycle"
+        "no_cycle": "No active cycle"
       }
     },
     "errors": {
-      "permissionDenied": "You do not have permission to view this panel",
-      "loadFailed": "Failed to load performance data"
+      "permission_denied": "You do not have permission to view this panel",
+      "load_failed": "Failed to load performance data"
     }
   }
 }

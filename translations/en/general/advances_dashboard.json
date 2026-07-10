@@ -1,15 +1,15 @@
 {
-  "supplierBillingEvent": {},
-  "advancesDashboard": {
+  "supplier_billing_event": {},
+  "advances_dashboard": {
     "title": "Advances Dashboard",
-    "asOfLabel": "As of",
-    "totalOutflow": "Total prepaid (asset)",
-    "totalInflow": "Total deferred (liability)",
-    "utilizationLabel": "Utilization",
-    "activeCount": "Active",
-    "fullyRecognizedCount": "Fully recognized",
+    "as_of_label": "As of",
+    "total_outflow": "Total prepaid (asset)",
+    "total_inflow": "Total deferred (liability)",
+    "utilization_label": "Utilization",
+    "active_count": "Active",
+    "fully_recognized_count": "Fully recognized",
     "outflow": {
-      "cardTitle": "Outflows (Advance Disbursements)",
+      "card_title": "Outflows (Advance Disbursements)",
       "table": {
         "id": "Advance",
         "counterparty": "Supplier",
@@ -18,11 +18,11 @@
         "remaining": "Remaining",
         "status": "Status"
       },
-      "emptyTitle": "No outflow advances",
-      "emptyMessage": "Advance disbursements appear here as they are recorded."
+      "empty_title": "No outflow advances",
+      "empty_message": "Advance disbursements appear here as they are recorded."
     },
     "inflow": {
-      "cardTitle": "Inflows (Advance Collections)",
+      "card_title": "Inflows (Advance Collections)",
       "table": {
         "id": "Advance",
         "counterparty": "Customer",
@@ -31,8 +31,8 @@
         "remaining": "Remaining",
         "status": "Status"
       },
-      "emptyTitle": "No inflow advances",
-      "emptyMessage": "Advance collections appear here as they are recorded."
+      "empty_title": "No inflow advances",
+      "empty_message": "Advance collections appear here as they are recorded."
     }
   }
 }

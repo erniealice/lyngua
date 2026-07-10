@@ -1,15 +1,15 @@
 {
-  "subscriptionGroupMember": {
+  "subscription_group_member": {
     "page": {
       "title": "Members",
       "subtitle": "Manage subscription group members",
-      "activeTitle": "Active Members",
-      "inactiveTitle": "Inactive Members"
+      "active_title": "Active Members",
+      "inactive_title": "Inactive Members"
     },
     "buttons": {
       "activate": "Activate",
       "add": "Add Member",
-      "bulkDelete": "Delete Members",
+      "bulk_delete": "Delete Members",
       "deactivate": "Deactivate",
       "delete": "Delete Member",
       "edit": "Edit Member",
@@ -17,11 +17,11 @@
     },
     "columns": {
       "actions": "Actions",
-      "clientId": "Client",
-      "dateCreated": "Date Created",
+      "client_id": "Client",
+      "date_created": "Date Created",
       "status": "Status",
-      "subscriptionGroupId": "Group",
-      "subscriptionId": "Subscription"
+      "subscription_group_id": "Group",
+      "subscription_id": "Subscription"
     },
     "empty": {
       "message": "No members to display.",
@@ -29,53 +29,53 @@
     },
     "form": {
       "active": "Active",
-      "activeInfo": "Inactive members are hidden from active group rosters.",
+      "active_info": "Inactive members are hidden from active group rosters.",
       "client": "Client",
-      "clientInfo": "The client (account) associated with this member.",
-      "clientPlaceholder": "Enter client ID",
-      "sectionIdentity": "Member details",
+      "client_info": "The client (account) associated with this member.",
+      "client_placeholder": "Enter client ID",
+      "section_identity": "Member details",
       "subscription": "Subscription",
-      "subscriptionGroup": "Subscription group",
-      "subscriptionGroupInfo": "The subscription group this member belongs to.",
-      "subscriptionGroupPlaceholder": "Enter group ID",
-      "subscriptionInfo": "The subscription linked to this member.",
-      "subscriptionPlaceholder": "Enter subscription ID"
+      "subscription_group": "Subscription group",
+      "subscription_group_info": "The subscription group this member belongs to.",
+      "subscription_group_placeholder": "Enter group ID",
+      "subscription_info": "The subscription linked to this member.",
+      "subscription_placeholder": "Enter subscription ID"
     },
     "bulk": {
-      "activateMessage": "Activate the selected members?",
-      "activateTitle": "Activate Members",
-      "deactivateMessage": "Deactivate the selected members?",
-      "deactivateTitle": "Deactivate Members",
-      "deleteMessage": "Permanently delete the selected members? This cannot be undone.",
-      "deleteTitle": "Delete Members"
+      "activate_message": "Activate the selected members?",
+      "activate_title": "Activate Members",
+      "deactivate_message": "Deactivate the selected members?",
+      "deactivate_title": "Deactivate Members",
+      "delete_message": "Permanently delete the selected members? This cannot be undone.",
+      "delete_title": "Delete Members"
     },
     "confirm": {
-      "activateMessage": "Activate this member?",
-      "activateTitle": "Activate Member",
-      "deactivateMessage": "Deactivate this member?",
-      "deactivateTitle": "Deactivate Member",
-      "deleteMessage": "Permanently delete this member? This cannot be undone.",
-      "deleteTitle": "Delete Member"
+      "activate_message": "Activate this member?",
+      "activate_title": "Activate Member",
+      "deactivate_message": "Deactivate this member?",
+      "deactivate_title": "Deactivate Member",
+      "delete_message": "Permanently delete this member? This cannot be undone.",
+      "delete_title": "Delete Member"
     },
     "tabs": {
       "info": "Info"
     },
     "detail": {
-      "dateCreated": "Date Created",
-      "dateModified": "Date Modified",
-      "noClient": "No client",
-      "noGroup": "No group",
-      "noSub": "No subscription",
+      "date_created": "Date Created",
+      "date_modified": "Date Modified",
+      "no_client": "No client",
+      "no_group": "No group",
+      "no_sub": "No subscription",
       "title": "Member"
     },
     "errors": {
-      "createFailed": "Failed to create member",
-      "deleteFailed": "Failed to delete member",
-      "inUse": "This member is in use and cannot be deleted.",
-      "loadFailed": "Failed to load member",
-      "notFound": "Member not found",
+      "create_failed": "Failed to create member",
+      "delete_failed": "Failed to delete member",
+      "in_use": "This member is in use and cannot be deleted.",
+      "load_failed": "Failed to load member",
+      "not_found": "Member not found",
       "unauthorized": "You are not authorized to perform this action",
-      "updateFailed": "Failed to update member"
+      "update_failed": "Failed to update member"
     }
   }
 }

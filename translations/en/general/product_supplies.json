@@ -2,14 +2,14 @@
   "product_supplies": {
     "page": {
       "heading": "Supplies",
-      "headingActive": "Active Supplies",
-      "headingInactive": "Inactive Supplies",
+      "heading_active": "Active Supplies",
+      "heading_inactive": "Inactive Supplies",
       "caption": "Manage consumables used to deliver your services",
-      "captionActive": "View and manage active supplies",
-      "captionInactive": "View discontinued supplies"
+      "caption_active": "View and manage active supplies",
+      "caption_inactive": "View discontinued supplies"
     },
     "buttons": {
-      "addProduct": "Add Supply"
+      "add_product": "Add Supply"
     },
     "columns": {
       "name": "Supply Name",
@@ -19,25 +19,25 @@
       "status": "Status"
     },
     "empty": {
-      "activeTitle": "No active supplies",
-      "activeMessage": "Add your first supply to get started.",
-      "inactiveTitle": "No inactive supplies",
-      "inactiveMessage": "Retired supplies will appear here."
+      "active_title": "No active supplies",
+      "active_message": "Add your first supply to get started.",
+      "inactive_title": "No inactive supplies",
+      "inactive_message": "Retired supplies will appear here."
     },
     "form": {
       "name": "Supply Name",
       "description": "Description",
-      "descriptionPlaceholder": "What is this supply used for...",
+      "description_placeholder": "What is this supply used for...",
       "price": "Unit Cost",
       "currency": "Currency",
       "active": "Active",
       "line": "Supply Group",
-      "linePlaceholder": "Select a group",
-      "pricePlaceholder": "Purchase cost per unit",
-      "variantModeLabel": "Allow Supply Variants",
-      "variantModeInfo": "Turn on only when the same supply is stocked in meaningfully different pack sizes or grades that you want to price and count separately. Most supplies stay simple — a single SKU you reorder by unit.",
-      "variantModeNone": "Single supply",
-      "variantModeConfigurable": "Multiple pack sizes"
+      "line_placeholder": "Select a group",
+      "price_placeholder": "Purchase cost per unit",
+      "variant_mode_label": "Allow Supply Variants",
+      "variant_mode_info": "Turn on only when the same supply is stocked in meaningfully different pack sizes or grades that you want to price and count separately. Most supplies stay simple — a single SKU you reorder by unit.",
+      "variant_mode_none": "Single supply",
+      "variant_mode_configurable": "Multiple pack sizes"
     },
     "actions": {
       "view": "View Supply",
@@ -49,11 +49,11 @@
       "product": "Supply"
     },
     "errors": {
-      "notFound": "Supply not found",
-      "idRequired": "Supply ID is required",
-      "noIDsProvided": "No supply IDs were provided",
-      "cannotDelete": "This supply cannot be deleted because it is in use",
-      "nameRequired": "Supply name is required"
+      "not_found": "Supply not found",
+      "id_required": "Supply ID is required",
+      "no_ids_provided": "No supply IDs were provided",
+      "cannot_delete": "This supply cannot be deleted because it is in use",
+      "name_required": "Supply name is required"
     }
   }
 }

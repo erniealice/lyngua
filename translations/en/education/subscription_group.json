@@ -1,0 +1,13 @@
+{
+  "subscription_group": {
+    "tabs": {
+      "subscriptions": "Enrollments",
+      "subscriptions_slug": "enrollments"
+    },
+    "columns": {
+      "price_schedule": "Academic Year",
+      "client": "Student",
+      "subscription": "Enrollment"
+    }
+  }
+}

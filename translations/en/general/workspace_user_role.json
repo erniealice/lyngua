@@ -31,13 +31,13 @@
       "authorization_failed": "Authorization failed for workspace user roles"
     },
     "form": {
-      "workspaceUser": "Workspace User",
+      "workspace_user": "Workspace User",
       "role": "Role",
-      "rolePlaceholder": "Select role...",
-      "roleSearchPlaceholder": "Search roles...",
-      "roleNoResults": "No roles found",
+      "role_placeholder": "Select role...",
+      "role_search_placeholder": "Search roles...",
+      "role_no_results": "No roles found",
       "permissions": "Permissions",
-      "permissionsHint": "Select a role to see its permissions."
+      "permissions_hint": "Select a role to see its permissions."
     },
     "buttons": {
       "submit": "Assign",

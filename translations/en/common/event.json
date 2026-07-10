@@ -2,77 +2,140 @@
     "event": {
         "page": {
             "heading": "Events",
-            "headingUpcoming": "Upcoming Events",
-            "headingConfirmed": "Confirmed Events",
-            "headingCompleted": "Completed Events",
-            "headingCancelled": "Cancelled Events",
+            "heading_upcoming": "Upcoming Events",
+            "heading_confirmed": "Confirmed Events",
+            "heading_completed": "Completed Events",
+            "heading_cancelled": "Cancelled Events",
             "caption": "Manage your schedule and events"
         },
-        "buttons": { "addEvent": "Add Event" },
-        "columns": {
-            "name": "Name", "startDate": "Start Date", "endDate": "End Date",
-            "organizer": "Organizer", "location": "Location", "status": "Status", "recurs": "Recurs"
+        "buttons": {
+            "add_event": "Add Event"
         },
-        "empty": { "heading": "No events yet", "subheading": "Create your first event to get started" },
+        "columns": {
+            "name": "Name",
+            "start_date": "Start Date",
+            "end_date": "End Date",
+            "organizer": "Organizer",
+            "location": "Location",
+            "status": "Status",
+            "recurs": "Recurs"
+        },
+        "empty": {
+            "heading": "No events yet",
+            "subheading": "Create your first event to get started"
+        },
         "form": {
             "name": "Event Name",
-            "namePlaceholder": "e.g. Team Sync",
+            "name_placeholder": "e.g. Team Sync",
             "description": "Description",
-            "startDate": "Start Date",
-            "startTime": "Start Time",
-            "endDate": "End Date",
-            "endTime": "End Time",
+            "start_date": "Start Date",
+            "start_time": "Start Time",
+            "end_date": "End Date",
+            "end_time": "End Time",
             "timezone": "Timezone",
-            "allDay": "All Day",
+            "all_day": "All Day",
             "organizer": "Organizer",
             "location": "Location",
             "status": "Status",
             "recurrence": "Recurrence",
             "notes": "Notes",
-            "notesPlaceholder": "Add details, agenda, or links",
+            "notes_placeholder": "Add details, agenda, or links",
             "invitees": "Invitees",
-            "inviteesPlaceholder": "Search staff or clients",
+            "invitees_placeholder": "Search staff or clients",
             "tags": "Tags",
-            "tagsPlaceholder": "Pick one or more tags",
+            "tags_placeholder": "Pick one or more tags",
             "attachments": "Attachments",
-            "attachmentsHint": "Drop files or click to upload"
+            "attachments_hint": "Drop files or click to upload"
         },
-        "actions": { "edit": "Edit", "delete": "Delete", "cancel": "Cancel Event", "confirm": "Confirm Event", "duplicate": "Duplicate" },
+        "actions": {
+            "edit": "Edit",
+            "delete": "Delete",
+            "cancel": "Cancel Event",
+            "confirm": "Confirm Event",
+            "duplicate": "Duplicate"
+        },
         "detail": {
-            "heading": "Event Details", "overview": "Overview", "organizer": "Organizer",
-            "location": "Location", "duration": "Duration", "timeRange": "Time Range",
-            "status": "Status", "allDay": "All Day", "recurrence": "Recurrence", "description": "Description"
+            "heading": "Event Details",
+            "overview": "Overview",
+            "organizer": "Organizer",
+            "location": "Location",
+            "duration": "Duration",
+            "time_range": "Time Range",
+            "status": "Status",
+            "all_day": "All Day",
+            "recurrence": "Recurrence",
+            "description": "Description"
         },
-        "tabs": { "overview": "Overview", "attendees": "Attendees", "resources": "Resources", "products": "Products", "occurrences": "Occurrences" },
+        "tabs": {
+            "overview": "Overview",
+            "attendees": "Attendees",
+            "resources": "Resources",
+            "products": "Products",
+            "occurrences": "Occurrences"
+        },
         "confirm": {
-            "deleteTitle": "Delete Event", "deleteMessage": "Are you sure you want to delete this event?",
-            "cancelTitle": "Cancel Event", "cancelMessage": "Are you sure you want to cancel this event?"
+            "delete_title": "Delete Event",
+            "delete_message": "Are you sure you want to delete this event?",
+            "cancel_title": "Cancel Event",
+            "cancel_message": "Are you sure you want to cancel this event?"
         },
         "errors": {
-            "nameRequired": "Event name is required", "startDateRequired": "Start date is required",
-            "endDateRequired": "End date is required", "invalidDateRange": "End date must be after start date"
+            "name_required": "Event name is required",
+            "start_date_required": "Start date is required",
+            "end_date_required": "End date is required",
+            "invalid_date_range": "End date must be after start date"
         },
-        "status": { "tentative": "Tentative", "confirmed": "Confirmed", "cancelled": "Cancelled" },
+        "status": {
+            "tentative": "Tentative",
+            "confirmed": "Confirmed",
+            "cancelled": "Cancelled"
+        },
         "calendar": {
-            "viewDay": "View day",
-            "newEventAt": "New event at {{.Time}}",
-            "newEvent": "New event",
-            "moreEvents": "+{{.Count}} more events"
+            "view_day": "View day",
+            "new_event_at": "New event at {{.Time}}",
+            "new_event": "New event",
+            "more_events": "+{{.Count}} more events"
         }
     },
     "recurrence": {
-        "page": { "heading": "Recurrence Patterns", "caption": "Manage recurring event patterns" },
-        "buttons": { "addPattern": "Add Pattern" },
-        "columns": { "name": "Name", "description": "Description", "frequency": "Frequency", "interval": "Interval", "rule": "RRULE" },
-        "empty": { "heading": "No patterns", "subheading": "Create a recurrence pattern for repeating events" },
-        "form": {
-            "name": "Pattern Name", "description": "Description", "frequency": "Frequency",
-            "interval": "Interval", "count": "Repeat Count", "until": "Until Date",
-            "byDay": "Days of Week", "byMonthDay": "Days of Month", "ruleString": "RRULE String"
+        "page": {
+            "heading": "Recurrence Patterns",
+            "caption": "Manage recurring event patterns"
         },
-        "confirm": { "deleteTitle": "Delete Pattern", "deleteMessage": "Are you sure? Events using this pattern will not be affected." }
+        "buttons": {
+            "add_pattern": "Add Pattern"
+        },
+        "columns": {
+            "name": "Name",
+            "description": "Description",
+            "frequency": "Frequency",
+            "interval": "Interval",
+            "rule": "RRULE"
+        },
+        "empty": {
+            "heading": "No patterns",
+            "subheading": "Create a recurrence pattern for repeating events"
+        },
+        "form": {
+            "name": "Pattern Name",
+            "description": "Description",
+            "frequency": "Frequency",
+            "interval": "Interval",
+            "count": "Repeat Count",
+            "until": "Until Date",
+            "by_day": "Days of Week",
+            "by_month_day": "Days of Month",
+            "rule_string": "RRULE String"
+        },
+        "confirm": {
+            "delete_title": "Delete Pattern",
+            "delete_message": "Are you sure? Events using this pattern will not be affected."
+        }
     },
     "calendar": {
-        "page": { "heading": "Calendar", "caption": "View your schedule" }
+        "page": {
+            "heading": "Calendar",
+            "caption": "View your schedule"
+        }
     }
 }

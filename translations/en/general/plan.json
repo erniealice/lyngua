@@ -2,46 +2,46 @@
   "plan": {
     "page": {
       "heading": "Plans",
-      "headingActive": "Active Plans",
-      "headingInactive": "Inactive Plans",
+      "heading_active": "Active Plans",
+      "heading_inactive": "Inactive Plans",
       "caption": "Manage your plans",
-      "captionActive": "Manage your active plans",
-      "captionInactive": "View inactive or archived plans"
+      "caption_active": "Manage your active plans",
+      "caption_inactive": "View inactive or archived plans"
     },
     "buttons": {
-      "addPlan": "Add Plan"
+      "add_plan": "Add Plan"
     },
     "columns": {
       "name": "Name",
       "description": "Description",
       "price": "Price",
       "status": "Status",
-      "priceSchedule": "Price Schedule"
+      "price_schedule": "Price Schedule"
     },
     "empty": {
       "title": "No plans found",
       "message": "No plans to display.",
-      "activeTitle": "No active plans",
-      "activeMessage": "Create your first plan to get started.",
-      "inactiveTitle": "No inactive plans",
-      "inactiveMessage": "Discontinued plans will appear here."
+      "active_title": "No active plans",
+      "active_message": "Create your first plan to get started.",
+      "inactive_title": "No inactive plans",
+      "inactive_message": "Discontinued plans will appear here."
     },
     "form": {
       "name": "Plan Name",
-      "namePlaceholder": "Enter plan name",
+      "name_placeholder": "Enter plan name",
       "description": "Description",
-      "descriptionPlaceholder": "Enter plan description...",
+      "description_placeholder": "Enter plan description...",
       "active": "Active",
       "products": "Products",
-      "productsPlaceholder": "Select products...",
-      "productsSearch": "Search products...",
-      "jobTemplate": "Job Template",
-      "jobTemplateNone": "(none — engagement has no operational tracking)",
-      "jobTemplateHint": "Select the operational template that defines the work for this engagement. Leave empty for advisory-only plans.",
-      "visitsPerCycleLabel": "Visits per billing cycle",
-      "visitsPerCyclePlaceholder": "1",
-      "visitsPerCycleHint": "Number of cycle Job instances per billing cycle. Default 1. Use 2 for biweekly visits billed monthly, 4 for weekly visits billed monthly.",
-      "clientScopeCascadeNotice": "If a client is selected, this plan can only be assigned to a client-scoped price schedule.",
+      "products_placeholder": "Select products...",
+      "products_search": "Search products...",
+      "job_template": "Job Template",
+      "job_template_none": "(none — engagement has no operational tracking)",
+      "job_template_hint": "Select the operational template that defines the work for this engagement. Leave empty for advisory-only plans.",
+      "visits_per_cycle_label": "Visits per billing cycle",
+      "visits_per_cycle_placeholder": "1",
+      "visits_per_cycle_hint": "Number of cycle Job instances per billing cycle. Default 1. Use 2 for biweekly visits billed monthly, 4 for weekly visits billed monthly.",
+      "client_scope_cascade_notice": "If a client is selected, this plan can only be assigned to a client-scoped price schedule.",
       "sections": {
         "basic": "Basic Information",
         "services": "Assigned Products"
@@ -53,68 +53,67 @@
       "delete": "Delete Plan"
     },
     "detail": {
-      "pageTitle": "Plan Details",
+      "page_title": "Plan Details",
       "price": "Price",
       "currency": "Currency",
       "status": "Status",
       "description": "Description",
-      "createdDate": "Created",
-      "modifiedDate": "Last Modified",
+      "created_date": "Created",
+      "modified_date": "Last Modified",
       "heading": "Plan Info",
       "name": "Name",
       "amount": "Amount",
-      "currency": "Currency",
       "duration": "Duration",
-      "scheduleLabel": "Schedule",
-      "dateCreated": "Date Created",
-      "dateModified": "Date Modified",
+      "schedule_label": "Schedule",
+      "date_created": "Date Created",
+      "date_modified": "Date Modified",
       "edit": "Edit",
-      "editTitle": "Edit Plan"
+      "edit_title": "Edit Plan"
     },
     "tabs": {
       "info": "Information",
       "products": "Items",
-      "pricePlan": "Rate Cards",
-      "bundlePricing": "Pricing",
-      "auditTrail": "Audit Trail",
-      "auditHistory": "History"
+      "price_plan": "Rate Cards",
+      "bundle_pricing": "Pricing",
+      "audit_trail": "Audit Trail",
+      "audit_history": "History"
     },
     "confirm": {
       "delete": "Delete Plan",
-      "deleteMessage": "Are you sure you want to delete \"%s\"? This action cannot be undone.",
+      "delete_message": "Are you sure you want to delete \"%s\"? This action cannot be undone.",
       "deactivate": "Deactivate Plan",
-      "deactivateMessage": "Are you sure you want to deactivate \"%s\"?"
+      "deactivate_message": "Are you sure you want to deactivate \"%s\"?"
     },
     "fields": {
-      "clientLabel": "Client",
-      "clientHelp": "Leave blank to make this package available for any client. Set a client to make it a custom package for that client only.",
-      "clientLockedTooltip": "Locked — this plan has active subscriptions. Detach them or create a new plan."
+      "client_label": "Client",
+      "client_help": "Leave blank to make this package available for any client. Set a client to make it a custom package for that client only.",
+      "client_locked_tooltip": "Locked — this plan has active subscriptions. Detach them or create a new plan."
     },
     "filters": {
-      "scopeChipLabel": "Show:",
-      "scopeMaster": "Master",
-      "scopeClient": "Client-specific",
-      "scopeAll": "All"
+      "scope_chip_label": "Show:",
+      "scope_master": "Master",
+      "scope_client": "Client-specific",
+      "scope_all": "All"
     },
     "errors": {
-      "permissionDenied": "You do not have permission to perform this action",
-      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
-      "notFound": "Plan not found",
-      "idRequired": "Plan ID is required",
-      "noPermission": "No permission",
-      "clientScopeLocked": "Cannot change this plan's client while it has active subscriptions."
+      "permission_denied": "You do not have permission to perform this action",
+      "invalid_form_data": "Invalid form data. Please check your inputs and try again.",
+      "not_found": "Plan not found",
+      "id_required": "Plan ID is required",
+      "no_permission": "No permission",
+      "client_scope_locked": "Cannot change this plan's client while it has active subscriptions."
     },
-    "productPlanForm": {
-      "productKindLabel": "Item Type",
-      "productKind": {
+    "product_plan_form": {
+      "product_kind_label": "Item Type",
+      "product_kind": {
         "service": "Service",
-        "stockedGood": "Stocked Good",
-        "nonStockedGood": "Non-Stocked Good",
+        "stocked_good": "Stocked Good",
+        "non_stocked_good": "Non-Stocked Good",
         "consumable": "Consumable"
       },
-      "variantSelectLabel": "Variant",
-      "variantSelectPlaceholder": "Select a variant",
-      "variantSelectInfo": "Required when the parent product has variants enabled."
+      "variant_select_label": "Variant",
+      "variant_select_placeholder": "Select a variant",
+      "variant_select_info": "Required when the parent product has variants enabled."
     }
   }
 }

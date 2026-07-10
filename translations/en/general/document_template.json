@@ -1,25 +1,25 @@
 {
   "document_template": {
     "settings": {
-      "pageTitle": "Document Templates",
+      "page_title": "Document Templates",
       "caption": "Manage your document templates for generating professional documents.",
-      "uploadTemplate": "Upload Template",
-      "templateName": "Template Name",
-      "templateType": "Type",
+      "upload_template": "Upload Template",
+      "template_name": "Template Name",
+      "template_type": "Type",
       "purpose": "Purpose",
-      "setDefault": "Set Default",
+      "set_default": "Set Default",
       "delete": "Delete",
-      "defaultBadge": "Default",
-      "emptyTitle": "No templates",
-      "emptyMessage": "Upload document templates to generate professional documents.",
-      "uploadSuccess": "Template uploaded successfully",
-      "deleteConfirm": "Are you sure you want to delete this template?"
+      "default_badge": "Default",
+      "empty_title": "No templates",
+      "empty_message": "Upload document templates to generate professional documents.",
+      "upload_success": "Template uploaded successfully",
+      "delete_confirm": "Are you sure you want to delete this template?"
     },
     "sidebar": {
-      "templatesLabel": "Templates",
-      "invoiceTemplatesLabel": "Invoice Templates",
-      "purchaseOrderTemplatesLabel": "Purchase Order Templates",
-      "receivingReportTemplatesLabel": "Receiving Report Templates"
+      "templates_label": "Templates",
+      "invoice_templates_label": "Invoice Templates",
+      "purchase_order_templates_label": "Purchase Order Templates",
+      "receiving_report_templates_label": "Receiving Report Templates"
     }
   }
 }

@@ -2,9 +2,9 @@
   "conversation": {
     "list": {
       "title": "Conversations",
-      "newButton": "New",
+      "new_button": "New",
       "empty": "No conversations yet.",
-      "searchPlaceholder": "Search conversations..."
+      "search_placeholder": "Search conversations..."
     },
     "inbox": {
       "title": "Conversations",
@@ -12,25 +12,25 @@
       "filters": {
         "all": "All open",
         "unassigned": "Unassigned",
-        "myQueue": "My queue",
+        "my_queue": "My queue",
         "open": "Open",
-        "inProgress": "In progress",
+        "in_progress": "In progress",
         "resolved": "Resolved",
         "closed": "Closed"
       }
     },
     "thread": {
-      "viewRequest": "View request →",
-      "assignedTo": "Assigned to",
+      "view_request": "View request →",
+      "assigned_to": "Assigned to",
       "unassigned": "Unassigned",
-      "linkedRequest": "Linked request",
-      "noLinkedRequest": "No linked request",
-      "lastActivity": "Last activity",
+      "linked_request": "Linked request",
+      "no_linked_request": "No linked request",
+      "last_activity": "Last activity",
       "created": "Created"
     },
     "status": {
       "open": "Open",
-      "inProgress": "In progress",
+      "in_progress": "In progress",
       "resolved": "Resolved",
       "closed": "Closed",
       "unspecified": "Unknown"
@@ -42,16 +42,16 @@
       "resolve": "Mark resolved",
       "close": "Close",
       "reopen": "Reopen",
-      "newConversation": "New conversation",
+      "new_conversation": "New conversation",
       "archive": "Archive"
     },
     "form": {
-      "subjectLabel": "Subject",
-      "subjectPlaceholder": "What is this about?",
-      "assigneeLabel": "Assign to",
-      "assigneePlaceholder": "Select a staff member",
-      "linkLabel": "Linked request (optional)",
-      "linkPlaceholder": "e.g. REQ-0091"
+      "subject_label": "Subject",
+      "subject_placeholder": "What is this about?",
+      "assignee_label": "Assign to",
+      "assignee_placeholder": "Select a staff member",
+      "link_label": "Linked request (optional)",
+      "link_placeholder": "e.g. REQ-0091"
     },
     "confirm": {
       "close": "Close this conversation? Staff can still reopen it.",
@@ -59,9 +59,9 @@
       "assign": "Assign conversation to %s?"
     },
     "errors": {
-      "notFound": "Conversation not found.",
+      "not_found": "Conversation not found.",
       "forbidden": "You do not have access to this conversation.",
-      "invalidTransition": "This status transition is not allowed."
+      "invalid_transition": "This status transition is not allowed."
     }
   }
 }

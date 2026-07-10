@@ -1,8 +1,8 @@
 {
-  "supplierContractLine": {
+  "supplier_contract_line": {
     "labels": {
       "name": "Agreement Line",
-      "namePlural": "Agreement Lines"
+      "name_plural": "Agreement Lines"
     },
     "page": {
       "heading": "Agreement Lines",

@@ -1,29 +1,29 @@
 {
-  "supplierContract": {
+  "supplier_contract": {
     "labels": {
       "name": "Vendor Agreement",
-      "namePlural": "Vendor Agreements",
+      "name_plural": "Vendor Agreements",
       "line": "Agreement Line",
-      "linePlural": "Agreement Lines"
+      "line_plural": "Agreement Lines"
     },
     "page": {
       "heading": "Vendor Agreements",
       "caption": "Standing agreements and commitments with vendors and contractors",
-      "headingDraft": "Draft Agreements",
-      "headingRequested": "Submitted Agreements",
-      "headingPendingApproval": "Agreements Pending Approval",
-      "headingApproved": "Approved Agreements",
-      "headingActive": "Active Agreements",
-      "headingExpiring": "Expiring Agreements",
-      "headingSuspended": "Suspended Agreements",
-      "headingExpired": "Expired Agreements",
-      "headingTerminated": "Terminated Agreements",
-      "headingRejected": "Rejected Agreements",
+      "heading_draft": "Draft Agreements",
+      "heading_requested": "Submitted Agreements",
+      "heading_pending_approval": "Agreements Pending Approval",
+      "heading_approved": "Approved Agreements",
+      "heading_active": "Active Agreements",
+      "heading_expiring": "Expiring Agreements",
+      "heading_suspended": "Suspended Agreements",
+      "heading_expired": "Expired Agreements",
+      "heading_terminated": "Terminated Agreements",
+      "heading_rejected": "Rejected Agreements",
       "dashboard": "Vendor Agreements Dashboard"
     },
     "buttons": {
       "add": "New Agreement",
-      "addLine": "Add Agreement Line",
+      "add_line": "Add Agreement Line",
       "approve": "Approve",
       "reject": "Reject",
       "terminate": "Terminate",
@@ -40,19 +40,19 @@
       "message": "Create your first vendor agreement to track commitments."
     },
     "form": {
-      "sectionIdentity": "Agreement Identity",
+      "section_identity": "Agreement Identity",
       "name": "Agreement Name",
-      "namePlaceholder": "e.g. Cloud Hosting MSA 2026",
-      "nameInfo": "Descriptive name for this agreement. Used in reports and the renewal calendar.",
-      "referenceNumber": "Vendor Reference No.",
-      "referenceNumberInfo": "The agreement or reference number assigned by the vendor, if any.",
+      "name_placeholder": "e.g. Cloud Hosting MSA 2026",
+      "name_info": "Descriptive name for this agreement. Used in reports and the renewal calendar.",
+      "reference_number": "Vendor Reference No.",
+      "reference_number_info": "The agreement or reference number assigned by the vendor, if any.",
       "supplier": "Vendor",
-      "selectSupplier": "Select vendor...",
-      "supplierInfo": "The vendor or service provider this agreement is with.",
+      "select_supplier": "Select vendor...",
+      "supplier_info": "The vendor or service provider this agreement is with.",
       "kind": "Agreement Kind",
-      "selectKind": "Select agreement kind...",
-      "kindInfo": "Classification of this agreement. Drives validation rules and the recurrence engine.",
-      "notesInfo": "Internal remarks only. Not visible to the vendor."
+      "select_kind": "Select agreement kind...",
+      "kind_info": "Classification of this agreement. Drives validation rules and the recurrence engine.",
+      "notes_info": "Internal remarks only. Not visible to the vendor."
     },
     "actions": {
       "view": "View Agreement",
@@ -64,28 +64,28 @@
       "suspend": "Suspend Agreement",
       "resume": "Resume Agreement",
       "renew": "Renew Agreement",
-      "addLine": "Add Agreement Line"
+      "add_line": "Add Agreement Line"
     },
     "confirm": {
       "delete": "Delete Agreement",
-      "deleteMessage": "Are you sure you want to delete this agreement? This action cannot be undone.",
+      "delete_message": "Are you sure you want to delete this agreement? This action cannot be undone.",
       "approve": "Approve Agreement",
-      "approveMessage": "Approving this agreement will make it eligible to go active on its start date.",
+      "approve_message": "Approving this agreement will make it eligible to go active on its start date.",
       "terminate": "Terminate Agreement",
-      "terminateMessage": "Terminating this agreement will stop any future expenditure generation. This action cannot be undone.",
+      "terminate_message": "Terminating this agreement will stop any future expenditure generation. This action cannot be undone.",
       "suspend": "Suspend Agreement",
-      "suspendMessage": "Suspending this agreement will pause expenditure generation. You can reactivate it later."
+      "suspend_message": "Suspending this agreement will pause expenditure generation. You can reactivate it later."
     },
     "info": {
-      "expiringWarning": "This agreement expires within the renewal notice window.",
-      "autoRenewEnabled": "This agreement will automatically renew on expiry.",
-      "suspendedNotice": "This agreement is suspended. No new expenditures will be generated."
+      "expiring_warning": "This agreement expires within the renewal notice window.",
+      "auto_renew_enabled": "This agreement will automatically renew on expiry.",
+      "suspended_notice": "This agreement is suspended. No new expenditures will be generated."
     },
     "tabs": {
       "info": "Information",
       "lines": "Agreement Lines",
-      "linkedPos": "Linked Purchase Orders",
-      "linkedExpenditures": "Linked Expenditures",
+      "linked_pos": "Linked Purchase Orders",
+      "linked_expenditures": "Linked Expenditures",
       "balances": "Balances",
       "activity": "Activity"
     },
@@ -93,22 +93,21 @@
       "title": "Agreement Lines",
       "empty": "No agreement lines yet. Add a line to specify the services covered."
     },
-    "statusMessages": {
-      "createSuccess": "Agreement created successfully",
-      "updateSuccess": "Agreement updated successfully",
-      "deleteSuccess": "Agreement deleted successfully",
-      "submitSuccess": "Agreement submitted for approval",
-      "approveSuccess": "Agreement approved successfully",
-      "rejectSuccess": "Agreement rejected successfully",
-      "suspendSuccess": "Agreement suspended",
-      "resumeSuccess": "Agreement resumed",
-      "terminateSuccess": "Agreement terminated",
-      "renewSuccess": "Agreement renewed"
+    "status_messages": {
+      "create_success": "Agreement created successfully",
+      "update_success": "Agreement updated successfully",
+      "delete_success": "Agreement deleted successfully",
+      "submit_success": "Agreement submitted for approval",
+      "approve_success": "Agreement approved successfully",
+      "reject_success": "Agreement rejected successfully",
+      "suspend_success": "Agreement suspended",
+      "resume_success": "Agreement resumed",
+      "terminate_success": "Agreement terminated",
+      "renew_success": "Agreement renewed"
     },
     "errors": {
-      "notFound": "Vendor agreement not found.",
-      "not_found": "Vendor agreement with ID \"{entityId}\" not found",
-      "cannotDelete": "Cannot delete — this agreement has linked expenditures or purchase orders.",
+      "not_found": "Vendor agreement not found.",
+      "cannot_delete": "Cannot delete — this agreement has linked expenditures or purchase orders.",
       "creation_failed": "Agreement creation failed",
       "update_failed": "Agreement update failed",
       "deletion_failed": "Agreement deletion failed",

@@ -1,5 +1,5 @@
 {
-  "evaluationResponse": {
+  "evaluation_response": {
     "columns": {
       "criterion": "Criterion",
       "weight": "Weight",
@@ -14,21 +14,21 @@
       "criterion": "Criterion",
       "score": "Score",
       "comment": "Comment",
-      "commentPlaceholder": "Optional comment...",
-      "passFail": {
+      "comment_placeholder": "Optional comment...",
+      "pass_fail": {
         "pass": "Pass",
         "fail": "Fail"
       }
     },
     "detail": {
-      "weightedTotal": "Weighted Total",
-      "scoreSummary": "Score Summary",
-      "notScored": "(not scored)"
+      "weighted_total": "Weighted Total",
+      "score_summary": "Score Summary",
+      "not_scored": "(not scored)"
     },
     "errors": {
-      "notFound": "Evaluation response not found",
-      "permissionDenied": "You do not have permission to perform this action",
-      "invalidFormData": "Invalid form data. Please check your inputs and try again."
+      "not_found": "Evaluation response not found",
+      "permission_denied": "You do not have permission to perform this action",
+      "invalid_form_data": "Invalid form data. Please check your inputs and try again."
     }
   }
 }

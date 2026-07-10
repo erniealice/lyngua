@@ -2,19 +2,25 @@
     "subscription": {
         "page": {
             "heading": "Agreements",
-            "headingActive": "Active Agreements",
-            "headingInactive": "Inactive Agreements",
+            "heading_active": "Active Agreements",
+            "heading_inactive": "Inactive Agreements",
             "caption": "Blanket orders, standing orders, and supply contracts",
-            "captionActive": "Active blanket orders and supply agreements",
-            "captionInactive": "Expired or cancelled agreements"
+            "caption_active": "Active blanket orders and supply agreements",
+            "caption_inactive": "Expired or cancelled agreements"
         },
-        "buttons": { "addSubscription": "Add Agreement" },
-        "columns": { "customer": "Customer", "plan": "Agreement Type", "startDate": "Effective Date" },
+        "buttons": {
+            "add_subscription": "Add Agreement"
+        },
+        "columns": {
+            "customer": "Customer",
+            "plan": "Agreement Type",
+            "start_date": "Effective Date"
+        },
         "form": {
             "customer": "Customer",
             "plan": "Agreement Type",
-            "startDate": "Effective Date",
-            "endDate": "Expiry Date",
+            "start_date": "Effective Date",
+            "end_date": "Expiry Date",
             "start_time": "Start time",
             "end_time": "End time",
             "start_time_info": "Time of day in the operator's display timezone.",
@@ -30,48 +36,50 @@
             "activate": "Activate",
             "deactivate": "Deactivate"
         },
-        "bulkActions": {
+        "bulk_actions": {
             "delete": "Delete Selected",
-            "bulkActivate": "Activate Selected",
-            "bulkDeactivate": "Deactivate Selected"
+            "bulk_activate": "Activate Selected",
+            "bulk_deactivate": "Deactivate Selected"
         },
         "status": {
             "activate": "Activate",
             "deactivate": "Deactivate"
         },
-        "detail": { "pageTitle": "Agreement Details" },
+        "detail": {
+            "page_title": "Agreement Details"
+        },
         "tabs": {
             "info": "Information",
             "invoices": "Invoices",
-            "auditTrail": "Audit Trail"
+            "audit_trail": "Audit Trail"
         },
         "invoices": {
             "title": "Invoices",
             "empty": "No invoices yet for this agreement.",
-            "columnCode": "Number",
-            "columnDate": "Date",
-            "columnAmount": "Amount",
-            "columnStatus": "Status"
+            "column_code": "Number",
+            "column_date": "Date",
+            "column_amount": "Amount",
+            "column_status": "Status"
         },
         "confirm": {
-            "cancelTitle": "Cancel Agreement",
-            "cancelMessage": "Are you sure you want to cancel this agreement?",
+            "cancel_title": "Cancel Agreement",
+            "cancel_message": "Are you sure you want to cancel this agreement?",
             "activate": "Activate Agreement",
-            "activateMessage": "Are you sure you want to activate %s?",
+            "activate_message": "Are you sure you want to activate %s?",
             "deactivate": "Deactivate Agreement",
-            "deactivateMessage": "Are you sure you want to deactivate %s?",
-            "bulkActivate": "Activate Selected",
-            "bulkActivateMessage": "Are you sure you want to activate the selected agreements?",
-            "bulkDeactivate": "Deactivate Selected",
-            "bulkDeactivateMessage": "Are you sure you want to deactivate the selected agreements?",
-            "bulkDelete": "Delete Selected",
-            "bulkDeleteMessage": "Are you sure you want to delete the selected agreements? This action cannot be undone."
+            "deactivate_message": "Are you sure you want to deactivate %s?",
+            "bulk_activate": "Activate Selected",
+            "bulk_activate_message": "Are you sure you want to activate the selected agreements?",
+            "bulk_deactivate": "Deactivate Selected",
+            "bulk_deactivate_message": "Are you sure you want to deactivate the selected agreements?",
+            "bulk_delete": "Delete Selected",
+            "bulk_delete_message": "Are you sure you want to delete the selected agreements? This action cannot be undone."
         },
         "errors": {
-            "noIDsProvided": "No agreement IDs provided",
-            "invalidStatus": "Invalid status value",
-            "cannotDelete": "Cannot delete — this agreement has dependent records",
-            "inUse": "Cannot delete — this agreement has dependent records (jobs, revenue, invoices, etc.)"
+            "no_ids_provided": "No agreement IDs provided",
+            "invalid_status": "Invalid status value",
+            "cannot_delete": "Cannot delete — this agreement has dependent records",
+            "in_use": "Cannot delete — this agreement has dependent records (jobs, revenue, invoices, etc.)"
         }
     }
 }

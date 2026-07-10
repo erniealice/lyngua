@@ -2,19 +2,19 @@
   "dashboard": {
     "title": "Schedule",
     "subtitle": "Today's events and upcoming activity",
-    "statToday": "Today",
-    "statThisWeek": "This Week",
-    "statByTag": "Tags",
-    "statUtilization": "Calendar Utilization",
-    "widgetByDay": "Events per Day",
-    "widgetByTag": "By Tag",
-    "widgetUpcoming": "Upcoming Events",
-    "quickNew": "New Event",
-    "quickCalendar": "Calendar",
-    "quickTags": "Manage Tags",
-    "quickRecurrence": "Recurrence",
-    "viewAll": "View All",
-    "emptyUpcoming": "No upcoming events",
-    "emptyByTag": "No tagged events"
+    "stat_today": "Today",
+    "stat_this_week": "This Week",
+    "stat_by_tag": "Tags",
+    "stat_utilization": "Calendar Utilization",
+    "widget_by_day": "Events per Day",
+    "widget_by_tag": "By Tag",
+    "widget_upcoming": "Upcoming Events",
+    "quick_new": "New Event",
+    "quick_calendar": "Calendar",
+    "quick_tags": "Manage Tags",
+    "quick_recurrence": "Recurrence",
+    "view_all": "View All",
+    "empty_upcoming": "No upcoming events",
+    "empty_by_tag": "No tagged events"
   }
 }

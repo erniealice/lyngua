@@ -1,81 +1,132 @@
 {
     "price_plan": {
         "form": {
-            "sectionBasic": "Basic info",
-            "sectionPricing": "Pricing",
-            "billingKindLabel": "Billing model",
-            "billingKindOneTime": "One-time",
-            "billingKindRecurring": "Recurring program",
-            "billingKindContract": "Fixed-term enrollment",
-            "billingKindMilestone": "Milestone",
-            "billingKindAdHoc": "Per-session enrollment",
-            "billingKindOneTimeHint": "Student charged once at enrollment signup. No further invoices on this enrollment.",
-            "billingKindRecurringHint": "Billed every cycle. Enrollment auto-renews until withdrawn.",
-            "billingKindContractHint": "Fixed-term enrollment with a defined end date. Can bill periodically within the term or as a single total at signup.",
-            "billingKindMilestoneHint": "Invoice fires per milestone (enrollment term) as deliverables complete. Requires a Curriculum on the parent Program.",
-            "billingKindAdHocHint": "Operator-requested sessions. Choose Total Program for a prepaid package or Per session for pay-per-session.",
-            "amountBasisLabel": "Amount basis",
-            "amountBasisPerCycle": "Per cycle",
-            "amountBasisTotalPackage": "Total program",
-            "amountBasisDerivedFromLines": "Sum of subjects",
-            "amountBasisPerOccurrence": "Per session",
-            "amountBasisPerCycleHint": "Amount charged each billing cycle. Required for Recurring and Term-with-cycle enrollments.",
-            "amountBasisTotalPackageHint": "Single total amount charged across the full enrollment term. One invoice covers everything; no per-cycle billing.",
-            "amountBasisDerivedFromLinesHint": "Total computed automatically from the per-subject fee-schedule rows. Amount input is hidden when this is selected.",
-            "amountBasisPerOccurrenceHint": "Amount charged per delivered session. Per-session enrollments only — each session fires its own invoice.",
-            "entitledOccurrencesLabel": "Entitled sessions",
-            "entitledOccurrencesPlaceholder": "e.g. 5",
-            "entitledOccurrencesInfo": "Number of sessions included in the prepaid package. Required when amount basis is Total Program on a Per-session enrollment.",
-            "billingCycleLabel": "Billing cycle",
-            "billingCyclePlaceholder": "e.g. every 1 month",
-            "termLabel": "Term",
-            "termPlaceholder": "e.g. 12 months",
-            "termOpenEndedHelp": "Leave empty for open-ended / no expiration",
-            "planLabel": "Program",
-            "planPlaceholder": "Select a program...",
-            "planSearch": "Filter...",
+            "section_basic": "Basic info",
+            "section_pricing": "Pricing",
+            "billing_kind_label": "Billing model",
+            "billing_kind_one_time": "One-time",
+            "billing_kind_recurring": "Recurring level",
+            "billing_kind_contract": "Fixed-term enrollment",
+            "billing_kind_milestone": "Milestone",
+            "billing_kind_ad_hoc": "Per-session enrollment",
+            "billing_kind_one_time_hint": "Student charged once at enrollment signup. No further invoices on this enrollment.",
+            "billing_kind_recurring_hint": "Billed every cycle. Enrollment auto-renews until withdrawn.",
+            "billing_kind_contract_hint": "Fixed-term enrollment with a defined end date. Can bill periodically within the term or as a single total at signup.",
+            "billing_kind_milestone_hint": "Invoice fires per milestone (enrollment term) as deliverables complete. Requires a Curriculum on the parent Level.",
+            "billing_kind_ad_hoc_hint": "Operator-requested sessions. Choose Total Level for a prepaid package or Per session for pay-per-session.",
+            "amount_basis_label": "Amount basis",
+            "amount_basis_per_cycle": "Per cycle",
+            "amount_basis_total_package": "Total level",
+            "amount_basis_derived_from_lines": "Sum of subjects",
+            "amount_basis_per_occurrence": "Per session",
+            "amount_basis_per_cycle_hint": "Amount charged each billing cycle. Required for Recurring and Term-with-cycle enrollments.",
+            "amount_basis_total_package_hint": "Single total amount charged across the full enrollment term. One invoice covers everything; no per-cycle billing.",
+            "amount_basis_derived_from_lines_hint": "Total computed automatically from the per-subject fee-schedule rows. Amount input is hidden when this is selected.",
+            "amount_basis_per_occurrence_hint": "Amount charged per delivered session. Per-session enrollments only — each session fires its own invoice.",
+            "entitled_occurrences_label": "Entitled sessions",
+            "entitled_occurrences_placeholder": "e.g. 5",
+            "entitled_occurrences_info": "Number of sessions included in the prepaid package. Required when amount basis is Total Level on a Per-session enrollment.",
+            "billing_cycle_label": "Billing cycle",
+            "billing_cycle_placeholder": "e.g. every 1 month",
+            "term_label": "Term",
+            "term_placeholder": "e.g. 12 months",
+            "term_open_ended_help": "Leave empty for open-ended / no expiration",
+            "plan_label": "Level",
+            "plan_placeholder": "Select a level...",
+            "plan_search": "Filter...",
             "schedule": "Academic Year",
-            "schedulePlaceholder": "Select an academic year...",
-            "scheduleSearch": "Filter...",
-            "locationHintPrefix": "Location: ",
-            "scheduleLockedTooltip": "This academic year is reserved for {{.ClientName}}.",
-            "scheduleAutoCreateHint": "No academic year exists for {{.ClientName}} yet — one will be created automatically when you save.",
-            "scheduleAutoReuseHint": "This program will be added to the existing academic year for {{.ClientName}}.",
-            "scheduleClientPickerNotice": "Only programs assigned to this student are available below.",
-            "scheduleGeneralPickerNotice": "Programs assigned specifically to students are not available for assignment to general-scoped academic years.",
-            "parentScheduleClientNotice": "This academic year belongs to {{.ClientName}}. Programs created here will be available only for enrollments with this student."
+            "schedule_placeholder": "Select an academic year...",
+            "schedule_search": "Filter...",
+            "location_hint_prefix": "Location: ",
+            "schedule_locked_tooltip": "This academic year is reserved for {{.ClientName}}.",
+            "schedule_auto_create_hint": "No academic year exists for {{.ClientName}} yet — one will be created automatically when you save.",
+            "schedule_auto_reuse_hint": "This level will be added to the existing academic year for {{.ClientName}}.",
+            "schedule_client_picker_notice": "Only levels assigned to this student are available below.",
+            "schedule_general_picker_notice": "Levels assigned specifically to students are not available for assignment to general-scoped academic years.",
+            "parent_schedule_client_notice": "This academic year belongs to {{.ClientName}}. Levels created here will be available only for enrollments with this student."
         },
-        "productPrice": {
-            "editTitle": "Edit Subject Fee",
-            "deleteTitle": "Delete Subject Fee",
-            "emptyTitle": "No Subject Fees",
-            "emptyMsg": "No subject fees have been configured for this academic year yet."
+        "product_price": {
+            "edit_title": "Edit Subject Fee",
+            "delete_title": "Delete Subject Fee",
+            "empty_title": "No Subject Fees",
+            "empty_msg": "No subject fees have been configured for this academic year yet."
         },
         "messages": {
-            "pricingLockedReason": "This program is in use by active enrollments. Pricing changes are disabled. You can still rename or reassign the program.",
-            "itemPricingLockedReason": "This program is in use by active enrollments. Subject fee and currency are locked to keep billing consistent.",
-            "createNotAvailable": "Subject fee plan create is not available.",
-            "updateNotAvailable": "Subject fee plan update is not available.",
-            "deleteNotAvailable": "Subject fee plan delete is not available.",
-            "productRequired": "Subject is required.",
-            "invalidPrice": "Invalid price value.",
-            "inUseCannotModify": "This program is in use by active enrollments. Subject fee and currency are locked.",
-            "idRequired": "ID is required."
+            "pricing_locked_reason": "This level is in use by active enrollments. Pricing changes are disabled. You can still rename or reassign the level.",
+            "item_pricing_locked_reason": "This level is in use by active enrollments. Subject fee and currency are locked to keep billing consistent.",
+            "create_not_available": "Subject fee plan create is not available.",
+            "update_not_available": "Subject fee plan update is not available.",
+            "delete_not_available": "Subject fee plan delete is not available.",
+            "product_required": "Subject is required.",
+            "invalid_price": "Invalid price value.",
+            "in_use_cannot_modify": "This level is in use by active enrollments. Subject fee and currency are locked.",
+            "id_required": "ID is required."
         },
         "detail": {
-            "title": "Program",
-            "heading": "Program Info",
-            "name": "Name",
-            "description": "Description",
-            "amount": "Amount",
-            "currency": "Currency",
-            "duration": "Duration",
-            "scheduleLabel": "Academic Year",
-            "status": "Status",
-            "dateCreated": "Date Created",
-            "dateModified": "Date Modified",
-            "edit": "Edit Program Price",
-            "editTitle": "Edit Program Price"
+            "summary": {
+                "recurring": {
+                    "per_cycle": {
+                        "customer": "Charged {{.Amount}} every {{.CycleLabel}}. Enrollment auto-renews until withdrawn.",
+                        "operations": "Each cycle spawns {{.VisitsPerCycle}} Course(s) (if Level has a Curriculum). Course Plans tab shows cycle accordions.",
+                        "revenue": "One invoice per cycle. Generate Invoice creates the invoice and (via piggyback) spawns the Course if missing."
+                    },
+                    "derived_from_lines": {
+                        "operations": "Each cycle spawns 1+ Courses. Course tracking flows through the Level's Curriculum.",
+                        "revenue": "Invoice total computed from academic year lines; one invoice per cycle."
+                    }
+                },
+                "contract": {
+                    "total_package": {
+                        "operations": "Enrollment spawns 1 lifetime Course (or cycle Courses if cyclic — see Level's visits_per_cycle).",
+                        "revenue": "One invoice at signup; cycle Courses are operational only."
+                    }
+                },
+                "milestone": {
+                    "total_package": {
+                        "operations": "Lifetime Course with terms. BillingEvent rows gate per-milestone invoicing.",
+                        "revenue": "Invoice per milestone trigger; sum across milestones equals the total level."
+                    }
+                },
+                "one_time": {
+                    "total_package": {
+                        "operations": "Enrollment spawns 1 lifetime Course with terms (if Level has a Curriculum).",
+                        "revenue": "One invoice at enrollment signup covering the full amount."
+                    }
+                },
+                "ad_hoc": {
+                    "total_package": {
+                        "customer": "Pays {{.Amount}} upfront for {{.EntitledOccurrences}} sessions.",
+                        "operations": "Operator requests each session from the Course Plans tab. Package exhausts after {{.EntitledOccurrences}} sessions — operator can extend.",
+                        "revenue": "One invoice at enrollment signup covering the entire package; subsequent sessions are operationally tracked only."
+                    },
+                    "per_occurrence": {
+                        "customer": "Charged {{.Amount}} per session. No upfront cost.",
+                        "operations": "Operator requests each session from the Course Plans tab. Each completed session flips its BillingEvent to READY for invoicing.",
+                        "revenue": "One invoice per delivered session. Generate Invoice per session row."
+                    }
+                }
+            },
+            "warning": {
+                "milestone_no_template": "Milestone billing requires the Level to have a Curriculum. Configure it on the Level first.",
+                "recurring_no_template": "This enrollment will not have course tracking. Add a Curriculum to the Level to enable cycle Courses.",
+                "visits_per_cycle_invalid_kind": "visits_per_cycle is only valid for cyclic levels. Reset to 1 or change the billing kind.",
+                "ad_hoc_pool_no_template": "Per-session package enrollments require a Curriculum so sessions can be tracked.",
+                "ad_hoc_per_call_no_template": "Per-session enrollments require a Curriculum so sessions can be tracked.",
+                "ad_hoc_no_entitlement": "Per-session package enrollments need entitled sessions > 0. Set the value or switch to per-session billing.",
+                "ad_hoc_billing_cycle_not_allowed": "Per-session enrollments are event-driven, not calendar-driven. Remove the billing cycle.",
+                "ad_hoc_visits_per_cycle_not_allowed": "Per-session enrollments cannot use multi-session cycles. Reset visits_per_cycle to 1."
+            },
+            "subscriptions": {
+                "column_name": "Enrollment",
+                "column_client": "Student",
+                "column_plan": "Level",
+                "column_start_date": "Start Date",
+                "column_end_date": "End Date",
+                "empty_title": "No enrollments yet",
+                "empty_message": "Enrollments billing this level will appear here.",
+                "confirm_delete_title": "Delete Enrollment",
+                "confirm_delete_message": "Are you sure you want to delete enrollment %s? This action cannot be undone."
+            }
         },
         "tabs": {
             "info": "Info",
@@ -85,88 +136,22 @@
             "audit": "Audit"
         },
         "confirms": {
-            "editAmountMultipleSubscriptions": "This academic year is attached to {{.Count}} active enrollments for {{.ClientName}}. Changing the amount or cycle will affect all of them on the next bill cycle. Continue?"
+            "edit_amount_multiple_subscriptions": "This academic year is attached to {{.Count}} active enrollments for {{.ClientName}}. Changing the amount or cycle will affect all of them on the next bill cycle. Continue?"
         },
         "errors": {
-            "inUse": "This program is in use by active enrollments and cannot be deleted.",
-            "scheduleClientMismatch": "Selected academic year belongs to a different student and cannot be attached to this program pricing.",
-            "scheduleRequiredForClientScope": "This program is scoped to a student. Pick or create an academic year for that student before adding program pricing."
+            "in_use": "This level is in use by active enrollments and cannot be deleted.",
+            "schedule_client_mismatch": "Selected academic year belongs to a different student and cannot be attached to this level pricing.",
+            "schedule_required_for_client_scope": "This level is scoped to a student. Pick or create an academic year for that student before adding level pricing."
         },
         "validation": {
-            "milestoneCyclicBlock": "Milestone billing is not supported on cyclic programs (RECURRING / CONTRACT × PER_CYCLE / multi-session).",
-            "adHocInvalidBasis": "Per-session enrollments require amount basis = Total Program (package) or Per session.",
-            "adHocBillingIncompatibleWithCycleCadence": "Per-session enrollments cannot have a billing cycle.",
-            "adHocVisitsPerCycleMustBeOne": "Per-session enrollments cannot use multi-session cycles.",
-            "adHocPoolNoTemplate": "Per-session package enrollments require the Program to have a Curriculum.",
-            "adHocPerCallNoTemplate": "Per-session enrollments require the Program to have a Curriculum.",
-            "adHocEntitlementRequired": "Per-session package enrollments require entitled sessions > 0.",
-            "adHocEntitlementInvalidForPerCall": "Entitled sessions are only valid on package enrollments, not per-session."
-        },
-        "detail": {
-            "summary": {
-                "recurring": {
-                    "perCycle": {
-                        "customer": "Charged {{.Amount}} every {{.CycleLabel}}. Enrollment auto-renews until withdrawn.",
-                        "operations": "Each cycle spawns {{.VisitsPerCycle}} Course(s) (if Program has a Curriculum). Course Plans tab shows cycle accordions.",
-                        "revenue": "One invoice per cycle. Generate Invoice creates the invoice and (via piggyback) spawns the Course if missing."
-                    },
-                    "derivedFromLines": {
-                        "operations": "Each cycle spawns 1+ Courses. Course tracking flows through the Program's Curriculum.",
-                        "revenue": "Invoice total computed from academic year lines; one invoice per cycle."
-                    }
-                },
-                "contract": {
-                    "totalPackage": {
-                        "operations": "Enrollment spawns 1 lifetime Course (or cycle Courses if cyclic — see Program's visits_per_cycle).",
-                        "revenue": "One invoice at signup; cycle Courses are operational only."
-                    }
-                },
-                "milestone": {
-                    "totalPackage": {
-                        "operations": "Lifetime Course with terms. BillingEvent rows gate per-milestone invoicing.",
-                        "revenue": "Invoice per milestone trigger; sum across milestones equals the total program."
-                    }
-                },
-                "oneTime": {
-                    "totalPackage": {
-                        "operations": "Enrollment spawns 1 lifetime Course with terms (if Program has a Curriculum).",
-                        "revenue": "One invoice at enrollment signup covering the full amount."
-                    }
-                },
-                "adHoc": {
-                    "totalPackage": {
-                        "customer": "Pays {{.Amount}} upfront for {{.EntitledOccurrences}} sessions.",
-                        "operations": "Operator requests each session from the Course Plans tab. Package exhausts after {{.EntitledOccurrences}} sessions — operator can extend.",
-                        "revenue": "One invoice at enrollment signup covering the entire package; subsequent sessions are operationally tracked only."
-                    },
-                    "perOccurrence": {
-                        "customer": "Charged {{.Amount}} per session. No upfront cost.",
-                        "operations": "Operator requests each session from the Course Plans tab. Each completed session flips its BillingEvent to READY for invoicing.",
-                        "revenue": "One invoice per delivered session. Generate Invoice per session row."
-                    }
-                }
-            },
-            "warning": {
-                "milestoneNoTemplate": "Milestone billing requires the Program to have a Curriculum. Configure it on the Program first.",
-                "recurringNoTemplate": "This enrollment will not have course tracking. Add a Curriculum to the Program to enable cycle Courses.",
-                "visitsPerCycleInvalidKind": "visits_per_cycle is only valid for cyclic programs. Reset to 1 or change the billing kind.",
-                "adHocPoolNoTemplate": "Per-session package enrollments require a Curriculum so sessions can be tracked.",
-                "adHocPerCallNoTemplate": "Per-session enrollments require a Curriculum so sessions can be tracked.",
-                "adHocNoEntitlement": "Per-session package enrollments need entitled sessions > 0. Set the value or switch to per-session billing.",
-                "adHocBillingCycleNotAllowed": "Per-session enrollments are event-driven, not calendar-driven. Remove the billing cycle.",
-                "adHocVisitsPerCycleNotAllowed": "Per-session enrollments cannot use multi-session cycles. Reset visits_per_cycle to 1."
-            },
-            "subscriptions": {
-                "columnName": "Enrollment",
-                "columnClient": "Student",
-                "columnPlan": "Program",
-                "columnStartDate": "Start Date",
-                "columnEndDate": "End Date",
-                "emptyTitle": "No enrollments yet",
-                "emptyMessage": "Enrollments billing this program will appear here.",
-                "confirmDeleteTitle": "Delete Enrollment",
-                "confirmDeleteMessage": "Are you sure you want to delete enrollment %s? This action cannot be undone."
-            }
+            "milestone_cyclic_block": "Milestone billing is not supported on cyclic levels (RECURRING / CONTRACT × PER_CYCLE / multi-session).",
+            "ad_hoc_invalid_basis": "Per-session enrollments require amount basis = Total Level (package) or Per session.",
+            "ad_hoc_billing_incompatible_with_cycle_cadence": "Per-session enrollments cannot have a billing cycle.",
+            "ad_hoc_visits_per_cycle_must_be_one": "Per-session enrollments cannot use multi-session cycles.",
+            "ad_hoc_pool_no_template": "Per-session package enrollments require the Level to have a Curriculum.",
+            "ad_hoc_per_call_no_template": "Per-session enrollments require the Level to have a Curriculum.",
+            "ad_hoc_entitlement_required": "Per-session package enrollments require entitled sessions > 0.",
+            "ad_hoc_entitlement_invalid_for_per_call": "Entitled sessions are only valid on package enrollments, not per-session."
         }
     }
 }

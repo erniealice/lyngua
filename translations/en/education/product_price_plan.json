@@ -1,39 +1,39 @@
 {
     "product_price_plan": {
         "validation": {
-            "product_plan_id_required": "A catalog line from the program must be selected."
+            "product_plan_id_required": "A catalog line from the level must be selected."
         },
         "errors": {
             "product_plan_validation_failed": "Could not validate the selected catalog line.",
             "product_plan_not_found": "Selected catalog line not found.",
-            "product_plan_plan_mismatch": "Selected catalog line does not belong to this program."
+            "product_plan_plan_mismatch": "Selected catalog line does not belong to this level."
         },
         "form": {
-            "billingTreatmentLabel": "Billing treatment",
-            "billingTreatmentRecurring": "Every cycle",
-            "billingTreatmentRecurringHelp": "Charge this line every billing cycle",
-            "billingTreatmentOneTimeInitial": "First cycle only",
-            "billingTreatmentOneTimeInitialHelp": "Charge once on the first invoice (setup fees, welcome gifts)",
-            "billingTreatmentUsageBased": "On use",
-            "billingTreatmentUsageBasedHelp": "Charge when consumed or performed",
-            "productLabel": "Item",
-            "productPlaceholder": "Select an item",
-            "priceLabel": "Price",
-            "pricePlaceholder": "0.00",
-            "currencyLabel": "Currency",
-            "currencyPlaceholder": "e.g. PHP",
-            "currencyPHP": "PHP (₱)",
-            "currencyUSD": "USD ($)",
-            "dateStartLabel": "Effective from",
-            "dateEndLabel": "Effective until",
-            "catalogLineLabel": "Catalog line",
-            "catalogLinePlaceholder": "Select a line from the program's catalog",
-            "catalogLineInfo": "Prices the chosen catalog line from the parent program. If the line has a variant, that variant is priced.",
-            "milestonePhaseLabel": "Milestone term",
-            "milestonePhaseFallthrough": "Falls through to first event",
-            "milestonePhaseBillable": "billable",
-            "parentContext": {
-                "rateCard": "Fee Schedule"
+            "billing_treatment_label": "Billing treatment",
+            "billing_treatment_recurring": "Every cycle",
+            "billing_treatment_recurring_help": "Charge this line every billing cycle",
+            "billing_treatment_one_time_initial": "First cycle only",
+            "billing_treatment_one_time_initial_help": "Charge once on the first invoice (setup fees, welcome gifts)",
+            "billing_treatment_usage_based": "On use",
+            "billing_treatment_usage_based_help": "Charge when consumed or performed",
+            "product_label": "Item",
+            "product_placeholder": "Select an item",
+            "price_label": "Price",
+            "price_placeholder": "0.00",
+            "currency_label": "Currency",
+            "currency_placeholder": "e.g. PHP",
+            "currency_php": "PHP (₱)",
+            "currency_usd": "USD ($)",
+            "date_start_label": "Effective from",
+            "date_end_label": "Effective until",
+            "catalog_line_label": "Catalog line",
+            "catalog_line_placeholder": "Select a line from the level's catalog",
+            "catalog_line_info": "Prices the chosen catalog line from the parent level. If the line has a variant, that variant is priced.",
+            "milestone_phase_label": "Milestone term",
+            "milestone_phase_fallthrough": "Falls through to first event",
+            "milestone_phase_billable": "billable",
+            "parent_context": {
+                "rate_card": "Fee Schedule"
             }
         }
     }

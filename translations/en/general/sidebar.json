@@ -5,7 +5,6 @@
     "accounting_reports_group_title": "Accounting & Reports",
     "funding_group_title": "Capital",
     "admin_group_title": "Administration",
-
     "subscriptions_app_label": "Subscriptions",
     "subscriptions_app_icon": "icon-refresh-cw",
     "clients_app_label": "Clients",
@@ -28,27 +27,24 @@
     "payroll_app_label": "Payroll",
     "loans_app_label": "Loans",
     "equity_app_label": "Equity",
-
     "jobs_title": "Jobs",
     "jobs_label": "Jobs",
     "job_templates_label": "Templates",
     "activity_log_label": "Activity Log",
     "subscriptions_title": "Subscriptions",
+    "subscription_groups_title": "Groups",
     "outcomes_title": "Outcomes",
     "criteria_label": "Criteria",
     "outcome_log_label": "Outcome Log",
     "job_outcome_summary_label": "Outcome Reports",
-
     "revenue_title": "Sales",
     "revenue_draft_label": "Draft",
     "revenue_complete_label": "Completed",
     "revenue_summary_label": "Sales Summary",
     "price_lists_title": "Price Lists",
     "plans_title": "Plans",
-
     "collections_title": "Collections",
     "disbursements_title": "Disbursements",
-
     "cash_advances_title": "Advances",
     "cash_advances_dashboard_label": "Advances Dashboard",
     "cash_advances_dashboard_icon": "icon-trending-up",
@@ -56,15 +52,12 @@
     "cash_advance_collections_icon": "icon-trending-up",
     "cash_advance_disbursements_label": "Advance Disbursements",
     "cash_advance_disbursements_icon": "icon-trending-down",
-
     "payroll_runs_title": "Payroll Runs",
     "employees_label": "Employees",
-
     "loans_title": "Loans",
     "capital_title": "Capital",
     "capital_accounts_label": "Capital Accounts",
     "equity_transactions_label": "Equity Transactions",
-
     "payment_terms_label": "Payment Terms",
     "payment_terms_icon": "icon-clock",
     "revenue_report_label": "Revenue Analysis",
@@ -73,23 +66,19 @@
     "receivables_aging_report_icon": "icon-clock",
     "collection_summary_report_label": "Collection Summary",
     "collection_summary_report_icon": "icon-bar-chart",
-
     "procurement_app_label": "Procurement",
     "procurement_app_icon": "icon-package",
-
     "supplier_contracts_title": "Supplier Contracts",
     "supplier_contracts_active_icon": "icon-check-circle",
     "supplier_contracts_expiring_icon": "icon-alert-triangle",
     "supplier_contracts_pending_icon": "icon-clock",
     "supplier_contracts_draft_icon": "icon-folder",
     "supplier_contracts_terminated_icon": "icon-x-circle",
-
     "procurement_requests_title": "Procurement Requests",
     "procurement_requests_draft_icon": "icon-folder",
     "procurement_requests_pending_icon": "icon-clock",
     "procurement_requests_approved_icon": "icon-check-circle",
     "procurement_requests_rejected_icon": "icon-x-circle",
-
     "contract_operations_title": "Contract Operations",
     "renewal_calendar_label": "Renewal Calendar",
     "renewal_calendar_icon": "icon-calendar",
@@ -97,57 +86,47 @@
     "variance_alerts_icon": "icon-alert-triangle",
     "utilization_label": "Utilization",
     "utilization_icon": "icon-bar-chart",
-
     "recurrence_queue_title": "Recurrence Queue",
     "pending_review_label": "Pending Review",
     "drafts_pending_icon": "icon-inbox",
-
     "expiring_label": "Expiring",
     "terminated_label": "Terminated",
     "pending_approval_label": "Pending Approval",
     "rejected_label": "Rejected",
-
     "price_schedule_list_label": "Price Schedules",
     "price_schedule_list_icon": "icon-calendar",
     "price_schedule_detail_label": "Schedule Detail",
     "price_schedule_detail_icon": "icon-calendar",
-
     "expense_recognition_list_label": "Expense Recognition",
     "expense_recognition_list_icon": "icon-check-square",
     "expense_recognition_detail_label": "Recognition Detail",
     "expense_recognition_detail_icon": "icon-check-square",
-
     "accrued_expense_list_label": "Accrued Expenses",
     "accrued_expense_list_icon": "icon-clock",
     "accrued_expense_detail_label": "Accrual Detail",
     "accrued_expense_detail_icon": "icon-clock",
-
     "schedule_conflicts_label": "Schedule Conflicts",
     "schedule_conflicts_icon": "icon-alert-triangle",
     "open_accruals_label": "Open Accruals",
     "open_accruals_icon": "icon-inbox",
     "recognized_vs_settled_label": "Recognized vs Settled",
     "recognized_vs_settled_icon": "icon-bar-chart",
-
     "revenue_run_title": "Invoice Run",
     "revenue_run_queue_label": "Queue",
     "revenue_run_queue_icon": "icon-list",
     "revenue_run_history_label": "History",
     "revenue_run_history_icon": "icon-clock",
-
     "expense_recognition_run_title": "Expense Run",
     "expense_recognition_run_queue_label": "Queue",
     "expense_recognition_run_queue_icon": "icon-list",
     "expense_recognition_run_history_label": "History",
     "expense_recognition_run_history_icon": "icon-clock",
-
     "lapsing_schedule_label": "Lapsing Schedule",
     "lapsing_schedule_icon": "icon-calendar",
     "depreciation_policies_label": "Depreciation Policies",
     "depreciation_policies_icon": "icon-settings",
     "depreciation_runs_label": "Depreciation Runs",
     "depreciation_runs_icon": "icon-trending-down",
-
     "supplier_subscriptions_title": "Supplier Subscriptions",
     "supplier_subscriptions_add": "Add Supplier Subscription",
     "supplier_plans_title": "Supplier Plans",
@@ -158,9 +137,7 @@
     "cost_plans_add": "Add Cost Plan",
     "supplier_product_plans_title": "Supplier Product Plans",
     "supplier_product_plans_add": "Add Supplier Product Plan",
-
     "quality_review_group_title": "Quality Review",
-
     "time_expenses_drafts_label": "Drafts",
     "time_expenses_pending_label": "Awaiting Approval",
     "time_expenses_approved_label": "Approved",
@@ -169,13 +146,10 @@
     "time_expenses_pending_icon": "icon-clock",
     "time_expenses_approved_icon": "icon-check",
     "time_expenses_posted_icon": "icon-check-circle",
-
     "jobs_on_hold_label": "On Hold",
     "jobs_on_hold_icon": "icon-pause-circle",
-
     "phase_reviews_label": "Phase Reviews",
     "phase_reviews_icon": "icon-bar-chart",
-
     "home_app_label": "Home",
     "home_app_icon": "icon-layout-dashboard",
     "home_overview_label": "Overview",
@@ -183,30 +157,25 @@
     "home_performance_label": "Performance",
     "home_attention_label": "Needs Attention",
     "overview_group_title": "Overview",
-
-    "sidebarProfile": {
-        "triggerAriaLabel": "Open account menu",
-        "menuAriaLabel": "Account menu",
+    "sidebar_profile": {
+        "trigger_aria_label": "Open account menu",
+        "menu_aria_label": "Account menu",
         "profile": "Profile",
         "account": "Account & security",
         "billing": "Billing",
         "preferences": "Preferences",
-        "signOut": "Sign out"
+        "sign_out": "Sign out"
     },
-
     "funding_app_label": "Funding",
     "funding_app_icon": "icon-wallet",
-
     "funding_sources_title": "Funding Sources",
     "funding_sources_all_icon": "icon-list",
-
     "funding_cards_title": "Cards",
     "funding_cards_active_icon": "icon-credit-card",
     "funding_cards_suspended_label": "Suspended",
     "funding_cards_suspended_icon": "icon-pause-circle",
     "funding_cards_closed_label": "Closed",
     "funding_cards_closed_icon": "icon-x-circle",
-
     "funding_activity_title": "Activity",
     "funding_activity_posted_label": "Posted",
     "funding_activity_posted_icon": "icon-check-circle",
@@ -214,10 +183,8 @@
     "funding_activity_draft_icon": "icon-edit",
     "funding_activity_voided_label": "Voided",
     "funding_activity_voided_icon": "icon-x-circle",
-
     "funding_reconciliation_label": "GL Reconciliation",
     "funding_reconciliation_icon": "icon-check-square",
-
     "fund_kind_cash_on_hand_label": "Cash on Hand",
     "fund_kind_cash_on_hand_icon": "icon-dollar-sign",
     "fund_kind_bank_account_label": "Bank Account",
@@ -232,7 +199,6 @@
     "fund_kind_prepaid_card_icon": "icon-credit-card",
     "fund_kind_mobile_money_label": "Mobile Money",
     "fund_kind_mobile_money_icon": "icon-smartphone",
-
     "requests_title": "Requests",
     "requests_label": "Requests",
     "requests_icon": "icon-inbox",
@@ -240,11 +206,10 @@
     "request_types_icon": "icon-list",
     "workflow_templates_label": "Workflow Templates",
     "workflow_templates_icon": "icon-git-branch",
-
     "messages": {
         "label": "Messages",
-        "portalLabel": "Messages",
-        "staffLabel": "Conversations",
+        "portal_label": "Messages",
+        "staff_label": "Conversations",
         "icon": "chat"
     }
 }

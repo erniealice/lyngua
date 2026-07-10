@@ -2,49 +2,49 @@
   "plan": {
     "page": {
       "heading": "Package",
-      "headingActive": "Active Packages",
-      "headingInactive": "Inactive Packages",
+      "heading_active": "Active Packages",
+      "heading_inactive": "Inactive Packages",
       "caption": "Manage your packages",
-      "captionActive": "View and manage active packages",
-      "captionInactive": "View discontinued packages"
+      "caption_active": "View and manage active packages",
+      "caption_inactive": "View discontinued packages"
     },
     "buttons": {
-      "addPlan": "Add Package",
-      "addProduct": "Add Item",
-      "addPricePlan": "Add Package Price",
-      "editPricePlan": "Edit Package Price"
+      "add_plan": "Add Package",
+      "add_product": "Add Item",
+      "add_price_plan": "Add Package Price",
+      "edit_price_plan": "Edit Package Price"
     },
     "columns": {
       "name": "Package Name",
       "description": "Description",
       "price": "Price",
       "status": "Status",
-      "itemType": "Item Type",
-      "pricePlan": "Package",
-      "priceSchedule": "Rate Card"
+      "item_type": "Item Type",
+      "price_plan": "Package",
+      "price_schedule": "Rate Card"
     },
     "empty": {
       "title": "No packages found",
       "message": "Create your first package to get started.",
-      "activeTitle": "No active packages",
-      "activeMessage": "Create your first package to get started.",
-      "inactiveTitle": "No inactive packages",
-      "inactiveMessage": "Discontinued packages will appear here."
+      "active_title": "No active packages",
+      "active_message": "Create your first package to get started.",
+      "inactive_title": "No inactive packages",
+      "inactive_message": "Discontinued packages will appear here."
     },
     "form": {
       "name": "Package Name",
-      "namePlaceholder": "Enter package name",
+      "name_placeholder": "Enter package name",
       "description": "Description",
-      "descriptionPlaceholder": "Enter package description...",
+      "description_placeholder": "Enter package description...",
       "active": "Active",
       "products": "Services",
-      "productsPlaceholder": "Select services...",
-      "productsSearch": "Search services...",
-      "jobTemplate": "Engagement Template",
-      "jobTemplateNone": "(none — advisory engagement, no operational tracking)",
-      "jobTemplateHint": "Select the engagement template that defines the work delivered for this package. Leave empty for advisory-only retainers.",
-      "visitsPerCycleLabel": "Cycle instances per billing cycle",
-      "clientScopeCascadeNotice": "If a client is selected, this package can only be assigned to a client-scoped rate card.",
+      "products_placeholder": "Select services...",
+      "products_search": "Search services...",
+      "job_template": "Engagement Template",
+      "job_template_none": "(none — advisory engagement, no operational tracking)",
+      "job_template_hint": "Select the engagement template that defines the work delivered for this package. Leave empty for advisory-only retainers.",
+      "visits_per_cycle_label": "Cycle instances per billing cycle",
+      "client_scope_cascade_notice": "If a client is selected, this package can only be assigned to a client-scoped rate card.",
       "sections": {
         "basic": "Basic Information",
         "services": "Assigned Services"
@@ -56,43 +56,42 @@
       "delete": "Delete Package"
     },
     "detail": {
-      "pageTitle": "Package Details",
+      "page_title": "Package Details",
       "price": "Price",
       "currency": "Currency",
       "status": "Status",
       "description": "Description",
-      "createdDate": "Created",
-      "modifiedDate": "Last Modified",
+      "created_date": "Created",
+      "modified_date": "Last Modified",
       "heading": "Package Info",
       "name": "Name",
       "amount": "Amount",
-      "currency": "Currency",
       "duration": "Duration",
-      "scheduleLabel": "Rate Card",
-      "dateCreated": "Date Created",
-      "dateModified": "Date Modified",
+      "schedule_label": "Rate Card",
+      "date_created": "Date Created",
+      "date_modified": "Date Modified",
       "edit": "Edit",
-      "editTitle": "Edit Package",
-      "noProductsAssigned": "No items assigned",
-      "noProductsAssignedMsg": "No items assigned to this package yet.",
-      "noPricePlans": "No package prices",
-      "noPricePlansMsg": "No package prices have been configured for this package yet."
+      "edit_title": "Edit Package",
+      "no_products_assigned": "No items assigned",
+      "no_products_assigned_msg": "No items assigned to this package yet.",
+      "no_price_plans": "No package prices",
+      "no_price_plans_msg": "No package prices have been configured for this package yet."
     },
     "tabs": {
       "info": "Information",
       "products": "Items",
-      "productsSlug": "items",
-      "pricePlan": "Package Prices",
-      "pricePlanSlug": "package-prices",
-      "bundlePricing": "Pricing",
-      "auditTrail": "Audit Trail",
-      "auditHistory": "History"
+      "products_slug": "items",
+      "price_plan": "Package Prices",
+      "price_plan_slug": "package-prices",
+      "bundle_pricing": "Pricing",
+      "audit_trail": "Audit Trail",
+      "audit_history": "History"
     },
     "confirm": {
       "delete": "Delete Package",
-      "deleteMessage": "Are you sure you want to delete \"%s\"? This action cannot be undone.",
+      "delete_message": "Are you sure you want to delete \"%s\"? This action cannot be undone.",
       "deactivate": "Deactivate Package",
-      "deactivateMessage": "Are you sure you want to deactivate \"%s\"?"
+      "deactivate_message": "Are you sure you want to deactivate \"%s\"?"
     },
     "validation": {
       "data_required": "Package data is required",
@@ -106,8 +105,8 @@
       "limit_too_large": "Pagination limit is too large"
     },
     "fields": {
-      "clientLabel": "Client",
-      "clientHelp": "Leave blank for a standard rate card. Set a client to create a bespoke rate card for that client only."
+      "client_label": "Client",
+      "client_help": "Leave blank for a standard rate card. Set a client to create a bespoke rate card for that client only."
     },
     "errors": {
       "not_found": "Package with ID \"{entityId}\" not found",
@@ -118,25 +117,25 @@
       "authorization_failed": "Authorization failed for packages",
       "get_item_page_data_failed": "Failed to load package details",
       "get_list_page_data_failed": "Failed to load package list",
-      "permissionDenied": "You do not have permission to perform this action",
-      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
-      "noPermission": "You do not have permission to perform this action"
+      "permission_denied": "You do not have permission to perform this action",
+      "invalid_form_data": "Invalid form data. Please check your inputs and try again.",
+      "no_permission": "You do not have permission to perform this action"
     },
-    "productPlanForm": {
+    "product_plan_form": {
       "product": "Item",
-      "productPlaceholder": "Select an item...",
-      "selectProduct": "— Select a product —",
+      "product_placeholder": "Select an item...",
+      "select_product": "— Select a product —",
       "active": "Active",
-      "productKindLabel": "Item Type",
-      "productKind": {
+      "product_kind_label": "Item Type",
+      "product_kind": {
         "service": "Service",
-        "stockedGood": "Stocked Good",
-        "nonStockedGood": "Non-Stocked Good",
+        "stocked_good": "Stocked Good",
+        "non_stocked_good": "Non-Stocked Good",
         "consumable": "Consumable"
       },
-      "variantSelectLabel": "Variant",
-      "variantSelectPlaceholder": "Select a variant",
-      "variantSelectInfo": "Required when the parent product has variants enabled."
+      "variant_select_label": "Variant",
+      "variant_select_placeholder": "Select a variant",
+      "variant_select_info": "Required when the parent product has variants enabled."
     }
   }
 }

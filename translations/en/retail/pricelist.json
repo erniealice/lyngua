@@ -2,91 +2,91 @@
   "pricelist": {
     "page": {
       "heading": "Price Lists",
-      "headingActive": "Active Price Lists",
-      "headingInactive": "Inactive Price Lists",
+      "heading_active": "Active Price Lists",
+      "heading_inactive": "Inactive Price Lists",
       "caption": "Manage your pricing structures",
-      "captionActive": "View and manage active price lists",
-      "captionInactive": "View inactive price lists"
+      "caption_active": "View and manage active price lists",
+      "caption_inactive": "View inactive price lists"
     },
     "buttons": {
-      "addPriceList": "Add Price List"
+      "add_price_list": "Add Price List"
     },
     "columns": {
       "name": "Name",
-      "dateStart": "Start Date",
-      "dateEnd": "End Date",
+      "date_start": "Start Date",
+      "date_end": "End Date",
       "status": "Status"
     },
     "empty": {
-      "activeTitle": "No active price lists",
-      "activeMessage": "Create a price list to start managing your pricing structures.",
-      "inactiveTitle": "No inactive price lists",
-      "inactiveMessage": "There are no inactive price lists."
+      "active_title": "No active price lists",
+      "active_message": "Create a price list to start managing your pricing structures.",
+      "inactive_title": "No inactive price lists",
+      "inactive_message": "There are no inactive price lists."
     },
     "form": {
       "name": "Name",
       "description": "Description",
-      "descriptionPlaceholder": "Enter a description for this price list",
-      "dateStart": "Start Date",
-      "dateEnd": "End Date",
+      "description_placeholder": "Enter a description for this price list",
+      "date_start": "Start Date",
+      "date_end": "End Date",
       "active": "Active",
       "product": "Product",
-      "selectProduct": "Select a product...",
+      "select_product": "Select a product...",
       "amount": "Amount",
       "currency": "Currency",
-      "nameInfo": "Unique name to identify this price list (e.g. 'Holiday Sale 2026').",
-      "descriptionInfo": "Optional description of the purpose or scope of this price list.",
-      "dateStartInfo": "Date from which this price list becomes effective. Leave blank to apply immediately.",
-      "dateEndInfo": "Date after which this price list expires. Leave blank for no expiry.",
-      "activeInfo": "Inactive price lists are not applied at checkout.",
-      "amountInfo": "Price for this product in centavos (÷100 for display). Must be a whole number.",
-      "currencyInfo": "Currency for this price. Defaults to PHP."
+      "name_info": "Unique name to identify this price list (e.g. 'Holiday Sale 2026').",
+      "description_info": "Optional description of the purpose or scope of this price list.",
+      "date_start_info": "Date from which this price list becomes effective. Leave blank to apply immediately.",
+      "date_end_info": "Date after which this price list expires. Leave blank for no expiry.",
+      "active_info": "Inactive price lists are not applied at checkout.",
+      "amount_info": "Price for this product in centavos (÷100 for display). Must be a whole number.",
+      "currency_info": "Currency for this price. Defaults to PHP."
     },
     "actions": {
       "view": "View",
       "edit": "Edit",
       "delete": "Delete"
     },
-    "bulkActions": {
+    "bulk_actions": {
       "delete": "Delete"
     },
     "detail": {
-      "pageTitle": "Price List Details",
-      "basicInfo": "Basic Information",
+      "page_title": "Price List Details",
+      "basic_info": "Basic Information",
       "prices": "Prices",
-      "tabAttachments": "Attachments",
-      "tabAuditHistory": "History",
-      "productName": "Product",
+      "tab_attachments": "Attachments",
+      "tab_audit_history": "History",
+      "product_name": "Product",
       "amount": "Amount",
       "currency": "Currency",
-      "addPrice": "Add Price",
-      "removeLabel": "Remove",
-      "emptyTitle": "No prices yet",
-      "emptyMessage": "No prices have been added to this price list yet.",
-      "activeBadge": "Active",
-      "inactiveBadge": "Inactive",
-      "noPricesConfigured": "No prices configured",
-      "noPricesDesc": "No prices have been added to this price list yet."
+      "add_price": "Add Price",
+      "remove_label": "Remove",
+      "empty_title": "No prices yet",
+      "empty_message": "No prices have been added to this price list yet.",
+      "active_badge": "Active",
+      "inactive_badge": "Inactive",
+      "no_prices_configured": "No prices configured",
+      "no_prices_desc": "No prices have been added to this price list yet."
     },
     "confirm": {
       "activate": "Activate price list",
-      "activateMessage": "Are you sure you want to activate this price list?",
+      "activate_message": "Are you sure you want to activate this price list?",
       "deactivate": "Deactivate price list",
-      "deactivateMessage": "Are you sure you want to deactivate this price list?",
+      "deactivate_message": "Are you sure you want to deactivate this price list?",
       "delete": "Delete price list",
-      "deleteMessage": "Are you sure you want to delete this price list?",
-      "bulkDelete": "Delete selected price lists",
-      "bulkDeleteMessage": "Are you sure you want to delete the selected price lists?"
+      "delete_message": "Are you sure you want to delete this price list?",
+      "bulk_delete": "Delete selected price lists",
+      "bulk_delete_message": "Are you sure you want to delete the selected price lists?"
     },
     "errors": {
-      "permissionDenied": "You do not have permission to manage price lists",
-      "invalidFormData": "Please correct the highlighted fields",
-      "notFound": "Price list not found",
-      "idRequired": "Price list ID is required",
-      "noIDsProvided": "No price lists were selected",
-      "cannotDelete": "This price list cannot be deleted",
-      "productRequired": "Product is required",
-      "amountRequired": "Amount is required"
+      "permission_denied": "You do not have permission to manage price lists",
+      "invalid_form_data": "Please correct the highlighted fields",
+      "not_found": "Price list not found",
+      "id_required": "Price list ID is required",
+      "no_ids_provided": "No price lists were selected",
+      "cannot_delete": "This price list cannot be deleted",
+      "product_required": "Product is required",
+      "amount_required": "Amount is required"
     }
   }
 }

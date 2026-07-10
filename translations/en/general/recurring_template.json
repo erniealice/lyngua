@@ -4,12 +4,12 @@
     "caption": "Automated entries for depreciation, amortization, accruals"
   },
   "buttons": {
-    "addTemplate": "Add Recurring Entry"
+    "add_template": "Add Recurring Entry"
   },
   "columns": {
     "name": "Name",
     "frequency": "Frequency",
-    "nextRun": "Next Run",
+    "next_run": "Next Run",
     "status": "Status"
   },
   "frequency": {
@@ -32,6 +32,6 @@
     "delete": "Delete",
     "pause": "Pause",
     "resume": "Resume",
-    "noPermission": "No permission"
+    "no_permission": "No permission"
   }
 }

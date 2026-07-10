@@ -1,81 +1,132 @@
 {
   "price_plan": {
     "form": {
-      "sectionBasic": "Basic info",
-      "sectionPricing": "Pricing",
-      "billingKindLabel": "Billing model",
-      "billingKindOneTime": "One-time",
-      "billingKindRecurring": "Recurring retainer",
-      "billingKindContract": "Fixed-term engagement",
-      "billingKindMilestone": "Milestone",
-      "billingKindAdHoc": "On-call engagement",
-      "billingKindOneTimeHint": "Customer charged once at engagement signup. No further invoices on this engagement.",
-      "billingKindRecurringHint": "Billed every cycle. Engagement auto-renews until cancelled.",
-      "billingKindContractHint": "Fixed-term engagement with a defined end date. Can bill periodically within the term or as a single total at signup.",
-      "billingKindMilestoneHint": "Invoice fires per milestone (engagement phase) as deliverables complete. Requires an Engagement Template on the parent Package.",
-      "billingKindAdHocHint": "Operator-requested service calls. Choose Total Package for a prepaid retainer or Per service call for pay-per-call.",
-      "amountBasisLabel": "Amount basis",
-      "amountBasisPerCycle": "Per cycle",
-      "amountBasisTotalPackage": "Total package",
-      "amountBasisDerivedFromLines": "Sum of items",
-      "amountBasisPerOccurrence": "Per service call",
-      "amountBasisPerCycleHint": "Amount charged each billing cycle. Required for Recurring and Contract-with-cycle engagements.",
-      "amountBasisTotalPackageHint": "Single total amount charged across the full engagement term. One invoice covers everything; no per-cycle billing.",
-      "amountBasisDerivedFromLinesHint": "Total computed automatically from the per-item rate-card rows. Amount input is hidden when this is selected.",
-      "amountBasisPerOccurrenceHint": "Amount charged per delivered service call. On-call engagements only — each call fires its own invoice.",
-      "entitledOccurrencesLabel": "Entitled service calls",
-      "entitledOccurrencesPlaceholder": "e.g. 5",
-      "entitledOccurrencesInfo": "Number of service calls included in the prepaid retainer. Required when amount basis is Total Package on an On-call engagement.",
-      "billingCycleLabel": "Billing cycle",
-      "billingCyclePlaceholder": "e.g. every 1 month",
-      "termLabel": "Term",
-      "termPlaceholder": "e.g. 12 months",
-      "termOpenEndedHelp": "Leave empty for open-ended / no expiration",
-      "planLabel": "Package",
-      "planPlaceholder": "Select a package...",
-      "planSearch": "Filter...",
+      "section_basic": "Basic info",
+      "section_pricing": "Pricing",
+      "billing_kind_label": "Billing model",
+      "billing_kind_one_time": "One-time",
+      "billing_kind_recurring": "Recurring retainer",
+      "billing_kind_contract": "Fixed-term engagement",
+      "billing_kind_milestone": "Milestone",
+      "billing_kind_ad_hoc": "On-call engagement",
+      "billing_kind_one_time_hint": "Customer charged once at engagement signup. No further invoices on this engagement.",
+      "billing_kind_recurring_hint": "Billed every cycle. Engagement auto-renews until cancelled.",
+      "billing_kind_contract_hint": "Fixed-term engagement with a defined end date. Can bill periodically within the term or as a single total at signup.",
+      "billing_kind_milestone_hint": "Invoice fires per milestone (engagement phase) as deliverables complete. Requires an Engagement Template on the parent Package.",
+      "billing_kind_ad_hoc_hint": "Operator-requested service calls. Choose Total Package for a prepaid retainer or Per service call for pay-per-call.",
+      "amount_basis_label": "Amount basis",
+      "amount_basis_per_cycle": "Per cycle",
+      "amount_basis_total_package": "Total package",
+      "amount_basis_derived_from_lines": "Sum of items",
+      "amount_basis_per_occurrence": "Per service call",
+      "amount_basis_per_cycle_hint": "Amount charged each billing cycle. Required for Recurring and Contract-with-cycle engagements.",
+      "amount_basis_total_package_hint": "Single total amount charged across the full engagement term. One invoice covers everything; no per-cycle billing.",
+      "amount_basis_derived_from_lines_hint": "Total computed automatically from the per-item rate-card rows. Amount input is hidden when this is selected.",
+      "amount_basis_per_occurrence_hint": "Amount charged per delivered service call. On-call engagements only — each call fires its own invoice.",
+      "entitled_occurrences_label": "Entitled service calls",
+      "entitled_occurrences_placeholder": "e.g. 5",
+      "entitled_occurrences_info": "Number of service calls included in the prepaid retainer. Required when amount basis is Total Package on an On-call engagement.",
+      "billing_cycle_label": "Billing cycle",
+      "billing_cycle_placeholder": "e.g. every 1 month",
+      "term_label": "Term",
+      "term_placeholder": "e.g. 12 months",
+      "term_open_ended_help": "Leave empty for open-ended / no expiration",
+      "plan_label": "Package",
+      "plan_placeholder": "Select a package...",
+      "plan_search": "Filter...",
       "schedule": "Rate Card",
-      "schedulePlaceholder": "Select a rate card...",
-      "scheduleSearch": "Filter...",
-      "locationHintPrefix": "Location: ",
-      "scheduleLockedTooltip": "This rate card is reserved for {{.ClientName}}.",
-      "scheduleAutoCreateHint": "No rate card exists for {{.ClientName}} yet — one will be created automatically when you save.",
-      "scheduleAutoReuseHint": "This package will be added to the existing rate card for {{.ClientName}}.",
-      "scheduleClientPickerNotice": "Only packages assigned to this client are available below.",
-      "scheduleGeneralPickerNotice": "Packages assigned specifically to clients are not available for assignment to general-scoped rate cards.",
-      "parentScheduleClientNotice": "This rate card belongs to {{.ClientName}}. Packages created here will be available only for engagements with this client."
+      "schedule_placeholder": "Select a rate card...",
+      "schedule_search": "Filter...",
+      "location_hint_prefix": "Location: ",
+      "schedule_locked_tooltip": "This rate card is reserved for {{.ClientName}}.",
+      "schedule_auto_create_hint": "No rate card exists for {{.ClientName}} yet — one will be created automatically when you save.",
+      "schedule_auto_reuse_hint": "This package will be added to the existing rate card for {{.ClientName}}.",
+      "schedule_client_picker_notice": "Only packages assigned to this client are available below.",
+      "schedule_general_picker_notice": "Packages assigned specifically to clients are not available for assignment to general-scoped rate cards.",
+      "parent_schedule_client_notice": "This rate card belongs to {{.ClientName}}. Packages created here will be available only for engagements with this client."
     },
-    "productPrice": {
-      "editTitle": "Edit Service Price",
-      "deleteTitle": "Delete Service Price",
-      "emptyTitle": "No Service Prices",
-      "emptyMsg": "No service prices have been configured for this rate card yet."
+    "product_price": {
+      "edit_title": "Edit Service Price",
+      "delete_title": "Delete Service Price",
+      "empty_title": "No Service Prices",
+      "empty_msg": "No service prices have been configured for this rate card yet."
     },
     "messages": {
-      "pricingLockedReason": "This package is in use by active engagements. Pricing changes are disabled. You can still rename or reassign the package.",
-      "itemPricingLockedReason": "This package is in use by active engagements. Item price and currency are locked to keep billing consistent.",
-      "createNotAvailable": "Service price plan create is not available.",
-      "updateNotAvailable": "Service price plan update is not available.",
-      "deleteNotAvailable": "Service price plan delete is not available.",
-      "productRequired": "Service is required.",
-      "invalidPrice": "Invalid price value.",
-      "inUseCannotModify": "This package is in use by active engagements. Item price and currency are locked.",
-      "idRequired": "ID is required."
+      "pricing_locked_reason": "This package is in use by active engagements. Pricing changes are disabled. You can still rename or reassign the package.",
+      "item_pricing_locked_reason": "This package is in use by active engagements. Item price and currency are locked to keep billing consistent.",
+      "create_not_available": "Service price plan create is not available.",
+      "update_not_available": "Service price plan update is not available.",
+      "delete_not_available": "Service price plan delete is not available.",
+      "product_required": "Service is required.",
+      "invalid_price": "Invalid price value.",
+      "in_use_cannot_modify": "This package is in use by active engagements. Item price and currency are locked.",
+      "id_required": "ID is required."
     },
     "detail": {
-      "title": "Package",
-      "heading": "Package Info",
-      "name": "Name",
-      "description": "Description",
-      "amount": "Amount",
-      "currency": "Currency",
-      "duration": "Duration",
-      "scheduleLabel": "Rate Card",
-      "status": "Status",
-      "dateCreated": "Date Created",
-      "dateModified": "Date Modified",
-      "edit": "Edit Package Price",
-      "editTitle": "Edit Package Price"
+      "summary": {
+        "recurring": {
+          "per_cycle": {
+            "customer": "Charged {{.Amount}} every {{.CycleLabel}}. Engagement auto-renews until cancelled.",
+            "operations": "Each cycle spawns {{.VisitsPerCycle}} engagement Job(s) (if Package has an Engagement Template). Work Plans tab shows cycle accordions.",
+            "revenue": "One invoice per cycle. Generate Invoice creates the invoice and (via piggyback) spawns the engagement Job if missing."
+          },
+          "derived_from_lines": {
+            "operations": "Each cycle spawns 1+ engagement Jobs. Operations tracking flows through the Package's Engagement Template.",
+            "revenue": "Invoice total computed from rate card lines; one invoice per cycle."
+          }
+        },
+        "contract": {
+          "total_package": {
+            "operations": "Engagement spawns 1 lifetime engagement Job (or cycle Jobs if cyclic — see Package's visits_per_cycle).",
+            "revenue": "One invoice at signup; cycle Jobs are operational only."
+          }
+        },
+        "milestone": {
+          "total_package": {
+            "operations": "Lifetime engagement Job with phases. BillingEvent rows gate per-milestone invoicing.",
+            "revenue": "Invoice per milestone trigger; sum across milestones equals the total package."
+          }
+        },
+        "one_time": {
+          "total_package": {
+            "operations": "Engagement spawns 1 lifetime engagement Job with phases (if Package has an Engagement Template).",
+            "revenue": "One invoice at engagement signup covering the full amount."
+          }
+        },
+        "ad_hoc": {
+          "total_package": {
+            "customer": "Pays {{.Amount}} upfront for {{.EntitledOccurrences}} service calls.",
+            "operations": "Operator requests each service call from the Work Plans tab. Retainer exhausts after {{.EntitledOccurrences}} calls — operator can extend.",
+            "revenue": "One invoice at engagement signup covering the entire retainer; subsequent service calls are operationally tracked only."
+          },
+          "per_occurrence": {
+            "customer": "Charged {{.Amount}} per service call. No upfront cost.",
+            "operations": "Operator requests each service call from the Work Plans tab. Each completed call flips its BillingEvent to READY for invoicing.",
+            "revenue": "One invoice per delivered service call. Generate Invoice per call row."
+          }
+        }
+      },
+      "warning": {
+        "milestone_no_template": "Milestone billing requires the Package to have an Engagement Template. Configure it on the Package first.",
+        "recurring_no_template": "This engagement will not have operational tracking. Add an Engagement Template to the Package to enable cycle Jobs.",
+        "visits_per_cycle_invalid_kind": "visits_per_cycle is only valid for cyclic packages. Reset to 1 or change the billing kind.",
+        "ad_hoc_pool_no_template": "On-call retainer engagements require an Engagement Template so service calls can be tracked.",
+        "ad_hoc_per_call_no_template": "Per-call engagements require an Engagement Template so service calls can be tracked.",
+        "ad_hoc_no_entitlement": "On-call retainer engagements need entitled service calls > 0. Set the value or switch to per-call billing.",
+        "ad_hoc_billing_cycle_not_allowed": "On-call engagements are event-driven, not calendar-driven. Remove the billing cycle.",
+        "ad_hoc_visits_per_cycle_not_allowed": "On-call engagements cannot use multi-visit cycles. Reset visits_per_cycle to 1."
+      },
+      "subscriptions": {
+        "column_name": "Engagement",
+        "column_client": "Client",
+        "column_plan": "Package",
+        "column_start_date": "Start Date",
+        "column_end_date": "End Date",
+        "empty_title": "No engagements yet",
+        "empty_message": "Engagements billing this package will appear here.",
+        "confirm_delete_title": "Delete Engagement",
+        "confirm_delete_message": "Are you sure you want to delete engagement %s? This action cannot be undone."
+      }
     },
     "tabs": {
       "info": "Info",
@@ -85,88 +136,22 @@
       "audit": "Audit"
     },
     "confirms": {
-      "editAmountMultipleSubscriptions": "This rate card is attached to {{.Count}} active engagements for {{.ClientName}}. Changing the amount or cycle will affect all of them on the next bill cycle. Continue?"
+      "edit_amount_multiple_subscriptions": "This rate card is attached to {{.Count}} active engagements for {{.ClientName}}. Changing the amount or cycle will affect all of them on the next bill cycle. Continue?"
     },
     "errors": {
-      "inUse": "This plan is in use by active engagements and cannot be deleted.",
-      "scheduleClientMismatch": "Selected rate card belongs to a different client and cannot be attached to this price plan.",
-      "scheduleRequiredForClientScope": "This package is scoped to a client. Pick or create a rate card for that client before adding a price plan."
+      "in_use": "This plan is in use by active engagements and cannot be deleted.",
+      "schedule_client_mismatch": "Selected rate card belongs to a different client and cannot be attached to this price plan.",
+      "schedule_required_for_client_scope": "This package is scoped to a client. Pick or create a rate card for that client before adding a price plan."
     },
     "validation": {
-      "milestoneCyclicBlock": "Milestone billing is not supported on cyclic packages (RECURRING / CONTRACT × PER_CYCLE / multi-visit).",
-      "adHocInvalidBasis": "On-call engagements require amount basis = Total Package (retainer) or Per service call.",
-      "adHocBillingIncompatibleWithCycleCadence": "On-call engagements cannot have a billing cycle.",
-      "adHocVisitsPerCycleMustBeOne": "On-call engagements cannot use multi-visit cycles.",
-      "adHocPoolNoTemplate": "On-call retainer engagements require the Package to have an Engagement Template.",
-      "adHocPerCallNoTemplate": "Per-call engagements require the Package to have an Engagement Template.",
-      "adHocEntitlementRequired": "On-call retainer engagements require entitled service calls > 0.",
-      "adHocEntitlementInvalidForPerCall": "Entitled service calls are only valid on retainer engagements, not per-call."
-    },
-    "detail": {
-      "summary": {
-        "recurring": {
-          "perCycle": {
-            "customer": "Charged {{.Amount}} every {{.CycleLabel}}. Engagement auto-renews until cancelled.",
-            "operations": "Each cycle spawns {{.VisitsPerCycle}} engagement Job(s) (if Package has an Engagement Template). Work Plans tab shows cycle accordions.",
-            "revenue": "One invoice per cycle. Generate Invoice creates the invoice and (via piggyback) spawns the engagement Job if missing."
-          },
-          "derivedFromLines": {
-            "operations": "Each cycle spawns 1+ engagement Jobs. Operations tracking flows through the Package's Engagement Template.",
-            "revenue": "Invoice total computed from rate card lines; one invoice per cycle."
-          }
-        },
-        "contract": {
-          "totalPackage": {
-            "operations": "Engagement spawns 1 lifetime engagement Job (or cycle Jobs if cyclic — see Package's visits_per_cycle).",
-            "revenue": "One invoice at signup; cycle Jobs are operational only."
-          }
-        },
-        "milestone": {
-          "totalPackage": {
-            "operations": "Lifetime engagement Job with phases. BillingEvent rows gate per-milestone invoicing.",
-            "revenue": "Invoice per milestone trigger; sum across milestones equals the total package."
-          }
-        },
-        "oneTime": {
-          "totalPackage": {
-            "operations": "Engagement spawns 1 lifetime engagement Job with phases (if Package has an Engagement Template).",
-            "revenue": "One invoice at engagement signup covering the full amount."
-          }
-        },
-        "adHoc": {
-          "totalPackage": {
-            "customer": "Pays {{.Amount}} upfront for {{.EntitledOccurrences}} service calls.",
-            "operations": "Operator requests each service call from the Work Plans tab. Retainer exhausts after {{.EntitledOccurrences}} calls — operator can extend.",
-            "revenue": "One invoice at engagement signup covering the entire retainer; subsequent service calls are operationally tracked only."
-          },
-          "perOccurrence": {
-            "customer": "Charged {{.Amount}} per service call. No upfront cost.",
-            "operations": "Operator requests each service call from the Work Plans tab. Each completed call flips its BillingEvent to READY for invoicing.",
-            "revenue": "One invoice per delivered service call. Generate Invoice per call row."
-          }
-        }
-      },
-      "warning": {
-        "milestoneNoTemplate": "Milestone billing requires the Package to have an Engagement Template. Configure it on the Package first.",
-        "recurringNoTemplate": "This engagement will not have operational tracking. Add an Engagement Template to the Package to enable cycle Jobs.",
-        "visitsPerCycleInvalidKind": "visits_per_cycle is only valid for cyclic packages. Reset to 1 or change the billing kind.",
-        "adHocPoolNoTemplate": "On-call retainer engagements require an Engagement Template so service calls can be tracked.",
-        "adHocPerCallNoTemplate": "Per-call engagements require an Engagement Template so service calls can be tracked.",
-        "adHocNoEntitlement": "On-call retainer engagements need entitled service calls > 0. Set the value or switch to per-call billing.",
-        "adHocBillingCycleNotAllowed": "On-call engagements are event-driven, not calendar-driven. Remove the billing cycle.",
-        "adHocVisitsPerCycleNotAllowed": "On-call engagements cannot use multi-visit cycles. Reset visits_per_cycle to 1."
-      },
-      "subscriptions": {
-        "columnName": "Engagement",
-        "columnClient": "Client",
-        "columnPlan": "Package",
-        "columnStartDate": "Start Date",
-        "columnEndDate": "End Date",
-        "emptyTitle": "No engagements yet",
-        "emptyMessage": "Engagements billing this package will appear here.",
-        "confirmDeleteTitle": "Delete Engagement",
-        "confirmDeleteMessage": "Are you sure you want to delete engagement %s? This action cannot be undone."
-      }
+      "milestone_cyclic_block": "Milestone billing is not supported on cyclic packages (RECURRING / CONTRACT × PER_CYCLE / multi-visit).",
+      "ad_hoc_invalid_basis": "On-call engagements require amount basis = Total Package (retainer) or Per service call.",
+      "ad_hoc_billing_incompatible_with_cycle_cadence": "On-call engagements cannot have a billing cycle.",
+      "ad_hoc_visits_per_cycle_must_be_one": "On-call engagements cannot use multi-visit cycles.",
+      "ad_hoc_pool_no_template": "On-call retainer engagements require the Package to have an Engagement Template.",
+      "ad_hoc_per_call_no_template": "Per-call engagements require the Package to have an Engagement Template.",
+      "ad_hoc_entitlement_required": "On-call retainer engagements require entitled service calls > 0.",
+      "ad_hoc_entitlement_invalid_for_per_call": "Entitled service calls are only valid on retainer engagements, not per-call."
     }
   }
 }

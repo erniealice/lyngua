@@ -1,15 +1,15 @@
 {
-  "supplierSubscription": {
+  "supplier_subscription": {
     "page": {
       "heading": "Supply Subscriptions",
-      "headingActive": "Active Supply Subscriptions",
-      "headingInactive": "Inactive Supply Subscriptions",
+      "heading_active": "Active Supply Subscriptions",
+      "heading_inactive": "Inactive Supply Subscriptions",
       "caption": "Supply subscription management",
-      "captionActive": "Manage your active supply subscriptions",
-      "captionInactive": "View inactive or expired supply subscriptions"
+      "caption_active": "Manage your active supply subscriptions",
+      "caption_inactive": "View inactive or expired supply subscriptions"
     },
     "buttons": {
-      "addSupplierSubscription": "Add Supply Subscription"
+      "add_supplier_subscription": "Add Supply Subscription"
     },
     "actions": {
       "view": "View Supply Subscription",
@@ -17,16 +17,16 @@
       "delete": "Delete Supply Subscription"
     },
     "detail": {
-      "pageTitle": "Supply Subscription Details"
+      "page_title": "Supply Subscription Details"
     },
     "confirm": {
       "delete": "Delete Supply Subscription",
-      "deleteMessage": "Are you sure you want to delete this supply subscription? This action cannot be undone.",
-      "bulkDelete": "Delete Selected",
-      "bulkDeleteMessage": "Are you sure you want to delete the selected supply subscriptions? This action cannot be undone."
+      "delete_message": "Are you sure you want to delete this supply subscription? This action cannot be undone.",
+      "bulk_delete": "Delete Selected",
+      "bulk_delete_message": "Are you sure you want to delete the selected supply subscriptions? This action cannot be undone."
     },
     "errors": {
-      "notFound": "Supply subscription not found"
+      "not_found": "Supply subscription not found"
     }
   }
 }

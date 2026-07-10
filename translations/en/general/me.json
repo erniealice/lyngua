@@ -15,19 +15,19 @@
       "subtitle": "All notifications across your workspaces.",
       "empty": "No notifications yet."
     },
-    "profileOverview": {
+    "profile_overview": {
       "title": "Profile Overview",
       "subtitle": "Your identity and workspace bindings.",
       "empty": "Workspace-binding aggregation coming soon — see Sidebar profile button for current identity."
     },
-    "recentActivity": {
+    "recent_activity": {
       "title": "Recent Activity",
       "subtitle": "Your recent workspace switches across all sessions.",
       "empty": "No recent workspace switches.",
-      "colWhen": "When",
-      "colUseCase": "Use case",
-      "colRequestUrl": "Request URL",
-      "colReferer": "Referer"
+      "col_when": "When",
+      "col_use_case": "Use case",
+      "col_request_url": "Request URL",
+      "col_referer": "Referer"
     }
   }
 }

@@ -1,10 +1,10 @@
 {
     "outcome": {
         "criteria": "Service Standard",
-        "criteriaLibrary": "Service Standards",
+        "criteria_library": "Service Standards",
         "observation": "Service Result",
         "summary": "Service Report",
-        "phaseSummary": "Service Phase Report",
-        "jobSummary": "Service Quality Report"
+        "phase_summary": "Service Phase Report",
+        "job_summary": "Service Quality Report"
     }
 }

@@ -28,32 +28,32 @@ type StaffLabels struct {
 type StaffPageLabels struct {
 	Heading         string `json:"heading"`
 	Caption         string `json:"caption"`
-	HeadingActive   string `json:"headingActive"`
-	HeadingInactive string `json:"headingInactive"`
+	HeadingActive   string `json:"heading_active"`
+	HeadingInactive string `json:"heading_inactive"`
 }
 
 type StaffButtonLabels struct {
-	AddStaff string `json:"addStaff"`
+	AddStaff string `json:"add_staff"`
 }
 
 type StaffColumnLabels struct {
 	Name            string `json:"name"`
 	Email           string `json:"email"`
 	Status          string `json:"status"`
-	EmploymentType  string `json:"employmentType"`
+	EmploymentType  string `json:"employment_type"`
 	Seniority       string `json:"seniority"`
 	Rating          string `json:"rating"`
-	EmploymentStart string `json:"employmentStart"`
+	EmploymentStart string `json:"employment_start"`
 }
 
 // StaffAvailabilityLabels maps staff.status availability values.
 // Mirrors available | assigned | bench | offboarded (entities.md §E1, Q-IDENTITY-1).
 // The `status` field on entity/staff carries AVAILABILITY only — never employment model.
 type StaffAvailabilityLabels struct {
-	Available   string `json:"available"`
-	Assigned    string `json:"assigned"`
-	Bench       string `json:"bench"`
-	Offboarded  string `json:"offboarded"`
+	Available  string `json:"available"`
+	Assigned   string `json:"assigned"`
+	Bench      string `json:"bench"`
+	Offboarded string `json:"offboarded"`
 }
 
 // StaffEmploymentLabels maps employment_type enum values.
@@ -70,27 +70,27 @@ type StaffEmploymentLabels struct {
 
 type StaffRatingLabels struct {
 	Label    string `json:"label"`
-	NoRating string `json:"noRating"`
+	NoRating string `json:"no_rating"`
 }
 
 type StaffFormLabels struct {
 	Status               string `json:"status"`
-	StatusPlaceholder    string `json:"statusPlaceholder"`
-	EmploymentType       string `json:"employmentType"`
-	EmploymentTypePH     string `json:"employmentTypePlaceholder"`
+	StatusPlaceholder    string `json:"status_placeholder"`
+	EmploymentType       string `json:"employment_type"`
+	EmploymentTypePH     string `json:"employment_type_placeholder"`
 	Seniority            string `json:"seniority"`
-	SeniorityPlaceholder string `json:"seniorityPlaceholder"`
-	EmploymentStart      string `json:"employmentStart"`
-	EmploymentEnd        string `json:"employmentEnd"`
+	SeniorityPlaceholder string `json:"seniority_placeholder"`
+	EmploymentStart      string `json:"employment_start"`
+	EmploymentEnd        string `json:"employment_end"`
 }
 
 type StaffEmptyLabels struct {
 	Title           string `json:"title"`
 	Message         string `json:"message"`
-	ActiveTitle     string `json:"activeTitle"`
-	ActiveMessage   string `json:"activeMessage"`
-	InactiveTitle   string `json:"inactiveTitle"`
-	InactiveMessage string `json:"inactiveMessage"`
+	ActiveTitle     string `json:"active_title"`
+	ActiveMessage   string `json:"active_message"`
+	InactiveTitle   string `json:"inactive_title"`
+	InactiveMessage string `json:"inactive_message"`
 }
 
 type StaffActionLabels struct {
@@ -100,29 +100,29 @@ type StaffActionLabels struct {
 }
 
 type StaffDetailLabels struct {
-	PageTitle       string `json:"pageTitle"`
+	PageTitle       string `json:"page_title"`
 	Name            string `json:"name"`
 	Email           string `json:"email"`
 	Status          string `json:"status"`
-	EmploymentType  string `json:"employmentType"`
+	EmploymentType  string `json:"employment_type"`
 	Seniority       string `json:"seniority"`
-	EmploymentStart string `json:"employmentStart"`
-	EmploymentEnd   string `json:"employmentEnd"`
+	EmploymentStart string `json:"employment_start"`
+	EmploymentEnd   string `json:"employment_end"`
 	Rating          string `json:"rating"`
-	CreatedDate     string `json:"createdDate"`
-	ModifiedDate    string `json:"modifiedDate"`
+	CreatedDate     string `json:"created_date"`
+	ModifiedDate    string `json:"modified_date"`
 }
 
 type StaffTabLabels struct {
 	Info        string `json:"info"`
 	Evaluations string `json:"evaluations"`
-	AuditTrail  string `json:"auditTrail"`
+	AuditTrail  string `json:"audit_trail"`
 }
 
 type StaffErrorLabels struct {
-	PermissionDenied string `json:"permissionDenied"`
-	InvalidFormData  string `json:"invalidFormData"`
-	NotFound         string `json:"notFound"`
+	PermissionDenied string `json:"permission_denied"`
+	InvalidFormData  string `json:"invalid_form_data"`
+	NotFound         string `json:"not_found"`
 }
 
 // DefaultStaffLabels returns StaffLabels with sensible English defaults.

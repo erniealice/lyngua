@@ -2,16 +2,28 @@
     "event": {
         "page": {
             "heading": "Appointments",
-            "headingUpcoming": "Upcoming Appointments",
-            "headingConfirmed": "Confirmed Appointments",
-            "headingCompleted": "Completed Appointments",
-            "headingCancelled": "Cancelled Appointments",
+            "heading_upcoming": "Upcoming Appointments",
+            "heading_confirmed": "Confirmed Appointments",
+            "heading_completed": "Completed Appointments",
+            "heading_cancelled": "Cancelled Appointments",
             "caption": "Manage appointments and bookings"
         },
-        "buttons": { "addEvent": "Book Appointment" },
-        "columns": { "organizer": "Stylist" },
-        "empty": { "heading": "No appointments", "subheading": "Book your first appointment" },
-        "form": { "organizer": "Stylist" },
-        "detail": { "heading": "Appointment Details", "organizer": "Stylist" }
+        "buttons": {
+            "add_event": "Book Appointment"
+        },
+        "columns": {
+            "organizer": "Stylist"
+        },
+        "empty": {
+            "heading": "No appointments",
+            "subheading": "Book your first appointment"
+        },
+        "form": {
+            "organizer": "Stylist"
+        },
+        "detail": {
+            "heading": "Appointment Details",
+            "organizer": "Stylist"
+        }
     }
 }

@@ -1,12 +1,12 @@
 {
   "product": {
-    "productKind": {
+    "product_kind": {
       "service": "Service",
-      "stockedGood": "Stocked Good",
-      "nonStockedGood": "Non-Stocked Good",
+      "stocked_good": "Stocked Good",
+      "non_stocked_good": "Non-Stocked Good",
       "consumable": "Consumable"
     },
-    "deliveryMode": {
+    "delivery_mode": {
       "instant": "Instant",
       "scheduled": "Scheduled",
       "shipped": "Shipped",
@@ -14,7 +14,7 @@
       "project": "Project",
       "subscription": "Subscription"
     },
-    "trackingMode": {
+    "tracking_mode": {
       "none": "None",
       "bulk": "Bulk",
       "serialized": "Serialized"
@@ -24,37 +24,37 @@
     },
     "form": {
       "line": "Line",
-      "linePlaceholder": "Select a line",
-      "nameInfo": "The item name as it appears in lists, invoices, and plan breakdowns.",
-      "descriptionInfo": "Optional detail shown on detail pages and product-facing documents.",
-      "lineInfo": "Product line this item belongs to. Used for grouping and filtering.",
-      "priceInfo": "Default unit price in the selected currency. Stored in centavos; displayed divided by 100.",
-      "currencyInfo": "Currency applied to this item's default price.",
-      "activeInfo": "Inactive items are hidden from selection in new plans and transactions.",
-      "expectedCost": "Expected Cost",
-      "expectedCostCurrency": "Cost Currency",
-      "defaultTemplateId": "Default Template",
-      "variantModeLabel": "Variant Configurable",
-      "variantModeInfo": "Turn on if this product has options (e.g. size, color) that produce distinct SKUs. Price is then set per-variant rather than on this form.",
-      "variantModeNone": "Simple",
-      "variantModeConfigurable": "Configurable",
-      "unitLabel": "Unit of measure",
-      "unitInfo": "Free-text display unit (e.g. ea, lb, kg, hr, session). Tenants choose their own convention.",
-      "unitPlaceholder": "e.g. ea, lb",
-      "variantPriceVaries": "Varies",
-      "variantModeLockedHelp": "Delete all variants and options first to change this setting.",
-      "variantModeLockedError": "Delete all variants and options before changing the variant mode.",
-      "productKindLabel": "Item type",
-      "productKindInfo": "What kind of thing this is — determines inventory behaviour, GL posting, and which sidebar surfaces carry it.",
-      "productKindValueInfo": {
+      "line_placeholder": "Select a line",
+      "name_info": "The item name as it appears in lists, invoices, and plan breakdowns.",
+      "description_info": "Optional detail shown on detail pages and product-facing documents.",
+      "line_info": "Product line this item belongs to. Used for grouping and filtering.",
+      "price_info": "Default unit price in the selected currency. Stored in centavos; displayed divided by 100.",
+      "currency_info": "Currency applied to this item's default price.",
+      "active_info": "Inactive items are hidden from selection in new plans and transactions.",
+      "expected_cost": "Expected Cost",
+      "expected_cost_currency": "Cost Currency",
+      "default_template_id": "Default Template",
+      "variant_mode_label": "Variant Configurable",
+      "variant_mode_info": "Turn on if this product has options (e.g. size, color) that produce distinct SKUs. Price is then set per-variant rather than on this form.",
+      "variant_mode_none": "Simple",
+      "variant_mode_configurable": "Configurable",
+      "unit_label": "Unit of measure",
+      "unit_info": "Free-text display unit (e.g. ea, lb, kg, hr, session). Tenants choose their own convention.",
+      "unit_placeholder": "e.g. ea, lb",
+      "variant_price_varies": "Varies",
+      "variant_mode_locked_help": "Delete all variants and options first to change this setting.",
+      "variant_mode_locked_error": "Delete all variants and options before changing the variant mode.",
+      "product_kind_label": "Item type",
+      "product_kind_info": "What kind of thing this is — determines inventory behaviour, GL posting, and which sidebar surfaces carry it.",
+      "product_kind_value_info": {
         "service": "Not a physical good. No inventory, no stock tracking. Examples: consultation, haircut, license.",
         "stocked_good": "Physical good you carry in inventory and resell. Stock is counted. Examples: retail item, finished product.",
         "non_stocked_good": "Physical good you sell but do not stock. Drop-shipped or special-ordered. Examples: custom furniture, one-off import.",
         "consumable": "Back-of-house supply used to deliver a service — expensed on use. Examples: gauze, lotion, cleaning solution, coffee beans."
       },
-      "deliveryModeLabel": "How it reaches the client",
-      "deliveryModeInfo": "Drives the fulfillment UI, revenue recognition timing, and invoice template.",
-      "deliveryModeValueInfo": {
+      "delivery_mode_label": "How it reaches the client",
+      "delivery_mode_info": "Drives the fulfillment UI, revenue recognition timing, and invoice template.",
+      "delivery_mode_value_info": {
         "instant": "Handed over at point of sale — retail checkout or walk-in.",
         "scheduled": "Appointment-based — a booked time slot.",
         "shipped": "Physical delivery to an address.",
@@ -62,20 +62,20 @@
         "project": "Multi-milestone fulfillment — a case or engagement.",
         "subscription": "Recurring access over time — monthly SaaS, gym membership."
       },
-      "trackingModeLabel": "Inventory tracking",
-      "trackingModeInfo": "How per-unit inventory is counted. Only meaningful for physical goods.",
-      "trackingModeValueInfo": {
+      "tracking_mode_label": "Inventory tracking",
+      "tracking_mode_info": "How per-unit inventory is counted. Only meaningful for physical goods.",
+      "tracking_mode_value_info": {
         "none": "No inventory tracking. Default for services and non-stocked goods.",
         "bulk": "Count-based — quantity on hand only.",
         "serialized": "Per-unit — one row per physical unit. Use for high-value electronics, regulated stock."
       },
-      "sectionTax": "Tax",
-      "taxTreatmentLabel": "Tax Treatment",
-      "taxTreatmentPlaceholder": "Select tax treatment",
-      "taxTreatmentInfo": "How this product is classified for tax purposes: Standard (taxed), Reduced (lower rate), Zero Rated (0% tax, audit trail preserved), Exempt (no tax row), or Out of Scope (no tax row).",
-      "withholdingClassLabel": "Withholding Class",
-      "withholdingClassPlaceholder": "Select withholding class",
-      "withholdingClassInfo": "The withholding tax class that applies when the buyer is a top withholding agent (TWA). Leave blank for products not subject to creditable withholding tax."
+      "section_tax": "Tax",
+      "tax_treatment_label": "Tax Treatment",
+      "tax_treatment_placeholder": "Select tax treatment",
+      "tax_treatment_info": "How this product is classified for tax purposes: Standard (taxed), Reduced (lower rate), Zero Rated (0% tax, audit trail preserved), Exempt (no tax row), or Out of Scope (no tax row).",
+      "withholding_class_label": "Withholding Class",
+      "withholding_class_placeholder": "Select withholding class",
+      "withholding_class_info": "The withholding tax class that applies when the buyer is a top withholding agent (TWA). Leave blank for products not subject to creditable withholding tax."
     },
     "actions": {
       "activate": "Activate",
@@ -92,8 +92,8 @@
       "price": "Price",
       "variant_count": "Variant Count",
       "unit": "Unit of measure",
-      "variantMode": "Variant mode",
-      "noDescriptionSubtitle": "No description provided"
+      "variant_mode": "Variant mode",
+      "no_description_subtitle": "No description provided"
     },
     "errors": {
       "authorization_failed": "Authorization failed for products",
@@ -108,7 +108,7 @@
         "start": "Start Date",
         "end": "End Date",
         "package": "Package",
-        "rateCard": "Rate Card",
+        "rate_card": "Rate Card",
         "amount": "Amount"
       }
     },
@@ -119,7 +119,7 @@
       "options": "Options",
       "pricing": "Pricing",
       "variants": "Variants",
-      "auditHistory": "History"
+      "audit_history": "History"
     },
     "validation": {
       "data_required": "Product data is required",
@@ -130,28 +130,28 @@
       "price_required_for_simple": "Price is required when this product is not variant-configurable.",
       "request_required": "Request is required for products"
     },
-    "serviceDashboard": {
+    "service_dashboard": {
       "title": "Services",
       "subtitle": "Track service catalogue, lines, and recent additions",
-      "statTotalActive": "Total Active Services",
-      "statTopRevenue": "Top Revenue Service",
-      "statByLineCount": "Lines",
-      "statRecentlyAdded": "Recently Added",
-      "widgetByLine": "Services by line",
-      "widgetTopRevenue": "Top revenue services",
-      "widgetRecent": "Recent additions",
-      "quickNew": "New Service",
-      "quickBundleBuilder": "Bundle Builder",
-      "quickTagService": "Tag Service",
-      "quickPriceSchedule": "Price Schedule",
-      "viewAll": "View All",
-      "emptyRecentTitle": "No recent additions",
-      "emptyRecentDesc": "Newly added services will appear here.",
-      "emptyTopRevenue": "Revenue ranking is unavailable.",
-      "newService": "New service",
-      "colLine": "Line",
-      "colRank": "Rank",
-      "colService": "Service"
+      "stat_total_active": "Total Active Services",
+      "stat_top_revenue": "Top Revenue Service",
+      "stat_by_line_count": "Lines",
+      "stat_recently_added": "Recently Added",
+      "widget_by_line": "Services by line",
+      "widget_top_revenue": "Top revenue services",
+      "widget_recent": "Recent additions",
+      "quick_new": "New Service",
+      "quick_bundle_builder": "Bundle Builder",
+      "quick_tag_service": "Tag Service",
+      "quick_price_schedule": "Price Schedule",
+      "view_all": "View All",
+      "empty_recent_title": "No recent additions",
+      "empty_recent_desc": "Newly added services will appear here.",
+      "empty_top_revenue": "Revenue ranking is unavailable.",
+      "new_service": "New service",
+      "col_line": "Line",
+      "col_rank": "Rank",
+      "col_service": "Service"
     }
   }
 }

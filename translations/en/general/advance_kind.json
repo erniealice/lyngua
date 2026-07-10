@@ -1,28 +1,28 @@
 {
-  "advanceKind": {
+  "advance_kind": {
     "labels": {
       "kind": {
         "none": "None",
-        "timeBased": "Time-based",
-        "burnDown": "Burn-down",
+        "time_based": "Time-based",
+        "burn_down": "Burn-down",
         "milestone": "Milestone",
         "unscheduled": "Unscheduled"
       },
       "status": {
         "active": "Active",
-        "fullyRecognized": "Fully recognized",
-        "fullyAmortized": "Fully amortized",
-        "fullyDrawn": "Fully drawn",
+        "fully_recognized": "Fully recognized",
+        "fully_amortized": "Fully amortized",
+        "fully_drawn": "Fully drawn",
         "settled": "Settled",
-        "partiallySettled": "Partially settled",
+        "partially_settled": "Partially settled",
         "refunded": "Refunded",
         "cancelled": "Cancelled",
         "expired": "Expired"
       },
-      "prorationPolicy": {
-        "dayProrated": "Day-prorated",
-        "fullTranche": "Full tranche",
-        "nextPeriodStart": "Next period start"
+      "proration_policy": {
+        "day_prorated": "Day-prorated",
+        "full_tranche": "Full tranche",
+        "next_period_start": "Next period start"
       }
     }
   }

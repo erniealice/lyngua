@@ -3,9 +3,9 @@ package v1
 // labels_evaluation_template.go — Go label structs for evaluation_template and
 // evaluation_template_item domains (performance-evaluation layer 12).
 //
-// Root keys (camelCase, matching JSON files):
-//   evaluation_template.json      → EvaluationTemplateLabels      (root key "evaluationTemplate")
-//   evaluation_template_item.json → EvaluationTemplateItemLabels   (root key "evaluationTemplateItem")
+// Root keys (snake_case, matching JSON files):
+//   evaluation_template.json      → EvaluationTemplateLabels      (root key "evaluation_template")
+//   evaluation_template_item.json → EvaluationTemplateItemLabels   (root key "evaluation_template_item")
 
 // EvaluationTemplateLabels holds all translatable strings for the evaluation template module.
 type EvaluationTemplateLabels struct {
@@ -17,7 +17,7 @@ type EvaluationTemplateLabels struct {
 	Empty       EvaluationTemplateEmptyLabels   `json:"empty"`
 	Form        EvaluationTemplateFormLabels    `json:"form"`
 	Actions     EvaluationTemplateActionLabels  `json:"actions"`
-	BulkActions EvaluationTemplateBulkLabels    `json:"bulkActions"`
+	BulkActions EvaluationTemplateBulkLabels    `json:"bulk_actions"`
 	Detail      EvaluationTemplateDetailLabels  `json:"detail"`
 	Confirm     EvaluationTemplateConfirmLabels `json:"confirm"`
 	Errors      EvaluationTemplateErrorLabels   `json:"errors"`
@@ -26,13 +26,13 @@ type EvaluationTemplateLabels struct {
 type EvaluationTemplatePageLabels struct {
 	Heading           string `json:"heading"`
 	Caption           string `json:"caption"`
-	HeadingDraft      string `json:"headingDraft"`
-	HeadingActive     string `json:"headingActive"`
-	HeadingDeprecated string `json:"headingDeprecated"`
+	HeadingDraft      string `json:"heading_draft"`
+	HeadingActive     string `json:"heading_active"`
+	HeadingDeprecated string `json:"heading_deprecated"`
 }
 
 type EvaluationTemplateButtonLabels struct {
-	AddTemplate string `json:"addTemplate"`
+	AddTemplate string `json:"add_template"`
 	Activate    string `json:"activate"`
 	Deprecate   string `json:"deprecate"`
 	Clone       string `json:"clone"`
@@ -40,12 +40,12 @@ type EvaluationTemplateButtonLabels struct {
 
 type EvaluationTemplateColumnLabels struct {
 	Name             string `json:"name"`
-	EvaluationType   string `json:"evaluationType"`
-	RelationshipType string `json:"relationshipType"`
+	EvaluationType   string `json:"evaluation_type"`
+	RelationshipType string `json:"relationship_type"`
 	Version          string `json:"version"`
 	Status           string `json:"status"`
 	Visibility       string `json:"visibility"`
-	ItemCount        string `json:"itemCount"`
+	ItemCount        string `json:"item_count"`
 	Created          string `json:"created"`
 }
 
@@ -69,23 +69,23 @@ type EvaluationTemplateTabLabels struct {
 type EvaluationTemplateEmptyLabels struct {
 	Title         string `json:"title"`
 	Message       string `json:"message"`
-	ActiveTitle   string `json:"activeTitle"`
-	ActiveMessage string `json:"activeMessage"`
-	DraftTitle    string `json:"draftTitle"`
-	DraftMessage  string `json:"draftMessage"`
+	ActiveTitle   string `json:"active_title"`
+	ActiveMessage string `json:"active_message"`
+	DraftTitle    string `json:"draft_title"`
+	DraftMessage  string `json:"draft_message"`
 }
 
 type EvaluationTemplateFormLabels struct {
-	Name                    string `json:"name"`
-	NamePlaceholder         string `json:"namePlaceholder"`
-	Description             string `json:"description"`
-	DescriptionPlaceholder  string `json:"descriptionPlaceholder"`
-	EvaluationType          string `json:"evaluationType"`
-	EvaluationTypePH        string `json:"evaluationTypePlaceholder"`
-	RelationshipType        string `json:"relationshipType"`
-	RelationshipTypePH      string `json:"relationshipTypePlaceholder"`
-	VisibilityType          string `json:"visibilityType"`
-	VisibilityTypePH        string `json:"visibilityTypePlaceholder"`
+	Name                   string `json:"name"`
+	NamePlaceholder        string `json:"name_placeholder"`
+	Description            string `json:"description"`
+	DescriptionPlaceholder string `json:"description_placeholder"`
+	EvaluationType         string `json:"evaluation_type"`
+	EvaluationTypePH       string `json:"evaluation_type_placeholder"`
+	RelationshipType       string `json:"relationship_type"`
+	RelationshipTypePH     string `json:"relationship_type_placeholder"`
+	VisibilityType         string `json:"visibility_type"`
+	VisibilityTypePH       string `json:"visibility_type_placeholder"`
 }
 
 type EvaluationTemplateActionLabels struct {
@@ -102,47 +102,47 @@ type EvaluationTemplateBulkLabels struct {
 }
 
 type EvaluationTemplateDetailLabels struct {
-	PageTitle        string                         `json:"pageTitle"`
-	Name             string                         `json:"name"`
-	Description      string                         `json:"description"`
-	EvaluationType   string                         `json:"evaluationType"`
-	RelationshipType string                         `json:"relationshipType"`
-	Version          string                         `json:"version"`
-	Status           string                         `json:"status"`
-	Visibility       string                         `json:"visibility"`
-	CreatedDate      string                         `json:"createdDate"`
-	ModifiedDate     string                         `json:"modifiedDate"`
-	Items            EvaluationTemplateDetailItems  `json:"items"`
+	PageTitle        string                        `json:"page_title"`
+	Name             string                        `json:"name"`
+	Description      string                        `json:"description"`
+	EvaluationType   string                        `json:"evaluation_type"`
+	RelationshipType string                        `json:"relationship_type"`
+	Version          string                        `json:"version"`
+	Status           string                        `json:"status"`
+	Visibility       string                        `json:"visibility"`
+	CreatedDate      string                        `json:"created_date"`
+	ModifiedDate     string                        `json:"modified_date"`
+	Items            EvaluationTemplateDetailItems `json:"items"`
 }
 
 type EvaluationTemplateDetailItems struct {
-	Heading  string `json:"heading"`
-	AddItem  string `json:"addItem"`
-	Reorder  string `json:"reorder"`
-	Empty    string `json:"empty"`
+	Heading string `json:"heading"`
+	AddItem string `json:"add_item"`
+	Reorder string `json:"reorder"`
+	Empty   string `json:"empty"`
 }
 
 type EvaluationTemplateConfirmLabels struct {
-	Activate            string `json:"activate"`
-	ActivateMessage     string `json:"activateMessage"`
-	Deprecate           string `json:"deprecate"`
-	DeprecateMessage    string `json:"deprecateMessage"`
-	Clone               string `json:"clone"`
-	CloneMessage        string `json:"cloneMessage"`
-	Delete              string `json:"delete"`
-	DeleteMessage       string `json:"deleteMessage"`
-	BulkDeprecate       string `json:"bulkDeprecate"`
-	BulkDeprecateMessage string `json:"bulkDeprecateMessage"`
+	Activate             string `json:"activate"`
+	ActivateMessage      string `json:"activate_message"`
+	Deprecate            string `json:"deprecate"`
+	DeprecateMessage     string `json:"deprecate_message"`
+	Clone                string `json:"clone"`
+	CloneMessage         string `json:"clone_message"`
+	Delete               string `json:"delete"`
+	DeleteMessage        string `json:"delete_message"`
+	BulkDeprecate        string `json:"bulk_deprecate"`
+	BulkDeprecateMessage string `json:"bulk_deprecate_message"`
 }
 
 type EvaluationTemplateErrorLabels struct {
-	PermissionDenied          string `json:"permissionDenied"`
-	InvalidFormData           string `json:"invalidFormData"`
-	NotFound                  string `json:"notFound"`
-	IDRequired                string `json:"idRequired"`
-	NoPermission              string `json:"noPermission"`
-	WeightedNonNumericGuard   string `json:"weightedNonNumericGuard"`
-	InUse                     string `json:"inUse"`
+	PermissionDenied        string `json:"permission_denied"`
+	InvalidFormData         string `json:"invalid_form_data"`
+	NotFound                string `json:"not_found"`
+	IDRequired              string `json:"id_required"`
+	NoPermission            string `json:"no_permission"`
+	WeightedNonNumericGuard string `json:"weighted_non_numeric_guard"`
+	InUse                   string `json:"in_use"`
 }
 
 // DefaultEvaluationTemplateLabels returns EvaluationTemplateLabels with sensible English defaults.
@@ -273,13 +273,13 @@ type EvaluationTemplateItemPageLabels struct {
 }
 
 type EvaluationTemplateItemButtonLabels struct {
-	AddItem    string `json:"addItem"`
-	RemoveItem string `json:"removeItem"`
+	AddItem    string `json:"add_item"`
+	RemoveItem string `json:"remove_item"`
 }
 
 type EvaluationTemplateItemColumnLabels struct {
 	Criterion    string `json:"criterion"`
-	CriteriaType string `json:"criteriaType"`
+	CriteriaType string `json:"criteria_type"`
 	Weight       string `json:"weight"`
 	Required     string `json:"required"`
 	Order        string `json:"order"`
@@ -291,19 +291,19 @@ type EvaluationTemplateItemEmptyLabels struct {
 }
 
 type EvaluationTemplateItemFormLabels struct {
-	Criterion              string `json:"criterion"`
-	CriterionPlaceholder   string `json:"criterionPlaceholder"`
-	CriterionInfo          string `json:"criterionInfo"`
-	QuestionLabel          string `json:"questionLabel"`
-	QuestionLabelPH        string `json:"questionLabelPlaceholder"`
-	QuestionPrompt         string `json:"questionPrompt"`
-	QuestionPromptPH       string `json:"questionPromptPlaceholder"`
-	Weight                 string `json:"weight"`
-	WeightInfo             string `json:"weightInfo"`
-	Required               string `json:"required"`
-	RequiredInfo           string `json:"requiredInfo"`
-	CriteriaType           string `json:"criteriaType"`
-	CriteriaTypeReadOnly   string `json:"criteriaTypeReadOnly"`
+	Criterion            string `json:"criterion"`
+	CriterionPlaceholder string `json:"criterion_placeholder"`
+	CriterionInfo        string `json:"criterion_info"`
+	QuestionLabel        string `json:"question_label"`
+	QuestionLabelPH      string `json:"question_label_placeholder"`
+	QuestionPrompt       string `json:"question_prompt"`
+	QuestionPromptPH     string `json:"question_prompt_placeholder"`
+	Weight               string `json:"weight"`
+	WeightInfo           string `json:"weight_info"`
+	Required             string `json:"required"`
+	RequiredInfo         string `json:"required_info"`
+	CriteriaType         string `json:"criteria_type"`
+	CriteriaTypeReadOnly string `json:"criteria_type_read_only"`
 }
 
 type EvaluationTemplateItemActionLabels struct {
@@ -313,12 +313,12 @@ type EvaluationTemplateItemActionLabels struct {
 }
 
 type EvaluationTemplateItemErrorLabels struct {
-	PermissionDenied    string `json:"permissionDenied"`
-	InvalidFormData     string `json:"invalidFormData"`
-	NotFound            string `json:"notFound"`
-	IDRequired          string `json:"idRequired"`
-	CriterionRequired   string `json:"criterionRequired"`
-	DuplicateCriterion  string `json:"duplicateCriterion"`
+	PermissionDenied   string `json:"permission_denied"`
+	InvalidFormData    string `json:"invalid_form_data"`
+	NotFound           string `json:"not_found"`
+	IDRequired         string `json:"id_required"`
+	CriterionRequired  string `json:"criterion_required"`
+	DuplicateCriterion string `json:"duplicate_criterion"`
 }
 
 // DefaultEvaluationTemplateItemLabels returns EvaluationTemplateItemLabels with sensible English defaults.

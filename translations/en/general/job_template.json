@@ -2,14 +2,14 @@
   "job_template": {
     "page": {
       "heading": "Job Templates",
-      "headingActive": "Active Job Templates",
-      "headingInactive": "Inactive Job Templates",
+      "heading_active": "Active Job Templates",
+      "heading_inactive": "Inactive Job Templates",
       "caption": "Manage reusable execution plans",
-      "captionActive": "Manage your active job templates",
-      "captionInactive": "View inactive or archived job templates"
+      "caption_active": "Manage your active job templates",
+      "caption_inactive": "View inactive or archived job templates"
     },
     "buttons": {
-      "addJobTemplate": "Add Template"
+      "add_job_template": "Add Template"
     },
     "columns": {
       "name": "Name",
@@ -19,16 +19,16 @@
     "empty": {
       "title": "No job templates found",
       "message": "No job templates to display.",
-      "activeTitle": "No active job templates",
-      "activeMessage": "Create your first job template to get started.",
-      "inactiveTitle": "No inactive job templates",
-      "inactiveMessage": "Deactivated templates will appear here."
+      "active_title": "No active job templates",
+      "active_message": "Create your first job template to get started.",
+      "inactive_title": "No inactive job templates",
+      "inactive_message": "Deactivated templates will appear here."
     },
     "form": {
       "name": "Template Name",
-      "namePlaceholder": "Enter template name",
+      "name_placeholder": "Enter template name",
       "description": "Description",
-      "descriptionPlaceholder": "Enter template description...",
+      "description_placeholder": "Enter template description...",
       "active": "Active"
     },
     "actions": {
@@ -37,29 +37,29 @@
       "delete": "Delete Template"
     },
     "detail": {
-      "pageTitle": "Job Template Details",
+      "page_title": "Job Template Details",
       "name": "Name",
       "description": "Description",
       "status": "Status",
-      "createdDate": "Created",
-      "modifiedDate": "Last Modified"
+      "created_date": "Created",
+      "modified_date": "Last Modified"
     },
     "fields": {
-      "templateCode": "Template Code",
+      "template_code": "Template Code",
       "revision": "Revision",
-      "versionStatus": "Version Status",
-      "effectiveFrom": "Effective From",
-      "effectiveTo": "Effective To",
-      "supersedesTemplateId": "Supersedes Template",
-      "isDefault": "Default",
-      "publishedAt": "Published At",
-      "publishedBy": "Published By",
-      "defaultLotSize": "Default Lot Size",
-      "defaultUom": "Default Unit",
-      "outputProductId": "Output Product",
-      "outputProductVariantId": "Output Variant",
-      "workflowTemplateId": "Workflow Template",
-      "changeRequestId": "Change Request"
+      "version_status": "Version Status",
+      "effective_from": "Effective From",
+      "effective_to": "Effective To",
+      "supersedes_template_id": "Supersedes Template",
+      "is_default": "Default",
+      "published_at": "Published At",
+      "published_by": "Published By",
+      "default_lot_size": "Default Lot Size",
+      "default_uom": "Default Unit",
+      "output_product_id": "Output Product",
+      "output_product_variant_id": "Output Variant",
+      "workflow_template_id": "Workflow Template",
+      "change_request_id": "Change Request"
     },
     "tabs": {
       "info": "Information",
@@ -67,29 +67,29 @@
       "tasks": "Tasks",
       "standards": "Standards",
       "attachments": "Attachments",
-      "auditTrail": "Audit Trail",
+      "audit_trail": "Audit Trail",
       "history": "History"
     },
     "confirm": {
       "delete": "Delete Template",
-      "deleteMessage": "Are you sure you want to delete \"%s\"? This action cannot be undone."
+      "delete_message": "Are you sure you want to delete \"%s\"? This action cannot be undone."
     },
     "errors": {
-      "permissionDenied": "You do not have permission to perform this action",
-      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
-      "notFound": "Job template not found",
-      "idRequired": "Job template ID is required",
-      "noPermission": "No permission",
-      "inUse": "Cannot delete: this template is in use",
-      "invalidForm": "Invalid form data. Please check your inputs and try again."
+      "permission_denied": "You do not have permission to perform this action",
+      "invalid_form_data": "Invalid form data. Please check your inputs and try again.",
+      "not_found": "Job template not found",
+      "id_required": "Job template ID is required",
+      "no_permission": "No permission",
+      "in_use": "Cannot delete: this template is in use",
+      "invalid_form": "Invalid form data. Please check your inputs and try again."
     },
-    "bulkActions": {
+    "bulk_actions": {
       "delete": "Delete",
-      "bulkDelete": "Delete selected templates",
-      "bulkDeleteConfirmTitle": "Delete templates?",
-      "bulkDeleteConfirmMsg": "Delete {count} job template(s)? This action cannot be undone.",
-      "selectAll": "Select all",
-      "selectedCount": "{count} selected",
+      "bulk_delete": "Delete selected templates",
+      "bulk_delete_confirm_title": "Delete templates?",
+      "bulk_delete_confirm_msg": "Delete {count} job template(s)? This action cannot be undone.",
+      "select_all": "Select all",
+      "selected_count": "{count} selected",
       "cancel": "Cancel"
     }
   }

@@ -1,27 +1,27 @@
 {
   "page": {
-    "headingActive": "Active Loans",
-    "captionActive": "Loans currently being serviced",
-    "headingCompleted": "Completed Loans",
-    "captionCompleted": "Fully paid or closed loans"
+    "heading_active": "Active Loans",
+    "caption_active": "Loans currently being serviced",
+    "heading_completed": "Completed Loans",
+    "caption_completed": "Fully paid or closed loans"
   },
   "tabs": {
     "active": "Active",
     "completed": "Completed"
   },
   "buttons": {
-    "addLoan": "Add Loan"
+    "add_loan": "Add Loan"
   },
   "columns": {
-    "loanNumber": "Loan #",
-    "lenderName": "Lender / Borrower",
-    "loanType": "Type",
-    "principalAmount": "Principal",
-    "remainingBalance": "Balance",
-    "interestRate": "Rate",
-    "termMonths": "Term (mo.)",
-    "startDate": "Start Date",
-    "maturityDate": "Maturity",
+    "loan_number": "Loan #",
+    "lender_name": "Lender / Borrower",
+    "loan_type": "Type",
+    "principal_amount": "Principal",
+    "remaining_balance": "Balance",
+    "interest_rate": "Rate",
+    "term_months": "Term (mo.)",
+    "start_date": "Start Date",
+    "maturity_date": "Maturity",
     "status": "Status"
   },
   "empty": {
@@ -30,22 +30,22 @@
   },
   "actions": {
     "view": "View",
-    "noPermission": "No permission",
-    "saveError": "Failed to save loan"
+    "no_permission": "No permission",
+    "save_error": "Failed to save loan"
   },
   "form": {
-    "loanNumber": "Loan Number",
-    "loanNumberPlaceholder": "e.g. LN-001",
-    "lenderName": "Lender / Borrower",
-    "lenderNamePlaceholder": "Name of the lender or borrower",
-    "loanType": "Loan Type",
-    "principalAmount": "Principal Amount",
-    "interestRate": "Annual Interest Rate (%)",
-    "termMonths": "Term (Months)",
-    "startDate": "Start Date",
-    "maturityDate": "Maturity Date",
+    "loan_number": "Loan Number",
+    "loan_number_placeholder": "e.g. LN-001",
+    "lender_name": "Lender / Borrower",
+    "lender_name_placeholder": "Name of the lender or borrower",
+    "loan_type": "Loan Type",
+    "principal_amount": "Principal Amount",
+    "interest_rate": "Annual Interest Rate (%)",
+    "term_months": "Term (Months)",
+    "start_date": "Start Date",
+    "maturity_date": "Maturity Date",
     "description": "Description",
-    "descriptionPlaceholder": "Brief description or purpose of the loan"
+    "description_placeholder": "Brief description or purpose of the loan"
   },
   "status": {
     "draft": "Draft",
@@ -60,19 +60,19 @@
   "dashboard": {
     "title": "Loans Dashboard",
     "subtitle": "Outstanding balance, interest accrued, upcoming payments, and recent activity",
-    "totalOutstanding": "Total Outstanding",
-    "interestYtd": "Interest YTD",
-    "paymentsDue30": "Payments Due (30d)",
-    "defaultedCount": "Defaulted Loans",
-    "outstandingTrend": "Outstanding Principal Trend",
-    "topLoans": "Top Loans by Outstanding",
-    "recentPayments": "Recent Payments",
-    "noRecentPayments": "No recent payments",
-    "quickNewLoan": "New Loan",
-    "quickRecordPay": "Record Payment",
-    "quickAmortization": "Amortization Schedule",
-    "quickLoanCalendar": "Loan Calendar",
-    "viewAll": "View All",
-    "axisAmount": "Outstanding"
+    "total_outstanding": "Total Outstanding",
+    "interest_ytd": "Interest YTD",
+    "payments_due30": "Payments Due (30d)",
+    "defaulted_count": "Defaulted Loans",
+    "outstanding_trend": "Outstanding Principal Trend",
+    "top_loans": "Top Loans by Outstanding",
+    "recent_payments": "Recent Payments",
+    "no_recent_payments": "No recent payments",
+    "quick_new_loan": "New Loan",
+    "quick_record_pay": "Record Payment",
+    "quick_amortization": "Amortization Schedule",
+    "quick_loan_calendar": "Loan Calendar",
+    "view_all": "View All",
+    "axis_amount": "Outstanding"
   }
 }

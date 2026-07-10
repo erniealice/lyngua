@@ -1,7 +1,7 @@
 {
   "document_template": {
     "sidebar": {
-      "invoiceTemplatesLabel": "Invoice Templates"
+      "invoice_templates_label": "Invoice Templates"
     }
   }
 }

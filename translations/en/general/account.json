@@ -1,7 +1,7 @@
 {
   "form": {
-    "elementInfo": "The broad accounting category this account belongs to (Asset, Liability, Equity, Revenue, or Expense).",
-    "classificationInfo": "Sub-category within the element that determines where this account appears on financial statements.",
-    "cashFlowClassInfo": "Tags this account's movements for cash flow statement classification. Leave empty if not applicable."
+    "element_info": "The broad accounting category this account belongs to (Asset, Liability, Equity, Revenue, or Expense).",
+    "classification_info": "Sub-category within the element that determines where this account appears on financial statements.",
+    "cash_flow_class_info": "Tags this account's movements for cash flow statement classification. Leave empty if not applicable."
   }
 }

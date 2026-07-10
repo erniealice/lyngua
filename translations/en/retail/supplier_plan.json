@@ -1,15 +1,15 @@
 {
-  "supplierPlan": {
+  "supplier_plan": {
     "page": {
       "heading": "Vendor Plans",
-      "headingActive": "Active Vendor Plans",
-      "headingInactive": "Inactive Vendor Plans",
+      "heading_active": "Active Vendor Plans",
+      "heading_inactive": "Inactive Vendor Plans",
       "caption": "Manage your vendor plans",
-      "captionActive": "Manage your active vendor plans",
-      "captionInactive": "View inactive or archived vendor plans"
+      "caption_active": "Manage your active vendor plans",
+      "caption_inactive": "View inactive or archived vendor plans"
     },
     "buttons": {
-      "addSupplierPlan": "Add Vendor Plan"
+      "add_supplier_plan": "Add Vendor Plan"
     },
     "columns": {
       "name": "Name",
@@ -20,26 +20,26 @@
     "empty": {
       "title": "No vendor plans found",
       "message": "No vendor plans to display.",
-      "activeTitle": "No active vendor plans",
-      "activeMessage": "Create your first vendor plan to get started.",
-      "inactiveTitle": "No inactive vendor plans",
-      "inactiveMessage": "Discontinued vendor plans will appear here."
+      "active_title": "No active vendor plans",
+      "active_message": "Create your first vendor plan to get started.",
+      "inactive_title": "No inactive vendor plans",
+      "inactive_message": "Discontinued vendor plans will appear here."
     },
     "form": {
-      "sectionBasic": "Basic Information",
-      "sectionProducts": "Assigned Products",
+      "section_basic": "Basic Information",
+      "section_products": "Assigned Products",
       "name": "Vendor Plan Name",
-      "namePlaceholder": "Enter vendor plan name",
+      "name_placeholder": "Enter vendor plan name",
       "description": "Description",
-      "descriptionPlaceholder": "Enter vendor plan description...",
+      "description_placeholder": "Enter vendor plan description...",
       "active": "Active",
       "supplier": "Vendor",
-      "supplierPlaceholder": "Select vendor...",
-      "supplierSearchPlaceholder": "Search vendors...",
-      "supplierNoResults": "No vendors found",
-      "supplierInfo": "The vendor this plan is associated with.",
-      "nameInfo": "Name for this vendor plan.",
-      "descriptionInfo": "Optional notes shown alongside the vendor plan in detail views."
+      "supplier_placeholder": "Select vendor...",
+      "supplier_search_placeholder": "Search vendors...",
+      "supplier_no_results": "No vendors found",
+      "supplier_info": "The vendor this plan is associated with.",
+      "name_info": "Name for this vendor plan.",
+      "description_info": "Optional notes shown alongside the vendor plan in detail views."
     },
     "actions": {
       "view": "View Vendor Plan",
@@ -47,36 +47,36 @@
       "delete": "Delete Vendor Plan"
     },
     "detail": {
-      "pageTitle": "Vendor Plan Details",
+      "page_title": "Vendor Plan Details",
       "supplier": "Vendor",
       "description": "Description",
       "active": "Active",
       "inactive": "Inactive",
-      "createdDate": "Created",
-      "modifiedDate": "Last Modified",
+      "created_date": "Created",
+      "modified_date": "Last Modified",
       "heading": "Vendor Plan Info",
       "name": "Name",
       "edit": "Edit",
-      "editTitle": "Edit Vendor Plan"
+      "edit_title": "Edit Vendor Plan"
     },
     "tabs": {
       "info": "Information",
       "products": "Products",
-      "costPlans": "Cost Plans",
-      "auditTrail": "Audit Trail"
+      "cost_plans": "Cost Plans",
+      "audit_trail": "Audit Trail"
     },
     "confirm": {
       "delete": "Delete Vendor Plan",
-      "deleteMessage": "Are you sure you want to delete \"%s\"? This action cannot be undone.",
+      "delete_message": "Are you sure you want to delete \"%s\"? This action cannot be undone.",
       "deactivate": "Deactivate Vendor Plan",
-      "deactivateMessage": "Are you sure you want to deactivate \"%s\"?"
+      "deactivate_message": "Are you sure you want to deactivate \"%s\"?"
     },
     "errors": {
-      "permissionDenied": "You do not have permission to perform this action",
-      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
-      "notFound": "Vendor plan not found",
-      "idRequired": "Vendor plan ID is required",
-      "noPermission": "No permission"
+      "permission_denied": "You do not have permission to perform this action",
+      "invalid_form_data": "Invalid form data. Please check your inputs and try again.",
+      "not_found": "Vendor plan not found",
+      "id_required": "Vendor plan ID is required",
+      "no_permission": "No permission"
     },
     "validation": {
       "data_required": "Vendor plan data is required",

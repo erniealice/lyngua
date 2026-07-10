@@ -2,9 +2,9 @@ package v1
 
 // labels_evaluation.go — Go label structs for the evaluation domain (performance-evaluation layer 12).
 //
-// Root keys (camelCase, matching JSON files):
+// Root keys (snake_case, matching JSON files):
 //   evaluation.json        → EvaluationLabels       (root key "evaluation")
-//   evaluation_response.json → EvaluationResponseLabels (root key "evaluationResponse")
+//   evaluation_response.json → EvaluationResponseLabels (root key "evaluation_response")
 //
 // These types are consumed by fayna domain/operation/evaluation/ and
 // domain/operation/evaluation_response/ labels.go wrappers.
@@ -12,36 +12,36 @@ package v1
 
 // EvaluationLabels holds all translatable strings for the evaluation module.
 type EvaluationLabels struct {
-	Page        EvaluationPageLabels       `json:"page"`
-	Buttons     EvaluationButtonLabels     `json:"buttons"`
-	Columns     EvaluationColumnLabels     `json:"columns"`
-	Status      EvaluationStatusLabels     `json:"status"`
-	Tabs        EvaluationTabLabels        `json:"tabs"`
-	Empty       EvaluationEmptyLabels      `json:"empty"`
-	Form        EvaluationFormLabels       `json:"form"`
-	Dimension   EvaluationDimensionLabels  `json:"dimension"`
-	Actions     EvaluationActionLabels     `json:"actions"`
-	BulkActions EvaluationBulkLabels       `json:"bulkActions"`
-	Detail      EvaluationDetailLabels     `json:"detail"`
-	Confirm     EvaluationConfirmLabels    `json:"confirm"`
-	Errors      EvaluationErrorLabels      `json:"errors"`
-	Portal      EvaluationPortalLabels     `json:"portal"`
+	Page        EvaluationPageLabels      `json:"page"`
+	Buttons     EvaluationButtonLabels    `json:"buttons"`
+	Columns     EvaluationColumnLabels    `json:"columns"`
+	Status      EvaluationStatusLabels    `json:"status"`
+	Tabs        EvaluationTabLabels       `json:"tabs"`
+	Empty       EvaluationEmptyLabels     `json:"empty"`
+	Form        EvaluationFormLabels      `json:"form"`
+	Dimension   EvaluationDimensionLabels `json:"dimension"`
+	Actions     EvaluationActionLabels    `json:"actions"`
+	BulkActions EvaluationBulkLabels      `json:"bulk_actions"`
+	Detail      EvaluationDetailLabels    `json:"detail"`
+	Confirm     EvaluationConfirmLabels   `json:"confirm"`
+	Errors      EvaluationErrorLabels     `json:"errors"`
+	Portal      EvaluationPortalLabels    `json:"portal"`
 }
 
 type EvaluationPageLabels struct {
 	Heading          string `json:"heading"`
 	Caption          string `json:"caption"`
-	HeadingDraft     string `json:"headingDraft"`
-	HeadingSubmitted string `json:"headingSubmitted"`
-	HeadingSignedOff string `json:"headingSignedOff"`
-	HeadingArchived  string `json:"headingArchived"`
+	HeadingDraft     string `json:"heading_draft"`
+	HeadingSubmitted string `json:"heading_submitted"`
+	HeadingSignedOff string `json:"heading_signed_off"`
+	HeadingArchived  string `json:"heading_archived"`
 }
 
 type EvaluationButtonLabels struct {
-	StartReview string `json:"startReview"`
-	SaveDraft   string `json:"saveDraft"`
+	StartReview string `json:"start_review"`
+	SaveDraft   string `json:"save_draft"`
 	Submit      string `json:"submit"`
-	SignOff     string `json:"signOff"`
+	SignOff     string `json:"sign_off"`
 	Archive     string `json:"archive"`
 	Delete      string `json:"delete"`
 }
@@ -53,7 +53,7 @@ type EvaluationColumnLabels struct {
 	Type        string `json:"type"`
 	Overall     string `json:"overall"`
 	Status      string `json:"status"`
-	SubmittedAt string `json:"submittedAt"`
+	SubmittedAt string `json:"submitted_at"`
 }
 
 // EvaluationStatusLabels maps EvaluationStatus enum values to display strings.
@@ -61,53 +61,53 @@ type EvaluationColumnLabels struct {
 type EvaluationStatusLabels struct {
 	Draft     string `json:"draft"`
 	Submitted string `json:"submitted"`
-	SignedOff string `json:"signedOff"`
+	SignedOff string `json:"signed_off"`
 	Archived  string `json:"archived"`
 }
 
 type EvaluationTabLabels struct {
-	All          string `json:"all"`
-	Draft        string `json:"draft"`
-	Submitted    string `json:"submitted"`
-	SignedOff    string `json:"signedOff"`
-	Archived     string `json:"archived"`
-	Info         string `json:"info"`
-	Scores       string `json:"scores"`
-	SignOff      string `json:"signOff"`
-	AuditTrail   string `json:"auditTrail"`
+	All        string `json:"all"`
+	Draft      string `json:"draft"`
+	Submitted  string `json:"submitted"`
+	SignedOff  string `json:"signed_off"`
+	Archived   string `json:"archived"`
+	Info       string `json:"info"`
+	Scores     string `json:"scores"`
+	SignOff    string `json:"sign_off"`
+	AuditTrail string `json:"audit_trail"`
 }
 
 type EvaluationEmptyLabels struct {
 	Title            string `json:"title"`
 	Message          string `json:"message"`
-	DraftTitle       string `json:"draftTitle"`
-	DraftMessage     string `json:"draftMessage"`
-	SubmittedTitle   string `json:"submittedTitle"`
-	SubmittedMessage string `json:"submittedMessage"`
-	SignedOffTitle   string `json:"signedOffTitle"`
-	SignedOffMessage string `json:"signedOffMessage"`
+	DraftTitle       string `json:"draft_title"`
+	DraftMessage     string `json:"draft_message"`
+	SubmittedTitle   string `json:"submitted_title"`
+	SubmittedMessage string `json:"submitted_message"`
+	SignedOffTitle   string `json:"signed_off_title"`
+	SignedOffMessage string `json:"signed_off_message"`
 }
 
 type EvaluationFormLabels struct {
-	EvaluationType        string `json:"evaluationType"`
-	EvaluationTypePH      string `json:"evaluationTypePlaceholder"`
-	Template              string `json:"template"`
-	TemplatePlaceholder   string `json:"templatePlaceholder"`
-	PeriodStart           string `json:"periodStart"`
-	PeriodEnd             string `json:"periodEnd"`
-	Narrative             string `json:"narrative"`
-	NarrativePlaceholder  string `json:"narrativePlaceholder"`
-	Associate             string `json:"associate"`
-	Client                string `json:"client"`
-	SectionHeader         string `json:"sectionHeader"`
-	SectionRubric         string `json:"sectionRubric"`
-	SectionNarrative      string `json:"sectionNarrative"`
+	EvaluationType       string `json:"evaluation_type"`
+	EvaluationTypePH     string `json:"evaluation_type_placeholder"`
+	Template             string `json:"template"`
+	TemplatePlaceholder  string `json:"template_placeholder"`
+	PeriodStart          string `json:"period_start"`
+	PeriodEnd            string `json:"period_end"`
+	Narrative            string `json:"narrative"`
+	NarrativePlaceholder string `json:"narrative_placeholder"`
+	Associate            string `json:"associate"`
+	Client               string `json:"client"`
+	SectionHeader        string `json:"section_header"`
+	SectionRubric        string `json:"section_rubric"`
+	SectionNarrative     string `json:"section_narrative"`
 }
 
 type EvaluationDimensionLabels struct {
-	NotScored string                        `json:"notScored"`
-	PassFail  EvaluationDimensionPassFail   `json:"passFail"`
-	RatingBar EvaluationDimensionRatingBar  `json:"ratingBar"`
+	NotScored string                       `json:"not_scored"`
+	PassFail  EvaluationDimensionPassFail  `json:"pass_fail"`
+	RatingBar EvaluationDimensionRatingBar `json:"rating_bar"`
 }
 
 type EvaluationDimensionPassFail struct {
@@ -116,13 +116,13 @@ type EvaluationDimensionPassFail struct {
 }
 
 type EvaluationDimensionRatingBar struct {
-	AriaLabel string `json:"ariaLabel"`
+	AriaLabel string `json:"aria_label"`
 }
 
 type EvaluationActionLabels struct {
 	View    string `json:"view"`
 	Edit    string `json:"edit"`
-	SignOff string `json:"signOff"`
+	SignOff string `json:"sign_off"`
 	Archive string `json:"archive"`
 	Delete  string `json:"delete"`
 }
@@ -133,74 +133,74 @@ type EvaluationBulkLabels struct {
 }
 
 type EvaluationDetailLabels struct {
-	PageTitle    string                      `json:"pageTitle"`
-	Associate    string                      `json:"associate"`
-	Client       string                      `json:"client"`
-	Period       string                      `json:"period"`
-	Type         string                      `json:"type"`
-	Template     string                      `json:"template"`
-	OverallScore string                      `json:"overallScore"`
-	Status       string                      `json:"status"`
-	SubmittedAt  string                      `json:"submittedAt"`
-	SignedOffAt  string                      `json:"signedOffAt"`
-	SignedOffBy  string                      `json:"signedOffBy"`
-	Narrative    string                      `json:"narrative"`
-	Scores       EvaluationDetailScores      `json:"scores"`
-	SignOff      EvaluationDetailSignOff     `json:"signOff"`
+	PageTitle    string                  `json:"page_title"`
+	Associate    string                  `json:"associate"`
+	Client       string                  `json:"client"`
+	Period       string                  `json:"period"`
+	Type         string                  `json:"type"`
+	Template     string                  `json:"template"`
+	OverallScore string                  `json:"overall_score"`
+	Status       string                  `json:"status"`
+	SubmittedAt  string                  `json:"submitted_at"`
+	SignedOffAt  string                  `json:"signed_off_at"`
+	SignedOffBy  string                  `json:"signed_off_by"`
+	Narrative    string                  `json:"narrative"`
+	Scores       EvaluationDetailScores  `json:"scores"`
+	SignOff      EvaluationDetailSignOff `json:"sign_off"`
 }
 
 type EvaluationDetailScores struct {
-	Heading      string `json:"heading"`
-	Criterion    string `json:"criterion"`
-	Weight       string `json:"weight"`
-	Score        string `json:"score"`
-	Comment      string `json:"comment"`
-	WeightedTotal string `json:"weightedTotal"`
-	Empty        string `json:"empty"`
+	Heading       string `json:"heading"`
+	Criterion     string `json:"criterion"`
+	Weight        string `json:"weight"`
+	Score         string `json:"score"`
+	Comment       string `json:"comment"`
+	WeightedTotal string `json:"weighted_total"`
+	Empty         string `json:"empty"`
 }
 
 type EvaluationDetailSignOff struct {
 	Heading  string `json:"heading"`
 	Status   string `json:"status"`
-	SignedBy string `json:"signedBy"`
-	SignedAt string `json:"signedAt"`
+	SignedBy string `json:"signed_by"`
+	SignedAt string `json:"signed_at"`
 	Pending  string `json:"pending"`
 	Complete string `json:"complete"`
 }
 
 type EvaluationConfirmLabels struct {
-	SignOff              string `json:"signOff"`
-	SignOffMessage       string `json:"signOffMessage"`
-	Archive              string `json:"archive"`
-	ArchiveMessage       string `json:"archiveMessage"`
-	Delete               string `json:"delete"`
-	DeleteMessage        string `json:"deleteMessage"`
-	BulkArchive          string `json:"bulkArchive"`
-	BulkArchiveMessage   string `json:"bulkArchiveMessage"`
-	BulkDelete           string `json:"bulkDelete"`
-	BulkDeleteMessage    string `json:"bulkDeleteMessage"`
+	SignOff            string `json:"sign_off"`
+	SignOffMessage     string `json:"sign_off_message"`
+	Archive            string `json:"archive"`
+	ArchiveMessage     string `json:"archive_message"`
+	Delete             string `json:"delete"`
+	DeleteMessage      string `json:"delete_message"`
+	BulkArchive        string `json:"bulk_archive"`
+	BulkArchiveMessage string `json:"bulk_archive_message"`
+	BulkDelete         string `json:"bulk_delete"`
+	BulkDeleteMessage  string `json:"bulk_delete_message"`
 }
 
 type EvaluationErrorLabels struct {
-	PermissionDenied  string `json:"permissionDenied"`
-	InvalidFormData   string `json:"invalidFormData"`
-	NotFound          string `json:"notFound"`
-	IDRequired        string `json:"idRequired"`
-	NoPermission      string `json:"noPermission"`
-	TemplateRequired  string `json:"templateRequired"`
-	AlreadySignedOff  string `json:"alreadySignedOff"`
-	NotSubmitted      string `json:"notSubmitted"`
+	PermissionDenied string `json:"permission_denied"`
+	InvalidFormData  string `json:"invalid_form_data"`
+	NotFound         string `json:"not_found"`
+	IDRequired       string `json:"id_required"`
+	NoPermission     string `json:"no_permission"`
+	TemplateRequired string `json:"template_required"`
+	AlreadySignedOff string `json:"already_signed_off"`
+	NotSubmitted     string `json:"not_submitted"`
 }
 
 type EvaluationPortalLabels struct {
 	Heading        string `json:"heading"`
 	Caption        string `json:"caption"`
-	StartReview    string `json:"startReview"`
-	ViewLastReview string `json:"viewLastReview"`
+	StartReview    string `json:"start_review"`
+	ViewLastReview string `json:"view_last_review"`
 	Empty          string `json:"empty"`
-	RatingLabel    string `json:"ratingLabel"`
-	LastReview     string `json:"lastReview"`
-	NoReview       string `json:"noReview"`
+	RatingLabel    string `json:"rating_label"`
+	LastReview     string `json:"last_review"`
+	NoReview       string `json:"no_review"`
 }
 
 // DefaultEvaluationLabels returns EvaluationLabels with sensible English defaults.
@@ -382,11 +382,11 @@ type EvaluationResponseEmptyLabels struct {
 }
 
 type EvaluationResponseFormLabels struct {
-	Criterion           string                        `json:"criterion"`
-	Score               string                        `json:"score"`
-	Comment             string                        `json:"comment"`
-	CommentPlaceholder  string                        `json:"commentPlaceholder"`
-	PassFail            EvaluationResponsePassFail    `json:"passFail"`
+	Criterion          string                     `json:"criterion"`
+	Score              string                     `json:"score"`
+	Comment            string                     `json:"comment"`
+	CommentPlaceholder string                     `json:"comment_placeholder"`
+	PassFail           EvaluationResponsePassFail `json:"pass_fail"`
 }
 
 type EvaluationResponsePassFail struct {
@@ -395,15 +395,15 @@ type EvaluationResponsePassFail struct {
 }
 
 type EvaluationResponseDetailLabels struct {
-	WeightedTotal string `json:"weightedTotal"`
-	ScoreSummary  string `json:"scoreSummary"`
-	NotScored     string `json:"notScored"`
+	WeightedTotal string `json:"weighted_total"`
+	ScoreSummary  string `json:"score_summary"`
+	NotScored     string `json:"not_scored"`
 }
 
 type EvaluationResponseErrorLabels struct {
-	NotFound         string `json:"notFound"`
-	PermissionDenied string `json:"permissionDenied"`
-	InvalidFormData  string `json:"invalidFormData"`
+	NotFound         string `json:"not_found"`
+	PermissionDenied string `json:"permission_denied"`
+	InvalidFormData  string `json:"invalid_form_data"`
 }
 
 // DefaultEvaluationResponseLabels returns EvaluationResponseLabels with sensible English defaults.

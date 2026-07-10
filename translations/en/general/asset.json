@@ -1,81 +1,81 @@
 {
-  "assetDetail": {
-    "depreciationRun": {
-      "asOfDateHint": "Periods elapsed up to this date will be included in the run.",
-      "asOfDateLabel": "As of date",
-      "blockerFullyDepreciated": "Fully depreciated",
-      "blockerMissingMethod": "No depreciation method configured",
-      "blockerNotInService": "Not in service",
-      "blockerUnitsRequired": "Units of production required",
-      "blockerUnitsRequiredLink": "Learn more about the UoP plan",
-      "blockerUnitsRequiredMessage": "Units of Production depreciation is not yet supported. Coming in a future release.",
-      "cancelButton": "Cancel",
-      "columnAccumulated": "Projected Accumulated",
-      "columnAmount": "Projected Amount",
-      "columnBookValueAfter": "Book Value After",
-      "columnPeriod": "Period",
-      "columnPeriodEnd": "Period End",
-      "columnPeriodStart": "Period Start",
+  "asset_detail": {
+    "depreciation_run": {
+      "as_of_date_hint": "Periods elapsed up to this date will be included in the run.",
+      "as_of_date_label": "As of date",
+      "blocker_fully_depreciated": "Fully depreciated",
+      "blocker_missing_method": "No depreciation method configured",
+      "blocker_not_in_service": "Not in service",
+      "blocker_units_required": "Units of production required",
+      "blocker_units_required_link": "Learn more about the UoP plan",
+      "blocker_units_required_message": "Units of Production depreciation is not yet supported. Coming in a future release.",
+      "cancel_button": "Cancel",
+      "column_accumulated": "Projected Accumulated",
+      "column_amount": "Projected Amount",
+      "column_book_value_after": "Book Value After",
+      "column_period": "Period",
+      "column_period_end": "Period End",
+      "column_period_start": "Period Start",
       "errors": {
-        "asOfDateInvalid": "As of date is invalid or in the future.",
-        "assetBlocked": "This asset cannot be depreciated: {reason}.",
-        "generateFailed": "Failed to generate depreciation run. Please try again.",
-        "noPeriodsSelected": "Select at least one period to continue.",
-        "workspaceRequired": "A workspace is required to run depreciation."
+        "as_of_date_invalid": "As of date is invalid or in the future.",
+        "asset_blocked": "This asset cannot be depreciated: {reason}.",
+        "generate_failed": "Failed to generate depreciation run. Please try again.",
+        "no_periods_selected": "Select at least one period to continue.",
+        "workspace_required": "A workspace is required to run depreciation."
       },
-      "generateButton": "Generate",
-      "generateButtonCount": "Generate ({count})",
-      "subtitleTemplate": "Pending depreciation periods for {asset.name} ({asset.code})",
+      "generate_button": "Generate",
+      "generate_button_count": "Generate ({count})",
+      "subtitle_template": "Pending depreciation periods for {asset.name} ({asset.code})",
       "title": "Run depreciation",
-      "toastErrored": "{count} period(s) failed to post. View run for details.",
-      "toastSkipped": "{created} posted, {skipped} skipped (already posted).",
-      "toastSuccess": "{count} period(s) posted successfully.",
-      "viewRunLink": "View run"
+      "toast_errored": "{count} period(s) failed to post. View run for details.",
+      "toast_skipped": "{created} posted, {skipped} skipped (already posted).",
+      "toast_success": "{count} period(s) posted successfully.",
+      "view_run_link": "View run"
     },
-    "lapsingActualSchedule": {
-      "columnAccumulated": "Accumulated",
-      "columnClosingBV": "Closing BV",
-      "columnDepreciation": "Depreciation",
-      "columnJE": "JE#",
-      "columnOpeningBV": "Opening BV",
-      "columnPeriod": "Period",
-      "columnRun": "Run",
-      "printTitle": "Lapsing Schedule — {asset.name}",
-      "printWorksheetLabel": "Print worksheet",
-      "runDepreciationLabel": "Run depreciation",
-      "yeRowLabel": "YE {year}",
-      "ytdRowLabel": "YTD {year}"
+    "lapsing_actual_schedule": {
+      "column_accumulated": "Accumulated",
+      "column_closing_bv": "Closing BV",
+      "column_depreciation": "Depreciation",
+      "column_je": "JE#",
+      "column_opening_bv": "Opening BV",
+      "column_period": "Period",
+      "column_run": "Run",
+      "print_title": "Lapsing Schedule — {asset.name}",
+      "print_worksheet_label": "Print worksheet",
+      "run_depreciation_label": "Run depreciation",
+      "ye_row_label": "YE {year}",
+      "ytd_row_label": "YTD {year}"
     },
     "tabs": {
       "attachments": "Attachments",
       "history": "History",
       "info": "Information",
-      "lapsingActualSchedule": "Lapsing schedule (actual)",
-      "transactionLedger": "Transaction ledger"
+      "lapsing_actual_schedule": "Lapsing schedule (actual)",
+      "transaction_ledger": "Transaction ledger"
     },
-    "transactionLedger": {
-      "columnAmount": "Amount",
-      "columnDate": "Date",
-      "columnNotes": "Notes",
-      "columnReference": "Reference",
-      "columnType": "Type",
-      "filterGroupLabel": "Filter by type"
+    "transaction_ledger": {
+      "column_amount": "Amount",
+      "column_date": "Date",
+      "column_notes": "Notes",
+      "column_reference": "Reference",
+      "column_type": "Type",
+      "filter_group_label": "Filter by type"
     }
   },
   "actions": {
-    "cannotDeleteInUse": "Cannot delete: asset has posted transactions.",
+    "cannot_delete_in_use": "Cannot delete: asset has posted transactions.",
     "revalue": "Revalue"
   },
-  "assetEdit": {
-    "depreciationFieldsLockedWarning": "Posted depreciation exists for this asset. Changing depreciation configuration requires a Useful Life Change action (not yet available — see Run history for posted periods).",
-    "unitsOfProductionDisabledTooltip": "Units of Production depreciation is not yet supported. Coming in a future release."
+  "asset_edit": {
+    "depreciation_fields_locked_warning": "Posted depreciation exists for this asset. Changing depreciation configuration requires a Useful Life Change action (not yet available — see Run history for posted periods).",
+    "units_of_production_disabled_tooltip": "Units of Production depreciation is not yet supported. Coming in a future release."
   },
   "form": {
-    "acquisitionCostInfo": "Total cost to acquire or construct the asset, including installation.",
-    "assetNumberInfo": "Unique identifier for this asset in your register (e.g. FA-001).",
-    "depreciationMethodInfo": "The accounting method used to allocate the asset's cost over its useful life.",
-    "salvageValueInfo": "Estimated residual value at the end of the asset's useful life.",
-    "unitsOfProductionDisabledTooltip": "Units of Production depreciation is not yet supported.",
-    "usefulLifeMonthsInfo": "Expected productive life of the asset in months, used to calculate depreciation."
+    "acquisition_cost_info": "Total cost to acquire or construct the asset, including installation.",
+    "asset_number_info": "Unique identifier for this asset in your register (e.g. FA-001).",
+    "depreciation_method_info": "The accounting method used to allocate the asset's cost over its useful life.",
+    "salvage_value_info": "Estimated residual value at the end of the asset's useful life.",
+    "units_of_production_disabled_tooltip": "Units of Production depreciation is not yet supported.",
+    "useful_life_months_info": "Expected productive life of the asset in months, used to calculate depreciation."
   }
 }

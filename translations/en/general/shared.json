@@ -1,22 +1,22 @@
 {
   "errors": {
-    "permissionDenied": "Permission denied",
-    "invalidFormData": "Invalid form data",
-    "invalidStatus": "Invalid status",
-    "invalidTargetStatus": "Invalid target status",
-    "notFound": "Not found",
-    "idRequired": "ID is required",
-    "noIdsProvided": "No IDs provided",
-    "passwordRequired": "Password is required",
-    "passwordFailed": "Password change failed",
-    "passwordManagedByProvider": "This account is managed by an external sign-in provider; password reset is not available here.",
-    "roleRequired": "Role is required",
-    "permissionRequired": "Permission is required",
-    "userRequired": "User is required",
-    "tagNotFound": "Tag not found",
-    "tagNameExists": "A tag with this name already exists",
-    "verifyFailed": "Verification failed",
-    "cannotDeleteInUse": "Cannot delete: item is in use"
+    "permission_denied": "Permission denied",
+    "invalid_form_data": "Invalid form data",
+    "invalid_status": "Invalid status",
+    "invalid_target_status": "Invalid target status",
+    "not_found": "Not found",
+    "id_required": "ID is required",
+    "no_ids_provided": "No IDs provided",
+    "password_required": "Password is required",
+    "password_failed": "Password change failed",
+    "password_managed_by_provider": "This account is managed by an external sign-in provider; password reset is not available here.",
+    "role_required": "Role is required",
+    "permission_required": "Permission is required",
+    "user_required": "User is required",
+    "tag_not_found": "Tag not found",
+    "tag_name_exists": "A tag with this name already exists",
+    "verify_failed": "Verification failed",
+    "cannot_delete_in_use": "Cannot delete: item is in use"
   },
   "confirm": {
     "activate": "Are you sure you want to activate %s?",
@@ -26,18 +26,18 @@
     "hold": "Are you sure you want to put %s on hold?",
     "prospect": "Are you sure you want to set %s as a prospect?",
     "remove": "Are you sure you want to remove %s?",
-    "bulkActivate": "Are you sure you want to activate {{count}} item(s)?",
-    "bulkDeactivate": "Are you sure you want to set {{count}} item(s) as inactive?",
-    "bulkDelete": "Are you sure you want to delete {{count}} item(s)? This action cannot be undone.",
-    "bulkBlock": "Are you sure you want to block {{count}} item(s)?",
-    "bulkHold": "Are you sure you want to put {{count}} item(s) on hold?",
-    "bulkProspect": "Are you sure you want to set {{count}} item(s) as prospects?"
+    "bulk_activate": "Are you sure you want to activate {{count}} item(s)?",
+    "bulk_deactivate": "Are you sure you want to set {{count}} item(s) as inactive?",
+    "bulk_delete": "Are you sure you want to delete {{count}} item(s)? This action cannot be undone.",
+    "bulk_block": "Are you sure you want to block {{count}} item(s)?",
+    "bulk_hold": "Are you sure you want to put {{count}} item(s) on hold?",
+    "bulk_prospect": "Are you sure you want to set {{count}} item(s) as prospects?"
   },
   "badges": {
     "allow": "Allow",
     "deny": "Deny",
     "yes": "Yes",
     "no": "No",
-    "noPermission": "No permission"
+    "no_permission": "No permission"
   }
 }

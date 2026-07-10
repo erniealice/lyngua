@@ -1,6 +1,7 @@
 {
     "clients_app_label": "Students",
-    "delegates_app_label": "Guardians",
+    "clients_title": "Students",
+    "delegates_app_label": "Parents/Guardians",
     "jobs_app_label": "Classes",
     "jobs_app_icon": "icon-briefcase",
     "jobs_title": "Classes",
@@ -13,12 +14,13 @@
     "production_label": "Production",
     "production_icon": "icon-settings",
     "subscriptions_title": "Enrollments",
+    "subscription_groups_title": "Sections",
     "outcomes_title": "Grading",
     "criteria_label": "Rubrics",
     "outcome_log_label": "Grade Book",
     "job_outcome_summary_label": "Report Cards",
-    "services_app_label": "Subjects",
-    "plans_title": "Programs",
+    "services_app_label": "Academics",
+    "plans_title": "Levels",
     "price_lists_title": "Academic Years",
     "activities_title": "Instructor Log"
 }

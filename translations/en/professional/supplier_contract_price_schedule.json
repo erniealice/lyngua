@@ -1,30 +1,30 @@
 {
-  "supplierContractPriceSchedule": {
+  "supplier_contract_price_schedule": {
     "labels": {
       "name": "Contract Rate Period",
-      "namePlural": "Contract Rate Periods",
+      "name_plural": "Contract Rate Periods",
       "line": "Rate Line",
-      "linePlural": "Rate Lines"
+      "line_plural": "Rate Lines"
     },
     "page": {
       "heading": "Contract Rate Periods",
       "caption": "Date-windowed rate cards layered on top of a vendor agreement (e.g. annual SaaS or contractor escalations)",
-      "headingScheduled": "Upcoming Rate Periods",
-      "headingActive": "Current Rate Period",
-      "headingSuperseded": "Past Rate Periods",
-      "headingCancelled": "Cancelled Rate Periods",
-      "tabTitle": "Rate Periods"
+      "heading_scheduled": "Upcoming Rate Periods",
+      "heading_active": "Current Rate Period",
+      "heading_superseded": "Past Rate Periods",
+      "heading_cancelled": "Cancelled Rate Periods",
+      "tab_title": "Rate Periods"
     },
     "buttons": {
       "add": "New Rate Period",
-      "addLine": "Add Rate Line",
+      "add_line": "Add Rate Line",
       "activate": "Activate",
       "supersede": "Supersede",
       "cancel": "Cancel Rate Period"
     },
     "columns": {
       "name": "Rate Period Name",
-      "supplierContract": "Vendor Agreement"
+      "supplier_contract": "Vendor Agreement"
     },
     "empty": {
       "title": "No rate periods yet",
@@ -32,9 +32,9 @@
     },
     "form": {
       "name": "Rate Period Name",
-      "namePlaceholder": "e.g. Year 1 Rate Card",
-      "supplierContract": "Vendor Agreement",
-      "selectSupplierContract": "Select vendor agreement..."
+      "name_placeholder": "e.g. Year 1 Rate Card",
+      "supplier_contract": "Vendor Agreement",
+      "select_supplier_contract": "Select vendor agreement..."
     },
     "tabs": {
       "info": "Information",

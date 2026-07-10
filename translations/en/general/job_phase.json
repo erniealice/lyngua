@@ -1,15 +1,15 @@
 {
   "job_phase": {
     "fields": {
-      "templatePhaseId": "Template Phase",
-      "resourceId": "Resource",
-      "plannedStart": "Planned Start",
-      "plannedEnd": "Planned End",
-      "actualStart": "Actual Start",
-      "actualEnd": "Actual End",
-      "setupMinutes": "Setup Minutes",
-      "runMinutesPerUnit": "Run Minutes Per Unit",
-      "predecessorPhaseId": "Predecessor Phase"
+      "template_phase_id": "Template Phase",
+      "resource_id": "Resource",
+      "planned_start": "Planned Start",
+      "planned_end": "Planned End",
+      "actual_start": "Actual Start",
+      "actual_end": "Actual End",
+      "setup_minutes": "Setup Minutes",
+      "run_minutes_per_unit": "Run Minutes Per Unit",
+      "predecessor_phase_id": "Predecessor Phase"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
-  "clientTitle": "Clients Dashboard",
-  "userTitle": "Users Dashboard",
-  "supplierTitle": "Suppliers Dashboard",
-  "locationTitle": "Locations Dashboard",
-  "adminTitle": "Administration Dashboard"
+  "client_title": "Clients Dashboard",
+  "user_title": "Users Dashboard",
+  "supplier_title": "Suppliers Dashboard",
+  "location_title": "Locations Dashboard",
+  "admin_title": "Administration Dashboard"
 }

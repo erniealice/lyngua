@@ -1,8 +1,8 @@
 {
-  "accruedExpenseSettlement": {
+  "accrued_expense_settlement": {
     "labels": {
       "name": "Settlement",
-      "namePlural": "Settlements"
+      "name_plural": "Settlements"
     },
     "page": {
       "heading": "Accrual Settlements",
@@ -13,57 +13,52 @@
       "reverse": "Reverse Settlement"
     },
     "columns": {
-      "settledAt": "Settled On",
+      "settled_at": "Settled On",
       "expenditure": "Bill",
-      "expenditureLineItem": "Bill Line",
-      "amountSettled": "Amount Applied",
+      "expenditure_line_item": "Bill Line",
+      "amount_settled": "Amount Applied",
       "currency": "Currency",
-      "fxRate": "FX Rate",
-      "fxAdjustmentAmount": "FX Adjustment",
-      "reversedBy": "Reversed By",
-      "reversalReason": "Reversal Reason"
+      "fx_rate": "FX Rate",
+      "fx_adjustment_amount": "FX Adjustment",
+      "reversed_by": "Reversed By",
+      "reversal_reason": "Reversal Reason"
     },
     "empty": {
       "title": "No settlements yet",
       "message": "Record a settlement when a supplier bill arrives that applies against this accrual."
     },
     "form": {
-      "sectionLink": "Accrual & Bill",
-      "sectionAmount": "Amount",
-      "sectionFx": "FX Adjustment",
-      "sectionTiming": "Timing",
-      "sectionReversal": "Reversal",
-
-      "accruedExpense": "Accrual",
-      "selectAccruedExpense": "Select accrual...",
-      "accruedExpenseInfo": "The parent accrual being settled.",
+      "section_link": "Accrual & Bill",
+      "section_amount": "Amount",
+      "section_fx": "FX Adjustment",
+      "section_timing": "Timing",
+      "section_reversal": "Reversal",
+      "accrued_expense": "Accrual",
+      "select_accrued_expense": "Select accrual...",
+      "accrued_expense_info": "The parent accrual being settled.",
       "expenditure": "Bill",
-      "selectExpenditure": "Select bill...",
-      "expenditureInfo": "The supplier bill applying against this accrual.",
-      "expenditureLineItem": "Bill Line",
-      "selectExpenditureLineItem": "Select bill line...",
-      "expenditureLineItemInfo": "Optional bill line. One bill can split across multiple accruals.",
-
-      "amountSettled": "Amount Applied",
-      "amountSettledPlaceholder": "0.00",
-      "amountSettledInfo": "Portion of the bill that settles this accrual, in the accrual currency.",
+      "select_expenditure": "Select bill...",
+      "expenditure_info": "The supplier bill applying against this accrual.",
+      "expenditure_line_item": "Bill Line",
+      "select_expenditure_line_item": "Select bill line...",
+      "expenditure_line_item_info": "Optional bill line. One bill can split across multiple accruals.",
+      "amount_settled": "Amount Applied",
+      "amount_settled_placeholder": "0.00",
+      "amount_settled_info": "Portion of the bill that settles this accrual, in the accrual currency.",
       "currency": "Currency",
-      "currencyPlaceholder": "PHP",
-
-      "fxRate": "FX Rate",
-      "fxRatePlaceholder": "1.0000",
-      "fxRateInfo": "Bill currency to accrual currency conversion rate at settlement date.",
-      "fxAdjustmentAmount": "FX Adjustment",
-      "fxAdjustmentAmountPlaceholder": "0.00",
-      "fxAdjustmentAmountInfo": "FX delta in the accrual currency, when the rate has shifted since recognition.",
-
-      "settledAt": "Settled On",
-      "settledAtInfo": "Date the settlement was applied.",
-
-      "reversedBySettlement": "Reversed By",
-      "reversedBySettlementInfo": "If this settlement has been reversed, link to the reversing settlement row.",
-      "reversalReason": "Reversal Reason",
-      "reversalReasonPlaceholder": "Explain why this settlement was reversed..."
+      "currency_placeholder": "PHP",
+      "fx_rate": "FX Rate",
+      "fx_rate_placeholder": "1.0000",
+      "fx_rate_info": "Bill currency to accrual currency conversion rate at settlement date.",
+      "fx_adjustment_amount": "FX Adjustment",
+      "fx_adjustment_amount_placeholder": "0.00",
+      "fx_adjustment_amount_info": "FX delta in the accrual currency, when the rate has shifted since recognition.",
+      "settled_at": "Settled On",
+      "settled_at_info": "Date the settlement was applied.",
+      "reversed_by_settlement": "Reversed By",
+      "reversed_by_settlement_info": "If this settlement has been reversed, link to the reversing settlement row.",
+      "reversal_reason": "Reversal Reason",
+      "reversal_reason_placeholder": "Explain why this settlement was reversed..."
     },
     "actions": {
       "edit": "Edit Settlement",
@@ -73,15 +68,15 @@
     },
     "confirm": {
       "delete": "Delete Settlement",
-      "deleteMessage": "Are you sure you want to delete this settlement? The parent accrual balance will be recomputed.",
+      "delete_message": "Are you sure you want to delete this settlement? The parent accrual balance will be recomputed.",
       "reverse": "Reverse Settlement",
-      "reverseMessage": "Reversing creates an offsetting settlement row and recomputes parent balances. Continue?"
+      "reverse_message": "Reversing creates an offsetting settlement row and recomputes parent balances. Continue?"
     },
-    "statusMessages": {
-      "createSuccess": "Settlement recorded",
-      "updateSuccess": "Settlement updated",
-      "deleteSuccess": "Settlement removed",
-      "reverseSuccess": "Settlement reversed"
+    "status_messages": {
+      "create_success": "Settlement recorded",
+      "update_success": "Settlement updated",
+      "delete_success": "Settlement removed",
+      "reverse_success": "Settlement reversed"
     },
     "validation": {
       "data_required": "Settlement data is required",
@@ -94,13 +89,12 @@
       "id_required": "Settlement ID is required"
     },
     "errors": {
-      "notFound": "Settlement not found.",
-      "not_found": "Settlement with ID \"{entityId}\" not found",
+      "not_found": "Settlement not found.",
       "creation_failed": "Settlement recording failed",
       "update_failed": "Settlement update failed",
       "deletion_failed": "Settlement deletion failed",
       "list_failed": "Failed to retrieve settlements",
-      "noPermission": "You do not have permission to perform this action.",
+      "no_permission": "You do not have permission to perform this action.",
       "reverse_failed": "Settlement reversal failed"
     }
   }

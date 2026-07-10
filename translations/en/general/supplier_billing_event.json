@@ -1,19 +1,19 @@
 {
-  "supplierBillingEvent": {
+  "supplier_billing_event": {
     "page": {
       "title": "Supplier Billing Events",
       "caption": "Manual billing triggers for supplier subscriptions and contracts."
     },
     "columns": {
       "id": "ID",
-      "supplierSubscription": "Supplier subscription",
-      "supplierContract": "Supplier contract",
-      "billableAmount": "Billable amount",
+      "supplier_subscription": "Supplier subscription",
+      "supplier_contract": "Supplier contract",
+      "billable_amount": "Billable amount",
       "currency": "Currency",
       "status": "Status",
       "trigger": "Trigger",
-      "expenseRecognition": "Expense recognition",
-      "dateCreated": "Created"
+      "expense_recognition": "Expense recognition",
+      "date_created": "Created"
     },
     "status": {
       "unspecified": "Unspecified",
@@ -24,31 +24,31 @@
     },
     "trigger": {
       "unspecified": "Unspecified",
-      "manualEarly": "Manual (early)",
-      "manualLate": "Manual (late)"
+      "manual_early": "Manual (early)",
+      "manual_late": "Manual (late)"
     },
     "actions": {
       "recognize": "Recognize",
-      "markReady": "Mark ready",
+      "mark_ready": "Mark ready",
       "waive": "Waive",
       "cancel": "Cancel"
     },
     "detail": {
       "title": "Supplier billing event",
-      "tabInfo": "Info",
-      "tabAudit": "Audit",
-      "infoHeading": "Billing event details",
-      "linkedAdvanceBadge": "Linked advance"
+      "tab_info": "Info",
+      "tab_audit": "Audit",
+      "info_heading": "Billing event details",
+      "linked_advance_badge": "Linked advance"
     },
     "empty": {
       "title": "No supplier billing events",
       "message": "Supplier billing events appear here once created."
     },
     "errors": {
-      "permissionDenied": "Permission denied",
-      "notFound": "Supplier billing event not found",
-      "alreadyRecognized": "This billing event has already been recognized",
-      "invalidTransition": "Cannot transition from %s to %s"
+      "permission_denied": "Permission denied",
+      "not_found": "Supplier billing event not found",
+      "already_recognized": "This billing event has already been recognized",
+      "invalid_transition": "Cannot transition from %s to %s"
     }
   }
 }

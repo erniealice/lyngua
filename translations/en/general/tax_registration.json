@@ -1,19 +1,19 @@
 {
   "page": {
     "heading": "Tax Registrations",
-    "headingClient": "Client Tax Registrations",
-    "headingWorkspace": "Workspace Tax Registrations",
+    "heading_client": "Client Tax Registrations",
+    "heading_workspace": "Workspace Tax Registrations",
     "caption": "Active tax registrations determine compute path during revenue recognition",
-    "addDrawerTitle": "Add Tax Registration",
-    "editDrawerTitle": "Edit Tax Registration"
+    "add_drawer_title": "Add Tax Registration",
+    "edit_drawer_title": "Edit Tax Registration"
   },
   "columns": {
-    "kindName": "Kind",
-    "computePath": "Compute Path",
-    "partyRole": "Party Role",
+    "kind_name": "Kind",
+    "compute_path": "Compute Path",
+    "party_role": "Party Role",
     "status": "Status",
-    "effectiveFrom": "Effective From",
-    "registrationNumber": "Registration No."
+    "effective_from": "Effective From",
+    "registration_number": "Registration No."
   },
   "buttons": {
     "add": "Add Tax Registration",
@@ -24,27 +24,27 @@
     "view": "View",
     "edit": "Edit",
     "delete": "Delete",
-    "noPermission": "You do not have permission to manage tax registrations"
+    "no_permission": "You do not have permission to manage tax registrations"
   },
   "empty": {
     "title": "No tax registrations",
     "message": "Add a tax registration to enable tax computation for this party."
   },
   "fields": {
-    "taxRegistrationKindId": "Tax Registration Kind",
-    "registrationNumber": "Registration Number",
-    "effectiveFrom": "Effective From",
+    "tax_registration_kind_id": "Tax Registration Kind",
+    "registration_number": "Registration Number",
+    "effective_from": "Effective From",
     "notes": "Notes",
     "status": "Status"
   },
   "revoke": {
-    "warningMessage": "Revoking this registration will affect pending billing periods. Ensure all outstanding periods are settled before proceeding.",
-    "effectiveTo": "Effective To",
-    "affectedPeriodsNotice": "Some pending subscription billing periods fall within the revocation window and may need to be reprocessed.",
-    "affectedPeriodsCount": "Affected billing periods",
-    "affectedSubscriptionsCount": "Affected subscriptions",
-    "reasonLabel": "Reason for revocation",
-    "reasonPlaceholder": "Describe why this registration is being revoked",
-    "confirmButton": "Revoke Registration"
+    "warning_message": "Revoking this registration will affect pending billing periods. Ensure all outstanding periods are settled before proceeding.",
+    "effective_to": "Effective To",
+    "affected_periods_notice": "Some pending subscription billing periods fall within the revocation window and may need to be reprocessed.",
+    "affected_periods_count": "Affected billing periods",
+    "affected_subscriptions_count": "Affected subscriptions",
+    "reason_label": "Reason for revocation",
+    "reason_placeholder": "Describe why this registration is being revoked",
+    "confirm_button": "Revoke Registration"
   }
 }

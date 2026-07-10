@@ -1,37 +1,37 @@
 {
     "page": {
         "heading": "Permissions",
-        "headingActive": "Active Permissions",
-        "headingInactive": "Inactive Permissions",
+        "heading_active": "Active Permissions",
+        "heading_inactive": "Inactive Permissions",
         "caption": "Permission management",
-        "captionActive": "Manage your active permissions",
-        "captionInactive": "View inactive permissions"
+        "caption_active": "Manage your active permissions",
+        "caption_inactive": "View inactive permissions"
     },
     "buttons": {
-        "addPermission": "Add Permission"
+        "add_permission": "Add Permission"
     },
     "columns": {
         "name": "Name",
         "entity": "Entity",
-        "permissionCode": "Permission Code",
+        "permission_code": "Permission Code",
         "type": "Type",
         "status": "Status"
     },
     "empty": {
-        "activeTitle": "No active permissions",
-        "activeMessage": "Add your first permission to get started",
-        "inactiveTitle": "No inactive permissions",
-        "inactiveMessage": "Inactive permissions will appear here"
+        "active_title": "No active permissions",
+        "active_message": "Add your first permission to get started",
+        "inactive_title": "No inactive permissions",
+        "inactive_message": "Inactive permissions will appear here"
     },
     "form": {
         "name": "Name",
-        "namePlaceholder": "e.g. Students: View",
-        "permissionCode": "Permission Code",
-        "permissionCodePlaceholder": "e.g. student:read",
-        "permissionCodeHint": "Format: entity:action (e.g. student:create, user:read, course:manage)",
-        "permissionType": "Permission Type",
+        "name_placeholder": "e.g. Students: View",
+        "permission_code": "Permission Code",
+        "permission_code_placeholder": "e.g. student:read",
+        "permission_code_hint": "Format: entity:action (e.g. student:create, user:read, course:manage)",
+        "permission_type": "Permission Type",
         "description": "Description",
-        "descriptionPlaceholder": "e.g. Allows viewing student records",
+        "description_placeholder": "e.g. Allows viewing student records",
         "active": "Active"
     },
     "actions": {

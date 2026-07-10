@@ -5,10 +5,10 @@
         "subtitle": "Welcome back"
     },
     "stats": {
-        "totalClients": "Total Students",
-        "pipelineValue": "Enrollment Value",
-        "openQuotes": "Open Proposals",
-        "winRate": "Acceptance Rate"
+        "total_clients": "Total Students",
+        "pipeline_value": "Enrollment Value",
+        "open_quotes": "Open Proposals",
+        "win_rate": "Acceptance Rate"
     },
     "revenue": {
         "title": "Tuition & Fees Overview",
@@ -24,40 +24,40 @@
     },
     "activity": {
         "title": "Recent Activity",
-        "viewAll": "View All",
-        "newClientAdded": "New student added",
-        "acmeCorporationJoined": "Riverside Academy joined",
-        "agoMinutes": "m ago",
-        "quoteAccepted": "Proposal accepted",
-        "projectAlpha": "Course Alpha - $24,500",
-        "agoHours": "h ago",
-        "awardEarned": "Award earned",
-        "topPerformerQ4": "Top Performer Q4",
-        "integrationSynced": "Integration synced",
-        "salesforceDataUpdated": "Salesforce data updated"
+        "view_all": "View All",
+        "new_client_added": "New student added",
+        "acme_corporation_joined": "Riverside Academy joined",
+        "ago_minutes": "m ago",
+        "quote_accepted": "Proposal accepted",
+        "project_alpha": "Course Alpha - $24,500",
+        "ago_hours": "h ago",
+        "award_earned": "Award earned",
+        "top_performer_q4": "Top Performer Q4",
+        "integration_synced": "Integration synced",
+        "salesforce_data_updated": "Salesforce data updated"
     },
     "tasks": {
         "title": "Today's Tasks",
-        "addTask": "+ Add Task",
-        "reviewAcmeProposal": "Review Riverside proposal",
-        "dueTodayAt2PM": "Due today at 2:00 PM",
-        "sendFollowUpToTechCorp": "Send follow-up to Hillcrest School",
-        "dueTodayAt4PM": "Due today at 4:00 PM",
-        "updateClientDatabase": "Update student database",
-        "completedAt930AM": "Completed at 9:30 AM",
-        "prepareQ1Report": "Prepare Q1 report",
-        "dueTomorrow": "Due tomorrow"
+        "add_task": "+ Add Task",
+        "review_acme_proposal": "Review Riverside proposal",
+        "due_today_at2_pm": "Due today at 2:00 PM",
+        "send_follow_up_to_tech_corp": "Send follow-up to Hillcrest School",
+        "due_today_at4_pm": "Due today at 4:00 PM",
+        "update_client_database": "Update student database",
+        "completed_at930_am": "Completed at 9:30 AM",
+        "prepare_q1_report": "Prepare Q1 report",
+        "due_tomorrow": "Due tomorrow"
     },
-    "topClients": {
+    "top_clients": {
         "title": "Top Students",
-        "seeAll": "See All",
-        "acmeCorporation": "Riverside Academy",
+        "see_all": "See All",
+        "acme_corporation": "Riverside Academy",
         "projects12": "12 courses",
-        "techCorpInc": "Hillcrest School",
+        "tech_corp_inc": "Hillcrest School",
         "projects8": "8 courses",
-        "globalSolutions": "Maplewood Academy",
+        "global_solutions": "Maplewood Academy",
         "projects6": "6 courses",
-        "startupXYZ": "Eastside Prep",
+        "startup_xyz": "Eastside Prep",
         "projects4": "4 courses"
     }
 }

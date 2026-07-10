@@ -11,16 +11,16 @@
   },
   "errors": {
     "general": "Something went wrong",
-    "notFound": "Not found",
+    "not_found": "Not found",
     "unauthorized": "Unauthorized",
     "forbidden": "Forbidden",
-    "noPermission": "No permission",
-    "missingPermission": "Missing permission: %s",
-    "permissionDenied": "Permission denied",
-    "invalidFormData": "Invalid form data",
-    "invalidStatus": "Invalid status",
-    "invalidTargetStatus": "Invalid target status",
-    "idRequired": "ID is required",
-    "noIDsProvided": "No IDs provided"
+    "no_permission": "No permission",
+    "missing_permission": "Missing permission: %s",
+    "permission_denied": "Permission denied",
+    "invalid_form_data": "Invalid form data",
+    "invalid_status": "Invalid status",
+    "invalid_target_status": "Invalid target status",
+    "id_required": "ID is required",
+    "no_ids_provided": "No IDs provided"
   }
 }

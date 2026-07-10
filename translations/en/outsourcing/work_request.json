@@ -1,5 +1,5 @@
 {
-  "workRequest": {
+  "work_request": {
     "page": {
       "heading": "Service Requests",
       "caption": "Manage outsourced service requests and SLA compliance"
@@ -9,41 +9,41 @@
       "plural": "Service Requests"
     },
     "buttons": {
-      "addRequest": "New Service Request",
-      "addInternalRequest": "New Internal Request"
+      "add_request": "New Service Request",
+      "add_internal_request": "New Internal Request"
     },
     "columns": {
-      "assignedTo": "Account Manager"
+      "assigned_to": "Account Manager"
     },
     "origin": {
-      "clientOriginated": "Client Raised",
-      "clientRelatedInternal": "Account-Related",
+      "client_originated": "Client Raised",
+      "client_related_internal": "Account-Related",
       "internal": "Internal Operations"
     },
     "form": {
-      "assignedTo": "Account Manager",
-      "assignedToPlaceholder": "Select an account manager",
-      "assignedToInfo": "The account manager responsible for this service request.",
-      "clientInfo": "The client account this service request is raised against."
+      "assigned_to": "Account Manager",
+      "assigned_to_placeholder": "Select an account manager",
+      "assigned_to_info": "The account manager responsible for this service request.",
+      "client_info": "The client account this service request is raised against."
     },
     "actions": {
       "triage": "Route Request"
     },
     "detail": {
-      "assignedTo": "Account Manager",
-      "noAssignee": "No account manager assigned"
+      "assigned_to": "Account Manager",
+      "no_assignee": "No account manager assigned"
     },
     "portal": {
-      "raiseHeading": "Raise a Service Request",
-      "raiseCaption": "Select a service category to raise a request with your provider.",
-      "myRequestsHeading": "My Service Requests",
-      "myRequestsCaption": "Track the status of your service requests.",
-      "myRequestsEmpty": "You have not raised any service requests yet."
+      "raise_heading": "Raise a Service Request",
+      "raise_caption": "Select a service category to raise a request with your provider.",
+      "my_requests_heading": "My Service Requests",
+      "my_requests_caption": "Track the status of your service requests.",
+      "my_requests_empty": "You have not raised any service requests yet."
     },
     "kpi": {
-      "openRequests": "Open Requests",
-      "slaBreached": "SLA Breached",
-      "avgResolutionTime": "Avg Resolution Time"
+      "open_requests": "Open Requests",
+      "sla_breached": "SLA Breached",
+      "avg_resolution_time": "Avg Resolution Time"
     },
     "empty": {
       "title": "No service requests found",

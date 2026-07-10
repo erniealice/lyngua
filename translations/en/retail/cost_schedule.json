@@ -1,15 +1,15 @@
 {
-  "costSchedule": {
+  "cost_schedule": {
     "page": {
       "heading": "Vendor Pricing Windows",
-      "headingActive": "Active Vendor Pricing Windows",
-      "headingInactive": "Inactive Vendor Pricing Windows",
+      "heading_active": "Active Vendor Pricing Windows",
+      "heading_inactive": "Inactive Vendor Pricing Windows",
       "caption": "Manage vendor pricing windows",
-      "captionActive": "Manage your active vendor pricing windows",
-      "captionInactive": "View inactive vendor pricing windows"
+      "caption_active": "Manage your active vendor pricing windows",
+      "caption_inactive": "View inactive vendor pricing windows"
     },
     "buttons": {
-      "addCostSchedule": "Add Vendor Pricing Window"
+      "add_cost_schedule": "Add Vendor Pricing Window"
     },
     "actions": {
       "view": "View Vendor Pricing Window",

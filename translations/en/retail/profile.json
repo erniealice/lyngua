@@ -1,9 +1,9 @@
 {
   "sidebar": {
     "title": "Settings",
-    "closeSettings": "Close settings",
-    "accountSection": "Account",
-    "billingSection": "Billing",
+    "close_settings": "Close settings",
+    "account_section": "Account",
+    "billing_section": "Billing",
     "profile": "Profile",
     "security": "Security",
     "billing": "Billing"
@@ -11,70 +11,70 @@
   "profile": {
     "title": "Profile",
     "subtitle": "Manage your personal information and preferences",
-    "personalInfo": {
+    "personal_info": {
       "title": "Personal Information",
       "subtitle": "Your name and contact details",
-      "profilePhoto": "Profile Photo",
-      "uploadPhoto": "Upload Photo",
+      "profile_photo": "Profile Photo",
+      "upload_photo": "Upload Photo",
       "remove": "Remove",
-      "firstName": "First Name",
-      "firstNamePlaceholder": "Enter your first name",
-      "lastName": "Last Name",
-      "lastNamePlaceholder": "Enter your last name",
+      "first_name": "First Name",
+      "first_name_placeholder": "Enter your first name",
+      "last_name": "Last Name",
+      "last_name_placeholder": "Enter your last name",
       "email": "Email Address",
-      "emailPlaceholder": "Enter your email",
-      "emailHelp": "This email is used for login and notifications",
+      "email_placeholder": "Enter your email",
+      "email_help": "This email is used for login and notifications",
       "phone": "Phone Number",
-      "phonePlaceholder": "Enter your phone number"
+      "phone_placeholder": "Enter your phone number"
     },
-    "companyInfo": {
+    "company_info": {
       "title": "Company Information",
       "subtitle": "Your organization details",
-      "companyName": "Company Name",
-      "companyNamePlaceholder": "Enter company name",
-      "jobTitle": "Job Title",
-      "jobTitlePlaceholder": "Enter your role",
+      "company_name": "Company Name",
+      "company_name_placeholder": "Enter company name",
+      "job_title": "Job Title",
+      "job_title_placeholder": "Enter your role",
       "department": "Department",
-      "departmentPlaceholder": "Enter department"
+      "department_placeholder": "Enter department"
     }
   },
   "security": {
     "title": "Security",
     "subtitle": "Manage your password and security settings",
-    "changePassword": {
+    "change_password": {
       "title": "Change Password",
       "subtitle": "Update your password regularly to keep your account secure",
-      "currentPassword": "Current Password",
-      "currentPasswordPlaceholder": "Enter your current password",
-      "newPassword": "New Password",
-      "newPasswordPlaceholder": "Enter new password",
-      "confirmPassword": "Confirm New Password",
-      "confirmPasswordPlaceholder": "Confirm new password",
-      "passwordHelp": "Password must be at least 8 characters with a mix of letters, numbers, and symbols",
-      "updatePassword": "Update Password"
+      "current_password": "Current Password",
+      "current_password_placeholder": "Enter your current password",
+      "new_password": "New Password",
+      "new_password_placeholder": "Enter new password",
+      "confirm_password": "Confirm New Password",
+      "confirm_password_placeholder": "Confirm new password",
+      "password_help": "Password must be at least 8 characters with a mix of letters, numbers, and symbols",
+      "update_password": "Update Password"
     },
-    "twoFactor": {
+    "two_factor": {
       "title": "Two-Factor Authentication",
       "subtitle": "Add an extra layer of security to your account",
-      "enabledTitle": "Two-factor authentication is enabled",
-      "enabledDesc": "Your account is protected with an authenticator app",
-      "disabledTitle": "Two-factor authentication is disabled",
-      "disabledDesc": "Enable 2FA to add an extra layer of security",
+      "enabled_title": "Two-factor authentication is enabled",
+      "enabled_desc": "Your account is protected with an authenticator app",
+      "disabled_title": "Two-factor authentication is disabled",
+      "disabled_desc": "Enable 2FA to add an extra layer of security",
       "enable": "Enable 2FA",
       "disable": "Disable 2FA"
     },
     "sessions": {
       "title": "Active Sessions",
       "subtitle": "Manage devices where you're currently logged in",
-      "signOutAll": "Sign Out All",
+      "sign_out_all": "Sign Out All",
       "current": "Current",
-      "signOut": "Sign Out"
+      "sign_out": "Sign Out"
     },
-    "dangerZone": {
+    "danger_zone": {
       "title": "Danger Zone",
       "subtitle": "Irreversible actions for your account",
-      "deleteWarning": "Once you delete your account, there is no going back. All your data will be permanently removed.",
-      "deleteAccount": "Delete Account"
+      "delete_warning": "Once you delete your account, there is no going back. All your data will be permanently removed.",
+      "delete_account": "Delete Account"
     }
   },
   "billing": {
@@ -83,36 +83,36 @@
     "tabs": {
       "overview": "Overview",
       "invoices": "Invoices",
-      "paymentMethods": "Payment Methods"
+      "payment_methods": "Payment Methods"
     },
     "subscription": {
-      "nextBillingDate": "Next billing date:",
-      "changePlan": "Change Plan",
-      "cancelSubscription": "Cancel Subscription"
+      "next_billing_date": "Next billing date:",
+      "change_plan": "Change Plan",
+      "cancel_subscription": "Cancel Subscription"
     },
     "usage": {
       "title": "Usage This Period",
-      "quotesCreated": "Quotes Created",
-      "activeClients": "Active Clients",
-      "teamMembers": "Team Members"
+      "quotes_created": "Quotes Created",
+      "active_clients": "Active Clients",
+      "team_members": "Team Members"
     },
     "features": {
       "title": "Plan Features",
-      "subtitlePrefix": "What's included in your",
-      "unlimitedQuotes": "Unlimited quotes",
-      "activeClientsLimit": "Up to 50 active clients",
-      "teamMembersLimit": "5 team members",
-      "customBranding": "Custom branding",
-      "prioritySupport": "Priority support",
-      "apiAccess": "API access"
+      "subtitle_prefix": "What's included in your",
+      "unlimited_quotes": "Unlimited quotes",
+      "active_clients_limit": "Up to 50 active clients",
+      "team_members_limit": "5 team members",
+      "custom_branding": "Custom branding",
+      "priority_support": "Priority support",
+      "api_access": "API access"
     },
     "invoices": {
       "title": "Invoice History",
       "subtitle": "View and download your past invoices",
-      "colInvoice": "Invoice",
-      "colDate": "Date",
-      "colAmount": "Amount",
-      "colStatus": "Status",
+      "col_invoice": "Invoice",
+      "col_date": "Date",
+      "col_amount": "Amount",
+      "col_status": "Status",
       "download": "Download"
     },
     "address": {
@@ -120,32 +120,32 @@
       "subtitle": "This address appears on your invoices",
       "edit": "Edit"
     },
-    "paymentMethods": {
+    "payment_methods": {
       "title": "Payment Methods",
       "subtitle": "Manage your cards and payment options",
-      "addCard": "Add Card",
-      "endingIn": "ending in",
+      "add_card": "Add Card",
+      "ending_in": "ending in",
       "expires": "Expires",
       "default": "Default",
-      "setDefault": "Set Default",
-      "removeCard": "Remove card",
-      "noMethods": "No payment methods added yet",
-      "addFirstCard": "Add Your First Card",
+      "set_default": "Set Default",
+      "remove_card": "Remove card",
+      "no_methods": "No payment methods added yet",
+      "add_first_card": "Add Your First Card",
       "visa": "Visa",
       "mastercard": "Mastercard",
       "card": "Card"
     },
-    "paymentSecurity": {
+    "payment_security": {
       "title": "Payment Security",
       "subtitle": "Your payment information is secure",
-      "pciCompliant": "PCI DSS Compliant",
-      "sslEncryption": "256-bit SSL Encryption",
-      "secureProcessing": "Secure payment processing"
+      "pci_compliant": "PCI DSS Compliant",
+      "ssl_encryption": "256-bit SSL Encryption",
+      "secure_processing": "Secure payment processing"
     }
   },
   "buttons": {
     "cancel": "Cancel",
-    "saveChanges": "Save Changes",
+    "save_changes": "Save Changes",
     "edit": "Edit"
   }
 }

@@ -4,16 +4,16 @@
     "caption": "Payment history for this loan"
   },
   "buttons": {
-    "recordPayment": "Record Payment"
+    "record_payment": "Record Payment"
   },
   "columns": {
-    "paymentNumber": "Payment #",
-    "paymentDate": "Date",
-    "principalAmount": "Principal",
-    "interestAmount": "Interest",
-    "feeAmount": "Fees",
-    "totalAmount": "Total",
-    "remainingBalance": "Balance"
+    "payment_number": "Payment #",
+    "payment_date": "Date",
+    "principal_amount": "Principal",
+    "interest_amount": "Interest",
+    "fee_amount": "Fees",
+    "total_amount": "Total",
+    "remaining_balance": "Balance"
   },
   "empty": {
     "title": "No payments recorded",
@@ -21,18 +21,18 @@
   },
   "actions": {
     "view": "View",
-    "noPermission": "No permission"
+    "no_permission": "No permission"
   },
   "form": {
-    "paymentNumber": "Payment Number",
-    "paymentNumberPlaceholder": "e.g. PAY-001",
-    "paymentDate": "Payment Date",
-    "principalAmount": "Principal Amount",
-    "interestAmount": "Interest Amount",
-    "feeAmount": "Fees (PFRS 9)",
-    "totalAmount": "Total Payment",
-    "remainingBalance": "Remaining Balance After Payment",
+    "payment_number": "Payment Number",
+    "payment_number_placeholder": "e.g. PAY-001",
+    "payment_date": "Payment Date",
+    "principal_amount": "Principal Amount",
+    "interest_amount": "Interest Amount",
+    "fee_amount": "Fees (PFRS 9)",
+    "total_amount": "Total Payment",
+    "remaining_balance": "Remaining Balance After Payment",
     "notes": "Notes",
-    "notesPlaceholder": "Optional payment notes or reference"
+    "notes_placeholder": "Optional payment notes or reference"
   }
 }

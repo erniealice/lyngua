@@ -1,82 +1,82 @@
 {
   "revenue": {
     "errors": {
-      "subscriptionPlanClientDrift": "The subscription's client does not match the plan's client scope. Detach or re-scope the plan before recognizing revenue.",
-      "noLinesToInvoice": "Cannot create an invoice with no line items. Add a price plan with at least one product, or override at least one line."
+      "subscription_plan_client_drift": "The subscription's client does not match the plan's client scope. Detach or re-scope the plan before recognizing revenue.",
+      "no_lines_to_invoice": "Cannot create an invoice with no line items. Add a price plan with at least one product, or override at least one line."
     },
     "form": {
-      "referenceInfo": "Unique identifier for this revenue record. Used on invoices and receipts.",
-      "dateInfo": "The date the revenue is recognised or the transaction took place.",
-      "customerInfo": "The client this revenue record is billed to.",
-      "locationInfo": "The branch or location where this revenue was generated.",
-      "subscriptionInfo": "Link to an existing subscription to pre-fill line items and apply the agreed pricing.",
-      "currencyInfo": "Currency used for all amounts on this record.",
-      "notesInfo": "Internal remarks — shown on detail pages but not on customer-facing documents.",
-      "sectionTax": "Taxes",
-      "taxDirectionSurcharge": "VAT / Sales Tax",
-      "taxDirectionWithholding": "Withholding Tax",
-      "taxKind": "Tax",
-      "taxRegCode": "Reg. Code",
-      "taxRate": "Rate",
-      "taxableBase": "Taxable Base",
-      "taxAmount": "Amount",
-      "netReceivable": "Net receivable",
-      "whtAmount": "WHT pending",
-      "grandTotal": "Grand Total",
-      "settlementStatus": "Settlement Status",
+      "reference_info": "Unique identifier for this revenue record. Used on invoices and receipts.",
+      "date_info": "The date the revenue is recognised or the transaction took place.",
+      "customer_info": "The client this revenue record is billed to.",
+      "location_info": "The branch or location where this revenue was generated.",
+      "subscription_info": "Link to an existing subscription to pre-fill line items and apply the agreed pricing.",
+      "currency_info": "Currency used for all amounts on this record.",
+      "notes_info": "Internal remarks — shown on detail pages but not on customer-facing documents.",
+      "section_tax": "Taxes",
+      "tax_direction_surcharge": "VAT / Sales Tax",
+      "tax_direction_withholding": "Withholding Tax",
+      "tax_kind": "Tax",
+      "tax_reg_code": "Reg. Code",
+      "tax_rate": "Rate",
+      "taxable_base": "Taxable Base",
+      "tax_amount": "Amount",
+      "net_receivable": "Net receivable",
+      "wht_amount": "WHT pending",
+      "grand_total": "Grand Total",
+      "settlement_status": "Settlement Status",
       "recompute": "Recompute",
-      "addWHTCertificate": "Add Withholding Certificate",
+      "add_whtcertificate": "Add Withholding Certificate",
       "billed": "Billed",
       "recorded": "Recorded",
       "rate": "Rate",
-      "rateSourceOperator": "operator entered",
-      "recomputeUnavailable": "Tax recompute is not yet available.",
-      "taxKindVatStandard": "VAT (Standard)",
-      "taxKindWhtProfessionalIndividual": "WHT — Professional (Individual)",
-      "taxKindWhtProfessionalCorporate": "WHT — Professional (Corporate)",
-      "taxKindWhtRental": "WHT — Rental",
-      "taxKindWhtGoodsTwa": "WHT — Goods (TWA)",
-      "taxKindWhtServicesTwa": "WHT — Services (TWA)",
-      "taxKindWhtNonResident": "WHT — Non-Resident"
+      "rate_source_operator": "operator entered",
+      "recompute_unavailable": "Tax recompute is not yet available.",
+      "tax_kind_vat_standard": "VAT (Standard)",
+      "tax_kind_wht_professional_individual": "WHT — Professional (Individual)",
+      "tax_kind_wht_professional_corporate": "WHT — Professional (Corporate)",
+      "tax_kind_wht_rental": "WHT — Rental",
+      "tax_kind_wht_goods_twa": "WHT — Goods (TWA)",
+      "tax_kind_wht_services_twa": "WHT — Services (TWA)",
+      "tax_kind_wht_non_resident": "WHT — Non-Resident"
     }
   },
-  "revenueRun": {
-    "appLabel": "Invoice Run",
-    "queueTitle": "Invoice Run Queue",
-    "queueSubtitle": "Clients with pending invoice periods, ready to run.",
-    "queueColumns": {
+  "revenue_run": {
+    "app_label": "Invoice Run",
+    "queue_title": "Invoice Run Queue",
+    "queue_subtitle": "Clients with pending invoice periods, ready to run.",
+    "queue_columns": {
       "client": "Client",
       "subscriptions": "Subscriptions",
-      "pendingPeriods": "Pending Periods",
+      "pending_periods": "Pending Periods",
       "total": "Total",
       "currency": "Currency",
       "actions": "Actions",
       "run": "Run"
     },
-    "queueEmpty": {
+    "queue_empty": {
       "title": "No clients pending",
       "message": "All clients are up to date — no invoice periods are waiting."
     },
-    "queueBulk": {
-      "runSelected": "Run Selected",
-      "runAllMatching": "Run All Matching",
-      "capExceededMessage": "Selection capped at 50 clients. Narrow your filters to run more at once."
+    "queue_bulk": {
+      "run_selected": "Run Selected",
+      "run_all_matching": "Run All Matching",
+      "cap_exceeded_message": "Selection capped at 50 clients. Narrow your filters to run more at once."
     },
-    "listTitle": "Invoice Run History",
-    "listSubtitle": "Audit trail of every invoice generation run.",
-    "listColumns": {
+    "list_title": "Invoice Run History",
+    "list_subtitle": "Audit trail of every invoice generation run.",
+    "list_columns": {
       "id": "Run ID",
       "scope": "Scope",
-      "asOfDate": "As of Date",
+      "as_of_date": "As of Date",
       "initiator": "Initiated By",
-      "initiatedAt": "Initiated At",
+      "initiated_at": "Initiated At",
       "status": "Status",
       "created": "Created",
       "skipped": "Skipped",
       "errored": "Errored",
       "actions": "Actions"
     },
-    "listEmpty": {
+    "list_empty": {
       "pending": {
         "title": "No pending runs",
         "message": "There are no invoice runs currently in progress."
@@ -90,65 +90,65 @@
         "message": "Failed invoice runs will appear here."
       }
     },
-    "listFilterLabels": {
+    "list_filter_labels": {
       "pending": "Pending",
       "complete": "Complete",
       "failed": "Failed"
     },
-    "detailTitle": "Invoice Run",
-    "detailTabs": {
+    "detail_title": "Invoice Run",
+    "detail_tabs": {
       "summary": "Summary",
       "selections": "Selections",
       "results": "Results",
       "invoices": "Invoices",
-      "auditHistory": "Audit History"
+      "audit_history": "Audit History"
     },
-    "detailSummary": {
+    "detail_summary": {
       "scope": "Scope",
-      "asOfDate": "As of Date",
+      "as_of_date": "As of Date",
       "initiator": "Initiated By",
-      "initiatedAt": "Initiated At",
-      "completedAt": "Completed At",
+      "initiated_at": "Initiated At",
+      "completed_at": "Completed At",
       "status": "Status",
       "totals": "Totals",
-      "possiblyInterruptedNote": "This run may have been interrupted before completing. Some invoices may be missing."
+      "possibly_interrupted_note": "This run may have been interrupted before completing. Some invoices may be missing."
     },
-    "statusBadges": {
+    "status_badges": {
       "pending": "Pending",
       "complete": "Complete",
       "failed": "Failed",
-      "possiblyInterrupted": "Possibly Interrupted"
+      "possibly_interrupted": "Possibly Interrupted"
     },
     "actions": {
       "run": "Run",
-      "reRunFailed": "Re-run Failed",
-      "reRunFailedComingSoon": "Re-run Failed (Coming Soon)",
-      "viewRun": "View Run",
-      "viewClient": "View Client",
-      "viewSubscription": "View Subscription"
+      "re_run_failed": "Re-run Failed",
+      "re_run_failed_coming_soon": "Re-run Failed (Coming Soon)",
+      "view_run": "View Run",
+      "view_client": "View Client",
+      "view_subscription": "View Subscription"
     },
-    "scopeKind": {
+    "scope_kind": {
       "subscription": "Subscription",
       "client": "Client",
       "workspace": "Workspace"
     },
-    "attemptOutcome": {
+    "attempt_outcome": {
       "created": "Created",
       "skipped": "Skipped",
       "errored": "Errored"
     },
     "errors": {
-      "capExceeded": "Selection exceeds the maximum allowed batch size.",
-      "permissionDenied": "You do not have permission to perform this action.",
-      "useCaseUnavailable": "Invoice run is not available in this workspace configuration.",
-      "invalidSelection": "One or more selected subscriptions are invalid or ineligible.",
-      "idempotencyConflict": "An invoice for one or more of these periods already exists.",
-      "clientMismatch": "Selected subscriptions belong to different clients.",
-      "workspaceMismatch": "Selected items do not belong to the current workspace.",
-      "tamperedPeriod": "A billing period was modified after selection — please refresh and try again.",
-      "runAllMatchingNotImplemented": "Run for all matching is not yet available. Please select individual clients."
+      "cap_exceeded": "Selection exceeds the maximum allowed batch size.",
+      "permission_denied": "You do not have permission to perform this action.",
+      "use_case_unavailable": "Invoice run is not available in this workspace configuration.",
+      "invalid_selection": "One or more selected subscriptions are invalid or ineligible.",
+      "idempotency_conflict": "An invoice for one or more of these periods already exists.",
+      "client_mismatch": "Selected subscriptions belong to different clients.",
+      "workspace_mismatch": "Selected items do not belong to the current workspace.",
+      "tampered_period": "A billing period was modified after selection — please refresh and try again.",
+      "run_all_matching_not_implemented": "Run for all matching is not yet available. Please select individual clients."
     },
-    "toastBatchSuccess": "Invoice batch run — {{.Created}} created, {{.Skipped}} skipped, {{.Errored}} failed.",
-    "viewRunLink": "View run"
+    "toast_batch_success": "Invoice batch run — {{.Created}} created, {{.Skipped}} skipped, {{.Errored}} failed.",
+    "view_run_link": "View run"
   }
 }

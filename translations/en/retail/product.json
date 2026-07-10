@@ -2,14 +2,14 @@
   "product": {
     "page": {
       "heading": "Products",
-      "headingActive": "Active Products",
-      "headingInactive": "Inactive Products",
+      "heading_active": "Active Products",
+      "heading_inactive": "Inactive Products",
       "caption": "Manage your product catalog",
-      "captionActive": "View and manage active products",
-      "captionInactive": "View discontinued products"
+      "caption_active": "View and manage active products",
+      "caption_inactive": "View discontinued products"
     },
     "buttons": {
-      "addProduct": "Add Product"
+      "add_product": "Add Product"
     },
     "columns": {
       "name": "Product Name",
@@ -18,32 +18,32 @@
       "status": "Status"
     },
     "empty": {
-      "activeTitle": "No active products",
-      "activeMessage": "Add your first product to get started.",
-      "inactiveTitle": "No inactive products",
-      "inactiveMessage": "Discontinued products will appear here."
+      "active_title": "No active products",
+      "active_message": "Add your first product to get started.",
+      "inactive_title": "No inactive products",
+      "inactive_message": "Discontinued products will appear here."
     },
     "form": {
       "name": "Product Name",
       "description": "Description",
-      "descriptionPlaceholder": "Enter product description...",
+      "description_placeholder": "Enter product description...",
       "price": "Price",
       "currency": "Currency",
       "active": "Active",
-      "pricePlaceholder": "Leave empty to use base price",
-      "selectOption": "Select",
+      "price_placeholder": "Leave empty to use base price",
+      "select_option": "Select",
       "required": "Required",
       "option": "Option",
-      "selectAttribute": "— Select attribute —",
-      "allAttributesAssigned": "All available attributes have already been assigned to this product.",
-      "optionNeedsValuesAlert": "This required option has no values yet. Add values on the option detail page before assigning variants."
+      "select_attribute": "— Select attribute —",
+      "all_attributes_assigned": "All available attributes have already been assigned to this product.",
+      "option_needs_values_alert": "This required option has no values yet. Add values on the option detail page before assigning variants."
     },
     "actions": {
       "view": "View Product",
       "edit": "Edit Product",
       "delete": "Delete Product"
     },
-    "bulkActions": {
+    "bulk_actions": {
       "delete": "Delete Selected"
     },
     "tabs": {
@@ -56,55 +56,55 @@
       "stock": "Stock",
       "lines": "Lines",
       "attachments": "Attachments",
-      "auditTrail": "Audit Trail",
-      "auditHistory": "History",
+      "audit_trail": "Audit Trail",
+      "audit_history": "History",
       "serials": "Serials",
-      "pricingHistory": "Pricing History"
+      "pricing_history": "Pricing History"
     },
     "detail": {
       "price": "Price",
       "currency": "Currency",
       "collections": "Collections",
-      "variantCount": "Variants",
+      "variant_count": "Variants",
       "status": "Status",
-      "optionsLabel": "Options",
-      "emptyVariantsMessage": "No variants have been created for this product yet.",
-      "serialNumber": "Serial Number",
+      "options_label": "Options",
+      "empty_variants_message": "No variants have been created for this product yet.",
+      "serial_number": "Serial Number",
       "imei": "IMEI",
-      "warrantyEnd": "Warranty End",
-      "purchaseOrder": "Purchase Order",
-      "noSerialNumbers": "No Serial Numbers",
-      "noSerialNumbersMsg": "No serial numbers have been recorded for this inventory item.",
-      "variantInformation": "Variant Information",
+      "warranty_end": "Warranty End",
+      "purchase_order": "Purchase Order",
+      "no_serial_numbers": "No Serial Numbers",
+      "no_serial_numbers_msg": "No serial numbers have been recorded for this inventory item.",
+      "variant_information": "Variant Information",
       "options": "Options",
-      "variantPricing": "Variant Pricing",
-      "variantPricingDesc": "Set a custom price for this variant, or leave empty to use the base product price.",
-      "inventoryStock": "Inventory Stock",
-      "inventoryStockDesc": "Stock levels are tracked per location. View and manage stock from the inventory module.",
-      "dropImagesHere": "Drop images here or click to browse",
-      "imageFileHint": "Max 5 MB per file. JPEG, PNG, WebP.",
-      "deleteSelected": "Delete Selected",
-      "primaryBadge": "Primary",
-      "noImages": "No Images",
-      "noImagesDesc": "Upload images using the drop zone above.",
-      "auditTrail": "Audit Trail",
-      "auditTrailDesc": "Audit trail for variant changes is coming soon.",
-      "noSerialNumbersDesc": "No serial numbers have been recorded for this inventory item.",
-      "inventoryItem": "Inventory Item",
+      "variant_pricing": "Variant Pricing",
+      "variant_pricing_desc": "Set a custom price for this variant, or leave empty to use the base product price.",
+      "inventory_stock": "Inventory Stock",
+      "inventory_stock_desc": "Stock levels are tracked per location. View and manage stock from the inventory module.",
+      "drop_images_here": "Drop images here or click to browse",
+      "image_file_hint": "Max 5 MB per file. JPEG, PNG, WebP.",
+      "delete_selected": "Delete Selected",
+      "primary_badge": "Primary",
+      "no_images": "No Images",
+      "no_images_desc": "Upload images using the drop zone above.",
+      "audit_trail": "Audit Trail",
+      "audit_trail_desc": "Audit trail for variant changes is coming soon.",
+      "no_serial_numbers_desc": "No serial numbers have been recorded for this inventory item.",
+      "inventory_item": "Inventory Item",
       "name": "Name",
       "sku": "SKU",
       "type": "Type",
       "location": "Location",
-      "qtyOnHand": "Qty On Hand",
+      "qty_on_hand": "Qty On Hand",
       "reserved": "Reserved",
       "available": "Available",
-      "statTotal": "Total",
-      "statAvailable": "Available",
-      "statSold": "Sold",
-      "statReserved": "Reserved",
-      "pricingHistory": "Pricing History",
-      "pricingHistoryDesc": "Pricing history for this item is coming soon.",
-      "serialInformation": "Serial Information"
+      "stat_total": "Total",
+      "stat_available": "Available",
+      "stat_sold": "Sold",
+      "stat_reserved": "Reserved",
+      "pricing_history": "Pricing History",
+      "pricing_history_desc": "Pricing history for this item is coming soon.",
+      "serial_information": "Serial Information"
     },
     "status": {
       "activate": "Activate",
@@ -113,56 +113,56 @@
     "variant": {
       "title": "Product Variants",
       "sku": "SKU",
-      "priceOverride": "Price Override",
+      "price_override": "Price Override",
       "attributes": "Attributes",
       "assign": "Add Variant",
       "edit": "Edit Variant",
       "remove": "Remove Variant",
       "empty": "No Variants",
       "location": "Location",
-      "qtyOnHand": "Qty On Hand",
-      "serialCount": "Serial Count",
-      "noStock": "No Stock",
-      "noStockMsg": "No stock records found for this variant.",
+      "qty_on_hand": "Qty On Hand",
+      "serial_count": "Serial Count",
+      "no_stock": "No Stock",
+      "no_stock_msg": "No stock records found for this variant.",
       "pricing": {
         "start": "Start Date",
         "end": "End Date",
         "package": "Package",
-        "rateCard": "Rate Card",
+        "rate_card": "Rate Card",
         "amount": "Amount"
       }
     },
     "attribute": {
       "title": "Attribute",
-      "defaultValue": "Default Value",
+      "default_value": "Default Value",
       "assign": "Add Attribute",
       "remove": "Remove Attribute",
       "empty": "No Attributes"
     },
     "confirm": {
       "activate": "Activate Product",
-      "activateMessage": "Are you sure you want to activate product \"%s\"?",
+      "activate_message": "Are you sure you want to activate product \"%s\"?",
       "deactivate": "Deactivate Product",
-      "deactivateMessage": "Are you sure you want to deactivate product \"%s\"?",
-      "bulkActivate": "Activate Products",
-      "bulkActivateMessage": "Are you sure you want to activate the selected products?",
-      "bulkDeactivate": "Deactivate Products",
-      "bulkDeactivateMessage": "Are you sure you want to deactivate the selected products?",
-      "bulkDelete": "Delete Products",
-      "bulkDeleteMessage": "Are you sure you want to delete the selected products? This action cannot be undone.",
-      "removeVariant": "Remove Variant",
-      "removeVariantMessage": "Are you sure you want to remove this variant?"
+      "deactivate_message": "Are you sure you want to deactivate product \"%s\"?",
+      "bulk_activate": "Activate Products",
+      "bulk_activate_message": "Are you sure you want to activate the selected products?",
+      "bulk_deactivate": "Deactivate Products",
+      "bulk_deactivate_message": "Are you sure you want to deactivate the selected products?",
+      "bulk_delete": "Delete Products",
+      "bulk_delete_message": "Are you sure you want to delete the selected products? This action cannot be undone.",
+      "remove_variant": "Remove Variant",
+      "remove_variant_message": "Are you sure you want to remove this variant?"
     },
     "errors": {
-      "permissionDenied": "You do not have permission to perform this action",
-      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
-      "notFound": "Product not found",
-      "idRequired": "Product ID is required",
-      "noIDsProvided": "No product IDs were provided",
-      "invalidStatus": "Invalid product status",
-      "cannotDelete": "This product cannot be deleted because it is in use",
-      "nameRequired": "Product name is required",
-      "fieldRequired": "This field is required"
+      "permission_denied": "You do not have permission to perform this action",
+      "invalid_form_data": "Invalid form data. Please check your inputs and try again.",
+      "not_found": "Product not found",
+      "id_required": "Product ID is required",
+      "no_ids_provided": "No product IDs were provided",
+      "invalid_status": "Invalid product status",
+      "cannot_delete": "This product cannot be deleted because it is in use",
+      "name_required": "Product name is required",
+      "field_required": "This field is required"
     },
     "breadcrumb": {
       "products": "Products",
@@ -180,73 +180,73 @@
       "columns": {
         "name": "Name",
         "code": "Code",
-        "dataType": "Data Type",
-        "valuesCount": "Values",
-        "sortOrder": "Sort Order",
+        "data_type": "Data Type",
+        "values_count": "Values",
+        "sort_order": "Sort Order",
         "required": "Required",
         "status": "Status"
       },
       "form": {
         "name": "Option Name",
-        "namePlaceholder": "e.g. Color, Size, Material",
+        "name_placeholder": "e.g. Color, Size, Material",
         "code": "Option Code",
-        "codePlaceholder": "e.g. color, size, material",
-        "dataType": "Data Type",
-        "sortOrder": "Sort Order",
-        "minValue": "Min Value",
-        "maxValue": "Max Value",
+        "code_placeholder": "e.g. color, size, material",
+        "data_type": "Data Type",
+        "sort_order": "Sort Order",
+        "min_value": "Min Value",
+        "max_value": "Max Value",
         "active": "Active",
-        "requiredCaution": "Marking this option as required means every variant of this product must supply a value for it. If this option has no values yet, variants can't be saved until you add some.",
+        "required_caution": "Marking this option as required means every variant of this product must supply a value for it. If this option has no values yet, variants can't be saved until you add some.",
         "description": "Description",
-        "descriptionPlaceholder": "Optional notes about this option",
-        "descriptionEmpty": "No description provided",
-        "descriptionInfo": "Optional internal description. Up to 500 characters."
+        "description_placeholder": "Optional notes about this option",
+        "description_empty": "No description provided",
+        "description_info": "Optional internal description. Up to 500 characters."
       },
-      "dataTypes": {
-        "textList": "Text List",
-        "numberRange": "Number Range",
-        "colorList": "Color List",
-        "freeText": "Free Text",
-        "freeNumber": "Free Number"
+      "data_types": {
+        "text_list": "Text List",
+        "number_range": "Number Range",
+        "color_list": "Color List",
+        "free_text": "Free Text",
+        "free_number": "Free Number"
       },
       "value": {
         "columns": {
           "label": "Label",
           "value": "Value",
-          "sortOrder": "Sort Order",
-          "colorPreview": "Preview",
+          "sort_order": "Sort Order",
+          "color_preview": "Preview",
           "status": "Status"
         },
         "form": {
           "label": "Value Label",
-          "labelPlaceholder": "e.g. Red, Large, Cotton",
+          "label_placeholder": "e.g. Red, Large, Cotton",
           "value": "Value",
-          "valuePlaceholder": "e.g. red, lg, cotton",
-          "sortOrder": "Sort Order",
-          "colorHex": "Color Hex",
-          "colorHexPlaceholder": "#FF0000",
+          "value_placeholder": "e.g. red, lg, cotton",
+          "sort_order": "Sort Order",
+          "color_hex": "Color Hex",
+          "color_hex_placeholder": "#FF0000",
           "active": "Active"
         }
       },
       "actions": {
-        "addOption": "Add Option",
-        "editOption": "Edit Option",
-        "editProductOption": "Edit Product Option",
-        "deleteOption": "Delete Option",
-        "viewValues": "View Values",
-        "addValue": "Add Value",
-        "editValue": "Edit Value",
-        "deleteValue": "Delete Value"
+        "add_option": "Add Option",
+        "edit_option": "Edit Option",
+        "edit_product_option": "Edit Product Option",
+        "delete_option": "Delete Option",
+        "view_values": "View Values",
+        "add_value": "Add Value",
+        "edit_value": "Edit Value",
+        "delete_value": "Delete Value"
       },
       "empty": {
         "title": "No Options",
         "message": "No options have been configured for this product yet.",
-        "valueTitle": "No Values",
-        "valueMessage": "No values have been added to this option yet."
+        "value_title": "No Values",
+        "value_message": "No values have been added to this option yet."
       },
       "confirm": {
-        "deleteOption": "Are you sure you want to delete option",
-        "deleteValue": "Are you sure you want to delete value"
+        "delete_option": "Are you sure you want to delete option",
+        "delete_value": "Are you sure you want to delete value"
       }
     }
   }

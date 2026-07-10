@@ -5,14 +5,14 @@
     "quantity": "Quantity",
     "date": "Date",
     "reference": "Reference",
-    "performedBy": "Performed By",
+    "performed_by": "Performed By",
     "record": "Record Movement",
     "empty": "No transactions recorded",
-    "typeReceived": "Received",
-    "typeSold": "Sold",
-    "typeAdjusted": "Adjusted",
-    "typeTransferred": "Transferred",
-    "typeReturned": "Returned",
-    "typeWriteOff": "Write Off"
+    "type_received": "Received",
+    "type_sold": "Sold",
+    "type_adjusted": "Adjusted",
+    "type_transferred": "Transferred",
+    "type_returned": "Returned",
+    "type_write_off": "Write Off"
   }
 }

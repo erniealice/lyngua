@@ -1,14 +1,14 @@
 {
-  "evaluationCycle": {
+  "evaluation_cycle": {
     "page": {
       "heading": "Evaluation Cycles",
       "caption": "Manage structured review periods across your engagements",
-      "headingOpen": "Open Cycles",
-      "headingSignOff": "Sign-Off Cycles",
-      "headingClosed": "Closed Cycles"
+      "heading_open": "Open Cycles",
+      "heading_sign_off": "Sign-Off Cycles",
+      "heading_closed": "Closed Cycles"
     },
     "buttons": {
-      "addCycle": "New Cycle",
+      "add_cycle": "New Cycle",
       "open": "Open",
       "close": "Close"
     },
@@ -17,55 +17,55 @@
       "engagement": "Engagement",
       "period": "Period",
       "progress": "Progress",
-      "signOffDue": "Sign-off Due",
+      "sign_off_due": "Sign-off Due",
       "closes": "Closes",
       "status": "Status"
     },
     "status": {
       "open": "Open",
-      "signOff": "Sign Off",
+      "sign_off": "Sign Off",
       "closed": "Closed"
     },
     "tabs": {
       "all": "All",
       "open": "Open",
-      "signOff": "Sign Off",
+      "sign_off": "Sign Off",
       "closed": "Closed",
       "info": "Information",
       "members": "Members"
     },
     "banner": {
-      "signOffDue": "Sign-off due",
+      "sign_off_due": "Sign-off due",
       "closes": "Closes",
       "progress": "{{.Complete}} of {{.Total}} complete",
-      "progressDetail": "{{.Complete}} reviews submitted or signed off",
-      "allComplete": "All reviews complete",
-      "noneComplete": "No reviews submitted yet",
-      "membersLabel": "Members",
-      "cycleOpen": "Cycle is open",
-      "cycleClosed": "Cycle is closed",
-      "cycleSignOff": "Awaiting sign-off"
+      "progress_detail": "{{.Complete}} reviews submitted or signed off",
+      "all_complete": "All reviews complete",
+      "none_complete": "No reviews submitted yet",
+      "members_label": "Members",
+      "cycle_open": "Cycle is open",
+      "cycle_closed": "Cycle is closed",
+      "cycle_sign_off": "Awaiting sign-off"
     },
     "empty": {
       "title": "No cycles found",
       "message": "No evaluation cycles to display.",
-      "openTitle": "No open cycles",
-      "openMessage": "Open a cycle to start tracking reviews.",
-      "closedTitle": "No closed cycles",
-      "closedMessage": "Closed cycles will appear here."
+      "open_title": "No open cycles",
+      "open_message": "Open a cycle to start tracking reviews.",
+      "closed_title": "No closed cycles",
+      "closed_message": "Closed cycles will appear here."
     },
     "form": {
       "name": "Cycle Name",
-      "namePlaceholder": "e.g. H1 2026 Performance Review",
+      "name_placeholder": "e.g. H1 2026 Performance Review",
       "engagement": "Engagement",
-      "engagementPlaceholder": "Select engagement",
-      "engagementInfo": "The subscription (engagement) this cycle is scoped to.",
-      "periodStart": "Period Start",
-      "periodEnd": "Period End",
-      "signOffDueDate": "Sign-off Due Date",
-      "signOffDueDateInfo": "Deadline for all sign-offs. Distinct from the close date.",
-      "closeDate": "Close Date",
-      "closeDateInfo": "When this cycle will be closed. Reviews cannot be submitted after this date."
+      "engagement_placeholder": "Select engagement",
+      "engagement_info": "The subscription (engagement) this cycle is scoped to.",
+      "period_start": "Period Start",
+      "period_end": "Period End",
+      "sign_off_due_date": "Sign-off Due Date",
+      "sign_off_due_date_info": "Deadline for all sign-offs. Distinct from the close date.",
+      "close_date": "Close Date",
+      "close_date_info": "When this cycle will be closed. Reviews cannot be submitted after this date."
     },
     "actions": {
       "view": "View Cycle",
@@ -73,40 +73,40 @@
       "close": "Close"
     },
     "detail": {
-      "pageTitle": "Cycle Details",
+      "page_title": "Cycle Details",
       "name": "Name",
       "engagement": "Engagement",
-      "periodStart": "Period Start",
-      "periodEnd": "Period End",
-      "signOffDueDate": "Sign-off Due",
-      "closeDate": "Close Date",
+      "period_start": "Period Start",
+      "period_end": "Period End",
+      "sign_off_due_date": "Sign-off Due",
+      "close_date": "Close Date",
       "status": "Status",
-      "createdDate": "Created",
-      "modifiedDate": "Last Modified",
+      "created_date": "Created",
+      "modified_date": "Last Modified",
       "members": {
         "heading": "Members",
         "empty": "No members enrolled in this cycle.",
-        "columnAssociate": "Associate",
-        "columnClient": "Client",
-        "columnProbation": "Probation",
-        "columnAdded": "Added"
+        "column_associate": "Associate",
+        "column_client": "Client",
+        "column_probation": "Probation",
+        "column_added": "Added"
       }
     },
     "confirm": {
       "open": "Open Cycle",
-      "openMessage": "Open \"%s\"? Members will be enrolled and reviews can be submitted.",
+      "open_message": "Open \"%s\"? Members will be enrolled and reviews can be submitted.",
       "close": "Close Cycle",
-      "closeMessage": "Close \"%s\"? No further reviews can be submitted after closing."
+      "close_message": "Close \"%s\"? No further reviews can be submitted after closing."
     },
     "errors": {
-      "permissionDenied": "You do not have permission to perform this action",
-      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
-      "notFound": "Evaluation cycle not found",
-      "idRequired": "Cycle ID is required",
-      "noPermission": "No permission",
-      "alreadyOpen": "This cycle is already open",
-      "alreadyClosed": "This cycle is already closed",
-      "engagementRequired": "An engagement is required"
+      "permission_denied": "You do not have permission to perform this action",
+      "invalid_form_data": "Invalid form data. Please check your inputs and try again.",
+      "not_found": "Evaluation cycle not found",
+      "id_required": "Cycle ID is required",
+      "no_permission": "No permission",
+      "already_open": "This cycle is already open",
+      "already_closed": "This cycle is already closed",
+      "engagement_required": "An engagement is required"
     }
   }
 }

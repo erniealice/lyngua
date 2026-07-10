@@ -1,29 +1,29 @@
 {
-  "workRequestType": {
+  "work_request_type": {
     "page": {
       "heading": "Request Types",
-      "headingActive": "Active Request Types",
-      "headingArchived": "Archived Request Types",
-      "headingAll": "All Request Types",
+      "heading_active": "Active Request Types",
+      "heading_archived": "Archived Request Types",
+      "heading_all": "All Request Types",
       "caption": "Configure the types of requests your workspace accepts",
-      "captionActive": "Request types currently available for submission",
-      "captionArchived": "Archived request types no longer available for new requests"
+      "caption_active": "Request types currently available for submission",
+      "caption_archived": "Archived request types no longer available for new requests"
     },
     "entity": {
       "singular": "Request Type",
       "plural": "Request Types"
     },
     "buttons": {
-      "addType": "New Request Type"
+      "add_type": "New Request Type"
     },
     "columns": {
       "name": "Name",
       "code": "Code",
       "description": "Description",
       "category": "Category",
-      "defaultSlaHours": "Default SLA (hrs)",
+      "default_sla_hours": "Default SLA (hrs)",
       "status": "Status",
-      "requestCount": "Requests"
+      "request_count": "Requests"
     },
     "category": {
       "hr": "Human Resources",
@@ -42,30 +42,30 @@
     },
     "form": {
       "name": "Name",
-      "namePlaceholder": "e.g. Salary Increase",
-      "nameInfo": "Display name shown when raising a request.",
+      "name_placeholder": "e.g. Salary Increase",
+      "name_info": "Display name shown when raising a request.",
       "code": "Code",
-      "codePlaceholder": "e.g. salary_increase",
-      "codeInfo": "Unique machine-readable identifier. Cannot be changed after creation.",
+      "code_placeholder": "e.g. salary_increase",
+      "code_info": "Unique machine-readable identifier. Cannot be changed after creation.",
       "description": "Description",
-      "descriptionPlaceholder": "Describe when this request type is used...",
-      "descriptionInfo": "Help text shown to requesters when selecting this type.",
+      "description_placeholder": "Describe when this request type is used...",
+      "description_info": "Help text shown to requesters when selecting this type.",
       "category": "Category",
-      "categoryPlaceholder": "Select a category",
-      "categoryInfo": "Grouping for the request type catalog.",
-      "defaultSlaHours": "Default SLA Hours",
-      "defaultSlaHoursPlaceholder": "e.g. 48",
-      "defaultSlaHoursInfo": "Default number of hours to resolve requests of this type. Used to compute SLA due dates.",
-      "inputSchema": "Input Schema",
-      "inputSchemaPlaceholder": "JSON Schema defining required fields...",
-      "inputSchemaInfo": "JSON Schema that defines the payload fields for this request type. Drives the polymorphic submission form.",
-      "defaultWorkflowTemplate": "Default Workflow Template",
-      "defaultWorkflowTemplatePlaceholder": "Select a workflow template",
-      "defaultWorkflowTemplateInfo": "Workflow template auto-started when a request of this type is submitted.",
-      "defaultWorkflowTemplateSearchPlaceholder": "Search templates...",
-      "defaultWorkflowTemplateNoResults": "No workflow templates found",
+      "category_placeholder": "Select a category",
+      "category_info": "Grouping for the request type catalog.",
+      "default_sla_hours": "Default SLA Hours",
+      "default_sla_hours_placeholder": "e.g. 48",
+      "default_sla_hours_info": "Default number of hours to resolve requests of this type. Used to compute SLA due dates.",
+      "input_schema": "Input Schema",
+      "input_schema_placeholder": "JSON Schema defining required fields...",
+      "input_schema_info": "JSON Schema that defines the payload fields for this request type. Drives the polymorphic submission form.",
+      "default_workflow_template": "Default Workflow Template",
+      "default_workflow_template_placeholder": "Select a workflow template",
+      "default_workflow_template_info": "Workflow template auto-started when a request of this type is submitted.",
+      "default_workflow_template_search_placeholder": "Search templates...",
+      "default_workflow_template_no_results": "No workflow templates found",
       "active": "Active",
-      "activeInfo": "Inactive types are hidden from the request submission form."
+      "active_info": "Inactive types are hidden from the request submission form."
     },
     "actions": {
       "edit": "Edit",
@@ -74,18 +74,18 @@
       "view": "View Type"
     },
     "detail": {
-      "pageTitle": "Request Type Detail",
+      "page_title": "Request Type Detail",
       "name": "Name",
       "code": "Code",
       "description": "Description",
       "category": "Category",
-      "defaultSlaHours": "Default SLA Hours",
-      "inputSchema": "Input Schema",
-      "defaultWorkflowTemplate": "Default Workflow Template",
+      "default_sla_hours": "Default SLA Hours",
+      "input_schema": "Input Schema",
+      "default_workflow_template": "Default Workflow Template",
       "status": "Status",
-      "requestCount": "Requests Using This Type",
-      "noDescription": "No description provided",
-      "noWorkflowTemplate": "No workflow template assigned"
+      "request_count": "Requests Using This Type",
+      "no_description": "No description provided",
+      "no_workflow_template": "No workflow template assigned"
     },
     "empty": {
       "title": "No request types found",
@@ -94,19 +94,19 @@
     },
     "confirm": {
       "archive": "Archive Request Type",
-      "archiveMessage": "Are you sure you want to archive this request type? It will no longer appear in the submission form.",
+      "archive_message": "Are you sure you want to archive this request type? It will no longer appear in the submission form.",
       "activate": "Activate Request Type",
-      "activateMessage": "Are you sure you want to activate this request type? It will be available for new submissions."
+      "activate_message": "Are you sure you want to activate this request type? It will be available for new submissions."
     },
     "errors": {
-      "permissionDenied": "You do not have permission to manage request types.",
-      "notFound": "Request type not found.",
-      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
-      "codeRequired": "Code is required.",
-      "nameRequired": "Name is required.",
-      "codeDuplicate": "A request type with this code already exists.",
-      "schemaInvalid": "The input schema is not valid JSON Schema.",
-      "idRequired": "Request type ID is required."
+      "permission_denied": "You do not have permission to manage request types.",
+      "not_found": "Request type not found.",
+      "invalid_form_data": "Invalid form data. Please check your inputs and try again.",
+      "code_required": "Code is required.",
+      "name_required": "Name is required.",
+      "code_duplicate": "A request type with this code already exists.",
+      "schema_invalid": "The input schema is not valid JSON Schema.",
+      "id_required": "Request type ID is required."
     },
     "validation": {
       "data_required": "Request type data is required",

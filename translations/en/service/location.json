@@ -1,14 +1,14 @@
 {
   "page": {
     "heading": "Branches",
-    "headingActive": "Active Branches",
-    "headingInactive": "Inactive Branches",
+    "heading_active": "Active Branches",
+    "heading_inactive": "Inactive Branches",
     "caption": "Salon branch management",
-    "captionActive": "Manage your active salon branches",
-    "captionInactive": "View inactive branches"
+    "caption_active": "Manage your active salon branches",
+    "caption_inactive": "View inactive branches"
   },
   "buttons": {
-    "addLocation": "Add Branch"
+    "add_location": "Add Branch"
   },
   "columns": {
     "name": "Name",
@@ -16,21 +16,21 @@
     "status": "Status"
   },
   "empty": {
-    "activeTitle": "No active branches",
-    "activeMessage": "Add your first salon branch to get started",
-    "inactiveTitle": "No inactive branches",
-    "inactiveMessage": "Inactive branches will appear here"
+    "active_title": "No active branches",
+    "active_message": "Add your first salon branch to get started",
+    "inactive_title": "No inactive branches",
+    "inactive_message": "Inactive branches will appear here"
   },
   "form": {
     "name": "Name",
-    "namePlaceholder": "e.g. Main Branch",
+    "name_placeholder": "e.g. Main Branch",
     "address": "Address",
-    "addressPlaceholder": "e.g. 123 Main Street",
+    "address_placeholder": "e.g. 123 Main Street",
     "description": "Description",
-    "descriptionPlaceholder": "e.g. Primary salon branch",
+    "description_placeholder": "e.g. Primary salon branch",
     "timezone": "Timezone",
     "area": "Area",
-    "areaPlaceholder": "Select area...",
+    "area_placeholder": "Select area...",
     "active": "Active"
   },
   "actions": {
@@ -41,34 +41,34 @@
     "deactivate": "Deactivate"
   },
   "detail": {
-    "basicInfo": {
+    "basic_info": {
       "title": "Basic Information",
       "name": "Name",
-      "namePlaceholder": "e.g. Main Branch",
+      "name_placeholder": "e.g. Main Branch",
       "address": "Address",
-      "addressPlaceholder": "e.g. 123 Main Street",
+      "address_placeholder": "e.g. 123 Main Street",
       "description": "Description",
-      "descriptionPlaceholder": "e.g. Primary salon branch",
+      "description_placeholder": "e.g. Primary salon branch",
       "active": "Active",
       "save": "Save Changes"
     },
     "tabs": {
       "info": "Info",
       "users": "Users",
-      "priceLists": "Price Lists",
-      "auditTrail": "Audit Trail"
+      "price_lists": "Price Lists",
+      "audit_trail": "Audit Trail"
     },
-    "emptyStates": {
-      "usersTitle": "No Users Assigned",
-      "usersDesc": "Users assigned to this branch will appear here.",
-      "priceListsTitle": "No Price Lists",
-      "priceListsDesc": "Price lists for this branch will appear here.",
-      "auditTitle": "No Audit History",
-      "auditDesc": "Branch activity will appear here."
+    "empty_states": {
+      "users_title": "No Users Assigned",
+      "users_desc": "Users assigned to this branch will appear here.",
+      "price_lists_title": "No Price Lists",
+      "price_lists_desc": "Price lists for this branch will appear here.",
+      "audit_title": "No Audit History",
+      "audit_desc": "Branch activity will appear here."
     },
-    "updateSuccess": "Branch updated successfully",
-    "updateError": "Failed to update branch",
-    "attachmentsTab": "Attachments",
-    "auditHistoryTab": "History"
+    "update_success": "Branch updated successfully",
+    "update_error": "Failed to update branch",
+    "attachments_tab": "Attachments",
+    "audit_history_tab": "History"
   }
 }

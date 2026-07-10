@@ -3,28 +3,28 @@
     "title": "Marketplace",
     "heading": "Marketplace",
     "caption": "Connect your favorite tools and services",
-    "titleAll": "Marketplace",
-    "titleCrm": "CRM Integrations",
-    "titleRms": "RMS Integrations",
-    "titlePayroll": "Payroll Integrations",
-    "titleAccounting": "Accounting Integrations",
-    "headingAll": "Marketplace",
-    "headingCrm": "CRM Integrations",
-    "headingRms": "RMS Integrations",
-    "headingPayroll": "Payroll Integrations",
-    "headingAccounting": "Accounting Integrations",
-    "captionAll": "Connect your favorite tools and services",
-    "captionCrm": "Connect customer relationship management systems",
-    "captionRms": "Connect recruitment management systems",
-    "captionPayroll": "Connect payroll and payment processing systems",
-    "captionAccounting": "Connect accounting and financial software"
+    "title_all": "Marketplace",
+    "title_crm": "CRM Integrations",
+    "title_rms": "RMS Integrations",
+    "title_payroll": "Payroll Integrations",
+    "title_accounting": "Accounting Integrations",
+    "heading_all": "Marketplace",
+    "heading_crm": "CRM Integrations",
+    "heading_rms": "RMS Integrations",
+    "heading_payroll": "Payroll Integrations",
+    "heading_accounting": "Accounting Integrations",
+    "caption_all": "Connect your favorite tools and services",
+    "caption_crm": "Connect customer relationship management systems",
+    "caption_rms": "Connect recruitment management systems",
+    "caption_payroll": "Connect payroll and payment processing systems",
+    "caption_accounting": "Connect accounting and financial software"
   },
   "info": {
     "title": "Seamless Integrations",
     "description": "Connect your CRM, payroll, and accounting systems to automatically sync data, reduce manual entry, and keep everything in perfect harmony. Each integration is designed to save you time and eliminate errors."
   },
   "connected": {
-    "youHave": "You have",
+    "you_have": "You have",
     "integration": "connected integration",
     "integrations": "connected integrations"
   },
@@ -45,39 +45,39 @@
   "buttons": {
     "connect": "Connect",
     "disconnect": "Disconnect",
-    "updateSettings": "Update Settings"
+    "update_settings": "Update Settings"
   },
   "status": {
     "connected": "Connected",
     "available": "Available"
   },
   "empty": {
-    "noIntegrations": "No integrations available",
-    "noIntegrationsMsg": "Check back later for new integrations to connect with your workflow.",
-    "noCRM": "No CRM integrations",
-    "noCRMMsg": "CRM integrations will appear here when available.",
-    "noRMS": "No RMS integrations",
-    "noRMSMsg": "Recruitment Management System integrations will appear here when available.",
-    "noPayroll": "No payroll integrations",
-    "noPayrollMsg": "Payroll integrations will appear here when available.",
-    "noAccounting": "No accounting integrations",
-    "noAccountingMsg": "Accounting integrations will appear here when available."
+    "no_integrations": "No integrations available",
+    "no_integrations_msg": "Check back later for new integrations to connect with your workflow.",
+    "no_crm": "No CRM integrations",
+    "no_crmmsg": "CRM integrations will appear here when available.",
+    "no_rms": "No RMS integrations",
+    "no_rmsmsg": "Recruitment Management System integrations will appear here when available.",
+    "no_payroll": "No payroll integrations",
+    "no_payroll_msg": "Payroll integrations will appear here when available.",
+    "no_accounting": "No accounting integrations",
+    "no_accounting_msg": "Accounting integrations will appear here when available."
   },
   "sections": {
-    "crmTitle": "CRM Integrations",
-    "rmsTitle": "RMS Integrations",
-    "payrollTitle": "Payroll Integrations",
-    "accountingTitle": "Accounting Integrations",
+    "crm_title": "CRM Integrations",
+    "rms_title": "RMS Integrations",
+    "payroll_title": "Payroll Integrations",
+    "accounting_title": "Accounting Integrations",
     "available": "available"
   },
   "view": {
-    "backToMarketplace": "Back to Marketplace",
+    "back_to_marketplace": "Back to Marketplace",
     "about": "About",
     "features": "Features",
     "screenshots": "Screenshots",
     "pricing": "Pricing",
     "resources": "Resources",
-    "similarIntegrations": "Similar Integrations"
+    "similar_integrations": "Similar Integrations"
   },
   "links": {
     "documentation": "Documentation",

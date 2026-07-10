@@ -1,8 +1,8 @@
 {
-  "expenseRecognitionLine": {
+  "expense_recognition_line": {
     "labels": {
       "name": "Recognition Line",
-      "namePlural": "Recognition Lines"
+      "name_plural": "Recognition Lines"
     },
     "page": {
       "heading": "Recognition Lines",
@@ -10,58 +10,57 @@
     },
     "buttons": {
       "add": "Add Line",
-      "addItem": "Add Recognition Line"
+      "add_item": "Add Recognition Line"
     },
     "columns": {
-      "lineNumber": "Line #",
+      "line_number": "Line #",
       "description": "Description",
-      "supplierContractLine": "Contract Line",
-      "expenditureLineItem": "Bill Line",
+      "supplier_contract_line": "Contract Line",
+      "expenditure_line_item": "Bill Line",
       "product": "Product",
       "quantity": "Qty",
-      "unitAmount": "Unit Amount",
+      "unit_amount": "Unit Amount",
       "amount": "Total",
       "currency": "Currency",
-      "expenseAccount": "Expense Account",
-      "jobActivity": "Job Activity"
+      "expense_account": "Expense Account",
+      "job_activity": "Job Activity"
     },
     "empty": {
       "title": "No recognition lines yet",
       "message": "Add a line to break this recognition down by source line item."
     },
     "form": {
-      "sectionDetails": "Line Details",
-      "sectionLink": "Source Link",
-      "sectionPricing": "Pricing",
-      "sectionAccounting": "Accounting",
-
+      "section_details": "Line Details",
+      "section_link": "Source Link",
+      "section_pricing": "Pricing",
+      "section_accounting": "Accounting",
       "description": "Description",
-      "descriptionPlaceholder": "e.g. May 2026 hosting — Tier 1",
-      "descriptionInfo": "Short description of what this line covers.",
-      "supplierContractLine": "Contract Line",
-      "selectSupplierContractLine": "Select contract line...",
-      "supplierContractLineInfo": "Source contract line, if any.",
-      "expenditureLineItem": "Bill Line",
-      "selectExpenditureLineItem": "Select bill line...",
-      "expenditureLineItemInfo": "Source supplier-bill line, if any.",
+      "description_placeholder": "e.g. May 2026 hosting — Tier 1",
+      "description_info": "Short description of what this line covers.",
+      "supplier_contract_line": "Contract Line",
+      "select_supplier_contract_line": "Select contract line...",
+      "supplier_contract_line_info": "Source contract line, if any.",
+      "expenditure_line_item": "Bill Line",
+      "select_expenditure_line_item": "Select bill line...",
+      "expenditure_line_item_info": "Source supplier-bill line, if any.",
       "product": "Product",
-      "selectProduct": "Select product...",
-      "productInfo": "Optional catalog product associated with this line.",
+      "select_product": "Select product...",
+      "product_info": "Optional catalog product associated with this line.",
       "quantity": "Quantity",
-      "quantityPlaceholder": "0",
-      "unitAmount": "Unit Amount",
-      "unitAmountPlaceholder": "0.00",
+      "quantity_placeholder": "0",
+      "unit_amount": "Unit Amount",
+      "unit_amount_placeholder": "0.00",
       "amount": "Line Total",
-      "amountPlaceholder": "0.00",
-      "amountInfo": "Auto-calculated as quantity × unit amount.",
+      "amount_placeholder": "0.00",
+      "amount_info": "Auto-calculated as quantity × unit amount.",
       "currency": "Currency",
-      "currencyPlaceholder": "PHP",
-      "expenseAccount": "Expense Account",
-      "selectExpenseAccount": "Select expense account...",
-      "expenseAccountInfo": "GL account override for this line.",
-      "jobActivity": "Job Activity",
-      "selectJobActivity": "Select job activity...",
-      "jobActivityInfo": "Associate this line with a job activity for project costing."
+      "currency_placeholder": "PHP",
+      "expense_account": "Expense Account",
+      "select_expense_account": "Select expense account...",
+      "expense_account_info": "GL account override for this line.",
+      "job_activity": "Job Activity",
+      "select_job_activity": "Select job activity...",
+      "job_activity_info": "Associate this line with a job activity for project costing."
     },
     "actions": {
       "edit": "Edit Line",
@@ -72,12 +71,12 @@
     },
     "confirm": {
       "delete": "Remove Line",
-      "deleteMessage": "Are you sure you want to remove this line? This action cannot be undone."
+      "delete_message": "Are you sure you want to remove this line? This action cannot be undone."
     },
-    "statusMessages": {
-      "createSuccess": "Line added successfully",
-      "updateSuccess": "Line updated successfully",
-      "deleteSuccess": "Line removed successfully"
+    "status_messages": {
+      "create_success": "Line added successfully",
+      "update_success": "Line updated successfully",
+      "delete_success": "Line removed successfully"
     },
     "validation": {
       "data_required": "Line data is required",
@@ -87,13 +86,12 @@
       "id_required": "Line ID is required"
     },
     "errors": {
-      "notFound": "Recognition line not found.",
-      "not_found": "Recognition line with ID \"{entityId}\" not found",
+      "not_found": "Recognition line not found.",
       "creation_failed": "Line creation failed",
       "update_failed": "Line update failed",
       "deletion_failed": "Line deletion failed",
       "list_failed": "Failed to retrieve recognition lines",
-      "noPermission": "You do not have permission to perform this action."
+      "no_permission": "You do not have permission to perform this action."
     }
   }
 }

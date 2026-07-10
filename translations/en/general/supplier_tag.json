@@ -1,10 +1,10 @@
 {
   "supplier": {
-    "tagForm": {
-      "tagNameInfo": "Label used to categorize and filter suppliers (e.g. Preferred, Local, High-Risk).",
-      "codeInfo": "Short identifier for this tag. Auto-generated from the name if left blank.",
-      "descriptionInfo": "Optional notes describing when to apply this tag.",
-      "activeInfo": "Inactive tags are hidden from new supplier assignments but remain on record."
+    "tag_form": {
+      "tag_name_info": "Label used to categorize and filter suppliers (e.g. Preferred, Local, High-Risk).",
+      "code_info": "Short identifier for this tag. Auto-generated from the name if left blank.",
+      "description_info": "Optional notes describing when to apply this tag.",
+      "active_info": "Inactive tags are hidden from new supplier assignments but remain on record."
     }
   },
   "page": {
@@ -12,10 +12,10 @@
     "subtitle": "Manage tags for organizing suppliers"
   },
   "buttons": {
-    "addTag": "Add Tag"
+    "add_tag": "Add Tag"
   },
   "columns": {
-    "tagName": "Tag Name",
+    "tag_name": "Tag Name",
     "suppliers": "Suppliers",
     "description": "Description",
     "status": "Status"
@@ -31,8 +31,8 @@
     "deactivate": "Deactivate"
   },
   "confirm": {
-    "deleteTitle": "Delete Tags",
-    "deleteMessage": "Are you sure you want to delete the selected tag(s)? This action cannot be undone.",
-    "cannotDelete": "Cannot delete: tag is assigned to suppliers"
+    "delete_title": "Delete Tags",
+    "delete_message": "Are you sure you want to delete the selected tag(s)? This action cannot be undone.",
+    "cannot_delete": "Cannot delete: tag is assigned to suppliers"
   }
 }

@@ -1,19 +1,19 @@
 {
-  "supplierProductPlan": {
+  "supplier_product_plan": {
     "form": {
-      "variantSelectLabel": "Variant",
-      "variantSelectPlaceholder": "Select a variant",
-      "variantSelectInfo": "Required when the parent product has variants enabled.",
-      "productLabel": "Product",
-      "productPlaceholder": "Select a product",
-      "productSearch": "Search products...",
-      "supplierPlanLabel": "Vendor Plan",
-      "supplierPlanPlaceholder": "Select a vendor plan...",
-      "activeLabel": "Active",
-      "nameLabel": "Name",
-      "namePlaceholder": "Enter name",
-      "descriptionLabel": "Description",
-      "descriptionPlaceholder": "Optional notes"
+      "variant_select_label": "Variant",
+      "variant_select_placeholder": "Select a variant",
+      "variant_select_info": "Required when the parent product has variants enabled.",
+      "product_label": "Product",
+      "product_placeholder": "Select a product",
+      "product_search": "Search products...",
+      "supplier_plan_label": "Vendor Plan",
+      "supplier_plan_placeholder": "Select a vendor plan...",
+      "active_label": "Active",
+      "name_label": "Name",
+      "name_placeholder": "Enter name",
+      "description_label": "Description",
+      "description_placeholder": "Optional notes"
     },
     "validation": {
       "data_required": "Vendor product plan data is required",
@@ -37,28 +37,28 @@
     },
     "page": {
       "heading": "Vendor Product Plans",
-      "headingActive": "Active Vendor Product Plans",
-      "headingInactive": "Inactive Vendor Product Plans",
+      "heading_active": "Active Vendor Product Plans",
+      "heading_inactive": "Inactive Vendor Product Plans",
       "caption": "Manage product links for vendor plans",
-      "captionActive": "Manage your active vendor product plans",
-      "captionInactive": "View inactive vendor product plans"
+      "caption_active": "Manage your active vendor product plans",
+      "caption_inactive": "View inactive vendor product plans"
     },
     "buttons": {
-      "addSupplierProductPlan": "Add Vendor Product Plan"
+      "add_supplier_product_plan": "Add Vendor Product Plan"
     },
     "columns": {
       "product": "Product",
-      "supplierPlan": "Vendor Plan",
+      "supplier_plan": "Vendor Plan",
       "variant": "Variant",
       "active": "Active"
     },
     "empty": {
       "title": "No vendor product plans found",
       "message": "No vendor product plans to display.",
-      "activeTitle": "No active vendor product plans",
-      "activeMessage": "Link products to a vendor plan to get started.",
-      "inactiveTitle": "No inactive vendor product plans",
-      "inactiveMessage": "Inactive vendor product plans will appear here."
+      "active_title": "No active vendor product plans",
+      "active_message": "Link products to a vendor plan to get started.",
+      "inactive_title": "No inactive vendor product plans",
+      "inactive_message": "Inactive vendor product plans will appear here."
     },
     "actions": {
       "view": "View Vendor Product Plan",
@@ -67,22 +67,22 @@
     },
     "confirm": {
       "delete": "Delete Vendor Product Plan",
-      "deleteMessage": "Are you sure you want to delete this vendor product plan? This action cannot be undone."
+      "delete_message": "Are you sure you want to delete this vendor product plan? This action cannot be undone."
     },
     "tabs": {
       "info": "Information",
-      "costPlanLines": "Cost Plan Lines",
-      "auditTrail": "Audit Trail"
+      "cost_plan_lines": "Cost Plan Lines",
+      "audit_trail": "Audit Trail"
     },
     "detail": {
-      "pageTitle": "Vendor Product Plan Details",
+      "page_title": "Vendor Product Plan Details",
       "product": "Product",
-      "supplierPlan": "Vendor Plan",
+      "supplier_plan": "Vendor Plan",
       "variant": "Variant",
       "active": "Active",
       "inactive": "Inactive",
-      "createdDate": "Created",
-      "modifiedDate": "Last Modified"
+      "created_date": "Created",
+      "modified_date": "Last Modified"
     }
   }
 }

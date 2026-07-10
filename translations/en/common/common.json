@@ -1,7 +1,7 @@
 {
   "sidebar": {
-    "appSwitcher": {
-      "switchApp": "Switch App"
+    "app_switcher": {
+      "switch_app": "Switch App"
     },
     "apps": {
       "clients": "Clients",
@@ -17,20 +17,20 @@
       "prospect": "Prospect",
       "inactive": "Inactive",
       "settings": "Settings",
-      "paymentTerms": "Payment Terms"
+      "payment_terms": "Payment Terms"
     },
     "regulations": {
       "title": "Regulations",
       "awards": "Awards",
       "agreements": "Agreements",
-      "workersComp": "Workers Comp",
+      "workers_comp": "Workers Comp",
       "superannuation": "Superannuation",
-      "payrollTax": "Payroll Tax",
+      "payroll_tax": "Payroll Tax",
       "settings": "Settings",
-      "payItems": "Pay Items / Allowances",
-      "payItemsMapping": "Pay Items Mapping",
-      "awardMultipliers": "Award Multipliers",
-      "additionalItems": "Additional Items"
+      "pay_items": "Pay Items / Allowances",
+      "pay_items_mapping": "Pay Items Mapping",
+      "award_multipliers": "Award Multipliers",
+      "additional_items": "Additional Items"
     },
     "marketplace": {
       "title": "Marketplace",
@@ -42,29 +42,29 @@
     "quotes": {
       "title": "Quotes",
       "calculation": "Calculation",
-      "approvedSigned": "Approved/Signed",
-      "forApproval": "For Approval",
+      "approved_signed": "Approved/Signed",
+      "for_approval": "For Approval",
       "templates": "Templates",
       "archived": "Archived",
       "settings": "Settings",
-      "quoteTemplates": "Quote Templates",
-      "contractTemplates": "Contract Templates",
-      "proposalTemplates": "Proposal Templates",
-      "costManagement": "Cost Management"
+      "quote_templates": "Quote Templates",
+      "contract_templates": "Contract Templates",
+      "proposal_templates": "Proposal Templates",
+      "cost_management": "Cost Management"
     },
     "users": {
       "title": "Users",
-      "adminManagers": "Admin Managers",
+      "admin_managers": "Admin Managers",
       "managers": "Managers",
       "standard": "Standard",
       "spectator": "Spectator",
       "settings": "Settings",
-      "userDivisions": "User Divisions"
+      "user_divisions": "User Divisions"
     },
     "reports": {
       "title": "Reports",
       "quote": "Quote Report",
-      "awardChanges": "Award Changes"
+      "award_changes": "Award Changes"
     },
     "main": {
       "title": "Main",
@@ -72,35 +72,35 @@
     },
     "support": {
       "title": "Support",
-      "helpCenter": "Help Center"
+      "help_center": "Help Center"
     },
-    "userMenu": {
+    "user_menu": {
       "profile": "Profile",
       "billing": "Billing",
       "logout": "Log out"
     },
-    "userCard": {
-      "proPlan": "Pro Plan"
+    "user_card": {
+      "pro_plan": "Pro Plan"
     }
   },
-  "bottomNav": {
+  "bottom_nav": {
     "customers": "Clients",
     "bookings": "Sales",
     "services": "Products",
     "financial": "Reports",
     "more": "More",
-    "allApps": "All Apps"
+    "all_apps": "All Apps"
   },
   "header": {
-    "welcomeBack": "Welcome back",
-    "searchPlaceholder": "Search anything...",
-    "searchShortcut": "Ctrl+K",
+    "welcome_back": "Welcome back",
+    "search_placeholder": "Search anything...",
+    "search_shortcut": "Ctrl+K",
     "notifications": "Notifications",
-    "showHelp": "Show help (?)"
+    "show_help": "Show help (?)"
   },
   "notifications": {
     "title": "Notifications",
-    "markAllRead": "Mark all read",
+    "mark_all_read": "Mark all read",
     "close": "Close notifications",
     "tabs": {
       "all": "All",
@@ -112,7 +112,7 @@
       "title": "All caught up!",
       "message": "You have no new notifications"
     },
-    "viewAll": "View All Notifications"
+    "view_all": "View All Notifications"
   },
   "settings": {
     "title": "Settings",
@@ -131,24 +131,34 @@
   "theme": {
     "title": "Choose Theme",
     "toggle": "Toggle theme menu",
-    "changeTheme": "Change theme (Ctrl+Shift+T)",
+    "change_theme": "Change theme (Ctrl+Shift+T)",
     "themes": {
-      "warmCream": "Warm Cream",
-      "oceanDeep": "Ocean Deep",
-      "forestNight": "Forest Night",
-      "minimalLight": "Minimal Light",
-      "sunsetGlow": "Sunset Glow",
-      "corporateSteel": "Corporate Steel",
-      "paperInk": "Paper & Ink",
-      "peachFizz": "Peach Fizz",
-      "modernRetail": "Modern Retail",
-      "ichizenDefault": "Ichizen Default",
-      "salonBlush": "Salon Blush",
-      "ledgerMono": "Ledger Mono",
-      "brutalistInk": "Brutalist Ink",
-      "softClay": "Soft Clay"
+      "warm_cream": "Warm Cream",
+      "ocean_deep": "Ocean Deep",
+      "forest_night": "Forest Night",
+      "minimal_light": "Minimal Light",
+      "sunset_glow": "Sunset Glow",
+      "corporate_steel": "Corporate Steel",
+      "paper_ink": "Paper & Ink",
+      "peach_fizz": "Peach Fizz",
+      "modern_retail": "Modern Retail",
+      "ichizen_default": "Ichizen Default",
+      "salon_blush": "Salon Blush",
+      "ledger_mono": "Ledger Mono",
+      "brutalist_ink": "Brutalist Ink",
+      "soft_clay": "Soft Clay",
+      "riso_pop": "Riso Pop",
+      "atelier_ink": "Atelier Ink",
+      "ultramarine": "Ultramarine",
+      "terminal_phosphor": "Terminal Phosphor",
+      "velvet_noir": "Velvet Noir",
+      "kyoto_indigo": "Kyoto Indigo",
+      "matcha_garden": "Matcha Garden",
+      "midnight_scholar": "Midnight Scholar",
+      "aurora_haze": "Aurora Haze",
+      "blueprint_draft": "Blueprint Draft"
     },
-    "fontFamily": "Font Family",
+    "font_family": "Font Family",
     "fonts": {
       "default": "Figtree + Playfair",
       "serif": "Playfair Display",
@@ -156,7 +166,7 @@
       "rounded": "Nunito",
       "condensed": "Barlow Condensed",
       "exa": "Bricolage Grotesque",
-      "ichizenMinimal": "Ichizen Minimal"
+      "ichizen_minimal": "Ichizen Minimal"
     },
     "density": {
       "title": "Density",
@@ -179,28 +189,28 @@
       "default": "Default",
       "heavy": "Heavy"
     },
-    "resetDefaults": "Reset to theme defaults"
+    "reset_defaults": "Reset to theme defaults"
   },
-  "helpPane": {
+  "help_pane": {
     "title": "Knowledge Base",
     "close": "Close help pane"
   },
   "table": {
     "search": "Search",
-    "searchPlaceholder": "Search...",
+    "search_placeholder": "Search...",
     "filters": "Filters",
-    "filterConditions": "Filter Conditions",
-    "clearAll": "Clear All",
-    "addCondition": "Add condition",
+    "filter_conditions": "Filter Conditions",
+    "clear_all": "Clear All",
+    "add_condition": "Add condition",
     "clear": "Clear",
-    "applyFilters": "Apply Filters",
+    "apply_filters": "Apply Filters",
     "sort": "Sort",
     "ascending": "Ascending",
     "descending": "Descending",
     "columns": "Columns",
     "export": "Export",
-    "exportCsv": "Export as CSV",
-    "exportExcel": "Export as Excel",
+    "export_csv": "Export as CSV",
+    "export_excel": "Export as Excel",
     "density": {
       "title": "Row density",
       "dense": "Dense",
@@ -208,56 +218,56 @@
       "default": "Default",
       "comfortable": "Comfortable"
     },
-    "selectAll": "Select all",
-    "bulkSelectAllPage": "Select All items in this page",
-    "bulkSelectAllAcrossPages": "Select all {N} across all pages",
-    "bulkClearSelection": "Clear selection",
-    "columnSortLockedHint": "Change the sort column before hiding this one.",
-    "sortAscText": "A → Z",
-    "sortDescText": "Z → A",
-    "sortAscNumber": "Low → High",
-    "sortDescNumber": "High → Low",
-    "sortAscDate": "Oldest → Newest",
-    "sortDescDate": "Newest → Oldest",
-    "sortAscEnum": "Grouped",
-    "sortDescEnum": "Grouped (reverse)",
-    "filterOpContains": "contains",
-    "filterOpEquals": "equals",
-    "filterOpStartsWith": "starts with",
-    "filterOpEndsWith": "ends with",
-    "filterOpNotEquals": "does not equal",
-    "filterOpBetween": "between",
-    "filterOpEq": "=",
-    "filterOpNeq": "≠",
-    "filterOpGt": ">",
-    "filterOpGte": "≥",
-    "filterOpLt": "<",
-    "filterOpLte": "≤",
-    "filterOpOn": "on",
-    "filterOpBefore": "before",
-    "filterOpAfter": "after",
-    "filterOpIn": "in",
-    "filterOpNotIn": "not in",
-    "filterPresetToday": "Today",
-    "filterPreset7d": "Last 7 days",
-    "filterPreset30d": "Last 30 days",
-    "filterPresetMonth": "This month",
-    "filterPresetCustom": "Custom",
-    "filterAny": "Any",
-    "filterYes": "Yes",
-    "filterNo": "No",
-    "filterSearchPlaceholder": "Search…",
-    "filterMinPlaceholder": "Min",
-    "filterMaxPlaceholder": "Max",
-    "selectRow": "Select row",
+    "select_all": "Select all",
+    "bulk_select_all_page": "Select All items in this page",
+    "bulk_select_all_across_pages": "Select all {N} across all pages",
+    "bulk_clear_selection": "Clear selection",
+    "column_sort_locked_hint": "Change the sort column before hiding this one.",
+    "sort_asc_text": "A → Z",
+    "sort_desc_text": "Z → A",
+    "sort_asc_number": "Low → High",
+    "sort_desc_number": "High → Low",
+    "sort_asc_date": "Oldest → Newest",
+    "sort_desc_date": "Newest → Oldest",
+    "sort_asc_enum": "Grouped",
+    "sort_desc_enum": "Grouped (reverse)",
+    "filter_op_contains": "contains",
+    "filter_op_equals": "equals",
+    "filter_op_starts_with": "starts with",
+    "filter_op_ends_with": "ends with",
+    "filter_op_not_equals": "does not equal",
+    "filter_op_between": "between",
+    "filter_op_eq": "=",
+    "filter_op_neq": "≠",
+    "filter_op_gt": ">",
+    "filter_op_gte": "≥",
+    "filter_op_lt": "<",
+    "filter_op_lte": "≤",
+    "filter_op_on": "on",
+    "filter_op_before": "before",
+    "filter_op_after": "after",
+    "filter_op_in": "in",
+    "filter_op_not_in": "not in",
+    "filter_preset_today": "Today",
+    "filter_preset7d": "Last 7 days",
+    "filter_preset30d": "Last 30 days",
+    "filter_preset_month": "This month",
+    "filter_preset_custom": "Custom",
+    "filter_any": "Any",
+    "filter_yes": "Yes",
+    "filter_no": "No",
+    "filter_search_placeholder": "Search…",
+    "filter_min_placeholder": "Min",
+    "filter_max_placeholder": "Max",
+    "select_row": "Select row",
     "actions": "Actions",
     "show": "Show",
     "entries": "entries",
     "showing": "Showing",
     "to": "to",
     "of": "of",
-    "entriesLabel": "entries",
-    "columnsLabel": {
+    "entries_label": "entries",
+    "columns_label": {
       "name": "Name",
       "email": "Email",
       "division": "Division",
@@ -287,12 +297,12 @@
     "previous": "Previous",
     "page": "Page",
     "of": "of",
-    "loadMore": "Load More",
+    "load_more": "Load More",
     "showing": "Showing",
     "items": "items",
-    "allLoaded": "All items loaded",
-    "previousPage": "Previous page",
-    "nextPage": "Next page"
+    "all_loaded": "All items loaded",
+    "previous_page": "Previous page",
+    "next_page": "Next page"
   },
   "buttons": {
     "save": "Save",
@@ -320,17 +330,17 @@
     "search": "Search",
     "filter": "Filter",
     "clear": "Clear",
-    "selectAll": "Select All",
-    "deselectAll": "Deselect All",
+    "select_all": "Select All",
+    "deselect_all": "Deselect All",
     "more": "More",
     "less": "Less",
-    "seeMore": "see more",
-    "seeLess": "see less",
-    "moreOptions": "More options",
+    "see_more": "see more",
+    "see_less": "see less",
+    "more_options": "More options",
     "settings": "Settings",
     "connect": "Connect",
     "configure": "Configure",
-    "readMore": "Read more"
+    "read_more": "Read more"
   },
   "actions": {
     "view": "View",
@@ -344,13 +354,13 @@
     "deactivate": "Deactivate",
     "approve": "Approve",
     "export": "Export",
-    "copySuffix": " (Copy)"
+    "copy_suffix": " (Copy)"
   },
   "bulk": {
-    "selectAll": "Select all",
+    "select_all": "Select all",
     "selected": "selected",
     "cancel": "Cancel",
-    "clearSelection": "Clear selection",
+    "clear_selection": "Clear selection",
     "activate": "Activate",
     "deactivate": "Deactivate",
     "delete": "Delete",
@@ -361,7 +371,7 @@
     "active": "Active",
     "inactive": "Inactive",
     "blocked": "Blocked",
-    "onHold": "On hold",
+    "on_hold": "On hold",
     "prospect": "Prospect",
     "pending": "Pending",
     "draft": "Draft",
@@ -372,35 +382,35 @@
     "default": "Default"
   },
   "empty": {
-    "noResults": "No results found",
-    "noData": "No data available"
+    "no_results": "No results found",
+    "no_data": "No data available"
   },
   "loading": {
     "loading": "Loading...",
-    "pleaseWait": "Please wait..."
+    "please_wait": "Please wait..."
   },
   "errors": {
     "general": "An error occurred",
-    "notFound": "Not found",
+    "not_found": "Not found",
     "unauthorized": "Unauthorized",
     "forbidden": "Forbidden",
-    "noPermission": "No permission",
-    "missingPermission": "Missing permission: %s",
-    "permissionDenied": "Permission denied",
-    "invalidFormData": "Invalid form data",
-    "invalidStatus": "Invalid status",
-    "invalidTargetStatus": "Invalid target status",
-    "idRequired": "ID is required",
-    "noIDsProvided": "No IDs provided",
+    "no_permission": "No permission",
+    "missing_permission": "Missing permission: %s",
+    "permission_denied": "Permission denied",
+    "invalid_form_data": "Invalid form data",
+    "invalid_status": "Invalid status",
+    "invalid_target_status": "Invalid target status",
+    "id_required": "ID is required",
+    "no_ids_provided": "No IDs provided",
     "validation": {
       "required": "This field is required",
-      "emptyId": "ID cannot be empty",
-      "emptyName": "Name cannot be empty",
-      "invalidStatus": "Invalid status"
+      "empty_id": "ID cannot be empty",
+      "empty_name": "Name cannot be empty",
+      "invalid_status": "Invalid status"
     }
   },
   "dropdown": {
-    "moreOptions": "More options"
+    "more_options": "More options"
   },
   "integration": {
     "popular": "Popular",
@@ -409,7 +419,7 @@
     "connect": "Connect"
   },
   "card": {
-    "readMore": "Read more"
+    "read_more": "Read more"
   },
   "tabs": {
     "attachments": "Attachments"
@@ -419,49 +429,125 @@
     "dismiss": "Dismiss notification"
   },
   "sheet": {
-    "errorFallback": "An error occurred. Please try again.",
-    "dismissAlert": "Dismiss alert"
+    "error_fallback": "An error occurred. Please try again.",
+    "dismiss_alert": "Dismiss alert"
   },
   "a11y": {
-    "skipToContent": "Skip to main content",
-    "moreInfo": "More info"
+    "skip_to_content": "Skip to main content",
+    "more_info": "More info"
   },
-  "durationUnit": {
-    "daySingular": "day",
-    "dayPlural": "days",
-    "daySelect": "day(s)",
-    "weekSingular": "week",
-    "weekPlural": "weeks",
-    "weekSelect": "week(s)",
-    "monthSingular": "month",
-    "monthPlural": "months",
-    "monthSelect": "month(s)",
-    "yearSingular": "year",
-    "yearPlural": "years",
-    "yearSelect": "year(s)"
+  "duration_unit": {
+    "day_singular": "day",
+    "day_plural": "days",
+    "day_select": "day(s)",
+    "week_singular": "week",
+    "week_plural": "weeks",
+    "week_select": "week(s)",
+    "month_singular": "month",
+    "month_plural": "months",
+    "month_select": "month(s)",
+    "year_singular": "year",
+    "year_plural": "years",
+    "year_select": "year(s)"
   },
   "currency": {
     "placeholder": "Select a currency",
     "options": [
-      { "value": "AUD", "label": "AUD — Australian Dollar (A$)", "description": "Australia" },
-      { "value": "CAD", "label": "CAD — Canadian Dollar (C$)", "description": "Canada" },
-      { "value": "CHF", "label": "CHF — Swiss Franc (CHF)", "description": "Switzerland, Liechtenstein" },
-      { "value": "CNY", "label": "CNY — Chinese Yuan (¥)", "description": "Mainland China" },
-      { "value": "EUR", "label": "EUR — Euro (€)", "description": "Eurozone" },
-      { "value": "GBP", "label": "GBP — British Pound (£)", "description": "United Kingdom" },
-      { "value": "HKD", "label": "HKD — Hong Kong Dollar (HK$)", "description": "Hong Kong SAR" },
-      { "value": "IDR", "label": "IDR — Indonesian Rupiah (Rp)", "description": "Indonesia" },
-      { "value": "INR", "label": "INR — Indian Rupee (₹)", "description": "India" },
-      { "value": "JPY", "label": "JPY — Japanese Yen (¥)", "description": "Japan" },
-      { "value": "KRW", "label": "KRW — South Korean Won (₩)", "description": "South Korea" },
-      { "value": "MYR", "label": "MYR — Malaysian Ringgit (RM)", "description": "Malaysia" },
-      { "value": "NZD", "label": "NZD — New Zealand Dollar (NZ$)", "description": "New Zealand" },
-      { "value": "PHP", "label": "PHP — Philippine Peso (₱)", "description": "Philippines" },
-      { "value": "SGD", "label": "SGD — Singapore Dollar (S$)", "description": "Singapore" },
-      { "value": "THB", "label": "THB — Thai Baht (฿)", "description": "Thailand" },
-      { "value": "TWD", "label": "TWD — New Taiwan Dollar (NT$)", "description": "Taiwan" },
-      { "value": "USD", "label": "USD — US Dollar ($)", "description": "United States" },
-      { "value": "VND", "label": "VND — Vietnamese Dong (₫)", "description": "Vietnam" }
+      {
+        "value": "AUD",
+        "label": "AUD — Australian Dollar (A$)",
+        "description": "Australia"
+      },
+      {
+        "value": "CAD",
+        "label": "CAD — Canadian Dollar (C$)",
+        "description": "Canada"
+      },
+      {
+        "value": "CHF",
+        "label": "CHF — Swiss Franc (CHF)",
+        "description": "Switzerland, Liechtenstein"
+      },
+      {
+        "value": "CNY",
+        "label": "CNY — Chinese Yuan (¥)",
+        "description": "Mainland China"
+      },
+      {
+        "value": "EUR",
+        "label": "EUR — Euro (€)",
+        "description": "Eurozone"
+      },
+      {
+        "value": "GBP",
+        "label": "GBP — British Pound (£)",
+        "description": "United Kingdom"
+      },
+      {
+        "value": "HKD",
+        "label": "HKD — Hong Kong Dollar (HK$)",
+        "description": "Hong Kong SAR"
+      },
+      {
+        "value": "IDR",
+        "label": "IDR — Indonesian Rupiah (Rp)",
+        "description": "Indonesia"
+      },
+      {
+        "value": "INR",
+        "label": "INR — Indian Rupee (₹)",
+        "description": "India"
+      },
+      {
+        "value": "JPY",
+        "label": "JPY — Japanese Yen (¥)",
+        "description": "Japan"
+      },
+      {
+        "value": "KRW",
+        "label": "KRW — South Korean Won (₩)",
+        "description": "South Korea"
+      },
+      {
+        "value": "MYR",
+        "label": "MYR — Malaysian Ringgit (RM)",
+        "description": "Malaysia"
+      },
+      {
+        "value": "NZD",
+        "label": "NZD — New Zealand Dollar (NZ$)",
+        "description": "New Zealand"
+      },
+      {
+        "value": "PHP",
+        "label": "PHP — Philippine Peso (₱)",
+        "description": "Philippines"
+      },
+      {
+        "value": "SGD",
+        "label": "SGD — Singapore Dollar (S$)",
+        "description": "Singapore"
+      },
+      {
+        "value": "THB",
+        "label": "THB — Thai Baht (฿)",
+        "description": "Thailand"
+      },
+      {
+        "value": "TWD",
+        "label": "TWD — New Taiwan Dollar (NT$)",
+        "description": "Taiwan"
+      },
+      {
+        "value": "USD",
+        "label": "USD — US Dollar ($)",
+        "description": "United States"
+      },
+      {
+        "value": "VND",
+        "label": "VND — Vietnamese Dong (₫)",
+        "description": "Vietnam"
+      }
     ]
   }
 }

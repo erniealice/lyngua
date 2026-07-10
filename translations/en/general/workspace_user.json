@@ -4,39 +4,39 @@
     "caption": "Manage user assignments for workspaces."
   },
   "columns": {
-    "userName": "Name",
+    "user_name": "Name",
     "email": "Email",
     "roles": "Roles",
     "status": "Status",
-    "roleName": "Role",
-    "permCount": "Permissions",
-    "dateJoined": "Date Joined"
+    "role_name": "Role",
+    "perm_count": "Permissions",
+    "date_joined": "Date Joined"
   },
   "detail": {
-    "backToWorkspace": "Back to workspace",
+    "back_to_workspace": "Back to workspace",
     "tabs": {
       "info": "Info",
       "roles": "Roles"
     },
     "info": {
-      "sectionTitle": "User Details",
+      "section_title": "User Details",
       "name": "Name",
       "email": "Email",
       "workspace": "Workspace",
-      "dateJoined": "Date Joined",
+      "date_joined": "Date Joined",
       "status": "Status"
     },
     "roles": {
-      "assignButton": "Assign role",
-      "emptyTitle": "No roles assigned",
-      "emptyMessage": "No roles have been assigned to this workspace user yet."
+      "assign_button": "Assign role",
+      "empty_title": "No roles assigned",
+      "empty_message": "No roles have been assigned to this workspace user yet."
     }
   },
   "form": {
     "user": "User",
-    "userPlaceholder": "Select a user",
-    "userSearchPlaceholder": "Search users...",
-    "workspaceId": "Workspace",
+    "user_placeholder": "Select a user",
+    "user_search_placeholder": "Search users...",
+    "workspace_id": "Workspace",
     "active": "Active"
   },
   "actions": {

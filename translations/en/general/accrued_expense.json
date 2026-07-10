@@ -1,26 +1,26 @@
 {
-  "accruedExpense": {
+  "accrued_expense": {
     "labels": {
       "name": "Accrued Expense",
-      "namePlural": "Accrued Expenses",
+      "name_plural": "Accrued Expenses",
       "settlement": "Settlement",
-      "settlementPlural": "Settlements"
+      "settlement_plural": "Settlements"
     },
     "page": {
       "heading": "Accrued Expenses",
       "caption": "Recognized supplier obligations awaiting the actual bill",
-      "headingOutstanding": "Outstanding Accruals",
-      "headingPartial": "Partially Settled",
-      "headingSettled": "Settled Accruals",
-      "headingReversed": "Reversed Accruals",
+      "heading_outstanding": "Outstanding Accruals",
+      "heading_partial": "Partially Settled",
+      "heading_settled": "Settled Accruals",
+      "heading_reversed": "Reversed Accruals",
       "dashboard": "Accrued Expense Dashboard"
     },
     "buttons": {
       "add": "New Accrual",
-      "accrueFromContract": "Accrue from Contract",
+      "accrue_from_contract": "Accrue from Contract",
       "settle": "Settle",
       "reverse": "Reverse",
-      "addSettlement": "Record Settlement"
+      "add_settlement": "Record Settlement"
     },
     "search": {
       "placeholder": "Search by name, supplier, or period..."
@@ -28,99 +28,92 @@
     "filters": {
       "all": "All",
       "status": "Status",
-      "anyStatus": "Any Status",
+      "any_status": "Any Status",
       "supplier": "Supplier",
-      "anySupplier": "Any Supplier",
-      "supplierContract": "Contract",
-      "anySupplierContract": "Any Contract",
+      "any_supplier": "Any Supplier",
+      "supplier_contract": "Contract",
+      "any_supplier_contract": "Any Contract",
       "period": "Period"
     },
     "columns": {
-      "internalId": "ID",
+      "internal_id": "ID",
       "name": "Name",
       "supplier": "Supplier",
-      "supplierContract": "Contract",
-      "recognitionDate": "Recognition Date",
-      "periodStart": "Period Start",
-      "periodEnd": "Period End",
-      "cycleDate": "Cycle",
+      "supplier_contract": "Contract",
+      "recognition_date": "Recognition Date",
+      "period_start": "Period Start",
+      "period_end": "Period End",
+      "cycle_date": "Cycle",
       "currency": "Currency",
-      "accruedAmount": "Accrued",
-      "settledAmount": "Settled",
-      "remainingAmount": "Remaining",
+      "accrued_amount": "Accrued",
+      "settled_amount": "Settled",
+      "remaining_amount": "Remaining",
       "status": "Status"
     },
     "empty": {
       "title": "No accrued expenses yet",
       "message": "Accrue from a contract cycle when the period closes before the supplier bill arrives.",
-      "outstandingTitle": "No outstanding accruals",
-      "outstandingMessage": "Outstanding accruals waiting for a supplier bill will appear here.",
-      "partialTitle": "No partially settled accruals",
-      "partialMessage": "Accruals with at least one settlement but not fully reconciled will appear here.",
-      "settledTitle": "No settled accruals",
-      "settledMessage": "Fully reconciled accruals will appear here.",
-      "reversedTitle": "No reversed accruals",
-      "reversedMessage": "Reversed accruals will appear here."
+      "outstanding_title": "No outstanding accruals",
+      "outstanding_message": "Outstanding accruals waiting for a supplier bill will appear here.",
+      "partial_title": "No partially settled accruals",
+      "partial_message": "Accruals with at least one settlement but not fully reconciled will appear here.",
+      "settled_title": "No settled accruals",
+      "settled_message": "Fully reconciled accruals will appear here.",
+      "reversed_title": "No reversed accruals",
+      "reversed_message": "Reversed accruals will appear here."
     },
     "form": {
-      "sectionIdentity": "Accrual Identity",
-      "sectionSource": "Source",
-      "sectionPeriod": "Period",
-      "sectionMoney": "Money",
-      "sectionAccounting": "Accounting",
-      "sectionLifecycle": "Lifecycle",
-      "sectionNotes": "Notes",
-
+      "section_identity": "Accrual Identity",
+      "section_source": "Source",
+      "section_period": "Period",
+      "section_money": "Money",
+      "section_accounting": "Accounting",
+      "section_lifecycle": "Lifecycle",
+      "section_notes": "Notes",
       "name": "Accrual Name",
-      "namePlaceholder": "e.g. Utilities — May 2026 (estimate)",
-      "nameInfo": "Descriptive label for the accrued obligation.",
+      "name_placeholder": "e.g. Utilities — May 2026 (estimate)",
+      "name_info": "Descriptive label for the accrued obligation.",
       "description": "Description",
-      "descriptionPlaceholder": "Optional details about this accrual...",
-      "internalId": "Internal ID",
-      "internalIdPlaceholder": "Auto-generated",
-
-      "supplierContract": "Source Contract",
-      "selectSupplierContract": "Select contract...",
-      "supplierContractInfo": "The contract whose cycle is being accrued.",
+      "description_placeholder": "Optional details about this accrual...",
+      "internal_id": "Internal ID",
+      "internal_id_placeholder": "Auto-generated",
+      "supplier_contract": "Source Contract",
+      "select_supplier_contract": "Select contract...",
+      "supplier_contract_info": "The contract whose cycle is being accrued.",
       "supplier": "Supplier",
-      "selectSupplier": "Select supplier...",
-      "supplierInfo": "Supplier the obligation is owed to. Defaults from the contract.",
-
-      "recognitionDate": "Recognition Date",
-      "recognitionDateInfo": "Date the obligation is booked into the period.",
-      "periodStart": "Period Start",
-      "periodStartInfo": "Start of the period the accrual covers.",
-      "periodEnd": "Period End",
-      "periodEndInfo": "End of the period the accrual covers.",
-      "cycleDate": "Cycle Date",
-      "cycleDatePlaceholder": "YYYY-MM-DD",
-      "cycleDateInfo": "Cycle bucket (YYYY-MM-DD) used for idempotency against the recurrence engine.",
-
+      "select_supplier": "Select supplier...",
+      "supplier_info": "Supplier the obligation is owed to. Defaults from the contract.",
+      "recognition_date": "Recognition Date",
+      "recognition_date_info": "Date the obligation is booked into the period.",
+      "period_start": "Period Start",
+      "period_start_info": "Start of the period the accrual covers.",
+      "period_end": "Period End",
+      "period_end_info": "End of the period the accrual covers.",
+      "cycle_date": "Cycle Date",
+      "cycle_date_placeholder": "YYYY-MM-DD",
+      "cycle_date_info": "Cycle bucket (YYYY-MM-DD) used for idempotency against the recurrence engine.",
       "currency": "Currency",
-      "currencyPlaceholder": "PHP",
-      "currencyInfo": "ISO 4217 currency for the accrual.",
-      "accruedAmount": "Accrued Amount",
-      "accruedAmountPlaceholder": "0.00",
-      "accruedAmountInfo": "Estimated obligation for the period, in the accrual currency.",
-      "settledAmount": "Settled Amount",
-      "settledAmountInfo": "Sum of settlements applied so far. Read-only; updated by Settle Accrual.",
-      "remainingAmount": "Remaining",
-      "remainingAmountInfo": "Accrued amount minus settled amount. Read-only.",
-
+      "currency_placeholder": "PHP",
+      "currency_info": "ISO 4217 currency for the accrual.",
+      "accrued_amount": "Accrued Amount",
+      "accrued_amount_placeholder": "0.00",
+      "accrued_amount_info": "Estimated obligation for the period, in the accrual currency.",
+      "settled_amount": "Settled Amount",
+      "settled_amount_info": "Sum of settlements applied so far. Read-only; updated by Settle Accrual.",
+      "remaining_amount": "Remaining",
+      "remaining_amount_info": "Accrued amount minus settled amount. Read-only.",
       "status": "Status",
-      "selectStatus": "Select status...",
-      "statusInfo": "Lifecycle state. New accruals default to Outstanding and progress as settlements arrive.",
-
-      "expenseAccount": "Expense Account",
-      "selectExpenseAccount": "Select expense account...",
-      "expenseAccountInfo": "GL account to debit when the obligation is recognized.",
-      "accrualAccount": "Accrual Account",
-      "selectAccrualAccount": "Select accrual account...",
-      "accrualAccountInfo": "GL account to credit while the accrual is outstanding.",
-
+      "select_status": "Select status...",
+      "status_info": "Lifecycle state. New accruals default to Outstanding and progress as settlements arrive.",
+      "expense_account": "Expense Account",
+      "select_expense_account": "Select expense account...",
+      "expense_account_info": "GL account to debit when the obligation is recognized.",
+      "accrual_account": "Accrual Account",
+      "select_accrual_account": "Select accrual account...",
+      "accrual_account_info": "GL account to credit while the accrual is outstanding.",
       "notes": "Notes",
-      "notesPlaceholder": "Internal notes about this accrual...",
-      "notesInfo": "Internal remarks only."
+      "notes_placeholder": "Internal notes about this accrual...",
+      "notes_info": "Internal remarks only."
     },
     "status": {
       "outstanding": "Outstanding",
@@ -128,7 +121,7 @@
       "settled": "Settled",
       "reversed": "Reversed"
     },
-    "statusOptions": {
+    "status_options": {
       "outstanding": "Outstanding",
       "partial": "Partially Settled",
       "settled": "Settled",
@@ -139,30 +132,30 @@
       "edit": "Edit Accrual",
       "delete": "Delete Accrual",
       "add": "Add Accrual",
-      "accrueFromContract": "Accrue from Contract",
+      "accrue_from_contract": "Accrue from Contract",
       "settle": "Settle Accrual",
       "reverse": "Reverse Accrual",
-      "addSettlement": "Record Settlement",
-      "noPermission": "No permission"
+      "add_settlement": "Record Settlement",
+      "no_permission": "No permission"
     },
-    "bulkActions": {
+    "bulk_actions": {
       "delete": "Delete Selected",
       "reverse": "Reverse Selected"
     },
     "confirm": {
       "delete": "Delete Accrual",
-      "deleteMessage": "Are you sure you want to delete this accrual? Only Outstanding accruals can be deleted.",
+      "delete_message": "Are you sure you want to delete this accrual? Only Outstanding accruals can be deleted.",
       "settle": "Settle Accrual",
-      "settleMessage": "Apply a settlement against this accrual? You will be prompted for the linked bill and amount.",
+      "settle_message": "Apply a settlement against this accrual? You will be prompted for the linked bill and amount.",
       "reverse": "Reverse Accrual",
-      "reverseMessage": "Reversing flips this accrual to Reversed and posts a reversing journal. If a linked bill has already been disbursed, you will need a separate disbursement reversal to reconcile cash. Continue?"
+      "reverse_message": "Reversing flips this accrual to Reversed and posts a reversing journal. If a linked bill has already been disbursed, you will need a separate disbursement reversal to reconcile cash. Continue?"
     },
     "info": {
-      "outstandingNotice": "This accrual is outstanding — no settlements yet.",
-      "partialNotice": "This accrual is partially settled — {{.Settled}} of {{.Accrued}} applied.",
-      "settledNotice": "This accrual is fully settled.",
-      "reversedNotice": "This accrual has been reversed and no longer affects the books.",
-      "disbursementWarning": "A linked bill is already disbursed. Reversing here requires a separate disbursement reversal to reconcile cash."
+      "outstanding_notice": "This accrual is outstanding — no settlements yet.",
+      "partial_notice": "This accrual is partially settled — {{.Settled}} of {{.Accrued}} applied.",
+      "settled_notice": "This accrual is fully settled.",
+      "reversed_notice": "This accrual has been reversed and no longer affects the books.",
+      "disbursement_warning": "A linked bill is already disbursed. Reversing here requires a separate disbursement reversal to reconcile cash."
     },
     "tabs": {
       "info": "Information",
@@ -171,19 +164,19 @@
       "activity": "Activity"
     },
     "detail": {
-      "pageTitle": "Accrual Details",
+      "page_title": "Accrual Details",
       "title": "Accrual Detail",
-      "infoSection": "Accrual Information",
-      "settlementsSection": "Settlements",
-      "sourceSection": "Source",
-      "auditTrailComingSoon": "Activity log feature coming soon.",
-      "auditEmptyTitle": "No activity entries",
-      "auditEmptyMessage": "Activity logs for this accrual will appear here.",
+      "info_section": "Accrual Information",
+      "settlements_section": "Settlements",
+      "source_section": "Source",
+      "audit_trail_coming_soon": "Activity log feature coming soon.",
+      "audit_empty_title": "No activity entries",
+      "audit_empty_message": "Activity logs for this accrual will appear here.",
       "notes": "Notes",
-      "sourceContract": "Source Contract",
+      "source_contract": "Source Contract",
       "supplier": "Supplier",
-      "expenseAccount": "Expense Account",
-      "accrualAccount": "Accrual Account"
+      "expense_account": "Expense Account",
+      "accrual_account": "Accrual Account"
     },
     "balances": {
       "title": "Settlement Progress",
@@ -192,13 +185,13 @@
       "remaining": "Remaining",
       "utilization": "Settlement Progress"
     },
-    "statusMessages": {
-      "createSuccess": "Accrual created successfully",
-      "updateSuccess": "Accrual updated successfully",
-      "deleteSuccess": "Accrual deleted successfully",
-      "accrueSuccess": "Contract cycle accrued",
-      "settleSuccess": "Settlement recorded",
-      "reverseSuccess": "Accrual reversed"
+    "status_messages": {
+      "create_success": "Accrual created successfully",
+      "update_success": "Accrual updated successfully",
+      "delete_success": "Accrual deleted successfully",
+      "accrue_success": "Contract cycle accrued",
+      "settle_success": "Settlement recorded",
+      "reverse_success": "Accrual reversed"
     },
     "validation": {
       "data_required": "Accrual data is required",
@@ -214,12 +207,11 @@
       "cannot_delete_with_settlements": "Cannot delete an accrual that has settlements"
     },
     "errors": {
-      "permissionDenied": "You do not have permission to perform this action.",
-      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
-      "notFound": "Accrued expense not found.",
-      "not_found": "Accrued expense with ID \"{entityId}\" not found",
-      "idRequired": "Accrual ID is required.",
-      "noPermission": "No permission.",
+      "permission_denied": "You do not have permission to perform this action.",
+      "invalid_form_data": "Invalid form data. Please check your inputs and try again.",
+      "not_found": "Accrued expense not found.",
+      "id_required": "Accrual ID is required.",
+      "no_permission": "No permission.",
       "creation_failed": "Accrual creation failed",
       "update_failed": "Accrual update failed",
       "deletion_failed": "Accrual deletion failed",

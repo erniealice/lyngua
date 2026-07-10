@@ -1,33 +1,33 @@
 {
     "outcome_summary": {
         "page": {
-            "jobHeading": "Outcome Summary",
-            "jobCaption": "Job-level outcome report card",
-            "phaseHeading": "Phase Outcome Summary",
-            "phaseCaption": "Phase-level outcome report card"
+            "job_heading": "Outcome Summary",
+            "job_caption": "Job-level outcome report card",
+            "phase_heading": "Phase Outcome Summary",
+            "phase_caption": "Phase-level outcome report card"
         },
         "buttons": {
-            "generateSummary": "Generate Summary"
+            "generate_summary": "Generate Summary"
         },
         "detail": {
-            "overallDetermination": "Overall Determination",
-            "phaseDetermination": "Phase Determination",
+            "overall_determination": "Overall Determination",
+            "phase_determination": "Phase Determination",
             "score": "Score",
-            "scoringMethod": "Scoring Method",
-            "totalCriteria": "Total Criteria",
-            "passCount": "Pass",
-            "failCount": "Fail",
-            "conditionalCount": "Conditional",
-            "deferredCount": "Deferred",
-            "naCount": "N/A",
+            "scoring_method": "Scoring Method",
+            "total_criteria": "Total Criteria",
+            "pass_count": "Pass",
+            "fail_count": "Fail",
+            "conditional_count": "Conditional",
+            "deferred_count": "Deferred",
+            "na_count": "N/A",
             "narrative": "Narrative",
-            "issuedBy": "Issued By",
-            "issuedDate": "Issued Date",
-            "validUntilDate": "Valid Until"
+            "issued_by": "Issued By",
+            "issued_date": "Issued Date",
+            "valid_until_date": "Valid Until"
         },
         "errors": {
-            "notFound": "Outcome summary not found",
-            "permissionDenied": "You do not have permission to perform this action"
+            "not_found": "Outcome summary not found",
+            "permission_denied": "You do not have permission to perform this action"
         }
     }
 }

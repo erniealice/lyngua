@@ -25,14 +25,14 @@ type PerformancePageLabels struct {
 // PerformancePanelBlock holds the sub-labels for the panel matrix view.
 // Groups maps overdue/due/upToDate group headings.
 type PerformancePanelBlock struct {
-	Heading string                          `json:"heading"`
-	Caption string                          `json:"caption"`
-	Groups  PerformancePanelGroupLabels     `json:"groups"`
-	Columns PerformancePanelColumnLabels    `json:"columns"`
-	Actions PerformancePanelActionLabels    `json:"actions"`
-	Empty   PerformancePanelEmptyLabels     `json:"empty"`
-	Rating  PerformancePanelRatingLabels    `json:"rating"`
-	Cycle   PerformancePanelCycleLabels     `json:"cycle"`
+	Heading string                       `json:"heading"`
+	Caption string                       `json:"caption"`
+	Groups  PerformancePanelGroupLabels  `json:"groups"`
+	Columns PerformancePanelColumnLabels `json:"columns"`
+	Actions PerformancePanelActionLabels `json:"actions"`
+	Empty   PerformancePanelEmptyLabels  `json:"empty"`
+	Rating  PerformancePanelRatingLabels `json:"rating"`
+	Cycle   PerformancePanelCycleLabels  `json:"cycle"`
 }
 
 // PerformancePanelGroupLabels holds the three group-heading strings for the matrix.
@@ -40,44 +40,44 @@ type PerformancePanelBlock struct {
 type PerformancePanelGroupLabels struct {
 	Overdue  string `json:"overdue"`
 	Due      string `json:"due"`
-	UpToDate string `json:"upToDate"`
+	UpToDate string `json:"up_to_date"`
 }
 
 type PerformancePanelColumnLabels struct {
 	Associate  string `json:"associate"`
 	Client     string `json:"client"`
-	LastReview string `json:"lastReview"`
-	NextDue    string `json:"nextDue"`
+	LastReview string `json:"last_review"`
+	NextDue    string `json:"next_due"`
 	Rating     string `json:"rating"`
 	Status     string `json:"status"`
 }
 
 type PerformancePanelActionLabels struct {
-	StartReview    string `json:"startReview"`
-	ViewLastReview string `json:"viewLastReview"`
+	StartReview    string `json:"start_review"`
+	ViewLastReview string `json:"view_last_review"`
 }
 
 type PerformancePanelEmptyLabels struct {
 	Title         string `json:"title"`
 	Message       string `json:"message"`
-	OverdueEmpty  string `json:"overdueEmpty"`
-	DueEmpty      string `json:"dueEmpty"`
-	UpToDateEmpty string `json:"upToDateEmpty"`
+	OverdueEmpty  string `json:"overdue_empty"`
+	DueEmpty      string `json:"due_empty"`
+	UpToDateEmpty string `json:"up_to_date_empty"`
 }
 
 type PerformancePanelRatingLabels struct {
-	NoRating string `json:"noRating"`
+	NoRating string `json:"no_rating"`
 	Label    string `json:"label"`
 }
 
 type PerformancePanelCycleLabels struct {
-	Heading  string `json:"heading"`
-	NoCycle  string `json:"noCycle"`
+	Heading string `json:"heading"`
+	NoCycle string `json:"no_cycle"`
 }
 
 type PerformanceErrorLabels struct {
-	PermissionDenied string `json:"permissionDenied"`
-	LoadFailed       string `json:"loadFailed"`
+	PermissionDenied string `json:"permission_denied"`
+	LoadFailed       string `json:"load_failed"`
 }
 
 // DefaultPerformancePanelLabels returns PerformancePanelLabels with sensible English defaults.

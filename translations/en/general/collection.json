@@ -2,17 +2,17 @@
   "collection": {
     "page": {
       "heading": "Collections",
-      "headingPending": "Pending Collections",
-      "headingCompleted": "Completed Collections",
-      "headingFailed": "Failed Collections",
+      "heading_pending": "Pending Collections",
+      "heading_completed": "Completed Collections",
+      "heading_failed": "Failed Collections",
       "caption": "Manage payment collections",
-      "captionPending": "Payments awaiting collection",
-      "captionCompleted": "Successfully collected payments",
-      "captionFailed": "Failed payment attempts",
+      "caption_pending": "Payments awaiting collection",
+      "caption_completed": "Successfully collected payments",
+      "caption_failed": "Failed payment attempts",
       "dashboard": "Collections Dashboard"
     },
     "buttons": {
-      "addCollection": "Add Collection"
+      "add_collection": "Add Collection"
     },
     "columns": {
       "reference": "Reference",
@@ -23,12 +23,12 @@
       "method": "Method"
     },
     "empty": {
-      "pendingTitle": "No pending collections",
-      "pendingMessage": "No pending collections to display.",
-      "completedTitle": "No completed collections",
-      "completedMessage": "No completed collections to display.",
-      "failedTitle": "No failed collections",
-      "failedMessage": "No failed collections to display."
+      "pending_title": "No pending collections",
+      "pending_message": "No pending collections to display.",
+      "completed_title": "No completed collections",
+      "completed_message": "No completed collections to display.",
+      "failed_title": "No failed collections",
+      "failed_message": "No failed collections to display."
     },
     "form": {
       "customer": "Customer",
@@ -36,26 +36,26 @@
       "amount": "Amount",
       "currency": "Currency",
       "reference": "Reference",
-      "referencePlaceholder": "e.g. INV-001",
-      "paymentMethod": "Payment Method",
+      "reference_placeholder": "e.g. INV-001",
+      "payment_method": "Payment Method",
       "status": "Status",
       "notes": "Notes",
-      "notesPlaceholder": "Additional notes..."
+      "notes_placeholder": "Additional notes..."
     },
     "actions": {
       "view": "View",
       "edit": "Edit",
       "delete": "Delete",
-      "markComplete": "Mark Complete",
+      "mark_complete": "Mark Complete",
       "reactivate": "Reactivate"
     },
-    "bulkActions": {
+    "bulk_actions": {
       "delete": "Delete Selected"
     },
     "detail": {
-      "pageTitle": "Collection Details",
-      "titlePrefix": "Collection #",
-      "paymentInfo": "Payment Information",
+      "page_title": "Collection Details",
+      "title_prefix": "Collection #",
+      "payment_info": "Payment Information",
       "customer": "Customer",
       "date": "Date",
       "amount": "Amount",
@@ -64,14 +64,14 @@
       "method": "Payment Method",
       "reference": "Reference",
       "notes": "Notes",
-      "tabBasicInfo": "Basic Info",
-      "tabAttachments": "Attachments",
-      "tabAuditTrail": "Audit Trail",
-      "tabAuditHistory": "History",
-      "auditAction": "Action",
-      "auditUser": "User",
-      "auditEmptyTitle": "No audit records",
-      "auditEmptyMessage": "No audit trail entries yet."
+      "tab_basic_info": "Basic Info",
+      "tab_attachments": "Attachments",
+      "tab_audit_trail": "Audit Trail",
+      "tab_audit_history": "History",
+      "audit_action": "Action",
+      "audit_user": "User",
+      "audit_empty_title": "No audit records",
+      "audit_empty_message": "No audit trail entries yet."
     },
     "status": {
       "pending": "Pending",
@@ -79,46 +79,46 @@
       "failed": "Failed"
     },
     "confirm": {
-      "markComplete": "Mark Complete",
-      "markCompleteMessage": "Are you sure you want to mark %s as complete?",
+      "mark_complete": "Mark Complete",
+      "mark_complete_message": "Are you sure you want to mark %s as complete?",
       "reactivate": "Reactivate",
-      "reactivateMessage": "Are you sure you want to reactivate %s?",
+      "reactivate_message": "Are you sure you want to reactivate %s?",
       "delete": "Delete",
-      "deleteMessage": "Are you sure you want to delete %s?",
-      "bulkComplete": "Mark Complete",
-      "bulkCompleteMessage": "Are you sure you want to mark {{count}} collection(s) as complete?",
-      "bulkReactivate": "Reactivate",
-      "bulkReactivateMessage": "Are you sure you want to reactivate {{count}} collection(s)?",
-      "bulkDelete": "Delete Collections",
-      "bulkDeleteMessage": "Are you sure you want to delete {{count}} collection(s)?"
+      "delete_message": "Are you sure you want to delete %s?",
+      "bulk_complete": "Mark Complete",
+      "bulk_complete_message": "Are you sure you want to mark {{count}} collection(s) as complete?",
+      "bulk_reactivate": "Reactivate",
+      "bulk_reactivate_message": "Are you sure you want to reactivate {{count}} collection(s)?",
+      "bulk_delete": "Delete Collections",
+      "bulk_delete_message": "Are you sure you want to delete {{count}} collection(s)?"
     },
     "errors": {
-      "permissionDenied": "Permission denied",
-      "invalidFormData": "Invalid form data",
-      "notFound": "Collection not found",
-      "idRequired": "Collection ID is required",
-      "noIDsProvided": "No collection IDs provided",
-      "invalidStatus": "Invalid status"
+      "permission_denied": "Permission denied",
+      "invalid_form_data": "Invalid form data",
+      "not_found": "Collection not found",
+      "id_required": "Collection ID is required",
+      "no_ids_provided": "No collection IDs provided",
+      "invalid_status": "Invalid status"
     },
     "dashboard": {
       "title": "Cash",
       "subtitle": "Track collected payments and outstanding balances",
-      "statPending": "Pending",
-      "statOverdue": "Overdue",
-      "statCollectedToday": "Collected Today",
-      "statCollectedWeek": "Collected This Week",
-      "widgetDailyTrend": "Collected per day (30d)",
-      "widgetByMode": "By payment mode",
-      "widgetRecent": "Recent collections",
-      "quickRecord": "Record Collection",
-      "quickReconcile": "Reconcile",
-      "quickAging": "Aging Report",
-      "quickMarkCleared": "Mark Cleared",
-      "viewAll": "View All",
-      "emptyRecentTitle": "No recent collections",
-      "emptyRecentDesc": "Recent collections will appear here once payments are recorded.",
-      "newCollection": "New collection",
-      "collectionUpdated": "Collection updated"
+      "stat_pending": "Pending",
+      "stat_overdue": "Overdue",
+      "stat_collected_today": "Collected Today",
+      "stat_collected_week": "Collected This Week",
+      "widget_daily_trend": "Collected per day (30d)",
+      "widget_by_mode": "By payment mode",
+      "widget_recent": "Recent collections",
+      "quick_record": "Record Collection",
+      "quick_reconcile": "Reconcile",
+      "quick_aging": "Aging Report",
+      "quick_mark_cleared": "Mark Cleared",
+      "view_all": "View All",
+      "empty_recent_title": "No recent collections",
+      "empty_recent_desc": "Recent collections will appear here once payments are recorded.",
+      "new_collection": "New collection",
+      "collection_updated": "Collection updated"
     }
   }
 }

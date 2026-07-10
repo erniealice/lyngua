@@ -19,7 +19,7 @@
     "title": "Welcome back",
     "description": "Login with your email and password",
     "email_label": "Email",
-    "email_placeholder": "m@example.com",
+    "email_placeholder": "you@example.com",
     "password_label": "Password",
     "password_placeholder": "Enter your password",
     "forgot_password_link": "Forgot your password?",
@@ -27,12 +27,11 @@
     "submitting_button": "Logging in...",
     "no_account": "Don't have an account?",
     "signup_link": "Sign up",
-    "adminTitle": "Admin / Owner",
-    "adminDescription": "Sign in with your admin credentials",
-    "emailPlaceholder": "you@example.com",
-    "staffTitle": "Branch Staff",
-    "staffDescription": "Sign in with your staff PIN",
-    "staffPinComingSoon": "PIN entry coming soon"
+    "admin_title": "Admin / Owner",
+    "admin_description": "Sign in with your admin credentials",
+    "staff_title": "Branch Staff",
+    "staff_description": "Sign in with your staff PIN",
+    "staff_pin_coming_soon": "PIN entry coming soon"
   },
   "register": {
     "title": "Create Account",

@@ -2,9 +2,9 @@
     "product": {
         "active_nav": "service",
         "active_sub_nav": "services-active",
-        "list_url": "/services/list/{status}",
+        "list_url": "/academics/subjects/list/{status}",
         "table_url": "/action/service/table/{status}",
-        "detail_url": "/services/detail/{id}",
+        "detail_url": "/academics/subjects/detail/{id}",
         "add_url": "/action/service/add",
         "edit_url": "/action/service/edit/{id}",
         "delete_url": "/action/service/delete",
@@ -16,13 +16,13 @@
         "variant_assign_url": "/action/service/detail/{id}/variants/assign",
         "variant_edit_url": "/action/service/detail/{id}/variants/edit/{vid}",
         "variant_remove_url": "/action/service/detail/{id}/variants/remove",
-        "variant_detail_url": "/services/detail/{id}/variant/{vid}",
+        "variant_detail_url": "/academics/subjects/detail/{id}/variant/{vid}",
         "variant_tab_action_url": "/action/service/detail/{id}/variant/{vid}/tab/{tab}",
         "variant_image_upload_url": "/action/service/detail/{id}/variant/{vid}/images/upload",
         "variant_image_delete_url": "/action/service/detail/{id}/variant/{vid}/images/delete",
-        "variant_stock_detail_url": "/services/detail/{id}/variant/{vid}/stock/{iid}",
+        "variant_stock_detail_url": "/academics/subjects/detail/{id}/variant/{vid}/stock/{iid}",
         "variant_stock_tab_action_url": "/action/service/detail/{id}/variant/{vid}/stock/{iid}/tab/{tab}",
-        "variant_serial_detail_url": "/services/detail/{id}/variant/{vid}/stock/{iid}/serial/{sid}",
+        "variant_serial_detail_url": "/academics/subjects/detail/{id}/variant/{vid}/stock/{iid}/serial/{sid}",
         "attribute_table_url": "/action/service/detail/{id}/attributes/table",
         "attribute_assign_url": "/action/service/detail/{id}/attributes/assign",
         "attribute_remove_url": "/action/service/detail/{id}/attributes/remove",
@@ -30,7 +30,7 @@
         "option_add_url": "/action/service/detail/{id}/options/add",
         "option_edit_url": "/action/service/detail/{id}/options/edit/{oid}",
         "option_delete_url": "/action/service/detail/{id}/options/delete",
-        "option_detail_url": "/services/detail/{id}/option/{oid}",
+        "option_detail_url": "/academics/subjects/detail/{id}/option/{oid}",
         "option_value_table_url": "/action/service/detail/{id}/options/{oid}/values/table",
         "option_value_add_url": "/action/service/detail/{id}/options/{oid}/values/add",
         "option_value_edit_url": "/action/service/detail/{id}/options/{oid}/values/edit/{vid}",
@@ -54,10 +54,10 @@
     "product_line": {
         "active_nav": "service",
         "active_sub_nav": "product-lines",
-        "dashboard_url": "/services/groups/list/active",
-        "list_url": "/services/groups/list/{status}",
+        "dashboard_url": "/academics/subject-groups/list/active",
+        "list_url": "/academics/subject-groups/list/{status}",
         "table_url": "/action/product-line/table/{status}",
-        "detail_url": "/services/groups/detail/{id}",
+        "detail_url": "/academics/subject-groups/detail/{id}",
         "add_url": "/action/product-line/add",
         "edit_url": "/action/product-line/edit/{id}",
         "delete_url": "/action/product-line/delete",
@@ -69,56 +69,71 @@
         "attachment_delete_url": "/action/product-line/{id}/attachments/delete"
     },
     "inventory": {
-        "product_detail_url": "/services/detail/{pid}/inventory/detail/{iid}",
+        "product_detail_url": "/academics/subjects/detail/{pid}/inventory/detail/{iid}",
         "product_tab_action_url": "/action/service/{pid}/inventory/{iid}/tab/{tab}"
     },
     "client": {
-        "dashboard_url": "/clients/dashboard",
-        "list_url": "/clients/list/{status}",
+        "dashboard_url": "/students/dashboard",
+        "list_url": "/students/list/{status}",
         "table_url": "/action/client/table/{status}",
         "add_url": "/action/client/add",
         "edit_url": "/action/client/edit/{id}",
         "delete_url": "/action/client/delete",
         "bulk_delete_url": "/action/client/bulk-delete",
-        "detail_url": "/clients/detail/{id}",
+        "detail_url": "/students/detail/{id}",
         "tab_action_url": "/action/client/{id}/tab/{tab}",
         "set_status_url": "/action/client/set-status",
         "bulk_set_status_url": "/action/client/bulk-set-status",
-        "receivables_aging_url": "/clients/reports/receivables-aging"
+        "payment_terms_url": "/students/settings/payment-terms/list",
+        "receivables_aging_url": "/students/reports/receivables-aging"
     },
     "client_tag": {
-        "list_url": "/clients/settings/tags/list",
+        "list_url": "/students/settings/tags/list",
         "add_url": "/action/client/tags/add",
         "edit_url": "/action/client/tags/edit/{id}",
         "delete_url": "/action/client/tags/delete",
         "bulk_delete_url": "/action/client/tags/bulk-delete"
     },
+    "payment_term": {
+        "list_url": "/students/settings/payment-terms/list"
+    },
+    "delegate": {
+        "list_url": "/guardians/list/{status}"
+    },
     "plan": {
         "active_nav": "service",
         "active_sub_nav": "plans-active",
-        "list_url": "/services/packages/list/{status}",
-        "detail_url": "/services/packages/detail/{id}"
+        "list_url": "/academics/levels/list/{status}",
+        "detail_url": "/academics/levels/detail/{id}"
     },
     "price_schedule": {
         "active_nav": "service",
         "active_sub_nav": "price-schedules-active",
-        "dashboard_url": "/services/rate-cards/dashboard",
-        "list_url": "/services/rate-cards/list/{status}",
-        "detail_url": "/services/rate-cards/detail/{id}",
-        "plan_detail_url": "/services/rate-cards/detail/{id}/plan/{ppid}",
+        "dashboard_url": "/academics/academic-years/dashboard",
+        "list_url": "/academics/academic-years/list/{status}",
+        "detail_url": "/academics/academic-years/detail/{id}",
+        "plan_detail_url": "/academics/academic-years/detail/{id}/plan/{ppid}",
         "tab_plans_slug": "packages"
     },
     "subscription": {
-        "list_url": "/engagements/list/{status}",
-        "detail_url": "/engagements/detail/{id}",
-        "under_client_detail_url": "/clients/detail/{client_id}/engagements/{id}",
+        "list_url": "/enrollments/list/{status}",
+        "detail_url": "/enrollments/detail/{id}",
+        "under_client_detail_url": "/students/detail/{client_id}/enrollments/{id}",
         "add_url": "/action/subscription/add",
         "edit_url": "/action/subscription/edit/{id}",
         "delete_url": "/action/subscription/delete",
         "tabs": {
-            "operations": "work-plans",
-            "jobs": "jobs"
-        }
+            "jobs": "classes"
+        },
+        "hidden_tabs": [
+            "package",
+            "operations"
+        ]
+    },
+    "subscription_group": {
+        "dashboard_url": "/sections/dashboard",
+        "list_url": "/sections/list/{status}",
+        "detail_url": "/sections/detail/{id}"
     },
     "treasury_collection": {
         "list_url": "/treasury-collections/list/{status}",

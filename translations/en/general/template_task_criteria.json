@@ -2,38 +2,38 @@
   "template_task_criteria": {
     "page": {
       "heading": "Template Task Criteria",
-      "headingActive": "Active Links",
-      "headingInactive": "Inactive Links",
+      "heading_active": "Active Links",
+      "heading_inactive": "Inactive Links",
       "caption": "Manage criteria linked to job template tasks",
-      "captionActive": "Active template task criteria links",
-      "captionInactive": "Inactive template task criteria links"
+      "caption_active": "Active template task criteria links",
+      "caption_inactive": "Inactive template task criteria links"
     },
     "buttons": {
-      "addLink": "Add Link"
+      "add_link": "Add Link"
     },
     "columns": {
-      "jobTemplateTaskId": "Job Template Task",
-      "outcomeCriteriaId": "Outcome Criterion",
-      "sequenceOrder": "Order",
+      "job_template_task_id": "Job Template Task",
+      "outcome_criteria_id": "Outcome Criterion",
+      "sequence_order": "Order",
       "status": "Status"
     },
     "empty": {
-      "activeMessage": "Create your first template task criteria link to get started.",
-      "activeTitle": "No active links",
-      "inactiveMessage": "Deactivated links will appear here.",
-      "inactiveTitle": "No inactive links",
+      "active_message": "Create your first template task criteria link to get started.",
+      "active_title": "No active links",
+      "inactive_message": "Deactivated links will appear here.",
+      "inactive_title": "No inactive links",
       "message": "No template task criteria links to display.",
       "title": "No links found"
     },
     "form": {
-      "jobTemplateTaskId": "Job Template Task ID",
-      "jobTemplateTaskIdInfo": "The job template task this criteria link belongs to.",
-      "outcomeCriteriaId": "Outcome Criteria ID",
-      "outcomeCriteriaIdInfo": "The outcome criterion being linked to the template task.",
-      "requiredOverride": "Required Override",
-      "requiredOverrideInfo": "Override whether this criterion is required for the task.",
-      "sequenceOrder": "Sequence Order",
-      "sequenceOrderInfo": "Display order of this criterion within the task."
+      "job_template_task_id": "Job Template Task ID",
+      "job_template_task_id_info": "The job template task this criteria link belongs to.",
+      "outcome_criteria_id": "Outcome Criteria ID",
+      "outcome_criteria_id_info": "The outcome criterion being linked to the template task.",
+      "required_override": "Required Override",
+      "required_override_info": "Override whether this criterion is required for the task.",
+      "sequence_order": "Sequence Order",
+      "sequence_order_info": "Display order of this criterion within the task."
     },
     "actions": {
       "delete": "Delete Link",
@@ -41,12 +41,12 @@
       "view": "View Link"
     },
     "detail": {
-      "createdDate": "Created",
-      "jobTemplateTaskId": "Job Template Task",
-      "outcomeCriteriaId": "Outcome Criterion",
-      "pageTitle": "Template Task Criteria Details",
-      "requiredOverride": "Required Override",
-      "sequenceOrder": "Sequence Order",
+      "created_date": "Created",
+      "job_template_task_id": "Job Template Task",
+      "outcome_criteria_id": "Outcome Criterion",
+      "page_title": "Template Task Criteria Details",
+      "required_override": "Required Override",
+      "sequence_order": "Sequence Order",
       "status": "Status"
     },
     "tabs": {
@@ -55,14 +55,14 @@
     },
     "confirm": {
       "delete": "Delete Link",
-      "deleteMessage": "Are you sure you want to delete this template task criteria link? This action cannot be undone."
+      "delete_message": "Are you sure you want to delete this template task criteria link? This action cannot be undone."
     },
     "errors": {
-      "idRequired": "Link ID is required",
-      "invalidFormData": "Invalid form data. Please check your inputs and try again.",
-      "notFound": "Template task criteria link not found",
-      "noPermission": "No permission",
-      "permissionDenied": "You do not have permission to perform this action"
+      "id_required": "Link ID is required",
+      "invalid_form_data": "Invalid form data. Please check your inputs and try again.",
+      "not_found": "Template task criteria link not found",
+      "no_permission": "No permission",
+      "permission_denied": "You do not have permission to perform this action"
     }
   }
 }

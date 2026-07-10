@@ -1,10 +1,10 @@
 {
   "funding": {
     "allocation": {
-      "allocatedLimit": "Allocated Limit",
+      "allocated_limit": "Allocated Limit",
       "mode": "Mode",
-      "modeHardLimit": "Hard Limit",
-      "modeSoftLimit": "Soft Limit"
+      "mode_hard_limit": "Hard Limit",
+      "mode_soft_limit": "Soft Limit"
     },
     "draw": {
       "amount": "Amount",
@@ -16,7 +16,7 @@
       "submit": "Settle"
     },
     "transfer": {
-      "destinationFundId": "Destination Fund ID",
+      "destination_fund_id": "Destination Fund ID",
       "amount": "Amount",
       "submit": "Transfer"
     },
@@ -24,13 +24,13 @@
       "title": "Fund Sources",
       "subtitle": "Funds you own and share with workspaces",
       "kind": {
-        "cashOnHand": "Cash on Hand",
-        "bankAccount": "Bank Account",
-        "pettyCash": "Petty Cash",
-        "creditCard": "Credit Card",
-        "creditLine": "Credit Line",
-        "prepaidCard": "Prepaid Card",
-        "mobileMoney": "Mobile Money",
+        "cash_on_hand": "Cash on Hand",
+        "bank_account": "Bank Account",
+        "petty_cash": "Petty Cash",
+        "credit_card": "Credit Card",
+        "credit_line": "Credit Line",
+        "prepaid_card": "Prepaid Card",
+        "mobile_money": "Mobile Money",
         "unknown": "Unknown"
       },
       "status": {
