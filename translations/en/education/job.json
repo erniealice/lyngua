@@ -18,7 +18,11 @@
       "add_job": "Add Class"
     },
     "columns": {
-      "client": "Student"
+      "client": "Student",
+      "group": "Section",
+      "deliverer": "Teacher",
+      "items": "Students",
+      "schedule": "Academic Year"
     },
     "detail": {
       "origin_subscription_link": "Spawned from Enrollment"

@@ -216,5 +216,9 @@
     },
     "job_activity": {
         "list_url": "/instructor-log/list"
+    },
+    "outcome_matrix": {
+        "matrix_url": "/grade-sheet/{id}",
+        "record_url": "/action/grade-sheet/{id}/record"
     }
 }

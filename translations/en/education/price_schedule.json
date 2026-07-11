@@ -59,8 +59,8 @@
         },
         "tabs": {
             "info": "Info",
-            "price_plan": "Level Prices",
-            "price_plan_slug": "level-prices",
+            "price_plan": "Level Fees",
+            "price_plan_slug": "level-fees",
             "product_prices": "Subject Fees",
             "product_prices_slug": "subject-fees",
             "subscriptions": "Enrollments"

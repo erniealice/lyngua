@@ -11,12 +11,13 @@
         "buttons": {
             "add_plan": "Add Level",
             "add_product": "Add Subject",
-            "add_price_plan": "Add Level Price",
-            "edit_price_plan": "Edit Level Price"
+            "add_price_plan": "Add Level Fee",
+            "edit_price_plan": "Edit Level Fee"
         },
         "columns": {
             "name": "Level Name",
             "description": "Description",
+            "product": "Subject",
             "price": "Price",
             "status": "Status",
             "item_type": "Subject Type",
@@ -77,15 +78,15 @@
             "edit_title": "Edit Level",
             "no_products_assigned": "No subjects assigned",
             "no_products_assigned_msg": "No subjects assigned to this level yet.",
-            "no_price_plans": "No level prices",
-            "no_price_plans_msg": "No level prices have been configured for this level yet."
+            "no_price_plans": "No level fees",
+            "no_price_plans_msg": "No level fees have been configured for this level yet."
         },
         "tabs": {
             "info": "Information",
             "products": "Subjects",
             "products_slug": "subjects",
-            "price_plan": "Level Prices",
-            "price_plan_slug": "level-prices",
+            "price_plan": "Level Fees",
+            "price_plan_slug": "level-fees",
             "bundle_pricing": "Pricing",
             "audit_trail": "Audit Trail",
             "audit_history": "History"
