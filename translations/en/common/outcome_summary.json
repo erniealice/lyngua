@@ -28,6 +28,22 @@
         "errors": {
             "not_found": "Outcome summary not found",
             "permission_denied": "You do not have permission to perform this action"
+        },
+        "landing": {
+            "title": "Outcome Reports",
+            "subtitle": "Groups by schedule",
+            "group_column": "Group",
+            "members_column": "Members",
+            "templates_column": "Items",
+            "view_action": "View outcomes",
+            "tabs_aria_label": "Schedules",
+            "inactive_suffix": "(inactive)"
+        },
+        "section": {
+            "title": "Group outcomes",
+            "client_column": "Client",
+            "rating_empty": "—",
+            "not_computed_banner": "Final outcomes have not been computed yet."
         }
     }
 }
