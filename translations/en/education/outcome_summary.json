@@ -7,11 +7,14 @@
             "members_column": "Students",
             "templates_column": "Subjects",
             "view_action": "View report cards",
+            "download_action": "Download report cards (CSV)",
             "tabs_aria_label": "Academic years"
         },
         "section": {
             "title": "Report Cards",
             "client_column": "Student",
+            "download_action": "Download report card (CSV)",
+            "detail_link": "View section",
             "not_computed_banner": "Year-final grades have not been computed yet."
         }
     }

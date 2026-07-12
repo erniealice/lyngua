@@ -223,6 +223,8 @@
     },
     "outcome_summary": {
         "list_url": "/report-cards",
-        "section_url": "/report-cards/section/{id}"
+        "section_url": "/report-cards/section/{id}",
+        "section_export_url": "/report-cards/section/{id}/export",
+        "group_detail_url": "/sections/detail/{id}"
     }
 }
