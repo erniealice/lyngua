@@ -44,6 +44,36 @@
             "client_column": "Client",
             "rating_empty": "—",
             "not_computed_banner": "Final outcomes have not been computed yet."
+        },
+        "template_settings": {
+            "title": "Outcome Report Templates",
+            "subtitle": "Upload and publish the document template used to render outcome reports per schedule",
+            "name_column": "Template",
+            "schedule_column": "Schedule",
+            "version_column": "Version",
+            "status_column": "Status",
+            "validity_column": "Valid",
+            "upload_action": "Upload Template",
+            "publish_action": "Publish",
+            "delete_action": "Delete",
+            "empty_title": "No templates",
+            "empty_message": "Upload a document template to render outcome reports.",
+            "upload_title": "Upload Template",
+            "name_label": "Template Name",
+            "schedule_label": "Schedule",
+            "schedule_hint": "Leave blank to use this template for every schedule (workspace default).",
+            "schedule_fallback": "Workspace default",
+            "validity_start_label": "Valid From",
+            "validity_end_label": "Valid Until",
+            "file_label": "Template File (.docx)",
+            "status_draft": "Draft",
+            "status_published": "Published",
+            "status_deprecated": "Deprecated",
+            "publish_confirm": "Publish this template? The previously published template for this schedule will be superseded.",
+            "delete_confirm": "Delete this template binding? This cannot be undone.",
+            "not_configured": "Template management is not configured.",
+            "invalid_file": "Only .docx files are accepted.",
+            "upload_failed": "Failed to upload template."
         }
     }
 }

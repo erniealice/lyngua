@@ -27,6 +27,36 @@
             "progress_column": "Progress",
             "final_column": "Final",
             "view_action": "View report card"
+        },
+        "template_settings": {
+            "title": "Report Card Templates",
+            "subtitle": "Upload and publish the .docx template used to render report cards for each academic year",
+            "name_column": "Template",
+            "schedule_column": "Academic Year",
+            "version_column": "Version",
+            "status_column": "Status",
+            "validity_column": "Valid",
+            "upload_action": "Upload Template",
+            "publish_action": "Publish",
+            "delete_action": "Delete",
+            "empty_title": "No report card templates",
+            "empty_message": "Upload a .docx template to render report cards.",
+            "upload_title": "Upload Report Card Template",
+            "name_label": "Template Name",
+            "schedule_label": "Academic Year",
+            "schedule_hint": "Leave blank to use this template for every academic year.",
+            "schedule_fallback": "All academic years",
+            "validity_start_label": "Valid From",
+            "validity_end_label": "Valid Until",
+            "file_label": "Template File (.docx)",
+            "status_draft": "Draft",
+            "status_published": "Published",
+            "status_deprecated": "Deprecated",
+            "publish_confirm": "Publish this report card template? The previously published template for this academic year will be superseded.",
+            "delete_confirm": "Delete this report card template? This cannot be undone.",
+            "not_configured": "Report card template management is not configured.",
+            "invalid_file": "Only .docx files are accepted.",
+            "upload_failed": "Failed to upload report card template."
         }
     }
 }

@@ -227,6 +227,10 @@
         "section_export_url": "/report-cards/section/{id}/export",
         "client_url": "/report-cards/section/{id}/student/{client_id}",
         "client_document_url": "/report-cards/section/{id}/student/{client_id}/document",
-        "group_detail_url": "/sections/detail/{id}"
+        "group_detail_url": "/sections/detail/{id}",
+        "template_settings_url": "/report-cards/templates",
+        "template_upload_url": "/report-cards/templates/upload",
+        "template_publish_url": "/report-cards/templates/publish",
+        "template_delete_url": "/report-cards/templates/delete"
     }
 }
