@@ -16,7 +16,8 @@
       "heading_released": "Released Jobs",
       "caption_released": "Jobs released and ready to execute",
       "heading_on_hold": "On Hold Jobs",
-      "caption_on_hold": "Jobs that are temporarily paused"
+      "caption_on_hold": "Jobs that are temporarily paused",
+      "job_category_tabs_aria": "Job categories"
     },
     "buttons": {
       "add_job": "Add Job"
