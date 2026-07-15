@@ -229,8 +229,8 @@
         "client_document_url": "/report-cards/section/{id}/student/{client_id}/document",
         "group_detail_url": "/sections/detail/{id}",
         "template_settings_url": "/report-cards/templates",
-        "template_upload_url": "/report-cards/templates/upload",
-        "template_publish_url": "/report-cards/templates/publish",
-        "template_delete_url": "/report-cards/templates/delete"
+        "template_upload_url": "/action/report-cards/templates/upload",
+        "template_publish_url": "/action/report-cards/templates/publish",
+        "template_delete_url": "/action/report-cards/templates/delete"
     }
 }
