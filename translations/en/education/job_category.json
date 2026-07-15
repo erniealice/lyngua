@@ -1,0 +1,27 @@
+{
+  "job_category": {
+    "page": {
+      "title": "Class Categories",
+      "subtitle": "Manage the categories that group classes (academic, deportment)",
+      "active_title": "Active Class Categories",
+      "inactive_title": "Inactive Class Categories"
+    },
+    "buttons": {
+      "add": "Add Category",
+      "edit": "Edit Category",
+      "delete": "Delete Category"
+    },
+    "columns": {
+      "name": "Category",
+      "sort_order": "Order"
+    },
+    "detail": {
+      "title": "Class Category"
+    },
+    "categories": {
+      "academic": "Academic",
+      "subject_deportment": "Subject Deportment",
+      "homeroom_deportment": "Homeroom Deportment"
+    }
+  }
+}

@@ -16,6 +16,17 @@
             "download_action": "Download report card (CSV)",
             "detail_link": "View section",
             "not_computed_banner": "Year-final grades have not been computed yet."
+        },
+        "student": {
+            "title": "Report Card",
+            "subtitle": "Grades by semester",
+            "subject_column": "Subject",
+            "semester_1": "Semester 1",
+            "semester_2": "Semester 2",
+            "year_column": "Year",
+            "progress_column": "Progress",
+            "final_column": "Final",
+            "view_action": "View report card"
         }
     }
 }

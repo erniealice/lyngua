@@ -225,6 +225,8 @@
         "list_url": "/report-cards",
         "section_url": "/report-cards/section/{id}",
         "section_export_url": "/report-cards/section/{id}/export",
+        "student_url": "/report-cards/section/{id}/student/{client_id}",
+        "student_document_url": "/report-cards/section/{id}/student/{client_id}/document",
         "group_detail_url": "/sections/detail/{id}"
     }
 }

@@ -1,0 +1,60 @@
+{
+  "job_category": {
+    "page": {
+      "title": "Categories",
+      "subtitle": "Manage your job category taxonomy",
+      "active_title": "Active Categories",
+      "inactive_title": "Inactive Categories"
+    },
+    "buttons": {
+      "activate": "Activate",
+      "add": "Add Category",
+      "bulk_delete": "Delete Categories",
+      "deactivate": "Deactivate",
+      "delete": "Delete Category",
+      "edit": "Edit Category",
+      "view": "View"
+    },
+    "columns": {
+      "actions": "Actions",
+      "code": "Code",
+      "date_created": "Date Created",
+      "name": "Name",
+      "sort_order": "Order",
+      "status": "Status"
+    },
+    "empty": {
+      "message": "No categories to display.",
+      "title": "No Categories"
+    },
+    "form": {
+      "active": "Active",
+      "active_info": "Inactive categories are hidden from new assignments.",
+      "code": "Code",
+      "code_info": "Stable machine key for this category used in reporting.",
+      "code_placeholder": "Enter a short code (e.g. academic)",
+      "name": "Name",
+      "name_info": "A short display name for this category.",
+      "name_placeholder": "Enter category name",
+      "sort_order": "Order",
+      "sort_order_info": "Controls the tab / list order (lower first).",
+      "sort_order_placeholder": "10",
+      "section_identity": "Category details"
+    },
+    "detail": {
+      "date_created": "Date Created",
+      "date_modified": "Date Modified",
+      "no_code": "—",
+      "title": "Category"
+    },
+    "errors": {
+      "create_failed": "Failed to create category",
+      "delete_failed": "Failed to delete category",
+      "in_use": "This category is in use and cannot be deleted.",
+      "load_failed": "Failed to load category",
+      "not_found": "Category not found",
+      "unauthorized": "You are not authorized to perform this action",
+      "update_failed": "Failed to update category"
+    }
+  }
+}

@@ -12,7 +12,8 @@
       "heading_closed": "Closed Classes",
       "caption_closed": "View archived or closed classes",
       "heading_on_hold": "Classes On Hold",
-      "caption_on_hold": "Classes that are temporarily paused"
+      "caption_on_hold": "Classes that are temporarily paused",
+      "class_tabs_aria": "Class categories"
     },
     "buttons": {
       "add_job": "Add Class"
