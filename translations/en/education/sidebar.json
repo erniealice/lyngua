@@ -19,6 +19,8 @@
     "criteria_label": "Rubrics",
     "outcome_log_label": "Grade Book",
     "job_outcome_summary_label": "Report Cards",
+    "job_outcome_summary_current_label": "Current",
+    "job_outcome_summary_past_label": "Past",
     "template_settings_label": "Report Card Templates",
     "services_app_label": "Academics",
     "plans_title": "Levels",

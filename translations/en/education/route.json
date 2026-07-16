@@ -223,6 +223,7 @@
     },
     "outcome_summary": {
         "list_url": "/report-cards",
+        "list_scope_url": "/report-cards/list/{scope}",
         "section_url": "/report-cards/section/{id}",
         "section_export_url": "/report-cards/section/{id}/export",
         "client_url": "/report-cards/section/{id}/student/{client_id}",
