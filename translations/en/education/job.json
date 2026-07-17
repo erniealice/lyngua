@@ -18,6 +18,11 @@
     "buttons": {
       "add_job": "Add Class"
     },
+    "actions": {
+      "view": "View Class",
+      "edit": "Edit Class",
+      "delete": "Delete Class"
+    },
     "columns": {
       "client": "Student",
       "group": "Section",

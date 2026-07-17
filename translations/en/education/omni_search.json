@@ -1,0 +1,18 @@
+{
+  "omniSearch": {
+    "dialog": {
+      "placeholder": "Search students, sections, subjects…"
+    },
+    "categories": {
+      "client": "Students",
+      "subscription": "Enrollments",
+      "subscription_group": "Sections",
+      "plan": "Levels",
+      "price_schedule": "Academic Years",
+      "product": "Subjects",
+      "staff": "Teachers",
+      "job": "Courses",
+      "job_template": "Curricula"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "omniSearch": {
+    "dialog": {
+      "title": "Search",
+      "placeholder": "Search anything…",
+      "hint": "Type at least {min} characters",
+      "shortcut_hint": "⌘K / Alt+K",
+      "loading": "Searching…",
+      "empty_title": "No results",
+      "empty_message": "Nothing matched \"{query}\".",
+      "error": "Search is unavailable right now. Try again.",
+      "close": "Close",
+      "view_all": "View all",
+      "nav_hint": "↑↓ to navigate · Enter to open · Esc to close"
+    },
+    "categories": {
+      "client": "Clients",
+      "subscription": "Subscriptions",
+      "subscription_group": "Groups",
+      "plan": "Plans",
+      "price_schedule": "Price Schedules",
+      "product": "Products",
+      "staff": "Staff",
+      "job": "Jobs",
+      "job_template": "Templates"
+    }
+  }
+}

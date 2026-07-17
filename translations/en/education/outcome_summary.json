@@ -26,7 +26,8 @@
             "year_column": "Year",
             "progress_column": "Progress",
             "final_column": "Final",
-            "view_action": "View report card"
+            "view_action": "View report card",
+            "download_action": "Download report card (PDF)"
         },
         "template_settings": {
             "title": "Report Card Templates",

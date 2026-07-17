@@ -20,7 +20,13 @@
             "error_banner": "Save failed — please try again.",
             "read_only_marker": "(read only)",
             "read_only_tooltip": "Recorded by another staff member — read only",
-            "empty_grid": "No rows to display."
+            "empty_grid": "No rows to display.",
+            "cell_saving": "Saving…",
+            "cell_saved": "Saved",
+            "cell_error": "Save failed",
+            "rating_stale": "Grade saved — rating not yet recomputed",
+            "unsaved_warn": "You have unsaved grade changes",
+            "retry_button": "Retry unsaved"
         },
         "errors": {
             "permission_denied": "You do not have permission to perform this action"

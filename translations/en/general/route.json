@@ -1,6 +1,7 @@
 {
   "_comment": "General-tier route overrides. Each top-level key matches a LoadPathIfExists call in apps/service-admin/internal/composition/route_config.go. Empty objects {} are intentional — they silence the 'path segment not found' boot warnings without overriding the Go-default URL constants (json.Unmarshal of {} into a pre-populated struct is a no-op). Add real overrides under business-type-specific files (e.g., professional/route.json) rather than here unless the override should apply to ALL verticals. Authored 2026-05-20 to clear Phase 3 of docs/plan/20260520-centymo-module-wiring/.",
   "home": {},
+  "omni_search": {},
   "workspace_user_role": {},
   "procurement_request": {},
   "lapsing_schedule": {},

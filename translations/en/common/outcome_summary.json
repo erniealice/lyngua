@@ -45,6 +45,9 @@
             "rating_empty": "—",
             "not_computed_banner": "Final outcomes have not been computed yet."
         },
+        "student": {
+            "download_action": "Download PDF"
+        },
         "template_settings": {
             "title": "Outcome Report Templates",
             "subtitle": "Upload and publish the document template used to render outcome reports per schedule",

@@ -184,6 +184,7 @@
       "section_representative": "Representative",
       "section_accounting": "Accounting",
       "section_others": "Others",
+      "section_attributes": "Attributes",
       "tax_id": "Tax ID",
       "tax_id_placeholder": "Enter TIN/VAT/EIN",
       "tax_id_info": "Tax Identification Number (TIN, VAT, EIN) registered to this client.",
@@ -202,6 +203,9 @@
       "country_code": "Country Code",
       "country_code_placeholder": "e.g. PH",
       "country_code_info": "ISO 3166-1 alpha-2 country code for this client. Used for cross-border tax jurisdiction lookups (e.g. PH, US, GB)."
+    },
+    "validation": {
+      "attributes_unavailable": "Client attributes could not be validated right now. Please try again."
     }
   }
 }
