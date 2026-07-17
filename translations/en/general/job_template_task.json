@@ -12,6 +12,10 @@
       "tool_required": "Tool Required",
       "instruction_doc_id": "Instruction Doc",
       "workflow_step_id": "Workflow Step"
+    },
+    "form": {
+      "code": "Code",
+      "code_hint": "Optional stable key: lowercase letters, digits, underscore."
     }
   }
 }

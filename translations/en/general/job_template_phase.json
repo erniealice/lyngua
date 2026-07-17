@@ -6,6 +6,10 @@
       "run_minutes_per_unit": "Run Minutes Per Unit",
       "teardown_minutes": "Teardown Minutes",
       "predecessor_template_phase_id": "Predecessor Phase"
+    },
+    "form": {
+      "code": "Code",
+      "code_hint": "Optional stable key: lowercase letters, digits, underscore."
     }
   }
 }
