@@ -31,7 +31,9 @@
             "progress_column": "Progress",
             "final_column": "Final",
             "view_action": "View report card",
-            "download_action": "Download report card (PDF)"
+            "download_action": "Download report card (PDF)",
+            "staff_label": "Teacher:",
+            "staff_plural_label": "Teachers:"
         },
         "template_settings": {
             "title": "Report Card Templates",
