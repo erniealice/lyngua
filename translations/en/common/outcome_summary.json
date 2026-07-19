@@ -40,7 +40,14 @@
             "tabs_aria_label": "Schedules",
             "inactive_suffix": "(inactive)",
             "cell_view_action": "View {category} for {section}",
-            "uncategorized_column": "Uncategorized"
+            "uncategorized_column": "Uncategorized",
+            "approval_status": {
+                "in_progress": "In Progress",
+                "for_review": "For Review",
+                "verified": "Verified",
+                "published": "Published",
+                "mixed": "Attention — mixed"
+            }
         },
         "section": {
             "title": "Group outcomes",

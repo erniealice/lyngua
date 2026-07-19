@@ -13,7 +13,14 @@
             "download_action": "Download report cards (CSV)",
             "tabs_aria_label": "Academic years",
             "cell_view_action": "View {category} report cards for {section}",
-            "uncategorized_column": "Uncategorized"
+            "uncategorized_column": "Uncategorized",
+            "approval_status": {
+                "in_progress": "In Progress",
+                "for_review": "For Review",
+                "verified": "Verified",
+                "published": "Published",
+                "mixed": "Attention — mixed"
+            }
         },
         "empty": {
             "title": "No report cards",
