@@ -30,6 +30,42 @@
         },
         "errors": {
             "permission_denied": "You do not have permission to perform this action"
+        },
+        "approval": {
+            "bar": {
+                "title": "Grading Period Approvals"
+            },
+            "status": {
+                "in_progress": "In Progress",
+                "for_review": "For Review",
+                "verified": "Verified",
+                "published": "Published"
+            },
+            "actions": {
+                "submit": "Submit Grades for Review",
+                "verify": "Verify Grades",
+                "publish": "Publish Grades",
+                "return": "Return to Teacher",
+                "return_reason": "Return reason (optional)",
+                "return_reason_required": "Return reason (required)"
+            },
+            "chip": {
+                "aria": "Grading period approval status",
+                "published_count": "{count} students"
+            },
+            "confirm": {
+                "submit": "Submit these grades for review? {count} required grades are still blank. Editing locks until the period is returned.",
+                "verify": "Verify these grades?",
+                "publish": "Publish these grades?",
+                "return": "Return this period to the teacher? Grade editing reopens."
+            },
+            "errors": {
+                "action_failed": "This grading period could not be updated — it may be locked, finalized, or you may lack permission."
+            },
+            "mixed": "Attention — mixed",
+            "not_started": "Not started",
+            "locked_hint": "This period is locked — return it to edit",
+            "hard_frozen_hint": "This period is finalized and can no longer be edited"
         }
     }
 }

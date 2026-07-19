@@ -30,6 +30,42 @@
     },
     "errors": {
       "permission_denied": "You do not have permission to perform this action"
+    },
+    "approval": {
+      "bar": {
+        "title": "Phase Approvals"
+      },
+      "status": {
+        "in_progress": "In Progress",
+        "for_review": "For Review",
+        "verified": "Verified",
+        "published": "Published"
+      },
+      "actions": {
+        "submit": "Submit for Review",
+        "verify": "Verify",
+        "publish": "Publish",
+        "return": "Return",
+        "return_reason": "Return reason (optional)",
+        "return_reason_required": "Return reason (required)"
+      },
+      "chip": {
+        "aria": "Phase approval status",
+        "published_count": "{count} in this phase"
+      },
+      "confirm": {
+        "submit": "Submit this phase for review? {count} required cells are still blank. Editing locks until it is returned.",
+        "verify": "Verify this phase?",
+        "publish": "Publish this phase?",
+        "return": "Return this phase to In Progress? Editing reopens."
+      },
+      "errors": {
+        "action_failed": "This phase could not be updated — it may be locked, finalized, or you may lack permission."
+      },
+      "mixed": "Attention — mixed",
+      "not_started": "Not started",
+      "locked_hint": "This phase is locked — return it to edit",
+      "hard_frozen_hint": "This phase is finalized and can no longer be edited"
     }
   }
 }

@@ -27,7 +27,8 @@
         },
         "errors": {
             "not_found": "Outcome summary not found",
-            "permission_denied": "You do not have permission to perform this action"
+            "permission_denied": "You do not have permission to perform this action",
+            "render_gate": "This report card cannot be generated yet — its grades are still being reviewed and have not been published. Please try again after the grading period is published."
         },
         "landing": {
             "title": "Outcome Reports",

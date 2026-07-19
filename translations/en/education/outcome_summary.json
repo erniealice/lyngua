@@ -1,5 +1,8 @@
 {
     "outcome_summary": {
+        "errors": {
+            "render_gate": "This report card cannot be generated yet — its grades are still being reviewed and have not been published. Please try again after the grading period is published."
+        },
         "landing": {
             "title": "Report Cards",
             "subtitle": "Sections by academic year",
