@@ -11,7 +11,9 @@
             "templates_column": "Subjects",
             "view_action": "View report cards",
             "download_action": "Download report cards (CSV)",
-            "tabs_aria_label": "Academic years"
+            "tabs_aria_label": "Academic years",
+            "cell_view_action": "View {category} report cards for {section}",
+            "uncategorized_column": "Uncategorized"
         },
         "empty": {
             "title": "No report cards",
@@ -22,7 +24,8 @@
             "client_column": "Student",
             "download_action": "Download report card (CSV)",
             "detail_link": "View section",
-            "not_computed_banner": "Year-final grades have not been computed yet."
+            "not_computed_banner": "Year-final grades have not been computed yet.",
+            "category_tabs_aria_label": "Report card categories"
         },
         "student": {
             "title": "Report Card",
@@ -36,7 +39,8 @@
             "view_action": "View report card",
             "download_action": "Download report card (PDF)",
             "staff_label": "Teacher:",
-            "staff_plural_label": "Teachers:"
+            "staff_plural_label": "Teachers:",
+            "uncategorized_band": "Uncategorized"
         },
         "template_settings": {
             "title": "Report Card Templates",

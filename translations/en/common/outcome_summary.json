@@ -38,7 +38,9 @@
             "templates_column": "Items",
             "view_action": "View outcomes",
             "tabs_aria_label": "Schedules",
-            "inactive_suffix": "(inactive)"
+            "inactive_suffix": "(inactive)",
+            "cell_view_action": "View {category} for {section}",
+            "uncategorized_column": "Uncategorized"
         },
         "section": {
             "title": "Group outcomes",
