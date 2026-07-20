@@ -219,7 +219,8 @@
     },
     "outcome_matrix": {
         "matrix_url": "/grade-sheet/{id}",
-        "record_url": "/action/grade-sheet/{id}/record"
+        "record_url": "/action/grade-sheet/{id}/record",
+        "export_url": "/grade-sheet/{id}/export"
     },
     "outcome_summary": {
         "list_url": "/report-cards",

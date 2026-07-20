@@ -66,6 +66,17 @@
       "not_started": "Not started",
       "locked_hint": "This phase is locked — return it to edit",
       "hard_frozen_hint": "This phase is finalized and can no longer be edited"
+    },
+    "columns": {
+      "button": "Columns",
+      "title": "Show columns",
+      "show_all": "Show all",
+      "state_shown": "shown",
+      "state_hidden": "hidden",
+      "hidden_suffix": "hidden"
+    },
+    "export": {
+      "csv_button": "Export CSV"
     }
   }
 }
