@@ -88,6 +88,38 @@
       "pdf_period_hint": "PDF prints the full sheet",
       "download_button": "Download",
       "no_template_error": "No sheet template is configured for this document"
+    },
+    "template_settings": {
+      "title": "Sheet Templates",
+      "subtitle": "Manage the document templates used to print sheets",
+      "column_name": "Template",
+      "column_category": "Category",
+      "column_schedule": "Schedule",
+      "column_version": "Version",
+      "column_status": "Status",
+      "column_validity": "Validity",
+      "upload_action": "Upload template",
+      "publish_action": "Publish",
+      "delete_action": "Delete",
+      "empty_title": "No templates yet",
+      "empty_message": "Upload a .docx template to enable PDF downloads",
+      "upload_title": "Upload sheet template",
+      "name_label": "Template name",
+      "category_label": "Category",
+      "category_placeholder": "Any category",
+      "schedule_label": "Schedule",
+      "schedule_placeholder": "Any schedule",
+      "file_label": "Template file (.docx)",
+      "file_hint": "Upload a .docx template (max 10 MB).",
+      "notes_label": "Notes",
+      "status_draft": "Draft",
+      "status_published": "Published",
+      "status_deprecated": "Deprecated",
+      "publish_confirm": "Publish this template version? The current published version's validity will close.",
+      "delete_confirm": "Delete this draft?",
+      "not_configured": "Sheet template management is not configured.",
+      "invalid_file": "Only .docx files are accepted.",
+      "upload_failed": "Failed to upload template."
     }
   }
 }

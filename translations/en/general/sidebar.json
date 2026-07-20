@@ -42,6 +42,8 @@
     "job_outcome_summary_past_label": "Past",
     "job_outcome_summary_past_icon": "icon-clock",
     "template_settings_label": "Report Templates",
+    "sheet_template_settings_label": "Sheet Templates",
+    "sheet_template_settings_icon": "icon-file-text",
     "revenue_title": "Sales",
     "revenue_draft_label": "Draft",
     "revenue_complete_label": "Completed",

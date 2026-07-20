@@ -80,6 +80,17 @@
             "drawer_title": "Download grade sheet",
             "pdf_period_hint": "PDF prints the official grade sheet",
             "no_template_error": "No grade sheet template is configured — publish one under Grade Sheet Templates"
+        },
+        "template_settings": {
+            "title": "Grade Sheet Templates",
+            "subtitle": "Manage the templates used to print grade sheets",
+            "column_schedule": "Academic Year",
+            "empty_title": "No grade sheet templates yet",
+            "empty_message": "Upload a .docx template to enable grade sheet PDF downloads",
+            "upload_title": "Upload grade sheet template",
+            "schedule_label": "Academic Year",
+            "schedule_placeholder": "Any academic year",
+            "not_configured": "Grade sheet template management is not configured."
         }
     }
 }
