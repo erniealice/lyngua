@@ -76,7 +76,10 @@
             "hidden_suffix": "hidden"
         },
         "export": {
-            "csv_button": "Download grade sheet (CSV)"
+            "csv_button": "Download grade sheet (CSV)",
+            "drawer_title": "Download grade sheet",
+            "pdf_period_hint": "PDF prints the official grade sheet",
+            "no_template_error": "No grade sheet template is configured — publish one under Grade Sheet Templates"
         }
     }
 }

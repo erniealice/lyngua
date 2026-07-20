@@ -220,7 +220,8 @@
     "outcome_matrix": {
         "matrix_url": "/grade-sheet/{id}",
         "record_url": "/action/grade-sheet/{id}/record",
-        "export_url": "/grade-sheet/{id}/export"
+        "export_url": "/grade-sheet/{id}/export",
+        "download_drawer_url": "/action/grade-sheet/{id}/download"
     },
     "outcome_summary": {
         "list_url": "/report-cards",

@@ -76,7 +76,18 @@
       "hidden_suffix": "hidden"
     },
     "export": {
-      "csv_button": "Export CSV"
+      "csv_button": "Export CSV",
+      "drawer_button": "Download",
+      "drawer_title": "Download sheet",
+      "period_label": "Period",
+      "period_all": "All periods",
+      "period_final": "Final",
+      "format_label": "Format",
+      "format_csv": "CSV",
+      "format_pdf": "PDF",
+      "pdf_period_hint": "PDF prints the full sheet",
+      "download_button": "Download",
+      "no_template_error": "No sheet template is configured for this document"
     }
   }
 }
