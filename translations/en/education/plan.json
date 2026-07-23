@@ -122,6 +122,8 @@
             "no_permission": "You do not have permission to perform this action"
         },
         "product_plan_form": {
+            "name": "Name",
+            "name_placeholder": "Defaults to the selected subject's name",
             "product": "Subject",
             "product_placeholder": "Select a subject...",
             "select_product": "— Select a subject —",

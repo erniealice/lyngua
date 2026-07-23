@@ -104,6 +104,8 @@
       "client_scope_locked": "Cannot change this plan's client while it has active subscriptions."
     },
     "product_plan_form": {
+      "name": "Name",
+      "name_placeholder": "Defaults to the selected item's name",
       "product_kind_label": "Item Type",
       "product_kind": {
         "service": "Service",
