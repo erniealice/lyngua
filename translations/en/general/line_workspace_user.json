@@ -17,11 +17,10 @@
     },
     "columns": {
       "actions": "Actions",
+      "capacity": "Capacity",
       "date_created": "Date Created",
       "is_owner": "Owner",
       "line_id": "Line",
-      "role": "Role",
-      "scope": "Scope",
       "status": "Status",
       "workspace_user_id": "Workspace User"
     },
@@ -34,20 +33,22 @@
       "active_info": "Inactive assignments are hidden from tier-2 group visibility.",
       "is_owner": "Owner",
       "is_owner_info": "Mark this user as the owner of the line node.",
+      "capacity": "Capacity",
+      "capacity_access": "Access (view-only)",
+      "capacity_info": "Whether this operator services the node (Primary) or only has view access (Access).",
+      "capacity_primary": "Primary (servicer)",
       "line_id": "Line ID",
       "line_id_info": "The line node this operator is pinned to.",
       "line_id_placeholder": "Enter line ID",
-      "role": "Role",
-      "role_info": "The servicing role discriminator for this assignment.",
-      "role_placeholder": "e.g. coordinator, adviser",
-      "scope": "Scope",
-      "scope_info": "The visibility scope discriminator for this assignment.",
-      "scope_placeholder": "e.g. coordinator, adviser",
       "section_assignment": "Assignment details",
-      "section_role": "Role & scope",
       "workspace_user_id": "Workspace User ID",
       "workspace_user_id_info": "The operator (workspace user) being assigned to the line node.",
       "workspace_user_id_placeholder": "Enter workspace user ID"
+    },
+    "title": {
+      "access": "Member",
+      "primary": "Servicer",
+      "primary_owner": "Owner"
     },
     "bulk": {
       "activate_message": "Activate the selected assignments?",

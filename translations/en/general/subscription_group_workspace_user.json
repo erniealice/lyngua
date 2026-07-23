@@ -17,10 +17,9 @@
     },
     "columns": {
       "actions": "Actions",
+      "capacity": "Capacity",
       "date_created": "Date Created",
       "is_owner": "Owner",
-      "role": "Role",
-      "scope": "Scope",
       "status": "Status",
       "subscription_group": "Group",
       "workspace_user": "Workspace User"
@@ -32,14 +31,12 @@
     "form": {
       "active": "Active",
       "active_info": "Inactive assignments are excluded from group-level servicing.",
+      "capacity": "Capacity",
+      "capacity_access": "Access (view-only)",
+      "capacity_info": "Whether this operator services the node (Primary) or only has view access (Access).",
+      "capacity_primary": "Primary (servicer)",
       "is_owner": "Owner",
       "is_owner_info": "Marks this operator as the group owner.",
-      "role": "Role",
-      "role_placeholder": "e.g. lead",
-      "role_info": "The role within the assigned scope.",
-      "scope": "Scope",
-      "scope_info": "The servicing scope of this assignment (e.g. coordinator, adviser).",
-      "scope_placeholder": "e.g. coordinator",
       "section_assignment": "Assignment",
       "section_servicing": "Servicing",
       "subscription_group_id": "Subscription Group",
@@ -74,12 +71,15 @@
       "date_created": "Date Created",
       "date_modified": "Date Modified",
       "no_group": "No group",
-      "no_role": "—",
-      "no_scope": "—",
       "no_user": "No user",
       "owner_no": "No",
       "owner_yes": "Yes",
       "title": "Assignment"
+    },
+    "title": {
+      "access": "Member",
+      "primary": "Servicer",
+      "primary_owner": "Owner"
     },
     "errors": {
       "create_failed": "Failed to create assignment",

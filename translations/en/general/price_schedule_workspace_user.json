@@ -17,11 +17,10 @@
     },
     "columns": {
       "actions": "Actions",
+      "capacity": "Capacity",
       "date_created": "Date Created",
       "is_owner": "Owner",
       "price_schedule_id": "Period",
-      "role": "Role",
-      "scope": "Scope",
       "status": "Status",
       "workspace_user_id": "Operator"
     },
@@ -34,15 +33,13 @@
       "active_info": "Inactive coordinators are hidden from period-level views.",
       "is_owner": "Owner",
       "is_owner_info": "Mark this operator as the primary owner of the period.",
+      "capacity": "Capacity",
+      "capacity_access": "Access (view-only)",
+      "capacity_info": "Whether this operator services the node (Primary) or only has view access (Access).",
+      "capacity_primary": "Primary (servicer)",
       "price_schedule_id": "Period",
       "price_schedule_id_info": "The price schedule (period / academic year) this coordinator is pinned to.",
       "price_schedule_id_placeholder": "Enter period ID",
-      "role": "Role",
-      "role_placeholder": "e.g. coordinator",
-      "role_info": "Role label for this coordinator (free-text).",
-      "scope": "Scope",
-      "scope_info": "Optional scope tag narrowing the coordinator's visibility within the period.",
-      "scope_placeholder": "e.g. academic_year",
       "section_access": "Access settings",
       "section_coordinator": "Coordinator details",
       "workspace_user_id": "Operator",
@@ -74,6 +71,11 @@
       "no_schedule": "No period",
       "no_user": "No operator",
       "title": "Period Coordinator"
+    },
+    "title": {
+      "access": "Member",
+      "primary": "Servicer",
+      "primary_owner": "Owner"
     },
     "errors": {
       "create_failed": "Failed to create coordinator record",

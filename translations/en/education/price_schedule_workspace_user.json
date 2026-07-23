@@ -1,0 +1,9 @@
+{
+  "price_schedule_workspace_user": {
+    "title": {
+      "access": "Year Member",
+      "primary": "Year Coordinator",
+      "primary_owner": "Lead Year Coordinator"
+    }
+  }
+}
