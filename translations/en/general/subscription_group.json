@@ -123,6 +123,17 @@
       "not_found": "Section not found",
       "unauthorized": "You are not authorized to perform this action",
       "update_failed": "Failed to update section"
+    },
+    "validation": {
+      "request_required": "Request is required.",
+      "id_required": "Section ID is required.",
+      "delete_blocked_references": "Cannot delete this section while it still has active references: {dependents}. Remove them first.",
+      "dependent_member_one": "member",
+      "dependent_member_many": "members",
+      "dependent_teaching_staff_one": "staff assignment",
+      "dependent_teaching_staff_many": "staff assignments",
+      "dependent_access_grant_one": "access grant",
+      "dependent_access_grant_many": "access grants"
     }
   }
 }

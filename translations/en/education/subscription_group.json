@@ -21,6 +21,12 @@
       "role_access": "Access only",
       "teacher_placeholder": "Select teacher...",
       "teacher_search": "Filter teachers..."
+    },
+    "validation": {
+      "dependent_member_one": "enrolled student",
+      "dependent_member_many": "enrolled students",
+      "dependent_teaching_staff_one": "teacher",
+      "dependent_teaching_staff_many": "teachers"
     }
   }
 }
