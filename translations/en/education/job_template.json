@@ -22,7 +22,13 @@
         "form": {
             "name": "Curriculum Name",
             "name_placeholder": "Enter curriculum name",
-            "description_placeholder": "Enter curriculum description..."
+            "description_placeholder": "Enter curriculum description...",
+            "output_product": "Subject",
+            "output_product_info": "Optional. The subject this curriculum's spawned jobs deliver.",
+            "output_product_placeholder": "Select subject..."
+        },
+        "tabs": {
+            "spawn_graph": "Spawn Graph"
         },
         "actions": {
             "view": "View Curriculum",

@@ -1,0 +1,7 @@
+{
+  "staff": {
+    "page":    { "heading": "Teachers", "caption": "Manage teachers and other school staff" },
+    "buttons": { "add_staff": "Add Teacher" },
+    "actions": { "add": "Add Teacher", "view": "View Teacher", "edit": "Edit Teacher", "delete": "Remove Teacher" }
+  }
+}

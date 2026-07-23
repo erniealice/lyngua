@@ -1,0 +1,9 @@
+{
+    "job_template_phase": {
+        "form": {
+            "scoring_scheme": "Grading Scheme",
+            "scoring_scheme_info": "Optional. The grading scheme this phase's grades roll up under.",
+            "scoring_scheme_placeholder": "Select grading scheme..."
+        }
+    }
+}

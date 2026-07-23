@@ -9,7 +9,11 @@
     },
     "form": {
       "code": "Code",
-      "code_hint": "Optional stable key: lowercase letters, digits, underscore."
+      "code_hint": "Optional stable key: lowercase letters, digits, underscore.",
+      "section_scoring": "Scoring",
+      "scoring_scheme": "Scoring Scheme",
+      "scoring_scheme_info": "Optional. Scheme this phase's outcomes roll up under.",
+      "scoring_scheme_placeholder": "Select scoring scheme..."
     }
   }
 }

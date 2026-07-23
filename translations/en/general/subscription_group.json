@@ -82,8 +82,27 @@
     "tabs": {
       "info": "Info",
       "subscriptions": "Subscriptions",
+      "staff": "Staff",
       "audit": "Audit",
       "attachments": "Attachments"
+    },
+    "staff": {
+      "column_subject": "Offering",
+      "column_servicer": "Staff",
+      "column_role": "Role",
+      "column_state": "Status",
+      "empty_pool": "No eligible staff — set eligibility first",
+      "empty_title": "No offerings",
+      "empty_message": "This section has no offerings to staff yet.",
+      "saved": "Saved",
+      "unassigned": "Unassigned",
+      "assign_action": "Assign",
+      "role_primary": "Primary",
+      "role_access": "Access",
+      "teacher_placeholder": "Select staff...",
+      "teacher_search": "Filter...",
+      "clear_action": "Clear",
+      "unauthorized": "You do not have permission to view staff assignments"
     },
     "detail": {
       "capacity_mode_nf": "Unlimited",

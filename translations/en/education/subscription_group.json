@@ -2,12 +2,25 @@
   "subscription_group": {
     "tabs": {
       "subscriptions": "Enrollments",
-      "subscriptions_slug": "enrollments"
+      "subscriptions_slug": "enrollments",
+      "staff": "Teaching Staff"
     },
     "columns": {
       "price_schedule": "Academic Year",
       "client": "Student",
       "subscription": "Enrollment"
+    },
+    "staff": {
+      "column_subject": "Subject",
+      "column_servicer": "Teacher",
+      "empty_pool": "No eligible teacher — set eligibility first",
+      "empty_title": "No subjects",
+      "empty_message": "This section has no subjects to staff yet.",
+      "assign_action": "Assign Teacher",
+      "role_primary": "Teacher of record",
+      "role_access": "Access only",
+      "teacher_placeholder": "Select teacher...",
+      "teacher_search": "Filter teachers..."
     }
   }
 }

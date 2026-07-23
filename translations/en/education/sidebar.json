@@ -2,6 +2,7 @@
     "clients_app_label": "Students",
     "clients_title": "Students",
     "delegates_app_label": "Parents/Guardians",
+    "staff_app_label": "Teachers",
     "jobs_app_label": "Classes",
     "jobs_app_icon": "icon-briefcase",
     "jobs_title": "Classes",

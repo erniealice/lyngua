@@ -1,0 +1,15 @@
+{
+    "template_task_criteria": {
+        "page": {
+            "heading": "Standards",
+            "heading_active": "Active Standards",
+            "heading_inactive": "Inactive Standards",
+            "caption": "Manage rubric criteria pinned to curriculum tasks",
+            "caption_active": "Active standards pinnings",
+            "caption_inactive": "Inactive standards pinnings"
+        },
+        "buttons": {
+            "add_link": "Add Standard"
+        }
+    }
+}

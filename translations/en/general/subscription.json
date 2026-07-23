@@ -57,6 +57,8 @@
       "spawn_jobs_help_text": "Disable to start without operational tracking (e.g., advisory retainers).",
       "spawn_jobs_summary": "Spawning {{.JobCount}} Job(s) from {{.TemplateNames}} — includes {{.PhaseCount}} phases, {{.TaskCount}} tasks.",
       "spawn_jobs_none": "No JobTemplate is configured for this Plan. The engagement will start without operational tracking.",
+      "require_spawn_toggle": "Require successful job spawn",
+      "require_spawn_hint": "If spawning jobs fails or produces none, the whole subscription create is cancelled instead of saving without jobs.",
       "plan_info_section_title": "Plan Details",
       "billing_kind_label_lite": "Billing",
       "amount_basis_label_lite": "Amount basis",
@@ -193,7 +195,8 @@
       "cancel": "Cancel",
       "confirm": "Spawn Jobs",
       "success_toast": "Spawned {{.JobCount}} Job(s).",
-      "skipped": "Nothing to spawn — no JobTemplate is linked to this Plan."
+      "skipped": "Nothing to spawn — no JobTemplate is linked to this Plan.",
+      "blocked": "Job spawn is blocked — the price schedule for this subscription's plan is closed or inactive."
     },
     "invoices": {
       "title": "Invoices",

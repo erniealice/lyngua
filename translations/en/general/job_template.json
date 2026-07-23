@@ -29,12 +29,25 @@
       "name_placeholder": "Enter template name",
       "description": "Description",
       "description_placeholder": "Enter template description...",
-      "active": "Active"
+      "active": "Active",
+      "category": "Category",
+      "category_info": "Optional taxonomy used to group templates (e.g. for tab-split lists).",
+      "category_placeholder": "Select category...",
+      "output_product": "Output Product",
+      "output_product_info": "Optional product this template's spawned jobs deliver.",
+      "output_product_placeholder": "Select output product...",
+      "initial_status": "Initial Job Status",
+      "initial_status_info": "The status a spawned job takes when this template materializes. Unset falls back to Planned.",
+      "initial_status_placeholder": "Default (Planned)"
     },
     "actions": {
       "view": "View Template",
       "edit": "Edit Template",
-      "delete": "Delete Template"
+      "delete": "Delete Template",
+      "add": "+ Add Phase",
+      "add_task": "+ Add Task",
+      "add_standard": "+ Add Standard",
+      "add_relation": "+ Add Relation"
     },
     "detail": {
       "page_title": "Job Template Details",
@@ -66,6 +79,7 @@
       "phases": "Phases",
       "tasks": "Tasks",
       "standards": "Standards",
+      "spawn_graph": "Spawn Graph",
       "attachments": "Attachments",
       "audit_trail": "Audit Trail",
       "history": "History"

@@ -44,10 +44,12 @@
       "section_servicing": "Servicing",
       "subscription_group_id": "Subscription Group",
       "subscription_group_id_info": "The subscription group (cohort) this operator is assigned to.",
-      "subscription_group_id_placeholder": "Enter group ID",
+      "subscription_group_id_placeholder": "Select a group...",
+      "subscription_group_search": "Filter...",
       "workspace_user_id": "Workspace User",
       "workspace_user_id_info": "The operator (workspace user) being assigned to this group.",
-      "workspace_user_id_placeholder": "Enter workspace user ID"
+      "workspace_user_id_placeholder": "Select a workspace user...",
+      "workspace_user_search": "Filter..."
     },
     "bulk": {
       "activate_message": "Activate the selected assignments?",

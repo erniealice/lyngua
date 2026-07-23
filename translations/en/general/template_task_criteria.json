@@ -33,7 +33,8 @@
       "required_override": "Required Override",
       "required_override_info": "Override whether this criterion is required for the task.",
       "sequence_order": "Sequence Order",
-      "sequence_order_info": "Display order of this criterion within the task."
+      "sequence_order_info": "Display order of this criterion within the task.",
+      "active": "Active"
     },
     "actions": {
       "delete": "Delete Link",

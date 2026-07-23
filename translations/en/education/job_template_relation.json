@@ -1,0 +1,27 @@
+{
+    "job_template_relation": {
+        "page": {
+            "heading": "Spawn Graph",
+            "heading_active": "Active Spawn Edges",
+            "heading_inactive": "Inactive Spawn Edges",
+            "caption": "Manage which curricula spawn under a root curriculum",
+            "caption_active": "Active spawn-graph edges",
+            "caption_inactive": "Inactive spawn-graph edges"
+        },
+        "buttons": {
+            "add_relation": "Add Curriculum Edge"
+        },
+        "columns": {
+            "parent_template_id": "Parent Curriculum",
+            "child_template_id": "Child Curriculum"
+        },
+        "form": {
+            "parent_template_id": "Parent Curriculum",
+            "child_template_id": "Child Curriculum",
+            "child_template_placeholder": "Select child curriculum..."
+        },
+        "actions": {
+            "add": "+ Add Curriculum Edge"
+        }
+    }
+}

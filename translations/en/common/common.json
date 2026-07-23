@@ -432,6 +432,12 @@
     "error_fallback": "An error occurred. Please try again.",
     "dismiss_alert": "Dismiss alert"
   },
+  "download": {
+    "preparing": "Preparing download…",
+    "timeout": "The download is taking longer than expected. It may still complete — check your browser downloads.",
+    "confirm_prompt": "Proceed with download?",
+    "confirm_action": "Download"
+  },
   "a11y": {
     "skip_to_content": "Skip to main content",
     "more_info": "More info"

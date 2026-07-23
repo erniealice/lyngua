@@ -32,15 +32,17 @@
       "active_info": "Inactive assignments are excluded from the deliverer picker.",
       "product_plan_id": "Product Plan",
       "product_plan_info": "The product_plan this staff member is eligible for.",
-      "product_plan_placeholder": "Enter product plan ID",
+      "product_plan_placeholder": "Select a product plan...",
+      "product_plan_search": "Filter...",
       "role": "Role",
       "role_info": "Pool membership role: eligible / primary / assistant (data-driven, not an enum).",
       "role_placeholder": "e.g. eligible, primary, assistant",
       "section_assignment": "Plan assignment",
       "section_staff": "Staff member",
-      "staff_id": "Staff ID",
-      "staff_id_info": "The workspace_user ID of the eligible staff member.",
-      "staff_id_placeholder": "Enter staff ID"
+      "staff_id": "Staff member",
+      "staff_id_info": "The eligible staff member.",
+      "staff_id_placeholder": "Select a staff member...",
+      "staff_search": "Filter..."
     },
     "bulk": {
       "activate_message": "Activate the selected staff assignments?",

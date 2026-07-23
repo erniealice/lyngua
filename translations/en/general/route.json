@@ -120,5 +120,7 @@
   "subscription_group_workspace_user": {},
   "subscription_group_product_plan_staff": {},
   "price_schedule_workspace_user": {},
-  "template_task_criteria": {}
+  "template_task_criteria": {},
+  "job_template_relation": {},
+  "staff": {}
 }

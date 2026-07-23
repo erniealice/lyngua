@@ -18,6 +18,14 @@
       "rating": "Rating",
       "employment_start": "Start Date"
     },
+    "list": {
+      "columns": {
+        "name": "Name",
+        "email": "Email",
+        "employment_type": "Employment Type",
+        "status": "Availability"
+      }
+    },
     "availability": {
       "available": "Available",
       "assigned": "Assigned",
@@ -44,7 +52,11 @@
       "seniority": "Seniority",
       "seniority_placeholder": "e.g. Senior, Mid, Junior",
       "employment_start": "Employment Start",
-      "employment_end": "Employment End"
+      "employment_end": "Employment End",
+      "user": "User",
+      "user_placeholder": "Select a user",
+      "user_search_placeholder": "Search users...",
+      "user_no_results": "No users found"
     },
     "empty": {
       "title": "No staff found",
@@ -55,6 +67,7 @@
       "inactive_message": "Offboarded staff will appear here."
     },
     "actions": {
+      "add": "Add Staff",
       "view": "View Staff",
       "edit": "Edit Staff",
       "delete": "Delete Staff"
@@ -98,7 +111,8 @@
       "email_required": "Staff email is required",
       "email_invalid": "Staff email format is invalid",
       "id_required": "Staff ID is required",
-      "request_required": "Request is required for staff"
+      "request_required": "Request is required for staff",
+      "pagination_limit_exceeded": "Pagination limit cannot exceed 100"
     }
   }
 }
