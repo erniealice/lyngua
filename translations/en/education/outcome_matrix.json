@@ -81,6 +81,10 @@
             "pdf_period_hint": "PDF prints the official grade sheet",
             "no_template_error": "No grade sheet template is configured — publish one under Grade Sheet Templates"
         },
+        "narrative": {
+            "placeholder": "Add a narrative for this grade…",
+            "read_only_hint": "This grade is read only — you can view but not edit its narrative."
+        },
         "template_settings": {
             "title": "Grade Sheet Templates",
             "subtitle": "Manage the templates used to print grade sheets",

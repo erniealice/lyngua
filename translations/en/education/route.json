@@ -220,6 +220,7 @@
     "outcome_matrix": {
         "matrix_url": "/grade-sheet/{id}",
         "record_url": "/action/grade-sheet/{id}/record",
+        "narrative_url": "/action/grade-sheet/{id}/narrative",
         "export_url": "/grade-sheet/{id}/export",
         "download_drawer_url": "/action/grade-sheet/{id}/download",
         "template_settings_url": "/grade-sheet/templates",

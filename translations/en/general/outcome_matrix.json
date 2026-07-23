@@ -89,6 +89,19 @@
       "download_button": "Download",
       "no_template_error": "No sheet template is configured for this document"
     },
+    "narrative": {
+      "title": "Narrative",
+      "field_label": "Narrative",
+      "placeholder": "Add a narrative for this cell…",
+      "save_button": "Save narrative",
+      "clear_button": "Clear",
+      "empty_text": "No narrative recorded.",
+      "read_only_hint": "This cell is read only — you can view but not edit its narrative.",
+      "aria_add": "Add narrative for {name}, {column}",
+      "aria_edit": "Edit narrative for {name}, {column}",
+      "aria_view": "View narrative for {name}, {column} (read only)",
+      "title_template": "{name} — {column}"
+    },
     "template_settings": {
       "title": "Sheet Templates",
       "subtitle": "Manage the document templates used to print sheets",
