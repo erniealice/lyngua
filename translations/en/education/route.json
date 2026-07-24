@@ -135,6 +135,9 @@
         "list_url": "/sections/list/{status}",
         "detail_url": "/sections/detail/{id}"
     },
+    "subscription_group_product_plan": {
+        "detail_url": "/sections/detail/{id}/subject/{sgppId}"
+    },
     "treasury_collection": {
         "list_url": "/treasury-collections/list/{status}",
         "detail_url": "/treasury-collections/{id}",

@@ -102,7 +102,9 @@
       "teacher_placeholder": "Select staff...",
       "teacher_search": "Filter...",
       "clear_action": "Clear",
-      "unauthorized": "You do not have permission to view staff assignments"
+      "unauthorized": "You do not have permission to view staff assignments",
+      "list_separator": ", ",
+      "list_aria": "Staff: {{names}}"
     },
     "detail": {
       "capacity_mode_nf": "Unlimited",

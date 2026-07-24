@@ -1,0 +1,113 @@
+{
+  "subscription_group_product_plan": {
+    "page": {
+      "title": "Group Offerings",
+      "subtitle": "Manage the offerings delivered by this section"
+    },
+    "columns": {
+      "subscription_group_id": "Section",
+      "product_plan_id": "Offering",
+      "job_template_id": "Template",
+      "status": "Status",
+      "assignments": "Assignments"
+    },
+    "buttons": {
+      "add": "Add offering",
+      "edit": "Edit",
+      "delete": "Delete",
+      "bulk_delete": "Delete Offerings",
+      "view": "View",
+      "assign": "Assign"
+    },
+    "picker": {
+      "title": "Add offerings — {{section}}",
+      "section": "Section",
+      "plan": "Plan",
+      "period": "Period",
+      "select_all": "Select all ({{count}})",
+      "add_all": "Add all from plan",
+      "empty": "Every offering on the plan is already on this section.",
+      "submit": "Add {{count}} offering",
+      "submit_plural": "Add {{count}} offerings",
+      "cancel": "Cancel"
+    },
+    "assign": {
+      "title": "Assign — {{offering}}",
+      "section": "Section",
+      "offering": "Offering",
+      "template": "Template",
+      "current": "Current",
+      "mode_all": "All phases",
+      "mode_per": "Per phase",
+      "staff": "Staff",
+      "role": "Role",
+      "phase": "Phase",
+      "all_phases": "All phases",
+      "clear": "Clear",
+      "submit": "Assign",
+      "cancel": "Cancel"
+    },
+    "status": {
+      "not_offered": "Excluded",
+      "active_list": "Active",
+      "excluded_list": "Excluded"
+    },
+    "tabs": {
+      "info": "Info",
+      "staff": "Staff"
+    },
+    "detail": {
+      "header": "{{offering}} — {{section}}",
+      "section": "Section",
+      "offering": "Offering",
+      "plan": "Plan",
+      "period": "Period",
+      "template": "Template",
+      "status": "Status",
+      "assignments": "Assignments",
+      "view_grade_sheet": "View grade sheet",
+      "date_created": "Date Created",
+      "date_modified": "Date Modified",
+      "title": "Offering"
+    },
+    "empty": {
+      "title": "No offerings",
+      "message": "No offerings on this section yet.",
+      "pool_empty": "No eligible staff — set eligibility first"
+    },
+    "confirm": {
+      "remove_message": "Remove {{offering}} from {{section}}?",
+      "remove_title": "Remove Offering",
+      "exclude_message": "Exclude {{offering}} from {{section}}?",
+      "exclude_title": "Exclude Offering",
+      "restore_message": "Restore {{offering}} on {{section}}?",
+      "restore_title": "Restore Offering",
+      "delete_message": "Permanently delete this offering? This cannot be undone.",
+      "delete_title": "Delete Offering",
+      "bulk_delete_message": "Permanently delete the selected offerings? This cannot be undone.",
+      "bulk_delete_title": "Delete Offerings",
+      "guard_live_grade_sheet": "This offering has a live grade sheet — excluding hides it from the roster but does not delete grades.",
+      "guard_remove_blocked_grades": "Cannot remove — a live grade sheet exists for this offering.",
+      "guard_remove_blocked_assignments": "Cannot remove — active assignments exist. Remove them first."
+    },
+    "errors": {
+      "unauthorized": "You are not authorized to perform this action",
+      "duplicate": "This offering is already on this section.",
+      "invalid_phase": "The selected phase does not belong to this offering's template.",
+      "ineligible_staff": "This staff member is not eligible for this offering.",
+      "not_found": "Offering not found",
+      "create_failed": "Failed to create offering",
+      "update_failed": "Failed to update offering",
+      "delete_failed": "Failed to delete offering",
+      "load_failed": "Failed to load offering",
+      "in_use": "This offering is in use and cannot be deleted."
+    },
+    "aria": {
+      "view": "View {{offering}} on {{section}}",
+      "assign": "Assign staff to {{offering}} on {{section}}",
+      "exclude": "Exclude {{offering}} from {{section}}",
+      "restore": "Restore {{offering}} on {{section}}",
+      "remove": "Remove {{offering}} from {{section}}"
+    }
+  }
+}

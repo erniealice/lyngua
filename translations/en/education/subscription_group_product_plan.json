@@ -1,0 +1,86 @@
+{
+  "subscription_group_product_plan": {
+    "page": {
+      "title": "Classes",
+      "subtitle": "Manage the subjects taught in this section"
+    },
+    "columns": {
+      "product_plan_id": "Subject",
+      "job_template_id": "Curriculum",
+      "assignments": "Teachers"
+    },
+    "buttons": {
+      "add": "Add subject",
+      "bulk_delete": "Delete Classes",
+      "view": "View class",
+      "assign": "Assign teacher"
+    },
+    "picker": {
+      "title": "Add subjects — {{section}}",
+      "add_all": "Add all subjects from the grade plan",
+      "empty": "Every subject on the Grade 10 plan is already on this section.",
+      "submit": "Add {{count}} subject",
+      "submit_plural": "Add {{count}} subjects"
+    },
+    "assign": {
+      "title": "Assign teacher — {{offering}}",
+      "offering": "Subject",
+      "mode_all": "All semesters",
+      "mode_per": "Per semester",
+      "staff": "Teacher",
+      "phase": "Semester",
+      "all_phases": "All semesters"
+    },
+    "status": {
+      "not_offered": "Not offered",
+      "active_list": "Offered",
+      "excluded_list": "Not offered"
+    },
+    "tabs": {
+      "staff": "Teachers"
+    },
+    "detail": {
+      "offering": "Subject",
+      "template": "Curriculum",
+      "assignments": "Teachers",
+      "title": "Class"
+    },
+    "empty": {
+      "title": "No subjects",
+      "message": "No subjects on this section yet.",
+      "pool_empty": "No eligible teacher — set eligibility first"
+    },
+    "confirm": {
+      "remove_message": "Remove this subject from the section?",
+      "remove_title": "Remove Subject",
+      "exclude_message": "Exclude {{offering}} from {{section}}?",
+      "exclude_title": "Exclude Subject",
+      "restore_message": "Restore {{offering}} on {{section}}?",
+      "restore_title": "Restore Subject",
+      "delete_message": "Permanently delete this class? This cannot be undone.",
+      "delete_title": "Delete Class",
+      "bulk_delete_message": "Permanently delete the selected classes? This cannot be undone.",
+      "bulk_delete_title": "Delete Classes",
+      "guard_live_grade_sheet": "This class has a live grade sheet — excluding hides it from the roster but does not delete grades.",
+      "guard_remove_blocked_grades": "Cannot remove — a live grade sheet exists for this class.",
+      "guard_remove_blocked_assignments": "Cannot remove — active teachers exist. Remove them first."
+    },
+    "errors": {
+      "duplicate": "This subject is already on this section.",
+      "invalid_phase": "The selected semester does not belong to this subject's curriculum.",
+      "ineligible_staff": "This teacher is not eligible for this subject.",
+      "not_found": "Subject not found",
+      "create_failed": "Failed to create class",
+      "update_failed": "Failed to update class",
+      "delete_failed": "Failed to delete class",
+      "load_failed": "Failed to load class"
+    },
+    "aria": {
+      "view": "View {{offering}} on {{section}}",
+      "assign": "Assign teacher to {{offering}} on {{section}}",
+      "exclude": "Exclude {{offering}} from {{section}}",
+      "restore": "Restore {{offering}} on {{section}}",
+      "remove": "Remove {{offering}} from {{section}}"
+    }
+  }
+}
