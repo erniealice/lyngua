@@ -32,7 +32,7 @@
       "active_info": "Inactive categories are hidden from new assignments.",
       "code": "Code",
       "code_info": "Stable machine key for this category used in reporting.",
-      "code_placeholder": "Enter a short code (e.g. academic)",
+      "code_placeholder": "Enter a short code (e.g. standard)",
       "name": "Name",
       "name_info": "A short display name for this category.",
       "name_placeholder": "Enter category name",

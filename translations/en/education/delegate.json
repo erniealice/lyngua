@@ -1,6 +1,7 @@
 {
   "delegate": {
     "page":    { "heading": "Parents/Guardians", "caption": "Manage parent and guardian access for students" },
+    "list":    { "columns": { "students": "Students" } },
     "actions": { "add": "Add Guardian", "edit": "Edit Guardian", "delete": "Remove Guardian" }
   }
 }

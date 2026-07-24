@@ -1,8 +1,8 @@
 {
   "subscription_group_product_plan_staff": {
     "page": {
-      "title": "Class Assignments",
-      "subtitle": "Manage staff assignments to section-subject pairs",
+      "title": "Staff Assignments",
+      "subtitle": "Manage staff assignments to section-offering pairs",
       "active_title": "Active Assignments",
       "inactive_title": "Inactive Assignments"
     },
@@ -18,29 +18,29 @@
     "columns": {
       "actions": "Actions",
       "date_created": "Date Created",
-      "product_plan_id": "Subject",
+      "product_plan_id": "Offering",
       "role": "Role",
       "staff_id": "Staff",
       "status": "Status",
       "subscription_group_id": "Section"
     },
     "empty": {
-      "message": "No class assignments to display.",
+      "message": "No staff assignments to display.",
       "title": "No Assignments"
     },
     "form": {
       "active": "Active",
-      "active_info": "Inactive assignments are excluded from grade-sheet scoping.",
-      "product_plan_id": "Subject",
-      "product_plan_info": "The subject (product plan) delivered in this section.",
-      "product_plan_placeholder": "Select a subject...",
+      "active_info": "Inactive assignments are excluded from visibility scoping.",
+      "product_plan_id": "Offering",
+      "product_plan_info": "The offering (product plan) delivered in this section.",
+      "product_plan_placeholder": "Select an offering...",
       "product_plan_search": "Filter...",
       "role": "Role",
-      "role_info": "The role this staff member holds in this class assignment.",
-      "role_placeholder": "e.g. teacher, co-teacher, tutor",
+      "role_info": "The role this staff member holds in this assignment.",
+      "role_placeholder": "e.g. lead, assistant, support",
       "section_assignment": "Assignment details",
       "staff_id": "Staff member",
-      "staff_info": "The staff member delivering this subject in this section.",
+      "staff_info": "The staff member delivering this offering in this section.",
       "staff_placeholder": "Select a staff member...",
       "staff_search": "Filter...",
       "subscription_group_id": "Section",
@@ -71,10 +71,10 @@
       "date_created": "Date Created",
       "date_modified": "Date Modified",
       "no_group": "No section",
-      "no_plan": "No subject",
+      "no_plan": "No offering",
       "no_role": "—",
       "no_staff": "No staff",
-      "title": "Class Assignment"
+      "title": "Staff Assignment"
     },
     "errors": {
       "create_failed": "Failed to create assignment",

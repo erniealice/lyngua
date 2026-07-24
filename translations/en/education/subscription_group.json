@@ -10,6 +10,17 @@
       "client": "Student",
       "subscription": "Enrollment"
     },
+    "form": {
+      "active_info": "Inactive sections are hidden from new enrollments.",
+      "plan_info": "The program (plan) this section realizes. Section identity is program × academic year.",
+      "price_schedule": "Academic Year",
+      "price_schedule_info": "The academic year this section is anchored to (e.g. the academic-year price schedule).",
+      "price_schedule_placeholder": "Select an academic year...",
+      "section_anchors": "Program & academic year"
+    },
+    "detail": {
+      "no_schedule": "No academic year"
+    },
     "staff": {
       "column_subject": "Subject",
       "column_servicer": "Teacher",

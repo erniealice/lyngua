@@ -1,0 +1,27 @@
+{
+  "subscription_group_product_plan_staff": {
+    "page": {
+      "title": "Class Assignments",
+      "subtitle": "Manage teacher assignments to section-subject pairs"
+    },
+    "columns": {
+      "product_plan_id": "Subject"
+    },
+    "empty": {
+      "message": "No class assignments to display."
+    },
+    "form": {
+      "active_info": "Inactive assignments are excluded from grade-sheet scoping.",
+      "product_plan_id": "Subject",
+      "product_plan_info": "The subject (product plan) delivered in this section.",
+      "product_plan_placeholder": "Select a subject...",
+      "role_info": "The role this staff member holds in this class assignment.",
+      "role_placeholder": "e.g. teacher, co-teacher, tutor",
+      "staff_info": "The staff member delivering this subject in this section."
+    },
+    "detail": {
+      "no_plan": "No subject",
+      "title": "Class Assignment"
+    }
+  }
+}

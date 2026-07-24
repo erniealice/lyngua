@@ -1,5 +1,35 @@
 {
   "price_schedule_workspace_user": {
+    "page": {
+      "title": "Year Coordinators",
+      "subtitle": "Manage operator access at academic-year level",
+      "active_title": "Active Year Coordinators",
+      "inactive_title": "Inactive Year Coordinators"
+    },
+    "empty": {
+      "message": "No year coordinator records to display.",
+      "title": "No Year Coordinators"
+    },
+    "columns": {
+      "price_schedule_id": "Academic Year"
+    },
+    "form": {
+      "active_info": "Inactive coordinators are hidden from academic-year views.",
+      "is_owner_info": "Mark this operator as the primary owner of the academic year.",
+      "price_schedule_id": "Academic Year",
+      "price_schedule_id_info": "The academic year this coordinator is pinned to.",
+      "price_schedule_id_placeholder": "Enter academic year ID",
+      "workspace_user_id_info": "The workspace user who acts as coordinator for this academic year."
+    },
+    "bulk": {
+      "activate_title": "Activate Year Coordinators",
+      "deactivate_title": "Deactivate Year Coordinators",
+      "delete_title": "Delete Year Coordinators"
+    },
+    "detail": {
+      "no_schedule": "No academic year",
+      "title": "Year Coordinator"
+    },
     "title": {
       "access": "Year Member",
       "primary": "Year Coordinator",

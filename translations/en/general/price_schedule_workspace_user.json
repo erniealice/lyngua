@@ -1,10 +1,10 @@
 {
   "price_schedule_workspace_user": {
     "page": {
-      "title": "Period Coordinators",
-      "subtitle": "Manage operator access at period (price schedule) level",
-      "active_title": "Active Period Coordinators",
-      "inactive_title": "Inactive Period Coordinators"
+      "title": "Schedule Coordinators",
+      "subtitle": "Manage operator access at price-schedule level",
+      "active_title": "Active Schedule Coordinators",
+      "inactive_title": "Inactive Schedule Coordinators"
     },
     "buttons": {
       "activate": "Activate",
@@ -20,39 +20,39 @@
       "capacity": "Capacity",
       "date_created": "Date Created",
       "is_owner": "Owner",
-      "price_schedule_id": "Period",
+      "price_schedule_id": "Price Schedule",
       "status": "Status",
       "workspace_user_id": "Operator"
     },
     "empty": {
-      "message": "No period coordinator records to display.",
-      "title": "No Period Coordinators"
+      "message": "No schedule coordinator records to display.",
+      "title": "No Schedule Coordinators"
     },
     "form": {
       "active": "Active",
-      "active_info": "Inactive coordinators are hidden from period-level views.",
+      "active_info": "Inactive coordinators are hidden from schedule-level views.",
       "is_owner": "Owner",
-      "is_owner_info": "Mark this operator as the primary owner of the period.",
+      "is_owner_info": "Mark this operator as the primary owner of the price schedule.",
       "capacity": "Capacity",
       "capacity_access": "Access (view-only)",
       "capacity_info": "Whether this operator services the node (Primary) or only has view access (Access).",
       "capacity_primary": "Primary (servicer)",
-      "price_schedule_id": "Period",
-      "price_schedule_id_info": "The price schedule (period / academic year) this coordinator is pinned to.",
-      "price_schedule_id_placeholder": "Enter period ID",
+      "price_schedule_id": "Price Schedule",
+      "price_schedule_id_info": "The price schedule this coordinator is pinned to.",
+      "price_schedule_id_placeholder": "Enter price schedule ID",
       "section_access": "Access settings",
       "section_coordinator": "Coordinator details",
       "workspace_user_id": "Operator",
-      "workspace_user_id_info": "The workspace user who acts as coordinator for this period.",
+      "workspace_user_id_info": "The workspace user who acts as coordinator for this price schedule.",
       "workspace_user_id_placeholder": "Enter operator ID"
     },
     "bulk": {
       "activate_message": "Activate the selected coordinator records?",
-      "activate_title": "Activate Period Coordinators",
+      "activate_title": "Activate Schedule Coordinators",
       "deactivate_message": "Deactivate the selected coordinator records?",
-      "deactivate_title": "Deactivate Period Coordinators",
+      "deactivate_title": "Deactivate Schedule Coordinators",
       "delete_message": "Permanently delete the selected coordinator records? This cannot be undone.",
-      "delete_title": "Delete Period Coordinators"
+      "delete_title": "Delete Schedule Coordinators"
     },
     "confirm": {
       "activate_message": "Activate {{id}}?",
@@ -68,9 +68,9 @@
     "detail": {
       "date_created": "Date Created",
       "date_modified": "Date Modified",
-      "no_schedule": "No period",
+      "no_schedule": "No price schedule",
       "no_user": "No operator",
-      "title": "Period Coordinator"
+      "title": "Schedule Coordinator"
     },
     "title": {
       "access": "Member",
