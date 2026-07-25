@@ -32,7 +32,7 @@
       "cancel": "Cancel"
     },
     "assign": {
-      "title": "Assign — {{offering}}",
+      "title": "Assign",
       "section": "Section",
       "offering": "Offering",
       "template": "Template",

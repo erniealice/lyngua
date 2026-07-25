@@ -23,7 +23,7 @@
       "submit_plural": "Add {{count}} subjects"
     },
     "assign": {
-      "title": "Assign teacher — {{offering}}",
+      "title": "Assign teacher",
       "offering": "Subject",
       "mode_all": "All semesters",
       "mode_per": "Per semester",
