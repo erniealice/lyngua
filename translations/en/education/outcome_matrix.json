@@ -12,6 +12,8 @@
         },
         "grid": {
             "client_column": "Student",
+            "client_total": "{count} students",
+            "breakdown_unassigned": "not assigned",
             "criterion_column": "Grading Criterion",
             "score_column": "Grade",
             "save_button": "Save grades",

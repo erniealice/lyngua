@@ -232,7 +232,11 @@
         "template_settings_url": "/grade-sheet/templates",
         "template_upload_url": "/action/grade-sheet/templates/upload",
         "template_publish_url": "/action/grade-sheet/templates/publish",
-        "template_delete_url": "/action/grade-sheet/templates/delete"
+        "template_delete_url": "/action/grade-sheet/templates/delete",
+        "group_submit_url": "/action/grade-sheet/{id}/section/{group_id}/submit",
+        "group_verify_url": "/action/grade-sheet/{id}/section/{group_id}/verify",
+        "group_publish_url": "/action/grade-sheet/{id}/section/{group_id}/publish",
+        "group_return_url": "/action/grade-sheet/{id}/section/{group_id}/return"
     },
     "outcome_summary": {
         "list_url": "/report-cards",
