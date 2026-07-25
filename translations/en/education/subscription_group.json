@@ -33,7 +33,9 @@
       "role_access": "Access only",
       "teacher_placeholder": "Select teacher...",
       "teacher_search": "Filter teachers...",
-      "list_aria": "Teachers: {{names}}"
+      "list_aria": "Teachers: {{names}}",
+      "variant_excluded_tag": "{{variant}} — Not offered",
+      "action_variant": "{{action}} — {{variant}}"
     },
     "validation": {
       "dependent_member_one": "enrolled student",

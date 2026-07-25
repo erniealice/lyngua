@@ -104,7 +104,9 @@
       "clear_action": "Clear",
       "unauthorized": "You do not have permission to view staff assignments",
       "list_separator": ", ",
-      "list_aria": "Staff: {{names}}"
+      "list_aria": "Staff: {{names}}",
+      "variant_excluded_tag": "{{variant}} — Not offered",
+      "action_variant": "{{action}} — {{variant}}"
     },
     "detail": {
       "capacity_mode_nf": "Unlimited",
