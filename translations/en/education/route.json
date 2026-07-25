@@ -222,10 +222,13 @@
     },
     "outcome_matrix": {
         "matrix_url": "/grade-sheet/{id}",
+        "group_matrix_url": "/grade-sheet/{id}/section/{group_id}",
         "record_url": "/action/grade-sheet/{id}/record",
         "narrative_url": "/action/grade-sheet/{id}/narrative",
         "export_url": "/grade-sheet/{id}/export",
+        "group_export_url": "/grade-sheet/{id}/section/{group_id}/export",
         "download_drawer_url": "/action/grade-sheet/{id}/download",
+        "group_download_drawer_url": "/action/grade-sheet/{id}/section/{group_id}/download",
         "template_settings_url": "/grade-sheet/templates",
         "template_upload_url": "/action/grade-sheet/templates/upload",
         "template_publish_url": "/action/grade-sheet/templates/publish",
