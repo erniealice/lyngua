@@ -26,7 +26,9 @@
       "cell_error": "Save failed",
       "rating_stale": "Rating not yet recomputed",
       "unsaved_warn": "You have unsaved changes",
-      "retry_button": "Retry unsaved"
+      "retry_button": "Retry unsaved",
+      "rating_column": "Rating",
+      "rating_tooltip": "Computed rating — read only"
     },
     "errors": {
       "permission_denied": "You do not have permission to perform this action"
@@ -87,7 +89,8 @@
       "format_pdf": "PDF",
       "pdf_period_hint": "PDF prints the full sheet",
       "download_button": "Download",
-      "no_template_error": "No sheet template is configured for this document"
+      "no_template_error": "No sheet template is configured for this document",
+      "download_aria": "Download {column}"
     },
     "narrative": {
       "title": "Narrative",

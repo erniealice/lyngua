@@ -28,7 +28,9 @@
             "cell_error": "Save failed",
             "rating_stale": "Grade saved — rating not yet recomputed",
             "unsaved_warn": "You have unsaved grade changes",
-            "retry_button": "Retry unsaved"
+            "retry_button": "Retry unsaved",
+            "rating_column": "Rating",
+            "rating_tooltip": "Computed grade — read only"
         },
         "errors": {
             "permission_denied": "You do not have permission to perform this action"
@@ -81,7 +83,8 @@
             "csv_button": "Download grade sheet (CSV)",
             "drawer_title": "Download grade sheet",
             "pdf_period_hint": "PDF prints the official grade sheet",
-            "no_template_error": "No grade sheet template is configured — publish one under Grade Sheet Templates"
+            "no_template_error": "No grade sheet template is configured — publish one under Grade Sheet Templates",
+            "download_aria": "Download {column} grades"
         },
         "narrative": {
             "placeholder": "Add a narrative for this grade…",
