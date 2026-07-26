@@ -4,7 +4,10 @@
       "title": "Sections",
       "subtitle": "Manage your sections and cohorts",
       "active_title": "Active Sections",
-      "inactive_title": "Inactive Sections"
+      "inactive_title": "Inactive Sections",
+      "current_title": "Current Sections",
+      "completed_title": "Completed Sections",
+      "draft_title": "Draft Sections"
     },
     "buttons": {
       "activate": "Activate",
@@ -61,7 +64,12 @@
       "price_schedule_search": "Filter...",
       "section_anchors": "Program & schedule",
       "section_capacity": "Capacity",
-      "section_identity": "Section details"
+      "section_identity": "Section details",
+      "status": "Status",
+      "status_completed": "Completed",
+      "status_current": "Current",
+      "status_draft": "Draft",
+      "status_info": "Current sections are selectable in pickers. Completed and Draft sections remain visible but appear disabled in pickers."
     },
     "bulk": {
       "activate_message": "Activate the selected sections?",
@@ -134,6 +142,8 @@
       "delete_blocked_references": "Cannot delete this section while it still has active references: {dependents}. Remove them first.",
       "dependent_member_one": "member",
       "dependent_member_many": "members",
+      "dependent_offering_one": "offering",
+      "dependent_offering_many": "offerings",
       "dependent_teaching_staff_one": "staff assignment",
       "dependent_teaching_staff_many": "staff assignments",
       "dependent_access_grant_one": "access grant",
