@@ -438,6 +438,9 @@
     "confirm_prompt": "Proceed with download?",
     "confirm_action": "Download"
   },
+  "dialog": {
+    "confirm_title": "Confirm Action"
+  },
   "a11y": {
     "skip_to_content": "Skip to main content",
     "more_info": "More info"
