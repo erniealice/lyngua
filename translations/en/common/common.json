@@ -396,6 +396,7 @@
     "forbidden": "Forbidden",
     "no_permission": "No permission",
     "missing_permission": "Missing permission: %s",
+    "forbidden_hint": "Contact your workspace administrator to request access.",
     "permission_denied": "Permission denied",
     "invalid_form_data": "Invalid form data",
     "invalid_status": "Invalid status",
