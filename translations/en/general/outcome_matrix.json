@@ -28,7 +28,9 @@
       "unsaved_warn": "You have unsaved changes",
       "retry_button": "Retry unsaved",
       "rating_column": "Rating",
-      "rating_tooltip": "Computed rating — read only"
+      "rating_tooltip": "Computed rating — read only",
+      "total_column": "Total",
+      "total_tooltip": "Computed total — read only"
     },
     "errors": {
       "permission_denied": "You do not have permission to perform this action"
