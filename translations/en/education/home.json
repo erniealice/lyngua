@@ -8,12 +8,16 @@
                 "scope_self": "Your classes",
                 "scope_workspace": "Across the school",
                 "empty": "No grading assigned yet",
-                "zero": "No grades recorded yet this school year"
+                "zero": "No grades recorded yet this school year",
+                "cells": "cells recorded"
             },
             "approval": {
                 "title": "Grade review progress",
                 "for_review": "Submitted for review"
             }
+        },
+        "period": {
+            "label": "Semester"
         }
     }
 }

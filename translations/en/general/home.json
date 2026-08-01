@@ -76,26 +76,35 @@
                 "scope_self": "Assigned to you",
                 "scope_workspace": "Across the workspace",
                 "empty": "Nothing assigned yet",
-                "zero": "No outcomes recorded yet for this period"
+                "zero": "No outcomes recorded yet for this period",
+                "cells": "outcome cells recorded"
             },
             "approval": {
                 "title": "Review progress",
+                "not_started": "Not started",
                 "in_progress": "In progress",
                 "for_review": "For review",
                 "verified": "Verified",
                 "published": "Published",
+                "returned": "Returned",
                 "empty": "No work in review yet"
             },
             "attention": {
                 "title": "Needs attention",
                 "subtitle": "Lowest completion first",
-                "empty": "Nothing needs attention"
+                "empty": "Nothing needs attention",
+                "exceptions": "Returned for revision"
             },
             "quick": {
                 "title": "Quick links"
             },
             "denied": "You don't have access to this information",
-            "denied_hint": "Ask an administrator if you need it"
+            "denied_hint": "Ask an administrator if you need it",
+            "unavailable": "This information can't be loaded right now",
+            "unavailable_hint": "Try refreshing the page; contact an administrator if it keeps happening"
+        },
+        "period": {
+            "label": "Period"
         }
     }
 }
