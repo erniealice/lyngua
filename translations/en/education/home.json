@@ -1,63 +1,19 @@
 {
-    "page": {
-        "title": "Dashboard",
-        "heading": "Dashboard",
-        "subtitle": "Welcome back"
-    },
-    "stats": {
-        "total_clients": "Total Students",
-        "pipeline_value": "Enrollment Value",
-        "open_quotes": "Open Proposals",
-        "win_rate": "Acceptance Rate"
-    },
-    "revenue": {
-        "title": "Tuition & Fees Overview",
-        "week": "Week",
-        "month": "Month",
-        "year": "Year",
-        "jan": "Jan",
-        "mar": "Mar",
-        "may": "May",
-        "jul": "Jul",
-        "sep": "Sep",
-        "nov": "Nov"
-    },
-    "activity": {
-        "title": "Recent Activity",
-        "view_all": "View All",
-        "new_client_added": "New student added",
-        "acme_corporation_joined": "Riverside Academy joined",
-        "ago_minutes": "m ago",
-        "quote_accepted": "Proposal accepted",
-        "project_alpha": "Course Alpha - $24,500",
-        "ago_hours": "h ago",
-        "award_earned": "Award earned",
-        "top_performer_q4": "Top Performer Q4",
-        "integration_synced": "Integration synced",
-        "salesforce_data_updated": "Salesforce data updated"
-    },
-    "tasks": {
-        "title": "Today's Tasks",
-        "add_task": "+ Add Task",
-        "review_acme_proposal": "Review Riverside proposal",
-        "due_today_at2_pm": "Due today at 2:00 PM",
-        "send_follow_up_to_tech_corp": "Send follow-up to Hillcrest School",
-        "due_today_at4_pm": "Due today at 4:00 PM",
-        "update_client_database": "Update student database",
-        "completed_at930_am": "Completed at 9:30 AM",
-        "prepare_q1_report": "Prepare Q1 report",
-        "due_tomorrow": "Due tomorrow"
-    },
-    "top_clients": {
-        "title": "Top Students",
-        "see_all": "See All",
-        "acme_corporation": "Riverside Academy",
-        "projects12": "12 courses",
-        "tech_corp_inc": "Hillcrest School",
-        "projects8": "8 courses",
-        "global_solutions": "Maplewood Academy",
-        "projects6": "6 courses",
-        "startup_xyz": "Eastside Prep",
-        "projects4": "4 courses"
+    "home": {
+        "widget": {
+            "completion": {
+                "title": "Grading completion",
+                "subtitle": "Recorded vs expected grades",
+                "recorded": "Graded",
+                "scope_self": "Your classes",
+                "scope_workspace": "Across the school",
+                "empty": "No grading assigned yet",
+                "zero": "No grades recorded yet this school year"
+            },
+            "approval": {
+                "title": "Grade review progress",
+                "for_review": "Submitted for review"
+            }
+        }
     }
 }

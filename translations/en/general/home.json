@@ -62,6 +62,40 @@
             "record_collection": "Record Collection",
             "new_disbursement": "New Disbursement",
             "new_engagement": "New Engagement"
+        },
+        "tab": {
+            "all": "All"
+        },
+        "widget": {
+            "completion": {
+                "title": "Outcome completion",
+                "subtitle": "Recorded vs expected outcomes",
+                "recorded": "Recorded",
+                "expected": "Expected",
+                "rate": "Completion",
+                "scope_self": "Assigned to you",
+                "scope_workspace": "Across the workspace",
+                "empty": "Nothing assigned yet",
+                "zero": "No outcomes recorded yet for this period"
+            },
+            "approval": {
+                "title": "Review progress",
+                "in_progress": "In progress",
+                "for_review": "For review",
+                "verified": "Verified",
+                "published": "Published",
+                "empty": "No work in review yet"
+            },
+            "attention": {
+                "title": "Needs attention",
+                "subtitle": "Lowest completion first",
+                "empty": "Nothing needs attention"
+            },
+            "quick": {
+                "title": "Quick links"
+            },
+            "denied": "You don't have access to this information",
+            "denied_hint": "Ask an administrator if you need it"
         }
     }
 }
