@@ -43,6 +43,11 @@
       "job_template": "Engagement Template",
       "job_template_none": "(none — advisory engagement, no operational tracking)",
       "job_template_hint": "Select the engagement template that defines the work delivered for this package. Leave empty for advisory-only retainers.",
+      "execution_strategy": "Delivery model",
+      "execution_strategy_template_driven": "Template workflow",
+      "execution_strategy_manual_or_task_driven": "Task list workflow",
+      "execution_strategy_seat_or_assignment_driven": "Capacity-driven assignment workflow",
+      "execution_strategy_hint": "Choose how this package creates and tracks work for clients.",
       "visits_per_cycle_label": "Cycle instances per billing cycle",
       "client_scope_cascade_notice": "If a client is selected, this package can only be assigned to a client-scoped rate card.",
       "sections": {

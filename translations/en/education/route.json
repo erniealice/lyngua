@@ -243,12 +243,17 @@
         "list_scope_url": "/report-cards/list/{scope}",
         "section_url": "/report-cards/section/{id}",
         "section_export_url": "/report-cards/section/{id}/export",
+        "section_download_drawer_url": "/action/report-cards/section/{id}/download",
         "client_url": "/report-cards/section/{id}/student/{client_id}",
         "client_document_url": "/report-cards/section/{id}/student/{client_id}/document",
         "group_detail_url": "/sections/detail/{id}",
         "template_settings_url": "/report-cards/templates",
         "template_upload_url": "/action/report-cards/templates/upload",
         "template_publish_url": "/action/report-cards/templates/publish",
-        "template_delete_url": "/action/report-cards/templates/delete"
+        "template_delete_url": "/action/report-cards/templates/delete",
+        "section_template_settings_url": "/section-templates",
+        "section_template_upload_url": "/action/section-templates/upload",
+        "section_template_publish_url": "/action/section-templates/publish",
+        "section_template_delete_url": "/action/section-templates/delete"
     }
 }

@@ -14,10 +14,30 @@
             "approval": {
                 "title": "Grade review progress",
                 "for_review": "Submitted for review"
+            },
+            "pipeline": {
+                "title": "Grade review pipeline",
+                "subtitle": "Grades in each review stage"
+            },
+            "performance": {
+                "title": "Grading completion vs target",
+                "subtitle": "By course, lowest first",
+                "category": "Course"
+            },
+            "attention": {
+                "category": "Course"
             }
         },
         "period": {
             "label": "Semester"
+        },
+        "section": {
+            "performance": {
+                "subtitle": "Grading completion vs target by course"
+            },
+            "attention": {
+                "subtitle": "Where grading is furthest behind"
+            }
         }
     }
 }

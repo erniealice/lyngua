@@ -93,7 +93,25 @@
                 "title": "Needs attention",
                 "subtitle": "Lowest completion first",
                 "empty": "Nothing needs attention",
-                "exceptions": "Returned for revision"
+                "exceptions": "Returned for revision",
+                "category": "Category",
+                "ratio": "Recorded / expected",
+                "rate": "Completion"
+            },
+            "pipeline": {
+                "title": "Review pipeline",
+                "subtitle": "Work in each review stage",
+                "returned_queue": "Returned for revision",
+                "empty": "No work in review yet"
+            },
+            "performance": {
+                "title": "Completion vs target",
+                "subtitle": "By category, lowest first",
+                "target": "Target",
+                "category": "Category",
+                "ratio": "Recorded / expected",
+                "rate": "Completion",
+                "empty": "No categories to show yet"
             },
             "quick": {
                 "title": "Quick links"
@@ -105,6 +123,24 @@
         },
         "period": {
             "label": "Period"
+        },
+        "section": {
+            "overview": {
+                "title": "Overview",
+                "subtitle": "Today's snapshot"
+            },
+            "pulse": {
+                "title": "Operations Pulse",
+                "subtitle": "Review pipeline & what's moving"
+            },
+            "performance": {
+                "title": "Performance",
+                "subtitle": "Completion vs target by category"
+            },
+            "attention": {
+                "title": "Needs Attention",
+                "subtitle": "Where completion is lowest"
+            }
         }
     }
 }
