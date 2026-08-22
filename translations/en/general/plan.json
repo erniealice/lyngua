@@ -121,6 +121,39 @@
       "variant_select_label": "Variant",
       "variant_select_placeholder": "Select a variant",
       "variant_select_info": "Required when the parent product has variants enabled."
+    },
+    "composition": {
+      "page": {
+        "heading": "Plan Composition",
+        "caption": "Ordered operational templates for this plan",
+        "heading_active": "Active Plan Composition",
+        "heading_inactive": "Inactive Plan Composition"
+      },
+      "buttons": {
+        "add_entry": "Add Template",
+        "move_up": "Move up",
+        "move_down": "Move down",
+        "remove": "Remove"
+      },
+      "columns": {
+        "job_template_id": "Template",
+        "sequence_order": "Order",
+        "composition_entry_pattern": "Composition Entry Pattern",
+        "status": "Status"
+      },
+      "form": {
+        "job_template_id": "Template",
+        "sequence_order": "Order",
+        "composition_entry_pattern": "Composition Entry Pattern"
+      },
+      "empty": {
+        "title": "No composition entries",
+        "message": "Add an operational template to this plan."
+      },
+      "patterns": {
+        "bundle_entry": "Bundle entry",
+        "standalone_entry": "Standalone entry"
+      }
     }
   }
 }

@@ -1,0 +1,27 @@
+{
+  "plan_job_template": {
+    "page": {
+      "heading": "Course Composition",
+      "caption": "Ordered courses that this level delivers",
+      "heading_active": "Active Course Composition",
+      "heading_inactive": "Inactive Course Composition"
+    },
+    "buttons": {
+      "add_entry": "Add Course"
+    },
+    "columns": {
+      "job_template_id": "Course"
+    },
+    "form": {
+      "job_template_id": "Course"
+    },
+    "empty": {
+      "title": "No courses in this level",
+      "message": "Add an operational course to this level."
+    },
+    "patterns": {
+      "bundle_entry": "Bundle entry",
+      "standalone_entry": "Standalone entry"
+    }
+  }
+}

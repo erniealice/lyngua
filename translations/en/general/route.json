@@ -123,5 +123,6 @@
   "price_schedule_workspace_user": {},
   "template_task_criteria": {},
   "job_template_relation": {},
-  "staff": {}
+  "staff": {},
+  "plan_job_template": {}
 }

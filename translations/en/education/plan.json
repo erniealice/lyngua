@@ -1,148 +1,173 @@
 {
-    "plan": {
-        "page": {
-            "heading": "Level",
-            "heading_active": "Active Levels",
-            "heading_inactive": "Inactive Levels",
-            "caption": "Manage your levels",
-            "caption_active": "View and manage active levels",
-            "caption_inactive": "View discontinued levels"
-        },
-        "buttons": {
-            "add_plan": "Add Level",
-            "add_product": "Add Subject",
-            "add_price_plan": "Add Level Fee",
-            "edit_price_plan": "Edit Level Fee"
-        },
-        "columns": {
-            "name": "Level Name",
-            "description": "Description",
-            "product": "Subject",
-            "price": "Price",
-            "status": "Status",
-            "item_type": "Subject Type",
-            "price_plan": "Level",
-            "price_schedule": "Academic Year"
-        },
-        "empty": {
-            "title": "No levels found",
-            "message": "Create your first level to get started.",
-            "active_title": "No active levels",
-            "active_message": "Create your first level to get started.",
-            "inactive_title": "No inactive levels",
-            "inactive_message": "Discontinued levels will appear here."
-        },
-        "form": {
-            "name": "Level Name",
-            "name_placeholder": "Enter level name",
-            "description": "Description",
-            "description_placeholder": "Enter level description...",
-            "active": "Active",
-            "products": "Subjects",
-            "products_placeholder": "Select subjects...",
-            "products_search": "Search subjects...",
-            "client_label": "Student",
-            "client_placeholder": "Leave blank for a general level",
-            "client_help": "Leave blank to make this level available for any student. Set a student to make it a bespoke level for that student only.",
-            "execution_strategy": "Delivery model",
-            "execution_strategy_template_driven": "Curriculum workflow",
-            "execution_strategy_manual_or_task_driven": "Task list workflow",
-            "execution_strategy_seat_or_assignment_driven": "Section assignment workflow",
-            "execution_strategy_hint": "Choose how student work is generated and tracked for this level.",
-            "job_template": "",
-            "job_template_none": "(none — guidance-only level, no course tracking)",
-            "job_template_hint": "Select the curriculum that defines the coursework delivered for this level. Leave empty for guidance-only levels.",
-            "visits_per_cycle_label": "Sessions per billing cycle",
-            "client_scope_cascade_notice": "If a student is selected, this level can only be assigned to a student-scoped fee schedule.",
-            "sections": {
-                "basic": "Basic Information",
-                "services": "Assigned Subjects"
-            }
-        },
-        "actions": {
-            "view": "View Level",
-            "edit": "Edit Level",
-            "delete": "Delete Level"
-        },
-        "detail": {
-            "page_title": "Level Details",
-            "price": "Price",
-            "currency": "Currency",
-            "status": "Status",
-            "description": "Description",
-            "created_date": "Created",
-            "modified_date": "Last Modified",
-            "heading": "Level Info",
-            "name": "Name",
-            "amount": "Amount",
-            "duration": "Duration",
-            "schedule_label": "Academic Year",
-            "date_created": "Date Created",
-            "date_modified": "Date Modified",
-            "edit": "Edit",
-            "edit_title": "Edit Level",
-            "no_products_assigned": "No subjects assigned",
-            "no_products_assigned_msg": "No subjects assigned to this level yet.",
-            "no_price_plans": "No level fees",
-            "no_price_plans_msg": "No level fees have been configured for this level yet."
-        },
-        "tabs": {
-            "info": "Information",
-            "products": "Subjects",
-            "products_slug": "subjects",
-            "price_plan": "Level Fees",
-            "price_plan_slug": "level-fees",
-            "bundle_pricing": "Pricing",
-            "audit_trail": "Audit Trail",
-            "audit_history": "History"
-        },
-        "confirm": {
-            "delete": "Delete Level",
-            "delete_message": "Are you sure you want to delete \"%s\"? This action cannot be undone.",
-            "deactivate": "Deactivate Level",
-            "deactivate_message": "Are you sure you want to deactivate \"%s\"?"
-        },
-        "validation": {
-            "data_required": "Level data is required",
-            "name_required": "Level name is required",
-            "email_required": "Level email is required",
-            "email_invalid": "Level email format is invalid",
-            "id_required": "Level ID is required",
-            "request_required": "Request is required for levels",
-            "id_too_long": "Plan ID is too long",
-            "invalid_limit": "Invalid pagination limit",
-            "limit_too_large": "Pagination limit is too large"
-        },
-        "errors": {
-            "not_found": "Level with ID \"{entityId}\" not found",
-            "creation_failed": "Level creation failed",
-            "update_failed": "Level update failed",
-            "deletion_failed": "Level deletion failed",
-            "list_failed": "Failed to retrieve levels",
-            "authorization_failed": "Authorization failed for levels",
-            "get_item_page_data_failed": "Failed to load level details",
-            "get_list_page_data_failed": "Failed to load level list",
-            "permission_denied": "You do not have permission to perform this action",
-            "invalid_form_data": "Invalid form data. Please check your inputs and try again.",
-            "no_permission": "You do not have permission to perform this action"
-        },
-        "product_plan_form": {
-            "name": "Name",
-            "name_placeholder": "Defaults to the selected subject's name",
-            "product": "Subject",
-            "product_placeholder": "Select a subject...",
-            "select_product": "— Select a subject —",
-            "active": "Active",
-            "product_kind_label": "Subject Type",
-            "product_kind": {
-                "service": "Subject",
-                "stocked_good": "Stocked Good",
-                "non_stocked_good": "Non-Stocked Good",
-                "consumable": "Consumable"
-            },
-            "variant_select_label": "Variant",
-            "variant_select_placeholder": "Select a variant",
-            "variant_select_info": "Required when the parent subject has variants enabled."
-        }
+  "plan": {
+    "page": {
+      "heading": "Level",
+      "heading_active": "Active Levels",
+      "heading_inactive": "Inactive Levels",
+      "caption": "Manage your levels",
+      "caption_active": "View and manage active levels",
+      "caption_inactive": "View discontinued levels"
+    },
+    "buttons": {
+      "add_plan": "Add Level",
+      "add_product": "Add Subject",
+      "add_price_plan": "Add Level Fee",
+      "edit_price_plan": "Edit Level Fee"
+    },
+    "columns": {
+      "name": "Level Name",
+      "description": "Description",
+      "product": "Subject",
+      "price": "Price",
+      "status": "Status",
+      "item_type": "Subject Type",
+      "price_plan": "Level",
+      "price_schedule": "Academic Year"
+    },
+    "empty": {
+      "title": "No levels found",
+      "message": "Create your first level to get started.",
+      "active_title": "No active levels",
+      "active_message": "Create your first level to get started.",
+      "inactive_title": "No inactive levels",
+      "inactive_message": "Discontinued levels will appear here."
+    },
+    "form": {
+      "name": "Level Name",
+      "name_placeholder": "Enter level name",
+      "description": "Description",
+      "description_placeholder": "Enter level description...",
+      "active": "Active",
+      "products": "Subjects",
+      "products_placeholder": "Select subjects...",
+      "products_search": "Search subjects...",
+      "client_label": "Student",
+      "client_placeholder": "Leave blank for a general level",
+      "client_help": "Leave blank to make this level available for any student. Set a student to make it a bespoke level for that student only.",
+      "execution_strategy": "Delivery model",
+      "execution_strategy_template_driven": "Curriculum workflow",
+      "execution_strategy_manual_or_task_driven": "Task list workflow",
+      "execution_strategy_seat_or_assignment_driven": "Section assignment workflow",
+      "execution_strategy_hint": "Choose how student work is generated and tracked for this level.",
+      "job_template": "",
+      "job_template_none": "(none — guidance-only level, no course tracking)",
+      "job_template_hint": "Select the curriculum that defines the coursework delivered for this level. Leave empty for guidance-only levels.",
+      "visits_per_cycle_label": "Sessions per billing cycle",
+      "client_scope_cascade_notice": "If a student is selected, this level can only be assigned to a student-scoped fee schedule.",
+      "sections": {
+        "basic": "Basic Information",
+        "services": "Assigned Subjects"
+      }
+    },
+    "actions": {
+      "view": "View Level",
+      "edit": "Edit Level",
+      "delete": "Delete Level"
+    },
+    "detail": {
+      "page_title": "Level Details",
+      "price": "Price",
+      "currency": "Currency",
+      "status": "Status",
+      "description": "Description",
+      "created_date": "Created",
+      "modified_date": "Last Modified",
+      "heading": "Level Info",
+      "name": "Name",
+      "amount": "Amount",
+      "duration": "Duration",
+      "schedule_label": "Academic Year",
+      "date_created": "Date Created",
+      "date_modified": "Date Modified",
+      "edit": "Edit",
+      "edit_title": "Edit Level",
+      "no_products_assigned": "No subjects assigned",
+      "no_products_assigned_msg": "No subjects assigned to this level yet.",
+      "no_price_plans": "No level fees",
+      "no_price_plans_msg": "No level fees have been configured for this level yet."
+    },
+    "tabs": {
+      "info": "Information",
+      "products": "Subjects",
+      "products_slug": "subjects",
+      "price_plan": "Level Fees",
+      "price_plan_slug": "level-fees",
+      "bundle_pricing": "Pricing",
+      "audit_trail": "Audit Trail",
+      "audit_history": "History"
+    },
+    "confirm": {
+      "delete": "Delete Level",
+      "delete_message": "Are you sure you want to delete \"%s\"? This action cannot be undone.",
+      "deactivate": "Deactivate Level",
+      "deactivate_message": "Are you sure you want to deactivate \"%s\"?"
+    },
+    "validation": {
+      "data_required": "Level data is required",
+      "name_required": "Level name is required",
+      "email_required": "Level email is required",
+      "email_invalid": "Level email format is invalid",
+      "id_required": "Level ID is required",
+      "request_required": "Request is required for levels",
+      "id_too_long": "Plan ID is too long",
+      "invalid_limit": "Invalid pagination limit",
+      "limit_too_large": "Pagination limit is too large"
+    },
+    "errors": {
+      "not_found": "Level with ID \"{entityId}\" not found",
+      "creation_failed": "Level creation failed",
+      "update_failed": "Level update failed",
+      "deletion_failed": "Level deletion failed",
+      "list_failed": "Failed to retrieve levels",
+      "authorization_failed": "Authorization failed for levels",
+      "get_item_page_data_failed": "Failed to load level details",
+      "get_list_page_data_failed": "Failed to load level list",
+      "permission_denied": "You do not have permission to perform this action",
+      "invalid_form_data": "Invalid form data. Please check your inputs and try again.",
+      "no_permission": "You do not have permission to perform this action"
+    },
+    "product_plan_form": {
+      "name": "Name",
+      "name_placeholder": "Defaults to the selected subject's name",
+      "product": "Subject",
+      "product_placeholder": "Select a subject...",
+      "select_product": "— Select a subject —",
+      "active": "Active",
+      "product_kind_label": "Subject Type",
+      "product_kind": {
+        "service": "Subject",
+        "stocked_good": "Stocked Good",
+        "non_stocked_good": "Non-Stocked Good",
+        "consumable": "Consumable"
+      },
+      "variant_select_label": "Variant",
+      "variant_select_placeholder": "Select a variant",
+      "variant_select_info": "Required when the parent subject has variants enabled."
+    },
+    "composition": {
+      "page": {
+        "heading": "Course Composition",
+        "caption": "Ordered courses that this level delivers",
+        "heading_active": "Active Course Composition",
+        "heading_inactive": "Inactive Course Composition"
+      },
+      "buttons": {
+        "add_entry": "Add Course"
+      },
+      "columns": {
+        "job_template_id": "Course"
+      },
+      "form": {
+        "job_template_id": "Course"
+      },
+      "empty": {
+        "title": "No courses in this level",
+        "message": "Add an operational course to this level."
+      },
+      "patterns": {
+        "bundle_entry": "Bundle entry",
+        "standalone_entry": "Standalone entry"
+      }
     }
+  }
 }

@@ -99,7 +99,7 @@ translations.LoadFile("en", "common/common.json", &commonLabels)
 
 ```
 module: leapfor.xyz/lyngua
-go: 1.25.1
+go: 1.27.0
 ```
 
 Referenced in `go.work`:
