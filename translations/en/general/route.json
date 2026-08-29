@@ -57,7 +57,12 @@
   "location_area": {},
   "outcome_criteria": {},
   "outcome_matrix": {},
-  "outcome_summary": {},
+  "outcome_summary": {
+    "section_template_settings_url": "/outcomes/summaries/section-templates",
+    "section_template_upload_url": "/action/outcomes/summaries/section-templates/upload",
+    "section_template_publish_url": "/action/outcomes/summaries/section-templates/publish",
+    "section_template_delete_url": "/action/outcomes/summaries/section-templates/delete"
+  },
   "permission": {},
   "plan_bundle": {},
   "price_list": {},
@@ -124,5 +129,18 @@
   "template_task_criteria": {},
   "job_template_relation": {},
   "staff": {},
-  "plan_job_template": {}
+  "plan_job_template": {},
+  "asset": {},
+  "client": {},
+  "client_tag": {},
+  "expenditure": {},
+  "inventory": {},
+  "location": {},
+  "plan": {},
+  "price_schedule": {},
+  "product": {},
+  "revenue": {},
+  "subscription": {},
+  "supplier": {},
+  "treasury_collection": {}
 }
