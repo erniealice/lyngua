@@ -1,0 +1,34 @@
+{
+  "operation": {
+    "job_template": {
+      "singular": "Maintenance SOP",
+      "plural": "Maintenance SOPs",
+      "list_title": "Maintenance SOPs",
+      "create_title": "Create Maintenance SOP",
+      "edit_title": "Edit Maintenance SOP",
+      "detail_title": "Maintenance SOP Detail"
+    },
+    "job": {
+      "singular": "Work Order",
+      "plural": "Work Orders",
+      "list_title": "Work Orders",
+      "create_title": "Create Work Order",
+      "edit_title": "Edit Work Order",
+      "detail_title": "Work Order Detail",
+      "fields": {
+        "name": "Work Order Name",
+        "client_id": "Tenant",
+        "location_id": "Property / Space"
+      }
+    },
+    "enums": {
+      "origin_type": {
+        "SUBSCRIPTION": "Lease Agreement"
+      }
+    },
+    "sidebar": {
+      "jobs": "Work Orders",
+      "job_templates": "Maintenance SOPs"
+    }
+  }
+}

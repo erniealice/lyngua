@@ -1,0 +1,23 @@
+{
+  "location_lifecycle": {
+    "label": "Property & Space Lifecycle",
+    "help": "Operational lifecycle of a property, building, or physical space. Occupancy, booking availability, and record activation are separate.",
+    "states": {
+      "planned": {
+        "help": "The property, building, or physical space is being prepared and has not started operating."
+      },
+      "operational": {
+        "help": "The property, building, or physical space is operating. This does not indicate vacant space or booking availability."
+      },
+      "under_maintenance": {
+        "help": "The property, building, or physical space is undergoing maintenance; operating restrictions are managed separately."
+      },
+      "temporarily_closed": {
+        "help": "Operations at the property, building, or physical space are paused with an intention to reopen."
+      },
+      "closed": {
+        "help": "Operations have ended at the property, building, or physical space."
+      }
+    }
+  }
+}

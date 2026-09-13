@@ -1,0 +1,13 @@
+{
+  "location_area": {
+    "validation": {
+      "data_required": "Service region data is required",
+      "name_required": "Service region name is required",
+      "id_required": "Service Region ID is required"
+    },
+    "errors": {
+      "not_found": "Service region with ID \"{entityId}\" not found",
+      "list_failed": "Failed to retrieve service regions"
+    }
+  }
+}

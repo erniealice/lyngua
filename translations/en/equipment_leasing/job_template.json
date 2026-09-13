@@ -1,0 +1,28 @@
+{
+  "job_template": {
+    "page": {
+      "heading": "Service SOPs",
+      "heading_active": "Active Service SOPs",
+      "heading_inactive": "Inactive Service SOPs",
+      "caption": "Manage reusable deployment, maintenance, repair, and return procedures"
+    },
+    "buttons": {
+      "add_job_template": "Add Service SOP"
+    },
+    "form": {
+      "name": "SOP Name",
+      "name_placeholder": "Enter Service SOP name",
+      "output_product": "Asset Class",
+      "output_product_info": "Optional asset class this SOP's engagements service.",
+      "initial_status": "Initial Engagement Status"
+    },
+    "actions": {
+      "view": "View Service SOP",
+      "edit": "Edit Service SOP",
+      "delete": "Delete Service SOP"
+    },
+    "detail": {
+      "page_title": "Service SOP Details"
+    }
+  }
+}

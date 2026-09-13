@@ -1,0 +1,15 @@
+{
+  "client": {
+    "tag_form": {
+      "tag_name_info": "Label used to categorize and filter tenants (e.g. VIP, Prospect, Wholesale).",
+      "active_info": "Inactive tags are hidden from new tenant assignments but remain on record."
+    }
+  },
+  "page": {
+    "heading": "Tenant Tags",
+    "subtitle": "Manage tags for organizing tenants"
+  },
+  "empty": {
+    "message": "Create your first tag to start organizing tenants."
+  }
+}

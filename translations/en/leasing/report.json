@@ -1,0 +1,18 @@
+{
+  "revenue": {
+    "customer": "Tenant"
+  },
+  "revenue_report": {
+    "dimension_client": "Tenant",
+    "dimension_client_category": "Tenant Category"
+  },
+  "receivables_aging": {
+    "page_description": "Outstanding invoice aging analysis by tenant, location, and category",
+    "dimension_client": "Tenant",
+    "dimension_client_category": "Tenant Category"
+  },
+  "collection_summary": {
+    "dimension_client": "Tenant",
+    "dimension_client_category": "Tenant Category"
+  }
+}

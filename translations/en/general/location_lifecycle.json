@@ -1,0 +1,28 @@
+{
+  "location_lifecycle": {
+    "label": "Location Lifecycle",
+    "help": "Operational lifecycle of a physical location. Occupancy, booking availability, and record activation are separate.",
+    "states": {
+      "planned": {
+        "label": "Planned",
+        "help": "The location is being prepared and has not started operating."
+      },
+      "operational": {
+        "label": "Operational",
+        "help": "The location is operating. This does not indicate vacant space or booking availability."
+      },
+      "under_maintenance": {
+        "label": "Under Maintenance",
+        "help": "The location is undergoing maintenance; operating restrictions are managed separately."
+      },
+      "temporarily_closed": {
+        "label": "Temporarily Closed",
+        "help": "Operations are paused with an intention to reopen."
+      },
+      "closed": {
+        "label": "Closed",
+        "help": "Operations have ended at this location."
+      }
+    }
+  }
+}

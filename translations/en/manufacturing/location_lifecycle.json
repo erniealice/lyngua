@@ -1,0 +1,23 @@
+{
+  "location_lifecycle": {
+    "label": "Facility Lifecycle",
+    "help": "Operational lifecycle of a plant, work center, warehouse, or QC lab. Occupancy, booking availability, and record activation are separate.",
+    "states": {
+      "planned": {
+        "help": "The plant, work center, warehouse, or QC lab is being prepared and has not started operating."
+      },
+      "operational": {
+        "help": "The plant, work center, warehouse, or QC lab is operating. This does not indicate vacant space or booking availability."
+      },
+      "under_maintenance": {
+        "help": "The plant, work center, warehouse, or QC lab is undergoing maintenance; operating restrictions are managed separately."
+      },
+      "temporarily_closed": {
+        "help": "Operations at the plant, work center, warehouse, or QC lab are paused with an intention to reopen."
+      },
+      "closed": {
+        "help": "Operations have ended at the plant, work center, warehouse, or QC lab."
+      }
+    }
+  }
+}

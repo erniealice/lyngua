@@ -1,0 +1,19 @@
+{
+  "location_area": {
+    "validation": {
+      "data_required": "Property or building data is required",
+      "name_required": "Property or building name is required",
+      "id_required": "Property or Building ID is required",
+      "request_required": "Request is required for properties and buildings"
+    },
+    "errors": {
+      "not_found": "Property or building with ID \"{entityId}\" not found",
+      "creation_failed": "Property or building creation failed",
+      "update_failed": "Property or building update failed",
+      "deletion_failed": "Property or building deletion failed",
+      "list_failed": "Failed to retrieve properties and buildings",
+      "authorization_failed": "Authorization failed for properties and buildings",
+      "cannot_delete_in_use": "Cannot delete — this property or building contains one or more spaces."
+    }
+  }
+}

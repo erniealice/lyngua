@@ -1,0 +1,24 @@
+{
+  "invoice": {
+    "validation": {
+      "data_required": "Rent invoice data is required",
+      "name_required": "Rent invoice name is required",
+      "email_required": "Rent invoice email is required",
+      "email_invalid": "Rent invoice email format is invalid",
+      "id_required": "Rent Invoice ID is required",
+      "request_required": "Request is required for rent invoices",
+      "id_format": "Invalid rent invoice ID format",
+      "id_too_long": "Rent Invoice ID is too long"
+    },
+    "errors": {
+      "not_found": "Rent invoice with ID \"{entityId}\" not found",
+      "creation_failed": "Rent invoice creation failed",
+      "update_failed": "Rent invoice update failed",
+      "deletion_failed": "Rent invoice deletion failed",
+      "list_failed": "Failed to retrieve rent invoices",
+      "authorization_failed": "Authorization failed for rent invoices",
+      "get_item_page_data_failed": "Failed to load rent invoice details",
+      "get_list_page_data_failed": "Failed to load rent invoice list"
+    }
+  }
+}

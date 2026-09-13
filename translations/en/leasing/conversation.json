@@ -1,0 +1,34 @@
+{
+  "conversation": {
+    "list": {
+      "title": "Maintenance Tickets",
+      "empty": "No maintenance tickets yet.",
+      "search_placeholder": "Search maintenance tickets..."
+    },
+    "inbox": {
+      "title": "Maintenance Tickets",
+      "subtitle": "Triage and reply to tenant maintenance messages."
+    },
+    "thread": {
+      "view_request": "View maintenance request →",
+      "linked_request": "Linked maintenance request",
+      "no_linked_request": "No linked maintenance request"
+    },
+    "actions": {
+      "new_conversation": "New maintenance ticket"
+    },
+    "form": {
+      "subject_placeholder": "What property or maintenance issue is this about?",
+      "link_label": "Linked maintenance request (optional)"
+    },
+    "confirm": {
+      "close": "Close this maintenance ticket? Staff can still reopen it.",
+      "archive": "Archive this maintenance ticket? This cannot be undone.",
+      "assign": "Assign maintenance ticket to %s?"
+    },
+    "errors": {
+      "not_found": "Maintenance ticket not found.",
+      "forbidden": "You do not have access to this maintenance ticket."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "subscription_group_member": {
+    "columns": {
+      "client_id": "Lessee"
+    },
+    "form": {
+      "client": "Lessee",
+      "client_info": "The lessee (account) associated with this member.",
+      "client_placeholder": "Enter lessee ID"
+    },
+    "detail": {
+      "no_client": "No lessee"
+    }
+  }
+}

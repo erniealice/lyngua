@@ -1,0 +1,23 @@
+{
+  "location_lifecycle": {
+    "label": "Facility Lifecycle",
+    "help": "Operational lifecycle of a processing plant or drop-off point. Occupancy, booking availability, and record activation are separate.",
+    "states": {
+      "planned": {
+        "help": "The processing plant or drop-off point is being prepared and has not started operating."
+      },
+      "operational": {
+        "help": "The processing plant or drop-off point is operating. This does not indicate vacant space or booking availability."
+      },
+      "under_maintenance": {
+        "help": "The processing plant or drop-off point is undergoing maintenance; operating restrictions are managed separately."
+      },
+      "temporarily_closed": {
+        "help": "Operations at the processing plant or drop-off point are paused with an intention to reopen."
+      },
+      "closed": {
+        "help": "Operations have ended at the processing plant or drop-off point."
+      }
+    }
+  }
+}

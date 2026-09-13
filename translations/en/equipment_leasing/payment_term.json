@@ -1,0 +1,12 @@
+{
+  "payment_term": {
+    "page": {
+      "subtitle": "Manage payment terms for lessees and suppliers"
+    },
+    "form": {
+      "scopes_both": "Lessees & Suppliers",
+      "scopes_client_only": "Lessees Only",
+      "is_default_info": "When checked, this term is the default for its entity scope (lessee, supplier, or both)."
+    }
+  }
+}

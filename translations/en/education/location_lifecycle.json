@@ -1,0 +1,23 @@
+{
+  "location_lifecycle": {
+    "label": "Campus & Room Lifecycle",
+    "help": "Operational lifecycle of a campus, building, or classroom. Occupancy, booking availability, and record activation are separate.",
+    "states": {
+      "planned": {
+        "help": "The campus, building, or classroom is being prepared and has not started operating."
+      },
+      "operational": {
+        "help": "The campus, building, or classroom is operating. This does not indicate vacant space or booking availability."
+      },
+      "under_maintenance": {
+        "help": "The campus, building, or classroom is undergoing maintenance; operating restrictions are managed separately."
+      },
+      "temporarily_closed": {
+        "help": "Operations at the campus, building, or classroom are paused with an intention to reopen."
+      },
+      "closed": {
+        "help": "Operations have ended at the campus, building, or classroom."
+      }
+    }
+  }
+}

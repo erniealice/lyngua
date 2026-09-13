@@ -1,0 +1,13 @@
+{
+  "inventory_serial": {
+    "title": "Equipment Serial Numbers",
+    "serial_number": "Equipment Serial Number",
+    "assign": "Add Equipment Serial",
+    "edit": "Edit Equipment Serial",
+    "remove": "Remove Equipment Serial",
+    "empty": "No equipment serial numbers recorded",
+    "errors": {
+      "not_found": "Equipment serial number not found"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "job_activity": {
+    "page": {
+      "heading": "Maintenance Activity",
+      "caption": "Cross-property maintenance time and activity log"
+    },
+    "buttons": {
+      "add_activity": "Add Maintenance Activity"
+    },
+    "columns": {
+      "job": "Work Order"
+    },
+    "form": {
+      "job": "Work Order",
+      "product": "Maintenance Item",
+      "billable_status_info": "Whether this maintenance activity is charged to the tenant.",
+      "add_cta": "+ Add Maintenance Activity"
+    },
+    "actions": {
+      "view": "View Maintenance Activity",
+      "edit": "Edit Maintenance Activity",
+      "delete": "Delete Maintenance Activity"
+    },
+    "detail": {
+      "page_title": "Maintenance Activity Details",
+      "job": "Work Order",
+      "product": "Maintenance Item",
+      "location": "Property / Space"
+    },
+    "errors": {
+      "not_found": "Maintenance activity not found",
+      "id_required": "Maintenance Activity ID is required",
+      "in_use": "Cannot delete: this maintenance activity is in use"
+    }
+  }
+}

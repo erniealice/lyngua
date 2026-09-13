@@ -1,0 +1,127 @@
+{
+  "client": {
+    "page": {
+      "heading": "Tenants",
+      "caption": "View and manage commercial and residential tenants",
+      "heading_active": "Active Tenants",
+      "caption_active": "Manage your current tenant relationships",
+      "heading_prospect": "Prospective Tenants",
+      "caption_prospect": "Track prospective commercial and residential tenants",
+      "heading_on_hold": "On Hold Tenants",
+      "caption_on_hold": "Tenants temporarily paused — rent billing or service is suspended",
+      "heading_blocked": "Blocked Tenants",
+      "caption_blocked": "Tenants blocked from new lease transactions",
+      "heading_inactive": "Former Tenants",
+      "caption_inactive": "View former tenants and archived accounts"
+    },
+    "empty": {
+      "active_title": "No active tenants",
+      "active_message": "Add your first tenant to get started",
+      "prospect_title": "No prospective tenants",
+      "prospect_message": "Prospective tenants will appear here",
+      "on_hold_title": "No tenants on hold",
+      "on_hold_message": "Tenants you put on hold will appear here",
+      "blocked_title": "No blocked tenants",
+      "blocked_message": "Tenants you block will appear here",
+      "inactive_title": "No former tenants",
+      "inactive_message": "Former tenants will appear here"
+    },
+    "detail": {
+      "actions": {
+        "view_client": "View tenant",
+        "edit_client": "Edit tenant",
+        "delete_client": "Delete tenant"
+      },
+      "tabs": {
+        "info": "Tenant",
+        "representative": "Tenant Representative",
+        "subscriptions": "Agreements",
+        "accounting": "Accounting",
+        "history": "History",
+        "statement": "Statement of Account",
+        "price_schedules": "Rate Cards",
+        "price_schedules_slug": "rate-cards",
+        "attachments": "Attachments",
+        "audit_history": "History",
+        "tax_registrations": "Tax Registrations"
+      },
+      "add_subscription": "Add Agreement",
+      "empty_subscriptions_title": "No agreements",
+      "empty_subscriptions": "No agreements to display.",
+      "price_schedules": {
+        "empty": "No tenant-scoped rate cards yet — every lease uses a general schedule.",
+        "add_action": "Add rate card",
+        "column_plan_count": "Rental Plans"
+      },
+      "subscriptions": {
+        "column_plan": "Rental Plan",
+        "column_start_date": "Commencement Date",
+        "column_end_date": "Expiry Date",
+        "confirm_delete_title": "Delete Lease Agreement"
+      },
+      "empty_statement_title": "No Statement of Account Entries",
+      "empty_statement_message": "There are no transactions for this tenant.",
+      "outstanding_table": {
+        "empty": {
+          "title": "No outstanding rent invoices",
+          "message": "All rent revenue for this tenant is fully paid."
+        },
+        "run_invoices_label": "Run Rent Invoices"
+      },
+      "revenue_run": {
+        "title": "Run Rent Invoices",
+        "subtitle_template": "{eligible} period(s) ready across {subscriptions} lease agreement(s)",
+        "column_subscription": "Lease Agreement",
+        "group_no_pending": "No pending rent periods for this lease at the chosen date.",
+        "empty_title": "No rent invoice periods are ready",
+        "empty_message": "All eligible leases are caught up at the chosen date.",
+        "generate_button_count_one": "Generate {count} Rent Invoice",
+        "generate_button_count_many": "Generate {count} Rent Invoices",
+        "intro_message": "Generate rent invoices for the eligible billing periods of this tenant's leases. Each selected period produces a separate invoice.",
+        "errors": {
+          "id_required": "Tenant ID is required.",
+          "use_case_unavailable": "Rent invoice run is not available in this workspace configuration."
+        }
+      }
+    },
+    "columns": {
+      "active_subscriptions": "Active Leases",
+      "client_name": "Tenant Name",
+      "payment_term": "Rent Payment Terms"
+    },
+    "dashboard": {
+      "total_clients": "Total Tenants",
+      "client_growth": "Tenant Growth",
+      "quick_new": "New Tenant",
+      "quick_view_all": "View All Tenants",
+      "client_added": "New Tenant Added",
+      "client_activated": "Tenant Activated"
+    },
+    "form": {
+      "name_info": "The company, household, or person named as the tenant.",
+      "email_info": "Primary email address for rent invoices and lease notices.",
+      "mobile_info": "Primary contact number for the tenant representative.",
+      "notes_info": "Internal remarks — shown on detail pages but not on tenant-facing documents.",
+      "payment_terms_info": "Default rent payment terms applied to new invoices for this tenant.",
+      "tags_info": "Categories used for filtering and grouping tenants in reports.",
+      "active_info": "Inactive tenants are hidden from new lease transactions but remain on record.",
+      "billing_currency_info": "ISO 4217 currency the tenant is billed in. Defaults to workspace functional currency when blank.",
+      "tax_id_info": "Tax Identification Number registered to this tenant.",
+      "credit_limit_info": "Maximum outstanding rent and charge balance allowed for this tenant.",
+      "lead_time_days_info": "Default number of days required before tenant move-in or space handover.",
+      "country_code_info": "ISO 3166-1 alpha-2 country code for this tenant. Used for tax jurisdiction lookups.",
+      "name": "Tenant Name",
+      "name_placeholder": "Enter tenant name",
+      "company_details": "Tenant Details",
+      "notes_placeholder": "Internal notes about this tenant...",
+      "payment_terms": "Rent Payment Terms",
+      "select_payment_term": "Select rent payment terms"
+    },
+    "validation": {
+      "attributes_unavailable": "Tenant attributes could not be validated right now. Please try again."
+    },
+    "buttons": {
+      "add_new": "Add Tenant"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "member": {
+    "client_delegate": {
+      "home": {
+        "subheading": "You are acting on behalf of a lessee. Choose a section to continue."
+      },
+      "select": {
+        "page_title": "Choose a lessee",
+        "heading": "Choose a lessee",
+        "subheading": "You represent multiple lessees. Pick the one you want to act as right now — you can switch later.",
+        "empty_state": "No lessee accounts found. Contact your administrator."
+      }
+    },
+    "page": {
+      "billing": {
+        "coming_soon_delegate": "Acting-as lessee billing context — coming soon."
+      }
+    }
+  }
+}

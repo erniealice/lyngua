@@ -1,0 +1,13 @@
+{
+  "invoice": {
+    "validation": {
+      "data_required": "Lease invoice data is required",
+      "id_required": "Lease Invoice ID is required",
+      "request_required": "Request is required for lease invoices"
+    },
+    "errors": {
+      "not_found": "Lease invoice with ID \"{entityId}\" not found",
+      "list_failed": "Failed to retrieve lease invoices"
+    }
+  }
+}

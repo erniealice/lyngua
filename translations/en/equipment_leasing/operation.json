@@ -1,0 +1,34 @@
+{
+  "operation": {
+    "job_template": {
+      "singular": "Service SOP",
+      "plural": "Service SOPs",
+      "list_title": "Service SOPs",
+      "create_title": "Create Service SOP",
+      "edit_title": "Edit Service SOP",
+      "detail_title": "Service SOP Detail"
+    },
+    "job": {
+      "singular": "Service Engagement",
+      "plural": "Service Engagements",
+      "list_title": "Service Engagements",
+      "create_title": "Create Service Engagement",
+      "edit_title": "Edit Service Engagement",
+      "detail_title": "Service Engagement Detail",
+      "fields": {
+        "name": "Engagement Name",
+        "client_id": "Lessee",
+        "location_id": "Yard / Depot / Site"
+      }
+    },
+    "enums": {
+      "origin_type": {
+        "SUBSCRIPTION": "Lease Contract"
+      }
+    },
+    "sidebar": {
+      "jobs": "Service Engagements",
+      "job_templates": "Service SOPs"
+    }
+  }
+}

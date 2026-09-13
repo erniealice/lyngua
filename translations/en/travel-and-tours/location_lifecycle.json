@@ -1,0 +1,23 @@
+{
+  "location_lifecycle": {
+    "label": "Operating Location Lifecycle",
+    "help": "Operational lifecycle of a port, hotel, pickup point, or other operating location. Occupancy, booking availability, and record activation are separate.",
+    "states": {
+      "planned": {
+        "help": "The port, hotel, pickup point, or other operating location is being prepared and has not started operating."
+      },
+      "operational": {
+        "help": "The port, hotel, pickup point, or other operating location is operating. This does not indicate vacant space or booking availability."
+      },
+      "under_maintenance": {
+        "help": "The port, hotel, pickup point, or other operating location is undergoing maintenance; operating restrictions are managed separately."
+      },
+      "temporarily_closed": {
+        "help": "Operations at the port, hotel, pickup point, or other operating location are paused with an intention to reopen."
+      },
+      "closed": {
+        "help": "Operations have ended at the port, hotel, pickup point, or other operating location."
+      }
+    }
+  }
+}

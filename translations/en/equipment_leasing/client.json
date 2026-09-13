@@ -1,0 +1,87 @@
+{
+  "client": {
+    "page": {
+      "heading": "Lessees",
+      "caption": "View and manage your lessee portfolio",
+      "heading_active": "Active Lessees",
+      "heading_prospect": "Prospective Lessees",
+      "heading_on_hold": "On Hold Lessees",
+      "heading_blocked": "Blocked Lessees",
+      "heading_inactive": "Inactive Lessees",
+      "caption_active": "Manage your current lessee relationships",
+      "caption_prospect": "Track potential lessees in your sales pipeline",
+      "caption_on_hold": "Lessees temporarily paused — billing or service is suspended",
+      "caption_blocked": "Lessees flagged from new transactions",
+      "caption_inactive": "View former lessees and archived accounts"
+    },
+    "detail": {
+      "actions": {
+        "view_client": "View lessee",
+        "edit_client": "Edit lessee",
+        "delete_client": "Delete lessee"
+      },
+      "tabs": {
+        "price_schedules": "Lease-Rate Windows"
+      },
+      "subscriptions": {
+        "column_plan": "Lease Program",
+        "column_start_date": "Commencement Date",
+        "column_end_date": "Expiry Date",
+        "confirm_delete_title": "Delete Lease Contract"
+      },
+      "empty_statement_message": "There are no transactions for this lessee.",
+      "revenue_run": {
+        "column_subscription": "Lease Contract",
+        "errors": {
+          "id_required": "Lessee ID is required."
+        },
+        "intro_message": "Generate invoices for the eligible billing periods of this lessee's engagements. Each selected period produces a separate invoice."
+      },
+      "price_schedules": {
+        "empty": "No lessee-scoped price schedules yet — every engagement uses a general schedule."
+      },
+      "outstanding_table": {
+        "empty": {
+          "message": "All revenue for this lessee is fully paid."
+        }
+      }
+    },
+    "columns": {
+      "active_subscriptions": "Active Lease Contracts"
+    },
+    "dashboard": {
+      "total_clients": "Total Lessees",
+      "client_growth": "Lessee Growth",
+      "quick_new": "New Lessee",
+      "quick_view_all": "View All Lessees",
+      "client_added": "New Lessee Added",
+      "client_activated": "Lessee Activated"
+    },
+    "empty": {
+      "active_title": "No active lessees",
+      "active_message": "Add your first lessee to get started",
+      "prospect_message": "Potential lessees will appear here",
+      "on_hold_title": "No lessees on hold",
+      "on_hold_message": "Lessees you put on hold will appear here",
+      "blocked_title": "No blocked lessees",
+      "blocked_message": "Lessees you block will appear here",
+      "inactive_title": "No inactive lessees",
+      "inactive_message": "Inactive lessees will appear here"
+    },
+    "form": {
+      "name_info": "The company or organisation name for this lessee.",
+      "mobile_info": "Primary contact number for the lessee representative.",
+      "payment_terms_info": "Default payment terms applied to new invoices for this lessee.",
+      "tags_info": "Categories used for filtering and grouping lessees in reports.",
+      "active_info": "Inactive lessees are hidden from new transactions but remain on record.",
+      "billing_currency_info": "ISO 4217 currency the lessee is billed in. Defaults to workspace functional currency when blank.",
+      "tax_id_info": "Tax Identification Number (TIN, VAT, EIN) registered to this lessee.",
+      "credit_limit_info": "Maximum outstanding receivable balance allowed for this lessee at any time.",
+      "lead_time_days_info": "Default number of days between order placement and delivery for this lessee.",
+      "country_code_info": "ISO 3166-1 alpha-2 country code for this lessee. Used for cross-border tax jurisdiction lookups (e.g. PH, US, GB)."
+    },
+    "validation": {
+      "attributes_unavailable": "Lessee attributes could not be validated right now. Please try again."
+    }
+  }
+}

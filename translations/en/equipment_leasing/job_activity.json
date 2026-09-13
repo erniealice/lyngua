@@ -1,0 +1,21 @@
+{
+  "job_activity": {
+    "page": {
+      "heading": "Service Activity",
+      "caption": "Cross-engagement service time and activity log"
+    },
+    "columns": {
+      "job": "Service Engagement"
+    },
+    "form": {
+      "job": "Service Engagement",
+      "product": "Asset Class",
+      "billable_status_info": "Whether this activity is charged to the lessee."
+    },
+    "detail": {
+      "job": "Service Engagement",
+      "product": "Asset Class",
+      "location": "Yard / Depot / Site"
+    }
+  }
+}

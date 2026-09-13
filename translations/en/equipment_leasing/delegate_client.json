@@ -1,0 +1,18 @@
+{
+  "delegate_client": {
+    "validation": {
+      "data_required": "Delegate-Lessee relationship data is required",
+      "client_id_required": "Lessee ID is required",
+      "id_required": "Delegate-Lessee relationship ID is required",
+      "request_required": "Request is required for Delegate-Lessee relationships"
+    },
+    "errors": {
+      "not_found": "Delegate-Lessee relationship with ID \"{delegateClientId}\" not found",
+      "creation_failed": "Delegate-Lessee relationship creation failed",
+      "update_failed": "Delegate-Lessee relationship update failed",
+      "deletion_failed": "Delegate-Lessee relationship deletion failed",
+      "list_failed": "Failed to retrieve Delegate-Lessee relationships",
+      "authorization_failed": "Authorization failed for Delegate-Lessee relationships"
+    }
+  }
+}

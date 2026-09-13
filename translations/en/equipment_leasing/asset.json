@@ -1,0 +1,37 @@
+{
+  "page": {
+    "heading": "Fleet Assets",
+    "heading_active": "Active Fleet Assets",
+    "heading_inactive": "Inactive Fleet Assets",
+    "caption": "Manage the lessor's serialized fleet assets"
+  },
+  "dashboard": {
+    "title": "Fleet Assets Dashboard",
+    "subtitle": "Overview of the leased-fleet asset register",
+    "total_assets": "Total Fleet Assets",
+    "quick_new_asset": "New Fleet Asset",
+    "quick_view_all": "View All Fleet Assets"
+  },
+  "columns": {
+    "asset_number": "Asset Tag / VIN",
+    "category": "Asset Class",
+    "location": "Yard / Depot / Site"
+  },
+  "buttons": {
+    "add_asset": "Add Fleet Asset"
+  },
+  "form": {
+    "name": "Fleet Asset Name",
+    "name_placeholder": "e.g., Excavator PC210",
+    "asset_number": "Asset Tag / VIN",
+    "category": "Asset Class",
+    "location": "Yard / Depot / Site",
+    "model": "Specific Model"
+  },
+  "detail": {
+    "heading": "Fleet Asset Details"
+  },
+  "errors": {
+    "not_found": "Fleet asset not found"
+  }
+}

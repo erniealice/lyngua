@@ -1,0 +1,7 @@
+{
+  "inventory_transaction": {
+    "title": "Asset Movement History",
+    "record": "Record Asset Movement",
+    "empty": "No asset movements recorded"
+  }
+}

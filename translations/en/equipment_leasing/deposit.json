@@ -1,0 +1,13 @@
+{
+  "page": {
+    "caption": "Track security deposits received from lessees"
+  },
+  "empty": {
+    "message": "Record security deposits received from lessees and refundable deposit movements."
+  },
+  "form": {
+    "counterparty": "Lessee",
+    "counterparty_placeholder": "Lessee name",
+    "direction_received": "Received (Lessee security deposit)"
+  }
+}

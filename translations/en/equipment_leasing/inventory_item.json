@@ -1,0 +1,25 @@
+{
+  "inventory_item": {
+    "dashboard": {
+      "items_by_location": "Fleet Items by Site",
+      "recent_movements": "Recent Asset Movements",
+      "serial_unit_status": "Fleet Unit Status",
+      "title": "Fleet Inventory Dashboard"
+    },
+    "labels": {
+      "location": "Yard / Depot / Site",
+      "name": "Fleet Inventory Item",
+      "product": "Asset Class",
+      "product_variant": "Specific Model",
+      "quantity_available": "Available Units"
+    },
+    "page": {
+      "subtitle": "Manage fleet inventory by yard, depot, and customer site",
+      "title": "Fleet Inventory"
+    },
+    "tabs": {
+      "serials": "Asset Tags / VINs",
+      "transactions": "Asset Movements"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "location_lifecycle": {
+    "label": "Site Lifecycle",
+    "help": "Operational lifecycle of a site, yard, or office. Occupancy, booking availability, and record activation are separate.",
+    "states": {
+      "planned": {
+        "help": "The site, yard, or office is being prepared and has not started operating."
+      },
+      "operational": {
+        "help": "The site, yard, or office is operating. This does not indicate vacant space or booking availability."
+      },
+      "under_maintenance": {
+        "help": "The site, yard, or office is undergoing maintenance; operating restrictions are managed separately."
+      },
+      "temporarily_closed": {
+        "help": "Operations at the site, yard, or office are paused with an intention to reopen."
+      },
+      "closed": {
+        "help": "Operations have ended at the site, yard, or office."
+      }
+    }
+  }
+}

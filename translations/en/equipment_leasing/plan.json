@@ -1,0 +1,43 @@
+{
+  "plan": {
+    "page": {
+      "heading": "Lease Programs",
+      "heading_active": "Active Lease Programs",
+      "heading_inactive": "Inactive Lease Programs",
+      "caption": "Manage equipment lease programs"
+    },
+    "buttons": {
+      "add_plan": "Add Lease Program"
+    },
+    "columns": {
+      "price_schedule": "Lease-Rate Window"
+    },
+    "form": {
+      "name": "Lease Program Name",
+      "products": "Asset Classes",
+      "products_placeholder": "Select asset classes...",
+      "job_template": "Service SOP",
+      "job_template_none": "(none — lease contract has no operational tracking)",
+      "client_scope_cascade_notice": "If a lessee is selected, this plan can only be assigned to a lessee-scoped price schedule."
+    },
+    "actions": {
+      "view": "View Lease Program",
+      "edit": "Edit Lease Program",
+      "delete": "Delete Lease Program"
+    },
+    "tabs": {
+      "products": "Asset Classes",
+      "price_plan": "Lease Pricing Tiers"
+    },
+    "fields": {
+      "client_label": "Lessee",
+      "client_help": "Leave blank to make this package available for any lessee. Set a lessee to make it a custom package for that lessee only."
+    },
+    "filters": {
+      "scope_client": "Lessee-specific"
+    },
+    "errors": {
+      "client_scope_locked": "Cannot change this plan's lessee while it has active subscriptions."
+    }
+  }
+}

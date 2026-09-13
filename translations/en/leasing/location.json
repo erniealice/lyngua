@@ -1,0 +1,42 @@
+{
+  "form": {
+    "name_info": "Display name for this commercial or residential unit, suite, space, or common area.",
+    "address_info": "Physical address for this property or space.",
+    "description_info": "Optional internal notes about this space.",
+    "timezone_info": "Timezone used for lease dates, inspections, and maintenance events at this space.",
+    "area_info": "Assign this space to its building or property.",
+    "active_info": "Inactive spaces are hidden from new lease assignments but remain on record."
+  },
+  "dashboard": {
+    "total_locations": "Total Spaces & Units",
+    "regions": "Properties",
+    "areas_count": "Buildings / Properties",
+    "locations_by_region": "Spaces by Property",
+    "top_locations_by_area": "Properties by Space Count",
+    "quick_new_location": "New Space / Unit",
+    "quick_new_area": "New Property / Building",
+    "column_location": "Space / Unit",
+    "column_areas": "Property / Building",
+    "location_added": "Space / Unit Added"
+  },
+  "location": {
+    "validation": {
+      "data_required": "Space or unit data is required",
+      "name_required": "Space or unit name is required",
+      "address_required": "Property address is required",
+      "id_required": "Space or Unit ID is required",
+      "request_required": "Request is required for spaces and units",
+      "location_id_required": "Space or Unit ID is required"
+    },
+    "errors": {
+      "not_found": "Space or unit with ID \"{locationId}\" not found",
+      "creation_failed": "Space or unit creation failed",
+      "update_failed": "Space or unit update failed",
+      "deletion_failed": "Space or unit deletion failed",
+      "list_failed": "Failed to retrieve spaces and units",
+      "authorization_failed": "Authorization failed for spaces and units",
+      "get_list_page_data_failed": "Failed to load space and unit list",
+      "get_item_page_data_failed": "Failed to load space or unit details"
+    }
+  }
+}

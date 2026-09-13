@@ -1,0 +1,64 @@
+{
+  "page": {
+    "heading": "Property Assets",
+    "heading_active": "Active Property Assets",
+    "heading_inactive": "Inactive Property Assets",
+    "caption": "Manage buildings, property improvements, and maintained equipment",
+    "caption_active": "Property assets currently in service",
+    "caption_inactive": "Deactivated or retired property assets"
+  },
+  "dashboard": {
+    "title": "Property Assets Dashboard",
+    "subtitle": "Overview of the property asset register",
+    "total_assets": "Total Property Assets",
+    "no_recent_activity": "No recent property asset activity",
+    "unknown_asset": "Unknown Property Asset",
+    "asset_value_trend": "Property Asset Value Trend",
+    "quick_new_asset": "New Property Asset",
+    "quick_view_all": "View All Property Assets"
+  },
+  "columns": {
+    "asset_number": "Property Asset No.",
+    "category": "Property Asset Category",
+    "location": "Property / Space"
+  },
+  "empty": {
+    "active_title": "No active property assets",
+    "active_message": "Add your first property asset to start tracking the register.",
+    "inactive_title": "No inactive property assets",
+    "inactive_message": "Deactivated property assets will appear here."
+  },
+  "actions": {
+    "cannot_delete_in_use": "Cannot delete: property asset has posted transactions.",
+    "confirm_bulk_activate": "Are you sure you want to activate {{count}} property asset(s)?",
+    "confirm_bulk_deactivate": "Are you sure you want to deactivate {{count}} property asset(s)?",
+    "confirm_bulk_delete": "Are you sure you want to delete {{count}} property asset(s)? This action cannot be undone.",
+    "id_required": "Property Asset ID is required",
+    "no_ids_provided": "No property asset IDs provided"
+  },
+  "buttons": {
+    "add_asset": "Add Property Asset"
+  },
+  "form": {
+    "product": "Space",
+    "product_placeholder": "Select a space",
+    "product_info": "For existing assets, assign from the space Assets tab. Existing links cannot be changed here.",
+    "name": "Property Asset Name",
+    "name_placeholder": "e.g., Building A HVAC Unit",
+    "asset_number": "Property Asset Number",
+    "description_placeholder": "Detailed description of the property asset",
+    "category": "Property Asset Category",
+    "category_placeholder": "Select a property asset category",
+    "location": "Property / Space",
+    "location_placeholder": "Select a property or space"
+  },
+  "detail": {
+    "heading": "Property Asset Details"
+  },
+  "errors": {
+    "creation_failed": "Failed to create property asset",
+    "update_failed": "Failed to update property asset",
+    "delete_failed": "Failed to delete property asset",
+    "not_found": "Property asset not found"
+  }
+}

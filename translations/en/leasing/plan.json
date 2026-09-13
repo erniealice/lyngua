@@ -1,0 +1,103 @@
+{
+  "plan": {
+    "page": {
+      "heading": "Rental Plans",
+      "heading_active": "Active Rental Plans",
+      "heading_inactive": "Inactive Rental Plans",
+      "caption": "Manage commercial and residential rental plans",
+      "caption_active": "Manage your active rental plans",
+      "caption_inactive": "View inactive or archived rental plans"
+    },
+    "buttons": {
+      "add_plan": "Add Rental Plan",
+      "add_product": "Add Space"
+    },
+    "columns": {
+      "price_schedule": "Rate Card"
+    },
+    "empty": {
+      "title": "No rental plans found",
+      "message": "No rental plans to display.",
+      "active_title": "No active rental plans",
+      "active_message": "Create your first rental plan to get started.",
+      "inactive_title": "No inactive rental plans",
+      "inactive_message": "Discontinued rental plans will appear here."
+    },
+    "form": {
+      "name": "Rental Plan Name",
+      "name_placeholder": "Enter rental plan name",
+      "description_placeholder": "Enter rental plan description...",
+      "products": "Spaces",
+      "products_placeholder": "Select spaces...",
+      "products_search": "Search spaces...",
+      "job_template": "Maintenance SOP",
+      "job_template_none": "(none \u2014 lease has no recurring maintenance workflow)",
+      "job_template_hint": "Select the Maintenance SOP used when this offering creates recurring property work.",
+      "execution_strategy_hint": "Choose how this rental plan creates and tracks property work.",
+      "visits_per_cycle_hint": "Number of recurring Work Orders per billing cycle. Default 1.",
+      "client_scope_cascade_notice": "If a tenant is selected, this offering can only be assigned to a tenant-scoped rate card.",
+      "sections": {
+        "services": "Assigned Spaces"
+      }
+    },
+    "actions": {
+      "view": "View Rental Plan",
+      "edit": "Edit Rental Plan",
+      "delete": "Delete Rental Plan"
+    },
+    "detail": {
+      "page_title": "Rental Plan Details",
+      "heading": "Rental Plan Info",
+      "edit_title": "Edit Rental Plan"
+    },
+    "tabs": {
+      "products": "Spaces",
+      "price_plan": "Rent Plans",
+      "products_slug": "spaces",
+      "price_plan_slug": "rentPlans"
+    },
+    "confirm": {
+      "delete": "Delete Rental Plan",
+      "deactivate": "Deactivate Rental Plan"
+    },
+    "fields": {
+      "client_label": "Tenant",
+      "client_help": "Leave blank to make this offering available for any tenant. Set a tenant to make it a bespoke rental plan.",
+      "client_locked_tooltip": "Locked \u2014 this offering has active leases. Detach them or create a new offering."
+    },
+    "filters": {
+      "scope_client": "Tenant-specific"
+    },
+    "errors": {
+      "not_found": "Rental Plan not found",
+      "id_required": "Rental Plan ID is required",
+      "client_scope_locked": "Cannot change this offering's tenant while it has active leases."
+    },
+    "product_plan_form": {
+      "name_placeholder": "Defaults to the selected space's name",
+      "variant_select_label": "Unit Type",
+      "variant_select_placeholder": "Select a unit type",
+      "variant_select_info": "Required when the parent space has unit variants enabled."
+    },
+    "composition": {
+      "page": {
+        "heading": "Rental Plan Composition",
+        "caption": "Ordered Maintenance SOPs for this rental plan",
+        "heading_active": "Active Rental Plan Composition",
+        "heading_inactive": "Inactive Rental Plan Composition"
+      },
+      "buttons": {
+        "add_entry": "Add Maintenance SOP"
+      },
+      "columns": {
+        "job_template_id": "Maintenance SOP"
+      },
+      "form": {
+        "job_template_id": "Maintenance SOP"
+      },
+      "empty": {
+        "message": "Add a Maintenance SOP to this rental plan."
+      }
+    }
+  }
+}

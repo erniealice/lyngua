@@ -1,0 +1,24 @@
+{
+  "client_attribute": {
+    "validation": {
+      "data_required": "Lessee attribute data is required",
+      "name_required": "Lessee attribute name is required",
+      "value_required": "Lessee attribute value is required",
+      "id_required": "Lessee attribute ID is required",
+      "request_required": "Request is required for lessee attributes",
+      "client_id_required": "Lessee ID is required"
+    },
+    "errors": {
+      "client_fetch_failed_auth": "Failed to get lessee for authorization",
+      "client_not_found": "Referenced lessee with ID '{clientId}' not found",
+      "client_reference_validation_failed": "Failed to validate lessee entity reference",
+      "client_not_active": "Referenced lessee with ID '{clientId}' is not active",
+      "not_found": "Lessee attribute with ID \"{clientAttributeId}\" not found",
+      "creation_failed": "Lessee attribute creation failed",
+      "update_failed": "Lessee attribute update failed",
+      "deletion_failed": "Lessee attribute deletion failed",
+      "list_failed": "Failed to retrieve lessee attributes",
+      "authorization_failed": "Authorization failed for lessee attributes"
+    }
+  }
+}

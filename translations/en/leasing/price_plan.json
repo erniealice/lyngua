@@ -1,0 +1,86 @@
+{
+  "price_plan": {
+    "form": {
+      "name": "Rent Plan Name",
+      "name_placeholder": "Enter rent plan name",
+      "schedule": "Rate Card",
+      "schedule_placeholder": "Select a rate card...",
+      "schedule_locked_tooltip": "This rent plan is bound to {{.ClientName}}'s rate card.",
+      "schedule_auto_create_hint": "No rate card exists for {{.ClientName}} yet — one will be created automatically when you save.",
+      "schedule_auto_reuse_hint": "This rent plan will be added to the existing rate card for {{.ClientName}}.",
+      "schedule_client_picker_notice": "Only rental plans assigned to this tenant are available below.",
+      "schedule_general_picker_notice": "Lease offerings assigned specifically to tenants are not available for general rate cards.",
+      "parent_schedule_client_notice": "This rate card belongs to {{.ClientName}}. Rent plans created here will be available only for leases with this tenant.",
+      "billing_kind_recurring": "Recurring rent",
+      "billing_kind_contract": "Fixed-term lease",
+      "billing_kind_one_time_hint": "Charged once at lease commencement. No further rent invoices fire on this lease.",
+      "billing_kind_recurring_hint": "Billed every cycle until the lease is terminated.",
+      "billing_kind_contract_hint": "Fixed-term lease with a defined expiry date. Rent can be billed periodically or as a single total.",
+      "billing_kind_milestone_hint": "Invoice fires per milestone. Requires a Maintenance SOP on the parent Rental Plan.",
+      "amount_basis_total_package": "Total lease value",
+      "plan_label": "Rental Plan",
+      "plan_placeholder": "Select a rental plan...",
+      "location_hint_prefix": "Space: ",
+      "plan_info": "The rental plan this rent plan belongs to.",
+      "schedule_info": "The rate card (effective date range + property or space) this rent plan belongs to.",
+      "name_info": "Optional — defaults to the rental plan name when left blank.",
+      "description_info": "Optional notes shown alongside the rent plan in detail views.",
+      "currency_info": "Currency applied to this rent plan and any auto-seeded space prices.",
+      "term_info": "How long the lease lasts. Leave empty for open-ended.",
+      "active_info": "Inactive rent plans stay on record but are hidden from new leases."
+    },
+    "product_price": {
+      "edit_title": "Edit Space Price",
+      "delete_title": "Delete Space Price",
+      "empty_title": "No Space Prices",
+      "empty_msg": "No space prices have been configured for this rent plan yet."
+    },
+    "messages": {
+      "pricing_locked_reason": "This rental plan is in use by active leases. Rent changes are disabled.",
+      "item_pricing_locked_reason": "This rental plan is in use by active leases. Space price and currency are locked.",
+      "product_required": "Space is required.",
+      "in_use_cannot_modify": "This rental plan is in use by active leases. Space price and currency are locked."
+    },
+    "validation": {
+      "plan_id_required": "Rental Plan selection is required for rent plans",
+      "location_id_required": "Property or Space selection is required for rent plans",
+      "amount_required": "Amount is required for rent plans",
+      "ad_hoc_pool_no_template": "Pay-as-you-go rent plans require the parent Rental Plan to have a Maintenance SOP.",
+      "ad_hoc_per_call_no_template": "Pay-as-you-go per-occurrence plans require the parent Rental Plan to have a Maintenance SOP."
+    },
+    "tabs": {
+      "products": "Spaces",
+      "subscriptions": "Lease Agreements"
+    },
+    "detail": {
+      "edit": "Edit Rent Plan",
+      "edit_title": "Edit Rent Plan",
+      "customer_heading": "Tenant experience",
+      "subscriptions": {
+        "column_name": "Lease Agreement",
+        "column_client": "Tenant",
+        "column_plan": "Rental Plan",
+        "column_start_date": "Commencement Date",
+        "column_end_date": "Expiry Date",
+        "empty_title": "No leases yet",
+        "empty_message": "Leases referencing this rent plan will appear here.",
+        "confirm_delete_title": "Delete Lease Agreement",
+        "confirm_delete_message": "Are you sure you want to delete lease agreement %s? This action cannot be undone."
+      },
+      "warning": {
+        "milestone_no_template": "Milestone billing requires the Rental Plan to have a Maintenance SOP.",
+        "recurring_no_template": "This lease will not have recurring maintenance tracking. Add a Maintenance SOP to the Rental Plan."
+      }
+    },
+    "confirms": {
+      "edit_amount_multiple_subscriptions": "This rent plan is attached to {{.Count}} active leases for {{.ClientName}}. Changing the amount or cycle will affect all of them on the next rent cycle. Continue?"
+    },
+    "errors": {
+      "in_use": "This rent plan is in use by active leases and cannot be deleted.",
+      "client_scope_mismatch": "Rent plan tenant must match its parent rental plan's tenant.",
+      "schedule_client_mismatch": "Selected rate card belongs to a different tenant and cannot be attached to this rent plan.",
+      "schedule_required_for_client_scope": "This rental plan is scoped to a tenant. Pick or create a rate card before adding a rent plan.",
+      "multi_subscription_confirm_required": "Confirmation required — N > 1 attached leases and monetary fields changing."
+    }
+  }
+}

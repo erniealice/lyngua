@@ -1,0 +1,40 @@
+{
+  "job": {
+    "page": {
+      "heading": "Service Engagements",
+      "caption": "Manage deployment, maintenance, repair, and return engagements",
+      "heading_active": "Active Service Engagements",
+      "heading_completed": "Completed Service Engagements",
+      "heading_on_hold": "On Hold Service Engagements"
+    },
+    "buttons": {
+      "add_job": "Add Service Engagement"
+    },
+    "columns": {
+      "client": "Lessee",
+      "location": "Yard / Depot / Site"
+    },
+    "form": {
+      "name_placeholder": "Enter service engagement name",
+      "client_placeholder": "Select lessee",
+      "location_placeholder": "Select yard, depot, or site",
+      "client_info": "The lessee this job is being performed for."
+    },
+    "actions": {
+      "view": "View Service Engagement",
+      "edit": "Edit Service Engagement",
+      "delete": "Delete Service Engagement"
+    },
+    "detail": {
+      "page_title": "Service Engagement Details",
+      "title_prefix": "Engagement ",
+      "origin_subscription_link": "Spawned from Lease Contract"
+    },
+    "dashboard": {
+      "title": "Fleet Operations Dashboard",
+      "stat_active": "Active Service Engagements",
+      "quick_new_job": "New Service Engagement",
+      "quick_new_template": "New Service SOP"
+    }
+  }
+}

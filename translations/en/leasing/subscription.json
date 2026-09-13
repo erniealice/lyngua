@@ -1,0 +1,136 @@
+{
+  "subscription": {
+    "page": {
+      "heading": "Lease Agreements",
+      "heading_active": "Active Leases",
+      "heading_inactive": "Inactive Leases",
+      "caption": "Commercial and residential lease management",
+      "caption_active": "Manage current lease agreements",
+      "caption_inactive": "View expired, terminated, or archived leases"
+    },
+    "buttons": {
+      "add_subscription": "Add Lease Agreement"
+    },
+    "columns": {
+      "customer": "Tenant",
+      "plan": "Rental Plan",
+      "start_date": "Commencement Date",
+      "client": "Tenant"
+    },
+    "empty": {
+      "title": "No leases found",
+      "message": "No lease agreements to display."
+    },
+    "form": {
+      "customer": "Tenant",
+      "customer_placeholder": "Select tenant...",
+      "plan": "Rental Plan",
+      "plan_placeholder": "Select rental plan...",
+      "plan_client_scope_notice": "Lease offerings below match this tenant's billing currency ({{.Currency}}).",
+      "start_date": "Commencement Date",
+      "end_date": "Expiry Date",
+      "customer_search_placeholder": "Search tenants...",
+      "plan_search_placeholder": "Search rental plans...",
+      "customer_no_results": "No tenants found",
+      "plan_no_results": "No rental plans found",
+      "customer_info": "The tenant named on this lease agreement.",
+      "plan_info": "The rent plan this lease follows. It determines amount, billing cycle, and priced space lines.",
+      "code_info": "Short lease reference used on rent invoices and receipts. Leave blank to auto-generate.",
+      "start_date_info": "First day of the lease term. Rent cycles are counted from this date.",
+      "end_date_info": "Last day of the lease term. Leave blank for open-ended.",
+      "start_date_row_help": "Commencement date and time affect which rental plans are available below.",
+      "end_date_row_help": "Expiry date and time control when recurring rent invoices stop being issued.",
+      "notes_info": "Internal remarks — shown on detail pages but not on tenant-facing documents.",
+      "spawn_jobs_section_title": "Maintenance Operations",
+      "spawn_jobs_toggle": "Create Initial Work Order(s)",
+      "spawn_jobs_summary": "Creating {{.JobCount}} Work Order(s) from {{.TemplateNames}} — includes {{.PhaseCount}} phases, {{.TaskCount}} tasks.",
+      "spawn_jobs_none": "No Maintenance SOP is configured for this Rental Plan. The lease will start without an initial work order.",
+      "require_spawn_toggle": "Require successful work-order creation",
+      "require_spawn_hint": "If work-order creation fails or produces none, the whole lease create is cancelled instead of saving without maintenance tracking.",
+      "plan_info_section_title": "Rental Plan Details",
+      "billing_kind_recurring": "Recurring rent",
+      "billing_kind_contract": "Fixed-term lease",
+      "amount_basis_total_package": "Total lease value"
+    },
+    "actions": {
+      "view": "View Lease Agreement",
+      "edit": "Edit Lease Agreement",
+      "cancel": "Terminate Lease",
+      "customize_package": "Customize this rental plan for {{.ClientName}}"
+    },
+    "detail": {
+      "page_title": "Lease Agreement Details",
+      "customer": "Tenant",
+      "plan": "Rental Plan",
+      "start_date": "Commencement Date",
+      "end_date": "Expiry Date"
+    },
+    "tabs": {
+      "operations": "Maintenance",
+      "invoices": "Rent Invoices",
+      "jobs": "Work Orders"
+    },
+    "operations": {
+      "title": "Maintenance Work Orders",
+      "empty_message": "This lease has no Work Orders. {{.SpawnAction}} to start tracking maintenance.",
+      "spawn_action": "Create Work Orders",
+      "root_job": "Primary Work Order",
+      "child_job": "Related Work Order",
+      "subscription_heading": "Lease (since {{.Started}})",
+      "cycle_placeholder": "Cycle starts {{.PeriodStart}} — recurring Work Orders will be created at cycle start, or click below to create one now."
+    },
+    "backfill": {
+      "drawer_title": "Backfill Recurring Work Orders"
+    },
+    "jobs": {
+      "heading": "Work Orders",
+      "empty": "No Work Orders yet — this lease has no maintenance tracking.",
+      "summary": "Showing {{.Visible}} of {{.Total}} Work Orders",
+      "column_name": "Work Order",
+      "type_subscription": "Lease",
+      "spawn_failed_toast": "Recurring Work Order creation failed for {{.Period}} — the rent invoice was created but maintenance tracking will need a manual retry."
+    },
+    "spawn": {
+      "title": "Create Maintenance Work Orders",
+      "root_template": "Primary Maintenance SOP",
+      "confirm": "Create Work Orders",
+      "success_toast": "Created {{.JobCount}} Work Order(s).",
+      "skipped": "Nothing to create — no Maintenance SOP is linked to this Rental Plan.",
+      "blocked": "Work-order creation is blocked — the rate card for this rental plan is closed or inactive."
+    },
+    "invoices": {
+      "title": "Rent Invoices",
+      "empty": "No rent invoices yet — click Recognize Rent Revenue to generate the first one.",
+      "recognize_action": "Recognize Rent Revenue",
+      "recognize_title": "Recognize Rent Revenue",
+      "recognize_subtitle": "Generate a rent invoice from this lease's rent plan.",
+      "run_invoices_action": "Run Rent Invoices"
+    },
+    "revenue_run": {
+      "title": "Run Rent Invoices",
+      "subtitle_template": "{eligible} period(s) ready for this lease",
+      "subscription_label": "Lease Agreement",
+      "plan_label": "Rental Plan",
+      "client_hint_template": "Tenant: {client}",
+      "group_no_pending": "No pending rent periods for this lease at the chosen date.",
+      "empty_title": "No rent invoice periods are ready",
+      "empty_message": "This lease is caught up at the chosen date.",
+      "generate_button_count_one": "Generate {count} Rent Invoice",
+      "generate_button_count_many": "Generate {count} Rent Invoices",
+      "intro_message": "Generate rent invoices for the eligible billing periods of this lease.",
+      "errors": {
+        "id_required": "Lease Agreement ID is required.",
+        "use_case_unavailable": "Rent invoice run is not available in this workspace configuration."
+      }
+    },
+    "recognize": {
+      "context_section": "Lease Agreement",
+      "client_label": "Tenant",
+      "plan_label": "Rental Plan / Rent Plan",
+      "currency_mismatch_error": "Tenant billing currency ({{.ClientCurrency}}) does not match the rate card ({{.PlanCurrency}}). Update one before generating revenue."
+    },
+    "errors": {
+      "plan_client_mismatch": "This package belongs to a different tenant and cannot be attached here."
+    }
+  }
+}

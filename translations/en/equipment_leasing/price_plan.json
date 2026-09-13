@@ -1,0 +1,50 @@
+{
+  "price_plan": {
+    "form": {
+      "name": "Lease Pricing Tier Name",
+      "name_placeholder": "Enter lease pricing tier name",
+      "schedule": "Lease-Rate Window",
+      "schedule_placeholder": "Select a lease-rate window...",
+      "schedule_client_picker_notice": "Only lease programs assigned to this lessee are available below.",
+      "billing_kind_recurring": "Recurring lease",
+      "billing_kind_contract": "Fixed-term lease",
+      "plan_label": "Lease Program",
+      "plan_placeholder": "Select a lease program...",
+      "location_hint_prefix": "Site: ",
+      "active_info": "Inactive lease pricing tiers are hidden from new lease contracts.",
+      "schedule_general_picker_notice": "Plans assigned specifically to lessees are not available for assignment to general-scope price schedules.",
+      "parent_schedule_client_notice": "This price schedule belongs to {{.ClientName}}. Price plans created here will be available only for engagements with this lessee."
+    },
+    "product_price": {
+      "edit_title": "Edit Asset-Class Price",
+      "delete_title": "Delete Asset-Class Price",
+      "empty_title": "No Asset-Class Prices"
+    },
+    "messages": {
+      "product_required": "Asset Class is required."
+    },
+    "tabs": {
+      "products": "Asset Classes",
+      "subscriptions": "Lease Contracts"
+    },
+    "detail": {
+      "edit": "Edit Lease Pricing Tier",
+      "edit_title": "Edit Lease Pricing Tier",
+      "customer_heading": "Lessee experience",
+      "subscriptions": {
+        "column_name": "Lease Contract",
+        "column_client": "Lessee",
+        "column_plan": "Lease Program",
+        "column_start_date": "Commencement Date",
+        "column_end_date": "Expiry Date",
+        "empty_title": "No lease contracts yet",
+        "confirm_delete_title": "Delete Lease Contract"
+      }
+    },
+    "errors": {
+      "client_scope_mismatch": "Price plan lessee must match its parent plan's lessee.",
+      "schedule_client_mismatch": "Selected schedule belongs to a different lessee and cannot be attached to this price plan.",
+      "schedule_required_for_client_scope": "This package is scoped to a lessee. Pick or create a rate card for that lessee before adding a price plan."
+    }
+  }
+}

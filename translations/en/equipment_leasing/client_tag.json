@@ -1,0 +1,15 @@
+{
+  "client": {
+    "tag_form": {
+      "tag_name_info": "Label used to categorize and filter lessees (e.g. VIP, Prospect, Wholesale).",
+      "active_info": "Inactive tags are hidden from new lessee assignments but remain on record."
+    }
+  },
+  "page": {
+    "heading": "Lessee Tags",
+    "subtitle": "Manage tags for organizing lessees"
+  },
+  "empty": {
+    "message": "Create your first tag to start organizing lessees."
+  }
+}

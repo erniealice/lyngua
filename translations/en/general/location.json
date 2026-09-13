@@ -5,7 +5,17 @@
     "description_info": "Optional internal notes about this location.",
     "timezone_info": "Timezone used when scheduling events or showing local time for this location.",
     "area_info": "Assign this location to a geographic area for grouping and filtering.",
-    "active_info": "Inactive locations are hidden from new assignments but remain on record."
+    "active_info": "Inactive locations are hidden from new assignments but remain on record.",
+    "name": "Name",
+    "name_placeholder": "Enter location name",
+    "address": "Address",
+    "address_placeholder": "Enter street address",
+    "description": "Description",
+    "description_placeholder": "Describe this location",
+    "timezone": "Timezone",
+    "area": "Area",
+    "area_placeholder": "Select an area",
+    "active": "Active"
   },
   "dashboard": {
     "total_locations": "Total Locations",
@@ -58,5 +68,39 @@
       "get_list_page_data_failed": "Failed to load location list",
       "get_item_page_data_failed": "Failed to load location details"
     }
+  },
+  "page": {
+    "heading": "Locations",
+    "heading_active": "Active Locations",
+    "heading_inactive": "Inactive Locations",
+    "caption": "Manage your locations",
+    "caption_active": "Manage your active locations",
+    "caption_inactive": "View inactive locations"
+  },
+  "buttons": {
+    "add_location": "Add Location",
+    "add_location_active_only": "Add locations from the Active list."
+  },
+  "columns": {
+    "name": "Name",
+    "address": "Address",
+    "city": "City",
+    "country": "Country",
+    "timezone": "Timezone",
+    "status": "Status",
+    "date_created": "Date Created"
+  },
+  "empty": {
+    "active_title": "No active locations",
+    "active_message": "Add your first location to get started.",
+    "inactive_title": "No inactive locations",
+    "inactive_message": "Inactive locations will appear here."
+  },
+  "actions": {
+    "view": "View",
+    "edit": "Edit",
+    "delete": "Delete",
+    "activate": "Activate",
+    "deactivate": "Deactivate"
   }
 }

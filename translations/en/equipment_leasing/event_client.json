@@ -1,0 +1,11 @@
+{
+  "event_client": {
+    "validation": {
+      "data_required": "Event lessee data is required",
+      "id_required": "Event lessee ID is required"
+    },
+    "errors": {
+      "authorization_failed": "Authorization failed for event lessees"
+    }
+  }
+}

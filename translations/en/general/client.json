@@ -38,12 +38,21 @@
         "set_prospect": "Set as prospect"
       },
       "tabs": {
+        "info": "Info",
+        "representative": "Representative",
+        "subscriptions": "Subscriptions",
+        "accounting": "Accounting",
+        "history": "History",
+        "statement": "Statement",
         "price_schedules": "Price Schedules",
         "price_schedules_slug": "price-schedules",
         "attachments": "Attachments",
         "audit_history": "History",
         "tax_registrations": "Tax Registrations"
       },
+      "add_subscription": "Add Subscription",
+      "empty_subscriptions_title": "No subscriptions",
+      "empty_subscriptions": "No subscriptions to display.",
       "price_schedules": {
         "empty": "No client-scoped price schedules yet — every engagement uses a general schedule.",
         "add_action": "Add price schedule",
@@ -122,7 +131,13 @@
       }
     },
     "columns": {
-      "active_subscriptions": "Active Subscriptions"
+      "active_subscriptions": "Active Subscriptions",
+      "client_name": "Client Name",
+      "representative": "Representative",
+      "status": "Status",
+      "category": "Category",
+      "payment_term": "Payment Terms",
+      "date_created": "Date Created"
     },
     "bulk_actions": {
       "set_as_active": "Set as active",
@@ -202,10 +217,42 @@
       "tin_info": "Tax Identification Number used for withholding certificate (Form 2307) and tax computation.",
       "country_code": "Country Code",
       "country_code_placeholder": "e.g. PH",
-      "country_code_info": "ISO 3166-1 alpha-2 country code for this client. Used for cross-border tax jurisdiction lookups (e.g. PH, US, GB)."
+      "country_code_info": "ISO 3166-1 alpha-2 country code for this client. Used for cross-border tax jurisdiction lookups (e.g. PH, US, GB).",
+      "email": "Email",
+      "phone": "Phone",
+      "name": "Client Name",
+      "name_placeholder": "Enter client name",
+      "company_details": "Company Details",
+      "representative": "Representative",
+      "street_address": "Street Address",
+      "street_address_placeholder": "123 Main St",
+      "city": "City",
+      "city_placeholder": "e.g. Manila",
+      "province": "Province",
+      "province_placeholder": "e.g. Metro Manila",
+      "postal_code": "Postal Code",
+      "postal_code_placeholder": "e.g. 1000",
+      "notes": "Notes",
+      "notes_placeholder": "Internal notes about this client...",
+      "tags": "Tags",
+      "tags_placeholder": "Select tags...",
+      "tags_search_placeholder": "Search tags...",
+      "tags_no_results": "No tags available. Create tags in Settings.",
+      "first_name": "First Name",
+      "first_name_placeholder": "Enter first name",
+      "last_name": "Last Name",
+      "last_name_placeholder": "Enter last name",
+      "email_placeholder": "Enter email address",
+      "phone_placeholder": "Enter phone number",
+      "active": "Active",
+      "payment_terms": "Payment Terms",
+      "select_payment_term": "Select payment terms"
     },
     "validation": {
       "attributes_unavailable": "Client attributes could not be validated right now. Please try again."
+    },
+    "buttons": {
+      "add_new": "Add Client"
     }
   }
 }

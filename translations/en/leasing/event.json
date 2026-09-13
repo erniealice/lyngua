@@ -1,0 +1,67 @@
+{
+  "event": {
+    "page": {
+      "heading": "Property Events",
+      "heading_upcoming": "Upcoming Property Events",
+      "heading_confirmed": "Confirmed Property Events",
+      "heading_completed": "Completed Property Events",
+      "heading_cancelled": "Cancelled Property Events",
+      "caption": "Manage inspections, maintenance visits, handovers, and lease events"
+    },
+    "buttons": {
+      "add_event": "Add Property Event"
+    },
+    "columns": {
+      "location": "Property / Space"
+    },
+    "empty": {
+      "heading": "No property events yet",
+      "subheading": "Create your first inspection, maintenance visit, or lease event"
+    },
+    "form": {
+      "name": "Property Event Name",
+      "name_placeholder": "e.g. Move-in Inspection",
+      "location": "Property / Space",
+      "invitees_placeholder": "Search property staff or tenants"
+    },
+    "detail": {
+      "heading": "Property Event Details",
+      "location": "Property / Space"
+    },
+    "confirm": {
+      "delete_title": "Delete Property Event",
+      "delete_message": "Are you sure you want to delete this property event?",
+      "cancel_title": "Cancel Property Event",
+      "cancel_message": "Are you sure you want to cancel this property event?"
+    },
+    "errors": {
+      "name_required": "Property event name is required"
+    },
+    "calendar": {
+      "new_event_at": "New property event at {{.Time}}",
+      "new_event": "New property event",
+      "more_events": "+{{.Count}} more property events"
+    }
+  },
+  "recurrence": {
+    "page": {
+      "caption": "Manage recurring inspections and maintenance visits"
+    },
+    "empty": {
+      "subheading": "Create a recurrence pattern for repeating property events"
+    },
+    "confirm": {
+      "delete_message": "Are you sure? Property events using this pattern will not be affected."
+    }
+  },
+  "dashboard": {
+    "title": "Property Schedule",
+    "subtitle": "Today's inspections, maintenance visits, and upcoming lease events",
+    "widget_by_day": "Property Events per Day",
+    "widget_upcoming": "Upcoming Property Events",
+    "quick_new": "New Property Event",
+    "quick_calendar": "Property Calendar",
+    "empty_upcoming": "No upcoming property events",
+    "empty_by_tag": "No tagged property events"
+  }
+}

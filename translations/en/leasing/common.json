@@ -1,0 +1,13 @@
+{
+  "sidebar": {
+    "apps": {
+      "clients": "Tenants"
+    },
+    "clients": {
+      "title": "Tenants"
+    }
+  },
+  "bottom_nav": {
+    "customers": "Tenants"
+  }
+}

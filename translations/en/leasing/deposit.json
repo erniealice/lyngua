@@ -1,0 +1,21 @@
+{
+  "page": {
+    "heading": "Security Deposits",
+    "caption": "Track security deposits received from commercial and residential tenants"
+  },
+  "buttons": {
+    "record_deposit": "Record Security Deposit"
+  },
+  "empty": {
+    "title": "No security deposits found",
+    "message": "Record security deposits received from tenants and any refundable deposit movements."
+  },
+  "form": {
+    "counterparty": "Tenant",
+    "counterparty_placeholder": "Tenant name",
+    "direction_received": "Received (Tenant security deposit)"
+  },
+  "actions": {
+    "confirm_delete": "Are you sure you want to delete this tenant security deposit? This action cannot be undone."
+  }
+}

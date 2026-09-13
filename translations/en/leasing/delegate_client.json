@@ -1,0 +1,18 @@
+{
+  "delegate_client": {
+    "validation": {
+      "data_required": "Delegate-Tenant relationship data is required",
+      "client_id_required": "Tenant ID is required",
+      "id_required": "Delegate-Tenant relationship ID is required",
+      "request_required": "Request is required for Delegate-Tenant relationships"
+    },
+    "errors": {
+      "not_found": "Delegate-Tenant relationship with ID \"{delegateClientId}\" not found",
+      "creation_failed": "Delegate-Tenant relationship creation failed",
+      "update_failed": "Delegate-Tenant relationship update failed",
+      "deletion_failed": "Delegate-Tenant relationship deletion failed",
+      "list_failed": "Failed to retrieve Delegate-Tenant relationships",
+      "authorization_failed": "Authorization failed for Delegate-Tenant relationships"
+    }
+  }
+}

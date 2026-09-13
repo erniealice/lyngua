@@ -1,0 +1,48 @@
+{
+  "product": {
+    "dashboard_url": "/catalog/spaces/dashboard",
+    "list_url": "/catalog/spaces/list/{status}",
+    "detail_url": "/catalog/spaces/detail/{id}",
+    "option_detail_url": "/catalog/spaces/detail/{id}/option/{oid}",
+    "variant_detail_url": "/catalog/spaces/detail/{id}/variant/{vid}",
+    "variant_stock_detail_url": "/catalog/spaces/detail/{id}/variant/{vid}/stock/{iid}",
+    "variant_serial_detail_url": "/catalog/spaces/detail/{id}/variant/{vid}/stock/{iid}/serial/{sid}"
+  },
+  "plan": {
+    "list_url": "/catalog/rental-plans/list/{status}",
+    "detail_url": "/catalog/rental-plans/detail/{id}",
+    "price_plan_detail_url": "/catalog/rental-plans/detail/{id}/price/{ppid}"
+  },
+  "price_schedule": {
+    "dashboard_url": "/catalog/rate-cards/dashboard",
+    "list_url": "/catalog/rate-cards/list/{status}",
+    "detail_url": "/catalog/rate-cards/detail/{id}",
+    "plan_detail_url": "/catalog/rate-cards/detail/{id}/plan/{ppid}",
+    "plan_subscription_detail_url": "/catalog/rate-cards/detail/{id}/plan/{ppid}/subscription/{eid}"
+  },
+  "resource": {
+    "list_url": "/catalog/resources/list/{status}",
+    "detail_url": "/catalog/resources/detail/{id}"
+  },
+  "client": {
+    "dashboard_url": "/tenants/dashboard",
+    "list_url": "/tenants/directory/list/{status}",
+    "detail_url": "/tenants/directory/detail/{id}",
+    "payment_terms_url": "/tenants/settings/payment-terms/list",
+    "client_tag_list_url": "/tenants/settings/tags/list"
+  },
+  "client_tag": {
+    "list_url": "/tenants/settings/tags/list"
+  },
+  "payment_term": {
+    "list_url": "/tenants/settings/payment-terms/list"
+  },
+  "supplier": {
+    "list_url": "/suppliers/directory/list/{status}",
+    "detail_url": "/suppliers/directory/detail/{id}"
+  },
+  "subscription": {
+    "list_url": "/agreements/list/{status}",
+    "detail_url": "/agreements/detail/{id}"
+  }
+}

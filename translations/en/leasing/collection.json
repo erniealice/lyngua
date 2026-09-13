@@ -1,0 +1,60 @@
+{
+  "collection": {
+    "page": {
+      "heading": "Rent Payments",
+      "heading_pending": "Pending Rent Payments",
+      "heading_completed": "Completed Rent Payments",
+      "heading_failed": "Failed Rent Payments",
+      "caption": "Manage rent, deposit, and tenant charge collections",
+      "caption_pending": "Tenant payments awaiting collection",
+      "caption_completed": "Successfully collected tenant payments",
+      "caption_failed": "Failed tenant payment attempts",
+      "dashboard": "Rent Collections Dashboard"
+    },
+    "buttons": {
+      "add_collection": "Record Rent Payment"
+    },
+    "columns": {
+      "customer": "Tenant"
+    },
+    "empty": {
+      "pending_title": "No pending rent payments",
+      "pending_message": "No pending rent payments to display.",
+      "completed_title": "No completed rent payments",
+      "completed_message": "No completed rent payments to display.",
+      "failed_title": "No failed rent payments",
+      "failed_message": "No failed rent payments to display."
+    },
+    "form": {
+      "customer": "Tenant",
+      "reference_placeholder": "e.g. RENT-INV-001"
+    },
+    "detail": {
+      "page_title": "Rent Payment Details",
+      "title_prefix": "Rent Payment #",
+      "customer": "Tenant"
+    },
+    "confirm": {
+      "bulk_complete_message": "Are you sure you want to mark {{count}} rent payment(s) as complete?",
+      "bulk_reactivate_message": "Are you sure you want to reactivate {{count}} rent payment(s)?",
+      "bulk_delete": "Delete Rent Payments",
+      "bulk_delete_message": "Are you sure you want to delete {{count}} rent payment(s)?"
+    },
+    "errors": {
+      "not_found": "Rent payment not found",
+      "id_required": "Rent Payment ID is required",
+      "no_ids_provided": "No rent payment IDs provided"
+    },
+    "dashboard": {
+      "title": "Rent Collections",
+      "subtitle": "Track rent payments and outstanding tenant balances",
+      "widget_recent": "Recent rent payments",
+      "quick_record": "Record Rent Payment",
+      "quick_aging": "Tenant Aging Report",
+      "empty_recent_title": "No recent rent payments",
+      "empty_recent_desc": "Recent rent payments will appear here once recorded.",
+      "new_collection": "New rent payment",
+      "collection_updated": "Rent payment updated"
+    }
+  }
+}

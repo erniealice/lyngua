@@ -1,0 +1,42 @@
+{
+  "revenue": {
+    "form": {
+      "customer_info": "The lessee this lease revenue record is billed to.",
+      "location_info": "The site where this lease revenue was generated.",
+      "subscription_info": "Link to an existing lease contract to apply agreed pricing.",
+      "add_whtcertificate": "Add EWT Certificate",
+      "tax_kind_wht_rental": "EWT — Equipment Rental"
+    },
+    "errors": {
+      "subscription_plan_client_drift": "The subscription's lessee does not match the plan's lessee scope. Detach or re-scope the plan before recognizing revenue."
+    }
+  },
+  "revenue_run": {
+    "app_label": "Lease Invoice Run",
+    "queue_title": "Lease Invoice Run Queue",
+    "queue_subtitle": "Lessees with pending lease invoice periods, ready to run.",
+    "queue_columns": {
+      "client": "Lessee",
+      "subscriptions": "Lease Contracts"
+    },
+    "actions": {
+      "view_client": "View Lessee",
+      "view_subscription": "View Lease Contract"
+    },
+    "scope_kind": {
+      "subscription": "Lease Contract",
+      "client": "Lessee"
+    },
+    "queue_empty": {
+      "title": "No lessees pending",
+      "message": "All lessees are up to date — no invoice periods are waiting."
+    },
+    "queue_bulk": {
+      "cap_exceeded_message": "Selection capped at 50 lessees. Narrow your filters to run more at once."
+    },
+    "errors": {
+      "client_mismatch": "Selected subscriptions belong to different lessees.",
+      "run_all_matching_not_implemented": "Run for all matching is not yet available. Please select individual lessees."
+    }
+  }
+}

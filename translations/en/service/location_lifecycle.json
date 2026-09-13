@@ -1,0 +1,23 @@
+{
+  "location_lifecycle": {
+    "label": "Location Lifecycle",
+    "help": "Operational lifecycle of a service location or branch. Occupancy, booking availability, and record activation are separate.",
+    "states": {
+      "planned": {
+        "help": "The service location or branch is being prepared and has not started operating."
+      },
+      "operational": {
+        "help": "The service location or branch is operating. This does not indicate vacant space or booking availability."
+      },
+      "under_maintenance": {
+        "help": "The service location or branch is undergoing maintenance; operating restrictions are managed separately."
+      },
+      "temporarily_closed": {
+        "help": "Operations at the service location or branch are paused with an intention to reopen."
+      },
+      "closed": {
+        "help": "Operations have ended at the service location or branch."
+      }
+    }
+  }
+}

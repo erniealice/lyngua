@@ -1,0 +1,24 @@
+{
+  "client_attribute": {
+    "validation": {
+      "data_required": "Tenant attribute data is required",
+      "name_required": "Tenant attribute name is required",
+      "value_required": "Tenant attribute value is required",
+      "id_required": "Tenant attribute ID is required",
+      "request_required": "Request is required for tenant attributes",
+      "client_id_required": "Tenant ID is required"
+    },
+    "errors": {
+      "client_fetch_failed_auth": "Failed to get tenant for authorization",
+      "client_not_found": "Referenced tenant with ID '{clientId}' not found",
+      "client_reference_validation_failed": "Failed to validate tenant entity reference",
+      "client_not_active": "Referenced tenant with ID '{clientId}' is not active",
+      "not_found": "Tenant attribute with ID \"{clientAttributeId}\" not found",
+      "creation_failed": "Tenant attribute creation failed",
+      "update_failed": "Tenant attribute update failed",
+      "deletion_failed": "Tenant attribute deletion failed",
+      "list_failed": "Failed to retrieve tenant attributes",
+      "authorization_failed": "Authorization failed for tenant attributes"
+    }
+  }
+}

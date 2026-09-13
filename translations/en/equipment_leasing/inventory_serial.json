@@ -1,0 +1,10 @@
+{
+  "inventory_serial": {
+    "title": "Asset Tags / VINs",
+    "serial_number": "Asset Tag / VIN",
+    "assign": "Add Asset Tag / VIN",
+    "edit": "Edit Asset Tag / VIN",
+    "remove": "Remove Asset Tag / VIN",
+    "empty": "No asset tags or VINs recorded"
+  }
+}

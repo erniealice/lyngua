@@ -1,0 +1,76 @@
+{
+  "price_schedule": {
+    "detail": {
+      "plan_column_plan": "Rental Plan",
+      "plan_edit_drawer_title": "Edit Rental Plan",
+      "plan_delete_title": "Delete Rental Plan",
+      "plan_in_use_tooltip": "In use by active leases",
+      "plan_bulk_delete_title": "Delete Rental Plans",
+      "plan_bulk_delete_msg": "Permanently delete the selected rental plans? This cannot be undone.",
+      "plan_add": "Add Rental Plan",
+      "plan_none_selected": "No rental plans selected",
+      "plan_required": "Rental Plan is required",
+      "product_price_column_product": "Space",
+      "sub_column_customer": "Tenant",
+      "sub_column_start_date": "Commencement Date"
+    },
+    "plan_form": {
+      "section_schedule": "Rate Card",
+      "section_package": "Rental Plan",
+      "price_schedule_field": "Rate Card",
+      "package_label": "Rental Plan",
+      "package_placeholder": "Select a rental plan...",
+      "name_label": "Rental Plan Name",
+      "name_placeholder": "Enter rental plan name"
+    },
+    "fields": {
+      "client_label": "Tenant",
+      "client_help": "Leave blank for a general rate card. Set a tenant to create a bespoke schedule reused across that tenant's rent plans."
+    },
+    "filters": {
+      "scope_client": "Tenant-specific"
+    },
+    "form": {
+      "section_schedule_details": "Rent schedule details",
+      "section_location": "Property / Space",
+      "custom_client_price_schedule_label_suffix": "Rate Card",
+      "scope_info": "Choose whether this rate card is shared across tenants at a property or reserved for one tenant.",
+      "scope_option_location": "Property / Space-scoped",
+      "scope_option_client": "Tenant-scoped",
+      "scope_option_location_help": "Reusable across tenants at this property or space.",
+      "scope_option_client_help": "Reserved for one tenant's bespoke rent pricing."
+    },
+    "validation": {
+      "data_required": "Rent schedule data is required",
+      "name_required": "Rent schedule name is required",
+      "id_required": "Rate Card ID is required",
+      "request_required": "Request is required for rate cards",
+      "date_start_required": "Start date is required for rate cards"
+    },
+    "errors": {
+      "not_found": "Rent schedule with ID \"{entityId}\" not found",
+      "creation_failed": "Rent schedule creation failed",
+      "update_failed": "Rent schedule update failed",
+      "deletion_failed": "Rent schedule deletion failed",
+      "list_failed": "Failed to retrieve rate cards",
+      "authorization_failed": "Authorization failed for rate cards",
+      "price_plan_create_unavailable": "Adding a rent plan is not available. Please contact support."
+    },
+    "page": {
+      "title": "Rate Cards",
+      "subtitle": "Manage rental pricing and effective dates",
+      "active_title": "Active Rate Cards",
+      "inactive_title": "Inactive Rate Cards"
+    },
+    "buttons": {
+      "add": "Add Rate Card",
+      "edit": "Edit Rate Card",
+      "delete": "Delete Rate Card",
+      "view": "View Rate Card"
+    },
+    "empty": {
+      "title": "No Rate Cards",
+      "message": "No rate cards to display."
+    }
+  }
+}

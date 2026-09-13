@@ -1,0 +1,40 @@
+{
+  "price_schedule": {
+    "detail": {
+      "plan_column_plan": "Lease Program",
+      "plan_edit_drawer_title": "Edit Lease Program",
+      "plan_delete_title": "Delete Lease Program",
+      "plan_in_use_tooltip": "In use by active lease contracts",
+      "plan_add": "Add Lease Program",
+      "plan_none_selected": "No lease programs selected",
+      "plan_required": "Lease Program is required",
+      "product_price_column_product": "Asset Class",
+      "sub_column_customer": "Lessee",
+      "sub_column_start_date": "Commencement Date"
+    },
+    "plan_form": {
+      "section_schedule": "Lease-Rate Window",
+      "section_package": "Lease Program",
+      "price_schedule_field": "Lease-Rate Window",
+      "package_label": "Lease Program",
+      "package_placeholder": "Select a lease program..."
+    },
+    "fields": {
+      "client_label": "Lessee",
+      "client_help": "Leave blank for a general schedule. Set a lessee to create a bespoke schedule reused across that lessee's price plans."
+    },
+    "filters": {
+      "scope_client": "Lessee-specific"
+    },
+    "form": {
+      "section_schedule_details": "Lease-rate window details",
+      "section_location": "Yard / Depot / Site",
+      "custom_client_price_schedule_label_suffix": "Lease-Rate Window",
+      "scope_option_location": "Site-scoped",
+      "scope_option_client": "Lessee-scoped",
+      "scope_info": "Choose whether this schedule is shared across every lessee at a location, or reserved for one lessee's bespoke pricing. Switching scope clears the inactive picker on save.",
+      "scope_option_location_help": "Reusable across all lessees at this location.",
+      "scope_option_client_help": "Reserved for one lessee's bespoke pricing."
+    }
+  }
+}

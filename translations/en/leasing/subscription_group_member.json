@@ -1,0 +1,15 @@
+{
+  "subscription_group_member": {
+    "columns": {
+      "client_id": "Tenant"
+    },
+    "form": {
+      "client": "Tenant",
+      "client_info": "The tenant (account) associated with this member.",
+      "client_placeholder": "Enter tenant ID"
+    },
+    "detail": {
+      "no_client": "No tenant"
+    }
+  }
+}

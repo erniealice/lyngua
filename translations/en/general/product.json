@@ -20,7 +20,11 @@
       "serialized": "Serialized"
     },
     "columns": {
-      "line": "Line"
+      "line": "Line",
+      "name": "Product Name",
+      "description": "Description",
+      "price": "Price",
+      "status": "Status"
     },
     "form": {
       "line": "Line",
@@ -75,12 +79,28 @@
       "tax_treatment_info": "How this product is classified for tax purposes: Standard (taxed), Reduced (lower rate), Zero Rated (0% tax, audit trail preserved), Exempt (no tax row), or Out of Scope (no tax row).",
       "withholding_class_label": "Withholding Class",
       "withholding_class_placeholder": "Select withholding class",
-      "withholding_class_info": "The withholding tax class that applies when the buyer is a top withholding agent (TWA). Leave blank for products not subject to creditable withholding tax."
+      "withholding_class_info": "The withholding tax class that applies when the buyer is a top withholding agent (TWA). Leave blank for products not subject to creditable withholding tax.",
+      "name": "Product Name",
+      "description": "Description",
+      "description_placeholder": "Enter product description...",
+      "price": "Price",
+      "currency": "Currency",
+      "active": "Active",
+      "price_placeholder": "Leave empty to use base price",
+      "select_option": "Select",
+      "required": "Required",
+      "option": "Option",
+      "select_attribute": "— Select attribute —",
+      "all_attributes_assigned": "All available attributes have already been assigned to this product.",
+      "option_needs_values_alert": "This required option has no values yet. Add values on the option detail page before assigning variants."
     },
     "actions": {
       "activate": "Activate",
       "deactivate": "Deactivate",
-      "set_status": "Set Status"
+      "set_status": "Set Status",
+      "view": "View Product",
+      "edit": "Edit Product",
+      "delete": "Delete Product"
     },
     "bulk": {
       "activate": "Activate Products",
@@ -93,7 +113,46 @@
       "variant_count": "Variant Count",
       "unit": "Unit of measure",
       "variant_mode": "Variant mode",
-      "no_description_subtitle": "No description provided"
+      "no_description_subtitle": "No description provided",
+      "status": "Status",
+      "options_label": "Options",
+      "empty_variants_message": "No variants have been created for this product yet.",
+      "serial_number": "Serial Number",
+      "imei": "IMEI",
+      "warranty_end": "Warranty End",
+      "purchase_order": "Purchase Order",
+      "no_serial_numbers": "No Serial Numbers",
+      "no_serial_numbers_msg": "No serial numbers have been recorded for this inventory item.",
+      "variant_information": "Variant Information",
+      "options": "Options",
+      "variant_pricing": "Variant Pricing",
+      "variant_pricing_desc": "Set a custom price for this variant, or leave empty to use the base product price.",
+      "inventory_stock": "Inventory Stock",
+      "inventory_stock_desc": "Inventory stock is tracked per location. View and manage it from the inventory module.",
+      "drop_images_here": "Drop images here or click to browse",
+      "image_file_hint": "Max 5 MB per file. JPEG, PNG, WebP.",
+      "delete_selected": "Delete Selected",
+      "primary_badge": "Primary",
+      "no_images": "No Images",
+      "no_images_desc": "Upload images using the drop zone above.",
+      "audit_trail": "Audit Trail",
+      "audit_trail_desc": "Audit trail for variant changes is coming soon.",
+      "no_serial_numbers_desc": "No serial numbers have been recorded for this inventory item.",
+      "inventory_item": "Inventory Item",
+      "name": "Name",
+      "sku": "SKU",
+      "type": "Type",
+      "location": "Location",
+      "qty_on_hand": "Quantity on Hand",
+      "reserved": "Reserved",
+      "available": "Available",
+      "stat_total": "Total",
+      "stat_available": "Available",
+      "stat_sold": "Sold",
+      "stat_reserved": "Reserved",
+      "pricing_history": "Pricing History",
+      "pricing_history_desc": "Pricing history for this item is coming soon.",
+      "serial_information": "Serial Information"
     },
     "errors": {
       "authorization_failed": "Authorization failed for products",
@@ -101,7 +160,15 @@
       "deletion_failed": "Product deletion failed",
       "list_failed": "Failed to retrieve products",
       "not_found": "Product with ID \"{entityId}\" not found",
-      "update_failed": "Product update failed"
+      "update_failed": "Product update failed",
+      "permission_denied": "You do not have permission to perform this action",
+      "invalid_form_data": "Invalid form data. Please check your inputs and try again.",
+      "id_required": "Product ID is required",
+      "no_ids_provided": "No product IDs were provided",
+      "invalid_status": "Invalid product status",
+      "cannot_delete": "This product cannot be deleted because it is in use",
+      "name_required": "Product name is required",
+      "field_required": "This field is required"
     },
     "variant": {
       "pricing": {
@@ -110,7 +177,20 @@
         "package": "Package",
         "rate_card": "Rate Card",
         "amount": "Amount"
-      }
+      },
+      "title": "Variants",
+      "sku": "SKU",
+      "price_override": "Price Override",
+      "attributes": "Attributes",
+      "assign": "Add Variant",
+      "edit": "Edit Variant",
+      "remove": "Remove Variant",
+      "empty": "No Variants",
+      "location": "Location",
+      "qty_on_hand": "Quantity on Hand",
+      "serial_count": "Serial Count",
+      "no_stock": "No Inventory Stock",
+      "no_stock_msg": "No inventory stock records found for this variant."
     },
     "tabs": {
       "attributes": "Attributes",
@@ -119,7 +199,28 @@
       "options": "Options",
       "pricing": "Pricing",
       "variants": "Variants",
-      "audit_history": "History"
+      "audit_history": "History",
+      "images": "Images",
+      "stock": "Inventory Stock",
+      "attachments": "Attachments",
+      "audit_trail": "Audit Trail",
+      "serials": "Serials",
+      "pricing_history": "Pricing History"
+    },
+    "asset_assignment": {
+      "assets": "Assets",
+      "product_label": "Product",
+      "add": "Assign Existing Asset",
+      "asset": "Asset",
+      "select_asset": "Select an unassigned asset",
+      "name": "Asset Name",
+      "number": "Asset Number",
+      "location": "Location",
+      "empty_title": "No assets assigned",
+      "empty_message": "Assign existing assets to this product.",
+      "required": "Select an asset.",
+      "unavailable": "Asset assignment is unavailable.",
+      "failed": "Unable to assign this asset."
     },
     "validation": {
       "data_required": "Product data is required",
@@ -152,6 +253,151 @@
       "col_line": "Line",
       "col_rank": "Rank",
       "col_service": "Service"
+    },
+    "page": {
+      "heading": "Products",
+      "heading_active": "Active Products",
+      "heading_inactive": "Inactive Products",
+      "caption": "Manage your product offerings",
+      "caption_active": "View and manage active products",
+      "caption_inactive": "View discontinued products"
+    },
+    "buttons": {
+      "add_product": "Add Product"
+    },
+    "empty": {
+      "active_title": "No active products",
+      "active_message": "Add your first product to get started.",
+      "inactive_title": "No inactive products",
+      "inactive_message": "Discontinued products will appear here."
+    },
+    "bulk_actions": {
+      "delete": "Delete Selected"
+    },
+    "status": {
+      "activate": "Activate",
+      "deactivate": "Deactivate"
+    },
+    "attribute": {
+      "title": "Attribute",
+      "default_value": "Default Value",
+      "assign": "Add Attribute",
+      "remove": "Remove Attribute",
+      "empty": "No Attributes"
+    },
+    "confirm": {
+      "activate": "Activate Product",
+      "activate_message": "Are you sure you want to activate product \"%s\"?",
+      "deactivate": "Deactivate Product",
+      "deactivate_message": "Are you sure you want to deactivate product \"%s\"?",
+      "bulk_activate": "Activate Products",
+      "bulk_activate_message": "Are you sure you want to activate the selected products?",
+      "bulk_deactivate": "Deactivate Products",
+      "bulk_deactivate_message": "Are you sure you want to deactivate the selected products?",
+      "bulk_delete": "Delete Products",
+      "bulk_delete_message": "Are you sure you want to delete the selected products? This action cannot be undone.",
+      "remove_variant": "Remove Variant",
+      "remove_variant_message": "Are you sure you want to remove this variant?"
+    },
+    "breadcrumb": {
+      "products": "Products",
+      "product": "Product",
+      "option": "Option"
+    },
+    "options": {
+      "tab": {
+        "title": "Product Options"
+      },
+      "tabs": {
+        "info": "Info",
+        "values": "Values"
+      },
+      "columns": {
+        "name": "Name",
+        "code": "Code",
+        "data_type": "Data Type",
+        "values_count": "Values",
+        "sort_order": "Sort Order",
+        "required": "Required",
+        "status": "Status"
+      },
+      "form": {
+        "name": "Option Name",
+        "name_placeholder": "e.g. Size, Color, Material",
+        "code": "Option Code",
+        "code_placeholder": "e.g. size, color, material",
+        "data_type": "Data Type",
+        "sort_order": "Sort Order",
+        "min_value": "Min Value",
+        "max_value": "Max Value",
+        "active": "Active",
+        "required": "Required",
+        "required_caution": "Marking this option as required means every variant of this product must supply a value for it. If this option has no values yet, variants can't be saved until you add some.",
+        "description": "Description",
+        "description_placeholder": "Optional notes about this option",
+        "description_empty": "No description provided",
+        "description_info": "Optional internal description. Up to 500 characters.",
+        "name_info": "The option name displayed on product forms and detail pages.",
+        "code_info": "A stable identifier for this option, such as size or color.",
+        "data_type_info": "The type of values this option accepts, such as a list of text values or a numeric range.",
+        "min_value_info": "The minimum numeric value allowed for this option.",
+        "max_value_info": "The maximum numeric value allowed for this option.",
+        "sort_order_info": "Controls the display order of this option.",
+        "active_info": "Whether this option is active."
+      },
+      "data_types": {
+        "text_list": "Text List",
+        "number_range": "Number Range",
+        "color_list": "Color List",
+        "free_text": "Free Text",
+        "free_number": "Free Number"
+      },
+      "value": {
+        "columns": {
+          "label": "Label",
+          "value": "Value",
+          "sort_order": "Sort Order",
+          "color_preview": "Preview",
+          "status": "Status"
+        },
+        "form": {
+          "label": "Value Label",
+          "label_placeholder": "e.g. Small, Medium, Large",
+          "value": "Value",
+          "value_placeholder": "e.g. small, medium, large",
+          "sort_order": "Sort Order",
+          "color_hex": "Color Hex",
+          "color_hex_placeholder": "#FF0000",
+          "active": "Active",
+          "option": "Option",
+          "required": "Required",
+          "label_info": "The display name for this option value, such as Small or Blue.",
+          "value_info": "The underlying value represented by this option value.",
+          "sort_order_info": "Controls the display order of this option value.",
+          "color_hex_info": "The color in hexadecimal format, such as #FF0000.",
+          "active_info": "Whether this option value is active."
+        }
+      },
+      "actions": {
+        "add_option": "Add Option",
+        "edit_option": "Edit Option",
+        "edit_product_option": "Edit Product Option",
+        "delete_option": "Delete Option",
+        "view_values": "View Values",
+        "add_value": "Add Value",
+        "edit_value": "Edit Value",
+        "delete_value": "Delete Value"
+      },
+      "empty": {
+        "title": "No Options",
+        "message": "No options have been configured for this product yet.",
+        "value_title": "No Values",
+        "value_message": "No values have been added to this option yet."
+      },
+      "confirm": {
+        "delete_option": "Are you sure you want to delete option",
+        "delete_value": "Are you sure you want to delete value"
+      }
     }
   }
 }

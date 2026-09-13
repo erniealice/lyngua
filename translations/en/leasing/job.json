@@ -1,0 +1,73 @@
+{
+  "job": {
+    "page": {
+      "heading": "Work Orders",
+      "caption": "Manage property maintenance and inspection work orders",
+      "heading_draft": "Draft Work Orders",
+      "heading_active": "Active Work Orders",
+      "heading_completed": "Completed Work Orders",
+      "heading_closed": "Closed Work Orders",
+      "heading_planned": "Planned Work Orders",
+      "heading_released": "Released Work Orders",
+      "heading_on_hold": "On Hold Work Orders",
+      "job_category_tabs_aria": "Work order categories"
+    },
+    "buttons": {
+      "add_job": "Add Work Order"
+    },
+    "columns": {
+      "client": "Tenant",
+      "location": "Property / Space"
+    },
+    "empty": {
+      "title": "No work orders found",
+      "message": "No work orders to display.",
+      "phases_message": "No phases have been added to this work order.",
+      "activities_message": "No maintenance activities have been logged for this work order.",
+      "outcomes_message": "No inspection outcomes for this work order.",
+      "budget_message": "No Maintenance SOP attached. Budget unavailable until an SOP is linked.",
+      "actuals_message": "No maintenance activity entries have been posted for this work order yet."
+    },
+    "form": {
+      "name_placeholder": "Enter work order name",
+      "client_placeholder": "Select tenant",
+      "location_placeholder": "Select property or space",
+      "name_info": "The work-order name as it appears in lists and documents.",
+      "client_info": "The tenant this work order relates to.",
+      "location_info": "The property, unit, or space where this work takes place."
+    },
+    "actions": {
+      "view": "View Work Order",
+      "edit": "Edit Work Order",
+      "delete": "Delete Work Order"
+    },
+    "detail": {
+      "page_title": "Work Order Details",
+      "title_prefix": "Work Order ",
+      "origin_subscription_link": "Spawned from Lease Agreement"
+    },
+    "confirm": {
+      "delete": "Delete Work Order",
+      "delete_message": "Are you sure you want to delete \"%s\"? This action cannot be undone."
+    },
+    "errors": {
+      "not_found": "Work order not found",
+      "in_use": "Cannot delete: this work order is in use",
+      "id_required": "Work Order ID is required"
+    },
+    "dashboard": {
+      "title": "Property Maintenance Dashboard",
+      "subtitle": "Active work orders, upcoming inspections, hours logged, and risk",
+      "stat_active": "Active Work Orders",
+      "quick_new_job": "New Work Order",
+      "quick_new_template": "New Maintenance SOP",
+      "quick_job_calendar": "Maintenance Calendar"
+    },
+    "bulk_actions": {
+      "bulk_delete": "Delete selected work orders",
+      "bulk_delete_confirm_title": "Delete work orders?",
+      "bulk_delete_confirm_msg": "Delete {count} work order(s)? This action cannot be undone.",
+      "bulk_set_status": "Set status for selected work orders"
+    }
+  }
+}

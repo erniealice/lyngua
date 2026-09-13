@@ -1,0 +1,30 @@
+{
+  "event": {
+    "page": {
+      "heading": "Service Events",
+      "heading_upcoming": "Upcoming Service Events",
+      "caption": "Manage deployment, maintenance, inspection, and return events"
+    },
+    "buttons": {
+      "add_event": "Add Service Event"
+    },
+    "columns": {
+      "location": "Yard / Depot / Site"
+    },
+    "form": {
+      "name": "Service Event Name",
+      "location": "Yard / Depot / Site",
+      "invitees_placeholder": "Search staff or lessees"
+    },
+    "detail": {
+      "heading": "Service Event Details",
+      "location": "Yard / Depot / Site"
+    }
+  },
+  "dashboard": {
+    "title": "Service Schedule",
+    "subtitle": "Today's site visits and upcoming fleet activity",
+    "quick_new": "New Service Event",
+    "empty_upcoming": "No upcoming service events"
+  }
+}

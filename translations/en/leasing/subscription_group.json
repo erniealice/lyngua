@@ -1,0 +1,68 @@
+{
+  "subscription_group": {
+    "page": {
+      "title": "Lease Portfolios",
+      "subtitle": "Group related commercial or residential leases",
+      "active_title": "Active Lease Portfolios",
+      "inactive_title": "Inactive Lease Portfolios",
+      "current_title": "Current Lease Portfolios",
+      "completed_title": "Completed Lease Portfolios",
+      "draft_title": "Draft Lease Portfolios"
+    },
+    "buttons": {
+      "add": "Add Lease Portfolio",
+      "bulk_delete": "Delete Lease Portfolios",
+      "delete": "Delete Lease Portfolio",
+      "edit": "Edit Lease Portfolio"
+    },
+    "columns": {
+      "client": "Tenant",
+      "price_schedule": "Rate Card",
+      "subscription": "Lease Agreement"
+    },
+    "empty": {
+      "message": "No lease portfolios to display.",
+      "title": "No Lease Portfolios"
+    },
+    "form": {
+      "active_info": "Inactive lease portfolios are hidden from new lease assignments.",
+      "kind_cohort": "Lease Portfolio",
+      "name_info": "A short display name for this group of related leases.",
+      "name_placeholder": "Enter lease portfolio name",
+      "plan": "Rental Plan",
+      "plan_info": "The rental plan shared by agreements in this portfolio.",
+      "plan_placeholder": "Select a rental plan...",
+      "price_schedule": "Rate Card",
+      "price_schedule_info": "The rate card this lease portfolio is anchored to.",
+      "price_schedule_placeholder": "Select a rate card...",
+      "section_anchors": "Lease offering & rate card",
+      "section_identity": "Lease portfolio details"
+    },
+    "tabs": {
+      "subscriptions": "Lease Agreements",
+      "staff": "Property Team"
+    },
+    "staff": {
+      "column_servicer": "Property Team",
+      "empty_message": "This lease portfolio has no assigned property team yet.",
+      "list_aria": "Property team: {{names}}"
+    },
+    "detail": {
+      "no_plan": "No rental plan",
+      "no_schedule": "No rate card",
+      "title": "Lease Portfolio"
+    },
+    "errors": {
+      "create_failed": "Failed to create lease portfolio",
+      "delete_failed": "Failed to delete lease portfolio",
+      "in_use": "This lease portfolio is in use and cannot be deleted.",
+      "load_failed": "Failed to load lease portfolio",
+      "not_found": "Lease portfolio not found",
+      "update_failed": "Failed to update lease portfolio"
+    },
+    "validation": {
+      "id_required": "Lease Portfolio ID is required.",
+      "delete_blocked_references": "Cannot delete this lease portfolio while it still has active references: {dependents}. Remove them first."
+    }
+  }
+}

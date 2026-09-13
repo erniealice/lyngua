@@ -1,0 +1,43 @@
+{
+  "product": {
+    "form": {
+      "name_info": "The asset-class name as it appears in lists, lease invoices, and program breakdowns.",
+      "line_info": "Fleet group this asset class belongs to.",
+      "active_info": "Inactive asset classes are hidden from new lease programs.",
+      "default_template_id": "Default Service SOP",
+      "variant_mode_label": "Model Configurable",
+      "variant_mode_info": "Turn on when this asset class has make/model configurations with distinct pricing.",
+      "variant_mode_none": "Single Model",
+      "variant_mode_configurable": "Multiple Models",
+      "product_kind_label": "Asset Class Type",
+      "delivery_mode_label": "How the leased asset reaches the lessee",
+      "delivery_mode_value_info": {
+        "subscription": "Leased access to equipment over the contract term."
+      },
+      "tracking_mode_label": "Fleet tracking",
+      "tracking_mode_info": "How physical fleet units are counted.",
+      "tracking_mode_value_info": {
+        "serialized": "Per-unit — one row per serialized fleet asset."
+      }
+    },
+    "bulk": {
+      "activate": "Activate Asset Classes",
+      "deactivate": "Deactivate Asset Classes"
+    },
+    "detail": {
+      "variant_count": "Model Count",
+      "variant_mode": "Model mode"
+    },
+    "errors": {
+      "authorization_failed": "Authorization failed for asset classes",
+      "creation_failed": "Asset class creation failed",
+      "deletion_failed": "Asset class deletion failed",
+      "list_failed": "Failed to retrieve asset classes",
+      "not_found": "Asset class with ID \"{entityId}\" not found",
+      "update_failed": "Asset class update failed"
+    },
+    "tabs": {
+      "variants": "Specific Models"
+    }
+  }
+}

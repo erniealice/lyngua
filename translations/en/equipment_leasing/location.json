@@ -1,0 +1,25 @@
+{
+  "form": {
+    "name_info": "Display name for this yard, depot, customer site, or maintenance bay.",
+    "address_info": "Physical address for this yard, depot, or site.",
+    "area_info": "Assign this site to a service region."
+  },
+  "dashboard": {
+    "total_locations": "Total Yards & Sites",
+    "locations_by_region": "Yards & Sites by Region",
+    "quick_new_location": "New Yard / Site",
+    "column_location": "Yard / Site",
+    "location_added": "Yard / Site Added"
+  },
+  "location": {
+    "validation": {
+      "data_required": "Yard or site data is required",
+      "name_required": "Yard or site name is required",
+      "id_required": "Yard or Site ID is required"
+    },
+    "errors": {
+      "not_found": "Yard or site with ID \"{locationId}\" not found",
+      "list_failed": "Failed to retrieve yards and sites"
+    }
+  }
+}

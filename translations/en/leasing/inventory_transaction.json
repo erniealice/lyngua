@@ -1,0 +1,7 @@
+{
+  "inventory_transaction": {
+    "title": "Maintenance Inventory Movement History",
+    "record": "Record Inventory Movement",
+    "empty": "No maintenance inventory movements recorded"
+  }
+}

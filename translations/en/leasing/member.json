@@ -1,0 +1,20 @@
+{
+  "member": {
+    "client_delegate": {
+      "home": {
+        "subheading": "You are acting on behalf of a tenant. Choose a section to continue."
+      },
+      "select": {
+        "page_title": "Choose a tenant",
+        "heading": "Choose a tenant",
+        "subheading": "You represent multiple tenants. Pick the one you want to act as right now — you can switch later.",
+        "empty_state": "No tenant accounts found. Contact your administrator."
+      }
+    },
+    "page": {
+      "billing": {
+        "coming_soon_delegate": "Acting-as tenant billing context — coming soon."
+      }
+    }
+  }
+}

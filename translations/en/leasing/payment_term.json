@@ -1,0 +1,12 @@
+{
+  "payment_term": {
+    "page": {
+      "subtitle": "Manage payment terms for tenants and suppliers"
+    },
+    "form": {
+      "scopes_both": "Tenants & Suppliers",
+      "scopes_client_only": "Tenants Only",
+      "is_default_info": "When checked, this term is the default for its entity scope (tenant, supplier, or both)."
+    }
+  }
+}

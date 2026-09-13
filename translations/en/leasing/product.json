@@ -1,0 +1,134 @@
+{
+  "product": {
+    "asset_assignment": {
+      "product_label": "Space",
+      "empty_message": "Assign existing units or property assets to this space.",
+      "location": "Property / Space"
+    },
+    "form": {
+      "name_info": "The space name as it appears in listings, rent invoices, and rental-plan breakdowns.",
+      "description_info": "Optional detail shown on space detail pages and tenant-facing documents.",
+      "line_info": "Group spaces into categories such as offices, warehouses, buildings, or land.",
+      "active_info": "Inactive spaces are hidden from new rental plans and transactions.",
+      "default_template_id": "Default Maintenance SOP",
+      "variant_mode_label": "Unit Types Enabled",
+      "variant_mode_info": "Turn on when this space has distinct unit configurations with separate pricing.",
+      "variant_mode_none": "Single Unit Type",
+      "variant_mode_configurable": "Multiple Unit Types",
+      "variant_mode_locked_help": "Delete all unit types and options first to change this setting.",
+      "variant_mode_locked_error": "Delete all unit types and options before changing the unit-type mode.",
+      "product_kind_label": "Space Classification",
+      "delivery_mode_label": "How the offering is provided",
+      "delivery_mode_value_info": {
+        "instant": "Provided in a single transaction, such as handing over an access device.",
+        "scheduled": "Provided at an agreed time, such as a booked inspection or maintenance visit.",
+        "shipped": "Physical goods delivered to the tenant or property.",
+        "digital": "Digital access or materials provided electronically.",
+        "project": "Work delivered through stages, such as a tenant fit-out.",
+        "subscription": "Ongoing occupancy or access over a rental or lease term."
+      },
+      "tracking_mode_label": "Inventory tracking",
+      "tracking_mode_info": "Controls stock counting for goods and supplies. This setting does not assign a specific property to a tenant.",
+      "tracking_mode_value_info": {
+        "none": "No stock counting. Suitable for occupancy rights and services; does not track physical property allocation.",
+        "bulk": "Count interchangeable goods or supplies by quantity.",
+        "serialized": "Track each stock item individually, such as numbered equipment or access devices."
+      },
+      "tax_treatment_info": "How rent for this space is classified for tax purposes.",
+      "withholding_class_info": "The withholding tax class that applies when the tenant is a withholding agent.",
+      "name": "Space Name",
+      "description_placeholder": "Describe the space...",
+      "line": "Category",
+      "line_placeholder": "Select a category",
+      "product_kind_info": "Classify what this offering provides: occupancy or a service, goods sold, or supplies used in property operations.",
+      "delivery_mode_info": "Choose how the tenant receives the offering. Occupancy over a term represents ongoing access under a rental or lease arrangement.",
+      "product_kind_value_info": {
+        "service": "Occupancy rights or a service provided to the tenant; the property itself is not sold as stock.",
+        "stocked_good": "Physical goods held in stock and sold to tenants, such as replacement access devices.",
+        "non_stocked_good": "Physical goods sold to tenants without holding stock, such as special-order fixtures.",
+        "consumable": "Supplies used in property operations, such as cleaning materials or maintenance supplies."
+      }
+    },
+    "bulk": {
+      "activate": "Activate Spaces",
+      "deactivate": "Deactivate Spaces"
+    },
+    "detail": {
+      "variant_count": "Unit Type Count",
+      "variant_mode": "Unit-type mode"
+    },
+    "errors": {
+      "authorization_failed": "Authorization failed for spaces",
+      "creation_failed": "Space creation failed",
+      "deletion_failed": "Space deletion failed",
+      "list_failed": "Failed to retrieve spaces",
+      "not_found": "Space with ID \"{entityId}\" not found",
+      "update_failed": "Space update failed"
+    },
+    "variant": {
+      "pricing": {
+        "package": "Rental Plan",
+        "rate_card": "Rent Plan"
+      }
+    },
+    "tabs": {
+      "variants": "Unit Types"
+    },
+    "validation": {
+      "data_required": "Space data is required",
+      "email_invalid": "Space email format is invalid",
+      "email_required": "Space email is required",
+      "id_required": "Space ID is required",
+      "name_required": "Space name is required",
+      "price_required_for_simple": "Price is required when this space has no unit variants.",
+      "request_required": "Request is required for spaces"
+    },
+    "service_dashboard": {
+      "title": "Spaces",
+      "subtitle": "Track commercial and residential space offerings",
+      "stat_total_active": "Total Active Spaces",
+      "stat_top_revenue": "Top Rent-Revenue Space",
+      "widget_top_revenue": "Top rent-revenue spaces",
+      "quick_new": "New Space",
+      "quick_price_schedule": "Rate Card",
+      "empty_recent_desc": "Newly added spaces will appear here.",
+      "new_service": "New space",
+      "col_service": "Space"
+    },
+    "page": {
+      "heading": "Spaces",
+      "heading_active": "Active Spaces",
+      "heading_inactive": "Inactive Spaces",
+      "caption": "Manage rentable spaces, from units to warehouses, buildings, and land",
+      "caption_active": "Manage your active spaces",
+      "caption_inactive": "View inactive spaces"
+    },
+    "buttons": {
+      "add_product": "Add Space"
+    },
+    "columns": {
+      "name": "Space Name",
+      "line": "Category"
+    },
+    "empty": {
+      "active_title": "No active spaces",
+      "active_message": "Add a space to get started.",
+      "inactive_title": "No inactive spaces",
+      "inactive_message": "Inactive spaces will appear here."
+    },
+    "product_kind": {
+      "service": "Occupancy / Service",
+      "stocked_good": "Stocked Goods",
+      "non_stocked_good": "Non-Stocked Goods",
+      "consumable": "Operating Supplies"
+    },
+    "delivery_mode": {
+      "instant": "Single Transaction",
+      "scheduled": "Scheduled Visit",
+      "shipped": "Physical Delivery",
+      "digital": "Digital Access",
+      "project": "Project Work",
+      "subscription": "Occupancy over a Term"
+    }
+  }
+}

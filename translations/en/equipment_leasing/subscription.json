@@ -1,0 +1,89 @@
+{
+  "subscription": {
+    "page": {
+      "heading": "Lease Contracts",
+      "heading_active": "Active Lease Contracts",
+      "heading_inactive": "Inactive Lease Contracts",
+      "caption": "Equipment lease contract management"
+    },
+    "buttons": {
+      "add_subscription": "Add Lease Contract"
+    },
+    "columns": {
+      "customer": "Lessee",
+      "plan": "Lease Program",
+      "start_date": "Commencement Date"
+    },
+    "empty": {
+      "title": "No lease contracts found",
+      "message": "No lease contracts to display."
+    },
+    "form": {
+      "customer": "Lessee",
+      "customer_placeholder": "Select lessee...",
+      "plan": "Lease Program",
+      "plan_placeholder": "Select lease program...",
+      "start_date": "Commencement Date",
+      "end_date": "Expiry Date",
+      "customer_search_placeholder": "Search lessees...",
+      "plan_search_placeholder": "Search lease programs...",
+      "customer_no_results": "No lessees found",
+      "plan_no_results": "No lease programs found",
+      "customer_info": "The lessee named on this lease contract.",
+      "plan_info": "The lease pricing tier this contract follows.",
+      "spawn_jobs_toggle": "Spawn Service Engagement(s) on Create",
+      "spawn_jobs_none": "No Service SOP is configured for this Lease Program.",
+      "plan_info_section_title": "Lease Program Details",
+      "billing_kind_recurring": "Recurring lease",
+      "billing_kind_contract": "Fixed-term lease",
+      "plan_client_scope_notice": "Plans below match this lessee's billing currency ({{.Currency}})."
+    },
+    "actions": {
+      "view": "View Lease Contract",
+      "edit": "Edit Lease Contract",
+      "cancel": "Cancel Lease Contract"
+    },
+    "detail": {
+      "page_title": "Lease Contract Details",
+      "customer": "Lessee",
+      "plan": "Lease Program",
+      "start_date": "Commencement Date",
+      "end_date": "Expiry Date"
+    },
+    "tabs": {
+      "invoices": "Lease Invoices",
+      "jobs": "Service Engagements"
+    },
+    "operations": {
+      "title": "Service Engagements",
+      "spawn_action": "Spawn Service Engagements",
+      "subscription_heading": "Lease Contract (since {{.Started}})"
+    },
+    "jobs": {
+      "heading": "Service Engagements",
+      "column_name": "Engagement Name",
+      "type_subscription": "Lease Contract"
+    },
+    "invoices": {
+      "title": "Lease Invoices",
+      "recognize_action": "Recognize Lease Revenue",
+      "recognize_title": "Recognize Lease Revenue",
+      "run_invoices_action": "Run Lease Invoices"
+    },
+    "revenue_run": {
+      "title": "Run Lease Invoices",
+      "subscription_label": "Lease Contract",
+      "plan_label": "Lease Program",
+      "client_hint_template": "Lessee: {client}"
+    },
+    "recognize": {
+      "context_section": "Lease Contract",
+      "client_label": "Lessee",
+      "plan_label": "Lease Program / Pricing Tier",
+      "currency_mismatch_error": "Lessee billing currency ({{.ClientCurrency}}) does not match the rate card ({{.PlanCurrency}}). Update one before generating revenue."
+    },
+    "errors": {
+      "plan_client_mismatch": "This package belongs to a different lessee and cannot be attached here."
+    }
+  }
+}

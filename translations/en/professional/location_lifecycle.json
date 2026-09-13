@@ -1,0 +1,23 @@
+{
+  "location_lifecycle": {
+    "label": "Office Lifecycle",
+    "help": "Operational lifecycle of a office or practice location. Occupancy, booking availability, and record activation are separate.",
+    "states": {
+      "planned": {
+        "help": "The office or practice location is being prepared and has not started operating."
+      },
+      "operational": {
+        "help": "The office or practice location is operating. This does not indicate vacant space or booking availability."
+      },
+      "under_maintenance": {
+        "help": "The office or practice location is undergoing maintenance; operating restrictions are managed separately."
+      },
+      "temporarily_closed": {
+        "help": "Operations at the office or practice location are paused with an intention to reopen."
+      },
+      "closed": {
+        "help": "Operations have ended at the office or practice location."
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "outcome_matrix": {
+    "scope": {
+      "mine": "My tenants",
+      "all": "All tenants"
+    },
+    "grid": {
+      "client_column": "Tenant"
+    }
+  }
+}

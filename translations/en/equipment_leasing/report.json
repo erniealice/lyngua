@@ -1,0 +1,18 @@
+{
+  "revenue": {
+    "customer": "Lessee"
+  },
+  "revenue_report": {
+    "dimension_client": "Lessee",
+    "dimension_client_category": "Lessee Category"
+  },
+  "receivables_aging": {
+    "page_description": "Outstanding invoice aging analysis by lessee, location, and category",
+    "dimension_client": "Lessee",
+    "dimension_client_category": "Lessee Category"
+  },
+  "collection_summary": {
+    "dimension_client": "Lessee",
+    "dimension_client_category": "Lessee Category"
+  }
+}

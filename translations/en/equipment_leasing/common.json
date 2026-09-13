@@ -1,0 +1,13 @@
+{
+  "sidebar": {
+    "apps": {
+      "clients": "Lessees"
+    },
+    "clients": {
+      "title": "Lessees"
+    }
+  },
+  "bottom_nav": {
+    "customers": "Lessees"
+  }
+}

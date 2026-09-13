@@ -1,0 +1,39 @@
+{
+  "subscription_group": {
+    "page": {
+      "title": "Fleet Master Agreements",
+      "subtitle": "Manage fleet master agreements and lease portfolios",
+      "active_title": "Active Fleet Master Agreements",
+      "inactive_title": "Inactive Fleet Master Agreements"
+    },
+    "buttons": {
+      "add": "Add Fleet Master Agreement",
+      "delete": "Delete Fleet Master Agreement",
+      "edit": "Edit Fleet Master Agreement"
+    },
+    "columns": {
+      "client": "Lessee",
+      "price_schedule": "Lease-Rate Window",
+      "subscription": "Lease Contract"
+    },
+    "empty": {
+      "message": "No fleet master agreements to display.",
+      "title": "No Fleet Master Agreements"
+    },
+    "form": {
+      "kind_cohort": "Lease Portfolio",
+      "name_placeholder": "Enter fleet master agreement name",
+      "plan": "Lease Program",
+      "plan_placeholder": "Select a lease program...",
+      "price_schedule": "Lease-Rate Window",
+      "price_schedule_placeholder": "Select a lease-rate window...",
+      "section_identity": "Fleet master agreement details"
+    },
+    "tabs": {
+      "subscriptions": "Lease Contracts"
+    },
+    "detail": {
+      "title": "Fleet Master Agreement"
+    }
+  }
+}

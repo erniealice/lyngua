@@ -1,0 +1,61 @@
+{
+  "job_template": {
+    "page": {
+      "heading": "Maintenance SOPs",
+      "heading_active": "Active Maintenance SOPs",
+      "heading_inactive": "Inactive Maintenance SOPs",
+      "caption": "Manage reusable property maintenance and inspection procedures",
+      "caption_active": "Manage active Maintenance SOPs",
+      "caption_inactive": "View inactive or archived Maintenance SOPs"
+    },
+    "buttons": {
+      "add_job_template": "Add Maintenance SOP"
+    },
+    "empty": {
+      "title": "No Maintenance SOPs found",
+      "message": "No Maintenance SOPs to display.",
+      "active_title": "No active Maintenance SOPs",
+      "active_message": "Create your first Maintenance SOP to get started.",
+      "inactive_title": "No inactive Maintenance SOPs",
+      "inactive_message": "Deactivated Maintenance SOPs will appear here."
+    },
+    "form": {
+      "name": "SOP Name",
+      "name_placeholder": "Enter Maintenance SOP name",
+      "description_placeholder": "Enter maintenance or inspection procedure...",
+      "output_product": "Affected Space",
+      "output_product_info": "Optional space this SOP's work orders maintain or inspect.",
+      "output_product_placeholder": "Select space...",
+      "initial_status": "Initial Work Order Status",
+      "initial_status_info": "The status a work order takes when this SOP materializes."
+    },
+    "actions": {
+      "view": "View Maintenance SOP",
+      "edit": "Edit Maintenance SOP",
+      "delete": "Delete Maintenance SOP"
+    },
+    "detail": {
+      "page_title": "Maintenance SOP Details"
+    },
+    "fields": {
+      "template_code": "SOP Code",
+      "supersedes_template_id": "Supersedes SOP",
+      "output_product_id": "Affected Space",
+      "output_product_variant_id": "Affected Unit Type",
+      "workflow_template_id": "Maintenance Workflow"
+    },
+    "confirm": {
+      "delete": "Delete Maintenance SOP"
+    },
+    "errors": {
+      "not_found": "Maintenance SOP not found",
+      "id_required": "Maintenance SOP ID is required",
+      "in_use": "Cannot delete: this Maintenance SOP is in use"
+    },
+    "bulk_actions": {
+      "bulk_delete": "Delete selected Maintenance SOPs",
+      "bulk_delete_confirm_title": "Delete Maintenance SOPs?",
+      "bulk_delete_confirm_msg": "Delete {count} Maintenance SOP(s)? This action cannot be undone."
+    }
+  }
+}

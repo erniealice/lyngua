@@ -1,0 +1,23 @@
+{
+  "location_lifecycle": {
+    "label": "Studio & Facility Lifecycle",
+    "help": "Operational lifecycle of a studio, stage, or edit suite. Occupancy, booking availability, and record activation are separate.",
+    "states": {
+      "planned": {
+        "help": "The studio, stage, or edit suite is being prepared and has not started operating."
+      },
+      "operational": {
+        "help": "The studio, stage, or edit suite is operating. This does not indicate vacant space or booking availability."
+      },
+      "under_maintenance": {
+        "help": "The studio, stage, or edit suite is undergoing maintenance; operating restrictions are managed separately."
+      },
+      "temporarily_closed": {
+        "help": "Operations at the studio, stage, or edit suite are paused with an intention to reopen."
+      },
+      "closed": {
+        "help": "Operations have ended at the studio, stage, or edit suite."
+      }
+    }
+  }
+}

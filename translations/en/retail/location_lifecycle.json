@@ -1,0 +1,23 @@
+{
+  "location_lifecycle": {
+    "label": "Store & Facility Lifecycle",
+    "help": "Operational lifecycle of a store, branch, or warehouse. Occupancy, booking availability, and record activation are separate.",
+    "states": {
+      "planned": {
+        "help": "The store, branch, or warehouse is being prepared and has not started operating."
+      },
+      "operational": {
+        "help": "The store, branch, or warehouse is operating. This does not indicate vacant space or booking availability."
+      },
+      "under_maintenance": {
+        "help": "The store, branch, or warehouse is undergoing maintenance; operating restrictions are managed separately."
+      },
+      "temporarily_closed": {
+        "help": "Operations at the store, branch, or warehouse are paused with an intention to reopen."
+      },
+      "closed": {
+        "help": "Operations have ended at the store, branch, or warehouse."
+      }
+    }
+  }
+}

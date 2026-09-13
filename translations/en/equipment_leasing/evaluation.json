@@ -1,0 +1,13 @@
+{
+  "evaluation": {
+    "columns": {
+      "client": "Lessee"
+    },
+    "form": {
+      "client": "Lessee"
+    },
+    "detail": {
+      "client": "Lessee"
+    }
+  }
+}

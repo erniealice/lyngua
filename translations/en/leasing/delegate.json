@@ -1,0 +1,9 @@
+{
+  "delegate": {
+    "list": {
+      "columns": {
+        "students": "Tenants"
+      }
+    }
+  }
+}

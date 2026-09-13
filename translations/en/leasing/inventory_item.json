@@ -1,0 +1,42 @@
+{
+  "inventory_item": {
+    "actions": {
+      "add": "Add Maintenance Item",
+      "delete": "Delete Maintenance Item",
+      "edit": "Edit Maintenance Item"
+    },
+    "bulk": {
+      "activate": "Activate Maintenance Items",
+      "deactivate": "Deactivate Maintenance Items",
+      "delete": "Delete Maintenance Items"
+    },
+    "dashboard": {
+      "items_by_location": "Maintenance Items by Property",
+      "recent_movements": "Recent Inventory Movements",
+      "title": "Maintenance Inventory Dashboard"
+    },
+    "errors": {
+      "not_found": "Maintenance inventory item not found"
+    },
+    "form": {
+      "title_add": "Add Maintenance Inventory Item",
+      "title_edit": "Edit Maintenance Inventory Item"
+    },
+    "labels": {
+      "location": "Property / Store Room",
+      "name": "Maintenance Item",
+      "product": "Item Type",
+      "product_variant": "Specific Item",
+      "quantity_available": "Available",
+      "quantity_on_hand": "On Hand",
+      "quantity_reserved": "Reserved"
+    },
+    "page": {
+      "subtitle": "Manage maintenance supplies by property or store room",
+      "title": "Maintenance Inventory"
+    },
+    "table": {
+      "empty": "No maintenance inventory items found"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "work_request": {
+    "page": {
+      "heading": "Service Requests",
+      "heading_open": "Open Service Requests",
+      "heading_completed": "Completed Service Requests",
+      "caption": "Manage and triage lessee equipment-service requests"
+    },
+    "entity": {
+      "singular": "Service Request",
+      "plural": "Service Requests"
+    },
+    "buttons": {
+      "add_request": "New Service Request"
+    },
+    "columns": {
+      "client": "Lessee"
+    },
+    "origin": {
+      "client_originated": "Lessee",
+      "client_related_internal": "Lessee-Related"
+    },
+    "form": {
+      "client": "Lessee",
+      "client_placeholder": "Select a lessee",
+      "client_search_placeholder": "Search lessees...",
+      "client_no_results": "No lessees found",
+      "origin_info": "Where this request came from. Lessee-originated requests are visible to the lessee; internal requests are staff-only.",
+      "client_info": "The lessee this request relates to. Required for lessee-originated and lessee-related requests.",
+      "notes_info": "Internal remarks visible only to staff. Not shown to lessees."
+    },
+    "detail": {
+      "client": "Lessee",
+      "no_client": "No lessee"
+    },
+    "confirm": {
+      "cancel_message": "Are you sure you want to cancel this request? The lessee will be notified."
+    },
+    "errors": {
+      "client_required": "A lessee is required for lessee-originated requests."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "conversation": {
+    "list": {
+      "title": "Maintenance Tickets",
+      "empty": "No maintenance tickets yet.",
+      "search_placeholder": "Search maintenance tickets..."
+    },
+    "inbox": {
+      "title": "Maintenance Tickets",
+      "subtitle": "Triage and reply to lessee maintenance messages."
+    },
+    "actions": {
+      "new_conversation": "New maintenance ticket"
+    }
+  }
+}

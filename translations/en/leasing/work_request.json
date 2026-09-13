@@ -1,0 +1,65 @@
+{
+  "work_request": {
+    "page": {
+      "heading": "Maintenance Requests",
+      "heading_open": "Open Maintenance Requests",
+      "heading_approved": "Approved Maintenance Requests",
+      "heading_declined": "Declined Maintenance Requests",
+      "heading_completed": "Completed Maintenance Requests",
+      "heading_all": "All Maintenance Requests",
+      "caption": "Manage and triage tenant and property maintenance requests",
+      "caption_open": "Maintenance requests awaiting triage or assignment",
+      "caption_approved": "Approved maintenance requests pending work",
+      "caption_completed": "Completed and closed maintenance requests"
+    },
+    "entity": {
+      "singular": "Maintenance Request",
+      "plural": "Maintenance Requests"
+    },
+    "buttons": {
+      "add_request": "New Maintenance Request",
+      "add_internal_request": "New Internal Maintenance Request"
+    },
+    "columns": {
+      "client": "Tenant"
+    },
+    "origin": {
+      "client_originated": "Tenant",
+      "client_related_internal": "Tenant-Related"
+    },
+    "form": {
+      "title_placeholder": "Brief summary of the maintenance issue",
+      "description_placeholder": "Describe the issue, affected space, and access details...",
+      "origin_info": "Where this request came from. Tenant-originated requests are visible to the tenant; internal requests are staff-only.",
+      "client": "Tenant",
+      "client_placeholder": "Select a tenant",
+      "client_info": "The tenant this maintenance request relates to.",
+      "client_search_placeholder": "Search tenants...",
+      "client_no_results": "No tenants found",
+      "notes_info": "Internal remarks visible only to property staff. Not shown to tenants.",
+      "section_payload": "Maintenance Request Details"
+    },
+    "actions": {
+      "cancel": "Cancel Maintenance Request",
+      "view": "View Maintenance Request",
+      "edit": "Edit Maintenance Request"
+    },
+    "detail": {
+      "page_title": "Maintenance Request Detail",
+      "client": "Tenant",
+      "payload": "Maintenance Request Details",
+      "no_client": "No tenant"
+    },
+    "empty": {
+      "title": "No maintenance requests found",
+      "message": "No maintenance requests match the current filters.",
+      "cta": "Create a maintenance request to get started."
+    },
+    "confirm": {
+      "cancel_message": "Are you sure you want to cancel this request? The tenant will be notified."
+    },
+    "errors": {
+      "client_required": "A tenant is required for tenant-originated requests."
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "revenue": {
+    "errors": {
+      "subscription_plan_client_drift": "The lease's tenant does not match the offering's tenant scope. Detach or re-scope the offering before recognizing rent revenue.",
+      "no_lines_to_invoice": "Cannot create a rent invoice with no line items. Add a rent plan with at least one priced space, or override at least one line."
+    },
+    "form": {
+      "reference_info": "Unique identifier for this rent revenue record. Used on rent invoices and receipts.",
+      "date_info": "The date rent revenue is recognised or the charge took place.",
+      "customer_info": "The tenant this rent revenue record is billed to.",
+      "location_info": "The property or space where this rent revenue was generated.",
+      "subscription_info": "Link to an existing lease to pre-fill rent lines and apply the agreed pricing.",
+      "notes_info": "Internal remarks — shown on detail pages but not on tenant-facing documents.",
+      "add_whtcertificate": "Add EWT Certificate",
+      "tax_kind_wht_rental": "EWT — Rent"
+    }
+  },
+  "revenue_run": {
+    "app_label": "Rent Invoice Run",
+    "queue_title": "Rent Invoice Run Queue",
+    "queue_subtitle": "Tenants with pending rent periods, ready to run.",
+    "queue_columns": {
+      "client": "Tenant",
+      "subscriptions": "Leases"
+    },
+    "queue_empty": {
+      "title": "No tenants pending",
+      "message": "All tenants are up to date — no rent invoice periods are waiting."
+    },
+    "queue_bulk": {
+      "cap_exceeded_message": "Selection capped at 50 tenants. Narrow your filters to run more at once."
+    },
+    "list_title": "Rent Invoice Run History",
+    "list_subtitle": "Audit trail of every rent invoice generation run.",
+    "detail_title": "Rent Invoice Run",
+    "detail_tabs": {
+      "invoices": "Rent Invoices"
+    },
+    "actions": {
+      "view_client": "View Tenant",
+      "view_subscription": "View Lease"
+    },
+    "scope_kind": {
+      "subscription": "Lease",
+      "client": "Tenant"
+    },
+    "errors": {
+      "idempotency_conflict": "A rent invoice for one or more of these periods already exists.",
+      "client_mismatch": "Selected leases belong to different tenants.",
+      "invalid_selection": "One or more selected leases are invalid or ineligible.",
+      "run_all_matching_not_implemented": "Run for all matching is not yet available. Please select individual tenants."
+    },
+    "toast_batch_success": "Rent invoice batch run — {{.Created}} created, {{.Skipped}} skipped, {{.Errored}} failed."
+  }
+}

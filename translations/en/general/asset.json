@@ -71,11 +71,20 @@
     "units_of_production_disabled_tooltip": "Units of Production depreciation is not yet supported. Coming in a future release."
   },
   "form": {
+    "product": "Product",
+    "product_placeholder": "Select a product",
+    "product_info": "For existing assets, assign from the product Assets tab. Existing links cannot be changed here.",
     "acquisition_cost_info": "Total cost to acquire or construct the asset, including installation.",
     "asset_number_info": "Unique identifier for this asset in your register (e.g. FA-001).",
     "depreciation_method_info": "The accounting method used to allocate the asset's cost over its useful life.",
     "salvage_value_info": "Estimated residual value at the end of the asset's useful life.",
     "units_of_production_disabled_tooltip": "Units of Production depreciation is not yet supported.",
     "useful_life_months_info": "Expected productive life of the asset in months, used to calculate depreciation."
+  },
+  "validation": {
+    "product_required": "Product is required.",
+    "product_unavailable": "Product is unavailable.",
+    "product_already_assigned": "This asset is already assigned to a product.",
+    "assignment_unavailable": "Product assignment is unavailable."
   }
 }

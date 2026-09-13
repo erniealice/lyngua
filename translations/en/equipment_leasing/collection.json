@@ -1,0 +1,28 @@
+{
+  "collection": {
+    "page": {
+      "heading": "Lease Payments",
+      "heading_pending": "Pending Lease Payments",
+      "heading_completed": "Completed Lease Payments",
+      "caption": "Manage lease, deposit, and service-charge collections"
+    },
+    "buttons": {
+      "add_collection": "Record Lease Payment"
+    },
+    "columns": {
+      "customer": "Lessee"
+    },
+    "form": {
+      "customer": "Lessee"
+    },
+    "detail": {
+      "page_title": "Lease Payment Details",
+      "customer": "Lessee"
+    },
+    "dashboard": {
+      "title": "Lease Collections",
+      "subtitle": "Track lease payments and outstanding lessee balances",
+      "quick_record": "Record Lease Payment"
+    }
+  }
+}
