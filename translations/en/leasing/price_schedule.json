@@ -1,5 +1,9 @@
 {
   "price_schedule": {
+    "tabs": {
+      "subscriptions": "Agreements",
+      "subscriptions_slug": "agreements"
+    },
     "detail": {
       "plan_column_plan": "Rental Plan",
       "plan_edit_drawer_title": "Edit Rental Plan",

@@ -117,7 +117,7 @@
       "inactive_message": "Inactive spaces will appear here."
     },
     "product_kind": {
-      "service": "Occupancy / Service",
+      "service": "For occupancy",
       "stocked_good": "Stocked Goods",
       "non_stocked_good": "Non-Stocked Goods",
       "consumable": "Operating Supplies"

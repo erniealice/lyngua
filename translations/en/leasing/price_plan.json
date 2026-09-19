@@ -27,7 +27,12 @@
       "description_info": "Optional notes shown alongside the rent plan in detail views.",
       "currency_info": "Currency applied to this rent plan and any auto-seeded space prices.",
       "term_info": "How long the lease lasts. Leave empty for open-ended.",
-      "active_info": "Inactive rent plans stay on record but are hidden from new leases."
+      "active_info": "Inactive rent plans stay on record but are hidden from new leases.",
+      "escalation_section": "Rent escalation",
+      "escalation_within_agreement": "Within this agreement",
+      "escalation_rate": "Rent increase (%)",
+      "escalation_record_only": "Recorded clause only; rent invoices are not adjusted automatically.",
+      "escalation_invalid": "Check the rent escalation mode, percentage, application and interval."
     },
     "product_price": {
       "edit_title": "Edit Space Price",

@@ -10,7 +10,8 @@
     },
     "buttons": {
       "add_plan": "Add Rental Plan",
-      "add_product": "Add Space"
+      "add_product": "Add Space",
+      "add_price_plan": "Add Pricing"
     },
     "columns": {
       "price_schedule": "Rate Card"
@@ -52,9 +53,9 @@
     },
     "tabs": {
       "products": "Spaces",
-      "price_plan": "Rent Plans",
+      "price_plan": "Pricing",
       "products_slug": "spaces",
-      "price_plan_slug": "rentPlans"
+      "price_plan_slug": "pricing"
     },
     "confirm": {
       "delete": "Delete Rental Plan",
@@ -77,7 +78,17 @@
       "name_placeholder": "Defaults to the selected space's name",
       "variant_select_label": "Unit Type",
       "variant_select_placeholder": "Select a unit type",
-      "variant_select_info": "Required when the parent space has unit variants enabled."
+      "variant_select_info": "Required when the parent space has unit variants enabled.",
+      "product": "Space",
+      "product_placeholder": "Select a space...",
+      "select_product": "Select a space",
+      "product_kind_label": "Space Classification",
+      "product_kind": {
+        "service": "For occupancy",
+        "stocked_good": "Stocked Goods",
+        "non_stocked_good": "Non-Stocked Goods",
+        "consumable": "Operating Supplies"
+      }
     },
     "composition": {
       "page": {

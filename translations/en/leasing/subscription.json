@@ -9,7 +9,7 @@
       "caption_inactive": "View expired, terminated, or archived leases"
     },
     "buttons": {
-      "add_subscription": "Add Lease Agreement"
+      "add_subscription": "Add Agreement"
     },
     "columns": {
       "customer": "Tenant",
@@ -39,7 +39,7 @@
       "start_date_info": "First day of the lease term. Rent cycles are counted from this date.",
       "end_date_info": "Last day of the lease term. Leave blank for open-ended.",
       "start_date_row_help": "Commencement date and time affect which rental plans are available below.",
-      "end_date_row_help": "Expiry date and time control when recurring rent invoices stop being issued.",
+      "end_date_row_help": "Suggested from commencement and the selected pricing term. You can change or clear it for the agreed lease duration. Rate-card expiry does not shorten the agreement.",
       "notes_info": "Internal remarks — shown on detail pages but not on tenant-facing documents.",
       "spawn_jobs_section_title": "Maintenance Operations",
       "spawn_jobs_toggle": "Create Initial Work Order(s)",
@@ -47,6 +47,11 @@
       "spawn_jobs_none": "No Maintenance SOP is configured for this Rental Plan. The lease will start without an initial work order.",
       "require_spawn_toggle": "Require successful work-order creation",
       "require_spawn_hint": "If work-order creation fails or produces none, the whole lease create is cancelled instead of saving without maintenance tracking.",
+      "escalation_section_title": "Rent Escalation",
+      "escalation_use_plan_default": "Use Rental Plan default",
+      "escalation_within_agreement": "During this lease",
+      "escalation_copy_notice": "Leave unchanged to copy the selected Rental Plan escalation into this lease when it is created.",
+      "escalation_record_only_notice": "This records the agreed rent escalation clause only. It does not automatically change rent invoices.",
       "plan_info_section_title": "Rental Plan Details",
       "billing_kind_recurring": "Recurring rent",
       "billing_kind_contract": "Fixed-term lease",
@@ -64,6 +69,9 @@
       "plan": "Rental Plan",
       "start_date": "Commencement Date",
       "end_date": "Expiry Date"
+      ,"section_escalation": "Rent Escalation",
+      "escalation_within_agreement": "During this lease",
+      "escalation_record_only_notice": "Recorded clause only; rent invoices are not changed automatically."
     },
     "tabs": {
       "operations": "Maintenance",

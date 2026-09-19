@@ -43,7 +43,8 @@
         "price_schedules_slug": "rate-cards",
         "attachments": "Attachments",
         "audit_history": "History",
-        "tax_registrations": "Tax Registrations"
+        "tax_registrations": "Tax Registrations",
+        "subscriptions_slug": "agreements"
       },
       "add_subscription": "Add Agreement",
       "empty_subscriptions_title": "No agreements",
