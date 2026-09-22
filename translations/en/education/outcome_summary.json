@@ -12,7 +12,7 @@
             "view_action": "View report cards",
             "download_action": "Download report cards (CSV)",
             "tabs_aria_label": "Academic years",
-            "cell_view_action": "View {category} report cards for {section}",
+            "cell_view_action": "View {category} report cards for {subscription_group}",
             "uncategorized_column": "Uncategorized",
             "approval_status": {
                 "in_progress": "In Progress",
@@ -26,7 +26,7 @@
             "title": "No report cards",
             "message": "No report cards have been generated yet."
         },
-        "section": {
+        "subscription_group": {
             "title": "Report Cards",
             "client_column": "Student",
             "download_action": "Download report card (CSV)",
@@ -34,7 +34,7 @@
             "not_computed_banner": "Year-final grades have not been computed yet.",
             "category_tabs_aria_label": "Report card categories"
         },
-        "section_export": {
+        "subscription_group_export": {
             "drawer_title": "Download Section Grades",
             "category_label": "Job Category",
             "category_placeholder": "Select a job category",
@@ -52,7 +52,7 @@
             "grouping_config_error": "Grade export grouping is not configured correctly.",
             "data_unavailable_error": "The grade export data is temporarily unavailable."
         },
-        "student": {
+        "client_card": {
             "title": "Report Card",
             "subtitle": "Grades by semester",
             "subject_column": "Subject",
@@ -97,7 +97,7 @@
             "invalid_file": "Only .docx files are accepted.",
             "upload_failed": "Failed to upload report card template."
         },
-        "section_template_settings": {
+        "subscription_group_document_template_settings": {
             "title": "Section Templates",
             "subtitle": "Manage templates used to print consolidated section grades",
             "name_column": "Template",

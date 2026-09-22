@@ -34,7 +34,15 @@
       "required_override_info": "Override whether this criterion is required for the task.",
       "sequence_order": "Sequence Order",
       "sequence_order_info": "Display order of this criterion within the task.",
-      "active": "Active"
+      "active": "Active",
+      "rating_mode": "Rating Behavior",
+      "rating_mode_info": "Choose how the grade-sheet cell should behave.",
+      "rating_mode_standard": "Standard",
+      "rating_mode_numeric_with_description": "Numeric with description",
+      "rating_scale_id": "Rating Scale",
+      "rating_scale_id_info": "Reusable numeric scale for this template binding.",
+      "rating_descriptions": "Descriptions by rating",
+      "rating_description_info": "Enter the text shown after a matching numeric rating."
     },
     "actions": {
       "delete": "Delete Link",
@@ -57,6 +65,13 @@
     "confirm": {
       "delete": "Delete Link",
       "delete_message": "Are you sure you want to delete this template task criteria link? This action cannot be undone."
+    },
+    "validation": {
+      "rating_scale_required": "A rating scale is required for numeric descriptions.",
+      "rating_dependencies_unavailable": "Rating configuration dependencies are unavailable.",
+      "numeric_criteria_required": "Numeric descriptions require a numeric outcome criterion.",
+      "rating_scale_not_found": "The selected rating scale is not active or was not found.",
+      "rating_scale_incompatible": "The selected rating scale does not cover the criterion's numeric range."
     },
     "errors": {
       "id_required": "Link ID is required",

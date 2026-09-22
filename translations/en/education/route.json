@@ -241,9 +241,9 @@
   "outcome_summary": {
     "list_url": "/report-cards",
     "list_scope_url": "/report-cards/list/{scope}",
-    "section_url": "/report-cards/section/{id}",
-    "section_export_url": "/report-cards/section/{id}/export",
-    "section_download_drawer_url": "/action/report-cards/section/{id}/download",
+    "subscription_group_url": "/report-cards/section/{id}",
+    "subscription_group_export_url": "/report-cards/section/{id}/export",
+    "subscription_group_download_drawer_url": "/action/report-cards/section/{id}/download",
     "client_url": "/report-cards/section/{id}/student/{client_id}",
     "client_document_url": "/report-cards/section/{id}/student/{client_id}/document",
     "group_detail_url": "/sections/detail/{id}",
@@ -251,10 +251,10 @@
     "template_upload_url": "/action/report-cards/templates/upload",
     "template_publish_url": "/action/report-cards/templates/publish",
     "template_delete_url": "/action/report-cards/templates/delete",
-    "section_template_settings_url": "/section-templates",
-    "section_template_upload_url": "/action/section-templates/upload",
-    "section_template_publish_url": "/action/section-templates/publish",
-    "section_template_delete_url": "/action/section-templates/delete"
+    "subscription_group_document_template_settings_url": "/section-templates",
+    "subscription_group_document_template_upload_url": "/action/section-templates/upload",
+    "subscription_group_document_template_publish_url": "/action/section-templates/publish",
+    "subscription_group_document_template_delete_url": "/action/section-templates/delete"
   },
   "plan_job_template": {}
 }

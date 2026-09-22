@@ -9,6 +9,20 @@
         "buttons": {
             "generate_summary": "Generate Summary"
         },
+        "columns": {
+            "job": "Job",
+            "determination": "Determination",
+            "score": "Score",
+            "scoring_method": "Scoring Method",
+            "total": "Total",
+            "pass": "Pass",
+            "fail": "Fail",
+            "issued_by": "Issued By"
+        },
+        "empty": {
+            "title": "No summaries",
+            "message": "No outcome summaries have been generated yet."
+        },
         "detail": {
             "overall_determination": "Overall Determination",
             "phase_determination": "Phase Determination",
@@ -37,9 +51,10 @@
             "members_column": "Members",
             "templates_column": "Items",
             "view_action": "View outcomes",
+            "download_action": "Download outcomes (CSV)",
             "tabs_aria_label": "Schedules",
             "inactive_suffix": "(inactive)",
-            "cell_view_action": "View {category} for {section}",
+            "cell_view_action": "View {category} for {subscription_group}",
             "uncategorized_column": "Uncategorized",
             "approval_status": {
                 "in_progress": "In Progress",
@@ -49,13 +64,16 @@
                 "mixed": "Attention — mixed"
             }
         },
-        "section": {
+        "subscription_group": {
             "title": "Group outcomes",
             "client_column": "Client",
             "rating_empty": "—",
+            "download_action": "Download outcomes (CSV)",
+            "detail_link": "View group",
+            "category_tabs_aria_label": "Categories",
             "not_computed_banner": "Final outcomes have not been computed yet."
         },
-        "section_export": {
+        "subscription_group_export": {
             "drawer_title": "Download Group Outcomes",
             "category_label": "Category",
             "category_placeholder": "Select a category",
@@ -73,8 +91,20 @@
             "grouping_config_error": "Outcome export grouping is not configured correctly.",
             "data_unavailable_error": "The outcome export data is temporarily unavailable."
         },
-        "student": {
-            "download_action": "Download PDF"
+        "client_card": {
+            "title": "Client outcomes",
+            "subtitle": "Outcomes by grading period",
+            "subject_column": "Item",
+            "period_1": "Period 1",
+            "period_2": "Period 2",
+            "year_column": "Overall",
+            "progress_column": "Progress",
+            "final_column": "Final",
+            "view_action": "View outcomes",
+            "download_action": "Download PDF",
+            "staff_label": "Staff:",
+            "staff_plural_label": "Staff:",
+            "uncategorized_band": "Uncategorized"
         },
         "template_settings": {
             "title": "Outcome Report Templates",
@@ -106,7 +136,7 @@
             "invalid_file": "Only .docx files are accepted.",
             "upload_failed": "Failed to upload template."
         },
-        "section_template_settings": {
+        "subscription_group_document_template_settings": {
             "title": "Group Templates",
             "subtitle": "Manage templates used to print consolidated group outcomes",
             "name_column": "Template",

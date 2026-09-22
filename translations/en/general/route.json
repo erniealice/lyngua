@@ -58,10 +58,10 @@
   "outcome_criteria": {},
   "outcome_matrix": {},
   "outcome_summary": {
-    "section_template_settings_url": "/outcomes/summaries/section-templates",
-    "section_template_upload_url": "/action/outcomes/summaries/section-templates/upload",
-    "section_template_publish_url": "/action/outcomes/summaries/section-templates/publish",
-    "section_template_delete_url": "/action/outcomes/summaries/section-templates/delete"
+    "subscription_group_document_template_settings_url": "/outcomes/summaries/subscription-group-document-templates",
+    "subscription_group_document_template_upload_url": "/action/outcomes/summaries/subscription-group-document-templates/upload",
+    "subscription_group_document_template_publish_url": "/action/outcomes/summaries/subscription-group-document-templates/publish",
+    "subscription_group_document_template_delete_url": "/action/outcomes/summaries/subscription-group-document-templates/delete"
   },
   "permission": {},
   "plan_bundle": {},

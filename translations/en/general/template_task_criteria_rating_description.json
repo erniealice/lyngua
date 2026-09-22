@@ -1,0 +1,19 @@
+{
+  "template_task_criteria_rating_description": {
+    "validation": {
+      "parent_required": "Template task criteria and scale band are required.",
+      "dependencies_unavailable": "Rating configuration dependencies are unavailable.",
+      "parent_not_found": "Template task criteria was not found.",
+      "parent_mode": "The binding is not configured for numeric descriptions.",
+      "criteria_not_found": "Outcome criteria was not found.",
+      "numeric_required": "Rating descriptions require a numeric criterion.",
+      "band_not_found": "Scale band was not found.",
+      "band_scale_mismatch": "Scale band does not belong to the binding scale.",
+      "workspace_required": "Workspace is required.",
+      "data_required": "Data is required.",
+      "description_required": "Description is required.",
+      "request_required": "Request is required.",
+      "id_required": "ID is required."
+    }
+  }
+}

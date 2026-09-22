@@ -3,8 +3,11 @@
     "page": {
       "job_caption": "Work-order property condition report"
     },
-    "section": {
+    "subscription_group": {
       "client_column": "Tenant"
+    },
+    "client_card": {
+      "title": "Tenant outcomes"
     }
   }
 }
