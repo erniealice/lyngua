@@ -36,7 +36,7 @@
         },
         "subscription_group_export": {
             "drawer_title": "Download Section Grades",
-            "category_label": "Job Category",
+            "category_label": "Grade Category",
             "category_placeholder": "Select a job category",
             "period_label": "Grading Period",
             "period_final": "Final",
