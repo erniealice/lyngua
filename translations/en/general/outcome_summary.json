@@ -1,5 +1,9 @@
 {
     "outcome_summary": {
+        "template_settings": {
+            "period_label": "Period",
+            "period_full_year": "Full year"
+        },
         "subscription_group_export": {
             "category_label": "Job Category"
         }

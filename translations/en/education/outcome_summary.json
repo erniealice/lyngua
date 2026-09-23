@@ -65,9 +65,24 @@
             "download_action": "Download report card (PDF)",
             "staff_label": "Teacher:",
             "staff_plural_label": "Teachers:",
-            "uncategorized_band": "Uncategorized"
+            "uncategorized_band": "Uncategorized",
+            "group_by": "Group by",
+            "group_none": "No grouping",
+            "group_job_category": "Job category"
+        },
+        "client_document_download": {
+            "drawer_title": "Download Report Card",
+            "period_label": "Period",
+            "period_progress_report": "Progress Report",
+            "period_year_final": "Year Final",
+            "format_label": "Format",
+            "format_docx": "DOCX",
+            "format_pdf": "PDF",
+            "download_action": "Download"
         },
         "template_settings": {
+            "period_label": "Period",
+            "period_full_year": "Full year",
             "title": "Report Card Templates",
             "subtitle": "Upload and publish the .docx template used to render report cards for each academic year",
             "name_column": "Template",
@@ -106,6 +121,7 @@
             "category_column": "Job Category",
             "profile_column": "Layout Profile",
             "profile_subscription_group_outcome_matrix_single_period_11_v1": "Academics — one grading period, 11 columns",
+            "profile_subscription_group_client_phase_outcome_report_v1": "Client phase report — repeated tables",
             "version_column": "Version",
             "status_column": "Status",
             "validity_column": "Validity",
@@ -122,7 +138,9 @@
             "plan_fallback": "All grade levels",
             "category_label": "Job Category",
             "category_fallback": "All job categories",
+            "category_whole_report": "All job categories — individual phase report",
             "category_required_for_profile": "This layout profile requires a specific job category.",
+            "category_forbidden_for_profile": "This layout profile applies to all job categories.",
             "validity_start_label": "Valid From",
             "validity_end_label": "Valid Until",
             "file_label": "Template File (.docx)",

@@ -246,6 +246,7 @@
     "subscription_group_download_drawer_url": "/action/report-cards/section/{id}/download",
     "client_url": "/report-cards/section/{id}/student/{client_id}",
     "client_document_url": "/report-cards/section/{id}/student/{client_id}/document",
+    "client_download_drawer_url": "/action/report-cards/section/{id}/student/{client_id}/download",
     "group_detail_url": "/sections/detail/{id}",
     "template_settings_url": "/report-cards/templates",
     "template_upload_url": "/action/report-cards/templates/upload",
