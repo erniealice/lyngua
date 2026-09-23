@@ -5,7 +5,15 @@
             "period_full_year": "Full year"
         },
         "subscription_group_export": {
-            "category_label": "Job Category"
+            "category_label": "Job Category",
+            "downloading_action": "Downloading…",
+            "download_notice": "Preparing your file. Please do not close this window or refresh the page until the download completes.",
+            "download_error_fallback": "The download could not be completed. Please try again."
+        },
+        "client_document_download": {
+            "downloading_action": "Downloading…",
+            "download_notice": "Preparing your file. Please do not close this window or refresh the page until the download completes.",
+            "download_error_fallback": "The download could not be completed. Please try again."
         }
     }
 }

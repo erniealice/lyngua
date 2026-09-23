@@ -44,6 +44,9 @@
             "format_csv": "CSV",
             "format_pdf": "PDF",
             "download_action": "Download",
+            "downloading_action": "Downloading…",
+            "download_notice": "Preparing the report card. Please do not close this window or refresh the page until the download completes.",
+            "download_error_fallback": "The download could not be completed. Please try again.",
             "no_template_error": "No Section Template is configured for this selection.",
             "no_profile_error": "PDF is not configured for this job category. CSV is still available.",
             "incompatible_template_error": "The Section Template does not match this grade layout.",
@@ -73,12 +76,14 @@
         "client_document_download": {
             "drawer_title": "Download Report Card",
             "period_label": "Period",
-            "period_progress_report": "Progress Report",
             "period_year_final": "Year Final",
             "format_label": "Format",
             "format_docx": "DOCX",
             "format_pdf": "PDF",
-            "download_action": "Download"
+            "download_action": "Download",
+            "downloading_action": "Downloading…",
+            "download_notice": "Preparing the report card. Please do not close this window or refresh the page until the download completes.",
+            "download_error_fallback": "The download could not be completed. Please try again."
         },
         "template_settings": {
             "period_label": "Period",
