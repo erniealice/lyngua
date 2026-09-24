@@ -89,6 +89,7 @@
             "no_template_error": "No group template is configured for this selection.",
             "no_profile_error": "PDF is not configured for this category. CSV is still available.",
             "incompatible_template_error": "The group template does not match this outcome layout.",
+            "column_capacity_error": "This template has {template_columns} columns but this selection has {data_columns}. Upload a template with more columns or a column loop.",
             "ambiguous_phase_error": "This period is configured inconsistently across items.",
             "not_computed_error": "No outcomes are available for this selection.",
             "grouping_config_error": "Outcome export grouping is not configured correctly.",

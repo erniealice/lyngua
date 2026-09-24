@@ -50,6 +50,7 @@
             "no_template_error": "No Section Template is configured for this selection.",
             "no_profile_error": "PDF is not configured for this job category. CSV is still available.",
             "incompatible_template_error": "The Section Template does not match this grade layout.",
+            "column_capacity_error": "This Section Template has {template_columns} subject columns but this section has {data_columns} subjects. Upload a template with more subject columns or a column loop.",
             "ambiguous_phase_error": "This grading period is configured inconsistently across subjects.",
             "not_computed_error": "No grades are available for this selection.",
             "grouping_config_error": "Grade export grouping is not configured correctly.",
