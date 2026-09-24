@@ -173,6 +173,7 @@
         "account": "Account & security",
         "billing": "Billing",
         "preferences": "Preferences",
+        "switch_principal": "Switch Role",
         "sign_out": "Sign out"
     },
     "funding_app_label": "Funding",
