@@ -199,6 +199,10 @@
             "invalid_manifest": "This file does not match the required group template layout.",
             "upload_failed": "Failed to upload group template.",
             "cleanup_failed": "The template operation failed and storage cleanup requires operator attention."
+        },
+        "client_document": {
+            "criterion_prefix": "",
+            "not_assessed": ""
         }
     }
 }

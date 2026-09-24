@@ -15,6 +15,7 @@
             "client_total": "{count} students",
             "breakdown_unassigned": "not assigned",
             "criterion_column": "Grading Criterion",
+            "criterion_prefix": "Objective {letter}: ",
             "score_column": "Grade",
             "save_button": "Save grades",
             "saving_button": "Saving…",

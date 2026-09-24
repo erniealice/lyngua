@@ -13,6 +13,7 @@
     "grid": {
       "client_column": "Client",
       "criterion_column": "Criterion",
+      "criterion_prefix": "",
       "score_column": "Score",
       "save_button": "Save scores",
       "saving_button": "Saving…",

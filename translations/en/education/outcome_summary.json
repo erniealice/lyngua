@@ -160,6 +160,10 @@
             "invalid_manifest": "This file does not match the required Section Template layout.",
             "upload_failed": "Failed to upload Section Template.",
             "cleanup_failed": "The Section Template operation failed and storage cleanup requires administrator attention."
+        },
+        "client_document": {
+            "criterion_prefix": "Objective {letter}: ",
+            "not_assessed": "Not yet assessed"
         }
     }
 }
