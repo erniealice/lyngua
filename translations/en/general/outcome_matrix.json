@@ -69,7 +69,8 @@
       "mixed": "Attention — mixed",
       "not_started": "Not started",
       "locked_hint": "This phase is locked — return it to edit",
-      "hard_frozen_hint": "This phase is finalized and can no longer be edited"
+      "hard_frozen_hint": "This phase is finalized and can no longer be edited",
+      "returned_reason_hint": "Returned with a note: {reason}"
     },
     "columns": {
       "button": "Columns",
