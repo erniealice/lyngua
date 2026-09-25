@@ -33,7 +33,9 @@
             "rating_column": "Rating",
             "rating_tooltip": "Computed grade — read only",
             "total_column": "Criteria Total",
-            "total_tooltip": "Criteria total — read only"
+            "total_tooltip": "Criteria total — read only",
+            "average_column": "Average",
+            "average_tooltip": "Rating average — read only"
         },
         "errors": {
             "permission_denied": "You do not have permission to perform this action"
