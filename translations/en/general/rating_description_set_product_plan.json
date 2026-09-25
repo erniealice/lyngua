@@ -1,0 +1,49 @@
+{
+  "rating_description_set_product_plan": {
+    "page": {
+      "heading": "Rating Description Links"
+    },
+    "filters": {
+      "price_schedule": "Price Schedule",
+      "status": "Status"
+    },
+    "status": {
+      "linked": "Linked",
+      "unlinked": "Unlinked",
+      "invalid": "Invalid"
+    },
+    "columns": {
+      "offering": "Offering",
+      "variant": "Variant",
+      "set": "Rating Description Set",
+      "version": "Version",
+      "status": "Status"
+    },
+    "actions": {
+      "link": "Link Set",
+      "relink": "Change Set",
+      "unlink": "Unlink"
+    },
+    "form": {
+      "offering": "Offering",
+      "set": "Rating Description Set",
+      "reason": "Reason for Change",
+      "price_schedule": "Academic Year"
+    },
+    "errors": {
+      "stale": "This link has been changed by another user",
+      "set_not_published": "Only published sets can be linked",
+      "permission_denied": "You do not have permission to perform this action",
+      "invalid_form_data": "Invalid form data. Please check your inputs and try again.",
+      "not_found": "Link not found",
+      "id_required": "Link ID is required",
+      "load_failed": "Failed to load form options. Please try again."
+    },
+    "empty": {
+      "title": "No linked offerings yet",
+      "message": "Link a published rating description set to an offering for this academic year.",
+      "no_schedule_title": "No academic year selected",
+      "no_schedule_message": "Choose an academic year to see its descriptor assignments."
+    }
+  }
+}

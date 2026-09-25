@@ -1,0 +1,24 @@
+{
+  "rating_description_set_entry": {
+    "form": {
+      "criterion": "Criterion",
+      "level": "Level",
+      "description": "Description"
+    },
+    "columns": {
+      "criterion": "Criterion",
+      "level": "Level",
+      "description": "Description"
+    },
+    "errors": {
+      "band_not_in_scale": "Level does not exist in the selected scale",
+      "duplicate": "This criterion and level combination already exists",
+      "permission_denied": "You do not have permission to perform this action",
+      "invalid_form_data": "Invalid form data. Please check your inputs and try again.",
+      "not_found": "Entry not found",
+      "id_required": "Entry ID is required",
+      "set_not_draft": "Only a Draft set's entries can be changed",
+      "load_failed": "Failed to load form options. Please try again."
+    }
+  }
+}

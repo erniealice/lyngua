@@ -1,0 +1,71 @@
+{
+  "rating_description_set": {
+    "page": {
+      "heading": "Rating Description Sets",
+      "caption": "Manage rating description definitions",
+      "heading_active": "Active Rating Description Sets",
+      "heading_deprecated": "Deprecated Rating Description Sets",
+      "heading_all": "All Rating Description Sets"
+    },
+    "buttons": {
+      "add": "Add Set"
+    },
+    "columns": {
+      "name": "Name",
+      "version": "Version",
+      "status": "Status",
+      "scale": "Scale",
+      "entries": "Entries",
+      "links": "Assigned to"
+    },
+    "status": {
+      "draft": "Draft",
+      "published": "Published",
+      "deprecated": "Deprecated"
+    },
+    "tabs": {
+      "descriptors": "Descriptors",
+      "assignments": "Assignments",
+      "versions": "Versions",
+      "info": "Information"
+    },
+    "actions": {
+      "add": "Add Set",
+      "publish": "Publish",
+      "deprecate": "Deprecate"
+    },
+    "confirm": {
+      "publish": "Publish Set",
+      "publish_message": "Published sets can't be changed. Continue?",
+      "deprecate": "Deprecate Set",
+      "deprecate_message": "Existing assignments keep working; it can't be newly assigned. Continue?"
+    },
+    "errors": {
+      "published_immutable": "Published sets cannot be edited",
+      "has_links": "Cannot delete a set that has active links",
+      "needs_entries": "Set must have at least one entry before publishing",
+      "invalid_transition": "Invalid status transition",
+      "permission_denied": "You do not have permission to perform this action",
+      "invalid_form_data": "Invalid form data. Please check your inputs and try again.",
+      "not_found": "Rating description set not found",
+      "id_required": "Rating description set ID is required",
+      "load_failed": "Failed to load form options. Please try again."
+    },
+    "form": {
+      "name": "Name",
+      "code": "Code",
+      "scale": "Scale",
+      "source_ref": "Source Reference"
+    },
+    "matrix": {
+      "level_zero_hint": "Changing a rating to 0 clears the note; staff can then write one.",
+      "add_entry": "Add entry",
+      "empty_cell": "+ Add",
+      "filled": "Filled"
+    },
+    "empty": {
+      "title": "No descriptor sets yet",
+      "message": "Create your first descriptor set to get started."
+    }
+  }
+}

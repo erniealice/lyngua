@@ -257,5 +257,12 @@
     "subscription_group_document_template_publish_url": "/action/section-templates/publish",
     "subscription_group_document_template_delete_url": "/action/section-templates/delete"
   },
+  "rating_description_set": {
+    "list_url": "/academics/rubric-descriptors/list/{status}",
+    "detail_url": "/academics/rubric-descriptors/detail/{id}"
+  },
+  "rating_description_set_product_plan": {
+    "list_url": "/academics/rubric-descriptor-assignments/list/{status}"
+  },
   "plan_job_template": {}
 }

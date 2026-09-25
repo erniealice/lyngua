@@ -36,7 +36,13 @@
       "average_tooltip": "Computed average — read only"
     },
     "errors": {
-      "permission_denied": "You do not have permission to perform this action"
+      "permission_denied": "You do not have permission to perform this action",
+      "rating_description_unresolved_identity": "This rating was not saved: the student's subject or level could not be identified.",
+      "rating_description_ambiguous": "This rating was not saved: the rubric descriptors for this subject are misconfigured.",
+      "rating_description_invalid_config": "This rating was not saved: the rubric descriptors for this subject are misconfigured.",
+      "rating_description_resolution_failed": "This rating was not saved: the rubric descriptors could not be checked. Please try again.",
+      "rating_description_placeholder_unresolved": "A description needs information that is missing for this record — contact an administrator.",
+      "cell_changed_retry": "This rating was not saved: another change was made while you were editing. Please refresh and try again."
     },
     "approval": {
       "bar": {

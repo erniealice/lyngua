@@ -1,0 +1,13 @@
+{
+  "rating_description_set_product_plan": {
+    "page": {
+      "heading": "Descriptor Assignments"
+    },
+    "filters": {
+      "price_schedule": "Academic Year"
+    },
+    "columns": {
+      "offering": "Subject · Level"
+    }
+  }
+}
