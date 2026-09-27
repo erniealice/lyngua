@@ -38,6 +38,7 @@
             "average_tooltip": "Rating average — read only"
         },
         "errors": {
+            "rating_description_unresolved_identity": "This rating was not saved: the student's subject or level could not be identified.",
             "permission_denied": "You do not have permission to perform this action"
         },
         "approval": {

@@ -1,5 +1,12 @@
 {
     "outcome_summary": {
+        "page": {
+            "job_caption": "Job-level outcome report card",
+            "phase_caption": "Phase-level outcome report card"
+        },
+        "document": {
+            "download_filename": "report-card.pdf"
+        },
         "errors": {
             "render_gate": "This report card cannot be generated yet — its grades are still being reviewed and have not been published. Please try again after the grading period is published."
         },

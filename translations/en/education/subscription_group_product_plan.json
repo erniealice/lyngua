@@ -7,6 +7,7 @@
     "columns": {
       "product_plan_id": "Subject",
       "job_template_id": "Curriculum",
+      "assignments_count": "Teachers",
       "assignments": "Teachers"
     },
     "buttons": {
@@ -27,6 +28,8 @@
       "offering": "Subject",
       "mode_all": "All semesters",
       "mode_per": "Per semester",
+      "role_primary": "Teacher of record",
+      "role_secondary": "Co-teacher",
       "staff": "Teacher",
       "phase": "Semester",
       "all_phases": "All semesters"
@@ -42,6 +45,7 @@
     "detail": {
       "offering": "Subject",
       "template": "Curriculum",
+      "assignments_count": "Teachers",
       "assignments": "Teachers",
       "title": "Class"
     },
@@ -51,6 +55,8 @@
       "pool_empty": "No eligible teacher — set eligibility first"
     },
     "confirm": {
+      "remove_blocked_in_use": "This class has active teachers or a live grade sheet and cannot be removed.",
+      "remove_assign_message": "Remove this teacher from {{offering}}?",
       "remove_message": "Remove this subject from the section?",
       "remove_title": "Remove Subject",
       "exclude_message": "Exclude {{offering}} from {{section}}?",

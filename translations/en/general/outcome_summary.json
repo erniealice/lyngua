@@ -1,5 +1,8 @@
 {
     "outcome_summary": {
+        "document": {
+            "download_filename": "outcome-summary.pdf"
+        },
         "template_settings": {
             "period_label": "Period",
             "period_full_year": "Full year"

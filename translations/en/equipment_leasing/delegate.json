@@ -2,7 +2,7 @@
   "delegate": {
     "list": {
       "columns": {
-        "students": "Lessees"
+        "clients": "Lessees"
       }
     }
   }
