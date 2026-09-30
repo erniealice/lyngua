@@ -1,0 +1,7 @@
+{
+  "revenue_payment": {
+    "errors": {
+      "legacy_payment_refused_participating": "This invoice is settled through applications. Use Receive and apply instead."
+    }
+  }
+}

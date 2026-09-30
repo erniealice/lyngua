@@ -23,6 +23,7 @@
   "forex_rate": {},
   "payroll": {},
   "tax_rate": {},
+  "charge_policy": {},
   "withholding_certificate": {},
   "activity_expense": {},
   "activity_labor": {},
@@ -145,5 +146,12 @@
   "revenue": {},
   "subscription": {},
   "supplier": {},
-  "treasury_collection": {}
+  "treasury_collection": {},
+  "cost_source_component": {},
+  "allocation_batch": {},
+  "billable_charge": {},
+  "recovery_document": {},
+  "document_series": {},
+  "recovery_reports": {},
+  "collection_application": {}
 }

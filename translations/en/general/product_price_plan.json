@@ -5,7 +5,8 @@
       "price": "Price",
       "billing_treatment": "Treatment",
       "billing_amount_min": "Rate Min",
-      "billing_amount_max": "Rate Max"
+      "billing_amount_max": "Rate Max",
+      "charge_policy": "Charge policy"
     },
     "validation": {
       "product_plan_id_required": "A catalog line from the plan must be selected."
@@ -13,7 +14,13 @@
     "errors": {
       "product_plan_validation_failed": "Could not validate the selected catalog line.",
       "product_plan_not_found": "Selected catalog line not found.",
-      "product_plan_plan_mismatch": "Selected catalog line does not belong to this plan."
+      "product_plan_plan_mismatch": "Selected catalog line does not belong to this plan.",
+      "charge_policy_not_usage_based": "A charge policy can only be set when the billing treatment is \"On use\". Choose \"On use\" or remove the charge policy.",
+      "charge_policy_billing_kind": "A charge policy can only be set on a recurring or contract rate card, and not on a total-package rate card.",
+      "charge_policy_unavailable": "That charge policy is not active or has no approved version. Choose another charge policy.",
+      "charge_policy_not_found": "That charge policy could not be found. Choose another charge policy.",
+      "charge_policy_markup_not_allowed": "Markup is not allowed here. Charges are recovered at cost only.",
+      "charge_policy_unverifiable": "The charge policy could not be verified right now. Try again later."
     },
     "form": {
       "billing_treatment_label": "Billing treatment",
@@ -53,6 +60,11 @@
       "billing_amount_max_placeholder": "0.00",
       "billing_amount_max_info": "Advertised maximum rate for this line. A seat's contracted amount must fall within [floor, ceiling] when both are set.",
       "section_rate_band": "Rate Band",
+      "section_charge_policy": "Charge policy",
+      "charge_policy_none": "None",
+      "charge_policy_unavailable": "Unavailable charge policy",
+      "markup_label": "Markup (%)",
+      "markup_blocked_hint": "Markup is not allowed for this service",
       "parent_context": {
         "more_details": "More details",
         "rate_card": "Price Schedule",

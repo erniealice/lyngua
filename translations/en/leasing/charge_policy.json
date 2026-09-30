@@ -1,0 +1,27 @@
+{
+  "charge_policy": {
+    "page": {
+      "subtitle": "How rent, utility and recharge lines are accounted for and billed to tenants"
+    },
+    "enums": {
+      "accounting_role_principal": "Lessor's own charge",
+      "accounting_role_agent": "Passed through for the tenant",
+      "document_kind_recovery_document": "Statement of reimbursable charges"
+    },
+    "errors": {
+      "validation": "The charge policy request is invalid",
+      "not_found": "Charge policy record not found",
+      "not_draft": "Only a draft version can be changed",
+      "draft_exists": "The policy already has a draft version",
+      "no_approved_version": "The policy has no approved version",
+      "retired": "The charge policy is retired",
+      "self_approval": "A draft you prepared or edited needs the approve-own permission to approve",
+      "checklist_failed": "The approval checklist has failed items",
+      "unsupported_combination": "This classification is not supported yet",
+      "in_use": "The charge policy was approved or is referenced and cannot be deleted",
+      "transaction_required": "A database transaction is required for this operation",
+      "tax_treatment_not_found": "The tax treatment does not exist",
+      "unverifiable": "The request cannot be verified because a dependency is not wired"
+    }
+  }
+}

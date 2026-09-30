@@ -68,8 +68,8 @@
       "customer": "Tenant",
       "plan": "Rental Plan",
       "start_date": "Commencement Date",
-      "end_date": "Expiry Date"
-      ,"section_escalation": "Rent Escalation",
+      "end_date": "Expiry Date",
+      "section_escalation": "Rent Escalation",
       "escalation_within_agreement": "During this lease",
       "escalation_record_only_notice": "Recorded clause only; rent invoices are not changed automatically."
     },
@@ -138,7 +138,8 @@
       "currency_mismatch_error": "Tenant billing currency ({{.ClientCurrency}}) does not match the rate card ({{.PlanCurrency}}). Update one before generating revenue."
     },
     "errors": {
-      "plan_client_mismatch": "This package belongs to a different tenant and cannot be attached here."
+      "plan_client_mismatch": "This package belongs to a different tenant and cannot be attached here.",
+      "transaction_required": "A transaction is required to create the charge terms of this lease."
     }
   }
 }

@@ -12,7 +12,8 @@
       "dashboard": "Collections Dashboard"
     },
     "buttons": {
-      "add_collection": "Add Collection"
+      "add_collection": "Add Collection",
+      "receive_apply": "Receive and apply"
     },
     "columns": {
       "reference": "Reference",
@@ -98,7 +99,8 @@
       "not_found": "Collection not found",
       "id_required": "Collection ID is required",
       "no_ids_provided": "No collection IDs provided",
-      "invalid_status": "Invalid status"
+      "invalid_status": "Invalid status",
+      "receipt_has_applications": "This payment has been applied. Reverse its applications first."
     },
     "dashboard": {
       "title": "Cash",

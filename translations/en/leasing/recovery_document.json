@@ -1,0 +1,39 @@
+{
+  "recovery_document": {
+    "page": {
+      "title": "Statements of reimbursable charges",
+      "subtitle": "Statements issued to tenants to recover pass-through costs",
+      "title_issued": "Issued statements",
+      "title_void": "Void statements"
+    },
+    "enums": {
+      "type_statement": "Statement of reimbursable charges",
+      "type_credit_note": "Credit memo"
+    },
+    "columns": {
+      "client": "Tenant",
+      "subscription": "Lease"
+    },
+    "tabs": {
+      "credit_notes": "Credit memos"
+    },
+    "buttons": {
+      "apply_payment": "Receive tenant payment",
+      "view_credit_note": "View credit memo"
+    },
+    "empty": {
+      "issued_title": "No issued statements",
+      "issued_message": "Issue statements from the billable charges list.",
+      "void_title": "No void statements",
+      "credit_notes_title": "No credit memos"
+    },
+    "confirm": {
+      "void_title": "Void this statement?",
+      "void_msg": "The statement stays on record and its charges are cancelled. This cannot be undone."
+    },
+    "detail": {
+      "corrects_document": "Credits {0}",
+      "void_notice": "This statement is void. It stays on record."
+    }
+  }
+}

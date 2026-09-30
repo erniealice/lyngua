@@ -1,0 +1,89 @@
+{
+  "cost_source_component": {
+    "page": {
+      "title": "Recoverable costs",
+      "subtitle": "Cost lines from this bill that can be recovered from customers",
+      "title_unclaimed": "Unclaimed costs",
+      "title_claimed": "Claimed costs"
+    },
+    "tabs": {
+      "recoverable_costs": "Recoverable costs",
+      "info": "Info",
+      "allocation": "Allocation"
+    },
+    "columns": {
+      "component_kind": "Type",
+      "description": "Description",
+      "basis": "Quantity",
+      "amount": "Amount",
+      "tax_fact": "Tax",
+      "service_period": "Service period",
+      "claim": "Claimed by",
+      "allocated": "Allocated",
+      "unallocated": "Not allocated"
+    },
+    "buttons": {
+      "add": "Add cost line",
+      "edit": "Edit",
+      "delete": "Delete",
+      "allocate": "Allocate",
+      "view_allocation": "View allocation"
+    },
+    "form": {
+      "component_kind_label": "Type",
+      "component_kind_placeholder": "Select a type",
+      "description_label": "Description",
+      "description_placeholder": "e.g. Common-area electricity",
+      "basis_unit_label": "Unit",
+      "basis_unit_placeholder": "e.g. kWh",
+      "basis_quantity_label": "Quantity",
+      "amount_label": "Amount",
+      "tax_treatment_label": "Tax treatment",
+      "tax_treatment_placeholder": "Select a tax treatment",
+      "tax_fact_label": "Tax on the bill",
+      "service_from_label": "Service from",
+      "service_to_label": "Service to",
+      "expenditure_line_label": "Bill line",
+      "expenditure_line_placeholder": "Whole bill"
+    },
+    "enums": {
+      "component_kind_energy": "Energy",
+      "component_kind_water": "Water",
+      "component_kind_service_fee": "Service fee",
+      "component_kind_other": "Other",
+      "tax_fact_vatable": "Taxable",
+      "tax_fact_exempt": "Exempt",
+      "tax_fact_zero_rated": "Zero-rated",
+      "tax_fact_not_applicable": "Not applicable",
+      "claim_kind_allocation": "Allocation",
+      "claim_kind_recognition": "Expense recognition",
+      "claim_none": "Not claimed"
+    },
+    "detail": {
+      "total_components": "Cost lines total",
+      "total_bill": "Bill total",
+      "difference": "Difference",
+      "claimed_notice": "Claimed cost lines cannot be changed.",
+      "service_period": "{0} to {1}"
+    },
+    "confirm": {
+      "delete_title": "Delete this cost line?",
+      "delete_msg": "This removes the cost line from the bill. It cannot be undone."
+    },
+    "empty": {
+      "title": "No recoverable costs",
+      "message": "Add the parts of this bill you plan to recover."
+    },
+    "errors": {
+      "not_found": "Cost line not found.",
+      "validation": "The cost component is not valid.",
+      "claimed": "This cost component is already claimed by an allocation or a recognition and can no longer be changed.",
+      "transaction_required": "This action needs a database transaction, which is not available.",
+      "reference_invalid": "A referenced expenditure, line item or tax treatment was not found in this workspace.",
+      "lock_unavailable": "This action needs row locking, which the storage provider does not support.",
+      "generic": "Something went wrong. Please try again.",
+      "unavailable": "This action is not available right now.",
+      "form_invalid": "Please check the form and try again."
+    }
+  }
+}

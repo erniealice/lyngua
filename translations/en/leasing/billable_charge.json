@@ -1,0 +1,26 @@
+{
+  "billable_charge": {
+    "page": {
+      "subtitle": "Reimbursable charges ready to be billed to tenants"
+    },
+    "columns": {
+      "client": "Tenant",
+      "subscription": "Lease"
+    },
+    "buttons": {
+      "issue": "Issue statements",
+      "adjust": "Adjust (credit memo)"
+    },
+    "enums": {
+      "charge_kind_correction": "Credit adjustment"
+    },
+    "empty": {
+      "open_message": "Publish a cost allocation to create tenant charges."
+    },
+    "confirm": {
+      "issue_title": "Issue statements for the selected charges?",
+      "issue_msg": "One statement is created for each tenant and lease. Issued charges cannot be edited.",
+      "adjust_msg": "The original stays unchanged. A credit memo is issued for the reduction."
+    }
+  }
+}

@@ -119,8 +119,8 @@
       "end_date": "End Date",
       "status": "Status",
       "created_date": "Created",
-      "modified_date": "Last Modified"
-      ,"section_escalation": "Price Escalation",
+      "modified_date": "Last Modified",
+      "section_escalation": "Price Escalation",
       "escalation_mode": "Escalation",
       "escalation_scope": "Applies",
       "escalation_rate": "Increase",
@@ -141,7 +141,8 @@
       "attachments": "Attachments",
       "audit_trail": "Audit Trail",
       "audit_history": "History",
-      "jobs": "Jobs"
+      "jobs": "Jobs",
+      "charge_terms": "Charge terms"
     },
     "operations": {
       "title": "Operational Jobs",
@@ -405,7 +406,9 @@
       "no_permission": "No permission",
       "cannot_delete": "Cannot delete — this engagement has dependent records",
       "in_use": "Cannot delete — this engagement has dependent records (jobs, revenue, invoices, etc.)",
-      "plan_client_mismatch": "This package belongs to a different client and cannot be attached here."
+      "plan_client_mismatch": "This package belongs to a different client and cannot be attached here.",
+      "charge_policy_unverifiable": "The charge policies of this package cannot be verified.",
+      "transaction_required": "A transaction is required to create the charge terms of this subscription."
     }
   }
 }

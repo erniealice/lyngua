@@ -1,0 +1,80 @@
+{
+  "document_series": {
+    "page": {
+      "title": "Document series",
+      "subtitle": "Numbering for the documents you issue",
+      "title_active": "Active series",
+      "title_retired": "Retired series"
+    },
+    "tabs": {
+      "active": "Active",
+      "retired": "Retired",
+      "info": "Info"
+    },
+    "columns": {
+      "code": "Code",
+      "name": "Name",
+      "issuer": "Issuer",
+      "document_kind": "Document",
+      "prefix": "Prefix",
+      "next_number": "Next number",
+      "fiscal_reset": "Restarts",
+      "status": "Status",
+      "branch": "Branch",
+      "tax_id": "Tax ID"
+    },
+    "buttons": {
+      "add": "Add series",
+      "edit": "Edit",
+      "retire": "Retire"
+    },
+    "form": {
+      "code_label": "Code",
+      "code_placeholder": "e.g. SOA-2026",
+      "name_label": "Name",
+      "name_placeholder": "e.g. Statements 2026",
+      "issuer_name_label": "Issuer name",
+      "issuer_tax_id_label": "Issuer tax ID",
+      "document_kind_label": "Document",
+      "document_kind_placeholder": "Select a document",
+      "prefix_label": "Prefix",
+      "prefix_placeholder": "e.g. SOA-",
+      "branch_code_label": "Branch code",
+      "fiscal_reset_label": "Restart numbering",
+      "next_number_label": "Next number",
+      "number_padding_label": "Number length"
+    },
+    "enums": {
+      "status_active": "Active",
+      "status_retired": "Retired",
+      "fiscal_reset_none": "Never",
+      "fiscal_reset_yearly": "Every year",
+      "document_kind_invoice": "Invoice",
+      "document_kind_recovery_document": "Recovery document"
+    },
+    "detail": {
+      "next_preview": "Next document: {0}",
+      "locked_notice": "Numbers already issued cannot be changed."
+    },
+    "confirm": {
+      "retire_title": "Retire this series?",
+      "retire_msg": "No new documents can be issued from it. Existing documents are unaffected."
+    },
+    "empty": {
+      "active_title": "No active series",
+      "active_message": "Add a series before issuing documents.",
+      "retired_title": "Nothing retired"
+    },
+    "errors": {
+      "not_found": "Series not found.",
+      "validation": "The document series is not valid.",
+      "code_taken": "That code is already used.",
+      "retired": "This document series is retired.",
+      "numbering_locked": "The prefix and number padding cannot change once numbers have been issued.",
+      "transaction_required": "This action needs a database transaction, which is not available.",
+      "form_invalid": "Check the form and try again.",
+      "unavailable": "Document series is not available.",
+      "generic": "Something went wrong. Please try again."
+    }
+  }
+}

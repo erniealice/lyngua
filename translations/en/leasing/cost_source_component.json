@@ -1,0 +1,14 @@
+{
+  "cost_source_component": {
+    "page": {
+      "subtitle": "Utility and service costs from this bill that can be charged back to tenants"
+    },
+    "empty": {
+      "message": "Add the parts of this bill you plan to charge back to tenants."
+    },
+    "enums": {
+      "claim_kind_recognition": "Booked as lessor expense",
+      "claim_kind_allocation": "Charged back to tenants"
+    }
+  }
+}

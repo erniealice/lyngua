@@ -51,5 +51,7 @@
   "services_app_label": "Catalog",
   "products_title": "Spaces",
   "clients_title": "Directory",
-  "suppliers_title": "Directory"
+  "suppliers_title": "Directory",
+  "recovery_documents_label": "Tenant Statements",
+  "billable_charges_label": "Tenant Charges"
 }

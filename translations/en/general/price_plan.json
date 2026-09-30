@@ -217,7 +217,9 @@
       "client_scope_mismatch": "Price plan client must match its parent plan's client.",
       "schedule_client_mismatch": "Selected schedule belongs to a different client and cannot be attached to this price plan.",
       "schedule_required_for_client_scope": "This package is scoped to a client. Pick or create a rate card for that client before adding a price plan.",
-      "multi_subscription_confirm_required": "Confirmation required — N > 1 attached subscriptions and monetary fields changing."
+      "multi_subscription_confirm_required": "Confirmation required — N > 1 attached subscriptions and monetary fields changing.",
+      "charge_policy_billing_kind": "A charge policy can only be set on a recurring or contract rate card, and not on a total-package one. Remove the charge policy from the package lines first.",
+      "charge_policy_unverifiable": "The charge policy could not be verified right now. Try again later."
     }
   }
 }

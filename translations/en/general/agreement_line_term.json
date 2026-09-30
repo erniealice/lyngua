@@ -1,0 +1,39 @@
+{
+  "agreement_line_term": {
+    "tabs": {
+      "charge_terms": "Charge terms"
+    },
+    "page": {
+      "title": "Charge terms",
+      "subtitle": "The charge policy version each priced line was signed with"
+    },
+    "columns": {
+      "line": "Line",
+      "policy": "Charge policy",
+      "version": "Version",
+      "markup": "Markup",
+      "effective_from": "From",
+      "effective_to": "To",
+      "origin": "Origin",
+      "accepted_on": "Accepted on",
+      "accepted_by": "Accepted by"
+    },
+    "buttons": {},
+    "form": {},
+    "enums": {
+      "origin_copied": "Copied from the price plan",
+      "origin_negotiated": "Negotiated"
+    },
+    "detail": {
+      "open_ended": "Open-ended",
+      "version_label": "v{0}",
+      "pinned_notice": "Each term is pinned to the policy version in force when the agreement started.",
+      "load_failed": "Charge terms could not be loaded. Try again."
+    },
+    "confirm": {},
+    "empty": {
+      "title": "No charge terms",
+      "message": "This agreement has no lines with a charge policy."
+    }
+  }
+}

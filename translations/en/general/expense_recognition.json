@@ -230,7 +230,10 @@
       "list_failed": "Failed to retrieve recognitions",
       "authorization_failed": "Authorization failed for recognitions",
       "reverse_failed": "Recognition reversal failed",
-      "idempotency_collision": "A recognition for this source and period already exists"
+      "idempotency_collision": "A recognition for this source and period already exists",
+      "source_claimed_by_allocation": "This expenditure's cost is already allocated to customers and cannot be recognized as an expense.",
+      "transaction_required": "Recognizing an expenditure with recoverable cost components needs a database transaction.",
+      "lock_unavailable": "Recognizing an expenditure with recoverable cost components needs row locking, which the storage provider does not support."
     }
   }
 }

@@ -1,0 +1,24 @@
+{
+  "collection_application": {
+    "page": {
+      "subtitle": "Record a tenant payment and apply it to rent and reimbursable charges"
+    },
+    "form": {
+      "client_label": "Tenant",
+      "client_placeholder": "Select a tenant"
+    },
+    "buttons": {
+      "receive_apply": "Receive tenant payment"
+    },
+    "enums": {
+      "target_kind_revenue": "Rent invoice",
+      "target_kind_recovery_document": "Statement of reimbursable charges"
+    },
+    "detail": {
+      "unapplied": "Unapplied credit"
+    },
+    "empty": {
+      "open_items_title": "Nothing is open for this tenant"
+    }
+  }
+}

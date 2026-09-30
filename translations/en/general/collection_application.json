@@ -1,0 +1,80 @@
+{
+  "collection_application": {
+    "page": {
+      "title": "Receive and apply",
+      "subtitle": "Record a payment and apply it to what the customer owes"
+    },
+    "tabs": {
+      "applications": "Applications"
+    },
+    "columns": {
+      "target": "Applied to",
+      "target_kind": "Type",
+      "document_number": "Number",
+      "due_date": "Due date",
+      "open_balance": "Open balance",
+      "applied": "Applied",
+      "amount": "Amount",
+      "applied_on": "Applied on",
+      "applied_by": "Applied by",
+      "status": "Status",
+      "kind": "Application",
+      "certificate": "Certificate"
+    },
+    "buttons": {
+      "receive_apply": "Receive and apply",
+      "apply": "Apply",
+      "reverse": "Reverse",
+      "preview": "Preview"
+    },
+    "form": {
+      "client_label": "Customer",
+      "client_placeholder": "Select a customer",
+      "amount_label": "Amount received",
+      "date_label": "Payment date",
+      "method_label": "Method",
+      "method_placeholder": "Select a method",
+      "reference_label": "Reference",
+      "reference_placeholder": "e.g. cheque or transfer number",
+      "currency_label": "Currency",
+      "preview_title": "How this payment will be applied",
+      "reverse_reason_label": "Reason"
+    },
+    "enums": {
+      "status_applied": "Applied",
+      "status_reversed": "Reversed",
+      "target_kind_revenue": "Invoice",
+      "target_kind_recovery_document": "Recovery document",
+      "application_kind_cash": "Cash",
+      "application_kind_non_cash_settlement": "Withholding certificate"
+    },
+    "detail": {
+      "unapplied": "Unapplied credit",
+      "order_note": "Applied to the oldest due date first. On the same date, invoices before recovery documents.",
+      "total_applied": "Total applied",
+      "open_items": "Open items",
+      "reversal_of": "Reverses {0}"
+    },
+    "confirm": {
+      "apply_title": "Receive and apply this payment?",
+      "apply_msg": "The payment is recorded and applied as shown in the preview.",
+      "reverse_title": "Reverse this application?",
+      "reverse_msg": "The amount returns to the customer's open balance. The original stays on record."
+    },
+    "empty": {
+      "open_items_title": "Nothing is open for this customer",
+      "open_items_message": "The full amount will be kept as unapplied credit.",
+      "applications_title": "No applications yet"
+    },
+    "errors": {
+      "currency_mismatch": "The currencies do not match.",
+      "not_found": "Application not found.",
+      "amount_invalid": "Enter an amount above zero.",
+      "client_required": "Select a customer.",
+      "already_reversed": "This application is already reversed.",
+      "missing_posting": "The charge policy has no account mapping for this step.",
+      "transaction_required": "This action needs a database transaction, which is not available.",
+      "date_invalid": "Enter the payment date as YYYY-MM-DD."
+    }
+  }
+}

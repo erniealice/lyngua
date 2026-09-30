@@ -1,0 +1,14 @@
+{
+  "recovery_report": {
+    "recoverables_aging": {
+      "page_description": "Unpaid statements of reimbursable charges, by how long they are past due",
+      "empty_message": "No unpaid statements as of this date.",
+      "filter_client": "Tenant",
+      "filter_client_hint": "Leave blank for all tenants",
+      "chip_client": "Tenant:"
+    },
+    "shared": {
+      "client": "Tenant"
+    }
+  }
+}

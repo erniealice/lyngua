@@ -347,6 +347,9 @@
       "new_expense": "New expense",
       "col_category": "Category",
       "col_total": "Total"
+    },
+    "tabs": {
+      "recoverable_costs": "Recoverable costs"
     }
   }
 }

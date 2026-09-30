@@ -1,0 +1,104 @@
+{
+  "allocation_batch": {
+    "page": {
+      "title": "Cost allocation",
+      "subtitle": "Split a cost line across the agreements that share it",
+      "title_draft": "Draft allocation",
+      "title_published": "Published allocation",
+      "title_superseded": "Superseded allocations"
+    },
+    "tabs": {
+      "shares": "Shares",
+      "history": "Revisions",
+      "charges": "Charges"
+    },
+    "columns": {
+      "revision": "Revision",
+      "status": "Status",
+      "share_kind": "Share",
+      "subscription": "Agreement",
+      "client": "Customer",
+      "numerator": "Weight",
+      "denominator": "Total weight",
+      "percentage": "Share of total",
+      "amount": "Amount",
+      "rule": "Rule",
+      "published_on": "Published on",
+      "published_by": "Published by",
+      "prepared_by": "Prepared by",
+      "total": "Total"
+    },
+    "buttons": {
+      "allocate": "Allocate cost",
+      "add_share": "Add share",
+      "remove_share": "Remove",
+      "preview": "Preview",
+      "save_draft": "Save draft",
+      "publish": "Publish",
+      "revise": "Revise allocation",
+      "view_charges": "View charges"
+    },
+    "form": {
+      "share_kind_label": "Share",
+      "subscription_label": "Agreement",
+      "subscription_placeholder": "Select an agreement",
+      "numerator_label": "Weight",
+      "numerator_placeholder": "e.g. 250",
+      "denominator_label": "Total weight",
+      "rule_label": "Split rule",
+      "preview_title": "Preview",
+      "own_use_row_label": "Own use",
+      "vacancy_row_label": "Vacancy",
+      "common_loss_row_label": "Common-area loss"
+    },
+    "enums": {
+      "status_draft": "Draft",
+      "status_published": "Published",
+      "status_superseded": "Superseded",
+      "share_kind_recoverable": "Recoverable",
+      "share_kind_own_use": "Own use",
+      "share_kind_vacancy": "Vacancy",
+      "share_kind_common_loss": "Common-area loss",
+      "rule_largest_remainder": "Proportional (largest remainder)"
+    },
+    "detail": {
+      "total_allocated": "Total allocated",
+      "source_amount": "Cost line amount",
+      "remainder_note": "Rounding remainders go to the largest fractions so the shares add up exactly.",
+      "charges_created": "{0} charges created",
+      "revision_label": "Revision {0}"
+    },
+    "confirm": {
+      "publish_title": "Publish this allocation?",
+      "publish_msg": "Charges will be created for each recoverable share. A published allocation can only be replaced by a new revision.",
+      "revise_title": "Start a new revision?",
+      "revise_msg": "The published allocation stays on record until the new revision is published."
+    },
+    "empty": {
+      "draft_title": "No draft allocation",
+      "shares_title": "No shares yet",
+      "shares_message": "Add the agreements that share this cost."
+    },
+    "errors": {
+      "source_claimed_by_recognition": "This cost is already recognised as an expense.",
+      "source_claimed_by_allocation": "This cost is already allocated.",
+      "term_boundary_crossed": "The service period crosses a change in the agreement's charge terms.",
+      "already_published": "Already published.",
+      "not_draft": "Only drafts can be changed.",
+      "not_found": "Allocation not found.",
+      "shares_total_mismatch": "The shares do not add up to the cost line amount.",
+      "denominator_invalid": "Total weight must be above zero.",
+      "no_recoverable_share": "Add at least one recoverable share.",
+      "validation": "The allocation is not valid.",
+      "service_period_invalid": "The cost component has no valid service period.",
+      "policy_component_invalid": "The charge policy version must have exactly one complete component.",
+      "transaction_required": "This action needs a database transaction, which is not available.",
+      "lock_unavailable": "This action needs row locking, which the storage provider does not support.",
+      "agreement_term_missing": "The agreement has no charge term for this customer.",
+      "overlap": "Charge terms of one line cannot overlap.",
+      "generic": "Something went wrong. Please try again.",
+      "unavailable": "This action is not available right now.",
+      "form_invalid": "Please check the form and try again."
+    }
+  }
+}

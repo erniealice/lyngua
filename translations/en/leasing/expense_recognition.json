@@ -1,0 +1,7 @@
+{
+  "expense_recognition": {
+    "errors": {
+      "source_claimed_by_allocation": "This expenditure's cost is already allocated to tenants and cannot be recognized as an expense."
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "document_series": {
+    "enums": {
+      "document_kind_recovery_document": "Statement of reimbursable charges"
+    },
+    "page": {
+      "subtitle": "Numbering for the statements and credit memos you issue to tenants"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "charge_effect": {
+    "errors": {
+      "missing_posting": "The charge policy has no account mapping for this step.",
+      "validation": "The charge effect is not valid."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "product_price_plan": {
+    "errors": {
+      "charge_policy_not_usage_based": "A charge policy can only be set when the billing treatment is \"On use\". Choose \"On use\" or remove the charge policy from this package line.",
+      "charge_policy_billing_kind": "A charge policy can only be set on a recurring or contract lease package, and not on a total-package one.",
+      "charge_policy_unavailable": "That charge policy is not active or has no approved version, so it cannot be used to bill tenants. Choose another one.",
+      "charge_policy_not_found": "That charge policy could not be found. Choose another one.",
+      "charge_policy_markup_not_allowed": "Markup is not allowed. Utility and recharge lines are billed to tenants at cost only.",
+      "charge_policy_unverifiable": "The charge policy could not be verified right now. Try again later."
+    }
+  }
+}

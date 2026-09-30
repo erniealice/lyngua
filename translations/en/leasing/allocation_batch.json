@@ -1,0 +1,26 @@
+{
+  "allocation_batch": {
+    "page": {
+      "subtitle": "Split a utility cost between the tenants who share it"
+    },
+    "enums": {
+      "share_kind_recoverable": "Tenant share",
+      "share_kind_own_use": "Lessor's own use",
+      "share_kind_vacancy": "Vacant space",
+      "share_kind_common_loss": "Common-area loss"
+    },
+    "form": {
+      "subscription_label": "Lease",
+      "subscription_placeholder": "Select a lease",
+      "own_use_row_label": "Lessor's own use",
+      "vacancy_row_label": "Vacant space"
+    },
+    "columns": {
+      "subscription": "Lease",
+      "client": "Tenant"
+    },
+    "errors": {
+      "agreement_term_missing": "The lease has no charge term for this tenant."
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "recovery_report": {
+    "recoverables_aging": {
+      "page_title": "Recoverables Aging",
+      "page_description": "Issued recovery documents that are still unpaid, by how long they are past due",
+      "bucket_0_to_30": "0-30 days",
+      "bucket_31_to_60": "31-60 days",
+      "bucket_61_to_90": "61-90 days",
+      "bucket_over_90": "Over 90 days",
+      "total_outstanding": "Outstanding",
+      "document_count": "Documents",
+      "empty_title": "Nothing outstanding",
+      "empty_message": "No unpaid recovery documents as of this date.",
+      "export_filename": "recoverables-aging.csv",
+      "filter_as_of_date": "As of date",
+      "filter_client": "Client",
+      "filter_client_hint": "Leave blank for all clients",
+      "chip_as_of": "As of:",
+      "chip_client": "Client:"
+    },
+    "reconciliation": {
+      "page_title": "Cost Reconciliation",
+      "page_description": "For each recoverable cost: the amount, how it was split, and what was charged",
+      "component": "Cost component",
+      "amount": "Amount",
+      "shares_total": "Split total",
+      "recoverable_total": "Recoverable",
+      "share_variance": "Split difference",
+      "charges_open": "Charged (open)",
+      "charges_issued": "Charged (issued)",
+      "charges_cancelled": "Charged (cancelled)",
+      "charge_variance": "Charge difference",
+      "corrections": "Corrections",
+      "issued_net": "Issued, net",
+      "status": "Status",
+      "status_reconciled": "Reconciled",
+      "status_mismatch": "Mismatch",
+      "status_no_batch": "Not allocated",
+      "prompt_title": "Choose an expenditure",
+      "prompt_message": "Enter an expenditure to reconcile its recoverable costs.",
+      "empty_title": "No recoverable costs",
+      "empty_message": "This expenditure has no recoverable cost components.",
+      "export_filename": "cost-reconciliation.csv",
+      "filter_expenditure": "Expenditure",
+      "filter_expenditure_hint": "The expenditure whose costs are reconciled",
+      "chip_expenditure": "Expenditure:"
+    },
+    "shared": {
+      "filters": "Filters",
+      "apply": "Apply",
+      "clear": "Clear",
+      "total": "Total",
+      "client": "Client",
+      "currency": "Currency",
+      "unavailable": "This report is not available.",
+      "invalid_filter": "Check the filters and try again."
+    }
+  }
+}

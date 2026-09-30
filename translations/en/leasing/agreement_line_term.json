@@ -1,0 +1,13 @@
+{
+  "agreement_line_term": {
+    "page": {
+      "subtitle": "The charge policy version each lease line was signed with"
+    },
+    "empty": {
+      "message": "This lease has no lines with a charge policy."
+    },
+    "detail": {
+      "pinned_notice": "Each term is pinned to the policy version in force when the lease started."
+    }
+  }
+}

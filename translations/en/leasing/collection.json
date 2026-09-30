@@ -12,7 +12,8 @@
       "dashboard": "Rent Collections Dashboard"
     },
     "buttons": {
-      "add_collection": "Record Rent Payment"
+      "add_collection": "Record Rent Payment",
+      "receive_apply": "Receive tenant payment"
     },
     "columns": {
       "customer": "Tenant"

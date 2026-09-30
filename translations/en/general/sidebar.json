@@ -134,6 +134,8 @@
     "lapsing_schedule_icon": "icon-calendar",
     "depreciation_policies_label": "Depreciation Policies",
     "depreciation_policies_icon": "icon-settings",
+    "charge_policies_label": "Charge Policies",
+    "charge_policies_icon": "icon-shield-check",
     "depreciation_runs_label": "Depreciation Runs",
     "depreciation_runs_icon": "icon-trending-down",
     "supplier_subscriptions_title": "Supplier Subscriptions",
@@ -221,5 +223,15 @@
         "portal_label": "Messages",
         "staff_label": "Conversations",
         "icon": "chat"
-    }
+    },
+    "billable_charges_label": "Billable Charges",
+    "billable_charges_icon": "icon-file-text",
+    "recovery_documents_label": "Recovery Documents",
+    "recovery_documents_icon": "icon-file-text",
+    "document_series_label": "Document Series",
+    "document_series_icon": "icon-hash",
+    "recoverables_aging_label": "Recoverables Aging",
+    "recoverables_aging_icon": "icon-clock",
+    "cost_source_reconciliation_label": "Cost Reconciliation",
+    "cost_source_reconciliation_icon": "icon-check-circle"
 }

@@ -1,0 +1,90 @@
+{
+  "recovery_document": {
+    "page": {
+      "title": "Recovery documents",
+      "subtitle": "Documents issued to recover costs from customers",
+      "title_issued": "Issued documents",
+      "title_void": "Void documents"
+    },
+    "tabs": {
+      "issued": "Issued",
+      "void": "Void",
+      "info": "Info",
+      "lines": "Lines",
+      "applications": "Payments applied",
+      "credit_notes": "Credit notes"
+    },
+    "columns": {
+      "document_number": "Number",
+      "document_type": "Type",
+      "client": "Customer",
+      "subscription": "Agreement",
+      "issue_date": "Issue date",
+      "due_date": "Due date",
+      "total": "Total",
+      "paid": "Applied",
+      "balance": "Balance",
+      "status": "Status",
+      "description": "Description",
+      "service_period": "Service period",
+      "amount": "Amount",
+      "corrects": "Corrects",
+      "issued_by": "Issued by",
+      "void_reason": "Void reason"
+    },
+    "buttons": {
+      "void": "Void",
+      "print": "Print",
+      "view_charge": "View charge",
+      "apply_payment": "Receive and apply",
+      "view_credit_note": "View credit note"
+    },
+    "form": {
+      "void_reason_label": "Reason",
+      "void_reason_placeholder": "Why is this document void?"
+    },
+    "enums": {
+      "status_issued": "Issued",
+      "status_void": "Void",
+      "type_statement": "Statement",
+      "type_credit_note": "Credit note"
+    },
+    "detail": {
+      "issued_on": "Issued on {0}",
+      "due_on": "Due on {0}",
+      "corrects_document": "Corrects {0}",
+      "void_notice": "This document is void. It stays on record.",
+      "balance_due": "Balance due",
+      "credit_balance": "Credit balance"
+    },
+    "confirm": {
+      "void_title": "Void this document?",
+      "void_msg": "The document stays on record and its charges are cancelled. This cannot be undone."
+    },
+    "empty": {
+      "issued_title": "No issued documents",
+      "issued_message": "Issue documents from the billable charges list.",
+      "void_title": "No void documents",
+      "applications_title": "No payments applied yet",
+      "credit_notes_title": "No credit notes"
+    },
+    "errors": {
+      "has_applications": "Payments have been applied. Reverse them first.",
+      "missing_posting": "The charge policy has no account mapping for this step.",
+      "series_retired": "This document series is retired.",
+      "not_found": "Document not found.",
+      "already_void": "This document is already void.",
+      "void_reason_required": "Enter a reason.",
+      "nothing_selected": "Select at least one charge.",
+      "not_open": "Only open charges can be issued.",
+      "not_issued": "The document being corrected is not issued.",
+      "currency_mismatch": "The currencies do not match.",
+      "series_kind_mismatch": "This document series does not issue this kind of document.",
+      "component_kind_mismatch": "A charge on this document cannot be issued on this kind of document.",
+      "issuance_conflict": "These charges were already issued with different content.",
+      "has_credit_notes": "Credit notes correct this document. Void them first.",
+      "validation": "The document is not valid.",
+      "transaction_required": "This action needs a database transaction, which is not available."
+    }
+  }
+}

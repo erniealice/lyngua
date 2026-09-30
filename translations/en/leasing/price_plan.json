@@ -85,7 +85,8 @@
       "client_scope_mismatch": "Rent plan tenant must match its parent rental plan's tenant.",
       "schedule_client_mismatch": "Selected rate card belongs to a different tenant and cannot be attached to this rent plan.",
       "schedule_required_for_client_scope": "This rental plan is scoped to a tenant. Pick or create a rate card before adding a rent plan.",
-      "multi_subscription_confirm_required": "Confirmation required — N > 1 attached leases and monetary fields changing."
+      "multi_subscription_confirm_required": "Confirmation required — N > 1 attached leases and monetary fields changing.",
+      "charge_policy_billing_kind": "A charge policy can only be set on a recurring or contract rent plan, and not on a total-package one. Remove the charge policy from its lines first."
     }
   }
 }

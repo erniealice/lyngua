@@ -1,0 +1,87 @@
+{
+  "billable_charge": {
+    "page": {
+      "title": "Billable charges",
+      "subtitle": "Charges ready to be put on a document",
+      "title_open": "Open charges",
+      "title_issued": "Issued charges",
+      "title_cancelled": "Cancelled charges"
+    },
+    "tabs": {
+      "open": "Open",
+      "issued": "Issued",
+      "cancelled": "Cancelled",
+      "info": "Info",
+      "components": "Components",
+      "history": "History"
+    },
+    "columns": {
+      "select": "Select",
+      "client": "Customer",
+      "subscription": "Agreement",
+      "charge_kind": "Kind",
+      "service_period": "Service period",
+      "amount": "Amount",
+      "status": "Status",
+      "document": "Document",
+      "source": "Source",
+      "obligation_key": "Reference",
+      "accounting_date": "Accounting date",
+      "reason": "Reason",
+      "component": "Component",
+      "presentation": "Presentation",
+      "tax_position": "Tax position"
+    },
+    "buttons": {
+      "issue": "Issue recovery documents",
+      "adjust": "Adjust",
+      "view_source": "View source cost",
+      "cancel": "Cancel charge"
+    },
+    "form": {
+      "series_label": "Document series",
+      "series_placeholder": "Select a series",
+      "issue_date_label": "Issue date",
+      "due_date_label": "Due date",
+      "new_amount_label": "New amount",
+      "reason_label": "Reason",
+      "reason_placeholder": "Why is the charge being lowered?",
+      "issue_summary": "{0} charges for {1} customers"
+    },
+    "enums": {
+      "status_open": "Open",
+      "status_issued": "Issued",
+      "status_cancelled": "Cancelled",
+      "charge_kind_original": "Original",
+      "charge_kind_correction": "Correction"
+    },
+    "detail": {
+      "original_amount": "Original amount",
+      "corrections": "Corrections",
+      "current_amount": "Current amount",
+      "predecessor": "Corrects {0}",
+      "issue_result": "{0} documents issued"
+    },
+    "confirm": {
+      "issue_title": "Issue documents for the selected charges?",
+      "issue_msg": "One document is created for each customer and agreement. Issued charges cannot be edited.",
+      "adjust_title": "Adjust this charge?",
+      "adjust_msg": "The original stays unchanged. A credit document is issued for the reduction."
+    },
+    "empty": {
+      "open_title": "No open charges",
+      "open_message": "Publish a cost allocation to create charges.",
+      "issued_title": "No issued charges",
+      "cancelled_title": "No cancelled charges"
+    },
+    "errors": {
+      "obligation_conflict": "This charge already exists with different details.",
+      "adjust_not_downward": "The new amount must be lower than the current amount.",
+      "not_found": "Charge not found.",
+      "not_issued": "Only issued charges can be adjusted.",
+      "validation": "The charge is not valid.",
+      "transaction_required": "This action needs a database transaction, which is not available.",
+      "lock_unavailable": "This action needs row locking, which the storage provider does not support."
+    }
+  }
+}
