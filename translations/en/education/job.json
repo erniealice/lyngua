@@ -28,7 +28,8 @@
       "group": "Section",
       "deliverer": "Teacher",
       "items": "Students",
-      "schedule": "Academic Year"
+      "schedule": "Academic Year",
+      "phase_status": "Term Status"
     },
     "detail": {
       "origin_subscription_link": "Spawned from Enrollment"

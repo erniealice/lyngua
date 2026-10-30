@@ -27,7 +27,8 @@
       "client": "Client",
       "status": "Status",
       "created": "Created",
-      "location": "Location"
+      "location": "Location",
+      "phase_status": "Phase Status"
     },
     "empty": {
       "title": "No jobs found",
@@ -180,6 +181,17 @@
       "select_all": "Select all",
       "selected_count": "{count} selected",
       "cancel": "Cancel"
+    },
+    "approval": {
+      "status": {
+        "in_progress": "In Progress",
+        "for_review": "For Review",
+        "verified": "Verified",
+        "published": "Published"
+      },
+      "not_started": "Not started",
+      "mixed": "Attention — mixed",
+      "phase_badge": "{phase}: {status}"
     }
   }
 }
