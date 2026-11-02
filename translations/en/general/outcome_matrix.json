@@ -43,7 +43,9 @@
       "rating_description_invalid_config": "This rating was not saved: the rubric descriptors for this subject are misconfigured.",
       "rating_description_resolution_failed": "This rating was not saved: the rubric descriptors could not be checked. Please try again.",
       "rating_description_placeholder_unresolved": "A description needs information that is missing for this record — contact an administrator.",
-      "cell_changed_retry": "This rating was not saved: another change was made while you were editing. Please refresh and try again."
+      "cell_changed_retry": "This rating was not saved: another change was made while you were editing. Please refresh and try again.",
+      "descriptor_not_available": "That wording is not available for this cell any more. Reopen and try again.",
+      "descriptor_choose_wording": "Choose a wording first, then click Use this wording."
     },
     "approval": {
       "bar": {
@@ -107,6 +109,13 @@
     },
     "narrative": {
       "title": "Narrative",
+      "descriptor_list_label": "Choose wording for this rating",
+      "descriptor_list_hint": "Replaces the narrative below. The rating does not change.",
+      "use_descriptor_button": "Use this wording",
+      "descriptor_option": "Option {label}",
+      "descriptor_option_default": "Option {label} (default)",
+      "descriptor_pick_hint": "Click Use this wording to apply your choice, or edit the narrative below to save your own text.",
+      "descriptor_keep_note": "Keep my note",
       "field_label": "Narrative",
       "placeholder": "Add a narrative for this cell…",
       "save_button": "Save narrative",
