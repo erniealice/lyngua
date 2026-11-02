@@ -28,6 +28,7 @@
       "rating_stale": "Rating not yet recomputed",
       "unsaved_warn": "You have unsaved changes",
       "retry_button": "Retry unsaved",
+      "retry_nothing": "Nothing to retry. Rejected values were put back, so enter a valid one.",
       "rating_column": "Rating",
       "rating_tooltip": "Computed rating — read only",
       "total_column": "Total",
