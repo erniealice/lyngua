@@ -440,7 +440,10 @@
     "confirm_action": "Download"
   },
   "dialog": {
-    "confirm_title": "Confirm Action"
+    "confirm_title": "Confirm Action",
+    "session_expired_title": "Your session has expired",
+    "session_expired_body": "Sign in again to keep working. Entries that were not saved are kept on this page and will be saved after you sign in.",
+    "session_expired_sign_in": "Sign in"
   },
   "a11y": {
     "skip_to_content": "Skip to main content",
