@@ -69,7 +69,16 @@
                 "return": "Return this period to the teacher? Grade editing reopens."
             },
             "errors": {
-                "action_failed": "This grading period could not be updated — it may be locked, finalized, or you may lack permission."
+                "action_failed": "This grading period could not be updated — it may be locked, finalized, or you may lack permission.",
+                "already_for_review": "These grades were already submitted for review. The page has been refreshed.",
+                "already_verified": "These grades were already verified. The page has been refreshed.",
+                "already_published": "These grades were already published. The page has been refreshed.",
+                "already_in_progress": "These grades are already back with the teacher for editing (returned, or not yet submitted). The page has been refreshed.",
+                "state_changed": "The status of these grades changed while you were working. The page has been refreshed.",
+                "frozen": "This grading period is finalized and can no longer be changed.",
+                "not_allowed": "You can't do this for these grades — you are not the teacher or a reviewer for every student on this sheet.",
+                "use_staff_login": "Approvals and returns are made from your Teacher login. Switch to your Teacher login and try again.",
+                "self_verify": "You submitted these grades, so another reviewer must verify them."
             },
             "mixed": "Attention — mixed",
             "not_started": "Not started",

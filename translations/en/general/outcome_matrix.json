@@ -76,7 +76,16 @@
         "return": "Return this phase to In Progress? Editing reopens."
       },
       "errors": {
-        "action_failed": "This phase could not be updated — it may be locked, finalized, or you may lack permission."
+        "action_failed": "This phase could not be updated — it may be locked, finalized, or you may lack permission.",
+        "already_for_review": "This phase was already submitted for review. The page has been refreshed.",
+        "already_verified": "This phase was already verified. The page has been refreshed.",
+        "already_published": "This phase was already published. The page has been refreshed.",
+        "already_in_progress": "This phase is already open for editing (it was returned or not yet submitted). The page has been refreshed.",
+        "state_changed": "This phase's status changed while you were working. The page has been refreshed.",
+        "frozen": "This phase is finalized and can no longer be changed.",
+        "not_allowed": "You can't make this change on this phase. Ask an administrator if you need access.",
+        "use_staff_login": "Approvals are made from your staff login. Switch login and try again.",
+        "self_verify": "You submitted this phase, so someone else must verify it."
       },
       "mixed": "Attention — mixed",
       "not_started": "Not started",

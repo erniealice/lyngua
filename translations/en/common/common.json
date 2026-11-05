@@ -403,6 +403,7 @@
     "invalid_target_status": "Invalid target status",
     "id_required": "ID is required",
     "no_ids_provided": "No IDs provided",
+    "connection_problem": "Connection problem — we couldn't confirm whether this went through. Reload the page to see the current status.",
     "validation": {
       "required": "This field is required",
       "empty_id": "ID cannot be empty",
